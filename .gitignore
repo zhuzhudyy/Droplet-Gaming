@@ -1,29 +1,47 @@
-# Unity generated folders
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
+# DropletPrototype Unity rules. Paths with / are local to this project.
+# Keep Assets and their .meta files, Packages, ProjectSettings, docs and source art.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Tt]est[Rr]esults/
 
-# Visual Studio / VS Code generated files
-.vs/
-.vscode/
-*.csproj
-*.sln
-*.slnx
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
+# Generated IDE files; preserve the existing shared .vscode configuration.
+/.vs/
+/.idea/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/sysinfo.txt
+/crashlytics-build.properties
 
-# Unity generated metadata and crash reports
-sysinfo.txt
-*.stacktrace
-crashlytics-build.properties
-
-# OS files
+# Local OS files and Blender backup copies; retain original .blend sources.
 .DS_Store
 Thumbs.db
+Desktop.ini
+/ArtSource/Blender/**/*.blend[0-9]*
+
+# Local consolidation backups, including the initial repository and machine logs.
+/docs/ProjectCleanup-20260913/
+
+# Local historical snapshots and raw captures, not project dependencies.
+/docs/verification/**/BaselineBackup/
+/docs/verification/**/Baseline/
+/docs/verification/**/*.raw
+/docs/verification/**/*.log
+/ArtSource/Deliveries/
+*.log

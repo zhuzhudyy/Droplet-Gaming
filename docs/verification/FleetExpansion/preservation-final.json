@@ -1,0 +1,20 @@
+{
+  "baselineFiles": 809,
+  "unchangedFiles": 807,
+  "expectedChanged": [
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "before": "0bb3018420437cbaac31b613a3d1d4c20268c01318e440b335e88169ece13b43",
+      "after": "38125ae327fd4233918a9decd32d4962f450b4c4343fd99a3dda7841d7b26ae6"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "before": "d81c50660f1ff794d8494902701fff16ae6992182c1f787a87e02066b0c141f5",
+      "after": "a3e23925dccf36800ddaaa6a0023b09024fa59c91702a85be37aefe12f7ae699"
+    }
+  ],
+  "unexpectedChanged": [],
+  "missingFiles": [],
+  "passed": true,
+  "scope": "Baseline 809 files; STATUS and ENVIRONMENT gain this batch entry. Historical TestRange issue remains as documented."
+}

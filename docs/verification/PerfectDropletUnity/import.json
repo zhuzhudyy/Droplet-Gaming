@@ -1,0 +1,47 @@
+{
+    "unity": "6000.5.10f1",
+    "fbxHash": "d5984085aa89ccb2a939d7fe9c237343e120f6aa08e955e763c1a910205a2445",
+    "guid": "8b834345e7841234b986fef7253efa86",
+    "meshName": "PerfectDroplet_Game_Export",
+    "calibration": "PASS: existing 1m cube and asymmetric +Z/+Y/+X marker positions; read-only check.",
+    "hierarchy": "PerfectDroplet_Game pos=(0.00, 0.00, 0.00) rot=(0.00, 0.00, 0.00) scale=(1.00, 1.00, 1.00)",
+    "oldVisual": "VisualRoot pos=(0.00, 0.00, 0.00) scale=(1.00, 1.00, 1.00) components=Transform\nDroplet pos=(0.00, 0.00, 0.00) scale=(1.00, 1.00, 1.00) components=Transform\nVisualMesh pos=(0.00, 0.00, 0.00) scale=(1.00, 1.00, 1.00) components=Transform,MeshFilter,MeshRenderer",
+    "meshes": 1,
+    "vertices": 2983,
+    "triangles": 5632,
+    "badNormals": 0,
+    "inwardTriangles": 0,
+    "zeroArea": 0,
+    "dimensions": {
+        "x": 0.774193525314331,
+        "y": 0.774193525314331,
+        "z": 2.4000000953674318
+    },
+    "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "localDimensions": {
+        "x": 0.774193525314331,
+        "y": 0.774193525314331,
+        "z": 2.4000000953674318
+    },
+    "localScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+    },
+    "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "positiveEndRadius": 0.011881775222718716,
+    "negativeEndRadius": 0.12221313267946243,
+    "seamNormalMaxDegrees": 0.0,
+    "normalsImported": true,
+    "noColliders": true,
+    "noAnimation": true,
+    "bakeAxisConversion": true
+}

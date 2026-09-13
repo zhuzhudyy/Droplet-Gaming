@@ -1,0 +1,14 @@
+{
+    "name": "DropletPrototype.Runtime",
+    "rootNamespace": "DropletPrototype",
+    "references": ["Unity.InputSystem", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime", "Unity.Timeline", "Unity.TextMeshPro", "Unity.ugui"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

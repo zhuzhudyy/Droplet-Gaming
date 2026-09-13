@@ -1,0 +1,140 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "blender_build_hash": "9e2066aef7ef",
+  "origin": "Original procedural authoring for DropletPrototype; no external assets.",
+  "axes": "Blender +Y forward / +Z up; Unity +Z forward / +Y up",
+  "layout_export": "Tiny mesh pose proxies; authored sources remain Empties.",
+  "models": {
+    "Droplet": {
+      "triangles": 5280,
+      "blender_dimensions": [
+        1.2000000476837158,
+        2.4000000953674316,
+        1.2000000476837158
+      ],
+      "expected_unity_dimensions": [
+        1.2000000476837158,
+        1.2000000476837158,
+        2.4000000953674316
+      ],
+      "mesh_count": 1,
+      "exported_mesh_count": 1
+    },
+    "Frigate": {
+      "triangles": 2040,
+      "blender_dimensions": [
+        9.0,
+        22.140000343322754,
+        4.45598292350769
+      ],
+      "expected_unity_dimensions": [
+        9.0,
+        4.45598292350769,
+        22.140000343322754
+      ],
+      "mesh_count": 16,
+      "exported_mesh_count": 1
+    },
+    "Cruiser": {
+      "triangles": 2964,
+      "blender_dimensions": [
+        18.700000762939453,
+        33.27499961853027,
+        8.009999990463257
+      ],
+      "expected_unity_dimensions": [
+        18.700000762939453,
+        8.009999990463257,
+        33.27499961853027
+      ],
+      "mesh_count": 25,
+      "exported_mesh_count": 1
+    },
+    "Command": {
+      "triangles": 3792,
+      "blender_dimensions": [
+        22.39273166656494,
+        37.27499961853027,
+        10.850000143051147
+      ],
+      "expected_unity_dimensions": [
+        22.39273166656494,
+        10.850000143051147,
+        37.27499961853027
+      ],
+      "mesh_count": 32,
+      "exported_mesh_count": 1
+    },
+    "FrigateWreck": {
+      "triangles": 2760,
+      "blender_dimensions": [
+        9.0,
+        22.140000343322754,
+        4.439237713813782
+      ],
+      "expected_unity_dimensions": [
+        9.0,
+        4.439237713813782,
+        22.140000343322754
+      ],
+      "mesh_count": 6,
+      "exported_mesh_count": 6
+    },
+    "CruiserWreck": {
+      "triangles": 3904,
+      "blender_dimensions": [
+        18.700000762939453,
+        33.27499961853027,
+        8.010000228881836
+      ],
+      "expected_unity_dimensions": [
+        18.700000762939453,
+        8.010000228881836,
+        33.27499961853027
+      ],
+      "mesh_count": 6,
+      "exported_mesh_count": 6
+    },
+    "CommandWreck": {
+      "triangles": 5248,
+      "blender_dimensions": [
+        22.39273166656494,
+        37.27499961853027,
+        10.850000381469727
+      ],
+      "expected_unity_dimensions": [
+        22.39273166656494,
+        10.850000381469727,
+        37.27499961853027
+      ],
+      "mesh_count": 6,
+      "exported_mesh_count": 6
+    }
+  },
+  "marker_count": 40,
+  "ship_types": {
+    "Small": 29,
+    "Large": 10,
+    "Command": 1
+  },
+  "export_options": {
+    "use_selection": true,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "use_space_transform": true,
+    "bake_space_transform": true,
+    "mesh_smooth_type": "FACE",
+    "use_mesh_modifiers": true,
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "AUTO",
+    "use_custom_props": true
+  }
+}

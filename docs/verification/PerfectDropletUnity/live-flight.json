@@ -1,0 +1,24 @@
+{
+    "passed": true,
+    "error": "",
+    "scope": "New saved droplet test scene; synthetic Input System events, real FixedUpdate, no teleports along the five-ship flight. Physical keyboard feel is not evaluated.",
+    "destroyed": 5,
+    "score": 1500,
+    "poolBefore": 57,
+    "poolAfter": 57,
+    "elapsed": 4.8599958419799809,
+    "distance": 528.4376831054688,
+    "maxSpeed": 156.0,
+    "pause": true,
+    "brake": true,
+    "turn": true,
+    "restart": true,
+    "newVisualPresent": true,
+    "hitIds": [
+        "SPAWN_Small_FF001",
+        "SPAWN_Small_FF002",
+        "SPAWN_Small_FF003",
+        "SPAWN_Small_FF004",
+        "SPAWN_Small_FF005"
+    ]
+}

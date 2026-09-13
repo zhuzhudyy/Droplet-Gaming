@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\r\n  \"status\": \"completed\",\r\n  \"duration\": 3.81,\r\n  \"summary\": {\r\n    \"total\": 3,\r\n    \"passed\": 3,\r\n    \"failed\": 0,\r\n    \"skipped\": 0,\r\n    \"inconclusive\": 0\r\n  },\r\n  \"results\": [\r\n    {\r\n      \"FullName\": \"DropletPrototype.Tests.PlayMode.DropletRebuiltPlayTests.FiveContinuousShipHitsPauseAndRestartPreserveRebuiltSurface\",\r\n      \"Status\": \"Passed\",\r\n      \"Duration\": 1.3866932,\r\n      \"Message\": null,\r\n      \"StackTrace\": null\r\n    },\r\n    {\r\n      \"FullName\": \"DropletPrototype.Tests.PlayMode.DropletRebuiltPlayTests.HeadTailAlignWithMeasuredStraightFlightAfterTurnsAndReload\",\r\n      \"Status\": \"Passed\",\r\n      \"Duration\": 1.5366837,\r\n      \"Message\": null,\r\n      \"StackTrace\": null\r\n    },\r\n    {\r\n      \"FullName\": \"DropletPrototype.Tests.PlayMode.DropletRebuiltPlayTests.SweptFullFleetVictoryAndThreeRestartsRetainMeshAndPool\",\r\n      \"Status\": \"Passed\",\r\n      \"Duration\": 0.8216228,\r\n      \"Message\": null,\r\n      \"StackTrace\": null\r\n    }\r\n  ]\r\n}"
+    }
+  ]
+}

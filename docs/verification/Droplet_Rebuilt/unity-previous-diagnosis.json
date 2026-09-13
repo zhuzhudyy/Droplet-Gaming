@@ -1,0 +1,10 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_PerfectDroplet_Test.unity",
+    "mesh": "Assets/_Project/Art/Models/PerfectDroplet/PerfectDroplet_Game.fbx",
+    "hierarchy": "PlayerRoot p=(0.00, 8.00, 0.00) r=(0.00, 0.00, 0.00) s=(1.00, 1.00, 1.00) components=Transform,DropletMotor,DropletInput,DropletHitDetector,DropletTrail\nVisualRoot p=(0.00, 0.00, 0.00) r=(0.00, 0.00, 0.00) s=(1.00, 1.00, 1.00) components=Transform\nDroplet p=(0.00, 0.00, 0.00) r=(0.00, 0.00, 0.00) s=(1.00, 1.00, 1.00) components=Transform\nVisualMesh p=(0.00, 0.00, 0.00) r=(0.00, 0.00, 0.00) s=(1.00, 1.00, 1.00) components=Transform,MeshFilter,MeshRenderer",
+    "renderers": 1,
+    "animations": 0,
+    "positiveRadius": 0.011882195249199868,
+    "negativeRadius": 0.12221353501081467,
+    "hitRadius": 0.699999988079071
+}

@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 4.26,
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.LightingUpgradeTests.CelestialPhysicalAnglesAndDisplayMultipliersRemainSeparateAtThreeViews",
+      "Status": "Passed",
+      "Duration": 0.3436755,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.LightingUpgradeTests.EveryEngineCoreHasDepthAndUsesNativeLodAndSharedResources",
+      "Status": "Passed",
+      "Duration": 0.0172104,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.LightingUpgradeTests.FleetMaterialsAreSharedSupportedAndDropletIsSmoothMetal",
+      "Status": "Passed",
+      "Duration": 2.7405529,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.LightingUpgradeTests.SavedLightingScenePreservesAllTargetsGameplayScaleAndMissionContract",
+      "Status": "Passed",
+      "Duration": 0.9327782,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.LightingUpgradeTests.SavedSolarKeyAndBoundedReflectionCaptureExcludePlayer",
+      "Status": "Passed",
+      "Duration": 0.1785934,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

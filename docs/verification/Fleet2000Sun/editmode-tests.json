@@ -1,0 +1,48 @@
+﻿{
+  "status": "completed",
+  "duration": 0.45,
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.Fleet2000AssetTests.ExistingModelAndNewSceneRemainSeparate",
+      "Status": "Passed",
+      "Duration": 0.0756266,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.Fleet2000AssetTests.LayoutHasExactly2000EqualScaleUniquePoses",
+      "Status": "Passed",
+      "Duration": 0.0188144,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.Fleet2000SunTests.DisableAndReenableRestoreBothSolarScaleAndChromeWithoutErasingExplosionResponse",
+      "Status": "Passed",
+      "Duration": 0.0123776,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.Fleet2000SunTests.OpticalSampleStaysInFrontOfOpaqueSunAndOcclusionRadiusTracksItsWorldDistance",
+      "Status": "Passed",
+      "Duration": 0.0049121,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.Fleet2000SunTests.ThreeViewsKeepMacroLayoutEarthAndSolarDirectionWhileUsingIndependentAngularSize",
+      "Status": "Passed",
+      "Duration": 0.0033774,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

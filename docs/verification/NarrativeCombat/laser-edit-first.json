@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 0.44,
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.ActualRebuiltDropletSurfaceHasRoundFrontAndRejectsOversizedCombatSphereMiss",
+      "Status": "Passed",
+      "Duration": 0.0941959,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.BarycentricNormalAndWorldDistanceSurviveNonuniformTransform",
+      "Status": "Passed",
+      "Duration": 0.0024622,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.ReflectionUsesNormalizedWorldNormalAndObeysEqualAngles",
+      "Status": "Passed",
+      "Duration": 0.0005942,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.SurfaceAuthorityIgnoresInterpolatedVisualPose",
+      "Status": "Passed",
+      "Duration": 0.0012122,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

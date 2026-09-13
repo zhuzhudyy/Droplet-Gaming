@@ -1,0 +1,2362 @@
+{
+  "Droplet": {
+    "unity_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "unity_size": [
+      1.2000000476837158,
+      1.2000000476837158,
+      2.4000000953674316
+    ],
+    "meshes": [
+      {
+        "name": "SeamlessDroplet",
+        "unity_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "unity_size": [
+          1.2000000476837158,
+          1.2000000476837158,
+          2.4000000953674316
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.3925370977792657,
+        "material_slots": [
+          "DropletMetal"
+        ]
+      }
+    ]
+  },
+  "Frigate": {
+    "unity_center": [
+      0.0,
+      0.5279914140701294,
+      -0.07000017166137695
+    ],
+    "unity_size": [
+      9.0,
+      4.45598292350769,
+      22.140000343322754
+    ],
+    "meshes": [
+      {
+        "name": "Keel",
+        "unity_center": [
+          0.0,
+          -0.15000003576278687,
+          0.5
+        ],
+        "unity_size": [
+          4.199999809265137,
+          3.100000023841858,
+          21.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 152.87531108240304,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "DorsalArmor",
+        "unity_center": [
+          0.0,
+          1.3794873356819153,
+          1.0
+        ],
+        "unity_size": [
+          3.3980002403259277,
+          1.4410251379013062,
+          12.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 32.295373509988316,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "WaistSpar",
+        "unity_center": [
+          0.0,
+          -0.2499999850988388,
+          -3.3000000715255737
+        ],
+        "unity_size": [
+          8.699999809265137,
+          0.7999999821186066,
+          2.000000238418579
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          -0.25,
+          -3.299999952316284
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 13.729761401818585,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "PortDrive",
+        "unity_center": [
+          -3.450000047683716,
+          -0.12275159358978271,
+          -4.100000023841858
+        ],
+        "unity_size": [
+          2.0999999046325684,
+          2.5455031394958496,
+          13.799999952316284
+        ],
+        "unity_piece_pivot": [
+          -3.450000047683716,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 52.75568530734237,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "DriveInset",
+        "unity_center": [
+          -3.450000047683716,
+          1.1200000047683716,
+          -4.0
+        ],
+        "unity_size": [
+          1.1500000953674316,
+          0.12999987602233887,
+          4.199999809265137
+        ],
+        "unity_piece_pivot": [
+          -3.450000047683716,
+          1.1200000047683716,
+          -4.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6253493050892933,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "IonDrive",
+        "unity_center": [
+          -3.450000047683716,
+          -0.10000002384185791,
+          -11.050000190734863
+        ],
+        "unity_size": [
+          1.401806354522705,
+          1.4018064737319946,
+          0.18000030517578125
+        ],
+        "unity_piece_pivot": [
+          -3.450000047683716,
+          -0.10000000149011612,
+          -11.050000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.262887333438303,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "NavigationStrip",
+        "unity_center": [
+          -1.7799999713897705,
+          1.6699999570846558,
+          0.2999999523162842
+        ],
+        "unity_size": [
+          0.07999992370605469,
+          0.1099998950958252,
+          3.5999999046325684
+        ],
+        "unity_piece_pivot": [
+          -1.7799999713897705,
+          1.6699999570846558,
+          0.30000001192092896
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.03068831071503166,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "Stabilizer",
+        "unity_center": [
+          -3.5,
+          1.6500000059604645,
+          -6.300000190734863
+        ],
+        "unity_size": [
+          0.5446467399597168,
+          2.2119657397270203,
+          2.5
+        ],
+        "unity_piece_pivot": [
+          -3.5,
+          1.649999976158142,
+          -6.300000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.2404332308338226,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "StarboardDrive",
+        "unity_center": [
+          3.450000047683716,
+          -0.12275159358978271,
+          -4.100000023841858
+        ],
+        "unity_size": [
+          2.0999999046325684,
+          2.5455031394958496,
+          13.799999952316284
+        ],
+        "unity_piece_pivot": [
+          3.450000047683716,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 52.75568530734237,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "DriveInset.001",
+        "unity_center": [
+          3.450000047683716,
+          1.1200000047683716,
+          -4.0
+        ],
+        "unity_size": [
+          1.1500000953674316,
+          0.12999987602233887,
+          4.199999809265137
+        ],
+        "unity_piece_pivot": [
+          3.450000047683716,
+          1.1200000047683716,
+          -4.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6253493050892933,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "IonDrive.001",
+        "unity_center": [
+          3.450000047683716,
+          -0.10000002384185791,
+          -11.050000190734863
+        ],
+        "unity_size": [
+          1.401806354522705,
+          1.4018064737319946,
+          0.18000030517578125
+        ],
+        "unity_piece_pivot": [
+          3.450000047683716,
+          -0.10000000149011612,
+          -11.050000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.262887333438303,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "NavigationStrip.001",
+        "unity_center": [
+          1.7799999713897705,
+          1.6699999570846558,
+          0.2999999523162842
+        ],
+        "unity_size": [
+          0.07999992370605469,
+          0.1099998950958252,
+          3.5999999046325684
+        ],
+        "unity_piece_pivot": [
+          1.7799999713897705,
+          1.6699999570846558,
+          0.30000001192092896
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.03068831071503166,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "Stabilizer.001",
+        "unity_center": [
+          3.5,
+          1.6500000059604645,
+          -6.300000190734863
+        ],
+        "unity_size": [
+          0.5446467399597168,
+          2.2119657397270203,
+          2.5
+        ],
+        "unity_piece_pivot": [
+          3.5,
+          1.649999976158142,
+          -6.300000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.2404332308338226,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "SpinePanel",
+        "unity_center": [
+          0.0,
+          2.119999885559082,
+          -3.0999999046325684
+        ],
+        "unity_size": [
+          1.0,
+          0.11999988555908203,
+          1.4000000953674316
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          2.119999885559082,
+          -3.0999999046325684
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.1654018370294773,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "SpinePanel.001",
+        "unity_center": [
+          0.0,
+          2.119999885559082,
+          -0.5999999940395355
+        ],
+        "unity_size": [
+          1.0,
+          0.11999988555908203,
+          1.3999999165534973
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          2.119999885559082,
+          -0.6000000238418579
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.1654018370294773,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "SpinePanel.002",
+        "unity_center": [
+          0.0,
+          2.119999885559082,
+          1.899999976158142
+        ],
+        "unity_size": [
+          1.0,
+          0.11999988555908203,
+          1.3999998569488525
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          2.119999885559082,
+          1.899999976158142
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.1654018370294773,
+        "material_slots": [
+          "Trim"
+        ]
+      }
+    ]
+  },
+  "Cruiser": {
+    "unity_center": [
+      0.0,
+      0.7050000429153442,
+      0.3625001907348633
+    ],
+    "unity_size": [
+      18.700000762939453,
+      8.009999990463257,
+      33.27499961853027
+    ],
+    "meshes": [
+      {
+        "name": "ArmoredCore",
+        "unity_center": [
+          0.0,
+          -0.3500000238418579,
+          0.5
+        ],
+        "unity_size": [
+          12.0,
+          5.8999998569488525,
+          33.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1327.5137510997208,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "DorsalCitadel",
+        "unity_center": [
+          0.0,
+          3.0555469393730164,
+          -3.0
+        ],
+        "unity_size": [
+          8.0,
+          3.088905930519104,
+          16.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 263.9452468336036,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "CrossBrace",
+        "unity_center": [
+          0.0,
+          -0.3999999761581421,
+          -6.0
+        ],
+        "unity_size": [
+          18.5,
+          2.799999952316284,
+          4.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          -0.4000000059604645,
+          -6.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 205.78863422994246,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "PortLance",
+        "unity_center": [
+          -7.1000001430511475,
+          0.2999999523162842,
+          -1.0
+        ],
+        "unity_size": [
+          4.500000476837158,
+          5.0,
+          30.0
+        ],
+        "unity_piece_pivot": [
+          -7.099999904632568,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 405.53902329937364,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "LanceSpine",
+        "unity_center": [
+          -7.099999904632568,
+          2.700000047683716,
+          -3.8000000715255737
+        ],
+        "unity_size": [
+          1.1000003814697266,
+          0.2800002098083496,
+          8.500000238418579
+        ],
+        "unity_piece_pivot": [
+          -7.099999904632568,
+          2.700000047683716,
+          -3.799999952316284
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.455092382125439,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorBank",
+        "unity_center": [
+          -5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "unity_size": [
+          0.6999998092651367,
+          0.75,
+          6.799999237060547
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.4345914771943757,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "RadiatorRib",
+        "unity_center": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.001",
+        "unity_center": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.002",
+        "unity_center": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "HeavyIonDrive",
+        "unity_center": [
+          -7.099999904632568,
+          -0.10000002384185791,
+          -16.149999618530273
+        ],
+        "unity_size": [
+          2.59999942779541,
+          2.5999999046325684,
+          0.25
+        ],
+        "unity_piece_pivot": [
+          -7.099999904632568,
+          -0.10000000149011612,
+          -16.149999618530273
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.250685695123126,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "FleetBeacon",
+        "unity_center": [
+          -3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "unity_size": [
+          0.15999984741210938,
+          0.18000030517578125,
+          4.800000190734863
+        ],
+        "unity_piece_pivot": [
+          -3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.1328792844986847,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "SideArmor",
+        "unity_center": [
+          -4.599999904632568,
+          0.45000001788139343,
+          2.4000000953674316
+        ],
+        "unity_size": [
+          1.0,
+          2.4000001549720764,
+          6.5
+        ],
+        "unity_piece_pivot": [
+          -4.599999904632568,
+          0.44999998807907104,
+          2.4000000953674316
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 15.408783206114295,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "StarboardLance",
+        "unity_center": [
+          7.1000001430511475,
+          0.2999999523162842,
+          -1.0
+        ],
+        "unity_size": [
+          4.500000476837158,
+          5.0,
+          30.0
+        ],
+        "unity_piece_pivot": [
+          7.099999904632568,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 405.53902329937364,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "LanceSpine.001",
+        "unity_center": [
+          7.099999904632568,
+          2.700000047683716,
+          -3.8000000715255737
+        ],
+        "unity_size": [
+          1.1000003814697266,
+          0.2800002098083496,
+          8.500000238418579
+        ],
+        "unity_piece_pivot": [
+          7.099999904632568,
+          2.700000047683716,
+          -3.799999952316284
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.455092382125439,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorBank.001",
+        "unity_center": [
+          5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "unity_size": [
+          0.6999998092651367,
+          0.75,
+          6.799999237060547
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.4345914771943757,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "RadiatorRib.003",
+        "unity_center": [
+          5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.004",
+        "unity_center": [
+          5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.005",
+        "unity_center": [
+          5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "HeavyIonDrive.001",
+        "unity_center": [
+          7.099999904632568,
+          -0.10000002384185791,
+          -16.149999618530273
+        ],
+        "unity_size": [
+          2.59999942779541,
+          2.5999999046325684,
+          0.25
+        ],
+        "unity_piece_pivot": [
+          7.099999904632568,
+          -0.10000000149011612,
+          -16.149999618530273
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.250685695123126,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "FleetBeacon.001",
+        "unity_center": [
+          3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "unity_size": [
+          0.15999984741210938,
+          0.18000030517578125,
+          4.800000190734863
+        ],
+        "unity_piece_pivot": [
+          3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.1328792844986847,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "SideArmor.001",
+        "unity_center": [
+          4.599999904632568,
+          0.45000001788139343,
+          2.4000000953674316
+        ],
+        "unity_size": [
+          1.0,
+          2.4000001549720764,
+          6.5
+        ],
+        "unity_piece_pivot": [
+          4.599999904632568,
+          0.44999998807907104,
+          2.4000000953674316
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 15.408783206114295,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "CentralDrive",
+        "unity_center": [
+          0.0,
+          -0.2999999523162842,
+          -16.100000381469727
+        ],
+        "unity_size": [
+          3.4000000953674316,
+          3.4000000953674316,
+          0.25
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          -0.30000001192092896,
+          -16.100000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.145446177911096,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "CitadelInset",
+        "unity_center": [
+          0.0,
+          4.639999866485596,
+          -8.0
+        ],
+        "unity_size": [
+          4.800000190734863,
+          0.1400003433227539,
+          1.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          4.639999866485596,
+          -8.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6676846952097026,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "CitadelInset.001",
+        "unity_center": [
+          0.0,
+          4.639999866485596,
+          -4.5
+        ],
+        "unity_size": [
+          4.800000190734863,
+          0.1400003433227539,
+          1.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          4.639999866485596,
+          -4.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6676846952097026,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "CitadelInset.002",
+        "unity_center": [
+          0.0,
+          4.639999866485596,
+          -1.0
+        ],
+        "unity_size": [
+          4.800000190734863,
+          0.1400003433227539,
+          1.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          4.639999866485596,
+          -1.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6676846952097026,
+        "material_slots": [
+          "Trim"
+        ]
+      }
+    ]
+  },
+  "Command": {
+    "unity_center": [
+      4.76837158203125e-07,
+      2.1250001192092896,
+      2.3625001907348633
+    ],
+    "unity_size": [
+      22.39273166656494,
+      10.850000143051147,
+      37.27499961853027
+    ],
+    "meshes": [
+      {
+        "name": "ArmoredCore.001",
+        "unity_center": [
+          0.0,
+          -0.3500000238418579,
+          0.5
+        ],
+        "unity_size": [
+          12.0,
+          5.8999998569488525,
+          33.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1327.5137510997208,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "DorsalCitadel.001",
+        "unity_center": [
+          0.0,
+          3.0555469393730164,
+          -3.0
+        ],
+        "unity_size": [
+          8.0,
+          3.088905930519104,
+          16.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 263.9452468336036,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "CrossBrace.001",
+        "unity_center": [
+          0.0,
+          -0.3999999761581421,
+          -6.0
+        ],
+        "unity_size": [
+          18.5,
+          2.799999952316284,
+          4.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          -0.4000000059604645,
+          -6.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 205.78863422994246,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "PortLance.001",
+        "unity_center": [
+          -7.1000001430511475,
+          0.2999999523162842,
+          -1.0
+        ],
+        "unity_size": [
+          4.500000476837158,
+          5.0,
+          30.0
+        ],
+        "unity_piece_pivot": [
+          -7.099999904632568,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 405.53902329937364,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "LanceSpine.002",
+        "unity_center": [
+          -7.099999904632568,
+          2.700000047683716,
+          -3.8000000715255737
+        ],
+        "unity_size": [
+          1.1000003814697266,
+          0.2800002098083496,
+          8.500000238418579
+        ],
+        "unity_piece_pivot": [
+          -7.099999904632568,
+          2.700000047683716,
+          -3.799999952316284
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.455092382125439,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorBank.002",
+        "unity_center": [
+          -5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "unity_size": [
+          0.6999998092651367,
+          0.75,
+          6.799999237060547
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.4345914771943757,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "RadiatorRib.006",
+        "unity_center": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.007",
+        "unity_center": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.008",
+        "unity_center": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          -5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "HeavyIonDrive.002",
+        "unity_center": [
+          -7.099999904632568,
+          -0.10000002384185791,
+          -16.149999618530273
+        ],
+        "unity_size": [
+          2.59999942779541,
+          2.5999999046325684,
+          0.25
+        ],
+        "unity_piece_pivot": [
+          -7.099999904632568,
+          -0.10000000149011612,
+          -16.149999618530273
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.250685695123126,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "FleetBeacon.002",
+        "unity_center": [
+          -3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "unity_size": [
+          0.15999984741210938,
+          0.18000030517578125,
+          4.800000190734863
+        ],
+        "unity_piece_pivot": [
+          -3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.1328792844986847,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "SideArmor.002",
+        "unity_center": [
+          -4.599999904632568,
+          0.45000001788139343,
+          2.4000000953674316
+        ],
+        "unity_size": [
+          1.0,
+          2.4000001549720764,
+          6.5
+        ],
+        "unity_piece_pivot": [
+          -4.599999904632568,
+          0.44999998807907104,
+          2.4000000953674316
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 15.408783206114295,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "StarboardLance.001",
+        "unity_center": [
+          7.1000001430511475,
+          0.2999999523162842,
+          -1.0
+        ],
+        "unity_size": [
+          4.500000476837158,
+          5.0,
+          30.0
+        ],
+        "unity_piece_pivot": [
+          7.099999904632568,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 405.53902329937364,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "LanceSpine.003",
+        "unity_center": [
+          7.099999904632568,
+          2.700000047683716,
+          -3.8000000715255737
+        ],
+        "unity_size": [
+          1.1000003814697266,
+          0.2800002098083496,
+          8.500000238418579
+        ],
+        "unity_piece_pivot": [
+          7.099999904632568,
+          2.700000047683716,
+          -3.799999952316284
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.455092382125439,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorBank.003",
+        "unity_center": [
+          5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "unity_size": [
+          0.6999998092651367,
+          0.75,
+          6.799999237060547
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.0999999046325684,
+          -11.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.4345914771943757,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "RadiatorRib.009",
+        "unity_center": [
+          5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.5299999713897705,
+          -13.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.010",
+        "unity_center": [
+          5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.5299999713897705,
+          -10.800000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "RadiatorRib.011",
+        "unity_center": [
+          5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "unity_size": [
+          1.3500003814697266,
+          0.17999982833862305,
+          0.2999992370605469
+        ],
+        "unity_piece_pivot": [
+          5.150000095367432,
+          2.5299999713897705,
+          -8.600000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.0710293997356539,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "HeavyIonDrive.003",
+        "unity_center": [
+          7.099999904632568,
+          -0.10000002384185791,
+          -16.149999618530273
+        ],
+        "unity_size": [
+          2.59999942779541,
+          2.5999999046325684,
+          0.25
+        ],
+        "unity_piece_pivot": [
+          7.099999904632568,
+          -0.10000000149011612,
+          -16.149999618530273
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.250685695123126,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "FleetBeacon.003",
+        "unity_center": [
+          3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "unity_size": [
+          0.15999984741210938,
+          0.18000030517578125,
+          4.800000190734863
+        ],
+        "unity_piece_pivot": [
+          3.3499999046325684,
+          4.300000190734863,
+          -2.5999999046325684
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.1328792844986847,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "SideArmor.003",
+        "unity_center": [
+          4.599999904632568,
+          0.45000001788139343,
+          2.4000000953674316
+        ],
+        "unity_size": [
+          1.0,
+          2.4000001549720764,
+          6.5
+        ],
+        "unity_piece_pivot": [
+          4.599999904632568,
+          0.44999998807907104,
+          2.4000000953674316
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 15.408783206114295,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "CentralDrive.001",
+        "unity_center": [
+          0.0,
+          -0.2999999523162842,
+          -16.100000381469727
+        ],
+        "unity_size": [
+          3.4000000953674316,
+          3.4000000953674316,
+          0.25
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          -0.30000001192092896,
+          -16.100000381469727
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.145446177911096,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "CitadelInset.003",
+        "unity_center": [
+          0.0,
+          4.639999866485596,
+          -8.0
+        ],
+        "unity_size": [
+          4.800000190734863,
+          0.1400003433227539,
+          1.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          4.639999866485596,
+          -8.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6676846952097026,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "CitadelInset.004",
+        "unity_center": [
+          0.0,
+          4.639999866485596,
+          -4.5
+        ],
+        "unity_size": [
+          4.800000190734863,
+          0.1400003433227539,
+          1.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          4.639999866485596,
+          -4.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6676846952097026,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "CitadelInset.005",
+        "unity_center": [
+          0.0,
+          4.639999866485596,
+          -1.0
+        ],
+        "unity_size": [
+          4.800000190734863,
+          0.1400003433227539,
+          1.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          4.639999866485596,
+          -1.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.6676846952097026,
+        "material_slots": [
+          "Trim"
+        ]
+      },
+      {
+        "name": "CommandCrown",
+        "unity_center": [
+          0.0,
+          4.9647088050842285,
+          -2.75
+        ],
+        "unity_size": [
+          6.0,
+          3.6705827713012695,
+          10.5
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 121.33408217424011,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "AntennaCrest",
+        "unity_center": [
+          0.0,
+          7.0,
+          -4.300000190734863
+        ],
+        "unity_size": [
+          0.4000000059604645,
+          1.1000003814697266,
+          7.199999809265137
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          7.0,
+          -4.300000190734863
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.1038850389032864,
+        "material_slots": [
+          "Armor"
+        ]
+      },
+      {
+        "name": "CommandWing",
+        "unity_center": [
+          -9.699999332427979,
+          0.6022704094648361,
+          -4.0
+        ],
+        "unity_size": [
+          2.992732048034668,
+          2.1954592764377594,
+          18.0
+        ],
+        "unity_piece_pivot": [
+          -9.699999809265137,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 55.103965846413935,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "FlagshipSignal",
+        "unity_center": [
+          -2.25,
+          6.75,
+          -3.1999999284744263
+        ],
+        "unity_size": [
+          0.15000009536743164,
+          0.19999980926513672,
+          4.999999761581421
+        ],
+        "unity_piece_pivot": [
+          -2.25,
+          6.75,
+          -3.200000047683716
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.14751031489442848,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "CommandWing.001",
+        "unity_center": [
+          9.700000286102295,
+          0.6022704094648361,
+          -4.0
+        ],
+        "unity_size": [
+          2.992732048034668,
+          2.1954592764377594,
+          18.0
+        ],
+        "unity_piece_pivot": [
+          9.699999809265137,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 55.103965846413935,
+        "material_slots": [
+          "Hull"
+        ]
+      },
+      {
+        "name": "FlagshipSignal.001",
+        "unity_center": [
+          2.25,
+          6.75,
+          -3.1999999284744263
+        ],
+        "unity_size": [
+          0.15000009536743164,
+          0.19999980926513672,
+          4.999999761581421
+        ],
+        "unity_piece_pivot": [
+          2.25,
+          6.75,
+          -3.200000047683716
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 0.14751031489442848,
+        "material_slots": [
+          "Engine"
+        ]
+      },
+      {
+        "name": "CommandProw",
+        "unity_center": [
+          0.0,
+          0.07499998807907104,
+          16.0
+        ],
+        "unity_size": [
+          2.3781321048736572,
+          1.240012526512146,
+          10.0
+        ],
+        "unity_piece_pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 11.443279080457799,
+        "material_slots": [
+          "Armor"
+        ]
+      }
+    ]
+  },
+  "FrigateWreck": {
+    "unity_center": [
+      0.0,
+      0.5196189284324646,
+      -0.07000017166137695
+    ],
+    "unity_size": [
+      9.0,
+      4.439237713813782,
+      22.140000343322754
+    ],
+    "meshes": [
+      {
+        "name": "Piece_01",
+        "unity_center": [
+          -2.25,
+          0.5464046001434326,
+          -8.320000171661377
+        ],
+        "unity_size": [
+          4.5,
+          4.385666370391846,
+          5.640000343322754
+        ],
+        "unity_piece_pivot": [
+          -2.25,
+          0.5464046001434326,
+          -8.319999694824219
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 47.41162101355761,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_02",
+        "unity_center": [
+          -2.25,
+          0.5196189284324646,
+          -0.75
+        ],
+        "unity_size": [
+          4.5,
+          4.439237713813782,
+          9.5
+        ],
+        "unity_piece_pivot": [
+          -2.25,
+          0.5196188688278198,
+          -0.75
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 96.2774226495719,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_03",
+        "unity_center": [
+          -0.7972222566604614,
+          0.395833283662796,
+          7.5
+        ],
+        "unity_size": [
+          1.5944445133209229,
+          2.5583333373069763,
+          7.0
+        ],
+        "unity_piece_pivot": [
+          -0.7972222566604614,
+          0.3958333134651184,
+          7.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 10.92490115578589,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_04",
+        "unity_center": [
+          2.25,
+          0.5464046001434326,
+          -8.320000171661377
+        ],
+        "unity_size": [
+          4.5,
+          4.385666370391846,
+          5.640000343322754
+        ],
+        "unity_piece_pivot": [
+          2.25,
+          0.5464046001434326,
+          -8.319999694824219
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 47.4116211245239,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_05",
+        "unity_center": [
+          2.25,
+          0.5196189284324646,
+          -0.75
+        ],
+        "unity_size": [
+          4.5,
+          4.439237713813782,
+          9.5
+        ],
+        "unity_piece_pivot": [
+          2.25,
+          0.5196188688278198,
+          -0.75
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 96.2774228656211,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_06",
+        "unity_center": [
+          0.7972222566604614,
+          0.395833283662796,
+          7.4999998807907104
+        ],
+        "unity_size": [
+          1.5944445133209229,
+          2.5583333373069763,
+          7.000000238418579
+        ],
+        "unity_piece_pivot": [
+          0.7972222566604614,
+          0.3958333134651184,
+          7.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 10.924901212832866,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      }
+    ]
+  },
+  "CruiserWreck": {
+    "unity_center": [
+      0.0,
+      0.7049999237060547,
+      0.3625001907348633
+    ],
+    "unity_size": [
+      18.700000762939453,
+      8.010000228881836,
+      33.27499961853027
+    ],
+    "meshes": [
+      {
+        "name": "Piece_01.001",
+        "unity_center": [
+          -4.650961875915527,
+          0.7049999237060547,
+          -10.887499809265137
+        ],
+        "unity_size": [
+          9.301923751831055,
+          8.010000228881836,
+          10.774999618530273
+        ],
+        "unity_piece_pivot": [
+          -4.650961875915527,
+          0.7050000429153442,
+          -10.887499809265137
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 609.8259079722087,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_02.001",
+        "unity_center": [
+          -4.675000190734863,
+          0.7639286518096924,
+          -0.7500001192092896
+        ],
+        "unity_size": [
+          9.350000381469727,
+          7.8921427726745605,
+          9.499999761581421
+        ],
+        "unity_piece_pivot": [
+          -4.675000190734863,
+          0.7639286518096924,
+          -0.7500002384185791
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 542.3647374645936,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_03.001",
+        "unity_center": [
+          -4.3416666984558105,
+          0.39642858505249023,
+          10.5
+        ],
+        "unity_size": [
+          8.683333396911621,
+          5.664285659790039,
+          13.0
+        ],
+        "unity_piece_pivot": [
+          -4.3416666984558105,
+          0.39642858505249023,
+          10.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 176.94419309233524,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_04.001",
+        "unity_center": [
+          4.650961399078369,
+          0.7049999237060547,
+          -10.887499809265137
+        ],
+        "unity_size": [
+          9.301922798156738,
+          8.010000228881836,
+          10.774999618530273
+        ],
+        "unity_piece_pivot": [
+          4.650961399078369,
+          0.7050000429153442,
+          -10.887499809265137
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 609.826046831597,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_05.001",
+        "unity_center": [
+          4.675000190734863,
+          0.7639286518096924,
+          -0.7500001192092896
+        ],
+        "unity_size": [
+          9.350000381469727,
+          7.8921427726745605,
+          9.499999761581421
+        ],
+        "unity_piece_pivot": [
+          4.675000190734863,
+          0.7639286518096924,
+          -0.7500002384185791
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 542.3646125318246,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_06.001",
+        "unity_center": [
+          4.3416666984558105,
+          0.39642858505249023,
+          10.5
+        ],
+        "unity_size": [
+          8.683333396911621,
+          5.664285659790039,
+          13.0
+        ],
+        "unity_piece_pivot": [
+          4.3416666984558105,
+          0.39642858505249023,
+          10.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 176.944087633628,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      }
+    ]
+  },
+  "CommandWreck": {
+    "unity_center": [
+      4.76837158203125e-07,
+      2.125,
+      2.3625001907348633
+    ],
+    "unity_size": [
+      22.39273166656494,
+      10.850000381469727,
+      37.27499961853027
+    ],
+    "meshes": [
+      {
+        "name": "Piece_01.002",
+        "unity_center": [
+          -5.598182678222656,
+          2.125,
+          -10.887499570846558
+        ],
+        "unity_size": [
+          11.196365356445312,
+          10.850000381469727,
+          10.775000095367432
+        ],
+        "unity_piece_pivot": [
+          -5.598182678222656,
+          2.125,
+          -10.887499809265137
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 658.7235454912003,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_02.002",
+        "unity_center": [
+          -5.46363639831543,
+          2.183928608894348,
+          -0.7500001192092896
+        ],
+        "unity_size": [
+          10.92727279663086,
+          10.73214316368103,
+          9.499999761581421
+        ],
+        "unity_piece_pivot": [
+          -5.46363639831543,
+          2.1839287281036377,
+          -0.7500002384185791
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 610.8404810325561,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_03.002",
+        "unity_center": [
+          -4.971428871154785,
+          0.39642858505249023,
+          12.5
+        ],
+        "unity_size": [
+          9.94285774230957,
+          5.664285659790039,
+          17.0
+        ],
+        "unity_piece_pivot": [
+          -4.971428871154785,
+          0.39642858505249023,
+          12.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 182.76324759594792,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_04.002",
+        "unity_center": [
+          5.5981831550598145,
+          2.125,
+          -10.887499570846558
+        ],
+        "unity_size": [
+          11.196366310119629,
+          10.850000381469727,
+          10.775000095367432
+        ],
+        "unity_piece_pivot": [
+          5.5981831550598145,
+          2.125,
+          -10.887499809265137
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 658.7236828327189,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_05.002",
+        "unity_center": [
+          5.46363639831543,
+          2.183928608894348,
+          -0.7500001192092896
+        ],
+        "unity_size": [
+          10.92727279663086,
+          10.73214316368103,
+          9.499999761581421
+        ],
+        "unity_piece_pivot": [
+          5.46363639831543,
+          2.1839287281036377,
+          -0.7500002384185791
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 610.8403539706276,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      },
+      {
+        "name": "Piece_06.002",
+        "unity_center": [
+          4.971428871154785,
+          0.39642858505249023,
+          12.5
+        ],
+        "unity_size": [
+          9.94285774230957,
+          5.664285659790039,
+          17.0
+        ],
+        "unity_piece_pivot": [
+          4.971428871154785,
+          0.39642858505249023,
+          12.5
+        ],
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume": 182.76314203595877,
+        "material_slots": [
+          "Hull",
+          "Armor",
+          "Trim",
+          "Engine"
+        ]
+      }
+    ]
+  }
+}

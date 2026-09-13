@@ -1,0 +1,22 @@
+{
+  "baselineFiles": 758,
+  "unchanged": 758,
+  "changed": [],
+  "missing": [],
+  "newFiles": [
+    "Assets/_Project/Scenes/FleetAssault_PerfectDroplet_Test.unity",
+    "Assets/_Project/Scenes/FleetAssault_PerfectDroplet_Test.unity.meta",
+    "Assets/_Project/Tests/EditMode/PerfectDropletImportTests.cs",
+    "Assets/_Project/Tests/EditMode/PerfectDropletImportTests.cs.meta",
+    "Assets/_Project/Tests/PlayMode/PerfectDropletPlayTests.cs",
+    "Assets/_Project/Tests/PlayMode/PerfectDropletPlayTests.cs.meta",
+    "Assets/_Project/Scripts/Editor/PerfectDropletImport.cs",
+    "Assets/_Project/Scripts/Editor/PerfectDropletImport.cs.meta",
+    "Assets/_Project/Prefabs/Player/PerfectDropletVisual.prefab",
+    "Assets/_Project/Prefabs/Player/PerfectDropletVisual.prefab.meta",
+    "Assets/_Project/Art/Models/PerfectDroplet.meta",
+    "Assets/_Project/Art/Models/PerfectDroplet/PerfectDroplet_Game.fbx",
+    "Assets/_Project/Art/Models/PerfectDroplet/PerfectDroplet_Game.fbx.meta"
+  ],
+  "passed": true
+}

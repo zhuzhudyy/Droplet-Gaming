@@ -1,0 +1,1 @@
+PASS: live Input System Enter -> Playing; W+Shift acceleration, real fixed-step ship penetration and score; Esc -> Paused with frozen time/position/score and released cursor; R -> Ready with 120 seconds and ten restored targets; Space stops; D strafes; mouse turns without roll. Ended in Ready. This does not establish subjective flight feel.

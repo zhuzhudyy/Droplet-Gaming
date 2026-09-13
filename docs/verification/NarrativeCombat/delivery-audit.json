@@ -1,0 +1,206 @@
+{
+    "utc":  "2026-09-13T03:48:19.6992779Z",
+    "protectedFiles":  421,
+    "protectedUnchanged":  421,
+    "protectedChanges":  [
+
+                         ],
+    "buildDirectoryBytes":  214419208,
+    "buildDirectoryFiles":  199,
+    "build":  {
+                  "result":  "Succeeded",
+                  "output":  "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\Builds\\Windows-NarrativeCombat\\DropletPrototype.exe",
+                  "unity":  "6000.5.10f1",
+                  "errors":  0,
+                  "warnings":  1,
+                  "seconds":  17.2710064,
+                  "bytes":  214210608,
+                  "frameTimingStats":  true
+              },
+    "testedProcessExit":  {
+                              "pid":  61876,
+                              "utc":  "2026-09-12T14:43:49.1153675Z",
+                              "exitCode":  0
+                          },
+    "playerReport":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\docs\\verification\\NarrativeCombat\\Player-Delivery\\FleetAssault_NarrativeCombat-20260912-144149-138\\narrative-combat-validation.json",
+    "completed":  true,
+    "allChecksPassed":  true,
+    "checkCount":  43,
+    "targetCount":  2000,
+    "uniqueIds":  2000,
+    "nativeResolution":  [
+                             1920,
+                             1080
+                         ],
+    "validationMode":  "full-four-phase",
+    "phases":  [
+                   {
+                       "name":  "FleetPanorama",
+                       "frames":  681,
+                       "focusedFrames":  681,
+                       "meanFps":  113.38096132870094,
+                       "frameMs":  {
+                                       "samples":  681,
+                                       "mean":  8.819872242632416,
+                                       "p50":  8.60739778727293,
+                                       "p95":  11.436302214860917,
+                                       "p99":  12.662095949053765,
+                                       "maximum":  14.012996107339859
+                                   },
+                       "cpuFrameMs":  {
+                                          "samples":  681,
+                                          "mean":  8.82188046989721,
+                                          "p50":  8.6066,
+                                          "p95":  11.4348,
+                                          "p99":  12.7587,
+                                          "maximum":  14.0001
+                                      },
+                       "gpuMs":  {
+                                     "samples":  681,
+                                     "mean":  3.3065738149779735,
+                                     "p50":  3.489792,
+                                     "p95":  3.67616,
+                                     "p99":  3.868672,
+                                     "maximum":  3.936256
+                                 },
+                       "targets":  2000,
+                       "destroyed":  0,
+                       "pending":  0,
+                       "escaped":  0,
+                       "movedShips":  0,
+                       "fleeing":  0,
+                       "fleetVisibleInstancedShips":  1902,
+                       "fleetInstancedDrawCalls":  140,
+                       "fleetChunkSizeUnits":  20000.0
+                   },
+                   {
+                       "name":  "NearLaserCombat",
+                       "frames":  1625,
+                       "focusedFrames":  1625,
+                       "meanFps":  270.78053112976297,
+                       "frameMs":  {
+                                       "samples":  1625,
+                                       "mean":  3.695250153255004,
+                                       "p50":  2.9137046076357366,
+                                       "p95":  7.386302575469017,
+                                       "p99":  8.533304557204247,
+                                       "maximum":  11.627798900008202
+                                   },
+                       "cpuFrameMs":  {
+                                          "samples":  1625,
+                                          "mean":  3.6939278153846208,
+                                          "p50":  2.9129,
+                                          "p95":  7.4126,
+                                          "p99":  8.5404,
+                                          "maximum":  11.5764
+                                      },
+                       "gpuMs":  {
+                                     "samples":  1625,
+                                     "mean":  0.669879374769233,
+                                     "p50":  0.681984,
+                                     "p95":  0.753664,
+                                     "p99":  0.776192,
+                                     "maximum":  0.799744
+                                 },
+                       "targets":  2000,
+                       "destroyed":  0,
+                       "pending":  0,
+                       "escaped":  0,
+                       "movedShips":  0,
+                       "fleeing":  0,
+                       "fleetVisibleInstancedShips":  0,
+                       "fleetInstancedDrawCalls":  0,
+                       "fleetChunkSizeUnits":  20000.0
+                   },
+                   {
+                       "name":  "ConcentratedDelayedExplosions",
+                       "frames":  1814,
+                       "focusedFrames":  1814,
+                       "meanFps":  302.28335078128216,
+                       "frameMs":  {
+                                       "samples":  1814,
+                                       "mean":  3.3173421187949589,
+                                       "p50":  2.5896967854350807,
+                                       "p95":  8.25780164450407,
+                                       "p99":  10.108602233231068,
+                                       "maximum":  20.966000854969026
+                                   },
+                       "cpuFrameMs":  {
+                                          "samples":  1814,
+                                          "mean":  3.3570206725468569,
+                                          "p50":  2.5922,
+                                          "p95":  8.2614,
+                                          "p99":  10.1518,
+                                          "maximum":  72.1471
+                                      },
+                       "gpuMs":  {
+                                     "samples":  1814,
+                                     "mean":  0.6826367012127887,
+                                     "p50":  0.651264,
+                                     "p95":  0.720896,
+                                     "p99":  0.738304,
+                                     "maximum":  67.853312
+                                 },
+                       "targets":  2000,
+                       "destroyed":  2000,
+                       "pending":  0,
+                       "escaped":  0,
+                       "movedShips":  0,
+                       "fleeing":  0,
+                       "fleetVisibleInstancedShips":  0,
+                       "fleetInstancedDrawCalls":  0,
+                       "fleetChunkSizeUnits":  20000.0
+                   },
+                   {
+                       "name":  "AllFleetRetreatPanorama",
+                       "frames":  567,
+                       "focusedFrames":  567,
+                       "meanFps":  94.49692255022235,
+                       "frameMs":  {
+                                       "samples":  567,
+                                       "mean":  10.599197003484509,
+                                       "p50":  10.592502541840077,
+                                       "p95":  14.052700251340866,
+                                       "p99":  16.501296311616899,
+                                       "maximum":  19.915100187063218
+                                   },
+                       "cpuFrameMs":  {
+                                          "samples":  567,
+                                          "mean":  10.597482539682538,
+                                          "p50":  10.5899,
+                                          "p95":  14.0543,
+                                          "p99":  16.4873,
+                                          "maximum":  19.9168
+                                      },
+                       "gpuMs":  {
+                                     "samples":  567,
+                                     "mean":  3.335568028218694,
+                                     "p50":  3.494912,
+                                     "p95":  3.709952,
+                                     "p99":  3.923968,
+                                     "maximum":  4.312064
+                                 },
+                       "targets":  2000,
+                       "destroyed":  0,
+                       "pending":  0,
+                       "escaped":  0,
+                       "movedShips":  2000,
+                       "fleeing":  2000,
+                       "fleetVisibleInstancedShips":  1915,
+                       "fleetInstancedDrawCalls":  140,
+                       "fleetChunkSizeUnits":  20000.0
+                   }
+               ],
+    "processGpuMemory":  {
+                             "source":  "Windows WDDM GPU Process Memory counters, matched exact tested player PID; timestamped discrete samples",
+                             "scope":  "Raw-row arithmetic means, not time-weighted integrals. Overlapping samplers are not independent runs. Sampled portion of this run, not a thermal soak. Dedicated allocation is distinct from shared system GPU memory, Unity tracking, and adapter capacity.",
+                             "samples":  196,
+                             "firstUtc":  "2026-09-12T14:41:46.1862849Z",
+                             "lastUtc":  "2026-09-12T14:43:48.1035180Z",
+                             "pid":  "61876",
+                             "dedicatedMeanBytes":  336354701.06122446,
+                             "dedicatedPeakBytes":  448077824,
+                             "sharedMeanBytes":  298976569.46938777,
+                             "sharedPeakBytes":  332992512
+                         }
+}

@@ -1,0 +1,8 @@
+ D ../../../app.py
+ D ../../../requirements.txt
+ D ../../../templates/home.html
+ D ../../../templates/login.html
+ D ../../../templates/register.html
+?? ../../../LinuxTest/
+?? ../../
+?? ../../../nanoGPT/

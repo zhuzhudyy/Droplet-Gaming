@@ -1,0 +1,202 @@
+﻿{
+    "scope":  "New files within baseline-scanned roots; generated Python cache excluded. Documentation and build/evidence directories listed separately.",
+    "existingChanged":  [
+                            {
+                                "path":  "Assets\\Settings\\PC_RPAsset.asset",
+                                "status":  "changed",
+                                "before":  "699E47BC4D32D1699DBCEE926569742A662A70D319997534D3A8DC60150F7676",
+                                "after":  "0689E2757E10705D4DA78CF79A3FCE9AF6DD3E460C731E868A7E8F56CD14A044"
+                            },
+                            {
+                                "path":  "Assets\\_Project\\Scripts\\Editor\\DropletPrototype.Editor.asmdef",
+                                "status":  "changed",
+                                "before":  "86599A8AEAAABA4ADE28701AFE9159250B3ECB389028E79D00E20250DBF7197C",
+                                "after":  "3D5EE53169E535F21133D6871B9F9F754FE907A45F318D0ADA0E64C5592725E1"
+                            },
+                            {
+                                "path":  "Assets\\_Project\\Scripts\\Runtime\\HudPresenter.cs",
+                                "status":  "changed",
+                                "before":  "D08E499092AE6DC03F4181B276D7C471856F72A08B8C3B02B391F35A446BD455",
+                                "after":  "05A716B201CE2F911C2813EDD11AEECABB5EF99EB0E1DCC9214EE887CB111404"
+                            }
+                        ],
+    "added":  [
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SolarLayoutExports\\manifest.json",
+                      "sha256":  "FB558819E93DCE6A6F7E5A011ADE5A02B88EA022522DB985CDD4C7BCF207CF09"
+                  },
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SolarLayoutExports\\SolarLayoutConfig.json",
+                      "sha256":  "7D10F38D35A895A66DE7022EA922B3A1BE21A222F60A7DAAF3C15519CE9A7977"
+                  },
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SolarLayoutExports\\SolarLayoutMarkers.fbx",
+                      "sha256":  "7A1BE8114B60AAEEB2647868444924F6F75C9A37BED68D9E16D381C543DB95F3"
+                  },
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SolarLayoutExports\\source-receipt.json",
+                      "sha256":  "8AA0AA1EC3BEDB051AEB12E943BC1B0AA77FD800618D2409710ED3AF71A0669D"
+                  },
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment_SolarLayout.before-0a0a9211127f.blend",
+                      "sha256":  "0A0A9211127FF58BF5648915BF3938E3824660D470B51BC66F08D7B7960ACD61"
+                  },
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment_SolarLayout.before-33e9fa885fb4.blend",
+                      "sha256":  "33E9FA885FB47F9DF2EABDBDF4287883215EC5861AED7815BCB29CFA00B9084F"
+                  },
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment_SolarLayout.before-96be7d949179.blend",
+                      "sha256":  "96BE7D9491796CFFAE12F0C588BA6F79CC54B6A76A26F4DF3E84D5BCD2191C1C"
+                  },
+                  {
+                      "path":  "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment_SolarLayout.blend",
+                      "sha256":  "9D80DF9BB347A17FC359A51609382B7DE5FD650C1697261A2055797B9C5BE865"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Art\\Environment\\SolarSystemLayout.meta",
+                      "sha256":  "407F51E2B360978A9934EDB846B1B663E3774B425DC1AFA4DE5468D91D67C16D"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Art\\Environment\\SolarSystemLayout\\manifest.json",
+                      "sha256":  "FB558819E93DCE6A6F7E5A011ADE5A02B88EA022522DB985CDD4C7BCF207CF09"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Art\\Environment\\SolarSystemLayout\\manifest.json.meta",
+                      "sha256":  "98F2F4147DB0D73451FC0F7E79EB892442F1E549BC623ABBBD4056B7D1A9AC5A"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Art\\Environment\\SolarSystemLayout\\SolarLayoutConfig.json",
+                      "sha256":  "7D10F38D35A895A66DE7022EA922B3A1BE21A222F60A7DAAF3C15519CE9A7977"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Art\\Environment\\SolarSystemLayout\\SolarLayoutConfig.json.meta",
+                      "sha256":  "98C94420E37D1925997ABD5868F6C8CB3480B0C367BF4A394FE590BE6AA357C9"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Art\\Environment\\SolarSystemLayout\\SolarLayoutMarkers.fbx",
+                      "sha256":  "7A1BE8114B60AAEEB2647868444924F6F75C9A37BED68D9E16D381C543DB95F3"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Art\\Environment\\SolarSystemLayout\\SolarLayoutMarkers.fbx.meta",
+                      "sha256":  "C84657729B04BAC9A8821890F2028EDD3A79B2399261BA35510F342571841EC6"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Data\\FleetMission_SolarLayout.asset",
+                      "sha256":  "3D0F6C80554FD01D96D6218387FD2911DF670C41B37E8EBF1BF90E1EB3675B5A"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Data\\FleetMission_SolarLayout.asset.meta",
+                      "sha256":  "BEFFC08E1F7F847EE934C700D519988CB27991382358AF65DDE5BF5EB01B2A63"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Prefabs\\Environment\\SpaceEnvironment_SolarLayout.prefab",
+                      "sha256":  "6D1FEAFBAF7BF6CC90CFA1C1989234A4809190142423458C5EDE2B56F31B59B2"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Prefabs\\Environment\\SpaceEnvironment_SolarLayout.prefab.meta",
+                      "sha256":  "0D4B6C6B21EE7903AE873D354AE57F1BD6C629CD8594AEF6C9915F5D22522C0E"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scenes\\FleetAssault_SolarLayout.unity",
+                      "sha256":  "03A4AA704F6A0464182EF9C13EB7B805B4803DEA22098B9C6930E656835DCA91"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scenes\\FleetAssault_SolarLayout.unity.meta",
+                      "sha256":  "66C465B5AEB65E850411343E7E2A44B0B6BB0C1D33E1BAEB33EB84F0CF69FFFA"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scenes\\SolarSystemLayout_Review.unity",
+                      "sha256":  "9EB1ECFF606D92E37A456B4BC8C3F0BC74FA4404BF9D234C8AC3B9B4FC19127E"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scenes\\SolarSystemLayout_Review.unity.meta",
+                      "sha256":  "57543F149A1C8A0A148C7537EFF55DDA963B3B6A0E3EE5185D5C6B02C752A21C"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Editor\\SolarLayoutInspector.cs",
+                      "sha256":  "91A3CD321319C45335B09FCE1A3D41B9F62E63679E7124DC862453674409131E"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Editor\\SolarLayoutInspector.cs.meta",
+                      "sha256":  "D3E3B8C32B4BF1225BC98E431EA54A8C8879B4360206BB74DC84A12231C7C262"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Editor\\SolarLayoutPipeline.cs",
+                      "sha256":  "41DEA7B2CB40EDBAA7A6947F7AD3312C8BC73B026C710F58D240F6E7247143F1"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Editor\\SolarLayoutPipeline.cs.meta",
+                      "sha256":  "F670D2AECF668904A1235876D827B2D103306D8A8ED4C35BC71087EFC4D7EAF5"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Editor\\SolarLayoutVerification.cs",
+                      "sha256":  "2037306CCED23B7A4E5F28DA790A64315879FA3C9D3CA97BF1E34214534C0EAB"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Editor\\SolarLayoutVerification.cs.meta",
+                      "sha256":  "1525916D87C7E74F127449225627346946C3A89F4B7A1EB4F91A884AA22493F1"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Runtime\\SolarLayoutData.cs",
+                      "sha256":  "977DEAEC6A7B2B24E2253851057DBFB3842E75700BE527E6F473000AF12B86C0"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Runtime\\SolarLayoutData.cs.meta",
+                      "sha256":  "990A7F6BC0F229A0F110B75056460527187995B1D390C006435A4D0BC96900F2"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Runtime\\SolarSystemBackdrop.cs",
+                      "sha256":  "9BF954870128C241300DFCAB0BC3B2AAB06CE48AE723BC9CA4882DE31FED5773"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Scripts\\Runtime\\SolarSystemBackdrop.cs.meta",
+                      "sha256":  "DEC5F8DAC109A6FBD11445473FD47D539AC0C9D7C929C5022F7CB6312D86C822"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Tests\\EditMode\\SolarLayoutMathTests.cs",
+                      "sha256":  "C7837248295E2993BD10C7BA2CA8FFCC3519C8FEB3F467055F57A41591689CDD"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Tests\\EditMode\\SolarLayoutMathTests.cs.meta",
+                      "sha256":  "CABA2680F4619453908B20FAFB28AB12B96CB434E55CE416299C2BE2817D845C"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Tests\\PlayMode\\SolarFlightTests.cs",
+                      "sha256":  "D839E1A14E2AECF885FB0EE31073B24598CE589CB73C2AA64813681B5E64667A"
+                  },
+                  {
+                      "path":  "Assets\\_Project\\Tests\\PlayMode\\SolarFlightTests.cs.meta",
+                      "sha256":  "911BB9BEF5F6889F21D527726850ED9366C386FEEB6A3BFA554C0417A79D1EFB"
+                  },
+                  {
+                      "path":  "Tools\\Blender\\SolarSystemLayout\\create_config.py",
+                      "sha256":  "28CA884D96882E92A88EF7337592D372372F8D12D6079C9316B8473450FD8385"
+                  },
+                  {
+                      "path":  "Tools\\Blender\\SolarSystemLayout\\layout_config.json",
+                      "sha256":  "7D10F38D35A895A66DE7022EA922B3A1BE21A222F60A7DAAF3C15519CE9A7977"
+                  },
+                  {
+                      "path":  "Tools\\Blender\\SolarSystemLayout\\pipeline.py",
+                      "sha256":  "B4668B42DFD924474DC6B8AE51681AFDD8EF17D88A66F029CC058A52FBD8CF5B"
+                  },
+                  {
+                      "path":  "Tools\\Blender\\SolarSystemLayout\\run.py",
+                      "sha256":  "AE2EEE687411805D3060E3EF22C884509268699ADFBD46D027694935D66AA735"
+                  },
+                  {
+                      "path":  "Tools\\Blender\\SolarSystemLayout\\SolarSpatialProbe.cs",
+                      "sha256":  "33A22E235CEDB4581903EFC0EB21B781526CBE1CE23CD8AF58F119ECAF4D30AF"
+                  }
+              ],
+    "documents":  [
+                      "docs/TASK_SOLAR_SYSTEM_LAYOUT.md",
+                      "docs/SOLAR_SYSTEM_LAYOUT_REPORT.md",
+                      "docs/STATUS.md",
+                      "docs/ENVIRONMENT.md",
+                      "docs/HANDOFF_ENVIRONMENT.md"
+                  ],
+    "evidence":  "docs/verification/SolarSystemLayout/",
+    "build":  "Builds/Windows-SolarLayout-Validation-20260908/"
+}

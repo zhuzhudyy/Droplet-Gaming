@@ -1,0 +1,79 @@
+{
+    "captured": true,
+    "srpBatcherConfigured": true,
+    "eventCount": 52,
+    "scope": "Actual Unity Frame Debugger event list for the current GameView, all passes. Event categories establish render path only. No GPU time or submitted-triangle total inferred from these events.",
+    "error": "",
+    "eventKinds": [
+        {
+            "name": "SRPBatch",
+            "count": 19
+        },
+        {
+            "name": "DrawProcedural",
+            "count": 6
+        },
+        {
+            "name": "DynamicGeometry",
+            "count": 7
+        },
+        {
+            "name": "Mesh",
+            "count": 20
+        }
+    ],
+    "eventNames": [
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 0:0) Draw Main Light Shadowmap/MainLightShadow/Shadows.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 0:0) Draw Main Light Shadowmap/MainLightShadow/Shadows.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 0:0) Draw Main Light Shadowmap/MainLightShadow/Shadows.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 1:0) DrawDepthNormalPrepass/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 2:0) SSAO",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 3:0) SSAO",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 4:0) SSAO",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 5:0) SSAO",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 6:0) DrawOpaqueObjects/RenderLoop.DrawSRPBatcher",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 7:0) CopyColor",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/(RP 9:0) BlitFinalToBackBuffer",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint/GUITexture.Draw",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint/GUITexture.Draw",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint/GUITexture.Draw",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint/GUITexture.Draw",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint/GUITexture.Draw",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint/GUITexture.Draw",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint/GUITexture.Draw",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint",
+        "UniversalRenderPipeline.RenderSingleCameraInternal: Chase Camera/ExecuteRenderGraph/DrawScreenSpaceUI/GUI.Repaint"
+    ]
+}

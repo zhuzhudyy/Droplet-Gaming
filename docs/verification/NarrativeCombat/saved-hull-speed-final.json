@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 1.56,
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.NarrativeSavedHullRelativeSweepTests.SavedNineVolumeFrigateCrosses150KmPerSecondSweepWithLodInteractionOff(False)",
+      "Status": "Passed",
+      "Duration": 0.8674704,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.NarrativeSavedHullRelativeSweepTests.SavedNineVolumeFrigateCrosses150KmPerSecondSweepWithLodInteractionOff(True)",
+      "Status": "Passed",
+      "Duration": 0.6534346,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

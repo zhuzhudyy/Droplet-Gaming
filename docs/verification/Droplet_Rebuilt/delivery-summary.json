@@ -1,0 +1,45 @@
+{
+  "Unity-Gray-0.png": {
+    "size": [
+      1920,
+      1080
+    ],
+    "bytes": 60678
+  },
+  "Unity-Gray-1.png": {
+    "size": [
+      1920,
+      1080
+    ],
+    "bytes": 61702
+  },
+  "Unity-Mirror-1.png": {
+    "size": [
+      1920,
+      1080
+    ],
+    "bytes": 67871
+  },
+  "Live-HeadTail-Motion-Evidence.png": {
+    "size": [
+      1920,
+      1080
+    ],
+    "bytes": 119918
+  },
+  "Live-FiveHits.png": {
+    "size": [
+      1920,
+      1080
+    ],
+    "bytes": 226712
+  },
+  "player": {
+    "completed": true,
+    "allChecksPassed": true,
+    "checks": 32,
+    "screenshots": 19,
+    "report": "docs\\verification\\Droplet_Rebuilt\\Player\\RebuiltVisible-20260908-130839-513\\lighting-validation.json"
+  },
+  "stopped_at": "Droplet rebuild only"
+}

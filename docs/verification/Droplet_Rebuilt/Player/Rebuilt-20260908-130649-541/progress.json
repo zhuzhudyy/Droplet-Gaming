@@ -1,0 +1,16 @@
+﻿{
+    "label": "Rebuilt",
+    "phase": "Finished with failures",
+    "utc": "2026-09-08T13:07:02.8629979Z",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Droplet_Rebuilt\\Player\\Rebuilt-20260908-130649-541",
+    "phaseFrame": 0,
+    "completedPhases": 5,
+    "screenshots": 19,
+    "unityFrame": 234161,
+    "running": false,
+    "focused": true,
+    "active": true,
+    "enabled": true,
+    "runInBackground": false,
+    "timeScale": 1.0
+}

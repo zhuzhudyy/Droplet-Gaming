@@ -1,0 +1,18 @@
+{
+  "scenes": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"count\": 1,\n  \"scenes\": [\n    {\n      \"name\": \"FleetAssault_Lighting\",\n      \"path\": \"Assets/_Project/Scenes/FleetAssault_Lighting.unity\",\n      \"isLoaded\": true,\n      \"isDirty\": false,\n      \"isActive\": true,\n      \"rootCount\": 2\n    }\n  ]\n}"
+      }
+    ]
+  },
+  "status": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"status\": \"ready\",\n  \"compiling\": false,\n  \"domainReloadInProgress\": false,\n  \"playMode\": \"stopped\",\n  \"lastHeartbeat\": \"2026-09-08T11:28:58.4859813Z\",\n  \"projectPath\": \"C:\\\\学习\\\\玩\\\\Unity\\\\新建文件夹\\\\DropletPrototype\",\n  \"unityVersion\": \"6000.5.10f1\"\n}"
+      }
+    ]
+  }
+}

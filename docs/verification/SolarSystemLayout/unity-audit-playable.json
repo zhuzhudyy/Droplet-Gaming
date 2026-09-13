@@ -1,0 +1,272 @@
+{
+  "passed": true,
+  "context": "Editor Edit Mode",
+  "unity": "6000.5.10f1",
+  "scene": "Assets/_Project/Scenes/FleetAssault_SolarLayout.unity",
+  "instances": 35,
+  "rocks": 32,
+  "lodGroups": 33,
+  "uniqueMeshes": 29,
+  "uniqueTriangles": 24256,
+  "materials": 5,
+  "textures": 2,
+  "meshNativeBytes": 1331216,
+  "textureNativeBytes": 5681680,
+  "meshTextureMiB": 6.688018798828125,
+  "mesh": [
+    {
+      "name": "Rock01_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock01_LOD0.fbx",
+      "vertices": 642,
+      "triangles": 1280,
+      "bytes": 47760,
+      "isReadable": false
+    },
+    {
+      "name": "Rock01_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock01_LOD1.fbx",
+      "vertices": 162,
+      "triangles": 320,
+      "bytes": 13200,
+      "isReadable": false
+    },
+    {
+      "name": "Rock01_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock01_LOD2.fbx",
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 4560,
+      "isReadable": false
+    },
+    {
+      "name": "Rock02_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock02_LOD0.fbx",
+      "vertices": 642,
+      "triangles": 1280,
+      "bytes": 47760,
+      "isReadable": false
+    },
+    {
+      "name": "Rock02_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock02_LOD1.fbx",
+      "vertices": 162,
+      "triangles": 320,
+      "bytes": 13200,
+      "isReadable": false
+    },
+    {
+      "name": "Rock02_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock02_LOD2.fbx",
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 4560,
+      "isReadable": false
+    },
+    {
+      "name": "Rock03_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock03_LOD0.fbx",
+      "vertices": 642,
+      "triangles": 1280,
+      "bytes": 47760,
+      "isReadable": false
+    },
+    {
+      "name": "Rock03_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock03_LOD1.fbx",
+      "vertices": 162,
+      "triangles": 320,
+      "bytes": 13200,
+      "isReadable": false
+    },
+    {
+      "name": "Rock03_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock03_LOD2.fbx",
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 4560,
+      "isReadable": false
+    },
+    {
+      "name": "Rock04_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock04_LOD0.fbx",
+      "vertices": 2003,
+      "triangles": 1280,
+      "bytes": 113088,
+      "isReadable": false
+    },
+    {
+      "name": "Rock04_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock04_LOD1.fbx",
+      "vertices": 814,
+      "triangles": 320,
+      "bytes": 44496,
+      "isReadable": false
+    },
+    {
+      "name": "Rock04_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock04_LOD2.fbx",
+      "vertices": 200,
+      "triangles": 80,
+      "bytes": 12144,
+      "isReadable": false
+    },
+    {
+      "name": "Rock05_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock05_LOD0.fbx",
+      "vertices": 642,
+      "triangles": 1280,
+      "bytes": 47760,
+      "isReadable": false
+    },
+    {
+      "name": "Rock05_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock05_LOD1.fbx",
+      "vertices": 162,
+      "triangles": 320,
+      "bytes": 13200,
+      "isReadable": false
+    },
+    {
+      "name": "Rock05_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock05_LOD2.fbx",
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 4560,
+      "isReadable": false
+    },
+    {
+      "name": "Rock06_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock06_LOD0.fbx",
+      "vertices": 642,
+      "triangles": 1280,
+      "bytes": 47760,
+      "isReadable": false
+    },
+    {
+      "name": "Rock06_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock06_LOD1.fbx",
+      "vertices": 162,
+      "triangles": 320,
+      "bytes": 13200,
+      "isReadable": false
+    },
+    {
+      "name": "Rock06_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock06_LOD2.fbx",
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 4560,
+      "isReadable": false
+    },
+    {
+      "name": "Rock07_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock07_LOD0.fbx",
+      "vertices": 642,
+      "triangles": 1280,
+      "bytes": 47760,
+      "isReadable": false
+    },
+    {
+      "name": "Rock07_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock07_LOD1.fbx",
+      "vertices": 162,
+      "triangles": 320,
+      "bytes": 13200,
+      "isReadable": false
+    },
+    {
+      "name": "Rock07_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock07_LOD2.fbx",
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 4560,
+      "isReadable": false
+    },
+    {
+      "name": "Rock08_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock08_LOD0.fbx",
+      "vertices": 1936,
+      "triangles": 1280,
+      "bytes": 109872,
+      "isReadable": false
+    },
+    {
+      "name": "Rock08_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock08_LOD1.fbx",
+      "vertices": 772,
+      "triangles": 320,
+      "bytes": 42480,
+      "isReadable": false
+    },
+    {
+      "name": "Rock08_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock08_LOD2.fbx",
+      "vertices": 213,
+      "triangles": 80,
+      "bytes": 12768,
+      "isReadable": false
+    },
+    {
+      "name": "Sun_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Sun_LOD0.fbx",
+      "vertices": 823,
+      "triangles": 1472,
+      "bytes": 71920,
+      "isReadable": false
+    },
+    {
+      "name": "Earth_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Earth_LOD0.fbx",
+      "vertices": 3183,
+      "triangles": 6016,
+      "bytes": 277488,
+      "isReadable": false
+    },
+    {
+      "name": "Earth_LOD1",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Earth_LOD1.fbx",
+      "vertices": 1023,
+      "triangles": 1840,
+      "bytes": 89136,
+      "isReadable": false
+    },
+    {
+      "name": "Earth_LOD2",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Earth_LOD2.fbx",
+      "vertices": 323,
+      "triangles": 528,
+      "bytes": 28592,
+      "isReadable": false
+    },
+    {
+      "name": "Sky_LOD0",
+      "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Sky_LOD0.fbx",
+      "vertices": 1922,
+      "triangles": 960,
+      "bytes": 136112,
+      "isReadable": false
+    }
+  ],
+  "texture": [
+    {
+      "name": "Earth_BaseColor_2048x1024",
+      "width": 2048,
+      "height": 1024,
+      "bytes": 2840840,
+      "format": "DXT1",
+      "mips": 12
+    },
+    {
+      "name": "SpaceStars_BaseColor",
+      "width": 2048,
+      "height": 1024,
+      "bytes": 2840840,
+      "format": "DXT1",
+      "mips": 12
+    }
+  ],
+  "allocatedEditorBytes": 858653731,
+  "reservedEditorBytes": 1436557312,
+  "graphicsDriverWholeEditorEstimate": 432341458,
+  "notes": "All LOD resources included. Editor native resource API, not attributable VRAM or Player memory. File sizes not used."
+}

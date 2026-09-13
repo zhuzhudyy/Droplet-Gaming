@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "blender": "5.2.1 LTS",
+  "configSha256": "0693b71db4557310c686cb95a83d1b4eb1a7fa3ae89847da51b39516bde97a1c",
+  "sourceReopen": {
+    "context": "independent saved source reopen",
+    "passed": true,
+    "markerCount": 120,
+    "maximumPositionErrorMeters": 5.601368251356039e-05,
+    "maximumUnitScaleError": 0,
+    "objectCount": 121,
+    "meshes": 0,
+    "materials": 0,
+    "images": 0,
+    "cameras": 0,
+    "lights": 0
+  },
+  "fbxRoundtrip": {
+    "context": "independent exported FBX reimport in Blender",
+    "passed": true,
+    "markerCount": 120,
+    "maximumPositionErrorMeters": 5.601368251356039e-05,
+    "maximumUnitScaleError": 0,
+    "objectCount": 121,
+    "meshes": 120,
+    "materials": 0,
+    "images": 0,
+    "cameras": 0,
+    "lights": 0
+  },
+  "sourceUnchanged": true,
+  "note": "FBX mesh objects are tiny transform proxies only; actual Unity importer/scene validation is separately required."
+}

@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\r\n  \"status\": \"completed\",\r\n  \"duration\": 1.75,\r\n  \"summary\": {\r\n    \"total\": 3,\r\n    \"passed\": 3,\r\n    \"failed\": 0,\r\n    \"skipped\": 0,\r\n    \"inconclusive\": 0\r\n  },\r\n  \"results\": [\r\n    {\r\n      \"FullName\": \"DropletPrototype.Tests.EditMode.PerfectDropletImportTests.ImportedMeshHasExpectedScaleForwardAndContinuousOutwardNormals\",\r\n      \"Status\": \"Passed\",\r\n      \"Duration\": 0.0501718,\r\n      \"Message\": null,\r\n      \"StackTrace\": null\r\n    },\r\n    {\r\n      \"FullName\": \"DropletPrototype.Tests.EditMode.PerfectDropletImportTests.ReimportKeepsGuidMeshLocalIdAndVisualPrefabReferences\",\r\n      \"Status\": \"Passed\",\r\n      \"Duration\": 0.3891772,\r\n      \"Message\": null,\r\n      \"StackTrace\": null\r\n    },\r\n    {\r\n      \"FullName\": \"DropletPrototype.Tests.EditMode.PerfectDropletImportTests.SavedTestCopyChangesOnlyDropletMeshAndPreservesGameplayAndFleet\",\r\n      \"Status\": \"Passed\",\r\n      \"Duration\": 1.2663928,\r\n      \"Message\": null,\r\n      \"StackTrace\": null\r\n    }\r\n  ]\r\n}"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Actual Unity Profiler binary capture; panorama Game view. Frames=240; wall seconds=6.3732697000014; Unity=6000.5.10f1. Editor trace, not standalone GPU time.

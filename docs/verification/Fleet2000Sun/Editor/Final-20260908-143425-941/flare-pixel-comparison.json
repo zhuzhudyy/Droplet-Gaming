@@ -1,0 +1,21 @@
+{
+  "scope": "Read-only pixel differences from actual frozen Game screenshots. No image processing applied to delivered screenshots. Occluded pair should have negligible flare contribution compared to the unobstructed pair.",
+  "pairs": {
+    "occluded": {
+      "meanAbsoluteChannelDifference255": 0.0,
+      "maximumChannelDifference255": 0.0,
+      "pixelsDifferentOver2": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    "unoccluded": {
+      "meanAbsoluteChannelDifference255": 0.6548387408256531,
+      "maximumChannelDifference255": 82.0,
+      "pixelsDifferentOver2": 156291,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "occludedToUnoccludedDifferenceRatio": 0.0,
+  "occlusionComparisonPassed": true
+}

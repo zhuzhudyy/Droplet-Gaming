@@ -1,0 +1,20 @@
+﻿{
+  "status": "completed",
+  "buildId": "build_67c6bc1c9e0a",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows-v0.2.1-G09/DropletPrototype.exe",
+  "totalSizeBytes": 118856072,
+  "buildTimeMs": 12928,
+  "buildStartedAt": "2026-09-07T04:23:21.0819554Z",
+  "buildEndedAt": "2026-09-07T04:23:34.0100732Z",
+  "totalWarnings": 1,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ],
+  "fileCount": 195
+}

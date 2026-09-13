@@ -1,0 +1,13 @@
+DropletPrototype original synthesized audio
+
+Assets: Impact_Light.wav, Impact_Heavy.wav, Flight_Resonance.wav
+Creator: generated specifically for the DropletPrototype project by the project agent.
+Source: Tools/Audio/generate_audio.py; mathematical oscillators and seeded random noise.
+No third-party recordings, samples, libraries, paid services, or external assets.
+License: CC0 1.0 Universal (CC0-1.0); attribution is not required.
+The source generator and complete sample manifest are retained for editing and reproduction.
+
+Technical: mono, 48,000 Hz, signed 16-bit PCM WAV. Impact peaks are below full scale.
+The flight bed loops at exactly two seconds and is intentionally very quiet in-game.
+Audio assets were generated and their WAV headers, sample lengths and peaks were checked.
+Listening and Unity spatial mix acceptance must be recorded separately after integration.

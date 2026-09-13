@@ -1,0 +1,9 @@
+{
+    "passed": true,
+    "hits": 1,
+    "score": 2480,
+    "restoredColliders": 9,
+    "seconds": 1.019999623298645,
+    "shipLength": 22.139999389648439,
+    "scope": "Temporary single imported prefab in baseline Play scene. Normal 0.02s fixed motor steps at existing speed, approach and sweep before applying movement; genuine score/destruction; all LOD roots and hit volumes verified; restart. No scene changes saved."
+}

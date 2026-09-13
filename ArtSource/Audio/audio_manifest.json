@@ -1,0 +1,40 @@
+{
+  "generator": "Tools/Audio/generate_audio.py",
+  "license": "Original project assets; CC0-1.0",
+  "sources": "Mathematical synthesis only. No third-party samples.",
+  "assets": [
+    {
+      "file": "ArtSource\\Audio\\Exports\\Impact_Light.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_seconds": 0.72,
+      "peak": 0.72,
+      "rms": 0.07637900850161118,
+      "bytes": 69164,
+      "sha256": "6476caeebfca002a1cfc7b727d82d7b8b78ae95f187b35fc2d974bb5ede52039"
+    },
+    {
+      "file": "ArtSource\\Audio\\Exports\\Impact_Heavy.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_seconds": 1.12,
+      "peak": 0.76,
+      "rms": 0.08152792491705507,
+      "bytes": 107564,
+      "sha256": "e60533cf66967b31ece8f4309a1b114351b7fb4a3d55503f87198cecefe483a8"
+    },
+    {
+      "file": "ArtSource\\Audio\\Exports\\Flight_Resonance.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "pcm_bits": 16,
+      "duration_seconds": 2.0,
+      "peak": 0.3,
+      "rms": 0.1886929930101254,
+      "bytes": 192044,
+      "sha256": "be82b81b576134b3899204623f853c1c32fd8105a3107d3861983f11056db46b"
+    }
+  ]
+}

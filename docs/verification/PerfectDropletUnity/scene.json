@@ -1,0 +1,31 @@
+{
+    "path": "Assets/_Project/Scenes/FleetAssault_PerfectDroplet_Test.unity",
+    "baseHash": "f8460a752709de60651f394aea9c4230dbdbe75fa72edb7b5bab8152cc120bfc",
+    "newHash": "d11aca78d09a87e2b52ed9d757cf4f75394a00412938a93c117a97632a224a10",
+    "settings": "Assets/_Project/Data/FleetMission_Expanded.asset",
+    "material": "Assets/_Project/Art/LightingUpgrade/MetalDroplet.mat",
+    "modelGuid": "8b834345e7841234b986fef7253efa86",
+    "ships": 120,
+    "renderers": 1,
+    "triangles": 5632,
+    "collidersBefore": 1080,
+    "collidersAfter": 1080,
+    "previousSize": {
+        "x": 1.2000000476837159,
+        "y": 1.2000000476837159,
+        "z": 2.4000000953674318
+    },
+    "newSize": {
+        "x": 0.774193525314331,
+        "y": 0.774193525314331,
+        "z": 2.4000000953674318
+    },
+    "visualRootScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+    },
+    "hitRadius": 0.699999988079071,
+    "allTargetsPreserved": true,
+    "gameplayReferencesPreserved": true
+}

@@ -1,0 +1,18 @@
+{
+  "fbx_sha256": "d5984085aa89ccb2a939d7fe9c237343e120f6aa08e955e763c1a910205a2445",
+  "vertices": 2818,
+  "triangles": 5632,
+  "mesh_objects": 1,
+  "max_vertex_error_m": 9.12696123123169e-08,
+  "max_normal_error_degrees": 0.04167224280606393,
+  "dimensions_calibrated_blender_xyz": [
+    0.774193525314331,
+    2.4000000953674316,
+    0.774193525314331
+  ],
+  "narrow_tip_positive_Y": true,
+  "materials": [
+    "Droplet_NeutralInspection.001"
+  ],
+  "source_unchanged": true
+}

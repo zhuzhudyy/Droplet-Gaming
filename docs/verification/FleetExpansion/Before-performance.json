@@ -1,0 +1,133 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_SolarLayout.unity",
+    "utc": "2026-09-08T07:57:36.8805731Z",
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "api": "Direct3D12",
+    "scope": "Editor Play mode only. Same actual GameView dimensions and camera offsets in both scenes. Time.unscaledDeltaTime includes Editor overhead/pacing; Main Thread and GC markers include editor work, not isolated player costs. Native selected LOD/frustum triangle estimate is not GPU submission. Dense phase uses explicit ResetPose attack starts followed by real fixed motor steps, not a continuous navigation route.",
+    "error": "",
+    "completed": true,
+    "phases": [
+        {
+            "name": "Near",
+            "frames": 300,
+            "width": 1920,
+            "height": 1080,
+            "targets": 40,
+            "renderers": 40,
+            "drawCalls": 316,
+            "triangles": 158386,
+            "effectsPeak": 0,
+            "pool": 441,
+            "meanMs": 6.61786413192749,
+            "p50Ms": 6.158694744110107,
+            "p95Ms": 6.426701068878174,
+            "p99Ms": 12.843502044677735,
+            "mainMeanMs": 6.609981536865234,
+            "gcMeanBytes": 13862.513671875,
+            "mainAvailable": true,
+            "gcAvailable": true,
+            "allocated": 935761537,
+            "reserved": 1517973504,
+            "mono": 832454656,
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "selectedLods": [
+                40,
+                0,
+                0,
+                0
+            ],
+            "selectedFrustumTriangles": 73676
+        },
+        {
+            "name": "Panorama",
+            "frames": 300,
+            "width": 1920,
+            "height": 1080,
+            "targets": 40,
+            "renderers": 40,
+            "drawCalls": 372,
+            "triangles": 199132,
+            "effectsPeak": 0,
+            "pool": 441,
+            "meanMs": 6.357816696166992,
+            "p50Ms": 6.137202262878418,
+            "p95Ms": 6.634205341339111,
+            "p99Ms": 14.084297180175782,
+            "mainMeanMs": 6.3549017906188969,
+            "gcMeanBytes": 12794.080078125,
+            "mainAvailable": true,
+            "gcAvailable": true,
+            "allocated": 935897611,
+            "reserved": 1517973504,
+            "mono": 833916928,
+            "cameraPosition": {
+                "x": 950.0,
+                "y": 720.0,
+                "z": -1150.0
+            },
+            "cameraForward": {
+                "x": -0.45149117708206179,
+                "y": -0.3231726288795471,
+                "z": 0.8316941857337952
+            },
+            "selectedLods": [
+                40,
+                0,
+                0,
+                0
+            ],
+            "selectedFrustumTriangles": 91652
+        },
+        {
+            "name": "Penetrations",
+            "frames": 300,
+            "width": 1920,
+            "height": 1080,
+            "targets": 40,
+            "renderers": 40,
+            "drawCalls": 540,
+            "triangles": 138420,
+            "effectsPeak": 16,
+            "pool": 441,
+            "meanMs": 6.696139335632324,
+            "p50Ms": 6.18169641494751,
+            "p95Ms": 12.305194854736329,
+            "p99Ms": 12.541404724121094,
+            "mainMeanMs": 6.691094398498535,
+            "gcMeanBytes": 13472.9267578125,
+            "mainAvailable": true,
+            "gcAvailable": true,
+            "allocated": 937127966,
+            "reserved": 1517973504,
+            "mono": 837054464,
+            "cameraPosition": {
+                "x": 59.0,
+                "y": 56.0,
+                "z": 233.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "selectedLods": [
+                15,
+                0,
+                0,
+                0
+            ],
+            "selectedFrustumTriangles": 22088
+        }
+    ]
+}

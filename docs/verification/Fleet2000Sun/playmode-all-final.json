@@ -1,0 +1,440 @@
+﻿{
+  "status": "completed",
+  "duration": 61.62,
+  "summary": {
+    "total": 61,
+    "passed": 61,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.CompoundIdentityAndRepeatedPassScoreOnlyOneEvent",
+      "Status": "Passed",
+      "Duration": 0.0452109,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.FullSweepBufferDoesNotDropTargets(8)",
+      "Status": "Passed",
+      "Duration": 0.0044123,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.FullSweepBufferDoesNotDropTargets(25)",
+      "Status": "Passed",
+      "Duration": 0.0014805,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.InitialOverlapAndZeroTravelHandleSaturatedBuffer",
+      "Status": "Passed",
+      "Duration": 0.0027903,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.ResetTeleportDoesNotSweepAndNonTargetsNeverBlock",
+      "Status": "Passed",
+      "Duration": 0.0025566,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.SharpCornerUsesSegmentsNotDiagonalChord",
+      "Status": "Passed",
+      "Duration": 0.0006847,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.ThinTargetHitAtFourTimesBoostWithEndpointsOutside",
+      "Status": "Passed",
+      "Duration": 0.0004655,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.DropletRebuiltPlayTests.FiveContinuousShipHitsPauseAndRestartPreserveRebuiltSurface",
+      "Status": "Passed",
+      "Duration": 1.4832797,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.DropletRebuiltPlayTests.HeadTailAlignWithMeasuredStraightFlightAfterTurnsAndReload",
+      "Status": "Passed",
+      "Duration": 1.2921129,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.DropletRebuiltPlayTests.SweptFullFleetVictoryAndThreeRestartsRetainMeshAndPool",
+      "Status": "Passed",
+      "Duration": 0.7695139,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.ArbitrarilyLongSweepActivatesEveryDistantShipAndDeduplicatesCompoundShapes",
+      "Status": "Passed",
+      "Duration": 0.0226668,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.CameraAndPlayerApproachSwitchExactlyOneViewAndDisablingManagerFailsOpen",
+      "Status": "Passed",
+      "Duration": 0.0207825,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.CombinedPartMatricesBeyond511AreSubmittedWithoutDroppingTheRemainder",
+      "Status": "Passed",
+      "Duration": 0.0688407,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.DistantInitialOverlapAndResetKeepIdentityAndNoGhostInstance",
+      "Status": "Passed",
+      "Duration": 0.0021973,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.RepeatedCacheRebuildKeepsAllUniqueSavedTargetsAndSharedAssets",
+      "Status": "Passed",
+      "Duration": 0.0041353,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.SharedPartsRenderInCombinedGroupsAndQualityOffHidesOnlyOptionalCores",
+      "Status": "Passed",
+      "Duration": 0.0615958,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FlightTests.BoostBrakeAndThrottleAreBounded",
+      "Status": "Passed",
+      "Duration": 0.0042359,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FlightTests.DisabledSimulationDoesNotMoveInRealFixedSteps",
+      "Status": "Passed",
+      "Duration": 0.0381357,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FlightTests.FixedInputPathIndependentOfRenderBatching",
+      "Status": "Passed",
+      "Duration": 0.001473,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.AllExpandedTargetsWinThroughRealSweptMotorEventsAndThreeRestartsReuseResources",
+      "Status": "Passed",
+      "Duration": 0.7638808,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.ExpandedMissionPauseTimeoutAndRestartUseTheSavedDuration",
+      "Status": "Passed",
+      "Duration": 0.6563942,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.ImportedHullAndEachMajorEngineHaveCoverageWithoutDistantAirHits",
+      "Status": "Passed",
+      "Duration": 0.5265094,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.QueryCapacityLimitUsesCompleteFallbackAndDeduplicatesCompoundShips(4096,False)",
+      "Status": "Passed",
+      "Duration": 0.082593,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.QueryCapacityLimitUsesCompleteFallbackAndDeduplicatesCompoundShips(4097,False)",
+      "Status": "Passed",
+      "Duration": 0.0785179,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.QueryCapacityLimitUsesCompleteFallbackAndDeduplicatesCompoundShips(4097,True)",
+      "Status": "Passed",
+      "Duration": 0.0665127,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.SavedExpandedSceneRegistersAllTargetsAndSharesCompleteLodAssets",
+      "Status": "Passed",
+      "Duration": 0.6334231,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FusionFleetTests.SingleImportedShipSweepsAtEveryLodHideTheWholeModelAndRestoreOnRestart",
+      "Status": "Passed",
+      "Duration": 0.5281479,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.DestroyAndRestartInvalidateLocalReflectionsAndQualityDisablesCapture",
+      "Status": "Passed",
+      "Duration": 0.650764,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.FiveDrivesRespectEveryLodQualityDestructionAndRestore",
+      "Status": "Passed",
+      "Duration": 0.6155607,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.LightingFleetCompletesThroughSweptMovementAndThreeRestartsReuseVisuals",
+      "Status": "Passed",
+      "Duration": 0.7944746,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.SolarLightingStaysInWorldDirectionAcrossViewpointsAndPause",
+      "Status": "Passed",
+      "Duration": 0.674705,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.FinalStepHitBeatsTimeoutAndMovementIsClamped",
+      "Status": "Passed",
+      "Duration": 0.0026449,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.HitBeyondFinalTimeBudgetCannotWin",
+      "Status": "Passed",
+      "Duration": 0.0005356,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.PauseFreezesTimeMotionDamageAndScore",
+      "Status": "Passed",
+      "Duration": 0.090502,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.ReadyDoesNotAdvanceUntilStarted",
+      "Status": "Passed",
+      "Duration": 0.0008703,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.RecoveryAndRestartNeverDamageTeleportPathOrResetScore",
+      "Status": "Passed",
+      "Duration": 0.00138,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.TenRestartsResetTargetsScoresMotionAndSubscriptions",
+      "Status": "Passed",
+      "Duration": 0.001287,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.VictoryAndTimeoutEachResolveOnlyOnce",
+      "Status": "Passed",
+      "Duration": 0.0006674,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PerfectDropletPlayTests.ContinuousFiveShipFlightPauseAndRestartKeepVisualAligned",
+      "Status": "Passed",
+      "Duration": 0.6771969,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PerfectDropletPlayTests.NewMeshSurvivesSweptVictoryAndThreeRestarts",
+      "Status": "Passed",
+      "Duration": 0.7410522,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.ActualFleetWithImportedCompoundModelsCompletesAndRestartsThreeTimes",
+      "Status": "Passed",
+      "Duration": 0.5079524,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.DisabledOrExhaustedEffectsCannotChangeCompoundHighSpeedHitsOrScore(Off,1)",
+      "Status": "Passed",
+      "Duration": 0.005864,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.DisabledOrExhaustedEffectsCannotChangeCompoundHighSpeedHitsOrScore(High,0)",
+      "Status": "Passed",
+      "Duration": 0.0009177,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.DisabledOrExhaustedEffectsCannotChangeCompoundHighSpeedHitsOrScore(High,1)",
+      "Status": "Passed",
+      "Duration": 0.0205961,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.FaultyPresentationListenerCannotSuppressLaterScoringOrShipsAndHitContextUsesPath",
+      "Status": "Passed",
+      "Duration": 0.0189954,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.PauseFreezesActivePresentationAndMissionAndResumeAdvancesAgain",
+      "Status": "Passed",
+      "Duration": 0.1767728,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.SafeTeleportAndRestartClearExistingTrailWithoutDamageAlongItsOldPositions",
+      "Status": "Passed",
+      "Duration": 0.0030798,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.SwitchingEffectsOffClearsActiveVisualsAndSoundWithoutChangingCommittedGameplay",
+      "Status": "Passed",
+      "Duration": 0.0113826,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.PresentationRegressionTests.ThreeRestartsAndRepeatedBindingReusePoolsAndClearAudioAndWrecks",
+      "Status": "Passed",
+      "Duration": 0.0246584,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.ReactorExplosionTests.MalformedVisualContainingColliderCannotBeReactivatedForInstability",
+      "Status": "Passed",
+      "Duration": 0.0157727,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.ReactorExplosionTests.OneHundredTwentySimultaneousKillsRespectHardBudgetsAndNeverLoseGameplay(High,12,2)",
+      "Status": "Passed",
+      "Duration": 0.01883,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.ReactorExplosionTests.OneHundredTwentySimultaneousKillsRespectHardBudgetsAndNeverLoseGameplay(Low,6,1)",
+      "Status": "Passed",
+      "Duration": 0.0164924,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.ReactorExplosionTests.OneHundredTwentySimultaneousKillsRespectHardBudgetsAndNeverLoseGameplay(Off,0,0)",
+      "Status": "Passed",
+      "Duration": 0.014651,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.ReactorExplosionTests.PauseFreezesInstabilityAndRestartOrDisableCannotLeaveLiveViewsOrLights",
+      "Status": "Passed",
+      "Duration": 0.1566934,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.ReactorExplosionTests.SweptPenetrationCommitsScoreBeforeShortReactorInstabilityAndMainBurst",
+      "Status": "Passed",
+      "Duration": 0.2287618,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SceneLoopTests.SavedTenShipSceneCanStartPauseWinAndRestartThreeTimes",
+      "Status": "Passed",
+      "Duration": 0.4708421,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SolarFlightTests.ActualFixedUpdateContinuesBeyondOldBoundaryAndPauseRestartRemainCorrect",
+      "Status": "Passed",
+      "Duration": 0.1116715,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SolarFlightTests.FixedStepBoostFlightCrossesOldLimitThenWarnsAndRecoversAtEightTimesRadius",
+      "Status": "Passed",
+      "Duration": 0.0086017,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SolarFlightTests.HighSpeedCompoundHitsAndTurnsRemainStableFarOutsideOriginalArena",
+      "Status": "Passed",
+      "Duration": 0.0019961,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.VisualUpgradeReflectionTests.ActualBurstEnvelopeFreezesWithPauseAndLeavesNoChromeImpulseAfterRestart",
+      "Status": "Passed",
+      "Duration": 48.1325752,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.VisualUpgradeReflectionTests.ReactorSourcesStayWorldAnchoredAndQualitySuppressionDoesNotWaitForReselection",
+      "Status": "Passed",
+      "Duration": 0.0787732,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

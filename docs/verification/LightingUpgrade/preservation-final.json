@@ -1,0 +1,9 @@
+{
+  "baselineCount": 609,
+  "changed": [
+    "Assets/_Project/Scripts/Editor/DropletPrototype.Editor.asmdef",
+    "Assets/_Project/Scripts/Runtime/DropletPrototype.Runtime.asmdef",
+    "docs/STATUS.md",
+    "docs/ENVIRONMENT.md"
+  ]
+}

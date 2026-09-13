@@ -1,0 +1,56 @@
+{
+  "source_sha256": "d0503df3290a8404ea35e04a9d12425284a27d4461a7c679087d63ded6931e80",
+  "fbx_sha256": "64ae334e108a0ffe7ffb39499d2c4f30333e800b461fdc43c2829aabce5c33f8",
+  "source_head": "+Z",
+  "source_up": "+Y",
+  "staging_head": "+Y",
+  "staging_up": "+Z",
+  "conversion_determinant": 1.0,
+  "matrix": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "options": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "use_space_transform": true,
+    "bake_space_transform": true,
+    "mesh_smooth_type": "OFF",
+    "use_mesh_modifiers": true,
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "AUTO",
+    "use_custom_props": true
+  },
+  "export_objects": 1,
+  "marker_policy": "Unity derives named empty marker positions from the actual imported mesh endpoints; avoids known FBX Empty axis issue"
+}

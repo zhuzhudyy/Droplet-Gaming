@@ -1,0 +1,26 @@
+{
+  "status": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"status\": \"playing\",\n  \"compiling\": false,\n  \"domainReloadInProgress\": false,\n  \"playMode\": \"playing\",\n  \"lastHeartbeat\": \"2026-09-08T08:21:08.087472Z\",\n  \"projectPath\": \"C:\\\\学习\\\\玩\\\\Unity\\\\新建文件夹\\\\DropletPrototype\",\n  \"unityVersion\": \"6000.5.10f1\"\n}"
+      }
+    ]
+  },
+  "scenes": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"count\": 1,\n  \"scenes\": [\n    {\n      \"name\": \"FleetAssault_Expanded\",\n      \"path\": \"Assets/_Project/Scenes/FleetAssault_Expanded.unity\",\n      \"isLoaded\": true,\n      \"isDirty\": false,\n      \"isActive\": true,\n      \"rootCount\": 2\n    }\n  ]\n}"
+      }
+    ]
+  },
+  "validationLog": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"entries\": [\n    {\n      \"seq\": 1568,\n      \"timestampUtc\": \"2026-09-08T08:20:23.7365562Z\",\n      \"level\": \"log\",\n      \"message\": \"EXPANDED FLEET validation passed.\",\n      \"stackTrace\": \"UnityEngine.Debug:Log (object)\\nDropletPrototype.Editor.FusionFleetPipeline:ValidateMenu () (at Assets/_Project/Scripts/Editor/FusionFleetPipeline.cs:173)\\nUnityEditor.EditorApplication:ExecuteMenuItem (string)\\nUnity.Pipeline.Editor.Commands.MenuItemCommand:ExecuteMenu (string) (at ./Library/PackageCache/com.unity.pipeline@9bb4172c603c/Editor/Commands/MenuItemCommand.cs:73)\\nSystem.Reflection.MethodBase:Invoke (object,object[])\\nUnity.Pipeline.BasePipelineServer:ExecuteCommandDirect (Unity.Pipeline.Commands.CommandInfo,object[]) (at ./Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Common/BasePipelineServer.cs:2632)\\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass134_0:<ExecuteCommand>b__1 () (at ./Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Common/BasePipelineServer.cs:2508)\\nUnity.Pipeline.Threading.Dispatcher/WorkItem`1<object>:ExecuteCore () (at ./Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Common/Dispatcher.cs:284)\\nUnity.Pipeline.Threading.Dispatcher/WorkItem:Execute () (at ./Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Common/Dispatcher.cs:229)\\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue (int) (at ./Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Common/Dispatcher.cs:195)\\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue () (at ./Library/PackageCache/com.unity.pipeline@9bb4172c603c/Runtime/Common/Dispatcher.cs:210)\\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions ()\\n\"\n    }\n  ],\n  \"cursor\": 1568,\n  \"returned\": 1,\n  \"dropped\": false\n}"
+      }
+    ]
+  }
+}

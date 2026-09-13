@@ -1,0 +1,49 @@
+{
+  "blender": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+  "source_sha256": "b1d7d6316d7982a3723f2eeb668c66f02f73efb3e2bb57031717161466158451",
+  "length": 2.4,
+  "diameter": 0.7741935483870968,
+  "ratio": 3.1,
+  "control_points_z_r_before_scaling": [
+    [
+      -1.55,
+      0
+    ],
+    [
+      -1.55,
+      0.5
+    ],
+    [
+      -0.95,
+      0.9
+    ],
+    [
+      0.8,
+      0.18
+    ],
+    [
+      1.55,
+      0.035
+    ],
+    [
+      1.55,
+      0
+    ]
+  ],
+  "scale_z": 0.7741935483870968,
+  "scale_r": 0.7847198348330278,
+  "maximum_radius_t": 0.35181335658912083,
+  "rear_cap_boundary_t": 0.075,
+  "tip_cap_boundary_t": 0.9,
+  "tip_grid_radius_power": 1.6,
+  "maximum_radius_z": -0.5784740214273697,
+  "tip_radius_of_curvature_m": 0.001623919701276022,
+  "rear_radius_of_curvature_m": 0.41426522991735243,
+  "game_triangles": 5632,
+  "reference_triangles": 22528,
+  "lights": 0,
+  "cameras": 0,
+  "lods": false
+}

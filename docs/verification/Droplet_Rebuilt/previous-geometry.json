@@ -1,0 +1,32 @@
+{
+  "vertices": 2818,
+  "triangles": 5632,
+  "quads": 2816,
+  "triangle_caps": 0,
+  "components": 1,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "duplicate_faces": 0,
+  "duplicate_vertices": 0,
+  "zero_area_triangles": 0,
+  "inward_triangles": 0,
+  "signed_volume": 0.6018081338501695,
+  "nonadjacent_intersections": 0,
+  "dimensions": [
+    0.774193525314331,
+    0.774193525314331,
+    2.4000000953674316
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "determinant": 1.0,
+  "hard_edges": 0
+}

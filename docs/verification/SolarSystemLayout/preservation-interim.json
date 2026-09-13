@@ -1,0 +1,14 @@
+﻿[
+    {
+        "path":  "Assets\\Settings\\PC_RPAsset.asset",
+        "status":  "changed"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\DropletPrototype.Editor.asmdef",
+        "status":  "changed"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\HudPresenter.cs",
+        "status":  "changed"
+    }
+]

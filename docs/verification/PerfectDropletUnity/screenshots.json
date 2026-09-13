@@ -1,0 +1,56 @@
+[
+  {
+    "file": "Live-FiveHits.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 189562
+  },
+  {
+    "file": "Live-Paused.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 194066
+  },
+  {
+    "file": "Live-Ready.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 249030
+  },
+  {
+    "file": "Live-Restarted.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 249067
+  },
+  {
+    "file": "Mirror-1.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 70101
+  },
+  {
+    "file": "Mirror-2.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 98895
+  },
+  {
+    "file": "Mirror-3.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 68862
+  },
+  {
+    "file": "Neutral-Front.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 115437
+  },
+  {
+    "file": "Neutral-Side.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 180040
+  }
+]

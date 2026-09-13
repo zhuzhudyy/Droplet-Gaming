@@ -1,0 +1,991 @@
+{
+  "status": "completed",
+  "buildId": "build_89662af84539",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype.exe",
+  "totalSizeBytes": 115490360,
+  "buildTimeMs": 76193,
+  "buildStartedAt": "2026-09-07T03:36:15.5050898Z",
+  "buildEndedAt": "2026-09-07T03:37:31.6989062Z",
+  "totalWarnings": 1,
+  "totalErrors": 0,
+  "files": [
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/globalgamemanagers",
+      "role": "GlobalGameManagers",
+      "sizeBytes": 122724
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/globalgamemanagers.assets",
+      "role": "SharedAssets",
+      "sizeBytes": 1009032
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/globalgamemanagers.assets.resS",
+      "role": "StreamingResourceFile",
+      "sizeBytes": 6174944
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/level0",
+      "role": "Scene",
+      "sizeBytes": 37432
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/resources.assets",
+      "role": "ResourcesFile",
+      "sizeBytes": 3220
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Resources/unity_builtin_extra",
+      "role": "BuiltInShaders",
+      "sizeBytes": 403656
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/RuntimeInitializeOnLoads.json",
+      "role": "GlobalGameManagers",
+      "sizeBytes": 5012
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/ScriptingAssemblies.json",
+      "role": "GlobalGameManagers",
+      "sizeBytes": 4763
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/sharedassets0.assets",
+      "role": "SharedAssets",
+      "sizeBytes": 80896
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/sharedassets0.assets.resS",
+      "role": "StreamingResourceFile",
+      "sizeBytes": 524288
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/boot.config",
+      "role": "BootConfig",
+      "sizeBytes": 156
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Plugins/x86_64/libonigwrap.dll",
+      "role": "dll",
+      "sizeBytes": 551336
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Assembly-CSharp.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 3584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/DropletPrototype.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 25088
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Microsoft.CodeAnalysis.CSharp.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 6098320
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Microsoft.CodeAnalysis.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 2903440
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Mono.Security.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 241152
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/mscorlib.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 4632064
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/netstandard.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 90112
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Newtonsoft.Json.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 691712
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Buffers.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 4608
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Collections.Immutable.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 252680
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.ComponentModel.Composition.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 257024
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Configuration.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 124928
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Core.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 1113088
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Data.DataSetExtensions.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 29696
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Data.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 2125312
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 2641920
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Drawing.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 489984
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.EnterpriseServices.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 44544
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.IO.Compression.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 114688
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 18432
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Memory.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 4608
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Net.Http.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 122880
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Numerics.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 119296
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Reflection.Metadata.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 487584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 19256
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Runtime.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 12288
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Runtime.Serialization.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 934400
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Security.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 320000
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.ServiceModel.Internals.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 215040
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Text.Encoding.CodePages.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 5120
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Threading.Tasks.Extensions.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 5120
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Transactions.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 35328
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Xml.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 3160064
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/System.Xml.Linq.dll",
+      "role": "DependentManagedLibrary",
+      "sizeBytes": 136704
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.AI.Navigation.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 23040
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Burst.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 296960
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Burst.Unsafe.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 5632
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Collections.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 439808
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 5120
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.InputSystem.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 1094656
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.InputSystem.ForUI.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 15360
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 4096
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 3584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Mathematics.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 5632
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Multiplayer.Center.Common.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 8704
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.PathTracing.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 142848
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Pipeline.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 284672
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Pipeline.IlInterpreter.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 332800
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 7680
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 1092096
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 11264
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 3584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 263168
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 3584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 198656
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 4096
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 722432
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 3584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Scripting.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 68528
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.SurfaceCache.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 3584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.TextMeshPro.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 439296
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.Timeline.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 121856
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 91648
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 86016
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.VisualScripting.Core.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 550400
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.VisualScripting.DocCodeExamples.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 6144
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 335872
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/Unity.VisualScripting.State.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 27136
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 49072
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 118184
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AIModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 86448
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AMDModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 21928
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 120744
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AnimationModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 218536
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ARModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 27048
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 42408
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.AudioModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 142768
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ClothModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 37288
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 29096
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 28072
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 46504
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.CoreModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 1974192
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 28080
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.DirectorModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 41896
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 210344
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 32680
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 45480
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.GIModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 25520
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 14256
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.GridModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 32176
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 105392
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.HierarchyModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 100264
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 25520
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.IdentifiersModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 16816
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 33704
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 189360
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.InputForUIModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 55720
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 41896
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.InputModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 30632
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.InsightsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 15784
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 28080
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 28080
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.MarshallingModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 97200
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.MathematicsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 740784
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.MultiplayerModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 17840
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 40360
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 168872
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 26544
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 222120
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 14256
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.PhysicsCore2DModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 450472
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 180136
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 124840
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 27056
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 25512
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 27560
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ScriptingModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 27568
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 25520
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 36776
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 29608
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 33712
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.StreamingModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 27048
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 30632
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 42416
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.TerrainModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 131496
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 27048
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 77736
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 332712
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 39344
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.TilemapModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 75176
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.TLSModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 33200
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.U2DRuntimeModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 26536
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UI.dll",
+      "role": "ManagedLibrary",
+      "sizeBytes": 262144
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 2351024
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UIModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 54184
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UmbraModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 25512
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 35752
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 60336
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 29096
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityConsentModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 16296
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 27560
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 30128
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 29608
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 79280
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 28584
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 36776
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 227752
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 32680
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.VFXModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 81832
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.VideoModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 48552
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 43440
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.WindModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 28080
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Managed/UnityEngine.XRModule.dll",
+      "role": "ManagedEngineAPI",
+      "sizeBytes": 95664
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "role": "dll",
+      "sizeBytes": 446976
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/app.info",
+      "role": "info",
+      "sizeBytes": 31
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype_Data/Resources/unity default resources",
+      "role": "unity default resources",
+      "sizeBytes": 5881648
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/DropletPrototype.exe",
+      "role": "exe",
+      "sizeBytes": 667648
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/dstorage.dll",
+      "role": "dll",
+      "sizeBytes": 206904
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/dstoragecore.dll",
+      "role": "dll",
+      "sizeBytes": 1482784
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "role": "dll",
+      "sizeBytes": 7831464
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "role": "dll",
+      "sizeBytes": 611240
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "role": "browser",
+      "sizeBytes": 1605
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "role": "aspx",
+      "sizeBytes": 60575
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "role": "config",
+      "sizeBytes": 29066
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "role": "map",
+      "sizeBytes": 2622
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "role": "config",
+      "sizeBytes": 11635
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "role": "browser",
+      "sizeBytes": 1605
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "role": "aspx",
+      "sizeBytes": 60575
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "role": "config",
+      "sizeBytes": 33598
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "role": "map",
+      "sizeBytes": 2622
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "role": "config",
+      "sizeBytes": 18802
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "role": "browser",
+      "sizeBytes": 1605
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "role": "aspx",
+      "sizeBytes": 60575
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "role": "config",
+      "sizeBytes": 34056
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "role": "map",
+      "sizeBytes": 2622
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "role": "config",
+      "sizeBytes": 18811
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/browscap.ini",
+      "role": "ini",
+      "sizeBytes": 311984
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/config",
+      "role": "config",
+      "sizeBytes": 3815
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "role": "xml",
+      "sizeBytes": 25817
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/UnityCrashHandler64.exe",
+      "role": "exe",
+      "sizeBytes": 1736616
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/UnityPlayer.dll",
+      "role": "dll",
+      "sizeBytes": 37288368
+    },
+    {
+      "path": "C:/学习/玩/Unity/新建文件夹/DropletPrototype/Builds/Windows/D3D12/D3D12Core.dll",
+      "role": "dll",
+      "sizeBytes": 4725304
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds."
+    }
+  ]
+}

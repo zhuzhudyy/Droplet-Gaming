@@ -1,0 +1,139 @@
+{
+  "status": "completed",
+  "duration": 0.82,
+  "summary": {
+    "total": 18,
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.CompoundIdentityAndRepeatedPassScoreOnlyOneEvent",
+      "Status": "Passed",
+      "Duration": 0.014992,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.FullSweepBufferDoesNotDropTargets(8)",
+      "Status": "Passed",
+      "Duration": 0.0033023,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.FullSweepBufferDoesNotDropTargets(25)",
+      "Status": "Passed",
+      "Duration": 0.0015733,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.InitialOverlapAndZeroTravelHandleSaturatedBuffer",
+      "Status": "Passed",
+      "Duration": 0.0010497,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.ResetTeleportDoesNotSweepAndNonTargetsNeverBlock",
+      "Status": "Passed",
+      "Duration": 0.0025795,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.SharpCornerUsesSegmentsNotDiagonalChord",
+      "Status": "Passed",
+      "Duration": 0.0005649,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CollisionTests.ThinTargetHitAtFourTimesBoostWithEndpointsOutside",
+      "Status": "Passed",
+      "Duration": 0.0003483,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FlightTests.BoostBrakeAndThrottleAreBounded",
+      "Status": "Passed",
+      "Duration": 0.0025566,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FlightTests.DisabledSimulationDoesNotMoveInRealFixedSteps",
+      "Status": "Passed",
+      "Duration": 0.0274686,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.FlightTests.FixedInputPathIndependentOfRenderBatching",
+      "Status": "Passed",
+      "Duration": 0.0010051,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.FinalStepHitBeatsTimeoutAndMovementIsClamped",
+      "Status": "Passed",
+      "Duration": 0.0026308,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.HitBeyondFinalTimeBudgetCannotWin",
+      "Status": "Passed",
+      "Duration": 0.0003346,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.PauseFreezesTimeMotionDamageAndScore",
+      "Status": "Passed",
+      "Duration": 0.0835443,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.ReadyDoesNotAdvanceUntilStarted",
+      "Status": "Passed",
+      "Duration": 0.0008058,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.RecoveryAndRestartNeverDamageTeleportPathOrResetScore",
+      "Status": "Passed",
+      "Duration": 0.0004671,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.TenRestartsResetTargetsScoresMotionAndSubscriptions",
+      "Status": "Passed",
+      "Duration": 0.0010258,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.MissionTests.VictoryAndTimeoutEachResolveOnlyOnce",
+      "Status": "Passed",
+      "Duration": 0.0006688,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SceneLoopTests.SavedTenShipSceneCanStartPauseWinAndRestartThreeTimes",
+      "Status": "Passed",
+      "Duration": 0.6359257,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

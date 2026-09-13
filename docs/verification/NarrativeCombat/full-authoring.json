@@ -1,0 +1,25 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_NarrativeCombat.unity",
+    "count": 2000,
+    "distinctIds": 2000,
+    "scale": 100.0,
+    "shipLengthUnits": 57.56399917602539,
+    "dropletLengthUnits": 2.3999998569488527,
+    "escapeRadiusUnits": 26000.0,
+    "boundaryUnits": 32000.0,
+    "spacingMeters": {
+        "x": 75000.0,
+        "y": 50000.0,
+        "z": 100000.0
+    },
+    "min": {
+        "x": -18000.0,
+        "y": 8.0,
+        "z": 1000.0
+    },
+    "max": {
+        "x": 18810.0,
+        "y": 508.0,
+        "z": 20125.0
+    }
+}

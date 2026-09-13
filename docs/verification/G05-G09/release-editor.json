@@ -1,0 +1,118 @@
+﻿{
+  "status": "completed",
+  "duration": 12.39,
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.ActualBlenderFleetImportsFortyPrefabInstancesAndSurvivesSaveReopen",
+      "Status": "Passed",
+      "Duration": 1.1680961,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(\"Droplet\",1.2f,1.2f,2.4f)",
+      "Status": "Passed",
+      "Duration": 0.6961081,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(\"Frigate\",9.0f,4.455983f,22.14f)",
+      "Status": "Passed",
+      "Duration": 0.6760956,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(\"Cruiser\",18.7f,8.01f,33.275f)",
+      "Status": "Passed",
+      "Duration": 0.6652935,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(\"Command\",22.39273f,10.85f,37.275f)",
+      "Status": "Passed",
+      "Duration": 0.6489673,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(\"SPAWN_Small_001\")",
+      "Status": "Passed",
+      "Duration": 0.6779007,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(\"SPAWN_Command_001\")",
+      "Status": "Passed",
+      "Duration": 0.6742207,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(\"SPAWN_Unknown_003\")",
+      "Status": "Passed",
+      "Duration": 0.6636976,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.NegativeInheritedLayoutScaleIsRejectedBeforeChangingAnExistingFleet",
+      "Status": "Passed",
+      "Duration": 0.7047492,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.NonUnitMarkerScaleRejectsBeforeChangesAndRemovedMarkerRemovesOnlyItsTarget",
+      "Status": "Passed",
+      "Duration": 0.8176925,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.ParentTransformsAreResolvedAndRepeatedImportKeepsInstanceIdentityAndManualObjects",
+      "Status": "Passed",
+      "Duration": 0.6584752,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAssetTests.SavedFleetSceneReopensWithFortyDistinctVisibleTargetsAndCompleteReferences",
+      "Status": "Passed",
+      "Duration": 0.8889076,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SceneAuthoringTests.DirtySceneIsRefusedRatherThanOverwritten",
+      "Status": "Passed",
+      "Duration": 1.3137151,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SceneAuthoringTests.SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects",
+      "Status": "Passed",
+      "Duration": 1.7400127,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.ScoreTests.ComboWindowCapAndResetAreDeterministic",
+      "Status": "Passed",
+      "Duration": 0.0022767,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

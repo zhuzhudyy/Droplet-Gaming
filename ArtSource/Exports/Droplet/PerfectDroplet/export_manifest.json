@@ -1,0 +1,56 @@
+{
+  "source_sha256": "b1d7d6316d7982a3723f2eeb668c66f02f73efb3e2bb57031717161466158451",
+  "fbx_sha256": "d5984085aa89ccb2a939d7fe9c237343e120f6aa08e955e763c1a910205a2445",
+  "source_axes": "+Z forward, +Y up",
+  "source_to_calibrated_blender_matrix": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "staging_axes": "+Y forward, +Z up",
+  "unity_expected_axes": "+Z forward, +Y up",
+  "options": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "use_space_transform": true,
+    "bake_space_transform": true,
+    "mesh_smooth_type": "OFF",
+    "use_mesh_modifiers": true,
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "AUTO",
+    "use_custom_props": true
+  },
+  "triangles": 5632,
+  "lods": false,
+  "unity_import_instructions": "globalScale=1; useFileScale=true; bakeAxisConversion=true; import normals; no animation/colliders; Read/Write optional off",
+  "unity_import_executed_this_task": false
+}

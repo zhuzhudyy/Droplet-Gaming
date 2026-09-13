@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="15" result="Failed(Child)" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:05Z" duration="2.3233252">
+  <test-suite type="TestSuite" id="1034" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:05Z" duration="2.323325" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1021" name="DropletPrototype.Tests.EditMode.dll" fullname="C:/学习/玩/Unity/新建文件夹/DropletPrototype/Library/ScriptAssemblies/DropletPrototype.Tests.EditMode.dll" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:05Z" duration="2.315895" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51448" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1022" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:05Z" duration="2.218731" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1023" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:05Z" duration="2.218211" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1024" name="EditMode" fullname="DropletPrototype.Tests.EditMode" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:05Z" duration="2.117011" total="15" passed="3" failed="12" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="FleetAssetTests" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.120281" total="12" passed="0" failed="12" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1010" name="ActualBlenderFleetImportsFortyPrefabInstancesAndSurvivesSaveReopen" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualBlenderFleetImportsFortyPrefabInstancesAndSurvivesSaveReopen" methodname="ActualBlenderFleetImportsFortyPrefabInstancesAndSurvivesSaveReopen" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="368468330" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.007579" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                  <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1015" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.002499" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1011" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Droplet&quot;,1.2f,1.2f,2.4f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Droplet&quot;,1.2f,1.2f,2.4f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1835080145" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000262" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                    <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1012" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Frigate&quot;,9.0f,4.455983f,22.14f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Frigate&quot;,9.0f,4.455983f,22.14f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1570358685" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000155" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                    <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1013" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Cruiser&quot;,18.7f,8.01f,33.275f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Cruiser&quot;,18.7f,8.01f,33.275f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="920543691" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000153" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                    <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1014" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Command&quot;,22.39273f,10.85f,37.275f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Command&quot;,22.39273f,10.85f,37.275f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="646726075" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000118" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                    <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1006" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.001501" total="3" passed="0" failed="3" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="1003" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Small_001&quot;)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Small_001&quot;)" methodname="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1357727974" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000394" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                    <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1004" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Command_001&quot;)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Command_001&quot;)" methodname="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1032890740" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000143" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                    <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+                <test-case id="1005" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Unknown_003&quot;)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Unknown_003&quot;)" methodname="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="654122641" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000115" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <failure>
+                    <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                    <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-case id="1008" name="NegativeInheritedLayoutScaleIsRejectedBeforeChangingAnExistingFleet" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.NegativeInheritedLayoutScaleIsRejectedBeforeChangingAnExistingFleet" methodname="NegativeInheritedLayoutScaleIsRejectedBeforeChangingAnExistingFleet" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="2118221277" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000115" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                  <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1007" name="NonUnitMarkerScaleRejectsBeforeChangesAndRemovedMarkerRemovesOnlyItsTarget" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.NonUnitMarkerScaleRejectsBeforeChangesAndRemovedMarkerRemovesOnlyItsTarget" methodname="NonUnitMarkerScaleRejectsBeforeChangesAndRemovedMarkerRemovesOnlyItsTarget" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="35871692" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000107" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                  <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1002" name="ParentTransformsAreResolvedAndRepeatedImportKeepsInstanceIdentityAndManualObjects" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ParentTransformsAreResolvedAndRepeatedImportKeepsInstanceIdentityAndManualObjects" methodname="ParentTransformsAreResolvedAndRepeatedImportKeepsInstanceIdentityAndManualObjects" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1013266460" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000110" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                  <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1009" name="SavedFleetSceneReopensWithFortyDistinctVisibleTargetsAndCompleteReferences" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.SavedFleetSceneReopensWithFortyDistinctVisibleTargetsAndCompleteReferences" methodname="SavedFleetSceneReopensWithFortyDistinctVisibleTargetsAndCompleteReferences" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1606401583" result="Failed" label="Error" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:03Z" duration="0.000107" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : System.InvalidOperationException : Cannot create a new scene additively with an untitled scene unsaved.]]></message>
+                  <stack-trace><![CDATA[--SetUp
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <886e347bbf034f119b276a61ef97646f>:0 
+  at DropletPrototype.Tests.EditMode.FleetAssetTests.Setup () [0x0002b] in C:\学习\玩\Unity\新建文件夹\DropletPrototype\Assets\_Project\Tests\EditMode\FleetAssetTests.cs:33 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ee034d2b335a4869bde47687e6ac9c30>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1016" name="SceneAuthoringTests" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:05Z" duration="1.964344" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1018" name="DirtySceneIsRefusedRatherThanOverwritten" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests.DirtySceneIsRefusedRatherThanOverwritten" methodname="DirtySceneIsRefusedRatherThanOverwritten" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" seed="588536614" result="Passed" start-time="2026-09-07 12:05:03Z" end-time="2026-09-07 12:05:04Z" duration="0.728467" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests.SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" methodname="SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" seed="503258047" result="Passed" start-time="2026-09-07 12:05:04Z" end-time="2026-09-07 12:05:05Z" duration="1.137055" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1019" name="ScoreTests" fullname="DropletPrototype.Tests.EditMode.ScoreTests" classname="DropletPrototype.Tests.EditMode.ScoreTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-07 12:05:05Z" end-time="2026-09-07 12:05:05Z" duration="0.031299" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1020" name="ComboWindowCapAndResetAreDeterministic" fullname="DropletPrototype.Tests.EditMode.ScoreTests.ComboWindowCapAndResetAreDeterministic" methodname="ComboWindowCapAndResetAreDeterministic" classname="DropletPrototype.Tests.EditMode.ScoreTests" runstate="Runnable" seed="309577945" result="Passed" start-time="2026-09-07 12:05:05Z" end-time="2026-09-07 12:05:05Z" duration="0.001107" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

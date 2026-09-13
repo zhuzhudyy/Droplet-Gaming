@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 0.58,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAffineMatrixTests.FixedArrayTraversalPreservesShipPartOrderAnd511Remainders(1,1)",
+      "Status": "Passed",
+      "Duration": 0.0131357,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAffineMatrixTests.FixedArrayTraversalPreservesShipPartOrderAnd511Remainders(511,1)",
+      "Status": "Passed",
+      "Duration": 0.0139901,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAffineMatrixTests.FixedArrayTraversalPreservesShipPartOrderAnd511Remainders(133,4)",
+      "Status": "Passed",
+      "Duration": 0.0524897,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAffineMatrixTests.FixedArrayTraversalPreservesShipPartOrderAnd511Remainders(600,5)",
+      "Status": "Passed",
+      "Duration": 0.1104254,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAffineMatrixTests.NestedShearedAffineTransformsKeepTranslationAndEveryBasisComponent",
+      "Status": "Passed",
+      "Duration": 0.0147689,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetAffineMatrixTests.RandomTrsCompositionsMatchUnityIncludingNonuniformAndNegativeScale",
+      "Status": "Passed",
+      "Duration": 0.0580035,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

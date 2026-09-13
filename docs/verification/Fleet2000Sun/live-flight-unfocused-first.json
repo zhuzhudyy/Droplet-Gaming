@@ -1,0 +1,23 @@
+{
+    "passed": false,
+    "pause": false,
+    "restart": false,
+    "brake": false,
+    "left": false,
+    "right": false,
+    "up": false,
+    "down": false,
+    "cameraUpright": false,
+    "error": "System.InvalidOperationException: Enter failed.\r\n  at DropletPrototype.Editor.Fleet2000LiveInput.Run () [0x00204] in C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\Assets\\_Project\\Scripts\\Editor\\Fleet2000Sun\\Fleet2000LiveInput.cs:32 ",
+    "scope": "Synthetic Input System keyboard/mouse; existing real MissionController.FixedUpdate and DropletMotor.LateUpdate. No teleport, strafe, or turns during straight endpoint assertion; pause capture uses last measured displacement. Physical-keyboard subjective feel is not claimed.",
+    "score": 0,
+    "destroyed": 0,
+    "poolBefore": 9,
+    "poolAfter": 0,
+    "distance": 0.0,
+    "elapsed": 0.0,
+    "minDot": 1.0,
+    "maxCenterError": 0.0,
+    "maxInterpolationLag": 0.0,
+    "samples": []
+}

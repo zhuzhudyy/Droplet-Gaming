@@ -1,0 +1,2133 @@
+﻿{
+    "label": "Final",
+    "scene": "Assets/_Project/Scenes/FleetAssault_2000_Sun.unity",
+    "utc": "2026-09-08T14:23:38.1856540Z",
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "operatingSystem": "Windows 11  (10.0.26200)",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180",
+    "scope": "Actual new-scene rendered frames: five phases each at least 480 frames and 6 seconds after warmup. 1080p native, no frame generation, VSync off, uncapped. Attack phase uses controlled teleports and real .02s motor sweeps. All-target regression uses 100 long diagnostic motor segments with 20 ships per column and no direct kill calls. Missing Profiler samples are unmeasured. graphicsMemoryMB is adapter capacity. allocated/reserved bytes are Unity CPU memory, not attributable VRAM. Screenshots and inventory outside timing. No subjective input, long-session or cross-hardware claim.",
+    "error": "",
+    "baseline": false,
+    "editor": true,
+    "developmentBuild": true,
+    "batchMode": false,
+    "inspectionOnly": false,
+    "completed": true,
+    "allChecksPassed": true,
+    "width": 1920,
+    "height": 1080,
+    "vSyncCount": 0,
+    "targetFrameRate": -1,
+    "previousVSyncCount": 0,
+    "previousTargetFrameRate": -1,
+    "totalTargets": 2000,
+    "processorCount": 32,
+    "graphicsMemoryMB": 7956,
+    "systemMemoryMB": 15575,
+    "phases": [
+        {
+            "name": "NearCombat",
+            "workload": "Fixed camera; fleet intact; motor held stationary; normal shaders, lights, probes and presentation update",
+            "frames": 480,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 0,
+            "destroyed": 0,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 0,
+            "realtimeLightsPeak": 1,
+            "particlesPeak": 0,
+            "probeCaptures": 0,
+            "reactorDropped": 0,
+            "legacyDropped": 0,
+            "reflectionStrengthPeak": 0.0,
+            "seconds": 11.624196999997367,
+            "meanFps": 41.29312015529736,
+            "renderedFrameMs": {
+                "samples": 480,
+                "mean": 24.217109199768556,
+                "p50": 21.9844039529562,
+                "p95": 32.8776016831398,
+                "p99": 73.58120381832123,
+                "maximum": 122.82320111989975
+            },
+            "mainThreadMs": {
+                "samples": 480,
+                "mean": 24.209756249999974,
+                "p50": 21.8609,
+                "p95": 32.7185,
+                "p99": 71.7667,
+                "maximum": 125.8765
+            },
+            "gpuFrameMs": {
+                "samples": 475,
+                "mean": 3.4468896336842085,
+                "p50": 3.42016,
+                "p95": 3.971072,
+                "p99": 4.390912,
+                "maximum": 7.959552
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 480,
+                "mean": 124.0,
+                "p50": 124.0,
+                "p95": 124.0,
+                "p99": 124.0,
+                "maximum": 124.0
+            },
+            "triangles": {
+                "samples": 480,
+                "mean": 7537945.0,
+                "p50": 7537945.0,
+                "p95": 7537945.0,
+                "p99": 7537945.0,
+                "maximum": 7537945.0
+            },
+            "gcBytes": {
+                "samples": 480,
+                "mean": 13326.095833333333,
+                "p50": 12703.0,
+                "p95": 13551.0,
+                "p99": 40657.0,
+                "maximum": 54479.0
+            },
+            "before": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 2116,
+                "visibleRenderers": 413,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 33,
+                "instancedShips": 1967,
+                "interactionShips": 33,
+                "visibleInstances": 1044,
+                "lod1Instances": 127,
+                "lod2Instances": 917,
+                "instanceDrawCalls": 1720,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2377750570,
+                "reservedBytes": 4136943616,
+                "monoBytes": 926908416
+            },
+            "after": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 2116,
+                "visibleRenderers": 413,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 33,
+                "instancedShips": 1967,
+                "interactionShips": 33,
+                "visibleInstances": 1044,
+                "lod1Instances": 127,
+                "lod2Instances": 917,
+                "instanceDrawCalls": 1720,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2377395489,
+                "reservedBytes": 4136943616,
+                "monoBytes": 938987520
+            },
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 228.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "FleetMedium",
+            "workload": "Fixed camera; fleet intact; motor held stationary; normal shaders, lights, probes and presentation update",
+            "frames": 480,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 0,
+            "destroyed": 0,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 0,
+            "realtimeLightsPeak": 1,
+            "particlesPeak": 0,
+            "probeCaptures": 0,
+            "reactorDropped": 0,
+            "legacyDropped": 0,
+            "reflectionStrengthPeak": 0.0,
+            "seconds": 13.269507800003339,
+            "meanFps": 36.17316931935816,
+            "renderedFrameMs": {
+                "samples": 480,
+                "mean": 27.644799137488009,
+                "p50": 26.986295357346536,
+                "p95": 33.755604177713397,
+                "p99": 36.41070052981377,
+                "maximum": 39.41259905695915
+            },
+            "mainThreadMs": {
+                "samples": 480,
+                "mean": 27.63219958333334,
+                "p50": 26.9741,
+                "p95": 33.7135,
+                "p99": 36.3192,
+                "maximum": 39.4189
+            },
+            "gpuFrameMs": {
+                "samples": 480,
+                "mean": 3.805457066666666,
+                "p50": 3.674112,
+                "p95": 4.384768,
+                "p99": 4.74624,
+                "maximum": 5.164032
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 480,
+                "mean": 119.0,
+                "p50": 119.0,
+                "p95": 119.0,
+                "p99": 119.0,
+                "maximum": 119.0
+            },
+            "triangles": {
+                "samples": 480,
+                "mean": 8450873.0,
+                "p50": 8450873.0,
+                "p95": 8450873.0,
+                "p99": 8450873.0,
+                "maximum": 8450873.0
+            },
+            "gcBytes": {
+                "samples": 480,
+                "mean": 12892.233333333334,
+                "p50": 12703.0,
+                "p95": 12793.0,
+                "p99": 12845.0,
+                "maximum": 52383.0
+            },
+            "before": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 1567,
+                "visibleRenderers": 444,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 24,
+                "instancedShips": 1976,
+                "interactionShips": 24,
+                "visibleInstances": 1383,
+                "lod1Instances": 74,
+                "lod2Instances": 1309,
+                "instanceDrawCalls": 2242,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2377682382,
+                "reservedBytes": 4136943616,
+                "monoBytes": 945217536
+            },
+            "after": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 1567,
+                "visibleRenderers": 444,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 24,
+                "instancedShips": 1976,
+                "interactionShips": 24,
+                "visibleInstances": 1383,
+                "lod1Instances": 74,
+                "lod2Instances": 1309,
+                "instanceDrawCalls": 2242,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2378112266,
+                "reservedBytes": 4136943616,
+                "monoBytes": 958742528
+            },
+            "cameraPosition": {
+                "x": -700.0,
+                "y": 390.0,
+                "z": -430.0
+            },
+            "cameraForward": {
+                "x": 0.4897175431251526,
+                "y": -0.09947388619184494,
+                "z": 0.8661879897117615
+            }
+        },
+        {
+            "name": "FleetPanorama",
+            "workload": "Fixed camera; fleet intact; motor held stationary; normal shaders, lights, probes and presentation update",
+            "frames": 480,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 0,
+            "destroyed": 0,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 0,
+            "realtimeLightsPeak": 1,
+            "particlesPeak": 0,
+            "probeCaptures": 0,
+            "reactorDropped": 0,
+            "legacyDropped": 0,
+            "reflectionStrengthPeak": 0.0,
+            "seconds": 20.563206200000424,
+            "meanFps": 23.34259609412525,
+            "renderedFrameMs": {
+                "samples": 480,
+                "mean": 42.840136374191697,
+                "p50": 35.88440269231796,
+                "p95": 77.74259895086289,
+                "p99": 93.5233011841774,
+                "maximum": 103.49590331315994
+            },
+            "mainThreadMs": {
+                "samples": 480,
+                "mean": 42.81831625000003,
+                "p50": 35.8299,
+                "p95": 77.992,
+                "p99": 96.2174,
+                "maximum": 113.136
+            },
+            "gpuFrameMs": {
+                "samples": 478,
+                "mean": 4.7137762008368189,
+                "p50": 4.497408,
+                "p95": 5.527552,
+                "p99": 6.249472,
+                "maximum": 8.9344
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 480,
+                "mean": 121.0,
+                "p50": 121.0,
+                "p95": 121.0,
+                "p99": 121.0,
+                "maximum": 121.0
+            },
+            "triangles": {
+                "samples": 480,
+                "mean": 10889825.0,
+                "p50": 10889825.0,
+                "p95": 10889825.0,
+                "p99": 10889825.0,
+                "maximum": 10889825.0
+            },
+            "gcBytes": {
+                "samples": 480,
+                "mean": 12770.054166666667,
+                "p50": 12703.0,
+                "p95": 12845.0,
+                "p99": 12845.0,
+                "maximum": 29447.0
+            },
+            "before": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 1262,
+                "visibleRenderers": 316,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 19,
+                "instancedShips": 1981,
+                "interactionShips": 19,
+                "visibleInstances": 1981,
+                "lod1Instances": 0,
+                "lod2Instances": 1981,
+                "instanceDrawCalls": 2730,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2378222404,
+                "reservedBytes": 4136943616,
+                "monoBytes": 968794112
+            },
+            "after": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 1262,
+                "visibleRenderers": 316,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 19,
+                "instancedShips": 1981,
+                "interactionShips": 19,
+                "visibleInstances": 1981,
+                "lod1Instances": 0,
+                "lod2Instances": 1981,
+                "instanceDrawCalls": 2730,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2378767118,
+                "reservedBytes": 4136943616,
+                "monoBytes": 985772032
+            },
+            "cameraPosition": {
+                "x": -6100.0,
+                "y": 1250.0,
+                "z": -500.0
+            },
+            "cameraForward": {
+                "x": 0.8887097835540772,
+                "y": -0.15552419424057008,
+                "z": 0.4312855303287506
+            }
+        },
+        {
+            "name": "ConcentratedExplosions",
+            "workload": "Attack selected existing target every 0.16 real seconds; full real motor sweep through hull; camera tracks selected target",
+            "frames": 480,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 0,
+            "destroyed": 71,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 12,
+            "realtimeLightsPeak": 3,
+            "particlesPeak": 0,
+            "probeCaptures": 4,
+            "reactorDropped": 0,
+            "legacyDropped": 71,
+            "reflectionStrengthPeak": 1.9880450963974,
+            "seconds": 12.181629999999132,
+            "meanFps": 39.404779318738579,
+            "renderedFrameMs": {
+                "samples": 480,
+                "mean": 25.37763228950401,
+                "p50": 23.250998929142953,
+                "p95": 37.303995341062549,
+                "p99": 48.085592687129977,
+                "maximum": 114.96840417385102
+            },
+            "mainThreadMs": {
+                "samples": 480,
+                "mean": 25.36613000000001,
+                "p50": 23.3654,
+                "p95": 37.1473,
+                "p99": 49.7636,
+                "maximum": 108.1037
+            },
+            "gpuFrameMs": {
+                "samples": 421,
+                "mean": 2.385710821852732,
+                "p50": 3.259392,
+                "p95": 4.114432,
+                "p99": 4.328448,
+                "maximum": 4.59264
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 480,
+                "mean": 143.55416666666668,
+                "p50": 135.0,
+                "p95": 182.0,
+                "p99": 266.0,
+                "maximum": 342.0
+            },
+            "triangles": {
+                "samples": 480,
+                "mean": 7120253.847916666,
+                "p50": 7058353.0,
+                "p95": 7930447.0,
+                "p99": 8014369.0,
+                "maximum": 14013672.0
+            },
+            "gcBytes": {
+                "samples": 480,
+                "mean": 15467.627083333333,
+                "p50": 12783.0,
+                "p95": 18983.0,
+                "p99": 29365.0,
+                "maximum": 176765.0
+            },
+            "before": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 2116,
+                "visibleRenderers": 413,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 33,
+                "instancedShips": 1967,
+                "interactionShips": 33,
+                "visibleInstances": 1044,
+                "lod1Instances": 127,
+                "lod2Instances": 917,
+                "instanceDrawCalls": 1720,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2377499379,
+                "reservedBytes": 4136943616,
+                "monoBytes": 897486848
+            },
+            "after": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 2307,
+                "visibleRenderers": 566,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 34,
+                "instancedShips": 1895,
+                "interactionShips": 34,
+                "visibleInstances": 793,
+                "lod1Instances": 123,
+                "lod2Instances": 670,
+                "instanceDrawCalls": 1420,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 3,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 4,
+                "allocatedBytes": 2373344529,
+                "reservedBytes": 4136943616,
+                "monoBytes": 903639040
+            },
+            "cameraPosition": {
+                "x": -288.9930114746094,
+                "y": 142.12799072265626,
+                "z": 947.5499877929688
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224117815494538,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "FacingSun",
+            "workload": "Fixed camera; fleet intact; motor held stationary; normal shaders, lights, probes and presentation update",
+            "frames": 480,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 0,
+            "destroyed": 0,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 0,
+            "realtimeLightsPeak": 1,
+            "particlesPeak": 0,
+            "probeCaptures": 0,
+            "reactorDropped": 0,
+            "legacyDropped": 0,
+            "reflectionStrengthPeak": 0.0,
+            "seconds": 11.068206500000088,
+            "meanFps": 43.36799030178128,
+            "renderedFrameMs": {
+                "samples": 480,
+                "mean": 23.058481452365716,
+                "p50": 22.57329970598221,
+                "p95": 26.005703955888749,
+                "p99": 35.9187014400959,
+                "maximum": 54.33209985494614
+            },
+            "mainThreadMs": {
+                "samples": 480,
+                "mean": 23.047777916666694,
+                "p50": 22.5756,
+                "p95": 26.1019,
+                "p99": 35.6393,
+                "maximum": 56.0948
+            },
+            "gpuFrameMs": {
+                "samples": 479,
+                "mean": 3.689337319415443,
+                "p50": 3.67616,
+                "p95": 4.093952,
+                "p99": 4.369408,
+                "maximum": 4.527104
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 480,
+                "mean": 140.0,
+                "p50": 140.0,
+                "p95": 140.0,
+                "p99": 140.0,
+                "maximum": 140.0
+            },
+            "triangles": {
+                "samples": 480,
+                "mean": 8806073.0,
+                "p50": 8806073.0,
+                "p95": 8806073.0,
+                "p99": 8806073.0,
+                "maximum": 8806073.0
+            },
+            "gcBytes": {
+                "samples": 480,
+                "mean": 13002.3,
+                "p50": 12703.0,
+                "p95": 13499.0,
+                "p99": 18053.0,
+                "maximum": 32059.0
+            },
+            "before": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 1384,
+                "visibleRenderers": 317,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 21,
+                "instancedShips": 1979,
+                "interactionShips": 21,
+                "visibleInstances": 1101,
+                "lod1Instances": 116,
+                "lod2Instances": 985,
+                "instanceDrawCalls": 1990,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2373444760,
+                "reservedBytes": 4136943616,
+                "monoBytes": 909033472
+            },
+            "after": {
+                "sceneRenderers": 122224,
+                "activeRenderers": 1384,
+                "visibleRenderers": 317,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "fullPrefabs": 21,
+                "instancedShips": 1979,
+                "interactionShips": 21,
+                "visibleInstances": 1101,
+                "lod1Instances": 116,
+                "lod2Instances": 985,
+                "instanceDrawCalls": 1990,
+                "chunks": 91,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 2373920125,
+                "reservedBytes": 4136943616,
+                "monoBytes": 916561920
+            },
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.6427876353263855,
+                "y": 0.02673456445336342,
+                "z": 0.7655777335166931
+            }
+        }
+    ],
+    "checks": [
+        {
+            "name": "Rendered graphics device",
+            "detail": "Direct3D12",
+            "passed": true
+        },
+        {
+            "name": "2000 registered fleet targets",
+            "detail": "targets=2000",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-NearCombat",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-NearCombat.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-FleetMedium",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-FleetMedium.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-FleetPanorama",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-FleetPanorama.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-ConcentratedExplosions",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-ConcentratedExplosions.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-FacingSun",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-FacingSun.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot view-NearCombat",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\view-NearCombat.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot view-FleetMedium",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\view-FleetMedium.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot view-FleetPanorama",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\view-FleetPanorama.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot sun-occluded-by-hull",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\sun-occluded-by-hull.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot sun-unoccluded",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\sun-unoccluded.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot continuous-explosion",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\continuous-explosion.png",
+            "passed": true
+        },
+        {
+            "name": "2000 unique stable identities",
+            "detail": "All mission members have independent IDs",
+            "passed": true
+        },
+        {
+            "name": "Normal fixed-size motor steps destroy and score",
+            "detail": "Actual .02 second motor steps through hull",
+            "passed": true
+        },
+        {
+            "name": "Destroyed ship removed from instance batches",
+            "detail": "SPAWN_Small_FS1C25R01",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes motor timer score and effects",
+            "detail": ".3 seconds wall time plus attempted Step",
+            "passed": true
+        },
+        {
+            "name": "Exactly 100 columns of 20 ships",
+            "detail": "50 columns x 2 layers",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C25R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C24R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C26R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C25R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C24R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C26R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C23R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C27R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C23R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C27R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C22R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C28R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C22R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C28R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C21R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C29R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C21R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C29R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C20R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C30R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C20R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C30R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C19R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C31R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C19R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C31R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C18R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C18R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C32R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C32R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C17R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C17R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C33R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C33R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C16R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C16R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C34R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C34R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C15R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C15R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C35R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C35R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C14R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C14R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C36R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C36R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C13R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C13R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C37R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C37R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C12R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C12R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C38R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C38R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C11R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C11R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C39R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C39R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C10R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C10R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C40R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C40R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C09R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C09R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C41R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C41R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C08R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C08R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C42R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C42R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C07R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C07R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C43R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C43R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C06R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C06R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C44R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C44R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C05R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C05R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C45R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C45R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C04R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C04R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C46R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C46R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C03R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C03R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C47R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C47R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C02R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C02R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C48R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C48R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C01R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C01R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C49R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C49R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C50R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C50R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Every distant ship is reachable and destructible",
+            "detail": "100 diagnostic long motor segments cover all 2000 ships, including streamed colliders",
+            "passed": true
+        },
+        {
+            "name": "Results score commits once",
+            "detail": "Victory and post-results step",
+            "passed": true
+        },
+        {
+            "name": "Screenshot victory-2000",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\victory-2000.png",
+            "passed": true
+        },
+        {
+            "name": "Restart 1 restores 2000 states and clears pooled effects",
+            "detail": "Near/instanced visibility is intentionally chosen by distance; no stale destroyed state",
+            "passed": true
+        },
+        {
+            "name": "Restart 2 restores 2000 states and clears pooled effects",
+            "detail": "Near/instanced visibility is intentionally chosen by distance; no stale destroyed state",
+            "passed": true
+        },
+        {
+            "name": "Restart 3 restores 2000 states and clears pooled effects",
+            "detail": "Near/instanced visibility is intentionally chosen by distance; no stale destroyed state",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C25R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C24R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C26R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C25R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C24R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C26R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C23R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C27R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C23R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C27R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C22R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C28R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C22R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C28R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C21R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C29R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C21R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C29R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C20R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C30R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C20R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C30R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C19R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C31R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C19R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C31R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C18R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C18R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C32R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C32R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C17R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C17R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C33R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C33R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C16R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C16R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C34R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C34R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C15R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C15R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C35R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C35R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C14R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C14R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C36R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C36R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C13R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C13R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C37R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C37R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C12R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C12R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C38R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C38R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C11R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C11R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C39R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C39R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C10R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C10R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C40R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C40R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C09R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C09R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C41R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C41R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C08R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C08R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C42R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C42R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C07R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C07R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C43R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C43R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C06R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C06R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C44R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C44R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C05R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C05R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C45R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C45R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C04R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C04R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C46R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C46R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C03R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C03R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C47R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C47R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C02R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C02R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C48R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C48R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C01R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C01R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C49R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C49R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS1C50R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Full swept column SPAWN_Small_FS2C50R01",
+            "detail": "20 targets across 4514.864 metres in one proposed motor segment",
+            "passed": true
+        },
+        {
+            "name": "Same-frame 2000 hits retain victory and bounded pools",
+            "detail": "Dropped optional effects=1240",
+            "passed": true
+        },
+        {
+            "name": "Optional effects disabled preserve scoring",
+            "detail": "Original hit and score authority",
+            "passed": true
+        },
+        {
+            "name": "Timeout resolves once",
+            "detail": "Diagnostic full remaining-time step with stationary braking",
+            "passed": true
+        },
+        {
+            "name": "Screenshot restarted-ready",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\restarted-ready.png",
+            "passed": true
+        },
+        {
+            "name": "Teleport setup never awards a hit",
+            "detail": "setups=276, unexpected hits=0",
+            "passed": true
+        }
+    ],
+    "screenshots": [
+        {
+            "name": "performance-NearCombat",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-NearCombat.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 228.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "performance-FleetMedium",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-FleetMedium.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -700.0,
+                "y": 390.0,
+                "z": -430.0
+            },
+            "cameraForward": {
+                "x": 0.4897175431251526,
+                "y": -0.09947388619184494,
+                "z": 0.8661879897117615
+            }
+        },
+        {
+            "name": "performance-FleetPanorama",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-FleetPanorama.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -6100.0,
+                "y": 1250.0,
+                "z": -500.0
+            },
+            "cameraForward": {
+                "x": 0.8887097835540772,
+                "y": -0.15552419424057008,
+                "z": 0.4312855303287506
+            }
+        },
+        {
+            "name": "performance-ConcentratedExplosions",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-ConcentratedExplosions.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -288.9930114746094,
+                "y": 142.12799072265626,
+                "z": 947.5499877929688
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224117815494538,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "performance-FacingSun",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\performance-FacingSun.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.6427876353263855,
+                "y": 0.02673456445336342,
+                "z": 0.7655777335166931
+            }
+        },
+        {
+            "name": "view-NearCombat",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\view-NearCombat.png",
+            "purpose": "Actual unchanged meshes, solar display and camera; no compositing.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 228.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "view-FleetMedium",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\view-FleetMedium.png",
+            "purpose": "Actual unchanged meshes, solar display and camera; no compositing.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -700.0,
+                "y": 390.0,
+                "z": -430.0
+            },
+            "cameraForward": {
+                "x": 0.4897175431251526,
+                "y": -0.09947388619184494,
+                "z": 0.8661879897117615
+            }
+        },
+        {
+            "name": "view-FleetPanorama",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\view-FleetPanorama.png",
+            "purpose": "Actual unchanged meshes, solar display and camera; no compositing.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -6100.0,
+                "y": 1250.0,
+                "z": -500.0
+            },
+            "cameraForward": {
+                "x": 0.8887097835540772,
+                "y": -0.15552419424057008,
+                "z": 0.4312855303287506
+            }
+        },
+        {
+            "name": "sun-occluded-by-hull",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\sun-occluded-by-hull.png",
+            "purpose": "Flare source and solar centre aligned behind an existing opaque interactive ship; SRP depth occlusion enabled.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -51.423011779785159,
+                "y": 5.861234664916992,
+                "z": 238.7537841796875
+            },
+            "cameraForward": {
+                "x": 0.6427876949310303,
+                "y": 0.026734573766589166,
+                "z": 0.7655777335166931
+            }
+        },
+        {
+            "name": "sun-unoccluded",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\sun-unoccluded.png",
+            "purpose": "Same solar source, camera shifted above the actual hull; SRP flare visible again.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -51.423011779785159,
+                "y": 37.861236572265628,
+                "z": 238.7537841796875
+            },
+            "cameraForward": {
+                "x": 0.6427876949310303,
+                "y": 0.026734547689557077,
+                "z": 0.7655777335166931
+            }
+        },
+        {
+            "name": "continuous-explosion",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\continuous-explosion.png",
+            "purpose": "Existing pooled reactor explosion after real swept collision.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 228.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "victory-2000",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\victory-2000.png",
+            "purpose": "All 2000 destroyed through actual motor sweeps; diagnostics use long proposed segments and column-start teleports.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            }
+        },
+        {
+            "name": "restarted-ready",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Editor\\Final-20260908-142338-180\\restarted-ready.png",
+            "purpose": "Saved overview, full 2000 fleet, clean 90 minute mission and no retained explosion lights",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            }
+        }
+    ]
+}

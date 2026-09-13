@@ -1,0 +1,36 @@
+{
+  "vertices": 2818,
+  "triangles": 5632,
+  "quads": 2816,
+  "triangle_caps": 0,
+  "components": 1,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "duplicate_faces": 0,
+  "duplicate_vertices": 0,
+  "zero_area_triangles": 0,
+  "inward_triangles": 0,
+  "signed_volume": 0.6018081338501695,
+  "nonadjacent_intersections": 0,
+  "dimensions": [
+    0.774193525314331,
+    0.774193525314331,
+    2.4000000953674316
+  ],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "determinant": 1.0,
+  "hard_edges": 0,
+  "file": "C:\\\u5b66\u4e60\\\u73a9\\Unity\\\u65b0\u5efa\u6587\u4ef6\u5939\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\PerfectDroplet.blend",
+  "hash": "b1d7d6316d7982a3723f2eeb668c66f02f73efb3e2bb57031717161466158451",
+  "positive_tip_zone_radius": 0.011881774797299037,
+  "negative_tip_zone_radius": 0.12221313267946243
+}

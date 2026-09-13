@@ -1,0 +1,4004 @@
+{
+  "schemaVersion": 1,
+  "blender": "5.2.1 LTS",
+  "blenderBuild": "9e2066aef7ef",
+  "configPath": "Tools/Blender/FleetExpansion/layout_config.json",
+  "configSha256": "0693b71db4557310c686cb95a83d1b4eb1a7fa3ae89847da51b39516bde97a1c",
+  "sourcePath": "ArtSource/Blender/FleetExpansion/FleetLayout_Expanded.blend",
+  "sourceSha256": "cb8b4e0e68a9284da4205a41fc948e68f1a9ad260c4b2a0479c0929cc8faffaf",
+  "markerCount": 120,
+  "markers": [
+    {
+      "name": "SPAWN_Small_FF001",
+      "id": "FF001",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 0,
+      "row": 0,
+      "position": [
+        0.0,
+        8.0,
+        100.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF002",
+      "id": "FF002",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 0,
+      "row": 1,
+      "position": [
+        0.0,
+        8.0,
+        210.7
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF003",
+      "id": "FF003",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 0,
+      "row": 2,
+      "position": [
+        0.0,
+        8.0,
+        321.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF004",
+      "id": "FF004",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 0,
+      "row": 3,
+      "position": [
+        0.0,
+        8.0,
+        432.1
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF005",
+      "id": "FF005",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 0,
+      "row": 4,
+      "position": [
+        0.0,
+        8.0,
+        542.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF006",
+      "id": "FF006",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 1,
+      "row": 0,
+      "position": [
+        106.272,
+        60.029,
+        127.675
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF007",
+      "id": "FF007",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 1,
+      "row": 1,
+      "position": [
+        111.807,
+        63.35,
+        238.375
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF008",
+      "id": "FF008",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 1,
+      "row": 2,
+      "position": [
+        106.272,
+        66.671,
+        349.075
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF009",
+      "id": "FF009",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 1,
+      "row": 3,
+      "position": [
+        111.807,
+        60.029,
+        459.775
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF010",
+      "id": "FF010",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 1,
+      "row": 4,
+      "position": [
+        106.272,
+        63.35,
+        570.475
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF011",
+      "id": "FF011",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 2,
+      "row": 0,
+      "position": [
+        -106.272,
+        -50.671,
+        155.35
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF012",
+      "id": "FF012",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 2,
+      "row": 1,
+      "position": [
+        -100.737,
+        -47.35,
+        266.05
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF013",
+      "id": "FF013",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 2,
+      "row": 2,
+      "position": [
+        -106.272,
+        -44.029,
+        376.75
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF014",
+      "id": "FF014",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 2,
+      "row": 3,
+      "position": [
+        -100.737,
+        -50.671,
+        487.45
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF015",
+      "id": "FF015",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 2,
+      "row": 4,
+      "position": [
+        -106.272,
+        -47.35,
+        598.15
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF016",
+      "id": "FF016",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 3,
+      "row": 0,
+      "position": [
+        212.544,
+        115.379,
+        183.025
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF017",
+      "id": "FF017",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 3,
+      "row": 1,
+      "position": [
+        218.079,
+        118.7,
+        293.725
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF018",
+      "id": "FF018",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 3,
+      "row": 2,
+      "position": [
+        212.544,
+        122.021,
+        404.425
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF019",
+      "id": "FF019",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 3,
+      "row": 3,
+      "position": [
+        218.079,
+        115.379,
+        515.125
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF020",
+      "id": "FF020",
+      "group": "Squadron_01",
+      "squadron": 1,
+      "column": 3,
+      "row": 4,
+      "position": [
+        212.544,
+        118.7,
+        625.825
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF021",
+      "id": "FF021",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 0,
+      "row": 0,
+      "position": [
+        -550.0,
+        105.0,
+        140.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF022",
+      "id": "FF022",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 0,
+      "row": 1,
+      "position": [
+        -550.0,
+        105.0,
+        250.7
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF023",
+      "id": "FF023",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 0,
+      "row": 2,
+      "position": [
+        -550.0,
+        105.0,
+        361.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF024",
+      "id": "FF024",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 0,
+      "row": 3,
+      "position": [
+        -550.0,
+        105.0,
+        472.1
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF025",
+      "id": "FF025",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 0,
+      "row": 4,
+      "position": [
+        -550.0,
+        105.0,
+        582.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF026",
+      "id": "FF026",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 1,
+      "row": 0,
+      "position": [
+        -443.728,
+        157.029,
+        167.675
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF027",
+      "id": "FF027",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 1,
+      "row": 1,
+      "position": [
+        -438.193,
+        160.35,
+        278.375
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF028",
+      "id": "FF028",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 1,
+      "row": 2,
+      "position": [
+        -443.728,
+        163.671,
+        389.075
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF029",
+      "id": "FF029",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 1,
+      "row": 3,
+      "position": [
+        -438.193,
+        157.029,
+        499.775
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF030",
+      "id": "FF030",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 1,
+      "row": 4,
+      "position": [
+        -443.728,
+        160.35,
+        610.475
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF031",
+      "id": "FF031",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 2,
+      "row": 0,
+      "position": [
+        -656.272,
+        46.329,
+        195.35
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF032",
+      "id": "FF032",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 2,
+      "row": 1,
+      "position": [
+        -650.737,
+        49.65,
+        306.05
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF033",
+      "id": "FF033",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 2,
+      "row": 2,
+      "position": [
+        -656.272,
+        52.971,
+        416.75
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF034",
+      "id": "FF034",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 2,
+      "row": 3,
+      "position": [
+        -650.737,
+        46.329,
+        527.45
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF035",
+      "id": "FF035",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 2,
+      "row": 4,
+      "position": [
+        -656.272,
+        49.65,
+        638.15
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF036",
+      "id": "FF036",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 3,
+      "row": 0,
+      "position": [
+        -337.456,
+        212.379,
+        223.025
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF037",
+      "id": "FF037",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 3,
+      "row": 1,
+      "position": [
+        -331.921,
+        215.7,
+        333.725
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF038",
+      "id": "FF038",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 3,
+      "row": 2,
+      "position": [
+        -337.456,
+        219.021,
+        444.425
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF039",
+      "id": "FF039",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 3,
+      "row": 3,
+      "position": [
+        -331.921,
+        212.379,
+        555.125
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF040",
+      "id": "FF040",
+      "group": "Squadron_02",
+      "squadron": 2,
+      "column": 3,
+      "row": 4,
+      "position": [
+        -337.456,
+        215.7,
+        665.825
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF041",
+      "id": "FF041",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 0,
+      "row": 0,
+      "position": [
+        550.0,
+        -85.0,
+        210.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF042",
+      "id": "FF042",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 0,
+      "row": 1,
+      "position": [
+        550.0,
+        -85.0,
+        320.7
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF043",
+      "id": "FF043",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 0,
+      "row": 2,
+      "position": [
+        550.0,
+        -85.0,
+        431.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF044",
+      "id": "FF044",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 0,
+      "row": 3,
+      "position": [
+        550.0,
+        -85.0,
+        542.1
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF045",
+      "id": "FF045",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 0,
+      "row": 4,
+      "position": [
+        550.0,
+        -85.0,
+        652.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF046",
+      "id": "FF046",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 1,
+      "row": 0,
+      "position": [
+        656.272,
+        -32.971,
+        237.675
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF047",
+      "id": "FF047",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 1,
+      "row": 1,
+      "position": [
+        661.807,
+        -29.65,
+        348.375
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF048",
+      "id": "FF048",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 1,
+      "row": 2,
+      "position": [
+        656.272,
+        -26.329,
+        459.075
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF049",
+      "id": "FF049",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 1,
+      "row": 3,
+      "position": [
+        661.807,
+        -32.971,
+        569.775
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF050",
+      "id": "FF050",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 1,
+      "row": 4,
+      "position": [
+        656.272,
+        -29.65,
+        680.475
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF051",
+      "id": "FF051",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 2,
+      "row": 0,
+      "position": [
+        443.728,
+        -143.671,
+        265.35
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF052",
+      "id": "FF052",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 2,
+      "row": 1,
+      "position": [
+        449.263,
+        -140.35,
+        376.05
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF053",
+      "id": "FF053",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 2,
+      "row": 2,
+      "position": [
+        443.728,
+        -137.029,
+        486.75
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF054",
+      "id": "FF054",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 2,
+      "row": 3,
+      "position": [
+        449.263,
+        -143.671,
+        597.45
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF055",
+      "id": "FF055",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 2,
+      "row": 4,
+      "position": [
+        443.728,
+        -140.35,
+        708.15
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF056",
+      "id": "FF056",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 3,
+      "row": 0,
+      "position": [
+        762.544,
+        22.379,
+        293.025
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF057",
+      "id": "FF057",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 3,
+      "row": 1,
+      "position": [
+        768.079,
+        25.7,
+        403.725
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF058",
+      "id": "FF058",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 3,
+      "row": 2,
+      "position": [
+        762.544,
+        29.021,
+        514.425
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF059",
+      "id": "FF059",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 3,
+      "row": 3,
+      "position": [
+        768.079,
+        22.379,
+        625.125
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF060",
+      "id": "FF060",
+      "group": "Squadron_03",
+      "squadron": 3,
+      "column": 3,
+      "row": 4,
+      "position": [
+        762.544,
+        25.7,
+        735.825
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF061",
+      "id": "FF061",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 0,
+      "row": 0,
+      "position": [
+        -550.0,
+        -120.0,
+        900.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF062",
+      "id": "FF062",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 0,
+      "row": 1,
+      "position": [
+        -550.0,
+        -120.0,
+        1010.7
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF063",
+      "id": "FF063",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 0,
+      "row": 2,
+      "position": [
+        -550.0,
+        -120.0,
+        1121.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF064",
+      "id": "FF064",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 0,
+      "row": 3,
+      "position": [
+        -550.0,
+        -120.0,
+        1232.1
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF065",
+      "id": "FF065",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 0,
+      "row": 4,
+      "position": [
+        -550.0,
+        -120.0,
+        1342.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF066",
+      "id": "FF066",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 1,
+      "row": 0,
+      "position": [
+        -443.728,
+        -67.971,
+        927.675
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF067",
+      "id": "FF067",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 1,
+      "row": 1,
+      "position": [
+        -438.193,
+        -64.65,
+        1038.375
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF068",
+      "id": "FF068",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 1,
+      "row": 2,
+      "position": [
+        -443.728,
+        -61.329,
+        1149.075
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF069",
+      "id": "FF069",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 1,
+      "row": 3,
+      "position": [
+        -438.193,
+        -67.971,
+        1259.775
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF070",
+      "id": "FF070",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 1,
+      "row": 4,
+      "position": [
+        -443.728,
+        -64.65,
+        1370.475
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF071",
+      "id": "FF071",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 2,
+      "row": 0,
+      "position": [
+        -656.272,
+        -178.671,
+        955.35
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF072",
+      "id": "FF072",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 2,
+      "row": 1,
+      "position": [
+        -650.737,
+        -175.35,
+        1066.05
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF073",
+      "id": "FF073",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 2,
+      "row": 2,
+      "position": [
+        -656.272,
+        -172.029,
+        1176.75
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF074",
+      "id": "FF074",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 2,
+      "row": 3,
+      "position": [
+        -650.737,
+        -178.671,
+        1287.45
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF075",
+      "id": "FF075",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 2,
+      "row": 4,
+      "position": [
+        -656.272,
+        -175.35,
+        1398.15
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF076",
+      "id": "FF076",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 3,
+      "row": 0,
+      "position": [
+        -337.456,
+        -12.621,
+        983.025
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF077",
+      "id": "FF077",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 3,
+      "row": 1,
+      "position": [
+        -331.921,
+        -9.3,
+        1093.725
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF078",
+      "id": "FF078",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 3,
+      "row": 2,
+      "position": [
+        -337.456,
+        -5.979,
+        1204.425
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF079",
+      "id": "FF079",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 3,
+      "row": 3,
+      "position": [
+        -331.921,
+        -12.621,
+        1315.125
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF080",
+      "id": "FF080",
+      "group": "Squadron_04",
+      "squadron": 4,
+      "column": 3,
+      "row": 4,
+      "position": [
+        -337.456,
+        -9.3,
+        1425.825
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF081",
+      "id": "FF081",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 0,
+      "row": 0,
+      "position": [
+        0.0,
+        145.0,
+        930.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF082",
+      "id": "FF082",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 0,
+      "row": 1,
+      "position": [
+        0.0,
+        145.0,
+        1040.7
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF083",
+      "id": "FF083",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 0,
+      "row": 2,
+      "position": [
+        0.0,
+        145.0,
+        1151.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF084",
+      "id": "FF084",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 0,
+      "row": 3,
+      "position": [
+        0.0,
+        145.0,
+        1262.1
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF085",
+      "id": "FF085",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 0,
+      "row": 4,
+      "position": [
+        0.0,
+        145.0,
+        1372.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF086",
+      "id": "FF086",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 1,
+      "row": 0,
+      "position": [
+        106.272,
+        197.029,
+        957.675
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF087",
+      "id": "FF087",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 1,
+      "row": 1,
+      "position": [
+        111.807,
+        200.35,
+        1068.375
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF088",
+      "id": "FF088",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 1,
+      "row": 2,
+      "position": [
+        106.272,
+        203.671,
+        1179.075
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF089",
+      "id": "FF089",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 1,
+      "row": 3,
+      "position": [
+        111.807,
+        197.029,
+        1289.775
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF090",
+      "id": "FF090",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 1,
+      "row": 4,
+      "position": [
+        106.272,
+        200.35,
+        1400.475
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF091",
+      "id": "FF091",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 2,
+      "row": 0,
+      "position": [
+        -106.272,
+        86.329,
+        985.35
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF092",
+      "id": "FF092",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 2,
+      "row": 1,
+      "position": [
+        -100.737,
+        89.65,
+        1096.05
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF093",
+      "id": "FF093",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 2,
+      "row": 2,
+      "position": [
+        -106.272,
+        92.971,
+        1206.75
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF094",
+      "id": "FF094",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 2,
+      "row": 3,
+      "position": [
+        -100.737,
+        86.329,
+        1317.45
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF095",
+      "id": "FF095",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 2,
+      "row": 4,
+      "position": [
+        -106.272,
+        89.65,
+        1428.15
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF096",
+      "id": "FF096",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 3,
+      "row": 0,
+      "position": [
+        212.544,
+        252.379,
+        1013.025
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF097",
+      "id": "FF097",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 3,
+      "row": 1,
+      "position": [
+        218.079,
+        255.7,
+        1123.725
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF098",
+      "id": "FF098",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 3,
+      "row": 2,
+      "position": [
+        212.544,
+        259.021,
+        1234.425
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF099",
+      "id": "FF099",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 3,
+      "row": 3,
+      "position": [
+        218.079,
+        252.379,
+        1345.125
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF100",
+      "id": "FF100",
+      "group": "Squadron_05",
+      "squadron": 5,
+      "column": 3,
+      "row": 4,
+      "position": [
+        212.544,
+        255.7,
+        1455.825
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF101",
+      "id": "FF101",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 0,
+      "row": 0,
+      "position": [
+        550.0,
+        20.0,
+        1030.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF102",
+      "id": "FF102",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 0,
+      "row": 1,
+      "position": [
+        550.0,
+        20.0,
+        1140.7
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF103",
+      "id": "FF103",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 0,
+      "row": 2,
+      "position": [
+        550.0,
+        20.0,
+        1251.4
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF104",
+      "id": "FF104",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 0,
+      "row": 3,
+      "position": [
+        550.0,
+        20.0,
+        1362.1
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF105",
+      "id": "FF105",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 0,
+      "row": 4,
+      "position": [
+        550.0,
+        20.0,
+        1472.8
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF106",
+      "id": "FF106",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 1,
+      "row": 0,
+      "position": [
+        656.272,
+        72.029,
+        1057.675
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF107",
+      "id": "FF107",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 1,
+      "row": 1,
+      "position": [
+        661.807,
+        75.35,
+        1168.375
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF108",
+      "id": "FF108",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 1,
+      "row": 2,
+      "position": [
+        656.272,
+        78.671,
+        1279.075
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF109",
+      "id": "FF109",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 1,
+      "row": 3,
+      "position": [
+        661.807,
+        72.029,
+        1389.775
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF110",
+      "id": "FF110",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 1,
+      "row": 4,
+      "position": [
+        656.272,
+        75.35,
+        1500.475
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF111",
+      "id": "FF111",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 2,
+      "row": 0,
+      "position": [
+        443.728,
+        -38.671,
+        1085.35
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF112",
+      "id": "FF112",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 2,
+      "row": 1,
+      "position": [
+        449.263,
+        -35.35,
+        1196.05
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF113",
+      "id": "FF113",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 2,
+      "row": 2,
+      "position": [
+        443.728,
+        -32.029,
+        1306.75
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF114",
+      "id": "FF114",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 2,
+      "row": 3,
+      "position": [
+        449.263,
+        -38.671,
+        1417.45
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF115",
+      "id": "FF115",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 2,
+      "row": 4,
+      "position": [
+        443.728,
+        -35.35,
+        1528.15
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF116",
+      "id": "FF116",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 3,
+      "row": 0,
+      "position": [
+        762.544,
+        127.379,
+        1113.025
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF117",
+      "id": "FF117",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 3,
+      "row": 1,
+      "position": [
+        768.079,
+        130.7,
+        1223.725
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF118",
+      "id": "FF118",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 3,
+      "row": 2,
+      "position": [
+        762.544,
+        134.021,
+        1334.425
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF119",
+      "id": "FF119",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 3,
+      "row": 3,
+      "position": [
+        768.079,
+        127.379,
+        1445.125
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_FF120",
+      "id": "FF120",
+      "group": "Squadron_06",
+      "squadron": 6,
+      "column": 3,
+      "row": 4,
+      "position": [
+        762.544,
+        130.7,
+        1555.825
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    }
+  ],
+  "measurements": {
+    "count": 120,
+    "centerBounds": {
+      "min": [
+        -656.272,
+        -178.671,
+        100.0
+      ],
+      "max": [
+        768.079,
+        259.021,
+        1555.825
+      ],
+      "size": [
+        1424.351,
+        437.692,
+        1455.825
+      ]
+    },
+    "visualBounds": {
+      "min": [
+        -659.9620000000001,
+        -181.402535,
+        88.93
+      ],
+      "max": [
+        771.769,
+        262.50100000000003,
+        1566.895
+      ],
+      "size": [
+        1431.7310000000002,
+        443.90353500000003,
+        1477.965
+      ]
+    },
+    "nearestMin": 110.69999999999982,
+    "nearestMedian": 110.88803030985805,
+    "nearestMax": 110.88803030985811,
+    "nearestMedianToOld": 2.1415896704911175,
+    "nearestMedianInShipLengths": 5.008492787256461,
+    "squadronVisualBounds": [
+      {
+        "name": "Squadron_01",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -106.272,
+            -50.671,
+            100.0
+          ],
+          "max": [
+            218.079,
+            122.021,
+            625.825
+          ],
+          "size": [
+            324.351,
+            172.692,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -109.962,
+            -53.402535,
+            88.93
+          ],
+          "max": [
+            221.769,
+            125.501,
+            636.8950000000001
+          ],
+          "size": [
+            331.731,
+            178.903535,
+            547.9650000000001
+          ]
+        }
+      },
+      {
+        "name": "Squadron_02",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -656.272,
+            46.329,
+            140.0
+          ],
+          "max": [
+            -331.921,
+            219.021,
+            665.825
+          ],
+          "size": [
+            324.35100000000006,
+            172.69199999999998,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -659.9620000000001,
+            43.597465,
+            128.93
+          ],
+          "max": [
+            -328.231,
+            222.50099999999998,
+            676.8950000000001
+          ],
+          "size": [
+            331.7310000000001,
+            178.90353499999998,
+            547.9650000000001
+          ]
+        }
+      },
+      {
+        "name": "Squadron_03",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            443.728,
+            -143.671,
+            210.0
+          ],
+          "max": [
+            768.079,
+            29.021,
+            735.825
+          ],
+          "size": [
+            324.35099999999994,
+            172.692,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            440.038,
+            -146.402535,
+            198.93
+          ],
+          "max": [
+            771.769,
+            32.501,
+            746.8950000000001
+          ],
+          "size": [
+            331.731,
+            178.903535,
+            547.9650000000001
+          ]
+        }
+      },
+      {
+        "name": "Squadron_04",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -656.272,
+            -178.671,
+            900.0
+          ],
+          "max": [
+            -331.921,
+            -5.979,
+            1425.825
+          ],
+          "size": [
+            324.35100000000006,
+            172.69199999999998,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -659.9620000000001,
+            -181.402535,
+            888.93
+          ],
+          "max": [
+            -328.231,
+            -2.499,
+            1436.895
+          ],
+          "size": [
+            331.7310000000001,
+            178.903535,
+            547.965
+          ]
+        }
+      },
+      {
+        "name": "Squadron_05",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -106.272,
+            86.329,
+            930.0
+          ],
+          "max": [
+            218.079,
+            259.021,
+            1455.825
+          ],
+          "size": [
+            324.351,
+            172.692,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -109.962,
+            83.597465,
+            918.93
+          ],
+          "max": [
+            221.769,
+            262.50100000000003,
+            1466.895
+          ],
+          "size": [
+            331.731,
+            178.90353500000003,
+            547.965
+          ]
+        }
+      },
+      {
+        "name": "Squadron_06",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            443.728,
+            -38.671,
+            1030.0
+          ],
+          "max": [
+            768.079,
+            134.021,
+            1555.825
+          ],
+          "size": [
+            324.35099999999994,
+            172.69199999999998,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            440.038,
+            -41.402535,
+            1018.93
+          ],
+          "max": [
+            771.769,
+            137.50099999999998,
+            1566.895
+          ],
+          "size": [
+            331.731,
+            178.90353499999998,
+            547.965
+          ]
+        }
+      }
+    ],
+    "squadronGaps": [
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_02",
+        "clearDistance": 218.269
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_03",
+        "clearDistance": 218.269
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_04",
+        "clearDistance": 333.41115396159125
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_05",
+        "clearDistance": 282.03499999999985
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_06",
+        "clearDistance": 439.9910198924518
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_03",
+        "clearDistance": 768.3491315128144
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_04",
+        "clearDistance": 216.98784599718059
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_05",
+        "clearDistance": 325.91762392666027
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_06",
+        "clearDistance": 840.9668231184867
+      },
+      {
+        "a": "Squadron_03",
+        "b": "Squadron_04",
+        "clearDistance": 781.2881655228114
+      },
+      {
+        "a": "Squadron_03",
+        "b": "Squadron_05",
+        "clearDistance": 282.5743199965209
+      },
+      {
+        "a": "Squadron_03",
+        "b": "Squadron_06",
+        "clearDistance": 272.03499999999985
+      },
+      {
+        "a": "Squadron_04",
+        "b": "Squadron_05",
+        "clearDistance": 234.63579787938633
+      },
+      {
+        "a": "Squadron_04",
+        "b": "Squadron_06",
+        "clearDistance": 768.269
+      },
+      {
+        "a": "Squadron_05",
+        "b": "Squadron_06",
+        "clearDistance": 218.269
+      }
+    ],
+    "minimumSquadronClearance": 216.98784599718059,
+    "minimumSquadronClearanceInLengths": 9.800715718029837,
+    "closestRockConservative": {
+      "target": "SPAWN_Small_FF034",
+      "rock": "rock-001",
+      "conservativeClearance": 404.76043808528016
+    },
+    "rockMethod": "All-LOD prototype full AABB diagonal x scale plus ship corner radius; deliberately conservative sphere separation, not Unity physics.",
+    "maximumFleetRadiusFromSolarOrigin": 1519.7874572713242,
+    "boundaryRadius": 5840,
+    "warningRadius": 4880,
+    "shipPairVisualAabbOverlapCount": 0
+  },
+  "coordinateContract": "Blender +Y forward/+Z up; Unity +Z forward/+Y up; positive unit scale.",
+  "exportRepresentation": "Source .blend contains only Empties. FBX reuses calibrated temporary four-vertex mesh pose proxies; Unity FleetLayoutImporter reads Transform only and never places marker geometry.",
+  "exportOptions": {
+    "use_selection": true,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "use_space_transform": true,
+    "bake_space_transform": true,
+    "mesh_smooth_type": "FACE",
+    "use_mesh_modifiers": true,
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "AUTO",
+    "use_custom_props": true
+  },
+  "resourceCounts": {
+    "sourceShipMeshes": 0,
+    "sourceMaterials": 0,
+    "sourceTextures": 0,
+    "sourceCameras": 0,
+    "sourceLights": 0,
+    "fbxTemporaryPoseProxies": 120,
+    "fbxShipGeometry": 0
+  }
+}

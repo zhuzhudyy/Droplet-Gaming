@@ -1,0 +1,37 @@
+{
+  "off": "docs\\verification\\VisualUpgrade\\Editor\\After-20260908-132743-395\\07a-frozen-chrome-explosion-response-OFF.png",
+  "on": "docs\\verification\\VisualUpgrade\\Editor\\After-20260908-132743-395\\07b-frozen-chrome-explosion-response-ON.png",
+  "width": 1920,
+  "height": 1080,
+  "scope": "RGB8 PNG comparison of an explicitly frozen actual rendered OFF/ON pair; no image pixels were changed. Numeric difference does not establish visual quality; inspect both source images.",
+  "fullImage": {
+    "pixels": 2073600,
+    "changedPixels": 113,
+    "redIncreaseGreaterThan2of255Pixels": 36,
+    "redIncreaseExceedsBlueBy2of255Pixels": 29,
+    "maximumAbsoluteChannelDeltaOf255": 43,
+    "meanSignedRgbDeltaOf255": [
+      0.0002763310185185185,
+      0.00018856095679012345,
+      0.00011477623456790124
+    ]
+  },
+  "roi": {
+    "bounds": [
+      820,
+      454,
+      1120,
+      600
+    ],
+    "pixels": 43800,
+    "changedPixels": 113,
+    "redIncreaseGreaterThan2of255Pixels": 36,
+    "redIncreaseExceedsBlueBy2of255Pixels": 29,
+    "maximumAbsoluteChannelDeltaOf255": 43,
+    "meanSignedRgbDeltaOf255": [
+      0.013082191780821917,
+      0.008926940639269406,
+      0.005433789954337899
+    ]
+  }
+}

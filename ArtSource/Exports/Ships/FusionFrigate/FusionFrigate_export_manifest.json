@@ -1,0 +1,1287 @@
+{
+  "source_sha256": "446ee1a13616635b8bc26c0197e7afb7bbad8be55afa08f7f9cbb2eadf2a93df",
+  "fbx_sha256": "aaa3a754c9f0adb1f45841c5c3e2955d26f8ab7a4a2a895ea45f261c33e6403a",
+  "options": {
+    "use_selection": true,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "use_space_transform": true,
+    "bake_space_transform": true,
+    "mesh_smooth_type": "FACE",
+    "use_mesh_modifiers": true,
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "AUTO",
+    "use_custom_props": true
+  },
+  "export_axis_matrix_G": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "hierarchy_correction": "identity containers=G; depth-2 mesh=G W; depth-2 socket=G S G",
+  "sockets_expected_blender": {
+    "MainExhaust": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -11.069999694824219
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        -0.05000000074505806
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AuxiliaryExhaust_01": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -2.5
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -10.548999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.15000000596046448
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AuxiliaryExhaust_02": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        2.5
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -10.548999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.15000000596046448
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AuxiliaryExhaust_03": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -1.6200000047683716
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -10.548999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        -2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "AuxiliaryExhaust_04": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.6200000047683716
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -10.548999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        -2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "lods": {
+    "LOD0": {
+      "mesh_objects": 13,
+      "unique_meshes": 7,
+      "triangles": 17224,
+      "objects": [
+        {
+          "name": "FusionFrigate_LOD0_Hull",
+          "mesh": "FF_LOD0_PressureHull_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_ArmorStation_A",
+          "mesh": "FF_LOD0_ArmorStation_A_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -4.639999866485596
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_ArmorStation_B",
+          "mesh": "FF_LOD0_ArmorStation_A_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_Details",
+          "mesh": "FF_LOD0_RecessedEquipmentBays_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_FusionDrive",
+          "mesh": "FF_LOD0_DriveMount_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_Superstructure",
+          "mesh": "FF_LOD0_LayeredBridge_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_Turret_01",
+          "mesh": "FF_LOD0_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.2300000190734863
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.1500000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_Turret_02",
+          "mesh": "FF_LOD0_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2300000190734863
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.1500000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_Turret_03",
+          "mesh": "FF_LOD0_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              6.25
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_01",
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_02",
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_03",
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.6200000047683716
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_04",
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.6200000047683716
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    "LOD1": {
+      "mesh_objects": 13,
+      "unique_meshes": 7,
+      "triangles": 5400,
+      "objects": [
+        {
+          "name": "FusionFrigate_LOD1_Hull",
+          "mesh": "FF_LOD1_PressureHull_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_ArmorStation_A",
+          "mesh": "FF_LOD1_ArmorStation_A_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -4.639999866485596
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_ArmorStation_B",
+          "mesh": "FF_LOD1_ArmorStation_A_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_Details",
+          "mesh": "FF_LOD1_RecessedEquipmentBays_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_FusionDrive",
+          "mesh": "FF_LOD1_DriveMount_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_Superstructure",
+          "mesh": "FF_LOD1_LayeredBridge_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_Turret_01",
+          "mesh": "FF_LOD1_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.2300000190734863
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.1500000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_Turret_02",
+          "mesh": "FF_LOD1_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2300000190734863
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.1500000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_Turret_03",
+          "mesh": "FF_LOD1_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              6.25
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_01",
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_02",
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_03",
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.6200000047683716
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_04",
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.6200000047683716
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    "LOD2": {
+      "mesh_objects": 10,
+      "unique_meshes": 5,
+      "triangles": 1396,
+      "objects": [
+        {
+          "name": "FusionFrigate_LOD2_Hull",
+          "mesh": "FF_LOD2_HullSilhouette_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_Superstructure",
+          "mesh": "FF_LOD2_LayeredBridge_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_Turret_01",
+          "mesh": "FF_LOD2_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.2300000190734863
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.1500000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_Turret_02",
+          "mesh": "FF_LOD2_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2300000190734863
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.1500000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_Turret_03",
+          "mesh": "FF_LOD2_Turret_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              6.25
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_FusionDrive",
+          "mesh": "FF_LOD2_MainFusionDrive_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -6.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.05000000074505806
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_01",
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_02",
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.5
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_03",
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.6200000047683716
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_04",
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "matrix_world_source": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.6200000047683716
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -7.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "scene_objects": 46
+}

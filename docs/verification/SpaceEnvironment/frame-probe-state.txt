@@ -1,0 +1,5 @@
+status=Collection completed. Valid events: 4 / 4. Saved frame-BeltCloseCamera.json
+owns=False; pending=False; collecting=False; index=4; ticks=3
+enabled=False; events=0; limit=0
+windowCounter=-1; windowTree=
+gameView= (UnityEditor.GameView); actualView= (UnityEditor.GameView); same=True

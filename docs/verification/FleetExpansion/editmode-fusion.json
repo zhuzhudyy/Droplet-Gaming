@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"completed\",\n  \"duration\": 0.97,\n  \"summary\": {\n    \"total\": 5,\n    \"passed\": 5,\n    \"failed\": 0,\n    \"skipped\": 0,\n    \"inconclusive\": 0\n  },\n  \"results\": [\n    {\n      \"FullName\": \"DropletPrototype.Tests.EditMode.FusionFleetAssetTests.ExpandedMissionUsesIndependentSettingsAndPreservesSolarFlightContract\",\n      \"Status\": \"Passed\",\n      \"Duration\": 0.1743976,\n      \"Message\": null,\n      \"StackTrace\": null\n    },\n    {\n      \"FullName\": \"DropletPrototype.Tests.EditMode.FusionFleetAssetTests.GameplayPrefabHasOneCompleteAlignedLodGroupWithoutUncontrolledGeometry\",\n      \"Status\": \"Passed\",\n      \"Duration\": 0.0066935,\n      \"Message\": null,\n      \"StackTrace\": null\n    },\n    {\n      \"FullName\": \"DropletPrototype.Tests.EditMode.FusionFleetAssetTests.GameplayPrefabKeepsSimpleIndependentHitVolumesAndFiveCorrectSockets\",\n      \"Status\": \"Passed\",\n      \"Duration\": 0.004333,\n      \"Message\": null,\n      \"StackTrace\": null\n    },\n    {\n      \"FullName\": \"DropletPrototype.Tests.EditMode.FusionFleetAssetTests.ImportedModelUsesSafeSettingsAndSharedNativeResources\",\n      \"Status\": \"Passed\",\n      \"Duration\": 0.0075667,\n      \"Message\": null,\n      \"StackTrace\": null\n    },\n    {\n      \"FullName\": \"DropletPrototype.Tests.EditMode.FusionFleetAssetTests.SavedExpandedFleetMatchesItsVersionedAuthorityAndReopensWithoutDuplicates\",\n      \"Status\": \"Passed\",\n      \"Duration\": 0.46313,\n      \"Message\": null,\n      \"StackTrace\": null\n    }\n  ]\n}"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+PASS: actual reimport; one-metre cube, asymmetric X/Y/Z, 3 translated/rotated full marker poses, tolerance 0.002. Same established FBX contract.

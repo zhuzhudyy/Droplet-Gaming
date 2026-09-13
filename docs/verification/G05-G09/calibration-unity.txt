@@ -1,0 +1,2 @@
+PASS: Unity 6000.5.10f1 imported calibration; 1m cube (0.002 tolerance); asymmetric +Z/+Y/+X; three translated/rotated markers; unit scale; nonempty geometry and valid imported normals; cube outward normals.
+Importer: scale=1, useFileScale=true, bakeAxisConversion=true, Import normals, no animation/colliders.

@@ -1,0 +1,1 @@
+PASS: two complete model/layout reimports + owned prefab/review updates, then reopen; external manual root and transform preserved; all existing environment asset GUIDs stable; no duplicate IDs; actual mesh/material sharing rechecked. Temporary probe removed and review saved.

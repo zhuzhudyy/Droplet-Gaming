@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:25Z" duration="3.3387913">
+  <test-suite type="TestSuite" id="1051" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:25Z" duration="3.338791" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1038" name="DropletPrototype.Tests.EditMode.dll" fullname="C:/学习/玩/Unity/新建文件夹/DropletPrototype/Library/ScriptAssemblies/DropletPrototype.Tests.EditMode.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:25Z" duration="3.234833" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51448" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1039" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:25Z" duration="3.234243" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1040" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:25Z" duration="3.125973" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1041" name="EditMode" fullname="DropletPrototype.Tests.EditMode" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:25Z" duration="3.125293" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1033" name="SceneAuthoringTests" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:25Z" duration="2.974617" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1035" name="DirtySceneIsRefusedRatherThanOverwritten" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests.DirtySceneIsRefusedRatherThanOverwritten" methodname="DirtySceneIsRefusedRatherThanOverwritten" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" seed="361560634" result="Passed" start-time="2026-09-07 11:54:22Z" end-time="2026-09-07 11:54:24Z" duration="1.570099" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1034" name="SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests.SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" methodname="SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" seed="388227638" result="Passed" start-time="2026-09-07 11:54:24Z" end-time="2026-09-07 11:54:25Z" duration="1.400290" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1036" name="ScoreTests" fullname="DropletPrototype.Tests.EditMode.ScoreTests" classname="DropletPrototype.Tests.EditMode.ScoreTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-07 11:54:25Z" end-time="2026-09-07 11:54:25Z" duration="0.041142" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1037" name="ComboWindowCapAndResetAreDeterministic" fullname="DropletPrototype.Tests.EditMode.ScoreTests.ComboWindowCapAndResetAreDeterministic" methodname="ComboWindowCapAndResetAreDeterministic" classname="DropletPrototype.Tests.EditMode.ScoreTests" runstate="Runnable" seed="1578523734" result="Passed" start-time="2026-09-07 11:54:25Z" end-time="2026-09-07 11:54:25Z" duration="0.001512" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

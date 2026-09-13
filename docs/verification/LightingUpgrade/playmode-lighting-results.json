@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 6.45,
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.DestroyAndRestartInvalidateLocalReflectionsAndQualityDisablesCapture",
+      "Status": "Passed",
+      "Duration": 4.3577287,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.FiveDrivesRespectEveryLodQualityDestructionAndRestore",
+      "Status": "Passed",
+      "Duration": 0.6237771,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.LightingFleetCompletesThroughSweptMovementAndThreeRestartsReuseVisuals",
+      "Status": "Passed",
+      "Duration": 0.7969537,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LightingUpgradePlayTests.SolarLightingStaysInWorldDirectionAcrossViewpointsAndPause",
+      "Status": "Passed",
+      "Duration": 0.6264405,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

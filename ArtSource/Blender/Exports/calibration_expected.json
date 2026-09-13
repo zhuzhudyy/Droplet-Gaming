@@ -1,0 +1,145 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "exporter": "bundled io_scene_fbx",
+  "export_options": {
+    "use_selection": true,
+    "object_types": [
+      "EMPTY",
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "use_space_transform": true,
+    "bake_space_transform": true,
+    "mesh_smooth_type": "FACE",
+    "use_mesh_modifiers": true,
+    "add_leaf_bones": false,
+    "bake_anim": false,
+    "path_mode": "AUTO",
+    "use_custom_props": true
+  },
+  "cube_center_unity": [
+    -8,
+    0,
+    0
+  ],
+  "cube_dimensions_unity": [
+    1,
+    1,
+    1
+  ],
+  "front_tip_center_unity": [
+    0,
+    0,
+    3
+  ],
+  "up_tip_center_unity": [
+    0,
+    2.2,
+    0
+  ],
+  "right_tip_center_unity": [
+    1.5,
+    0,
+    0
+  ],
+  "frigate": {
+    "triangles": 2040,
+    "blender_dimensions": [
+      8.999999761581421,
+      22.140000343322754,
+      4.45598292350769
+    ],
+    "expected_unity_dimensions": [
+      8.999999761581421,
+      4.45598292350769,
+      22.140000343322754
+    ],
+    "mesh_count": 16
+  },
+  "frigate_root_position_unity": [
+    8,
+    0,
+    0
+  ],
+  "markers": [
+    {
+      "name": "SPAWN_Small_001",
+      "position": [
+        0,
+        8,
+        100
+      ],
+      "forward": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_002",
+      "position": [
+        -20,
+        15,
+        140
+      ],
+      "forward": [
+        1.0,
+        -0.0,
+        6.123234262925839e-17
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 90,
+      "pitch": 0
+    },
+    {
+      "name": "SPAWN_Small_003",
+      "position": [
+        30,
+        -5,
+        180
+      ],
+      "forward": [
+        -0.5540322661399841,
+        -0.258819043636322,
+        0.7912400960922241
+      ],
+      "up": [
+        -0.1484525054693222,
+        0.9659258127212524,
+        0.2120121568441391
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": -35,
+      "pitch": 15
+    }
+  ]
+}

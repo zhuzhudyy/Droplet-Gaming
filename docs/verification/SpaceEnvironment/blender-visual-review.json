@@ -1,0 +1,22 @@
+﻿{
+    "passed":  true,
+    "source_sha256":  "604204fd340cb951df6bcaae132e5092d32db883e441637ff132dcf5596fdd18",
+    "reviewer":  "Codex root actual image inspection",
+    "images":  [
+                   "ReferenceCamera",
+                   "SideCamera",
+                   "TopCamera",
+                   "GameplayTurnCamera",
+                   "BeltCloseCamera",
+                   "AsteroidLibraryReview",
+                   "AsteroidLibraryWireframe"
+               ],
+    "observations":  [
+                         "Sun upper left and Earth right match reference angular composition; diagonal belt and corner foreground rocks retained.",
+                         "Side and top show thick curved belt continuing around reserved volume, not a plane.",
+                         "All eight rock shapes and three LOD rows visibly differ in topology; large silhouettes retained.",
+                         "Workbench hides the enclosing sky only to avoid studio-lit inward-sphere shading; real shared sky and original star texture exported for Unity Unlit.",
+                         "Texture pack issue found on first inspection and repaired; reopened selfcheck now passes.",
+                         "All visuals are neutral base previews; no final lighting or atmospheric effects."
+                     ]
+}

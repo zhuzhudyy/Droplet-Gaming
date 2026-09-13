@@ -1,0 +1,15 @@
+{
+    "name": "DropletPrototype.Tests.EditMode",
+    "rootNamespace": "DropletPrototype.Tests.EditMode",
+    "references": ["DropletPrototype.Runtime", "DropletPrototype.Editor", "Unity.Timeline"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": ["TestAssemblies"]
+}

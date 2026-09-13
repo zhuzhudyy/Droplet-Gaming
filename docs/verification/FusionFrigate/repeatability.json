@@ -1,0 +1,9 @@
+{
+  "same_evaluated_lod_stats": true,
+  "same_materials": true,
+  "same_socket_poses": true,
+  "before_blend_sha256": "4fa502f9a19c2a832774463fbe777616775cfb2b297aadcf573600b59142a600",
+  "after_blend_sha256": "446ee1a13616635b8bc26c0197e7afb7bbad8be55afa08f7f9cbb2eadf2a93df",
+  "fresh_background_process": true,
+  "passed": true
+}

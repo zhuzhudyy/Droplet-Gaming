@@ -1,0 +1,305 @@
+{
+  "passed": true,
+  "source_sha256": "9d80df9bb347a17fc359a51609382b7de5fd650c1697261a2055797b9c5be865",
+  "config_sha256": "7d10f38d35a895a66de7022ea922b3a1be21a222f60a7daaf3c15519ce9a7977",
+  "blender": "5.2.1 LTS",
+  "rocks": 32,
+  "uniqueRockMeshes": 8,
+  "minimumClearance": 1098.267826595619,
+  "minimumSpacing": 868.5309391078132,
+  "sharedMeshes": [
+    {
+      "name": "Sun_LOD0",
+      "triangles": 1472,
+      "vertices": 738
+    },
+    {
+      "name": "Sky_LOD0",
+      "triangles": 960,
+      "vertices": 482
+    },
+    {
+      "name": "Rock08_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock08_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock08_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock08_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock08_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock08_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock07_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock07_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock07_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock07_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock07_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock07_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock06_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock06_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock06_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock06_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock06_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock06_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock05_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock05_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock05_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock05_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock05_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock05_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock04_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock04_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock04_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock04_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock04_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock04_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock03_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock03_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock03_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock03_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock03_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock03_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock02_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock02_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock02_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock02_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock02_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock02_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock01_LOD2_Showcase",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock01_LOD2",
+      "triangles": 80,
+      "vertices": 42
+    },
+    {
+      "name": "Rock01_LOD1_Showcase",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock01_LOD1",
+      "triangles": 320,
+      "vertices": 162
+    },
+    {
+      "name": "Rock01_LOD0_Showcase",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Rock01_LOD0",
+      "triangles": 1280,
+      "vertices": 642
+    },
+    {
+      "name": "Earth_LOD2",
+      "triangles": 528,
+      "vertices": 266
+    },
+    {
+      "name": "Earth_LOD1",
+      "triangles": 1840,
+      "vertices": 922
+    },
+    {
+      "name": "Earth_LOD0",
+      "triangles": 6016,
+      "vertices": 3010
+    }
+  ],
+  "macroSamples": 480,
+  "macroExported": false,
+  "angular": [
+    {
+      "id": "Sun",
+      "angleDeg": 0.2131618402738233,
+      "distanceAu": 2.500000001332713
+    },
+    {
+      "id": "Earth",
+      "angleDeg": 0.0014118871987061753,
+      "distanceAu": 3.4564861461300262
+    }
+  ],
+  "generatedImages": [
+    "Blender-FleetOutskirts.png",
+    "Blender-MacroAllOrbits.png",
+    "Blender-MacroInnerSide.png",
+    "Blender-MacroInnerTop.png",
+    "Blender-OpenSpaceForward.png",
+    "Blender-OpenSpaceReverse.png",
+    "Blender-ParallaxA.png",
+    "Blender-ParallaxB.png",
+    "Blender-ReferenceCamera.png",
+    "Blender-SpawnForward.png",
+    "Blender-SpawnReverse.png"
+  ],
+  "visualReview": "Pending separate image observation"
+}

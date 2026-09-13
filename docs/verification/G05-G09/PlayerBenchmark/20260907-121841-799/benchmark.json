@@ -1,0 +1,254 @@
+﻿{
+    "startedUtc": "2026-09-07T12:18:41.8059162Z",
+    "unityVersion": "6000.5.10f1",
+    "platform": "WindowsPlayer",
+    "scene": "Assets/_Project/Scenes/FleetAssault.unity",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "quality": "PC",
+    "effectQuality": "High",
+    "operatingSystem": "Windows 11  (10.0.26200)",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799",
+    "error": "",
+    "scope": "Rendered scripted route through the existing MissionController.Step and DropletMotor.ResetPose. Measures this process only; not subjective handling, keyboard input, or listening acceptance. Screenshot capture and pause waits are excluded from measured flight phases. The explicitly named impact-inspection screenshots use a temporarily fixed side/rear camera looking at SPAWN_Small_003 and its real event-created wreck, not the normal chase-camera angle; chase behavior is restored afterwards.",
+    "processorCount": 32,
+    "systemMemoryMB": 15575,
+    "graphicsMemoryMB": 7956,
+    "width": 1920,
+    "height": 1080,
+    "vSyncCount": 0,
+    "targetFrameRate": -1,
+    "editor": false,
+    "developmentBuild": false,
+    "batchMode": false,
+    "completed": true,
+    "allFlowChecksPassed": true,
+    "phases": [
+        {
+            "name": "Normal flight",
+            "renderedFrameMs": {
+                "samples": 7383,
+                "mean": 1.0835723145318699,
+                "p50": 0.9621031931601465,
+                "p95": 2.050899900496006,
+                "p99": 2.4444940499961378,
+                "maximum": 5.4677012376487259
+            },
+            "mainThreadMs": {
+                "samples": 7383,
+                "mean": 1.0824729649194105,
+                "p50": 0.9614,
+                "p95": 2.0499,
+                "p99": 2.4458,
+                "maximum": 5.4662
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadRecorderAvailable": true,
+            "gcRecorderAvailable": false,
+            "measuredSeconds": 8.000014398188796,
+            "focusedFrames": 7383,
+            "effectsPeak": 4,
+            "audioPeak": 2,
+            "poolObjectCount": 441,
+            "destroyedAtEnd": 4,
+            "allocatedMemoryBytes": 187083956,
+            "reservedMemoryBytes": 282087424,
+            "monoUsedBytes": 4304896
+        },
+        {
+            "name": "Dense penetrations",
+            "renderedFrameMs": {
+                "samples": 6755,
+                "mean": 1.184429386366975,
+                "p50": 1.0769983055070043,
+                "p95": 2.1339994855225088,
+                "p99": 2.4770975578576328,
+                "maximum": 5.79050462692976
+            },
+            "mainThreadMs": {
+                "samples": 6755,
+                "mean": 1.1832704515173947,
+                "p50": 1.075,
+                "p95": 2.1305,
+                "p99": 2.4855,
+                "maximum": 5.7908
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadRecorderAvailable": true,
+            "gcRecorderAvailable": false,
+            "measuredSeconds": 8.000820504908916,
+            "focusedFrames": 6755,
+            "effectsPeak": 16,
+            "audioPeak": 6,
+            "poolObjectCount": 441,
+            "destroyedAtEnd": 37,
+            "allocatedMemoryBytes": 187654148,
+            "reservedMemoryBytes": 282087424,
+            "monoUsedBytes": 4440064
+        },
+        {
+            "name": "Three restart frames",
+            "renderedFrameMs": {
+                "samples": 3,
+                "mean": 1.2710671871900559,
+                "p50": 1.2555980356410146,
+                "p95": 1.644699601456523,
+                "p99": 1.644699601456523,
+                "maximum": 1.644699601456523
+            },
+            "mainThreadMs": {
+                "samples": 3,
+                "mean": 1.2705666666666667,
+                "p50": 1.2559,
+                "p95": 1.6428,
+                "p99": 1.6428,
+                "maximum": 1.6428
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadRecorderAvailable": true,
+            "gcRecorderAvailable": false,
+            "measuredSeconds": 0.0038132015615701677,
+            "focusedFrames": 3,
+            "effectsPeak": 0,
+            "audioPeak": 0,
+            "poolObjectCount": 441,
+            "destroyedAtEnd": 0,
+            "allocatedMemoryBytes": 187755364,
+            "reservedMemoryBytes": 282087424,
+            "monoUsedBytes": 4419584
+        }
+    ],
+    "checks": [
+        {
+            "name": "Formal fleet has 30-60 interactive targets",
+            "detail": "Mission targets=40",
+            "passed": true
+        },
+        {
+            "name": "Presentation pool is configured",
+            "detail": "Prewarmed objects=441",
+            "passed": true
+        },
+        {
+            "name": "Rendered 1080p",
+            "detail": "1920x1080, graphics=Direct3D12",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written: 01-ready",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\01-ready.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written: 02-flight",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\02-flight.png",
+            "passed": true
+        },
+        {
+            "name": "Authored three-ship practice lane is horizontal and straight",
+            "detail": "Middle distance from line=0, direction=(0.00, 0.00, 1.00)",
+            "passed": true
+        },
+        {
+            "name": "A single actual movement sweeps multiple targets",
+            "detail": "SPAWN_Small_001 through SPAWN_Small_003; destroyed in one segment: 3",
+            "passed": true
+        },
+        {
+            "name": "Impact inspection uses real destroyed target and pooled effects",
+            "detail": "Inspection angle only; target=SPAWN_Small_003, camera=(28.00, 22.00, 167.00), effects=3",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written: 03-impact-inspection-flash",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\03-impact-inspection-flash.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written: 03-impact-inspection-wreck",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\03-impact-inspection-wreck.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written: 03-chain",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\03-chain.png",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes timer, movement, score, hits and effects",
+            "detail": "Waited 0.3 real seconds and attempted Mission.Step while paused.",
+            "passed": true
+        },
+        {
+            "name": "Entire fleet destroyed and won",
+            "detail": "destroyed=40/40, state=Results, score=21110",
+            "passed": true
+        },
+        {
+            "name": "Results resolved once",
+            "detail": "transitions=1",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written: 04-results",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\04-results.png",
+            "passed": true
+        },
+        {
+            "name": "Restart 1",
+            "detail": "live=40, total=40, actual scene targets=40, pool=441",
+            "passed": true
+        },
+        {
+            "name": "Restart 2",
+            "detail": "live=40, total=40, actual scene targets=40, pool=441",
+            "passed": true
+        },
+        {
+            "name": "Restart 3",
+            "detail": "live=40, total=40, actual scene targets=40, pool=441",
+            "passed": true
+        },
+        {
+            "name": "Reposition never damages the crossed path",
+            "detail": "Direct ResetPose checks=41, damage failures=0",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written: 05-restarted-ready",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\05-restarted-ready.png",
+            "passed": true
+        }
+    ],
+    "screenshots": [
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\01-ready.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\02-flight.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\03-impact-inspection-flash.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\03-impact-inspection-wreck.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\03-chain.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\04-results.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\G05-G09\\PlayerBenchmark\\20260907-121841-799\\05-restarted-ready.png"
+    ]
+}

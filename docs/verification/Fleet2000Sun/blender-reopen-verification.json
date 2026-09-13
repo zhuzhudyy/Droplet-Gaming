@@ -1,0 +1,154 @@
+{
+  "passed": true,
+  "blender": "5.2.1 LTS",
+  "blenderBuild": "9e2066aef7ef",
+  "actualReopenedFile": "ArtSource/Blender/Fleet2000Sun/FleetLayout_2000_Sun.blend",
+  "fileSha256": "5716c6646c2acbe1d4461da33b48d305f4f55fb117424e667331c4e690c5732d",
+  "independentShipInstanceCount": 2000,
+  "uniqueStableIds": 2000,
+  "sharedCollectionCount": 1,
+  "sharedPrototypeMeshes": 12,
+  "perInstanceScale": "all (1,1,1)",
+  "actualPrototypeBoundsBlender": {
+    "min": [
+      -9.593999862670898,
+      -28.781999588012695,
+      -7.101992130279541
+    ],
+    "max": [
+      9.593999862670898,
+      28.781997680664062,
+      9.047999382019043
+    ],
+    "size": [
+      19.187999725341797,
+      57.56399726867676,
+      16.149991512298584
+    ]
+  },
+  "maxJsonToBlenderPositionErrorMetres": 0.00030209736387355084,
+  "coordinateCalibration": [
+    {
+      "id": "FS1C01R01",
+      "blenderPosition": [
+        -4144.60791015625,
+        300.0,
+        8.0
+      ],
+      "unityJsonPosition": [
+        -4144.608,
+        8.0,
+        300.0
+      ]
+    },
+    {
+      "id": "FS1C25R01",
+      "blenderPosition": [
+        0.0,
+        300.0,
+        8.0
+      ],
+      "unityJsonPosition": [
+        0.0,
+        8.0,
+        300.0
+      ]
+    },
+    {
+      "id": "FS1C50R20",
+      "blenderPosition": [
+        4317.2998046875,
+        4674.86376953125,
+        8.0
+      ],
+      "unityJsonPosition": [
+        4317.3,
+        8.0,
+        4674.864
+      ]
+    },
+    {
+      "id": "FS2C01R01",
+      "blenderPosition": [
+        -4130.216796875,
+        328.7820129394531,
+        123.12799835205078
+      ],
+      "unityJsonPosition": [
+        -4130.217,
+        123.128,
+        328.782
+      ]
+    },
+    {
+      "id": "FS2C50R20",
+      "blenderPosition": [
+        4331.69091796875,
+        4703.64599609375,
+        123.12799835205078
+      ],
+      "unityJsonPosition": [
+        4331.691,
+        123.128,
+        4703.646
+      ]
+    }
+  ],
+  "sourceModelAndFbxUnchanged": true,
+  "newFbxCount": 0,
+  "measurements": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "columns": 50,
+    "rows": 20,
+    "layers": 2,
+    "centerBounds": {
+      "min": [
+        -4144.608,
+        8.0,
+        300.0
+      ],
+      "max": [
+        4331.691,
+        123.128,
+        4703.646
+      ],
+      "size": [
+        8476.298999999999,
+        115.128,
+        4403.646
+      ]
+    },
+    "visualBounds": {
+      "min": [
+        -4154.202,
+        0.8980090000000001,
+        271.218
+      ],
+      "max": [
+        4341.285,
+        132.176,
+        4732.428
+      ],
+      "size": [
+        8495.487000000001,
+        131.277991,
+        4461.21
+      ]
+    },
+    "nearestMin": 119.5406240112539,
+    "nearestMedian": 119.54062401125404,
+    "nearestMax": 119.54062401125411,
+    "shipPairVisualAabbOverlapCount": 0,
+    "allShipPairsChecked": 1999000,
+    "minimumVisualAabbClearance": 98.978009,
+    "maximumFleetRadiusFromSolarOrigin": 6237.857248045926,
+    "equalSpacing": {
+      "lateral": 172.692,
+      "longitudinal": 230.256,
+      "vertical": 115.128
+    },
+    "orientation": "Every ship +Z forward/+Y up in JSON and Unity. Every Blender instance +Y forward/+Z up.",
+    "method": "Exhaustive pairwise nearest centres and conservative full-ship visual AABB separation. No claim about Unity rock placement or gameplay collision tests."
+  }
+}

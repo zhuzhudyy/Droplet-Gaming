@@ -1,0 +1,4 @@
+{
+  "source_sha256": "604204fd340cb951df6bcaae132e5092d32db883e441637ff132dcf5596fdd18",
+  "purpose": "Known output of the actual completed build process; migrated to generation guard receipt after visual/reopen/export validation. This is not an export approval."
+}

@@ -1,0 +1,482 @@
+{
+  "scope": "Directory sizes are disk files, not runtime memory or VRAM. Old builds/source/Library/docs are kept and are not game distribution content.",
+  "folders": {
+    "Assets": {
+      "files": 613,
+      "bytes": 34072384
+    },
+    "Packages": {
+      "files": 2,
+      "bytes": 15230
+    },
+    "ProjectSettings": {
+      "files": 27,
+      "bytes": 60341
+    },
+    "ArtSource": {
+      "files": 211,
+      "bytes": 151990749
+    },
+    "Tools": {
+      "files": 60,
+      "bytes": 637301
+    },
+    "Builds": {
+      "files": 1572,
+      "bytes": 1038818416
+    },
+    "Library": {
+      "files": 45237,
+      "bytes": 2361468750
+    },
+    "docs": {
+      "files": 1537,
+      "bytes": 179132439
+    }
+  },
+  "newSourceFiles": [
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade.meta",
+      "bytes": 172,
+      "sha256": "c80cca1df6174576947e7c6a926039cc9b7f9f0e200eca129a0e3ccc4c94ff0b"
+    },
+    {
+      "path": "Assets/_Project/Scenes/FleetAssault_VisualUpgrade.unity",
+      "bytes": 588159,
+      "sha256": "cd2d0390c9ceaa2a73dd59d8069f0c59741b082a0919ddc443b61755d243b7fe"
+    },
+    {
+      "path": "Assets/_Project/Scenes/FleetAssault_VisualUpgrade.unity.meta",
+      "bytes": 155,
+      "sha256": "1f9606a1232c670059518f6852ff2fe97aa24e44c0e9fd2c80ff548654351a87"
+    },
+    {
+      "path": "Assets/_Project/Tests/EditMode/VisualUpgradeAssetTests.cs",
+      "bytes": 5579,
+      "sha256": "7af3826555c3c9dc27f21da8615de888d3e3898c4c5db50081a9e1bcd738c126"
+    },
+    {
+      "path": "Assets/_Project/Tests/EditMode/VisualUpgradeAssetTests.cs.meta",
+      "bytes": 59,
+      "sha256": "426112dd7630c3aff510db4412b65abc3b4f0ba834a2296e3b037eabbb54898b"
+    },
+    {
+      "path": "Assets/_Project/Tests/PlayMode/ReactorExplosionTests.cs",
+      "bytes": 11746,
+      "sha256": "7fd9684f3900f785baa557b6ae60f9b2582a75b3fdb54b9ece87436002a3b9f1"
+    },
+    {
+      "path": "Assets/_Project/Tests/PlayMode/ReactorExplosionTests.cs.meta",
+      "bytes": 59,
+      "sha256": "db0ed789bf39d62c4e568e299e2fbf40c10a655bf5c794263319dd721e8c4b99"
+    },
+    {
+      "path": "Assets/_Project/Tests/PlayMode/VisualUpgradeReflectionTests.cs",
+      "bytes": 10399,
+      "sha256": "d7594d5b15c61add439ebd102d43e715e2d616ef4524ed455dbb6a6fb8345fd3"
+    },
+    {
+      "path": "Assets/_Project/Tests/PlayMode/VisualUpgradeReflectionTests.cs.meta",
+      "bytes": 59,
+      "sha256": "1b99b94653ac670fc759899453ceab81609c58518c7b84243a8a5b04f0e69b42"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Editor/VisualUpgradeLiveInput.cs",
+      "bytes": 6888,
+      "sha256": "37877130bb604deeecbab04918a893447ae0b5f1bc29c70d7eddc94eeca961da"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Editor/VisualUpgradeLiveInput.cs.meta",
+      "bytes": 59,
+      "sha256": "30f284834402bc21777b20ae429d8a3fe4f187b76bc70af4e4c13b6669304902"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Editor/VisualUpgradePipeline.cs",
+      "bytes": 17685,
+      "sha256": "a6de5d1661250fff46c154ec2ab0ca844e0f1225bc996ea5cb2dc65595d8fa16"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Editor/VisualUpgradePipeline.cs.meta",
+      "bytes": 59,
+      "sha256": "f4b7ff31439b00c419bcd98ea3784f24c6f24a99c0e28156bd5834fab4acc30e"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Editor/VisualUpgradeValidationCommands.cs",
+      "bytes": 2552,
+      "sha256": "4733c8b5f901d0d14251d600c647d6597dc1d6ecd83ade93a53549930648ff79"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Editor/VisualUpgradeValidationCommands.cs.meta",
+      "bytes": 59,
+      "sha256": "1e2a0d69d015b842a692c2eac97f499e717322fdc910d6c7f7cf934bfe90518c"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgrade.meta",
+      "bytes": 172,
+      "sha256": "3fad8ed4ed5013878c88f9d0940e8916b60a3ae268ecf207e138f6d6b4a13a42"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgradeValidationRunner.cs",
+      "bytes": 46322,
+      "sha256": "9c9f4c53c6caacd41b5b425c6f717509b688ea732319b578905c1eafad24214c"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgradeValidationRunner.cs.meta",
+      "bytes": 59,
+      "sha256": "6ab94e610a37457a2725e62d873ce24f3e1d61b412bc2f975eadc24aa7fe16c0"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgrade/DropletReflectionResponse.cs",
+      "bytes": 8677,
+      "sha256": "84031d9b4923ac11fe9bebe283fe03f0501abc00843b0bfc84d7080a53b0bfa0"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgrade/DropletReflectionResponse.cs.meta",
+      "bytes": 59,
+      "sha256": "1fdfcc1780bc9105c33eef3483913699d15e6bfa07a3f09b145ad1c299782cf5"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgrade/ReactorDestructionPresenter.cs",
+      "bytes": 4541,
+      "sha256": "5adbfdc723c10bfa78baacd3fdbd5e82fe2347c78c19d525e93f02c9451ba3ef"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgrade/ReactorDestructionPresenter.cs.meta",
+      "bytes": 59,
+      "sha256": "88445a04050f4354fe058fc93748267e54dbd073ab0efb3ba0dd284fcf0153c8"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgrade/ReactorExplosionPool.cs",
+      "bytes": 26340,
+      "sha256": "8f0f88b503f7d5815e10f380f0e0968e6be04cacfe7bb5d9b0b479f6a9a6c803"
+    },
+    {
+      "path": "Assets/_Project/Scripts/Runtime/VisualUpgrade/ReactorExplosionPool.cs.meta",
+      "bytes": 59,
+      "sha256": "9781cd5847d20f26cbbee49be81e21c104263c6a0a625f7b9c968914c5ca97b8"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Environment/SpaceEnvironment_VisualUpgrade.prefab",
+      "bytes": 483096,
+      "sha256": "8afb79ff985d5c45590f1b7dc680512270bf7437c94aca0c5b322a41f2f9a346"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Environment/SpaceEnvironment_VisualUpgrade.prefab.meta",
+      "bytes": 154,
+      "sha256": "f426bd1d9d026aa26fb999faad70d2a8bb8f3d0db0fc991598c816e486aeb3c7"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Fleet/FusionFrigate_VisualUpgrade.prefab",
+      "bytes": 223758,
+      "sha256": "37eddf05e3529fe90150f2afcba7e233c83220b8729dfb3346ee142375254de9"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Fleet/FusionFrigate_VisualUpgrade.prefab.meta",
+      "bytes": 154,
+      "sha256": "18d2cb9ecba7eeb9e8bea682de6b711f48039dfda39aa8004de7713da5a3f043"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Player/Droplet_VisualUpgrade.prefab",
+      "bytes": 6327,
+      "sha256": "e0f68b6d8b1f3f7bb1db2bd386d3991c46829691d023d9437f7fafb88346f7bf"
+    },
+    {
+      "path": "Assets/_Project/Prefabs/Player/Droplet_VisualUpgrade.prefab.meta",
+      "bytes": 154,
+      "sha256": "95dcb0de1da04efa55f8d26ce00563ec97eaf15d6ea2b4d6dbc2be7384664e2c"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade.meta",
+      "bytes": 172,
+      "sha256": "9eadc1898e1a0e9866808c39bd8ec1b15e03d68ce393fe7b90a25150c4dc7825"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatEffects.asset",
+      "bytes": 913,
+      "sha256": "b6e6209ad6e3c5c3b0ebd9a7eb8988a985220bac3c45d4be98915a5dfa3bc4c5"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatEffects.asset.meta",
+      "bytes": 189,
+      "sha256": "3fdf72bf095db3aaff269fca71951135a695088d49181485286d79b01cd856fa"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatEnvironment.asset",
+      "bytes": 8389730,
+      "sha256": "c2dfe98d34da66db58a4305177525bf5ed91a4ed2aed54d7021535527fa18b25"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatEnvironment.asset.meta",
+      "bytes": 188,
+      "sha256": "53f9222b5155200f730647be869e448d408f89d2a13d3aa115d7c4fd7c3fe73a"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatLighting.asset",
+      "bytes": 678,
+      "sha256": "b0ad562dbd0567a5db6248d680d0dd8170090294bc4e1b91052ddf4c9379b4da"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatLighting.asset.meta",
+      "bytes": 189,
+      "sha256": "bf95711c983279c442547df4ab7ea639662550768bb1ff2e435ced649f73cfa2"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatPost.asset",
+      "bytes": 2662,
+      "sha256": "0ab3791ae10692e51b534d10c0c0ed19cef00dc7a12704dc266e37e73b163b7e"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatPost.asset.meta",
+      "bytes": 189,
+      "sha256": "43da9dc2cd9b7e60f921cc09c684551e3b0f74c53c955fbdb8f7b7003f3aa8d6"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatReflectionSky.mat",
+      "bytes": 992,
+      "sha256": "1bd7d36b1eb0a5739d7796d8c2f0f54e7aecb7f400b97345f626deb930ed9a86"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/CombatReflectionSky.mat.meta",
+      "bytes": 188,
+      "sha256": "96f2d4987e57aceb4c17d52bc1fd00e8616adec5241e09b6f9329119c30b8708"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/EarthBase.mat",
+      "bytes": 1083,
+      "sha256": "71d4b9ec425b043034ec0620554651474a0386ef3976c78bb8929788a5850997"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/EarthBase.mat.meta",
+      "bytes": 188,
+      "sha256": "da8999115a2b7831a77fec46fee0dbcd8323bef93d5ccc9876d1b390de99564d"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_Armor.mat",
+      "bytes": 1041,
+      "sha256": "55968dcb24a3954fbe825e13ec410782066991a26cecfe4ff67fcd00ca009975"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_Armor.mat.meta",
+      "bytes": 188,
+      "sha256": "8ac8467b746d3bc72bece3dcf2e508b11709e9bfad009e66430bf4bc2bf0adbb"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_BlueGray.mat",
+      "bytes": 1054,
+      "sha256": "00f1ad5dda29c7f20a60c990838a0ed2472ce5cdec98eb0b3aa810966a6ee24e"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_BlueGray.mat.meta",
+      "bytes": 188,
+      "sha256": "4c401f8d6d2c7d9410479e2c4ffe0852bd019ecf5a184c1990a24f4928f5138b"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_EngineMetal.mat",
+      "bytes": 1048,
+      "sha256": "541f393e22f67a032b6d26377f4b428d5a108aac434478568aeb38230ebcbb7b"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_EngineMetal.mat.meta",
+      "bytes": 188,
+      "sha256": "75548df5930ae11f705cee0f8e57a9ba5a02346bbd2149892b25af76eb388e59"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_Structure.mat",
+      "bytes": 1045,
+      "sha256": "1878fd66c52eea50162954b44a7bb7cdb990755fecb3a7bb9a4d908f1b40512a"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FF_Structure.mat.meta",
+      "bytes": 188,
+      "sha256": "3ae1e72b3a98a906c015c3d402a963635cec4636b92cef2f514aed35b04e3c17"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FusionCore.mat",
+      "bytes": 944,
+      "sha256": "76e934a9a45505fb78fe5b8cd959283789b9152bb78c73731ee9ac429192ceb8"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FusionCore.mat.meta",
+      "bytes": 188,
+      "sha256": "7592b6364ecedbb4306b8e246c594e76d9686f3ada9130269873b34820fc5787"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FusionLiner.mat",
+      "bytes": 909,
+      "sha256": "8362240635e146a04dfdb7a633580a986e67c367659fb5da2bf754309f4f1f92"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FusionLiner.mat.meta",
+      "bytes": 188,
+      "sha256": "435acde6229f067f29f38da58f76180cb767673a267a23a5f881f7b1f2c06919"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FusionShell.mat",
+      "bytes": 910,
+      "sha256": "eb616f7edfd82c7c3f867b42c7d98f3a51585407a5b5e733164d62f8c9425f4c"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/FusionShell.mat.meta",
+      "bytes": 188,
+      "sha256": "f6c9ee843bdaad76d3c3d4301b31b3cf03ced0b472ee7b11b794f45875bb6579"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/HotDebris.mat",
+      "bytes": 1043,
+      "sha256": "ad53cd9bb02e48844435ff73585fd82628d9c01e3aaa9133ddaa4894d41bafe3"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/HotDebris.mat.meta",
+      "bytes": 188,
+      "sha256": "4e0e35b725a70e67643bffca993cdd7467b6410bf84f2fb09093f5c58273f806"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/PenetrationFlash.mat",
+      "bytes": 1002,
+      "sha256": "587eb42b15b419d30a7c4f7ac2d606f6eba65ce0c827cc0014183a586bd97ce9"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/PenetrationFlash.mat.meta",
+      "bytes": 188,
+      "sha256": "ffe6cbb55dd463fc3c5b1701312c0fef2f533953d9d95735a0e6442730fb71ae"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/PerfectChrome.mat",
+      "bytes": 4015,
+      "sha256": "f0034fd3c41a9ceed99b310b4c1f313b07799b4302d51310a049036ce0a677a6"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/PerfectChrome.mat.meta",
+      "bytes": 188,
+      "sha256": "61639e58aef289df524b718a8d50ffcac4eeb3b3e8437f4b60403531803ef89e"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/ReactorFire.mat",
+      "bytes": 997,
+      "sha256": "e7ad464e29ede7474e69126487b9d0abba00bb04789a5af9523b3c45ed48abf3"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/ReactorFire.mat.meta",
+      "bytes": 188,
+      "sha256": "95ba53155320ef841f312eeb68bb66c77675b05783b1f50091ff94f8f93ad91c"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/RockBasalt.mat",
+      "bytes": 1043,
+      "sha256": "4215bcd0318a3ace00aefca84e80555cea97ebd4c6628e70df424cc1c4ad4a6d"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/RockBasalt.mat.meta",
+      "bytes": 188,
+      "sha256": "04777a2ad8fa14cb74744596b810f8ae6ff6b7bf473161192951432ce1bdb372"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/RockSlate.mat",
+      "bytes": 1041,
+      "sha256": "b6878c437fa460c4e374316d108b8e5c64dc41a49df898411ba215c9c332c1d9"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/RockSlate.mat.meta",
+      "bytes": 188,
+      "sha256": "c837fb158f743f1cb4c3d7ba3b916aa8488bb75dbcb790b2e50757041d5e9943"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/SolarCorona.mat",
+      "bytes": 805,
+      "sha256": "1b04de6f91a5959981ac9e272fc597fb9b0f1caecacb51b77592e19239eb6d5f"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/SolarCorona.mat.meta",
+      "bytes": 188,
+      "sha256": "f125d35ee1cad41cc3d9d2ebdaec314fb8d8083a785553050add69673b46a6de"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/SunBase.mat",
+      "bytes": 799,
+      "sha256": "114b044c4b06f19e84e11dfbb5ff6b608586ac985964b17a57944f4bb25626d9"
+    },
+    {
+      "path": "Assets/_Project/Art/VisualUpgrade/SunBase.mat.meta",
+      "bytes": 188,
+      "sha256": "419ecfa4e33efce4202855c0780f854762bff913f7d37523bb6b9265c7a90f28"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/FleetSurface.shader",
+      "bytes": 7344,
+      "sha256": "8aec3b2e55679813fd2b722ccccaae96b5637911bed87a29ba8ae1e6cfa7d126"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/FleetSurface.shader.meta",
+      "bytes": 204,
+      "sha256": "f0a1382dbe85b92f5f1362052e1a4c2e4774e3847cd584a0ae3e5ce4a3d13369"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/PerfectChrome.shader",
+      "bytes": 14509,
+      "sha256": "5f320d0af762caecbff5885899fd41b4a90a99175a304a254651ba822a3700a7"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/PerfectChrome.shader.meta",
+      "bytes": 204,
+      "sha256": "17001d1603e1fb53e2237da7a62cffc5685af4bd1365406f97cffdad888728ce"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/ReactorCore.shader",
+      "bytes": 4403,
+      "sha256": "45ae285d882f2b703373bfefcc8cdff343d4e4dc95a9e86388e99c0b9ae1a0e8"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/ReactorCore.shader.meta",
+      "bytes": 204,
+      "sha256": "e33403f7766a856906fb26f6c393fbc16c6b8e474957050d0f8e921b65393ef9"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/ReactorFire.shader",
+      "bytes": 2782,
+      "sha256": "e49ff9bd43c526cfb31c4cd5e19f7910fd64b539004b2affc6f546f70d37eebb"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/ReactorFire.shader.meta",
+      "bytes": 204,
+      "sha256": "f306cecbc0121cfcb8e970accdb038fd59553d89efa55fc52e8d4878e3fdc03d"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/SolarStar.shader",
+      "bytes": 2074,
+      "sha256": "4566a5adc40d27da184d8e4f121a2d1e4e9ddb0aebe2a9dfdf4c29480f10c1b7"
+    },
+    {
+      "path": "Assets/_Project/Art/Shaders/VisualUpgrade/SolarStar.shader.meta",
+      "bytes": 204,
+      "sha256": "658ade93f85e8a127ef695df36a2a6f6b4ef9237101bf90a4a21ef1c3fc9efda"
+    },
+    {
+      "path": "Tools/VisualUpgrade/compare_reflection.py",
+      "bytes": 2852,
+      "sha256": "a224a982572995cd4858b9ff3512c13d674054464e34ecd052e4dda7b5386826"
+    },
+    {
+      "path": "Tools/VisualUpgrade/inventory.py",
+      "bytes": 1727,
+      "sha256": "bdd3fdbdb8f828097d84e08f1509bbfeff1a1c4217732d5980d5fe361b8a2c57"
+    },
+    {
+      "path": "Tools/VisualUpgrade/preserve.py",
+      "bytes": 1907,
+      "sha256": "734137aba9ee04e039496fbdefe394a45c257173e0716c7f1ee9552da26d7992"
+    },
+    {
+      "path": "Tools/VisualUpgrade/run_player.py",
+      "bytes": 971,
+      "sha256": "2fc15d05d4a76e74906ee20b0ff648b67cf3c9298e43848d2d5f0b92726e64d1"
+    },
+    {
+      "path": "Tools/VisualUpgrade/summarize_validation.py",
+      "bytes": 6100,
+      "sha256": "4b636a4dad147080490eceebfe8aa56e077a4565005b77a41e476c9e93bb7e46"
+    }
+  ],
+  "newSourceBytes": 9907186,
+  "distributionWithoutDebugBytes": 138666205,
+  "distributionFiles": 197
+}

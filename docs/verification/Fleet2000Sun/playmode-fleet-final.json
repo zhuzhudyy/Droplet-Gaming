@@ -1,0 +1,55 @@
+﻿{
+  "status": "completed",
+  "duration": 0.8,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.ArbitrarilyLongSweepActivatesEveryDistantShipAndDeduplicatesCompoundShapes",
+      "Status": "Passed",
+      "Duration": 0.0728021,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.CameraAndPlayerApproachSwitchExactlyOneViewAndDisablingManagerFailsOpen",
+      "Status": "Passed",
+      "Duration": 0.0159151,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.CombinedPartMatricesBeyond511AreSubmittedWithoutDroppingTheRemainder",
+      "Status": "Passed",
+      "Duration": 0.5158405,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.DistantInitialOverlapAndResetKeepIdentityAndNoGhostInstance",
+      "Status": "Passed",
+      "Duration": 0.0017773,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.RepeatedCacheRebuildKeepsAllUniqueSavedTargetsAndSharedAssets",
+      "Status": "Passed",
+      "Duration": 0.0035167,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.Fleet2000SunTests.SharedPartsRenderInCombinedGroupsAndQualityOffHidesOnlyOptionalCores",
+      "Status": "Passed",
+      "Duration": 0.0537807,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

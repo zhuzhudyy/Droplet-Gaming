@@ -1,0 +1,821 @@
+{
+  "schemaVersion": 1,
+  "seed": 908260,
+  "auKm": 149597870.7,
+  "metersPerUnit": 1,
+  "battleRadiusAu": 2.5,
+  "battlePhaseDeg": 230,
+  "battleInclinationDeg": 2,
+  "battleAscendingNodeDeg": 0,
+  "localOrigin": [
+    0,
+    20,
+    260
+  ],
+  "spawn": [
+    0,
+    8,
+    0
+  ],
+  "proxyNear": 14000,
+  "proxySpan": 4000,
+  "skyRadius": 22000,
+  "nearClip": 0.1,
+  "farClip": 25000,
+  "fieldOfView": 65,
+  "oldBoundaryRadius": 730,
+  "boundaryRadius": 5840,
+  "warningRadius": 4880,
+  "reserveRadius": 800,
+  "minimumRockSpacing": 650,
+  "beltInnerAu": 2.1,
+  "beltOuterAu": 3.3,
+  "beltMaxInclinationDeg": 8,
+  "macroMarkerCount": 480,
+  "macroOverviewUnitsPerAu": 10,
+  "coordinateContract": "Macro heliocentric circular XZ orbits (Y up), local Unity metres. Blender (x,z,y) basis. Fixed design phases, not ephemerides.",
+  "bodies": [
+    {
+      "id": "Sun",
+      "semiMajorAu": 0,
+      "phaseDeg": 0,
+      "inclinationDeg": 0,
+      "ascendingNodeDeg": 0,
+      "radiusKm": 695700,
+      "assetId": "Sun",
+      "readabilityMultiplier": 2.0
+    },
+    {
+      "id": "Mercury",
+      "semiMajorAu": 0.387,
+      "phaseDeg": 15,
+      "inclinationDeg": 7,
+      "ascendingNodeDeg": 48,
+      "radiusKm": 2439.7,
+      "assetId": "",
+      "readabilityMultiplier": 1
+    },
+    {
+      "id": "Venus",
+      "semiMajorAu": 0.723,
+      "phaseDeg": 140,
+      "inclinationDeg": 3.4,
+      "ascendingNodeDeg": 76,
+      "radiusKm": 6051.8,
+      "assetId": "",
+      "readabilityMultiplier": 1
+    },
+    {
+      "id": "Earth",
+      "semiMajorAu": 1,
+      "phaseDeg": 30,
+      "inclinationDeg": 0,
+      "ascendingNodeDeg": 0,
+      "radiusKm": 6371,
+      "assetId": "Earth",
+      "readabilityMultiplier": 1.0
+    },
+    {
+      "id": "Mars",
+      "semiMajorAu": 1.524,
+      "phaseDeg": 285,
+      "inclinationDeg": 1.85,
+      "ascendingNodeDeg": 49,
+      "radiusKm": 3389.5,
+      "assetId": "",
+      "readabilityMultiplier": 1
+    },
+    {
+      "id": "Jupiter",
+      "semiMajorAu": 5.203,
+      "phaseDeg": 95,
+      "inclinationDeg": 1.3,
+      "ascendingNodeDeg": 100,
+      "radiusKm": 69911,
+      "assetId": "",
+      "readabilityMultiplier": 1
+    },
+    {
+      "id": "Saturn",
+      "semiMajorAu": 9.537,
+      "phaseDeg": 205,
+      "inclinationDeg": 2.49,
+      "ascendingNodeDeg": 114,
+      "radiusKm": 58232,
+      "assetId": "",
+      "readabilityMultiplier": 1
+    },
+    {
+      "id": "Uranus",
+      "semiMajorAu": 19.189,
+      "phaseDeg": 320,
+      "inclinationDeg": 0.77,
+      "ascendingNodeDeg": 74,
+      "radiusKm": 25362,
+      "assetId": "",
+      "readabilityMultiplier": 1
+    },
+    {
+      "id": "Neptune",
+      "semiMajorAu": 30.07,
+      "phaseDeg": 70,
+      "inclinationDeg": 1.77,
+      "ascendingNodeDeg": 132,
+      "radiusKm": 24622,
+      "assetId": "",
+      "readabilityMultiplier": 1
+    }
+  ],
+  "rocks": [
+    {
+      "id": "rock-001",
+      "assetId": "Rock01",
+      "group": "ParallaxReferences",
+      "position": [
+        -1050,
+        -230,
+        560
+      ],
+      "scale": 22,
+      "rotationDeg": [
+        -39.7964,
+        21.4924,
+        106.8401
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-002",
+      "assetId": "Rock02",
+      "group": "ParallaxReferences",
+      "position": [
+        1150,
+        420,
+        900
+      ],
+      "scale": 28,
+      "rotationDeg": [
+        70.6787,
+        160.3989,
+        58.5252
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-003",
+      "assetId": "Rock03",
+      "group": "ParallaxReferences",
+      "position": [
+        -430,
+        540,
+        -900
+      ],
+      "scale": 18,
+      "rotationDeg": [
+        150.3777,
+        -43.2889,
+        64.1574
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-004",
+      "assetId": "Rock04",
+      "group": "SparseMid",
+      "position": [
+        -203.43378,
+        -1374.43845,
+        -2348.61739
+      ],
+      "scale": 27.10697,
+      "rotationDeg": [
+        105.2486,
+        99.6543,
+        -148.8493
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-005",
+      "assetId": "Rock05",
+      "group": "SparseMid",
+      "position": [
+        2905.44957,
+        818.97221,
+        1584.60185
+      ],
+      "scale": 14.82339,
+      "rotationDeg": [
+        -27.993,
+        4.7945,
+        54.5144
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-006",
+      "assetId": "Rock06",
+      "group": "SparseMid",
+      "position": [
+        1880.53324,
+        1160.51124,
+        1510.03608
+      ],
+      "scale": 18.62402,
+      "rotationDeg": [
+        105.1726,
+        73.3501,
+        -4.0105
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-007",
+      "assetId": "Rock07",
+      "group": "SparseMid",
+      "position": [
+        -1349.36237,
+        -768.04146,
+        2227.35745
+      ],
+      "scale": 31.70527,
+      "rotationDeg": [
+        155.0378,
+        140.0646,
+        80.8637
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-008",
+      "assetId": "Rock08",
+      "group": "SparseMid",
+      "position": [
+        2431.92866,
+        -289.12029,
+        -642.53919
+      ],
+      "scale": 15.4307,
+      "rotationDeg": [
+        -61.8513,
+        58.0038,
+        -156.6438
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-009",
+      "assetId": "Rock01",
+      "group": "SparseMid",
+      "position": [
+        1503.37969,
+        -584.66369,
+        1392.39307
+      ],
+      "scale": 14.49207,
+      "rotationDeg": [
+        -162.1205,
+        -52.1773,
+        -172.1589
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-010",
+      "assetId": "Rock02",
+      "group": "SparseMid",
+      "position": [
+        1954.70075,
+        -978.82366,
+        -416.90945
+      ],
+      "scale": 22.30106,
+      "rotationDeg": [
+        -5.2087,
+        -17.2061,
+        -106.3763
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-011",
+      "assetId": "Rock03",
+      "group": "SparseMid",
+      "position": [
+        1708.38153,
+        1036.7176,
+        -1203.78097
+      ],
+      "scale": 24.95463,
+      "rotationDeg": [
+        -48.9127,
+        179.7699,
+        147.53
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-012",
+      "assetId": "Rock04",
+      "group": "SparseMid",
+      "position": [
+        -1906.29315,
+        1626.17017,
+        -710.07355
+      ],
+      "scale": 23.06144,
+      "rotationDeg": [
+        -58.785,
+        101.4445,
+        -127.6317
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-013",
+      "assetId": "Rock05",
+      "group": "SparseOuter",
+      "position": [
+        3685.03255,
+        3285.09169,
+        -576.82225
+      ],
+      "scale": 21.95297,
+      "rotationDeg": [
+        159.6762,
+        129.9552,
+        -53.4178
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-014",
+      "assetId": "Rock06",
+      "group": "SparseOuter",
+      "position": [
+        -2563.25777,
+        976.34956,
+        4347.40169
+      ],
+      "scale": 13.53509,
+      "rotationDeg": [
+        -134.1865,
+        -116.4258,
+        90.2234
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-015",
+      "assetId": "Rock07",
+      "group": "SparseOuter",
+      "position": [
+        -3100.39271,
+        1702.21759,
+        -986.07292
+      ],
+      "scale": 26.04427,
+      "rotationDeg": [
+        81.7547,
+        -103.1847,
+        54.1665
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-016",
+      "assetId": "Rock08",
+      "group": "SparseOuter",
+      "position": [
+        2789.36369,
+        2168.74666,
+        -1279.58015
+      ],
+      "scale": 31.3691,
+      "rotationDeg": [
+        -72.0879,
+        29.4402,
+        -58.5897
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-017",
+      "assetId": "Rock01",
+      "group": "SparseOuter",
+      "position": [
+        -1513.17323,
+        2079.94441,
+        4249.968
+      ],
+      "scale": 19.23212,
+      "rotationDeg": [
+        37.1901,
+        -93.5941,
+        145.2311
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-018",
+      "assetId": "Rock02",
+      "group": "SparseOuter",
+      "position": [
+        3807.54652,
+        1286.18138,
+        -3111.73559
+      ],
+      "scale": 12.69322,
+      "rotationDeg": [
+        83.5335,
+        88.3824,
+        56.1449
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-019",
+      "assetId": "Rock03",
+      "group": "SparseOuter",
+      "position": [
+        -2111.33559,
+        3504.53125,
+        3232.45636
+      ],
+      "scale": 30.02804,
+      "rotationDeg": [
+        -86.1544,
+        -113.6148,
+        -22.0855
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-020",
+      "assetId": "Rock04",
+      "group": "SparseOuter",
+      "position": [
+        -4430.90523,
+        3128.35272,
+        235.40642
+      ],
+      "scale": 15.80635,
+      "rotationDeg": [
+        -137.0673,
+        103.2377,
+        -96.6682
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-021",
+      "assetId": "Rock05",
+      "group": "SparseOuter",
+      "position": [
+        -1770.8785,
+        1893.73085,
+        -2127.95562
+      ],
+      "scale": 31.03385,
+      "rotationDeg": [
+        -44.6554,
+        88.1925,
+        -23.5861
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-022",
+      "assetId": "Rock06",
+      "group": "SparseOuter",
+      "position": [
+        -3326.65389,
+        1422.6955,
+        -2100.82566
+      ],
+      "scale": 24.15215,
+      "rotationDeg": [
+        67.8228,
+        -16.9215,
+        69.7967
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-023",
+      "assetId": "Rock07",
+      "group": "SparseOuter",
+      "position": [
+        310.234,
+        2924.14582,
+        -2708.17673
+      ],
+      "scale": 31.19032,
+      "rotationDeg": [
+        -4.1199,
+        35.2332,
+        -124.7707
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-024",
+      "assetId": "Rock08",
+      "group": "SparseOuter",
+      "position": [
+        -1693.92967,
+        -3512.35094,
+        -3430.60209
+      ],
+      "scale": 26.73872,
+      "rotationDeg": [
+        -73.4807,
+        124.4842,
+        -158.2099
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-025",
+      "assetId": "Rock01",
+      "group": "SparseOuter",
+      "position": [
+        -2601.77312,
+        -2753.53532,
+        3817.29335
+      ],
+      "scale": 15.88553,
+      "rotationDeg": [
+        -24.932,
+        -168.6045,
+        138.7113
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-026",
+      "assetId": "Rock02",
+      "group": "SparseOuter",
+      "position": [
+        -3163.37406,
+        -1783.44509,
+        998.75366
+      ],
+      "scale": 23.63833,
+      "rotationDeg": [
+        -155.5438,
+        100.0395,
+        58.3765
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-027",
+      "assetId": "Rock03",
+      "group": "SparseOuter",
+      "position": [
+        -2242.21801,
+        2864.12517,
+        -1515.03428
+      ],
+      "scale": 15.10615,
+      "rotationDeg": [
+        79.9466,
+        49.9623,
+        18.7804
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-028",
+      "assetId": "Rock04",
+      "group": "SparseOuter",
+      "position": [
+        -2786.53539,
+        898.92493,
+        2571.34459
+      ],
+      "scale": 16.84949,
+      "rotationDeg": [
+        5.7826,
+        122.669,
+        20.7624
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-029",
+      "assetId": "Rock05",
+      "group": "SparseOuter",
+      "position": [
+        -1128.34542,
+        -3037.10349,
+        -2538.31513
+      ],
+      "scale": 15.32984,
+      "rotationDeg": [
+        27.4215,
+        172.8865,
+        172.6802
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-030",
+      "assetId": "Rock06",
+      "group": "SparseOuter",
+      "position": [
+        1851.15412,
+        3462.03503,
+        -3476.11986
+      ],
+      "scale": 18.41954,
+      "rotationDeg": [
+        -119.9644,
+        131.5835,
+        -47.4827
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-031",
+      "assetId": "Rock07",
+      "group": "SparseOuter",
+      "position": [
+        4109.91299,
+        -2059.35424,
+        882.77487
+      ],
+      "scale": 28.07628,
+      "rotationDeg": [
+        107.5117,
+        -10.9869,
+        102.0209
+      ],
+      "materialVariant": 0,
+      "coordinateSemantic": "local-metre"
+    },
+    {
+      "id": "rock-032",
+      "assetId": "Rock08",
+      "group": "SparseOuter",
+      "position": [
+        4364.44028,
+        1104.71125,
+        -2097.10896
+      ],
+      "scale": 18.49178,
+      "rotationDeg": [
+        78.4479,
+        93.1212,
+        -56.0943
+      ],
+      "materialVariant": 1,
+      "coordinateSemantic": "local-metre"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "ReferenceCamera",
+      "position": [
+        0,
+        20,
+        -380
+      ],
+      "target": [
+        0,
+        20,
+        260
+      ],
+      "fov": 55
+    },
+    {
+      "name": "SpawnForward",
+      "position": [
+        0,
+        10.2,
+        -8
+      ],
+      "target": [
+        0,
+        8,
+        35
+      ],
+      "fov": 65
+    },
+    {
+      "name": "SpawnReverse",
+      "position": [
+        0,
+        10.2,
+        -8
+      ],
+      "target": [
+        0,
+        10.2,
+        -1000
+      ],
+      "fov": 65
+    },
+    {
+      "name": "FleetOutskirts",
+      "position": [
+        650,
+        150,
+        600
+      ],
+      "target": [
+        -1000,
+        -200,
+        560
+      ],
+      "fov": 65
+    },
+    {
+      "name": "OpenSpaceForward",
+      "position": [
+        3200,
+        800,
+        -900
+      ],
+      "target": [
+        3200,
+        800,
+        1000
+      ],
+      "fov": 65
+    },
+    {
+      "name": "OpenSpaceReverse",
+      "position": [
+        3200,
+        800,
+        -900
+      ],
+      "target": [
+        3200,
+        800,
+        -2900
+      ],
+      "fov": 65
+    },
+    {
+      "name": "ParallaxA",
+      "position": [
+        -850,
+        -230,
+        250
+      ],
+      "target": [
+        -1050,
+        -230,
+        560
+      ],
+      "fov": 65
+    },
+    {
+      "name": "ParallaxB",
+      "position": [
+        -650,
+        -230,
+        250
+      ],
+      "target": [
+        -850,
+        -230,
+        560
+      ],
+      "fov": 65
+    }
+  ]
+}

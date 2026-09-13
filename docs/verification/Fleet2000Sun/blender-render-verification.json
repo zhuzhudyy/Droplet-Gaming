@@ -1,0 +1,59 @@
+{
+  "blender": "5.2.1 LTS",
+  "renderer": "BLENDER_WORKBENCH",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "purpose": "Actual Blender solid previews of layout only; not a Unity gameplay or solar lighting screenshot.",
+  "views": [
+    {
+      "path": "docs/verification/Fleet2000Sun/blender-panorama.png",
+      "locationBlender": [
+        -6500,
+        -9000,
+        6200
+      ],
+      "targetBlender": [
+        100,
+        2500,
+        60
+      ],
+      "lensMm": 45,
+      "projection": "Perspective",
+      "sha256": "23e58a7a7e9efb5dd8913789f6a752a8676b6c162ac836e742ce6081a32abb65"
+    },
+    {
+      "path": "docs/verification/Fleet2000Sun/blender-mid.png",
+      "locationBlender": [
+        -1100,
+        -2200,
+        680
+      ],
+      "targetBlender": [
+        250,
+        2400,
+        60
+      ],
+      "lensMm": 40,
+      "projection": "Perspective",
+      "sha256": "4a17853152306ae1eb7eac908494024c7d79127a6576a8a9e0a99f531c3cf05c"
+    },
+    {
+      "path": "docs/verification/Fleet2000Sun/blender-near.png",
+      "locationBlender": [
+        -145,
+        50,
+        60
+      ],
+      "targetBlender": [
+        60,
+        1500,
+        65
+      ],
+      "lensMm": 45,
+      "projection": "Perspective",
+      "sha256": "3f79d4a49f992f001899885ca434b3cdb0ee1a99e39f27925ab552b1fcb902b3"
+    }
+  ]
+}

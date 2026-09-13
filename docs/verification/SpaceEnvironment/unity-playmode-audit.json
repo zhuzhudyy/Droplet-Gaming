@@ -1,0 +1,433 @@
+{
+    "context": "Editor Play Mode, isolated review scene",
+    "unity": "6000.5.10f1",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "passed": true,
+    "instances": 183,
+    "uniqueMeshes": 37,
+    "materials": 5,
+    "textures": 2,
+    "lodGroups": 173,
+    "renderers": 529,
+    "uniqueTriangles": 38656,
+    "meshNativeBytes": 3590288,
+    "textureNativeBytes": 5681680,
+    "meshGpuBufferBytes": 1765840,
+    "textureMipEstimateBytes": 2796240,
+    "editorAllocatedBytes": 809251376,
+    "editorReservedBytes": 1381113856,
+    "wholeGraphicsDriverEstimateBytes": 351000332,
+    "mesh": [
+        {
+            "name": "Sun_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Sun_LOD0.fbx",
+            "vertices": 823,
+            "triangles": 1472,
+            "nativeBytes": 71920,
+            "gpuBufferBytes": 35168,
+            "readable": false
+        },
+        {
+            "name": "Earth_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Earth_LOD0.fbx",
+            "vertices": 3183,
+            "triangles": 6016,
+            "nativeBytes": 277488,
+            "gpuBufferBytes": 137952,
+            "readable": false
+        },
+        {
+            "name": "Earth_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Earth_LOD1.fbx",
+            "vertices": 1023,
+            "triangles": 1840,
+            "nativeBytes": 89136,
+            "gpuBufferBytes": 43776,
+            "readable": false
+        },
+        {
+            "name": "Earth_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Earth_LOD2.fbx",
+            "vertices": 323,
+            "triangles": 528,
+            "nativeBytes": 28592,
+            "gpuBufferBytes": 13504,
+            "readable": false
+        },
+        {
+            "name": "Rock01_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock01_LOD0.fbx",
+            "vertices": 642,
+            "triangles": 1280,
+            "nativeBytes": 47760,
+            "gpuBufferBytes": 23088,
+            "readable": false
+        },
+        {
+            "name": "Rock01_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock01_LOD1.fbx",
+            "vertices": 162,
+            "triangles": 320,
+            "nativeBytes": 13200,
+            "gpuBufferBytes": 5808,
+            "readable": false
+        },
+        {
+            "name": "Rock01_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock01_LOD2.fbx",
+            "vertices": 42,
+            "triangles": 80,
+            "nativeBytes": 4560,
+            "gpuBufferBytes": 1488,
+            "readable": false
+        },
+        {
+            "name": "Rock05_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock05_LOD0.fbx",
+            "vertices": 642,
+            "triangles": 1280,
+            "nativeBytes": 47760,
+            "gpuBufferBytes": 23088,
+            "readable": false
+        },
+        {
+            "name": "Rock05_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock05_LOD1.fbx",
+            "vertices": 162,
+            "triangles": 320,
+            "nativeBytes": 13200,
+            "gpuBufferBytes": 5808,
+            "readable": false
+        },
+        {
+            "name": "Rock05_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock05_LOD2.fbx",
+            "vertices": 42,
+            "triangles": 80,
+            "nativeBytes": 4560,
+            "gpuBufferBytes": 1488,
+            "readable": false
+        },
+        {
+            "name": "Rock04_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock04_LOD0.fbx",
+            "vertices": 2003,
+            "triangles": 1280,
+            "nativeBytes": 113088,
+            "gpuBufferBytes": 55752,
+            "readable": false
+        },
+        {
+            "name": "Rock04_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock04_LOD1.fbx",
+            "vertices": 814,
+            "triangles": 320,
+            "nativeBytes": 44496,
+            "gpuBufferBytes": 21456,
+            "readable": false
+        },
+        {
+            "name": "Rock04_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock04_LOD2.fbx",
+            "vertices": 200,
+            "triangles": 80,
+            "nativeBytes": 12144,
+            "gpuBufferBytes": 5280,
+            "readable": false
+        },
+        {
+            "name": "Rock06_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock06_LOD0.fbx",
+            "vertices": 642,
+            "triangles": 1280,
+            "nativeBytes": 47760,
+            "gpuBufferBytes": 23088,
+            "readable": false
+        },
+        {
+            "name": "Rock06_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock06_LOD1.fbx",
+            "vertices": 162,
+            "triangles": 320,
+            "nativeBytes": 13200,
+            "gpuBufferBytes": 5808,
+            "readable": false
+        },
+        {
+            "name": "Rock06_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock06_LOD2.fbx",
+            "vertices": 42,
+            "triangles": 80,
+            "nativeBytes": 4560,
+            "gpuBufferBytes": 1488,
+            "readable": false
+        },
+        {
+            "name": "Rock07_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock07_LOD0.fbx",
+            "vertices": 642,
+            "triangles": 1280,
+            "nativeBytes": 47760,
+            "gpuBufferBytes": 23088,
+            "readable": false
+        },
+        {
+            "name": "Rock07_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock07_LOD1.fbx",
+            "vertices": 162,
+            "triangles": 320,
+            "nativeBytes": 13200,
+            "gpuBufferBytes": 5808,
+            "readable": false
+        },
+        {
+            "name": "Rock07_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock07_LOD2.fbx",
+            "vertices": 42,
+            "triangles": 80,
+            "nativeBytes": 4560,
+            "gpuBufferBytes": 1488,
+            "readable": false
+        },
+        {
+            "name": "Rock08_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock08_LOD0.fbx",
+            "vertices": 1936,
+            "triangles": 1280,
+            "nativeBytes": 109872,
+            "gpuBufferBytes": 54144,
+            "readable": false
+        },
+        {
+            "name": "Rock08_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock08_LOD1.fbx",
+            "vertices": 772,
+            "triangles": 320,
+            "nativeBytes": 42480,
+            "gpuBufferBytes": 20448,
+            "readable": false
+        },
+        {
+            "name": "Rock08_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock08_LOD2.fbx",
+            "vertices": 213,
+            "triangles": 80,
+            "nativeBytes": 12768,
+            "gpuBufferBytes": 5592,
+            "readable": false
+        },
+        {
+            "name": "Rock02_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock02_LOD0.fbx",
+            "vertices": 642,
+            "triangles": 1280,
+            "nativeBytes": 47760,
+            "gpuBufferBytes": 23088,
+            "readable": false
+        },
+        {
+            "name": "Rock02_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock02_LOD1.fbx",
+            "vertices": 162,
+            "triangles": 320,
+            "nativeBytes": 13200,
+            "gpuBufferBytes": 5808,
+            "readable": false
+        },
+        {
+            "name": "Rock02_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock02_LOD2.fbx",
+            "vertices": 42,
+            "triangles": 80,
+            "nativeBytes": 4560,
+            "gpuBufferBytes": 1488,
+            "readable": false
+        },
+        {
+            "name": "Rock03_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock03_LOD0.fbx",
+            "vertices": 642,
+            "triangles": 1280,
+            "nativeBytes": 47760,
+            "gpuBufferBytes": 23088,
+            "readable": false
+        },
+        {
+            "name": "Rock03_LOD1",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock03_LOD1.fbx",
+            "vertices": 162,
+            "triangles": 320,
+            "nativeBytes": 13200,
+            "gpuBufferBytes": 5808,
+            "readable": false
+        },
+        {
+            "name": "Rock03_LOD2",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Rock03_LOD2.fbx",
+            "vertices": 42,
+            "triangles": 80,
+            "nativeBytes": 4560,
+            "gpuBufferBytes": 1488,
+            "readable": false
+        },
+        {
+            "name": "Far01_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far01_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Far02_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far02_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Far03_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far03_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Far04_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far04_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Far05_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far05_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Far06_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far06_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Far07_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far07_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Far08_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Far08_LOD0.fbx",
+            "vertices": 5400,
+            "triangles": 1800,
+            "nativeBytes": 282384,
+            "gpuBufferBytes": 140400,
+            "readable": false
+        },
+        {
+            "name": "Sky_LOD0",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Models/Sky_LOD0.fbx",
+            "vertices": 1922,
+            "triangles": 960,
+            "nativeBytes": 136112,
+            "gpuBufferBytes": 67264,
+            "readable": false
+        }
+    ],
+    "texture": [
+        {
+            "name": "Earth_BaseColor_2048x1024",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Textures/Earth_BaseColor_2048x1024.jpg",
+            "format": "DXT1",
+            "graphicsFormat": "RGBA_DXT1_SRGB",
+            "width": 2048,
+            "height": 1024,
+            "mips": 12,
+            "nativeBytes": 2840840,
+            "blockCompressedMipBytes": 1398120,
+            "readable": false
+        },
+        {
+            "name": "SpaceStars_BaseColor",
+            "path": "Assets/_Project/Art/Environment/SpaceEnvironment/Textures/SpaceStars_BaseColor.png",
+            "format": "DXT1",
+            "graphicsFormat": "RGBA_DXT1_SRGB",
+            "width": 2048,
+            "height": 1024,
+            "mips": 12,
+            "nativeBytes": 2840840,
+            "blockCompressedMipBytes": 1398120,
+            "readable": false
+        }
+    ],
+    "views": [
+        {
+            "camera": "ReferenceCamera",
+            "estimatedVisibleTriangles": 53488,
+            "lod0": 10,
+            "lod1": 80,
+            "lod2": 9,
+            "culled": 74
+        },
+        {
+            "camera": "SideCamera",
+            "estimatedVisibleTriangles": 66368,
+            "lod0": 6,
+            "lod1": 99,
+            "lod2": 68,
+            "culled": 0
+        },
+        {
+            "camera": "TopCamera",
+            "estimatedVisibleTriangles": 45248,
+            "lod0": 4,
+            "lod1": 21,
+            "lod2": 148,
+            "culled": 0
+        },
+        {
+            "camera": "GameplayTurnCamera",
+            "estimatedVisibleTriangles": 32376,
+            "lod0": 6,
+            "lod1": 42,
+            "lod2": 2,
+            "culled": 123
+        },
+        {
+            "camera": "BeltCloseCamera",
+            "estimatedVisibleTriangles": 34512,
+            "lod0": 15,
+            "lod1": 29,
+            "lod2": 0,
+            "culled": 129
+        }
+    ],
+    "checks": [
+        "All instance Mesh references equal imported shared objects by ReferenceEquals",
+        "All materials from five shared persistent assets",
+        "FBX poses match Blender world forward/up/position/scale",
+        "Read/Write disabled on all unique model/texture resources",
+        "No static batching, Colliders, Rigidbody, ShipTarget, MonoBehaviour, Lights or ReflectionProbes in environment prefab",
+        "LOD resources remain in memory: all levels included",
+        "View triangle values are analytical frustum/screen-height estimates, not GPU measured submitted triangles",
+        "Native object memory is Editor API measurement; GPU buffers+DXT1 mips are resource estimates; driver memory is whole Editor estimate"
+    ]
+}

@@ -1,0 +1,10 @@
+
+## PerfectDroplet Unity 导入测试 — 2026-09-08
+
+实际复用 Unity **6000.5.10f1 (3bd4f66ad299)**、URP **17.5.0**、Input System **1.20.0**、Unity Test Framework **1.7.0**、Custom NUnit **2.1.0**、Unity CLI **1.0.0-beta.8** 和 Pipeline **0.6.0-exp.1**。未升级、安装或迁移。Blender 源及游戏 FBX 来自上一轮已完成的 Blender **5.2.1 LTS (9e2066aef7ef)** 几何交付；本轮直接导入其显式导出，不重新执行 Blender 建模。
+
+实际 Editor API 通过已编译的 `PerfectDropletImport` 菜单运行：ModelImporter 设置 Bake Axis Conversion、Import Normals、MikkTSpace 切线、关闭网格压缩和 Read/Write；只读检查现有 1 m/+Z/+Y/+X 校准物，再验证新模型 2.4 m 长、0.774194 m 直径、单位变换、+Z 尖端及解析法线。场景由 AssetDatabase.CopyAsset 和 EditorSceneManager 保存为新路径，仅替换水滴共享 Mesh，保留原 Renderer 和玩法引用。原始 758 个 Assets/Packages/ProjectSettings/ArtSource/Tools 文件最终全部哈希一致。
+
+实际 Unity 编译通过，专项 EditMode **3/3**、PlayMode **2/2**。临时 Input System 合成设备驱动真实 FixedUpdate 完成 528.438 m / 4.860 s 连续五舰飞行、1,500 分和暂停/刹车/转向/重开检查；不是物理键鼠的主观验收。实际 Unity 相机/屏幕截图共 9 张，均 1920×1080，复用现有 URP 灯光及水滴材质；中性近景用临时内存材质，拍摄后恢复全部临时配置。未生成新构建或执行本轮独立 Player/GPU 性能测试。
+
+本轮动态 Roslyn eval 出现 Illegal byte sequence，后续通过编译菜单完成操作；首次 EditMode 工具请求超时，随后查询获得实际 3/3 完成结果。结束时 Editor ready、Play stopped、测试场景无未保存修改，近期捕获错误为 0。未运行会重建 TestRange 的旧作者测试。完整证据与边界见 [DROPLET_UNITY_IMPORT_REPORT.md](DROPLET_UNITY_IMPORT_REPORT.md)。

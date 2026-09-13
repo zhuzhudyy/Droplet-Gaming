@@ -1,0 +1,20 @@
+{
+  "pid": 23708,
+  "argv": [
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\Builds\\Windows-Fleet2000Sun-20260908\\DropletPrototype.exe",
+    "-screen-fullscreen",
+    "0",
+    "-screen-width",
+    "1920",
+    "-screen-height",
+    "1080",
+    "--fleet2000-validation",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Player",
+    "--fleet2000-label",
+    "Final",
+    "--fleet2000-quit",
+    "-logFile",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\Fleet2000Sun\\Player\\Final-player.log"
+  ],
+  "memoryScope": "Windows WDDM GPU Process Memory counters filtered by this player PID; sum across adapters; dedicated GPU allocation, not adapter capacity or Unity CPU allocation. Counter polling runs in a separate low-rate process."
+}

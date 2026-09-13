@@ -1,0 +1,81 @@
+{
+    "unity": "6000.5.10f1",
+    "autoLodGroups": 1,
+    "uniqueMeshes": 19,
+    "uniqueMaterials": 4,
+    "renderers": 36,
+    "transforms": 47,
+    "sockets": 5,
+    "readable": false,
+    "lods": [
+        {
+            "level": 0,
+            "renderers": 13,
+            "meshes": 7,
+            "triangles": 17224,
+            "min": {
+                "x": -3.690000057220459,
+                "y": -2.731534004211426,
+                "z": -11.069998741149903
+            },
+            "max": {
+                "x": 3.690000057220459,
+                "y": 3.479999542236328,
+                "z": 11.069998741149903
+            },
+            "size": {
+                "x": 7.380000114440918,
+                "y": 6.211533546447754,
+                "z": 22.139997482299806
+            }
+        },
+        {
+            "level": 1,
+            "renderers": 13,
+            "meshes": 7,
+            "triangles": 5400,
+            "min": {
+                "x": -3.690000057220459,
+                "y": -2.731534004211426,
+                "z": -11.069998741149903
+            },
+            "max": {
+                "x": 3.690000057220459,
+                "y": 3.479999542236328,
+                "z": 11.069998741149903
+            },
+            "size": {
+                "x": 7.380000114440918,
+                "y": 6.211533546447754,
+                "z": 22.139997482299806
+            }
+        },
+        {
+            "level": 2,
+            "renderers": 10,
+            "meshes": 5,
+            "triangles": 1396,
+            "min": {
+                "x": -3.690000057220459,
+                "y": -2.731534004211426,
+                "z": -11.069999694824219
+            },
+            "max": {
+                "x": 3.690000057220459,
+                "y": 3.479999542236328,
+                "z": 11.069999694824219
+            },
+            "size": {
+                "x": 7.380000114440918,
+                "y": 6.211533546447754,
+                "z": 22.139999389648439
+            }
+        }
+    ],
+    "materials": [
+        "Assets/_Project/Art/Models/Ships/FusionFrigate/Materials/FF_Armor.mat",
+        "Assets/_Project/Art/Models/Ships/FusionFrigate/Materials/FF_EngineMetal.mat",
+        "Assets/_Project/Art/Models/Ships/FusionFrigate/Materials/FF_Structure.mat",
+        "Assets/_Project/Art/Models/Ships/FusionFrigate/Materials/FF_BlueGray.mat"
+    ]
+}

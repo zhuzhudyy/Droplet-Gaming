@@ -1,0 +1,1374 @@
+{
+  "config": {
+    "seed": 907260,
+    "near_count": 12,
+    "mid_count": 160,
+    "far_sectors": 8,
+    "far_rocks_per_sector": 90,
+    "gameplay_center": [
+      0,
+      20,
+      260
+    ],
+    "gameplay_radius": 730,
+    "reserve_radius": 760,
+    "reference_camera": [
+      0,
+      20,
+      -380
+    ],
+    "vertical_fov": 55,
+    "near_clip": 0.3,
+    "far_clip": 10000,
+    "sun_screen": [
+      0.16,
+      0.22,
+      0.135
+    ],
+    "earth_screen": [
+      0.83,
+      0.39,
+      0.175
+    ],
+    "sun_depth": 3700,
+    "earth_depth": 3300,
+    "mid_radius_range": [
+      1700,
+      2800
+    ],
+    "mid_size_range": [
+      10,
+      37
+    ],
+    "far_radius_range": [
+      2700,
+      3500
+    ],
+    "far_size_range": [
+      3,
+      15
+    ],
+    "belt_slope": -0.35,
+    "belt_height": -180,
+    "belt_thickness": 300,
+    "sky_radius": 6200
+  },
+  "instances": [
+    {
+      "id": "Sun",
+      "assetId": "Sun",
+      "name": "ENV_Sun_Sun",
+      "group": "CelestialBodies",
+      "clearance": 2973.551023853421
+    },
+    {
+      "id": "Earth",
+      "assetId": "Earth",
+      "name": "ENV_Earth_Earth",
+      "group": "CelestialBodies",
+      "clearance": 2298.1251596304733
+    },
+    {
+      "id": "N001",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_N001",
+      "group": "AsteroidBelt_Near",
+      "clearance": 819.6622288018143
+    },
+    {
+      "id": "N002",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_N002",
+      "group": "AsteroidBelt_Near",
+      "clearance": 631.8800169934977
+    },
+    {
+      "id": "N003",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_N003",
+      "group": "AsteroidBelt_Near",
+      "clearance": 896.2168009155228
+    },
+    {
+      "id": "N004",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_N004",
+      "group": "AsteroidBelt_Near",
+      "clearance": 1232.5163295190948
+    },
+    {
+      "id": "N005",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_N005",
+      "group": "AsteroidBelt_Near",
+      "clearance": 921.9712782643903
+    },
+    {
+      "id": "N006",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_N006",
+      "group": "AsteroidBelt_Near",
+      "clearance": 1215.2244720160547
+    },
+    {
+      "id": "N007",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_N007",
+      "group": "AsteroidBelt_Near",
+      "clearance": 1145.3895303826012
+    },
+    {
+      "id": "N008",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_N008",
+      "group": "AsteroidBelt_Near",
+      "clearance": 1119.1623832314106
+    },
+    {
+      "id": "N009",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_N009",
+      "group": "AsteroidBelt_Near",
+      "clearance": 993.0545236567093
+    },
+    {
+      "id": "N010",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_N010",
+      "group": "AsteroidBelt_Near",
+      "clearance": 1780.0280506928239
+    },
+    {
+      "id": "N011",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_N011",
+      "group": "AsteroidBelt_Near",
+      "clearance": 1761.9447369563654
+    },
+    {
+      "id": "N012",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_N012",
+      "group": "AsteroidBelt_Near",
+      "clearance": 1666.1257788649023
+    },
+    {
+      "id": "M001",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M001",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1185.7967551667705
+    },
+    {
+      "id": "M002",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M002",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1229.1446208582172
+    },
+    {
+      "id": "M003",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M003",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1703.7017492461755
+    },
+    {
+      "id": "M004",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M004",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1943.1838998258986
+    },
+    {
+      "id": "M005",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M005",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1212.1259096471902
+    },
+    {
+      "id": "M006",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M006",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1883.808382387053
+    },
+    {
+      "id": "M007",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M007",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1494.935926070059
+    },
+    {
+      "id": "M008",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M008",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1765.9249630065624
+    },
+    {
+      "id": "M009",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M009",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1279.425068363154
+    },
+    {
+      "id": "M010",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M010",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1661.590174666574
+    },
+    {
+      "id": "M011",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M011",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2053.135370852536
+    },
+    {
+      "id": "M012",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M012",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1481.1886275786555
+    },
+    {
+      "id": "M013",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M013",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1272.0730403753494
+    },
+    {
+      "id": "M014",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M014",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1241.5609416321204
+    },
+    {
+      "id": "M015",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M015",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1594.7904268338843
+    },
+    {
+      "id": "M016",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M016",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1254.5465526729438
+    },
+    {
+      "id": "M017",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M017",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1295.0435249339525
+    },
+    {
+      "id": "M018",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M018",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1373.3145719441459
+    },
+    {
+      "id": "M019",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M019",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1800.4185197153593
+    },
+    {
+      "id": "M020",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M020",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1279.781590880465
+    },
+    {
+      "id": "M021",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M021",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1737.573117588057
+    },
+    {
+      "id": "M022",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M022",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 989.9418906802873
+    },
+    {
+      "id": "M023",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M023",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1924.2711807784303
+    },
+    {
+      "id": "M024",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M024",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1492.053449168402
+    },
+    {
+      "id": "M025",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M025",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1254.7168108945052
+    },
+    {
+      "id": "M026",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M026",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1041.1948235281366
+    },
+    {
+      "id": "M027",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M027",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1310.194041921954
+    },
+    {
+      "id": "M028",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M028",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1930.8830272196828
+    },
+    {
+      "id": "M029",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M029",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2010.2374724062652
+    },
+    {
+      "id": "M030",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M030",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1795.8883323389214
+    },
+    {
+      "id": "M031",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M031",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1037.0799205399135
+    },
+    {
+      "id": "M032",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M032",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1712.5358832283355
+    },
+    {
+      "id": "M033",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M033",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1285.9759040436197
+    },
+    {
+      "id": "M034",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M034",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1694.8652288877602
+    },
+    {
+      "id": "M035",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M035",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1389.9654925051254
+    },
+    {
+      "id": "M036",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M036",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1074.7130913641286
+    },
+    {
+      "id": "M037",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M037",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1822.734349608519
+    },
+    {
+      "id": "M038",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M038",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1349.3642733530469
+    },
+    {
+      "id": "M039",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M039",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1637.4636375956393
+    },
+    {
+      "id": "M040",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M040",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1693.7036858192673
+    },
+    {
+      "id": "M041",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M041",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1387.326983159407
+    },
+    {
+      "id": "M042",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M042",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1859.4129582083565
+    },
+    {
+      "id": "M043",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M043",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2079.9334119733567
+    },
+    {
+      "id": "M044",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M044",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1643.7958722276298
+    },
+    {
+      "id": "M045",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M045",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2202.094194212013
+    },
+    {
+      "id": "M046",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M046",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1159.7839408114833
+    },
+    {
+      "id": "M047",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M047",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1608.6723787950891
+    },
+    {
+      "id": "M048",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M048",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1840.309709860618
+    },
+    {
+      "id": "M049",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M049",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1058.9128174339055
+    },
+    {
+      "id": "M050",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M050",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1761.45569995808
+    },
+    {
+      "id": "M051",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M051",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1658.8189362396497
+    },
+    {
+      "id": "M052",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M052",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1733.152236813451
+    },
+    {
+      "id": "M053",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M053",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1188.8858185360996
+    },
+    {
+      "id": "M054",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M054",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1208.7404332177464
+    },
+    {
+      "id": "M055",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M055",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1284.4350700533203
+    },
+    {
+      "id": "M056",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M056",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1229.264503189616
+    },
+    {
+      "id": "M057",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M057",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1643.352581023396
+    },
+    {
+      "id": "M058",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M058",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1600.2185746107161
+    },
+    {
+      "id": "M059",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M059",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1677.3762411793946
+    },
+    {
+      "id": "M060",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M060",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1729.7596960989763
+    },
+    {
+      "id": "M061",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M061",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1168.2616943263224
+    },
+    {
+      "id": "M062",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M062",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1615.1970942960616
+    },
+    {
+      "id": "M063",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M063",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1214.839796542225
+    },
+    {
+      "id": "M064",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M064",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1798.2607685394355
+    },
+    {
+      "id": "M065",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M065",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1318.7105041088457
+    },
+    {
+      "id": "M066",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M066",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1905.9249503820024
+    },
+    {
+      "id": "M067",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M067",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2010.9770736204914
+    },
+    {
+      "id": "M068",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M068",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1569.275388384085
+    },
+    {
+      "id": "M069",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M069",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1931.4276174227648
+    },
+    {
+      "id": "M070",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M070",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1844.7059867991006
+    },
+    {
+      "id": "M071",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M071",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1935.9522951299068
+    },
+    {
+      "id": "M072",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M072",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1343.6157755916997
+    },
+    {
+      "id": "M073",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M073",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1378.7485354879827
+    },
+    {
+      "id": "M074",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M074",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1284.1474783436402
+    },
+    {
+      "id": "M075",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M075",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1589.808303591074
+    },
+    {
+      "id": "M076",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M076",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1131.6578619541121
+    },
+    {
+      "id": "M077",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M077",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2335.770972109449
+    },
+    {
+      "id": "M078",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M078",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1361.5389810646475
+    },
+    {
+      "id": "M079",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M079",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1940.9947991090212
+    },
+    {
+      "id": "M080",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M080",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1739.834876202714
+    },
+    {
+      "id": "M081",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M081",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 915.1063379541899
+    },
+    {
+      "id": "M082",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M082",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 991.7603885743156
+    },
+    {
+      "id": "M083",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M083",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 932.720214313395
+    },
+    {
+      "id": "M084",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M084",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1268.4416680659451
+    },
+    {
+      "id": "M085",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M085",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1429.984376434229
+    },
+    {
+      "id": "M086",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M086",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1784.0052122081574
+    },
+    {
+      "id": "M087",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M087",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1075.0530364221577
+    },
+    {
+      "id": "M088",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M088",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1835.9742352050807
+    },
+    {
+      "id": "M089",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M089",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1672.5189357982563
+    },
+    {
+      "id": "M090",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M090",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1275.0286701923487
+    },
+    {
+      "id": "M091",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M091",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1269.3310960531376
+    },
+    {
+      "id": "M092",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M092",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1569.9841902377748
+    },
+    {
+      "id": "M093",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M093",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1773.6345090169884
+    },
+    {
+      "id": "M094",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M094",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1883.0629163871968
+    },
+    {
+      "id": "M095",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M095",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1927.0312890842438
+    },
+    {
+      "id": "M096",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M096",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 970.8991129917031
+    },
+    {
+      "id": "M097",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M097",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2103.6828785344082
+    },
+    {
+      "id": "M098",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M098",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1222.022143786712
+    },
+    {
+      "id": "M099",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M099",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1974.188875677561
+    },
+    {
+      "id": "M100",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M100",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1993.851477265699
+    },
+    {
+      "id": "M101",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M101",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1571.1311343853877
+    },
+    {
+      "id": "M102",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M102",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1813.1688496295606
+    },
+    {
+      "id": "M103",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M103",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1443.3733978130558
+    },
+    {
+      "id": "M104",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M104",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1300.474742323826
+    },
+    {
+      "id": "M105",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M105",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1645.540672499049
+    },
+    {
+      "id": "M106",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M106",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1736.8734110676737
+    },
+    {
+      "id": "M107",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M107",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1601.289925083462
+    },
+    {
+      "id": "M108",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M108",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1775.1732497963562
+    },
+    {
+      "id": "M109",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M109",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1518.6999014921903
+    },
+    {
+      "id": "M110",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M110",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1938.3330599533306
+    },
+    {
+      "id": "M111",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M111",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1390.323122707071
+    },
+    {
+      "id": "M112",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M112",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1684.3228736763276
+    },
+    {
+      "id": "M113",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M113",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1120.755058779095
+    },
+    {
+      "id": "M114",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M114",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1324.4449167592097
+    },
+    {
+      "id": "M115",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M115",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1128.9836483202787
+    },
+    {
+      "id": "M116",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M116",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1315.603042557732
+    },
+    {
+      "id": "M117",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M117",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1194.8940534472054
+    },
+    {
+      "id": "M118",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M118",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1196.435307702124
+    },
+    {
+      "id": "M119",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M119",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 945.0496524934392
+    },
+    {
+      "id": "M120",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M120",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1794.756957268096
+    },
+    {
+      "id": "M121",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M121",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1893.9223453298691
+    },
+    {
+      "id": "M122",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M122",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1776.231940420766
+    },
+    {
+      "id": "M123",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M123",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1994.4336307171016
+    },
+    {
+      "id": "M124",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M124",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1382.61650264012
+    },
+    {
+      "id": "M125",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M125",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2045.235320318428
+    },
+    {
+      "id": "M126",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M126",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1130.3577201264814
+    },
+    {
+      "id": "M127",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M127",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1043.8367041300316
+    },
+    {
+      "id": "M128",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M128",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1106.8357639532157
+    },
+    {
+      "id": "M129",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M129",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1121.4646013137701
+    },
+    {
+      "id": "M130",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M130",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1492.3845324333984
+    },
+    {
+      "id": "M131",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M131",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1099.6568366408974
+    },
+    {
+      "id": "M132",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M132",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1357.026059098428
+    },
+    {
+      "id": "M133",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M133",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1994.7364527362815
+    },
+    {
+      "id": "M134",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M134",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1661.9639439680673
+    },
+    {
+      "id": "M135",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M135",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1748.1637336885246
+    },
+    {
+      "id": "M136",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M136",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1763.7590705325765
+    },
+    {
+      "id": "M137",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M137",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1704.5464446177557
+    },
+    {
+      "id": "M138",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M138",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 983.8632564300387
+    },
+    {
+      "id": "M139",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M139",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1174.1957117919706
+    },
+    {
+      "id": "M140",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M140",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1863.9979328568438
+    },
+    {
+      "id": "M141",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M141",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1152.4831936176024
+    },
+    {
+      "id": "M142",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M142",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1564.1330903827625
+    },
+    {
+      "id": "M143",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M143",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1094.1620779875248
+    },
+    {
+      "id": "M144",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M144",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1620.321187735105
+    },
+    {
+      "id": "M145",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M145",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1102.1121379299286
+    },
+    {
+      "id": "M146",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M146",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1341.5960879637182
+    },
+    {
+      "id": "M147",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M147",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 949.1208553297656
+    },
+    {
+      "id": "M148",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M148",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2059.7748517013492
+    },
+    {
+      "id": "M149",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M149",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1079.8371234108727
+    },
+    {
+      "id": "M150",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M150",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1397.983870314241
+    },
+    {
+      "id": "M151",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M151",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 2085.3328707863006
+    },
+    {
+      "id": "M152",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M152",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1571.0915094067514
+    },
+    {
+      "id": "M153",
+      "assetId": "Rock01",
+      "name": "ENV_Rock01_M153",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1234.9055745401838
+    },
+    {
+      "id": "M154",
+      "assetId": "Rock02",
+      "name": "ENV_Rock02_M154",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1777.810304528567
+    },
+    {
+      "id": "M155",
+      "assetId": "Rock03",
+      "name": "ENV_Rock03_M155",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1939.55766540359
+    },
+    {
+      "id": "M156",
+      "assetId": "Rock04",
+      "name": "ENV_Rock04_M156",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1184.3588320972913
+    },
+    {
+      "id": "M157",
+      "assetId": "Rock05",
+      "name": "ENV_Rock05_M157",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1358.1848605249024
+    },
+    {
+      "id": "M158",
+      "assetId": "Rock06",
+      "name": "ENV_Rock06_M158",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1640.185623862841
+    },
+    {
+      "id": "M159",
+      "assetId": "Rock07",
+      "name": "ENV_Rock07_M159",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1332.0427234321814
+    },
+    {
+      "id": "M160",
+      "assetId": "Rock08",
+      "name": "ENV_Rock08_M160",
+      "group": "AsteroidBelt_Mid",
+      "clearance": 1490.8902539738801
+    },
+    {
+      "id": "Far01",
+      "assetId": "Far01",
+      "name": "ENV_Far01_Far01",
+      "group": "AsteroidBelt_Far",
+      "clearance": 1965.9472248853876
+    },
+    {
+      "id": "Far02",
+      "assetId": "Far02",
+      "name": "ENV_Far02_Far02",
+      "group": "AsteroidBelt_Far",
+      "clearance": 2078.357674053928
+    },
+    {
+      "id": "Far03",
+      "assetId": "Far03",
+      "name": "ENV_Far03_Far03",
+      "group": "AsteroidBelt_Far",
+      "clearance": 2134.8377666650626
+    },
+    {
+      "id": "Far04",
+      "assetId": "Far04",
+      "name": "ENV_Far04_Far04",
+      "group": "AsteroidBelt_Far",
+      "clearance": 1995.3599297420878
+    },
+    {
+      "id": "Far05",
+      "assetId": "Far05",
+      "name": "ENV_Far05_Far05",
+      "group": "AsteroidBelt_Far",
+      "clearance": 1945.5378216847002
+    },
+    {
+      "id": "Far06",
+      "assetId": "Far06",
+      "name": "ENV_Far06_Far06",
+      "group": "AsteroidBelt_Far",
+      "clearance": 1984.5660089763892
+    },
+    {
+      "id": "Far07",
+      "assetId": "Far07",
+      "name": "ENV_Far07_Far07",
+      "group": "AsteroidBelt_Far",
+      "clearance": 1979.9094608848295
+    },
+    {
+      "id": "Far08",
+      "assetId": "Far08",
+      "name": "ENV_Far08_Far08",
+      "group": "AsteroidBelt_Far",
+      "clearance": 1935.5325739437985
+    }
+  ],
+  "far": [
+    {
+      "assetId": "Far01",
+      "rocks": 90,
+      "clearance": 1965.9472248853876
+    },
+    {
+      "assetId": "Far02",
+      "rocks": 90,
+      "clearance": 2078.357674053928
+    },
+    {
+      "assetId": "Far03",
+      "rocks": 90,
+      "clearance": 2134.8377666650626
+    },
+    {
+      "assetId": "Far04",
+      "rocks": 90,
+      "clearance": 1995.3599297420878
+    },
+    {
+      "assetId": "Far05",
+      "rocks": 90,
+      "clearance": 1945.5378216847002
+    },
+    {
+      "assetId": "Far06",
+      "rocks": 90,
+      "clearance": 1984.5660089763892
+    },
+    {
+      "assetId": "Far07",
+      "rocks": 90,
+      "clearance": 1979.9094608848295
+    },
+    {
+      "assetId": "Far08",
+      "rocks": 90,
+      "clearance": 1935.5325739437985
+    }
+  ]
+}

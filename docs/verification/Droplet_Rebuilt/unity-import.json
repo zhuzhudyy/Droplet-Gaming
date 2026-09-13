@@ -1,0 +1,35 @@
+{
+    "version": "6000.5.10f1",
+    "hierarchy": "Droplet_Rebuilt p=(0.00, 0.00, 0.00) r=(0.00, 0.00, 0.00) s=(1.00, 1.00, 1.00)",
+    "size": {
+        "x": 0.800000011920929,
+        "y": 0.800000011920929,
+        "z": 2.3999998569488527
+    },
+    "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.1920928955078126e-7
+    },
+    "head": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.2000000476837159
+    },
+    "tail": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.2000000476837159
+    },
+    "triangles": 7040,
+    "renderers": 1,
+    "inward": 0,
+    "zero": 0,
+    "headZoneRadius": 0.228327676653862,
+    "tailZoneRadius": 0.01855527050793171,
+    "seamNormalDegrees": 0.0,
+    "calibration": true,
+    "unitTransforms": true,
+    "noAnimation": true,
+    "noColliders": true
+}

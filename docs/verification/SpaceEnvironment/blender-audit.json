@@ -1,0 +1,2037 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "source": "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.blend",
+  "source_reopened": true,
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "config_saved": {
+      "passed": true,
+      "description": "Packed scene configuration equals generation configuration and source summary."
+    },
+    "owned_scene": {
+      "passed": true,
+      "description": "Scene has the explicit environment ownership marker."
+    },
+    "collections": {
+      "passed": true,
+      "description": "Required editable source collections exist."
+    },
+    "library_hidden_from_main": {
+      "passed": true,
+      "description": "Prototype-only libraries and export marker collection are excluded from main rendering."
+    },
+    "library_no_modifiers": {
+      "passed": true,
+      "description": "All export meshes have applied geometry and no unresolved modifiers."
+    },
+    "library_unit_transform": {
+      "passed": true,
+      "description": "Prototype transforms are centered at the intended export pivot with identity rotation and unit scale."
+    },
+    "prototype_keys_unique": {
+      "passed": true,
+      "description": "Each (assetId, LOD) identifies exactly one prototype."
+    },
+    "eight_rock_three_lods": {
+      "passed": true,
+      "description": "Eight independent rock silhouettes each retain three authored LODs."
+    },
+    "celestial_lods": {
+      "passed": true,
+      "description": "Sun and all three Earth LODs exist."
+    },
+    "geometry_Earth_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "uv_Earth_LOD0": {
+      "passed": true,
+      "description": "Texturable spherical asset retains UVs."
+    },
+    "geometry_Earth_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "uv_Earth_LOD1": {
+      "passed": true,
+      "description": "Texturable spherical asset retains UVs."
+    },
+    "geometry_Earth_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "uv_Earth_LOD2": {
+      "passed": true,
+      "description": "Texturable spherical asset retains UVs."
+    },
+    "geometry_Far01_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Far02_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Far03_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Far04_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Far05_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Far06_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Far07_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Far08_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock01_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock01_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock01_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock02_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock02_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock02_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock03_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock03_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock03_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock04_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock04_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock04_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock05_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock05_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock05_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock06_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock06_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock06_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock07_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock07_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock07_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock08_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock08_LOD1": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Rock08_LOD2": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "geometry_Sky_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "uv_Sky_LOD0": {
+      "passed": true,
+      "description": "Texturable spherical asset retains UVs."
+    },
+    "geometry_Sun_LOD0": {
+      "passed": true,
+      "description": "Closed manifold mesh, finite outward normals and positive component volumes (sky intentionally inward)."
+    },
+    "uv_Sun_LOD0": {
+      "passed": true,
+      "description": "Texturable spherical asset retains UVs."
+    },
+    "unique_mesh_budget": {
+      "passed": true,
+      "description": "All unique prototype/LOD/far/sky triangles fit 60000."
+    },
+    "far_mesh_budget": {
+      "passed": true,
+      "description": "Combined far-sector geometry fits 15000 triangles."
+    },
+    "sun_mesh_budget": {
+      "passed": true,
+      "description": "The smooth sun sphere fits the 1000-2000 triangle starting budget."
+    },
+    "lod_budget_Rock1": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "lod_budget_Rock2": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "lod_budget_Rock3": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "lod_budget_Rock4": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "lod_budget_Rock5": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "lod_budget_Rock6": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "lod_budget_Rock7": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "lod_budget_Rock8": {
+      "passed": true,
+      "description": "Rock triangle counts LOD0/1/2 = [1280, 320, 80]"
+    },
+    "earth_lod_budget": {
+      "passed": true,
+      "description": "Earth LOD triangle upper bounds 8000/2000/600."
+    },
+    "instance_ids": {
+      "passed": true,
+      "description": "Every saved environment instance has a unique stable ID."
+    },
+    "instance_counts": {
+      "passed": true,
+      "description": "Saved visible object counts agree with configured populations."
+    },
+    "instances_share_prototype_mesh": {
+      "passed": true,
+      "description": "Every placement references existing prototype mesh data; zero per-instance mesh copies."
+    },
+    "no_instance_modifiers": {
+      "passed": true,
+      "description": "No live per-instance geometry modifiers."
+    },
+    "positive_instance_scales": {
+      "passed": true,
+      "description": "All placement scales are positive."
+    },
+    "single_lod_per_blender_instance": {
+      "passed": true,
+      "description": "Only one preview LOD is displayed at each stable placement."
+    },
+    "marker_instance_correspondence": {
+      "passed": true,
+      "description": "Layout marker IDs correspond one-to-one with scene instances."
+    },
+    "reserve_clear": {
+      "passed": true,
+      "description": "Each celestial/rock component lies outside the full 760-unit reserve after including its bounding radius."
+    },
+    "source_summary_clearance": {
+      "passed": true,
+      "description": "Generation-side source layout summary also reports positive clearance."
+    },
+    "source_summary_ids": {
+      "passed": true,
+      "description": "Saved instance IDs agree with the source layout summary, plus the enclosing sky."
+    },
+    "material_budget": {
+      "passed": true,
+      "description": "Shared base-material count is at most six."
+    },
+    "image_reference_Earth_BaseColor_2048x1024": {
+      "passed": true,
+      "description": "Texture is both packed into the reopened source and present as an explicit external file."
+    },
+    "image_budget_Earth_BaseColor_2048x1024": {
+      "passed": true,
+      "description": "Base texture stays within the 2048x1024 ceiling."
+    },
+    "image_reference_SpaceStars_BaseColor": {
+      "passed": true,
+      "description": "Texture is both packed into the reopened source and present as an explicit external file."
+    },
+    "image_budget_SpaceStars_BaseColor": {
+      "passed": true,
+      "description": "Base texture stays within the 2048x1024 ceiling."
+    },
+    "no_lights": {
+      "passed": true,
+      "description": "Full environment source contains no formal lights."
+    },
+    "neutral_workbench": {
+      "passed": true,
+      "description": "Neutral Workbench preview is configured."
+    },
+    "reference_projection_Sun": {
+      "passed": true,
+      "description": "Saved camera preserves intended screen position and angular size; measured mesh projection recorded."
+    },
+    "reference_projection_Earth": {
+      "passed": true,
+      "description": "Saved camera preserves intended screen position and angular size; measured mesh projection recorded."
+    }
+  },
+  "images": [
+    {
+      "path": "ArtSource\\Blender\\SpaceEnvironment\\Previews\\ReferenceCamera.png",
+      "camera": "ReferenceCamera",
+      "sky_hidden_for_topology_view": false,
+      "generated": true,
+      "visually_reviewed_by_script": false
+    },
+    {
+      "path": "ArtSource\\Blender\\SpaceEnvironment\\Previews\\SideCamera.png",
+      "camera": "SideCamera",
+      "sky_hidden_for_topology_view": true,
+      "generated": true,
+      "visually_reviewed_by_script": false
+    },
+    {
+      "path": "ArtSource\\Blender\\SpaceEnvironment\\Previews\\TopCamera.png",
+      "camera": "TopCamera",
+      "sky_hidden_for_topology_view": true,
+      "generated": true,
+      "visually_reviewed_by_script": false
+    },
+    {
+      "path": "ArtSource\\Blender\\SpaceEnvironment\\Previews\\GameplayTurnCamera.png",
+      "camera": "GameplayTurnCamera",
+      "sky_hidden_for_topology_view": false,
+      "generated": true,
+      "visually_reviewed_by_script": false
+    },
+    {
+      "path": "ArtSource\\Blender\\SpaceEnvironment\\Previews\\BeltCloseCamera.png",
+      "camera": "BeltCloseCamera",
+      "sky_hidden_for_topology_view": false,
+      "generated": true,
+      "visually_reviewed_by_script": false
+    },
+    {
+      "path": "ArtSource\\Blender\\SpaceEnvironment\\Previews\\AsteroidLibraryReview.png",
+      "camera": "LibraryCamera",
+      "sky_hidden_for_topology_view": false,
+      "generated": true,
+      "visually_reviewed_by_script": false
+    },
+    {
+      "path": "ArtSource\\Blender\\SpaceEnvironment\\Previews\\AsteroidLibraryWireframe.png",
+      "camera": "LibraryCamera",
+      "sky_hidden_for_topology_view": false,
+      "generated": true,
+      "visually_reviewed_by_script": false
+    }
+  ],
+  "visual_review": "Images generated by this script; visual acceptance is recorded separately by the reviewer.",
+  "unique_export_meshes": [
+    {
+      "mesh": "Earth_LOD0",
+      "vertices": 3010,
+      "triangles": 6016,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 4.177587621523673,
+      "minimum_abs_component_volume": 4.177587621523673,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 1,
+      "assetId": "Earth",
+      "lod": 0
+    },
+    {
+      "mesh": "Earth_LOD1",
+      "vertices": 922,
+      "triangles": 1840,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 4.153741454321709,
+      "minimum_abs_component_volume": 4.153741454321709,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 1,
+      "assetId": "Earth",
+      "lod": 1
+    },
+    {
+      "mesh": "Earth_LOD2",
+      "vertices": 266,
+      "triangles": 528,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 4.070552370811289,
+      "minimum_abs_component_volume": 4.070552370811289,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 1,
+      "assetId": "Earth",
+      "lod": 2
+    },
+    {
+      "mesh": "FarSector01_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 225385.95727293374,
+      "minimum_abs_component_volume": 52.4598685103847,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far01",
+      "lod": 0
+    },
+    {
+      "mesh": "FarSector02_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 269980.32525323005,
+      "minimum_abs_component_volume": 81.7497879266739,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far02",
+      "lod": 0
+    },
+    {
+      "mesh": "FarSector03_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 225762.1624701568,
+      "minimum_abs_component_volume": 43.83930762608846,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far03",
+      "lod": 0
+    },
+    {
+      "mesh": "FarSector04_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 283136.7943186647,
+      "minimum_abs_component_volume": 73.83850517372413,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far04",
+      "lod": 0
+    },
+    {
+      "mesh": "FarSector05_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 248425.4361130979,
+      "minimum_abs_component_volume": 64.04086153382863,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far05",
+      "lod": 0
+    },
+    {
+      "mesh": "FarSector06_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 276375.5781317779,
+      "minimum_abs_component_volume": 80.84429115517953,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far06",
+      "lod": 0
+    },
+    {
+      "mesh": "FarSector07_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 296383.07653023023,
+      "minimum_abs_component_volume": 73.13345256829054,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far07",
+      "lod": 0
+    },
+    {
+      "mesh": "FarSector08_Mesh",
+      "vertices": 1080,
+      "triangles": 1800,
+      "components": 90,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 222204.3825591491,
+      "minimum_abs_component_volume": 40.85242823051038,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Far08",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_Rounded_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 2.676490748935784,
+      "minimum_abs_component_volume": 2.676490748935784,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock01",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_Rounded_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 2.658668418640444,
+      "minimum_abs_component_volume": 2.658668418640444,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock01",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_Rounded_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 2.5934422068312415,
+      "minimum_abs_component_volume": 2.5934422068312415,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock01",
+      "lod": 2
+    },
+    {
+      "mesh": "Asteroid_Elongated_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.44187577545107376,
+      "minimum_abs_component_volume": 0.44187577545107376,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock02",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_Elongated_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.43896857101359865,
+      "minimum_abs_component_volume": 0.43896857101359865,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock02",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_Elongated_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.427407764992798,
+      "minimum_abs_component_volume": 0.427407764992798,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock02",
+      "lod": 2
+    },
+    {
+      "mesh": "Asteroid_Flattened_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.5926104932669283,
+      "minimum_abs_component_volume": 0.5926104932669283,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock03",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_Flattened_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.5875114396918283,
+      "minimum_abs_component_volume": 0.5875114396918283,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock03",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_Flattened_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.5678272872385908,
+      "minimum_abs_component_volume": 0.5678272872385908,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock03",
+      "lod": 2
+    },
+    {
+      "mesh": "Asteroid_Angular_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.8658869735234263,
+      "minimum_abs_component_volume": 0.8658869735234263,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock04",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_Angular_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.8656184966583512,
+      "minimum_abs_component_volume": 0.8656184966583512,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock04",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_Angular_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.8531150044406485,
+      "minimum_abs_component_volume": 0.8531150044406485,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock04",
+      "lod": 2
+    },
+    {
+      "mesh": "Asteroid_Notched_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 2.1544867067417295,
+      "minimum_abs_component_volume": 2.1544867067417295,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock05",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_Notched_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 2.138182382343341,
+      "minimum_abs_component_volume": 2.138182382343341,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock05",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_Notched_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 2.0885787124219255,
+      "minimum_abs_component_volume": 2.0885787124219255,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock05",
+      "lod": 2
+    },
+    {
+      "mesh": "Asteroid_ContactBinary_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.5625341759256642,
+      "minimum_abs_component_volume": 0.5625341759256642,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock06",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_ContactBinary_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.5569435160812382,
+      "minimum_abs_component_volume": 0.5569435160812382,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock06",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_ContactBinary_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.5326195915889305,
+      "minimum_abs_component_volume": 0.5326195915889305,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock06",
+      "lod": 2
+    },
+    {
+      "mesh": "Asteroid_ThreeLobed_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.9394419963282025,
+      "minimum_abs_component_volume": 0.9394419963282025,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock07",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_ThreeLobed_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.9309565094255652,
+      "minimum_abs_component_volume": 0.9309565094255652,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock07",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_ThreeLobed_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.8945758518848375,
+      "minimum_abs_component_volume": 0.8945758518848375,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock07",
+      "lod": 2
+    },
+    {
+      "mesh": "Asteroid_Wedge_LOD0_Mesh",
+      "vertices": 642,
+      "triangles": 1280,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.6815096388153189,
+      "minimum_abs_component_volume": 0.6815096388153189,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock08",
+      "lod": 0
+    },
+    {
+      "mesh": "Asteroid_Wedge_LOD1_Mesh",
+      "vertices": 162,
+      "triangles": 320,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.6800714294687774,
+      "minimum_abs_component_volume": 0.6800714294687774,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock08",
+      "lod": 1
+    },
+    {
+      "mesh": "Asteroid_Wedge_LOD2_Mesh",
+      "vertices": 42,
+      "triangles": 80,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 0.6626943333952416,
+      "minimum_abs_component_volume": 0.6626943333952416,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 0,
+      "assetId": "Rock08",
+      "lod": 2
+    },
+    {
+      "mesh": "Sphere",
+      "vertices": 482,
+      "triangles": 960,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": -4.121938737694008,
+      "minimum_abs_component_volume": 4.121938737694008,
+      "orientation": "inward sky shell",
+      "component_orientation_valid": true,
+      "uv_layers": 1,
+      "assetId": "Sky",
+      "lod": 0
+    },
+    {
+      "mesh": "Sun_LOD0",
+      "vertices": 738,
+      "triangles": 1472,
+      "components": 1,
+      "non_manifold_edges": 0,
+      "inconsistent_face_orientation_edges": 0,
+      "degenerate_faces": 0,
+      "non_finite_vertices": 0,
+      "invalid_normals": 0,
+      "signed_volume": 4.144123843349276,
+      "minimum_abs_component_volume": 4.144123843349276,
+      "orientation": "outward closed surfaces",
+      "component_orientation_valid": true,
+      "uv_layers": 1,
+      "assetId": "Sun",
+      "lod": 0
+    }
+  ],
+  "unique_mesh_count": 37,
+  "unique_triangles_all_lods": 38656,
+  "far_unique_triangles": 14400,
+  "instance_counts": {
+    "CelestialBodies": 2,
+    "AsteroidBelt_Near": 12,
+    "AsteroidBelt_Mid": 160,
+    "AsteroidBelt_Far": 8,
+    "SkyBackground": 1
+  },
+  "instance_total": 183,
+  "unique_meshes_referenced_by_visible_instances": 27,
+  "per_instance_unique_mesh_copies": 0,
+  "clearances": [
+    {
+      "instanceId": "Sun",
+      "assetId": "Sun",
+      "conservative_min_clearance": 2973.550132614276
+    },
+    {
+      "instanceId": "Earth",
+      "assetId": "Earth",
+      "conservative_min_clearance": 2298.123303860444
+    },
+    {
+      "instanceId": "N001",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 822.6602976276326
+    },
+    {
+      "instanceId": "N002",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 636.9774792374176
+    },
+    {
+      "instanceId": "N003",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 878.178539844776
+    },
+    {
+      "instanceId": "N004",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1230.2731834338679
+    },
+    {
+      "instanceId": "N005",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 925.7829443763901
+    },
+    {
+      "instanceId": "N006",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1210.6665388271879
+    },
+    {
+      "instanceId": "N007",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1148.8994345644749
+    },
+    {
+      "instanceId": "N008",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1116.1397600214418
+    },
+    {
+      "instanceId": "N009",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 991.5761010446856
+    },
+    {
+      "instanceId": "N010",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1767.8917781677255
+    },
+    {
+      "instanceId": "N011",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1765.4813404304527
+    },
+    {
+      "instanceId": "N012",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1662.4737248397837
+    },
+    {
+      "instanceId": "M001",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1185.135699669416
+    },
+    {
+      "instanceId": "M002",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1227.8973237075702
+    },
+    {
+      "instanceId": "M003",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1704.4143797144811
+    },
+    {
+      "instanceId": "M004",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1943.5071447479927
+    },
+    {
+      "instanceId": "M005",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1213.4007895565978
+    },
+    {
+      "instanceId": "M006",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1884.1319658526172
+    },
+    {
+      "instanceId": "M007",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1497.3462573901688
+    },
+    {
+      "instanceId": "M008",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1762.3056425695236
+    },
+    {
+      "instanceId": "M009",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1279.309210572286
+    },
+    {
+      "instanceId": "M010",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1656.2003644344977
+    },
+    {
+      "instanceId": "M011",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 2053.4555217654392
+    },
+    {
+      "instanceId": "M012",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1480.3659924012022
+    },
+    {
+      "instanceId": "M013",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1270.6595172687184
+    },
+    {
+      "instanceId": "M014",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1241.2187668038837
+    },
+    {
+      "instanceId": "M015",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1597.048784504651
+    },
+    {
+      "instanceId": "M016",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1253.090536015677
+    },
+    {
+      "instanceId": "M017",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1295.1888203516637
+    },
+    {
+      "instanceId": "M018",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1367.7326270572576
+    },
+    {
+      "instanceId": "M019",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1800.9733900336696
+    },
+    {
+      "instanceId": "M020",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1278.581753542979
+    },
+    {
+      "instanceId": "M021",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1737.3140165107784
+    },
+    {
+      "instanceId": "M022",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 990.1262989165657
+    },
+    {
+      "instanceId": "M023",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1927.0392175024058
+    },
+    {
+      "instanceId": "M024",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1483.2775362777138
+    },
+    {
+      "instanceId": "M025",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1255.0598244753453
+    },
+    {
+      "instanceId": "M026",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1040.5188202849292
+    },
+    {
+      "instanceId": "M027",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1310.8405952794797
+    },
+    {
+      "instanceId": "M028",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1930.6757504525622
+    },
+    {
+      "instanceId": "M029",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 2010.3823276246208
+    },
+    {
+      "instanceId": "M030",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1795.5086003194824
+    },
+    {
+      "instanceId": "M031",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1037.2734284825774
+    },
+    {
+      "instanceId": "M032",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1712.156785602495
+    },
+    {
+      "instanceId": "M033",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1285.1099311336743
+    },
+    {
+      "instanceId": "M034",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1692.6058204327787
+    },
+    {
+      "instanceId": "M035",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1390.6672979571204
+    },
+    {
+      "instanceId": "M036",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1073.5353235564191
+    },
+    {
+      "instanceId": "M037",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1822.3835806886268
+    },
+    {
+      "instanceId": "M038",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1350.0779238790542
+    },
+    {
+      "instanceId": "M039",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1639.937092548712
+    },
+    {
+      "instanceId": "M040",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1687.4694172078434
+    },
+    {
+      "instanceId": "M041",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1386.4924378770174
+    },
+    {
+      "instanceId": "M042",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1859.256902311854
+    },
+    {
+      "instanceId": "M043",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 2081.6545253404306
+    },
+    {
+      "instanceId": "M044",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1642.3853426720534
+    },
+    {
+      "instanceId": "M045",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 2201.6434477158596
+    },
+    {
+      "instanceId": "M046",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1159.2841378531398
+    },
+    {
+      "instanceId": "M047",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1611.928224163054
+    },
+    {
+      "instanceId": "M048",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1839.0681730137458
+    },
+    {
+      "instanceId": "M049",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1058.6327006552938
+    },
+    {
+      "instanceId": "M050",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1756.6838486964066
+    },
+    {
+      "instanceId": "M051",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1659.4478050518119
+    },
+    {
+      "instanceId": "M052",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1732.5580877118941
+    },
+    {
+      "instanceId": "M053",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1189.5893508933366
+    },
+    {
+      "instanceId": "M054",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1209.0411262610216
+    },
+    {
+      "instanceId": "M055",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1288.366009623794
+    },
+    {
+      "instanceId": "M056",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1225.3942831712552
+    },
+    {
+      "instanceId": "M057",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1643.42340232971
+    },
+    {
+      "instanceId": "M058",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1597.0235095070407
+    },
+    {
+      "instanceId": "M059",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1677.8478176358217
+    },
+    {
+      "instanceId": "M060",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1729.716127674672
+    },
+    {
+      "instanceId": "M061",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1168.7346497108358
+    },
+    {
+      "instanceId": "M062",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1615.9566430349792
+    },
+    {
+      "instanceId": "M063",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1218.951765712694
+    },
+    {
+      "instanceId": "M064",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1791.4863593384407
+    },
+    {
+      "instanceId": "M065",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1318.3400060604472
+    },
+    {
+      "instanceId": "M066",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1904.4915628336712
+    },
+    {
+      "instanceId": "M067",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 2011.2881615242868
+    },
+    {
+      "instanceId": "M068",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1568.603881154998
+    },
+    {
+      "instanceId": "M069",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1931.6742979947107
+    },
+    {
+      "instanceId": "M070",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1844.4154606585375
+    },
+    {
+      "instanceId": "M071",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1936.082608972376
+    },
+    {
+      "instanceId": "M072",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1342.4293408804056
+    },
+    {
+      "instanceId": "M073",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1377.9778602231363
+    },
+    {
+      "instanceId": "M074",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1282.291453438992
+    },
+    {
+      "instanceId": "M075",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1589.8785408564709
+    },
+    {
+      "instanceId": "M076",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1130.057583263633
+    },
+    {
+      "instanceId": "M077",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 2335.2384801039825
+    },
+    {
+      "instanceId": "M078",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1361.5540046063866
+    },
+    {
+      "instanceId": "M079",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1942.5923465401142
+    },
+    {
+      "instanceId": "M080",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1733.6870784258476
+    },
+    {
+      "instanceId": "M081",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 914.9782516932976
+    },
+    {
+      "instanceId": "M082",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 988.4883880810046
+    },
+    {
+      "instanceId": "M083",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 932.7448276538919
+    },
+    {
+      "instanceId": "M084",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1268.6084234744742
+    },
+    {
+      "instanceId": "M085",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1429.501201681584
+    },
+    {
+      "instanceId": "M086",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1783.307863717022
+    },
+    {
+      "instanceId": "M087",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1077.0365787575806
+    },
+    {
+      "instanceId": "M088",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1833.8685486535614
+    },
+    {
+      "instanceId": "M089",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1672.2098018570905
+    },
+    {
+      "instanceId": "M090",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1272.1993041914457
+    },
+    {
+      "instanceId": "M091",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1271.0981394029943
+    },
+    {
+      "instanceId": "M092",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1569.3385132312555
+    },
+    {
+      "instanceId": "M093",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1774.017382898529
+    },
+    {
+      "instanceId": "M094",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1882.5584123881258
+    },
+    {
+      "instanceId": "M095",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1928.2948057112617
+    },
+    {
+      "instanceId": "M096",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 967.7663122704323
+    },
+    {
+      "instanceId": "M097",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 2103.1124162858378
+    },
+    {
+      "instanceId": "M098",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1221.5393042168819
+    },
+    {
+      "instanceId": "M099",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1975.2100866258093
+    },
+    {
+      "instanceId": "M100",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1991.0729719392239
+    },
+    {
+      "instanceId": "M101",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1572.038948610761
+    },
+    {
+      "instanceId": "M102",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1813.0899053005542
+    },
+    {
+      "instanceId": "M103",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1444.0140227536267
+    },
+    {
+      "instanceId": "M104",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1295.7447044801302
+    },
+    {
+      "instanceId": "M105",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1646.0649159181175
+    },
+    {
+      "instanceId": "M106",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1735.678938581516
+    },
+    {
+      "instanceId": "M107",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1602.2867734848114
+    },
+    {
+      "instanceId": "M108",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1774.8208323945132
+    },
+    {
+      "instanceId": "M109",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1517.7904057349256
+    },
+    {
+      "instanceId": "M110",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1938.61453984954
+    },
+    {
+      "instanceId": "M111",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1391.215013735039
+    },
+    {
+      "instanceId": "M112",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1675.1266343253887
+    },
+    {
+      "instanceId": "M113",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1120.1384841172303
+    },
+    {
+      "instanceId": "M114",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1321.529425311614
+    },
+    {
+      "instanceId": "M115",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1130.8712651011747
+    },
+    {
+      "instanceId": "M116",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1315.6225016196804
+    },
+    {
+      "instanceId": "M117",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1194.9341571901793
+    },
+    {
+      "instanceId": "M118",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1196.7396359132865
+    },
+    {
+      "instanceId": "M119",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 948.4131406125639
+    },
+    {
+      "instanceId": "M120",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1779.9628773619406
+    },
+    {
+      "instanceId": "M121",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1892.8364580743723
+    },
+    {
+      "instanceId": "M122",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1770.9042081735506
+    },
+    {
+      "instanceId": "M123",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1994.9205209020834
+    },
+    {
+      "instanceId": "M124",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1380.4743070727109
+    },
+    {
+      "instanceId": "M125",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 2044.9654014326575
+    },
+    {
+      "instanceId": "M126",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1130.0109930052713
+    },
+    {
+      "instanceId": "M127",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1045.9955633120933
+    },
+    {
+      "instanceId": "M128",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1095.8113397485617
+    },
+    {
+      "instanceId": "M129",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1121.6516295598171
+    },
+    {
+      "instanceId": "M130",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1491.7250798467803
+    },
+    {
+      "instanceId": "M131",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1099.4405975372274
+    },
+    {
+      "instanceId": "M132",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1357.1530486692227
+    },
+    {
+      "instanceId": "M133",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1993.1304677027706
+    },
+    {
+      "instanceId": "M134",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1662.1256376742035
+    },
+    {
+      "instanceId": "M135",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1748.0903703127674
+    },
+    {
+      "instanceId": "M136",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1762.5669805523512
+    },
+    {
+      "instanceId": "M137",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1704.9939263647211
+    },
+    {
+      "instanceId": "M138",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 982.3637396894824
+    },
+    {
+      "instanceId": "M139",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1175.8939153511017
+    },
+    {
+      "instanceId": "M140",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1863.1775559991966
+    },
+    {
+      "instanceId": "M141",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1151.277100966569
+    },
+    {
+      "instanceId": "M142",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1564.0946611063564
+    },
+    {
+      "instanceId": "M143",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1095.146467789652
+    },
+    {
+      "instanceId": "M144",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1617.688305971415
+    },
+    {
+      "instanceId": "M145",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1101.734283433924
+    },
+    {
+      "instanceId": "M146",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1340.856991170192
+    },
+    {
+      "instanceId": "M147",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 949.3817747292501
+    },
+    {
+      "instanceId": "M148",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 2056.670566941406
+    },
+    {
+      "instanceId": "M149",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1078.8752085299275
+    },
+    {
+      "instanceId": "M150",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1397.6068316358173
+    },
+    {
+      "instanceId": "M151",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 2085.69178488125
+    },
+    {
+      "instanceId": "M152",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1570.6453974124147
+    },
+    {
+      "instanceId": "M153",
+      "assetId": "Rock01",
+      "conservative_min_clearance": 1235.6233428845285
+    },
+    {
+      "instanceId": "M154",
+      "assetId": "Rock02",
+      "conservative_min_clearance": 1777.3606285142791
+    },
+    {
+      "instanceId": "M155",
+      "assetId": "Rock03",
+      "conservative_min_clearance": 1942.341544571119
+    },
+    {
+      "instanceId": "M156",
+      "assetId": "Rock04",
+      "conservative_min_clearance": 1182.8382463079006
+    },
+    {
+      "instanceId": "M157",
+      "assetId": "Rock05",
+      "conservative_min_clearance": 1357.8346472668
+    },
+    {
+      "instanceId": "M158",
+      "assetId": "Rock06",
+      "conservative_min_clearance": 1639.9853852891515
+    },
+    {
+      "instanceId": "M159",
+      "assetId": "Rock07",
+      "conservative_min_clearance": 1332.7914269072576
+    },
+    {
+      "instanceId": "M160",
+      "assetId": "Rock08",
+      "conservative_min_clearance": 1478.4900129670996
+    },
+    {
+      "instanceId": "Far01",
+      "assetId": "Far01",
+      "conservative_min_clearance": 1966.7488687357895
+    },
+    {
+      "instanceId": "Far02",
+      "assetId": "Far02",
+      "conservative_min_clearance": 2078.3577413520934
+    },
+    {
+      "instanceId": "Far03",
+      "assetId": "Far03",
+      "conservative_min_clearance": 2135.4761919771013
+    },
+    {
+      "instanceId": "Far04",
+      "assetId": "Far04",
+      "conservative_min_clearance": 1995.8333079657568
+    },
+    {
+      "instanceId": "Far05",
+      "assetId": "Far05",
+      "conservative_min_clearance": 1945.9464941342144
+    },
+    {
+      "instanceId": "Far06",
+      "assetId": "Far06",
+      "conservative_min_clearance": 1985.3730663878264
+    },
+    {
+      "instanceId": "Far07",
+      "assetId": "Far07",
+      "conservative_min_clearance": 1979.909453755478
+    },
+    {
+      "instanceId": "Far08",
+      "assetId": "Far08",
+      "conservative_min_clearance": 1936.4001699866108
+    }
+  ],
+  "minimum_clearance": 636.9774792374176,
+  "material_count": 5,
+  "materials": [
+    "RockBasalt",
+    "RockSlate",
+    "SE_EarthBase",
+    "SE_SunBase",
+    "SpaceStars"
+  ],
+  "textures": [
+    {
+      "name": "Earth_BaseColor_2048x1024",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "packed": true,
+      "external_exists": true,
+      "source": "FILE",
+      "filepath": "//Textures\\Earth_BaseColor_2048x1024.jpg"
+    },
+    {
+      "name": "SpaceStars_BaseColor",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "packed": true,
+      "external_exists": true,
+      "source": "FILE",
+      "filepath": "//Textures\\SpaceStars_BaseColor.png"
+    }
+  ],
+  "reference_projection": {
+    "Sun": {
+      "center_top_left": [
+        0.158246461302042,
+        0.21860694885253906
+      ],
+      "height_fraction": 0.140860915184021,
+      "width_fraction": 0.0898263081908226,
+      "minimum_camera_depth": 3439.97705078125
+    },
+    "Earth": {
+      "center_top_left": [
+        0.8327764570713043,
+        0.38907092809677124
+      ],
+      "height_fraction": 0.17685842514038086,
+      "width_fraction": 0.11592823266983032,
+      "minimum_camera_depth": 2999.65869140625
+    }
+  },
+  "source_resaved_by_inspector": false,
+  "passed_automated_selfcheck": true
+}

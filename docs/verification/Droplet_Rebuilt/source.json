@@ -1,0 +1,39 @@
+{
+  "blender": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+  "source": "C:\\\u5b66\u4e60\\\u73a9\\Unity\\\u65b0\u5efa\u6587\u4ef6\u5939\\DropletPrototype\\ArtSource\\Blender\\Droplet\\Droplet_Rebuilt\\Droplet_Rebuilt.blend",
+  "sha256": "d0503df3290a8404ea35e04a9d12425284a27d4461a7c679087d63ded6931e80",
+  "reference": "C:\\\u5b66\u4e60\\\u73a9\\Unity\\\u65b0\u5efa\u6587\u4ef6\u5939\\DropletPrototype\\ArtSource\\droplet",
+  "reference_sha256": "fa0a9d3d6d2607adaea0cf52ac08a9e3d5ed5c29def59f8bdb3ef32aecb8b429",
+  "max_radius_at_z": 0.6539940022838886,
+  "control": [
+    [
+      -1.2,
+      0
+    ],
+    [
+      -1.2,
+      0.02
+    ],
+    [
+      -0.5,
+      0.105
+    ],
+    [
+      0.77,
+      0.83
+    ],
+    [
+      1.2,
+      0.49
+    ],
+    [
+      1.2,
+      0
+    ]
+  ],
+  "units": "metres",
+  "head": "+Z",
+  "tail": "-Z"
+}

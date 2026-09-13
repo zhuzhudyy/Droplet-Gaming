@@ -1,0 +1,670 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_SolarLayout.unity",
+    "unity": "6000.5.10f1",
+    "count": 40,
+    "centerMin": {
+        "x": -165.0,
+        "y": -40.0,
+        "z": 100.0
+    },
+    "centerMax": {
+        "x": 170.0,
+        "y": 95.0,
+        "z": 520.0
+    },
+    "centerSize": {
+        "x": 335.0,
+        "y": 135.0,
+        "z": 420.0
+    },
+    "nearestMin": 37.48332977294922,
+    "nearestMedian": 51.77837371826172,
+    "nearestMax": 68.12488555908203,
+    "targets": [
+        {
+            "id": "SPAWN_Command_040",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Command.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 30.0,
+                "z": 520.0
+            },
+            "size": {
+                "x": 22.392730712890626,
+                "y": 10.849998474121094,
+                "z": 37.2750244140625
+            },
+            "colliders": 8,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_007",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": -125.0,
+                "y": 8.0,
+                "z": 245.0
+            },
+            "size": {
+                "x": 36.16212463378906,
+                "y": 8.010000228881836,
+                "z": 37.240875244140628
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_011",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": -125.0,
+                "y": 35.0,
+                "z": 320.0
+            },
+            "size": {
+                "x": 36.41212463378906,
+                "y": 9.740501403808594,
+                "z": 37.5185546875
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_015",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": 130.0,
+                "y": -25.0,
+                "z": 259.0
+            },
+            "size": {
+                "x": 36.412139892578128,
+                "y": 9.740501403808594,
+                "z": 37.5185546875
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_019",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": 120.0,
+                "y": 24.0,
+                "z": 337.0
+            },
+            "size": {
+                "x": 36.481781005859378,
+                "y": 10.311637878417969,
+                "z": 37.59588623046875
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_022",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": -100.0,
+                "y": 83.0,
+                "z": 390.0
+            },
+            "size": {
+                "x": 33.22764587402344,
+                "y": 12.563034057617188,
+                "z": 38.85198974609375
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_026",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": 85.0,
+                "y": 80.0,
+                "z": 450.0
+            },
+            "size": {
+                "x": 28.311721801757814,
+                "y": 12.563034057617188,
+                "z": 38.17724609375
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_031",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": -75.0,
+                "y": -38.0,
+                "z": 420.0
+            },
+            "size": {
+                "x": 30.0174560546875,
+                "y": 10.87962532043457,
+                "z": 38.3870849609375
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_034",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": 75.0,
+                "y": -15.0,
+                "z": 445.0
+            },
+            "size": {
+                "x": 29.1484375,
+                "y": 10.879627227783204,
+                "z": 38.2010498046875
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_037",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": -65.0,
+                "y": 34.0,
+                "z": 500.0
+            },
+            "size": {
+                "x": 26.194488525390626,
+                "y": 8.010002136230469,
+                "z": 36.810546875
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Large_038",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Cruiser.prefab",
+            "position": {
+                "x": 65.0,
+                "y": 34.0,
+                "z": 500.0
+            },
+            "size": {
+                "x": 26.194488525390626,
+                "y": 8.010002136230469,
+                "z": 36.810546875
+            },
+            "colliders": 4,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_001",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 8.0,
+                "z": 100.0
+            },
+            "size": {
+                "x": 9.0,
+                "y": 4.439237594604492,
+                "z": 22.139999389648439
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_002",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 8.0,
+                "z": 145.0
+            },
+            "size": {
+                "x": 9.0,
+                "y": 4.439237594604492,
+                "z": 22.1400146484375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_003",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 8.0,
+                "z": 190.0
+            },
+            "size": {
+                "x": 9.0,
+                "y": 4.439237594604492,
+                "z": 22.1400146484375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_004",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 8.0,
+                "z": 235.0
+            },
+            "size": {
+                "x": 9.0,
+                "y": 4.439237594604492,
+                "z": 22.1400146484375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_005",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -45.0,
+                "y": 8.0,
+                "z": 175.0
+            },
+            "size": {
+                "x": 21.50286102294922,
+                "y": 4.439237594604492,
+                "z": 22.47540283203125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_006",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -85.0,
+                "y": 8.0,
+                "z": 210.0
+            },
+            "size": {
+                "x": 21.502853393554689,
+                "y": 4.439237594604492,
+                "z": 22.47540283203125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_008",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -165.0,
+                "y": 8.0,
+                "z": 280.0
+            },
+            "size": {
+                "x": 21.50286865234375,
+                "y": 4.439237594604492,
+                "z": 22.47540283203125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_009",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -45.0,
+                "y": 35.0,
+                "z": 250.0
+            },
+            "size": {
+                "x": 21.638015747070314,
+                "y": 5.5918731689453129,
+                "z": 22.625518798828126
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_010",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -85.0,
+                "y": 35.0,
+                "z": 285.0
+            },
+            "size": {
+                "x": 21.638015747070314,
+                "y": 5.5918731689453129,
+                "z": 22.62548828125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_012",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -165.0,
+                "y": 35.0,
+                "z": 355.0
+            },
+            "size": {
+                "x": 21.63800048828125,
+                "y": 5.5918731689453129,
+                "z": 22.62548828125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_013",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 50.0,
+                "y": -3.0,
+                "z": 185.0
+            },
+            "size": {
+                "x": 21.638015747070314,
+                "y": 5.591872215270996,
+                "z": 22.625518798828126
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_014",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 90.0,
+                "y": -14.0,
+                "z": 222.0
+            },
+            "size": {
+                "x": 21.638015747070314,
+                "y": 5.59187126159668,
+                "z": 22.625518798828126
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_016",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 170.0,
+                "y": -36.0,
+                "z": 296.0
+            },
+            "size": {
+                "x": 21.63800048828125,
+                "y": 5.5918731689453129,
+                "z": 22.62548828125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_017",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 40.0,
+                "y": 46.0,
+                "z": 263.0
+            },
+            "size": {
+                "x": 21.673973083496095,
+                "y": 5.972831726074219,
+                "z": 22.66546630859375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_018",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 80.0,
+                "y": 35.0,
+                "z": 300.0
+            },
+            "size": {
+                "x": 21.673980712890626,
+                "y": 5.972831726074219,
+                "z": 22.66546630859375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_020",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 160.0,
+                "y": 13.0,
+                "z": 374.0
+            },
+            "size": {
+                "x": 21.673980712890626,
+                "y": 5.972831726074219,
+                "z": 22.66546630859375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_021",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -140.0,
+                "y": 70.0,
+                "z": 350.0
+            },
+            "size": {
+                "x": 21.7720947265625,
+                "y": 7.477325439453125,
+                "z": 22.7744140625
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_023",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -55.0,
+                "y": 90.0,
+                "z": 420.0
+            },
+            "size": {
+                "x": 15.525482177734375,
+                "y": 7.477325439453125,
+                "z": 24.22021484375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_024",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -10.0,
+                "y": 95.0,
+                "z": 445.0
+            },
+            "size": {
+                "x": 11.307014465332032,
+                "y": 7.477325439453125,
+                "z": 23.359619140625
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_025",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 40.0,
+                "y": 90.0,
+                "z": 465.0
+            },
+            "size": {
+                "x": 11.307014465332032,
+                "y": 7.477325439453125,
+                "z": 23.359619140625
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_027",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 125.0,
+                "y": 65.0,
+                "z": 420.0
+            },
+            "size": {
+                "x": 19.065399169921876,
+                "y": 7.477325439453125,
+                "z": 24.02227783203125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_028",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 160.0,
+                "y": 50.0,
+                "z": 380.0
+            },
+            "size": {
+                "x": 21.7720947265625,
+                "y": 7.477333068847656,
+                "z": 22.7744140625
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_029",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -160.0,
+                "y": -24.0,
+                "z": 350.0
+            },
+            "size": {
+                "x": 22.9771728515625,
+                "y": 6.3519744873046879,
+                "z": 21.32025146484375
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_030",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -120.0,
+                "y": -34.0,
+                "z": 395.0
+            },
+            "size": {
+                "x": 20.472610473632814,
+                "y": 6.3519744873046879,
+                "z": 23.446533203125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_032",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": -25.0,
+                "y": -34.0,
+                "z": 445.0
+            },
+            "size": {
+                "x": 12.03582763671875,
+                "y": 6.3519744873046879,
+                "z": 23.476806640625
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_033",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 25.0,
+                "y": -25.0,
+                "z": 455.0
+            },
+            "size": {
+                "x": 11.296592712402344,
+                "y": 6.3519744873046879,
+                "z": 23.260498046875
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_035",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 120.0,
+                "y": -10.0,
+                "z": 415.0
+            },
+            "size": {
+                "x": 20.0111083984375,
+                "y": 6.3519744873046879,
+                "z": 23.6385498046875
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_036",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 165.0,
+                "y": -40.0,
+                "z": 390.0
+            },
+            "size": {
+                "x": 22.7003173828125,
+                "y": 6.3519744873046879,
+                "z": 21.70538330078125
+            },
+            "colliders": 3,
+            "renderers": 1
+        },
+        {
+            "id": "SPAWN_Small_039",
+            "prefab": "Assets/_Project/Prefabs/Fleet/Frigate.prefab",
+            "position": {
+                "x": 0.0,
+                "y": 78.0,
+                "z": 520.0
+            },
+            "size": {
+                "x": 9.0,
+                "y": 6.3519744873046879,
+                "z": 22.442626953125
+            },
+            "colliders": 3,
+            "renderers": 1
+        }
+    ],
+    "missionSeconds": 240.0,
+    "cruise": 52.0,
+    "boost": 156.0,
+    "boundary": 5840.0,
+    "warning": 4880.0
+}

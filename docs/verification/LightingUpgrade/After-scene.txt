@@ -1,0 +1,17 @@
+6000.5.10f1 NVIDIA GeForce RTX 4060 Laptop GPU Direct3D12 HW RT=True
+SunProxy scale (62.71, 62.71, 62.71)
+LOD0 Center: (0.00, 0.00, 0.00), Extents: (1.00, 1.00, 1.00) SunBase DropletPrototype/Lighting/SolarDisc
+SolarCorona Center: (0.00, 0.00, 0.00), Extents: (1.00, 1.00, 1.00) SolarCorona DropletPrototype/Lighting/SolarCorona
+EarthProxy scale (0.21, 0.21, 0.21)
+LOD0 Center: (0.00, 0.00, 0.00), Extents: (1.00, 1.00, 1.00) EarthBase DropletPrototype/Lighting/SpaceSurface
+LOD1 Center: (0.00, 0.00, 0.00), Extents: (1.00, 1.00, 1.00) EarthBase DropletPrototype/Lighting/SpaceSurface
+LOD2 Center: (0.00, 0.00, 0.00), Extents: (1.00, 1.00, 1.00) EarthBase DropletPrototype/Lighting/SpaceSurface
+Sun Key - physical direction intensity 2.15 forward (-0.64, -0.03, -0.77) enabled True
+Blue fill intensity 1.1 forward (0.64, 0.42, -0.64) enabled False
+Cold key intensity 2.6 forward (-0.45, -0.62, 0.65) enabled False
+Rim intensity 1.6 forward (0.17, -0.21, -0.96) enabled False
+Solar bloom - restrained Assets/_Project/Art/LightingUpgrade/SolarPost.asset
+Assets/_Project/Art/Environment/SpaceEnvironment/PreviewOnly/NeutralRenderer.asset
+Assets/Settings/Mobile_Renderer.asset
+Assets/Settings/PC_Renderer.asset
+Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRendererData.asset

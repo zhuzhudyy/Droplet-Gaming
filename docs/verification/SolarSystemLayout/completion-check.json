@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-08",
+  "editor": {
+    "status": "ready",
+    "compiling": false,
+    "playMode": "stopped",
+    "count": 1,
+    "scenes": [
+      {
+        "name": "FleetAssault_SolarLayout",
+        "path": "Assets/_Project/Scenes/FleetAssault_SolarLayout.unity",
+        "isLoaded": true,
+        "isDirty": false,
+        "isActive": true,
+        "rootCount": 2
+      }
+    ]
+  },
+  "reportLinksChecked": true,
+  "brokenReportLinks": [],
+  "reviewCorrections": [
+    "Benchmark has exactly 20 records, including 7 screenshot writes.",
+    "Player memory numbers identify Unity global allocator statistics, not OS process working set."
+  ],
+  "artifactsInventory": "changed-files.json",
+  "preservation": "preservation-final.json",
+  "remaining": "Subjective hardware input/art/audio acceptance, long runs and cross hardware, GPU/per-resource Player memory, adopted manual Blender source end-to-end not run. No new lighting or publication."
+}

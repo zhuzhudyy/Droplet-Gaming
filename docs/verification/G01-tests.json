@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 1.65,
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SceneAuthoringTests.DirtySceneIsRefusedRatherThanOverwritten",
+      "Status": "Passed",
+      "Duration": 0.6966911,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SceneAuthoringTests.SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects",
+      "Status": "Passed",
+      "Duration": 0.918766,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

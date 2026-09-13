@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "checks": [
+    "inspect-source.json",
+    "inspect-fbx.json",
+    "roundtrip_comparison.json",
+    "nozzle_and_sharing_checks.json",
+    "repeatability.json"
+  ],
+  "source_export_hashes_match": true,
+  "documentation_links_exist": true,
+  "scripts_parse": [
+    "build_fusion_frigate.py",
+    "run_fusion_frigate.py",
+    "export_fusion_frigate.py",
+    "inspect_fusion_frigate.py",
+    "verify_fusion_details.py",
+    "compose_fusion_frigate_review.py"
+  ],
+  "files": [
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/FusionFrigate.blend",
+      "bytes_on_disk": 254922,
+      "sha256": "446ee1a13616635b8bc26c0197e7afb7bbad8be55afa08f7f9cbb2eadf2a93df"
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_Inspection.png",
+      "bytes_on_disk": 1404848,
+      "sha256": "c4fa5655a39ab23792e3729461fe3b4f8584a5ced4b826ccd4bc6139508cab0e",
+      "image_size": [
+        1980,
+        1549
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD0_Bow.png",
+      "bytes_on_disk": 663732,
+      "sha256": "85c301afe7759d1dc51299d4a51614d853b246e012c429b06f29ebf151e3eab7",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD0_DriveDetail.png",
+      "bytes_on_disk": 752997,
+      "sha256": "246e071f14601092f06ebc2853fef23d8830c7ec002a42fa4b47fe812ffb3c5d",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD0_Rear.png",
+      "bytes_on_disk": 671792,
+      "sha256": "eb8b4ca5d16b282f83350d4957ea74c60158eced319261115cc3efb5b9b652af",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD0_Side.png",
+      "bytes_on_disk": 611093,
+      "sha256": "61c315a0f8d9b1c7e8050c3c061c27cfe0e9732b14505eb9962d8909adbca3f2",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD0_ThreeQuarter.png",
+      "bytes_on_disk": 632571,
+      "sha256": "dea150a91c2f9e84c3735925f187e63c949bce857423cc8fb7ff96952b9e78f1",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD0_Top.png",
+      "bytes_on_disk": 637430,
+      "sha256": "eecab4e1ddc21963e1e0e47c41c4665fcd6f874cd3aadb385e2112944e906d92",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD0_Underside.png",
+      "bytes_on_disk": 661137,
+      "sha256": "23cb05591a95991b110d4a68902f4352ca83459a816e23c6bd244d16cd841848",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD1_Rear.png",
+      "bytes_on_disk": 653103,
+      "sha256": "abc2efb67ba32d261c895f400507b3062491442859b2f0a3fc78eccd49985613",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD1_ThreeQuarter.png",
+      "bytes_on_disk": 624078,
+      "sha256": "88e37415abdcf78fb9fb23c565ad3bc83f40a48e617181e6f5d97051cb15d67f",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD2_Rear.png",
+      "bytes_on_disk": 653732,
+      "sha256": "1c0d457907181235ea9f3483ff44109217abe656df562f8a6e94e82f2fb89fd2",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD2_ThreeQuarter.png",
+      "bytes_on_disk": 598602,
+      "sha256": "9dc3109819a80c8d09d51177e29e027f499b9914316c0af8f75fc5fa95fbc111",
+      "image_size": [
+        960,
+        640
+      ]
+    },
+    {
+      "path": "ArtSource/Blender/Ships/FusionFrigate/Previews/FusionFrigate_LOD_Comparison.png",
+      "bytes_on_disk": 1120842,
+      "sha256": "743ebb09990439560fa5eee946efb715a31b7d150e5e5d592d4a8b34900fd667",
+      "image_size": [
+        2240,
+        1229
+      ]
+    },
+    {
+      "path": "ArtSource/Exports/Ships/FusionFrigate/FusionFrigate.fbx",
+      "bytes_on_disk": 362892,
+      "sha256": "aaa3a754c9f0adb1f45841c5c3e2955d26f8ab7a4a2a895ea45f261c33e6403a"
+    },
+    {
+      "path": "ArtSource/Exports/Ships/FusionFrigate/FusionFrigate_export_manifest.json",
+      "bytes_on_disk": 26415,
+      "sha256": "b2d551aa459ac51561005f62bf40f1db4c492505e2ec233df066dd35f7910c47"
+    },
+    {
+      "path": "ArtSource/Exports/Ships/FusionFrigate/FusionFrigate_sockets.json",
+      "bytes_on_disk": 2141,
+      "sha256": "585e3e9289db1fe6994a37e622fcd98c77008786b179b36d5ed030dc8dcb53ec"
+    },
+    {
+      "path": "ArtSource/References/FusionFrigate/FusionFrigate_reference.png",
+      "bytes_on_disk": 2106382,
+      "sha256": "d094cc81ec891c626577518272a297af51cbe1009b5cfdc5da087fac56988561",
+      "image_size": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "path": "ArtSource/References/FusionFrigate/README.md",
+      "bytes_on_disk": 646,
+      "sha256": "0fe63795d89f9b66b2ec2422a21b9cf3fcff90f52716147692772d061b956c20"
+    }
+  ],
+  "note": "File byte sizes are integrity metadata, not measured memory."
+}

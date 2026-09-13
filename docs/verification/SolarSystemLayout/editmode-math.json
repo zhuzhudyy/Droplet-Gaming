@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "duration": 0.05,
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SolarLayoutMathTests.BackdropKeepsWorldDirectionAndLocalRocksWhileRecoveringInvalidMapping",
+      "Status": "Passed",
+      "Duration": 0.0129822,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SolarLayoutMathTests.CircularOrbitsKeepRadiusAndRespectInclinationAndNodeConvention",
+      "Status": "Passed",
+      "Duration": 0.0011691,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SolarLayoutMathTests.IllegalDistancesAndNonFiniteDataFailWithoutNaNTransforms",
+      "Status": "Passed",
+      "Duration": 0.0002289,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SolarLayoutMathTests.ObserverConvertsLocalMetresAfterDoublePrecisionMacroPlacement",
+      "Status": "Passed",
+      "Duration": 0.0002688,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SolarLayoutMathTests.ProxyDepthPreservesNearFarOrderAndReadabilityDoesNotMoveOrbit",
+      "Status": "Passed",
+      "Duration": 0.0025143,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SolarLayoutMathTests.SixKilometreMovementProducesTinyNonzeroAstronomicalParallax",
+      "Status": "Passed",
+      "Duration": 0.0007866,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.SolarLayoutMathTests.SunAtTwoPointFiveAuHasPhysicalAngularDiameterAtBoundedProxyDistance",
+      "Status": "Passed",
+      "Duration": 0.000544,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

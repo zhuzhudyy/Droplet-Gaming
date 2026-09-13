@@ -1,0 +1,146 @@
+{
+  "source_sha256": "b1d7d6316d7982a3723f2eeb668c66f02f73efb3e2bb57031717161466158451",
+  "objects": {
+    "PerfectDroplet_Game": {
+      "vertices": 2818,
+      "edges": 5632,
+      "faces": 2816,
+      "triangles": 5632,
+      "face_sizes": {
+        "4": 2816
+      },
+      "bounds": [
+        [
+          -0.3870967626571655,
+          0.3870967626571655
+        ],
+        [
+          -0.3870967626571655,
+          0.3870967626571655
+        ],
+        [
+          -1.2000000476837158,
+          1.2000000476837158
+        ]
+      ],
+      "dimensions": [
+        0.774193525314331,
+        0.774193525314331,
+        2.4000000953674316
+      ],
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding": 0,
+      "loose_vertices": 0,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area_m2": 1.6953246795806807e-07,
+      "signed_volume_m3": 0.6018081338501695,
+      "vertex_valences": {
+        "4": 2810,
+        "3": 8
+      },
+      "max_corner_normal_separation": 0.0,
+      "quad_edge_length_ratio_median_p95_max": [
+        4.66482095441919,
+        6.225781852682174,
+        6.801579167683243
+      ],
+      "minimum_outward_face_normal_dot": 0.993943065404892,
+      "has_custom_normals": true,
+      "euler_characteristic": 2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "PerfectDroplet_Reference": {
+      "vertices": 11266,
+      "edges": 22528,
+      "faces": 11264,
+      "triangles": 22528,
+      "face_sizes": {
+        "4": 11264
+      },
+      "bounds": [
+        [
+          -0.3870967626571655,
+          0.3870967626571655
+        ],
+        [
+          -0.3870967626571655,
+          0.3870967626571655
+        ],
+        [
+          -1.2000000476837158,
+          1.2000000476837158
+        ]
+      ],
+      "dimensions": [
+        0.774193525314331,
+        0.774193525314331,
+        2.4000000953674316
+      ],
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding": 0,
+      "loose_vertices": 0,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area_m2": 1.844832360956994e-08,
+      "signed_volume_m3": 0.603711460929213,
+      "vertex_valences": {
+        "4": 11258,
+        "3": 8
+      },
+      "max_corner_normal_separation": 0.0,
+      "quad_edge_length_ratio_median_p95_max": [
+        4.515660387333692,
+        5.980398186748983,
+        6.708856755009456
+      ],
+      "minimum_outward_face_normal_dot": 0.9976413398981094,
+      "has_custom_normals": true,
+      "euler_characteristic": 2,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "errors": [],
+  "meridian_curvature_samples": 20001,
+  "meridian_curvature_min_max": [
+    0.05556907316591675,
+    615.7939947487756
+  ],
+  "strict_convexity_sampled": true,
+  "continuous_meridian_convexity_certificate": {
+    "method": "Bernstein polynomial subdivision positive convex-hull bounds",
+    "intervals": 3,
+    "positive_numerator_lower_bound": 0.507121944312797
+  },
+  "no_nonmesh_scene_objects": true
+}

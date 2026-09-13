@@ -1,0 +1,116 @@
+﻿{
+    "scene": "Assets/_Project/Scenes/FleetAssault_NarrativeCombat_Small.unity",
+    "utc": "2026-09-12T13:33:16.1738010Z",
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "operatingSystem": "Windows 11  (10.0.26200)",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Input-20260912-133316\\FleetAssault_NarrativeCombat_Small-20260912-133316-172",
+    "scope": "Focused input-only regression rerun: existing Update/FixedUpdate, recorded device states, >=0.35-second neutral release gate, measured sprint/brake/yaw/pitch response. This run does not repeat or claim Timeline, stress or performance checks.",
+    "error": "",
+    "completed": true,
+    "allChecksPassed": true,
+    "editor": true,
+    "batchMode": false,
+    "developmentBuild": true,
+    "totalTargets": 12,
+    "distinctIds": 12,
+    "width": 1920,
+    "height": 1080,
+    "cpuThreads": 32,
+    "systemMemoryMB": 15575,
+    "graphicsMemoryCapacityMB": 7956,
+    "actualProcessVramBytes": -1,
+    "vramStatus": "Unmeasured: adapter capacity is not allocation. Gfx Used Memory, if sampled, is Unity tracked graphics allocation, not total process VRAM.",
+    "frameGeneration": "No frame generation implementation is used by this project; renderScale and dynamic resolution are reported per phase.",
+    "checks": [
+        {
+            "name": "Rendered graphics device",
+            "detail": "Direct3D12",
+            "passed": true
+        },
+        {
+            "name": "Saved fleet count and stable IDs",
+            "detail": "expected=12, actual=12, unique=12",
+            "passed": true
+        },
+        {
+            "name": "Ten seconds actual FixedUpdate input flight",
+            "detail": "seconds=10.00005, distanceUU=3254.999, damage=2",
+            "passed": true
+        },
+        {
+            "name": "Cruise HUD agrees with displacement and physical scale",
+            "detail": "cruise m/s=30000.03, maxRelativeError=2.441411E-06",
+            "passed": true
+        },
+        {
+            "name": "Preserved round head stays forward",
+            "detail": "minimumDot=0.9996572",
+            "passed": true
+        },
+        {
+            "name": "Actual flight damages saved moving fleet",
+            "detail": "damaged=2, recoveries=0",
+            "passed": true
+        },
+        {
+            "name": "Injected Shift produces actual acceleration",
+            "detail": "observedKeyFrames=153, peakMetersPerSecond=90000.04",
+            "passed": true
+        },
+        {
+            "name": "Injected Space produces actual braking",
+            "detail": "observedKeyFrames=157, minimumMetersPerSecond=0",
+            "passed": true
+        },
+        {
+            "name": "Injected mouse changes actual yaw and pitch",
+            "detail": "yawDegrees=14, pitchDegrees=4.200001, observedMouseFrames=1",
+            "passed": true
+        }
+    ],
+    "phases": [],
+    "screenshots": [
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Input-20260912-133316\\FleetAssault_NarrativeCombat_Small-20260912-133316-172\\05-actual-input-flight.png"
+    ],
+    "flight": {
+        "inputMethod": "InputSystem.QueueStateEvent on temporary Keyboard/Mouse, consumed by existing DropletInput.Update and MissionController.FixedUpdate. No calls to Motor.Simulate or Mission.Step in this phase.",
+        "setup": "Restart at saved spawn, then >=0.35 real seconds and four neutral LateUpdate observations to clear the existing release gate. W cruise; Shift boost at 4-5 s; Space brake at 8-9 s; one 100/-30 pixel mouse event after 9 s. Fleet remains autonomous. Sprint, brake and turn each require measured motor response.",
+        "simulationSeconds": 10.000046730041504,
+        "measuredDistanceUnits": 3254.9990234375,
+        "measuredMetersPerSecond": 32549.837890625,
+        "minimumHeadForwardDot": 0.999657154083252,
+        "cruiseMaximumRelativeHudError": 0.0000024414111976511778,
+        "cruiseMetersPerSecond": 30000.02734375,
+        "sprintPeakMetersPerSecond": 90000.0390625,
+        "brakeMinimumMetersPerSecond": 0.0,
+        "mouseYawDegrees": 14.0,
+        "mousePitchDegrees": 4.200000762939453,
+        "fixedPoseSamples": 498,
+        "newlyDamaged": 2,
+        "exploded": 2,
+        "recoveries": 0,
+        "shots": 10,
+        "reflections": 2,
+        "releasedUpdateFrames": 53,
+        "observedSprintFrames": 153,
+        "observedBrakeFrames": 157,
+        "observedMouseFrames": 1,
+        "focusedFrames": 1577,
+        "inputBackgroundBehavior": "IgnoreFocus",
+        "editorInputBehavior": "AllDeviceInputAlwaysGoesToGameView",
+        "start": {
+            "x": 0.0,
+            "y": 8.0,
+            "z": 107.99996948242188
+        },
+        "end": {
+            "x": 54.7050895690918,
+            "y": -8.604915618896485,
+            "z": 3355.69287109375
+        },
+        "missionFixedUpdateRemainedEnabled": true
+    }
+}

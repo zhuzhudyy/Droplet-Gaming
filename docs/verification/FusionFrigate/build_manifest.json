@@ -1,0 +1,384 @@
+{
+  "blender": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+  "stats": {
+    "LOD0": {
+      "triangles": 17224,
+      "mesh_objects": 20,
+      "unique_meshes": 14,
+      "min": [
+        -3.690000057220459,
+        -11.069999694824219,
+        -2.7315354347229004
+      ],
+      "max": [
+        3.690000057220459,
+        11.069999694824219,
+        3.4800000190734863
+      ],
+      "dimensions": [
+        7.380000114440918,
+        22.139999389648438,
+        6.211535453796387
+      ],
+      "objects": [
+        {
+          "object": "FF_LOD0_PressureHull",
+          "triangles": 220,
+          "mesh": "FF_LOD0_PressureHull_Mesh"
+        },
+        {
+          "object": "FF_LOD0_ProwArmor",
+          "triangles": 156,
+          "mesh": "FF_LOD0_ProwArmor_Mesh"
+        },
+        {
+          "object": "FF_LOD0_VentralKeel",
+          "triangles": 124,
+          "mesh": "FF_LOD0_VentralKeel_Mesh"
+        },
+        {
+          "object": "FF_LOD0_ArmorStation_A",
+          "triangles": 324,
+          "mesh": "FF_LOD0_ArmorStation_A_Mesh"
+        },
+        {
+          "object": "FF_LOD0_ArmorStation_B",
+          "triangles": 324,
+          "mesh": "FF_LOD0_ArmorStation_A_Mesh"
+        },
+        {
+          "object": "FF_LOD0_ForeDeckArmor",
+          "triangles": 132,
+          "mesh": "FF_LOD0_ForeDeckArmor_Mesh"
+        },
+        {
+          "object": "FF_LOD0_RecessedEquipmentBays",
+          "triangles": 976,
+          "mesh": "FF_LOD0_RecessedEquipmentBays_Mesh"
+        },
+        {
+          "object": "FF_LOD0_DriveMount",
+          "triangles": 204,
+          "mesh": "FF_LOD0_DriveMount_Mesh"
+        },
+        {
+          "object": "FF_LOD0_LayeredBridge",
+          "triangles": 160,
+          "mesh": "FF_LOD0_LayeredBridge_Mesh"
+        },
+        {
+          "object": "FF_LOD0_Sensors",
+          "triangles": 384,
+          "mesh": "FF_LOD0_Sensors_Mesh"
+        },
+        {
+          "object": "FF_LOD0_Turret_01",
+          "triangles": 280,
+          "mesh": "FF_LOD0_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD0_Turret_02",
+          "triangles": 280,
+          "mesh": "FF_LOD0_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD0_Turret_03",
+          "triangles": 280,
+          "mesh": "FF_LOD0_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD0_MainFusionDrive",
+          "triangles": 3932,
+          "mesh": "FF_LOD0_MainFusionDrive_Mesh"
+        },
+        {
+          "object": "FF_LOD0_AuxiliaryDrive_01",
+          "triangles": 2124,
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD0_AuxiliaryDrive_02",
+          "triangles": 2124,
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD0_AuxiliaryDrive_03",
+          "triangles": 2124,
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD0_AuxiliaryDrive_04",
+          "triangles": 2124,
+          "mesh": "FF_LOD0_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD0_RadiatorBanks",
+          "triangles": 440,
+          "mesh": "FF_LOD0_RadiatorBanks_Mesh"
+        },
+        {
+          "object": "FF_LOD0_ServicePanels",
+          "triangles": 512,
+          "mesh": "FF_LOD0_ServicePanels_Mesh"
+        }
+      ]
+    },
+    "LOD1": {
+      "triangles": 5400,
+      "mesh_objects": 20,
+      "unique_meshes": 14,
+      "min": [
+        -3.690000057220459,
+        -11.069999694824219,
+        -2.7315354347229004
+      ],
+      "max": [
+        3.690000057220459,
+        11.069999694824219,
+        3.4800000190734863
+      ],
+      "dimensions": [
+        7.380000114440918,
+        22.139999389648438,
+        6.211535453796387
+      ],
+      "objects": [
+        {
+          "object": "FF_LOD1_PressureHull",
+          "triangles": 92,
+          "mesh": "FF_LOD1_PressureHull_Mesh"
+        },
+        {
+          "object": "FF_LOD1_ProwArmor",
+          "triangles": 60,
+          "mesh": "FF_LOD1_ProwArmor_Mesh"
+        },
+        {
+          "object": "FF_LOD1_VentralKeel",
+          "triangles": 60,
+          "mesh": "FF_LOD1_VentralKeel_Mesh"
+        },
+        {
+          "object": "FF_LOD1_ArmorStation_A",
+          "triangles": 52,
+          "mesh": "FF_LOD1_ArmorStation_A_Mesh"
+        },
+        {
+          "object": "FF_LOD1_ArmorStation_B",
+          "triangles": 52,
+          "mesh": "FF_LOD1_ArmorStation_A_Mesh"
+        },
+        {
+          "object": "FF_LOD1_ForeDeckArmor",
+          "triangles": 68,
+          "mesh": "FF_LOD1_ForeDeckArmor_Mesh"
+        },
+        {
+          "object": "FF_LOD1_RecessedEquipmentBays",
+          "triangles": 288,
+          "mesh": "FF_LOD1_RecessedEquipmentBays_Mesh"
+        },
+        {
+          "object": "FF_LOD1_DriveMount",
+          "triangles": 76,
+          "mesh": "FF_LOD1_DriveMount_Mesh"
+        },
+        {
+          "object": "FF_LOD1_LayeredBridge",
+          "triangles": 160,
+          "mesh": "FF_LOD1_LayeredBridge_Mesh"
+        },
+        {
+          "object": "FF_LOD1_Sensors",
+          "triangles": 156,
+          "mesh": "FF_LOD1_Sensors_Mesh"
+        },
+        {
+          "object": "FF_LOD1_Turret_01",
+          "triangles": 128,
+          "mesh": "FF_LOD1_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD1_Turret_02",
+          "triangles": 128,
+          "mesh": "FF_LOD1_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD1_Turret_03",
+          "triangles": 128,
+          "mesh": "FF_LOD1_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD1_MainFusionDrive",
+          "triangles": 1172,
+          "mesh": "FF_LOD1_MainFusionDrive_Mesh"
+        },
+        {
+          "object": "FF_LOD1_AuxiliaryDrive_01",
+          "triangles": 644,
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD1_AuxiliaryDrive_02",
+          "triangles": 644,
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD1_AuxiliaryDrive_03",
+          "triangles": 644,
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD1_AuxiliaryDrive_04",
+          "triangles": 644,
+          "mesh": "FF_LOD1_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD1_RadiatorBanks",
+          "triangles": 120,
+          "mesh": "FF_LOD1_RadiatorBanks_Mesh"
+        },
+        {
+          "object": "FF_LOD1_ServicePanels",
+          "triangles": 84,
+          "mesh": "FF_LOD1_ServicePanels_Mesh"
+        }
+      ]
+    },
+    "LOD2": {
+      "triangles": 1396,
+      "mesh_objects": 12,
+      "unique_meshes": 7,
+      "min": [
+        -3.690000057220459,
+        -11.069999694824219,
+        -2.7315354347229004
+      ],
+      "max": [
+        3.690000057220459,
+        11.069999694824219,
+        3.4800000190734863
+      ],
+      "dimensions": [
+        7.380000114440918,
+        22.139999389648438,
+        6.211535453796387
+      ],
+      "objects": [
+        {
+          "object": "FF_LOD2_HullSilhouette",
+          "triangles": 156,
+          "mesh": "FF_LOD2_HullSilhouette_Mesh"
+        },
+        {
+          "object": "FF_LOD2_LayeredBridge",
+          "triangles": 56,
+          "mesh": "FF_LOD2_LayeredBridge_Mesh"
+        },
+        {
+          "object": "FF_LOD2_Sensors",
+          "triangles": 36,
+          "mesh": "FF_LOD2_Sensors_Mesh"
+        },
+        {
+          "object": "FF_LOD2_Turret_01",
+          "triangles": 40,
+          "mesh": "FF_LOD2_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD2_Turret_02",
+          "triangles": 40,
+          "mesh": "FF_LOD2_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD2_Turret_03",
+          "triangles": 40,
+          "mesh": "FF_LOD2_Turret_01_Mesh"
+        },
+        {
+          "object": "FF_LOD2_MainFusionDrive",
+          "triangles": 388,
+          "mesh": "FF_LOD2_MainFusionDrive_Mesh"
+        },
+        {
+          "object": "FF_LOD2_AuxiliaryDrive_01",
+          "triangles": 148,
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD2_AuxiliaryDrive_02",
+          "triangles": 148,
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD2_AuxiliaryDrive_03",
+          "triangles": 148,
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD2_AuxiliaryDrive_04",
+          "triangles": 148,
+          "mesh": "FF_LOD2_AuxiliaryDrive_01_Mesh"
+        },
+        {
+          "object": "FF_LOD2_RadiatorBanks",
+          "triangles": 48,
+          "mesh": "FF_LOD2_RadiatorBanks_Mesh"
+        }
+      ]
+    }
+  },
+  "sockets": [
+    [
+      "MainExhaust",
+      [
+        0,
+        -11.07,
+        -0.05
+      ]
+    ],
+    [
+      "AuxiliaryExhaust_01",
+      [
+        -2.5,
+        -10.549,
+        0.15
+      ]
+    ],
+    [
+      "AuxiliaryExhaust_02",
+      [
+        2.5,
+        -10.549,
+        0.15
+      ]
+    ],
+    [
+      "AuxiliaryExhaust_03",
+      [
+        -1.62,
+        -10.549,
+        -2.0
+      ]
+    ],
+    [
+      "AuxiliaryExhaust_04",
+      [
+        1.62,
+        -10.549,
+        -2.0
+      ]
+    ]
+  ],
+  "materials": [
+    "FF_Armor",
+    "FF_Structure",
+    "FF_EngineMetal",
+    "FF_BlueGray"
+  ],
+  "textures": 0,
+  "source": "ArtSource\\Blender\\Ships\\FusionFrigate\\FusionFrigate.blend",
+  "blend_sha256": "446ee1a13616635b8bc26c0197e7afb7bbad8be55afa08f7f9cbb2eadf2a93df"
+}

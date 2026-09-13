@@ -1,0 +1,776 @@
+﻿{
+    "label": "After",
+    "scene": "Assets/_Project/Scenes/FleetAssault_Lighting.unity",
+    "utc": "2026-09-08T11:25:39.5957999Z",
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "operatingSystem": "Windows 11  (10.0.26200)",
+    "quality": "PC",
+    "effectQuality": "High",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586",
+    "scope": "Actual rendered per-frame measurements in this process only. Each phase has 45 warmup frames. Near/Panorama/Penetrations have 300 measured frames; optional ReflectionRefresh/ReflectionsOff have 2400 each at the same near camera. Refresh invalidates the one probe every 120 frames, while its production 3-second interval remains unchanged; probeCaptures records actual requests during measurement. Off disables only the nearby probe, retaining the allocated capture texture. Near and Panorama are fixed stationary gameplay views; Penetrations resets attack starts then calls MissionController.Step at 0.02 s, exercising real DropletMotor sweeps. No direct target destruction or scoring writes. Frame timing includes Editor overhead when editor=true; not GPU time. Main Thread/GC markers are reported only when available. Memory is total process Unity tracked memory, not asset-attributable VRAM. Screenshots use the actual rendered scene camera; Earth diagnostic temporarily freezes celestial mapping and moves the camera close, and is not game-scale evidence. This does not validate physical keyboard input, subjective handling, listening, long-session stability or cross-hardware performance.",
+    "error": "",
+    "editor": false,
+    "developmentBuild": false,
+    "batchMode": false,
+    "completed": true,
+    "allChecksPassed": true,
+    "width": 1920,
+    "height": 1080,
+    "processorCount": 32,
+    "systemMemoryMB": 15575,
+    "graphicsMemoryMB": 7956,
+    "vSyncCount": 0,
+    "targetFrameRate": -1,
+    "phases": [
+        {
+            "name": "Near",
+            "frames": 300,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 300,
+            "targets": 120,
+            "destroyedAtEnd": 0,
+            "effectsPeak": 0,
+            "pool": 57,
+            "probeCaptures": 0,
+            "renderedFrameMs": {
+                "samples": 300,
+                "mean": 3.3017266681417825,
+                "p50": 3.2337019219994547,
+                "p95": 4.435104783624411,
+                "p99": 5.2111041732132439,
+                "maximum": 7.017800584435463
+            },
+            "mainThreadMs": {
+                "samples": 300,
+                "mean": 3.2976263333333315,
+                "p50": 3.2239,
+                "p95": 4.4248,
+                "p99": 5.2108,
+                "maximum": 7.0153
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadAvailable": true,
+            "gcAvailable": false,
+            "allocatedBytes": 223093853,
+            "reservedBytes": 312926208,
+            "monoBytes": 4104192,
+            "measuredSeconds": 0.9904612999999998,
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            }
+        },
+        {
+            "name": "Panorama",
+            "frames": 300,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 300,
+            "targets": 120,
+            "destroyedAtEnd": 0,
+            "effectsPeak": 0,
+            "pool": 57,
+            "probeCaptures": 0,
+            "renderedFrameMs": {
+                "samples": 300,
+                "mean": 3.1594156458353006,
+                "p50": 3.098901594057679,
+                "p95": 3.9253965951502325,
+                "p99": 4.47589997202158,
+                "maximum": 5.911302287131548
+            },
+            "mainThreadMs": {
+                "samples": 300,
+                "mean": 3.155407666666665,
+                "p50": 3.0915,
+                "p95": 3.9167,
+                "p99": 4.4729,
+                "maximum": 5.9042
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadAvailable": true,
+            "gcAvailable": false,
+            "allocatedBytes": 227031876,
+            "reservedBytes": 331800576,
+            "monoBytes": 3969024,
+            "measuredSeconds": 0.9477943,
+            "cameraPosition": {
+                "x": 950.0,
+                "y": 720.0,
+                "z": -1150.0
+            },
+            "cameraForward": {
+                "x": -0.45149117708206179,
+                "y": -0.3231726288795471,
+                "z": 0.8316941857337952
+            }
+        },
+        {
+            "name": "Penetrations",
+            "frames": 300,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 300,
+            "targets": 120,
+            "destroyedAtEnd": 25,
+            "effectsPeak": 16,
+            "pool": 57,
+            "probeCaptures": 0,
+            "renderedFrameMs": {
+                "samples": 300,
+                "mean": 2.6882456693177425,
+                "p50": 2.4926019832491876,
+                "p95": 3.84520273655653,
+                "p99": 5.579499527812004,
+                "maximum": 23.051898926496507
+            },
+            "mainThreadMs": {
+                "samples": 300,
+                "mean": 2.685577000000001,
+                "p50": 2.4879,
+                "p95": 3.8417,
+                "p99": 5.5766,
+                "maximum": 23.0488
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadAvailable": true,
+            "gcAvailable": false,
+            "allocatedBytes": 225324247,
+            "reservedBytes": 331800576,
+            "monoBytes": 4374528,
+            "measuredSeconds": 0.8064909,
+            "cameraPosition": {
+                "x": -531.0,
+                "y": 115.0,
+                "z": 552.7999877929688
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            }
+        },
+        {
+            "name": "ReflectionRefresh",
+            "frames": 2400,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 2400,
+            "targets": 120,
+            "destroyedAtEnd": 0,
+            "effectsPeak": 0,
+            "pool": 57,
+            "probeCaptures": 3,
+            "renderedFrameMs": {
+                "samples": 2400,
+                "mean": 2.887618503154954,
+                "p50": 2.765299053862691,
+                "p95": 3.75159434042871,
+                "p99": 4.734800197184086,
+                "maximum": 20.740894600749017
+            },
+            "mainThreadMs": {
+                "samples": 2400,
+                "mean": 2.884293458333332,
+                "p50": 2.7608,
+                "p95": 3.746,
+                "p99": 4.7326,
+                "maximum": 20.7442
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadAvailable": true,
+            "gcAvailable": false,
+            "allocatedBytes": 227976687,
+            "reservedBytes": 331800576,
+            "monoBytes": 4591616,
+            "measuredSeconds": 6.930326300000001,
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            }
+        },
+        {
+            "name": "ReflectionsOff",
+            "frames": 2400,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 2400,
+            "targets": 120,
+            "destroyedAtEnd": 0,
+            "effectsPeak": 0,
+            "pool": 57,
+            "probeCaptures": 0,
+            "renderedFrameMs": {
+                "samples": 2400,
+                "mean": 2.871130127168726,
+                "p50": 2.7590985409915449,
+                "p95": 3.7018992006778719,
+                "p99": 4.462797660380602,
+                "maximum": 23.923002183437349
+            },
+            "mainThreadMs": {
+                "samples": 2400,
+                "mean": 2.8677670833333295,
+                "p50": 2.7564,
+                "p95": 3.6919,
+                "p99": 4.4747,
+                "maximum": 23.9178
+            },
+            "gcAllocatedBytes": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "mainThreadAvailable": true,
+            "gcAvailable": false,
+            "allocatedBytes": 227819014,
+            "reservedBytes": 348577792,
+            "monoBytes": 4997120,
+            "measuredSeconds": 6.890665500000001,
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            }
+        }
+    ],
+    "checks": [
+        {
+            "name": "Rendered graphics device",
+            "detail": "Direct3D12, 1920x1080",
+            "passed": true
+        },
+        {
+            "name": "120 registered stationary targets",
+            "detail": "total=120",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written performance-Near",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-Near.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written performance-Panorama",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-Panorama.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written performance-Penetrations",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-Penetrations.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written performance-ReflectionRefresh",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-ReflectionRefresh.png",
+            "passed": true
+        },
+        {
+            "name": "Probe refresh cost sampled",
+            "detail": "Actual capture requests=3",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written performance-ReflectionsOff",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-ReflectionsOff.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 01-spawn-game-scale",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\01-spawn-game-scale.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 02-spawn-sun-facing",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\02-spawn-sun-facing.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 03-outskirts-sun-facing",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\03-outskirts-sun-facing.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 04-open-space-sun-facing",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\04-open-space-sun-facing.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 05-engine-rear",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\05-engine-rear.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 06-engine-three-quarter",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\06-engine-three-quarter.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 07-engine-far",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\07-engine-far.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 08-fleet-distant-lod",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\08-fleet-distant-lod.png",
+            "passed": true
+        },
+        {
+            "name": "Nearby reflection completed before mirror inspection",
+            "detail": "captures=7",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 09-droplet-reflection",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\09-droplet-reflection.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 10-rock-material",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\10-rock-material.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 11-earth-material-DIAGNOSTIC-NOT-GAME-SCALE",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\11-earth-material-DIAGNOSTIC-NOT-GAME-SCALE.png",
+            "passed": true
+        },
+        {
+            "name": "Real motor sweep destroys and scores",
+            "detail": "id=SPAWN_Small_FF001, hits=1, score=100",
+            "passed": true
+        },
+        {
+            "name": "Destroyed ship and attached engine renderers are inactive",
+            "detail": "checked entire ShipTarget.visualRoot subtree",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 12-real-impact-engines-off",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\12-real-impact-engines-off.png",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes timer, movement, score, hits and pooled effects",
+            "detail": "0.3 real seconds plus an attempted Mission.Step while paused",
+            "passed": true
+        },
+        {
+            "name": "All 120 ships swept to victory",
+            "detail": "hits=120/120, score=64200, elapsed=19.20025, state=Results",
+            "passed": true
+        },
+        {
+            "name": "Results and score resolve once",
+            "detail": "transitions=1",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 13-victory",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\13-victory.png",
+            "passed": true
+        },
+        {
+            "name": "Restart 1 restores all ships and engine hierarchy",
+            "detail": "restored=True, pool=57",
+            "passed": true
+        },
+        {
+            "name": "Restart 2 restores all ships and engine hierarchy",
+            "detail": "restored=True, pool=57",
+            "passed": true
+        },
+        {
+            "name": "Restart 3 restores all ships and engine hierarchy",
+            "detail": "restored=True, pool=57",
+            "passed": true
+        },
+        {
+            "name": "Screenshot written 14-restarted-ready",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\14-restarted-ready.png",
+            "passed": true
+        },
+        {
+            "name": "ResetPose itself never damaged ships or awarded points",
+            "detail": "repositions=147, unexpected changes=0",
+            "passed": true
+        }
+    ],
+    "screenshots": [
+        {
+            "name": "performance-Near",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-Near.png",
+            "purpose": "Fixed comparison viewpoint after 300 measured rendered frames; screenshot work excluded from timing.",
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "performance-Panorama",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-Panorama.png",
+            "purpose": "Fixed comparison viewpoint after 300 measured rendered frames; screenshot work excluded from timing.",
+            "cameraPosition": {
+                "x": 950.0,
+                "y": 720.0,
+                "z": -1150.0
+            },
+            "cameraForward": {
+                "x": -0.45149117708206179,
+                "y": -0.3231726288795471,
+                "z": 0.8316941857337952
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "performance-Penetrations",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-Penetrations.png",
+            "purpose": "Fixed comparison viewpoint after 300 measured rendered frames; screenshot work excluded from timing.",
+            "cameraPosition": {
+                "x": -531.0,
+                "y": 115.0,
+                "z": 552.7999877929688
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "performance-ReflectionRefresh",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-ReflectionRefresh.png",
+            "purpose": "Fixed comparison viewpoint after 2400 measured rendered frames; screenshot work excluded from timing.",
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "performance-ReflectionsOff",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\performance-ReflectionsOff.png",
+            "purpose": "Fixed comparison viewpoint after 2400 measured rendered frames; screenshot work excluded from timing.",
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "01-spawn-game-scale",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\01-spawn-game-scale.png",
+            "purpose": "Normal spawn camera, fixed gameplay scale and FOV.",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "02-spawn-sun-facing",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\02-spawn-sun-facing.png",
+            "purpose": "Same gameplay FOV and unmodified celestial mapping; camera aimed at physical sun direction.",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.6427876353263855,
+                "y": 0.02673456445336342,
+                "z": 0.7655777335166931
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "03-outskirts-sun-facing",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\03-outskirts-sun-facing.png",
+            "purpose": "Same gameplay FOV and unmodified celestial mapping; camera aimed at physical sun direction.",
+            "cameraPosition": {
+                "x": 950.0,
+                "y": 720.0,
+                "z": -1150.0
+            },
+            "cameraForward": {
+                "x": 0.6427875757217407,
+                "y": 0.02673455886542797,
+                "z": 0.7655777931213379
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "04-open-space-sun-facing",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\04-open-space-sun-facing.png",
+            "purpose": "Same gameplay FOV and unmodified celestial mapping; camera aimed at physical sun direction.",
+            "cameraPosition": {
+                "x": -3000.0,
+                "y": 600.0,
+                "z": -1200.0
+            },
+            "cameraForward": {
+                "x": 0.6427875757217407,
+                "y": 0.02673455886542797,
+                "z": 0.7655777931213379
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "05-engine-rear",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\05-engine-rear.png",
+            "purpose": "Main and four auxiliary nozzles from the rear, normal scene effects.",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.5,
+                "z": 74.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.12403473258018494,
+                "z": 0.9922778606414795
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "06-engine-three-quarter",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\06-engine-three-quarter.png",
+            "purpose": "Rear three-quarter view checks fireball depth and metal nozzle separation.",
+            "cameraPosition": {
+                "x": 16.0,
+                "y": 17.0,
+                "z": 77.0
+            },
+            "cameraForward": {
+                "x": -0.5893675684928894,
+                "y": -0.3315192461013794,
+                "z": 0.7367095351219177
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "07-engine-far",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\07-engine-far.png",
+            "purpose": "Unforced native LOD at 220 m; engine effects must follow the rendered ship.",
+            "cameraPosition": {
+                "x": 25.0,
+                "y": 23.0,
+                "z": -120.0
+            },
+            "cameraForward": {
+                "x": -0.11265149712562561,
+                "y": -0.06759089976549149,
+                "z": 0.9913330078125
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "08-fleet-distant-lod",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\08-fleet-distant-lod.png",
+            "purpose": "Unforced native LOD and effect visibility at about 1800 m.",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 108.0,
+                "z": -1700.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.05547002702951431,
+                "z": 0.9984603524208069
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "09-droplet-reflection",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\09-droplet-reflection.png",
+            "purpose": "Existing player visual at gameplay scale; close inspection camera, no material replacement.",
+            "cameraPosition": {
+                "x": 4.199999809265137,
+                "y": 9.199999809265137,
+                "z": 97.19999694824219
+            },
+            "cameraForward": {
+                "x": 0.7840467095375061,
+                "y": -0.22696077823638917,
+                "z": 0.5777192711830139
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "10-rock-material",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\10-rock-material.png",
+            "purpose": "Local rock material and sun-directed contrast, scene light unchanged.",
+            "cameraPosition": {
+                "x": -360.2481384277344,
+                "y": 566.165283203125,
+                "z": -849.5050048828125
+            },
+            "cameraForward": {
+                "x": -0.7753298282623291,
+                "y": -0.29421567916870119,
+                "z": -0.5588391423225403
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "11-earth-material-DIAGNOSTIC-NOT-GAME-SCALE",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\11-earth-material-DIAGNOSTIC-NOT-GAME-SCALE.png",
+            "purpose": "Diagnostic close camera with celestial mapping temporarily frozen. Not an angular-size or gameplay-distance screenshot.",
+            "cameraPosition": {
+                "x": 11876.5283203125,
+                "y": 896.8811645507813,
+                "z": 11094.9208984375
+            },
+            "cameraForward": {
+                "x": -0.818875789642334,
+                "y": -0.020012039691209794,
+                "z": -0.5736217498779297
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "12-real-impact-engines-off",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\12-real-impact-engines-off.png",
+            "purpose": "Real motor swept hit. Intact ship including attached engine effects is inactive.",
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "13-victory",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\13-victory.png",
+            "purpose": "All targets destroyed by actual simulated motor paths.",
+            "cameraPosition": {
+                "x": 19.0,
+                "y": 18.0,
+                "z": 70.0
+            },
+            "cameraForward": {
+                "x": -0.515020489692688,
+                "y": -0.2710634171962738,
+                "z": 0.8131903409957886
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        },
+        {
+            "name": "14-restarted-ready",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\After-20260908-112539-586\\14-restarted-ready.png",
+            "purpose": "Ready state after three clean restart cycles.",
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            },
+            "fov": 67.38993835449219,
+            "written": true
+        }
+    ]
+}

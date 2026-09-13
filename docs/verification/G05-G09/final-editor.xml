@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="15" result="Passed" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:12Z" duration="8.0584139">
+  <test-suite type="TestSuite" id="1034" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:12Z" duration="8.058414" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1021" name="DropletPrototype.Tests.EditMode.dll" fullname="C:/学习/玩/Unity/新建文件夹/DropletPrototype/Library/ScriptAssemblies/DropletPrototype.Tests.EditMode.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:12Z" duration="8.045857" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51448" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1022" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:12Z" duration="8.044754" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1023" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:12Z" duration="8.044228" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1024" name="EditMode" fullname="DropletPrototype.Tests.EditMode" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:12Z" duration="8.043528" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="FleetAssetTests" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:10Z" duration="6.047514" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1010" name="ActualBlenderFleetImportsFortyPrefabInstancesAndSurvivesSaveReopen" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualBlenderFleetImportsFortyPrefabInstancesAndSurvivesSaveReopen" methodname="ActualBlenderFleetImportsFortyPrefabInstancesAndSurvivesSaveReopen" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1980813505" result="Passed" start-time="2026-09-07 12:23:04Z" end-time="2026-09-07 12:23:05Z" duration="0.866500" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Fleet import: 40 markers; 40 created, 0 updated, 0 removed.
+Fleet import: 40 markers; 0 created, 40 updated, 0 removed.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/ImportedFleet.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/ImportedFleet.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1015" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-07 12:23:05Z" end-time="2026-09-07 12:23:07Z" duration="1.798869" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1011" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Droplet&quot;,1.2f,1.2f,2.4f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Droplet&quot;,1.2f,1.2f,2.4f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1971536629" result="Passed" start-time="2026-09-07 12:23:05Z" end-time="2026-09-07 12:23:05Z" duration="0.441244" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+                </test-case>
+                <test-case id="1012" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Frigate&quot;,9.0f,4.455983f,22.14f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Frigate&quot;,9.0f,4.455983f,22.14f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="163365932" result="Passed" start-time="2026-09-07 12:23:05Z" end-time="2026-09-07 12:23:06Z" duration="0.436434" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+                </test-case>
+                <test-case id="1013" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Cruiser&quot;,18.7f,8.01f,33.275f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Cruiser&quot;,18.7f,8.01f,33.275f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1823638996" result="Passed" start-time="2026-09-07 12:23:06Z" end-time="2026-09-07 12:23:06Z" duration="0.438258" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+                </test-case>
+                <test-case id="1014" name="ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Command&quot;,22.39273f,10.85f,37.275f)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ActualImportedModelHasExpectedDimensionsAndUsableNormals(&quot;Command&quot;,22.39273f,10.85f,37.275f)" methodname="ActualImportedModelHasExpectedDimensionsAndUsableNormals" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="2033883342" result="Passed" start-time="2026-09-07 12:23:06Z" end-time="2026-09-07 12:23:07Z" duration="0.449841" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+                </test-case>
+              </test-suite>
+              <test-suite type="ParameterizedMethod" id="1006" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-07 12:23:07Z" end-time="2026-09-07 12:23:08Z" duration="1.358719" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1003" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Small_001&quot;)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Small_001&quot;)" methodname="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1922844566" result="Passed" start-time="2026-09-07 12:23:07Z" end-time="2026-09-07 12:23:07Z" duration="0.457270" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Fleet import: 2 markers; 2 created, 0 updated, 0 removed.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+                </test-case>
+                <test-case id="1004" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Command_001&quot;)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Command_001&quot;)" methodname="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="1031588715" result="Passed" start-time="2026-09-07 12:23:07Z" end-time="2026-09-07 12:23:08Z" duration="0.445997" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Fleet import: 2 markers; 2 created, 0 updated, 0 removed.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+                </test-case>
+                <test-case id="1005" name="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Unknown_003&quot;)" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation(&quot;SPAWN_Unknown_003&quot;)" methodname="DuplicateOrUnknownMarkerRejectsWholeImportBeforeAnyMutation" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="105738532" result="Passed" start-time="2026-09-07 12:23:08Z" end-time="2026-09-07 12:23:08Z" duration="0.449284" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Fleet import: 2 markers; 2 created, 0 updated, 0 removed.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+                </test-case>
+              </test-suite>
+              <test-case id="1008" name="NegativeInheritedLayoutScaleIsRejectedBeforeChangingAnExistingFleet" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.NegativeInheritedLayoutScaleIsRejectedBeforeChangingAnExistingFleet" methodname="NegativeInheritedLayoutScaleIsRejectedBeforeChangingAnExistingFleet" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="433586614" result="Passed" start-time="2026-09-07 12:23:08Z" end-time="2026-09-07 12:23:09Z" duration="0.461543" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Fleet import: 1 markers; 1 created, 0 updated, 0 removed.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+              </test-case>
+              <test-case id="1007" name="NonUnitMarkerScaleRejectsBeforeChangesAndRemovedMarkerRemovesOnlyItsTarget" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.NonUnitMarkerScaleRejectsBeforeChangesAndRemovedMarkerRemovesOnlyItsTarget" methodname="NonUnitMarkerScaleRejectsBeforeChangesAndRemovedMarkerRemovesOnlyItsTarget" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="716310732" result="Passed" start-time="2026-09-07 12:23:09Z" end-time="2026-09-07 12:23:09Z" duration="0.471695" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Fleet import: 2 markers; 2 created, 0 updated, 0 removed.
+Fleet import: 1 markers; 0 created, 1 updated, 1 removed.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+              </test-case>
+              <test-case id="1002" name="ParentTransformsAreResolvedAndRepeatedImportKeepsInstanceIdentityAndManualObjects" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.ParentTransformsAreResolvedAndRepeatedImportKeepsInstanceIdentityAndManualObjects" methodname="ParentTransformsAreResolvedAndRepeatedImportKeepsInstanceIdentityAndManualObjects" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="426715814" result="Passed" start-time="2026-09-07 12:23:09Z" end-time="2026-09-07 12:23:09Z" duration="0.459192" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Fleet import: 2 markers; 2 created, 0 updated, 0 removed.
+Fleet import: 2 markers; 0 created, 2 updated, 0 removed.
+Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+              </test-case>
+              <test-case id="1009" name="SavedFleetSceneReopensWithFortyDistinctVisibleTargetsAndCompleteReferences" fullname="DropletPrototype.Tests.EditMode.FleetAssetTests.SavedFleetSceneReopensWithFortyDistinctVisibleTargetsAndCompleteReferences" methodname="SavedFleetSceneReopensWithFortyDistinctVisibleTargetsAndCompleteReferences" classname="DropletPrototype.Tests.EditMode.FleetAssetTests" runstate="Runnable" seed="911035659" result="Passed" start-time="2026-09-07 12:23:09Z" end-time="2026-09-07 12:23:10Z" duration="0.616052" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Unloading the last loaded scene Assets/_Project/Tests/G09TemporaryFixture/Fixture.unity(build index: -1), is not supported. Please use SceneManager.LoadScene()/EditorSceneManager.OpenScene() to switch to another scene.
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1016" name="SceneAuthoringTests" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-07 12:23:10Z" end-time="2026-09-07 12:23:12Z" duration="1.965842" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1018" name="DirtySceneIsRefusedRatherThanOverwritten" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests.DirtySceneIsRefusedRatherThanOverwritten" methodname="DirtySceneIsRefusedRatherThanOverwritten" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" seed="1362472817" result="Passed" start-time="2026-09-07 12:23:10Z" end-time="2026-09-07 12:23:11Z" duration="0.839284" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" fullname="DropletPrototype.Tests.EditMode.SceneAuthoringTests.SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" methodname="SavedRangeSurvivesReopenAndRepeatedBuildPreservesManualObjects" classname="DropletPrototype.Tests.EditMode.SceneAuthoringTests" runstate="Runnable" seed="1522356755" result="Passed" start-time="2026-09-07 12:23:11Z" end-time="2026-09-07 12:23:12Z" duration="1.119325" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1019" name="ScoreTests" fullname="DropletPrototype.Tests.EditMode.ScoreTests" classname="DropletPrototype.Tests.EditMode.ScoreTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-09-07 12:23:12Z" end-time="2026-09-07 12:23:12Z" duration="0.029103" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1020" name="ComboWindowCapAndResetAreDeterministic" fullname="DropletPrototype.Tests.EditMode.ScoreTests.ComboWindowCapAndResetAreDeterministic" methodname="ComboWindowCapAndResetAreDeterministic" classname="DropletPrototype.Tests.EditMode.ScoreTests" runstate="Runnable" seed="1203254392" result="Passed" start-time="2026-09-07 12:23:12Z" end-time="2026-09-07 12:23:12Z" duration="0.001421" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

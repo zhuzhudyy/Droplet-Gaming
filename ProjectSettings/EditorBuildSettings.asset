@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Project/Scenes/FleetAssault.unity
+    guid: fd8b88d3948f639469bb54eabb50938e
+  - enabled: 1
+    path: Assets/_Project/Scenes/TestRange.unity
+    guid: 2fe84df30b534f241aa7bbce65fcb8cc
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

@@ -1,0 +1,25 @@
+{
+  "files": [
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\01_Perspective.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\02_Side.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\03_Front.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\04_Top.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\05_NormalSweep_1.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\05_NormalSweep_2.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\05_NormalSweep_3.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\06_RearReflection.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\07_TipReflection.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\08_QuadTopology.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\09_RearQuadCap.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\10_TipQuadCap.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\11_HighlightSweep_1.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\11_HighlightSweep_2.png",
+    "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Blender\\Droplet\\PerfectDroplet\\Previews\\11_HighlightSweep_3.png"
+  ],
+  "engine": "BLENDER_WORKBENCH",
+  "material": "Neutral only",
+  "matcap_for_diagnostic_only": "check_reflection_horizontal.exr",
+  "source_not_resaved": true,
+  "light_objects_added": 0,
+  "topology_overlay_temporary_only": true
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "name": "ReferenceCamera",
+    "position": [
+      0.0,
+      20.0,
+      -380.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fieldOfView": 55.0,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "SpawnForward",
+    "position": [
+      0.0,
+      10.2,
+      -8.0
+    ],
+    "rotation": [
+      2.928858,
+      0.0,
+      0.0
+    ],
+    "fieldOfView": 65.0,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "SpawnReverse",
+    "position": [
+      0.0,
+      10.2,
+      -8.0
+    ],
+    "rotation": [
+      0.0,
+      180.0,
+      0.0
+    ],
+    "fieldOfView": 65.0,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "FleetOutskirts",
+    "position": [
+      650.0,
+      150.0,
+      600.0
+    ],
+    "rotation": [
+      11.9727163,
+      268.611267,
+      0.0
+    ],
+    "fieldOfView": 65.0,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "OpenSpaceForward",
+    "position": [
+      3200.0,
+      800.0,
+      -900.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "fieldOfView": 65.0,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "OpenSpaceReverse",
+    "position": [
+      3200.0,
+      800.0,
+      -900.0
+    ],
+    "rotation": [
+      0.0,
+      180.0,
+      0.0
+    ],
+    "fieldOfView": 65.0,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "ParallaxA",
+    "position": [
+      -850.0,
+      -230.0,
+      250.0
+    ],
+    "rotation": [
+      0.0,
+      327.171448,
+      0.0
+    ],
+    "fieldOfView": 65.0,
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "ParallaxB",
+    "position": [
+      -650.0,
+      -230.0,
+      250.0
+    ],
+    "rotation": [
+      0.0,
+      327.171448,
+      0.0
+    ],
+    "fieldOfView": 65.0,
+    "width": 1280,
+    "height": 720
+  }
+]

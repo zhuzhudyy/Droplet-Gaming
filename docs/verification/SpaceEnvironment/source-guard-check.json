@@ -1,0 +1,121 @@
+{
+  "utc": "2026-09-08T05:19:06.506994+00:00",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Pure Python guard checks only; no Blender/Unity operation or real source write.",
+  "source_guard_sha256": "21952f8f03280c55685e0e7dbec2a675c0d44688b494ba01d32043de009ac4c2",
+  "passed": true,
+  "temporary_fixture_directory_removed": true,
+  "checks": [
+    {
+      "name": "current_real_source_matches_trusted_receipt",
+      "passed": true,
+      "outcome": "allowed",
+      "expected": "allow"
+    },
+    {
+      "name": "absent_source_allowed",
+      "passed": true,
+      "outcome": "allowed",
+      "expected": "allow"
+    },
+    {
+      "name": "unrecognized_existing_source_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "expected": "reject",
+      "message": "Refusing to replace an unrecognized or hand-edited .blend. Keep the authored source and generate in a separate project copy: C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\SpaceEnvironment\\.source-guard-check-0b4c81f8d58d41ad8d672ef1d0f78a01\\SpaceEnvironment.blend"
+    },
+    {
+      "name": "recognized_generated_source_allowed",
+      "passed": true,
+      "outcome": "allowed",
+      "expected": "allow"
+    },
+    {
+      "name": "source_changed_after_receipt_rejected",
+      "passed": true,
+      "outcome": "rejected",
+      "expected": "reject",
+      "message": "Refusing to replace an unrecognized or hand-edited .blend. Keep the authored source and generate in a separate project copy: C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\SpaceEnvironment\\.source-guard-check-0b4c81f8d58d41ad8d672ef1d0f78a01\\SpaceEnvironment.blend"
+    },
+    {
+      "name": "unrelated_receipt_cannot_authorize_overwrite",
+      "passed": true,
+      "outcome": "rejected",
+      "expected": "reject",
+      "message": "Refusing to replace an unrecognized or hand-edited .blend. Keep the authored source and generate in a separate project copy: C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\SpaceEnvironment\\.source-guard-check-0b4c81f8d58d41ad8d672ef1d0f78a01\\SpaceEnvironment.blend"
+    },
+    {
+      "name": "real_source_hash_unchanged",
+      "passed": true,
+      "sha256_before": "604204fd340cb951df6bcaae132e5092d32db883e441637ff132dcf5596fdd18",
+      "sha256_after": "604204fd340cb951df6bcaae132e5092d32db883e441637ff132dcf5596fdd18"
+    }
+  ],
+  "followup_runs": [
+    {
+      "utc": "2026-09-08T05:22:12.309711+00:00",
+      "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+      "scope": "Pure Python generation-only receipt recheck; no Blender/Unity operation or real source write.",
+      "source_guard_sha256": "9765b0f4c085fd5f867c4841d6112321b13917d554c369f0ecea5d749ac0d6bb",
+      "passed": true,
+      "temporary_fixture_directory_removed": true,
+      "checks": [
+        {
+          "name": "current_real_source_matches_generation_receipt",
+          "passed": true,
+          "outcome": "allowed",
+          "expected": "allow"
+        },
+        {
+          "name": "generation_only_absent_source_allowed",
+          "passed": true,
+          "outcome": "allowed",
+          "expected": "allow"
+        },
+        {
+          "name": "matching_visual_receipt_alone_cannot_authorize_existing_source",
+          "passed": true,
+          "outcome": "rejected",
+          "expected": "reject",
+          "message": "Refusing to replace an unrecognized or hand-edited .blend. Keep the authored source and generate in a separate project copy: C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\SpaceEnvironment\\.source-guard-generation-only-4f844db0469f48ff88c48de4deef6d0e\\ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.blend"
+        },
+        {
+          "name": "matching_generated_receipt_allows_source",
+          "passed": true,
+          "outcome": "allowed",
+          "expected": "allow"
+        },
+        {
+          "name": "edited_source_rejected_before_visual_update",
+          "passed": true,
+          "outcome": "rejected",
+          "expected": "reject",
+          "message": "Refusing to replace an unrecognized or hand-edited .blend. Keep the authored source and generate in a separate project copy: C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\SpaceEnvironment\\.source-guard-generation-only-4f844db0469f48ff88c48de4deef6d0e\\ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.blend"
+        },
+        {
+          "name": "updated_passing_visual_receipt_does_not_authorize_edited_source",
+          "passed": true,
+          "outcome": "rejected",
+          "expected": "reject",
+          "message": "Refusing to replace an unrecognized or hand-edited .blend. Keep the authored source and generate in a separate project copy: C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\SpaceEnvironment\\.source-guard-generation-only-4f844db0469f48ff88c48de4deef6d0e\\ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.blend"
+        },
+        {
+          "name": "matching_visual_receipt_with_no_generation_receipt_still_rejected",
+          "passed": true,
+          "outcome": "rejected",
+          "expected": "reject",
+          "message": "Refusing to replace an unrecognized or hand-edited .blend. Keep the authored source and generate in a separate project copy: C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\SpaceEnvironment\\.source-guard-generation-only-4f844db0469f48ff88c48de4deef6d0e\\ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.blend"
+        },
+        {
+          "name": "generation_only_recheck_real_source_hash_unchanged",
+          "passed": true,
+          "sha256_before": "604204fd340cb951df6bcaae132e5092d32db883e441637ff132dcf5596fdd18",
+          "sha256_after": "604204fd340cb951df6bcaae132e5092d32db883e441637ff132dcf5596fdd18"
+        }
+      ]
+    }
+  ],
+  "latest_passed": true,
+  "latest_source_guard_sha256": "9765b0f4c085fd5f867c4841d6112321b13917d554c369f0ecea5d749ac0d6bb"
+}

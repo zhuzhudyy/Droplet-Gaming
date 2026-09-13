@@ -1,0 +1,16 @@
+﻿{
+    "label": "Before",
+    "phase": "Finished with failures",
+    "utc": "2026-09-08T09:46:14.4102084Z",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingMaterialsScale\\Editor\\Before-20260908-083739-050",
+    "phaseFrame": 0,
+    "completedPhases": 0,
+    "screenshots": 0,
+    "unityFrame": 434,
+    "running": false,
+    "focused": true,
+    "active": true,
+    "enabled": true,
+    "runInBackground": false,
+    "timeScale": 1.0
+}

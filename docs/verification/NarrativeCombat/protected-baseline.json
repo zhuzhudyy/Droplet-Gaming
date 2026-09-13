@@ -1,0 +1,2107 @@
+﻿[
+    {
+        "path":  "ProjectSettings\\XRSettings.asset",
+        "sha256":  "EDD2BEB4A2E388312B4B7DA241AA51070434005D82C59363F1237DD2E567585F",
+        "bytes":  158
+    },
+    {
+        "path":  "ProjectSettings\\VFXManager.asset",
+        "sha256":  "F066C6483919961332415EE64204F74FE52F38C02E82892EB02B7A5B2E381F0E",
+        "bytes":  308
+    },
+    {
+        "path":  "ProjectSettings\\VersionControlSettings.asset",
+        "sha256":  "E7BDA45BF7A394745FEE1316E6C71FA676004D591AD1F3AA247FD3E4CEB86071",
+        "bytes":  188
+    },
+    {
+        "path":  "ProjectSettings\\URPProjectSettings.asset",
+        "sha256":  "C317FE22B9488785C0611F0642429922E5D324430D929BFFB41648130F30C218",
+        "bytes":  461
+    },
+    {
+        "path":  "ProjectSettings\\UnityConnectSettings.asset",
+        "sha256":  "B7DD1E8290598F5CE86919BA1C98B42B766C8C42191A30FA2C4D12195C4ECD00",
+        "bytes":  1063
+    },
+    {
+        "path":  "ProjectSettings\\TimeManager.asset",
+        "sha256":  "1A83E54ADBBDA7C9F4851103A0C6AB7F6448A3343D4EA5B7620452FA08416ECD",
+        "bytes":  202
+    },
+    {
+        "path":  "ProjectSettings\\TagManager.asset",
+        "sha256":  "4C2FFAE8F20EB89AA9BE77800A7974FFA4F10AA0D9AA9B18ADF4D766B70A2A50",
+        "bytes":  595
+    },
+    {
+        "path":  "ProjectSettings\\ShaderGraphSettings.asset",
+        "sha256":  "CDBA1E5D65BCF6E3269D76ED3E60B6C21F98322002996642C9D74F1EB89F6B91",
+        "bytes":  556
+    },
+    {
+        "path":  "ProjectSettings\\SceneTemplateSettings.json",
+        "sha256":  "BB9098B3BFCDE78D93E264B96F7B77B5430E64E8C57A7AAD7F5A5D9C3945E16A",
+        "bytes":  3535
+    },
+    {
+        "path":  "ProjectSettings\\QualitySettings.asset",
+        "sha256":  "6814D6CC3EB850DD7D2A069A8B17BA9F7591DEBA8B1758A855978BD9C8627643",
+        "bytes":  3662
+    },
+    {
+        "path":  "ProjectSettings\\ProjectVersion.txt",
+        "sha256":  "68312BD68C3D81C0DABEAA9905955FD523A6A184F4E6AE180377A1CDB8B2FD42",
+        "bytes":  85
+    },
+    {
+        "path":  "ProjectSettings\\ProjectSettings.asset",
+        "sha256":  "F59E04A21666528067706AD53D8A1A9E8A7441A401D523155C5A5405476D3225",
+        "bytes":  25609
+    },
+    {
+        "path":  "ProjectSettings\\ProjectAuditorSettings.asset",
+        "sha256":  "DBF44DC7E72B2FD3110F8834C18FE632A203C898D7303601B2201B67B7D18DC9",
+        "bytes":  1036
+    },
+    {
+        "path":  "ProjectSettings\\PresetManager.asset",
+        "sha256":  "29C125923FE6E29F90190D4FCE1C82D660E7051546E2C9D02908D18C9CF2436C",
+        "bytes":  146
+    },
+    {
+        "path":  "ProjectSettings\\PhysicsCoreProjectSettings2D.asset",
+        "sha256":  "BEDC5339A832C60DC3F11B84ABC4F4384DBFA20B0CD9AD6C444B907E751FC35E",
+        "bytes":  151
+    },
+    {
+        "path":  "ProjectSettings\\Physics2DSettings.asset",
+        "sha256":  "E3CBDBF0BE15244B7B67D2F07BDB8E8981911C11A8C7FE8035F5261272FEC658",
+        "bytes":  2028
+    },
+    {
+        "path":  "ProjectSettings\\PackageManagerSettings.asset",
+        "sha256":  "BD1BF3BC0A23B06888202F7A141BB58AB75B013672339CCBDC2ADDB78220D7EA",
+        "bytes":  1157
+    },
+    {
+        "path":  "ProjectSettings\\NavMeshAreas.asset",
+        "sha256":  "80106CFA7E6181A1928B142C075F3E510D527441E3D79BC83590E4AC91E7CD66",
+        "bytes":  1308
+    },
+    {
+        "path":  "ProjectSettings\\MultiplayerManager.asset",
+        "sha256":  "ABA89FD1A1DDAD182727AD82727E536D27372E90328A8196DA2A4560398983DD",
+        "bytes":  157
+    },
+    {
+        "path":  "ProjectSettings\\MemorySettings.asset",
+        "sha256":  "1E8379A461B10AE09F3F696911088C16875D63E87ED5F2D95DF9E1892703F9FD",
+        "bytes":  1192
+    },
+    {
+        "path":  "ProjectSettings\\InputManager.asset",
+        "sha256":  "7A1BB836A1008D26D0860D143E9D9DF7CA41731D30A72901B518063819C62DF2",
+        "bytes":  9731
+    },
+    {
+        "path":  "ProjectSettings\\GraphicsSettings.asset",
+        "sha256":  "4AC0D402C463FC830A46A1DDFAB132E617BB2EE00DBC9834784D6DF415014768",
+        "bytes":  2957
+    },
+    {
+        "path":  "ProjectSettings\\EditorSettings.asset",
+        "sha256":  "20E7399984B858EF7485C4E58F26A42345169749CF0D3A63EFAAA82B33F8A883",
+        "bytes":  1687
+    },
+    {
+        "path":  "ProjectSettings\\EditorBuildSettings.asset",
+        "sha256":  "110B7EF9F9A3EA581DEC2124FCE7AB29214AFBE88C99C4EDB719F56C5AD180B3",
+        "bytes":  588
+    },
+    {
+        "path":  "ProjectSettings\\DynamicsManager.asset",
+        "sha256":  "B7C9A9DC08B98990109D4346F68745E15E238DE400F96C583E53E1C83C743A78",
+        "bytes":  1254
+    },
+    {
+        "path":  "ProjectSettings\\ClusterInputManager.asset",
+        "sha256":  "40E65DD214BF254955D2C8829CA8CE2130FD3510485560CE012E9A1DDD93E623",
+        "bytes":  114
+    },
+    {
+        "path":  "ProjectSettings\\AudioManager.asset",
+        "sha256":  "AEEDEB3243F07B61DBBE854AA08B5EF6F0B5274DD9852AD9F6129DDE3E105A31",
+        "bytes":  413
+    },
+    {
+        "path":  "Packages\\packages-lock.json",
+        "sha256":  "2190B1F9D25030FD75D2B15970679F21CAF1343B17355C1C0B605ED3641715F0",
+        "bytes":  13157
+    },
+    {
+        "path":  "Packages\\manifest.json",
+        "sha256":  "C60B2CFAE1561341CA1AF8F4C7F5BE8DA11174F86F0965F22CAA85662330A698",
+        "bytes":  2073
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_2000_Sun.unity.meta",
+        "sha256":  "8E59C91E9CB920B30611B4E22C6B4BA69C755F94268DBA553EA6FAF48A7F6468",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_2000_Sun.unity",
+        "sha256":  "4DE21C068585214B545CCAAEC0C7F688E27B0F88FCBEE86D4947F7EB7BBBB476",
+        "bytes":  9009845
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault.unity.meta",
+        "sha256":  "F2B6D789B68EF6601248E89F8CD24F1BAD2F8DA9250A3F7A0AD28239D1BA9762",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault.unity",
+        "sha256":  "7CCAF136A197738C265B67E7D7458BE37F19EB9438F86B0F80D16110C58C3D7C",
+        "bytes":  179220
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\Droplet_Rebuilt_Review.unity.meta",
+        "sha256":  "702243EE8F536BD4B585ED557ED5FE7030D55BF5860536ED00EB59146F5D065D",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\Droplet_Rebuilt_Review.unity",
+        "sha256":  "83D7E862E7E298630D0D64E7F809A81F9A01B004D6DB609FCE159E13D1C95829",
+        "bytes":  13093
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_Expanded.unity.meta",
+        "sha256":  "464F8D167A4F5CD9E923057A4AA1EB04F10C01AD3699DC8E5C978C8C347B5AB8",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_Expanded.unity",
+        "sha256":  "3D385BDF61B37B49ACF7BD52030D0B2B455D670CD27A72DC05E0EC5F99C70954",
+        "bytes":  460909
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_Droplet_Rebuilt.unity.meta",
+        "sha256":  "379DAC392C27DABD353862B1D4A8CD1A356A7C0E9BACAAF261019A7D0AC22488",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_Droplet_Rebuilt.unity",
+        "sha256":  "123A4236BD6B02CC086BC198C4D545CCDFE5AF8B40A5C9451564381161FDBAF5",
+        "bytes":  535177
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_PerfectDroplet_Test.unity",
+        "sha256":  "D11ACA78D09A87E2B52ED9D757CF4F75394A00412938A93C117A97632A224A10",
+        "bytes":  531909
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_Lighting.unity.meta",
+        "sha256":  "C96D6591B429D038CECDF2E055CA81E68EB4899DC1EB5BCC0BFF790C44785E39",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_Lighting.unity",
+        "sha256":  "F8460A752709DE60651F394AEA9C4230DBDBE75FA72EDB7B5BAB8152CC120BFC",
+        "bytes":  531679
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_PerfectDroplet_Test.unity.meta",
+        "sha256":  "1D47974918E4F953CFF02E39DC226F458CA3D2B07339C946A9CFCC76CC39E9FE",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_SolarLayout.unity",
+        "sha256":  "03A4AA704F6A0464182EF9C13EB7B805B4803DEA22098B9C6930E656835DCA91",
+        "bytes":  177199
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\TestRange.unity.meta",
+        "sha256":  "76A093193217862E7A4AB34042960FEADD76B054C544A3D0F2BBC1F85C7529DC",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\TestRange.unity",
+        "sha256":  "8ABCFA93DFD68A2CDDEB9438E59B29E09DE7187100EDD1F1E5C1F51FD63B4751",
+        "bytes":  86135
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\SpaceEnvironment_Review.unity.meta",
+        "sha256":  "C3D8B0D528094CE64A3A76DE68FC3D8B5C1506137DCBA531290BF6BA8B0B6426",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\SpaceEnvironment_Review.unity",
+        "sha256":  "215B55E7840CABE8228D5CDD1A532BE7173BC3FAB62CFA7EC91E98547996DCD0",
+        "bytes":  27037
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\SolarSystemLayout_Review.unity.meta",
+        "sha256":  "57543F149A1C8A0A148C7537EFF55DDA963B3B6A0E3EE5185D5C6B02C752A21C",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\SolarSystemLayout_Review.unity",
+        "sha256":  "9EB1ECFF606D92E37A456B4BC8C3F0BC74FA4404BF9D234C8AC3B9B4FC19127E",
+        "bytes":  37148
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_VisualUpgrade.unity.meta",
+        "sha256":  "1F9606A1232C670059518F6852FF2FE97AA24E44C0E9FD2C80FF548654351A87",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_VisualUpgrade.unity",
+        "sha256":  "CD2D0390C9CEAA2A73DD59D8069F0C59741B082A0919DDC443B61755D243B7FE",
+        "bytes":  588159
+    },
+    {
+        "path":  "Assets/_Project/Scenes\\FleetAssault_SolarLayout.unity.meta",
+        "sha256":  "66C465B5AEB65E850411343E7E2A44B0B6BB0C1D33E1BAEB33EB84F0CF69FFFA",
+        "bytes":  155
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\VFX.meta",
+        "sha256":  "227193BC1A98DB57E2189308AD9A6560275C29F38449AD1938065148C965CF69",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Ships.meta",
+        "sha256":  "6346F93E1454666C4666504482F627DA84CE7B7D3E781E789EB56DD673C26A8C",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Ships\\GrayboxShip.prefab.meta",
+        "sha256":  "3A44A1B58540EF797625362397CB3192B882215B19B69AB088CBFF995CE7657D",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Ships\\GrayboxShip.prefab",
+        "sha256":  "BA70CC5890D5FF895006A5F0DBDCF27318BB3449B24B2E24EA972B541738AA76",
+        "bytes":  14448
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player.meta",
+        "sha256":  "E353A1B107944FFB3645F855A4F84C7D2A38AC9E75E8946FC7621D23C98214C8",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\PerfectDropletVisual.prefab.meta",
+        "sha256":  "2C852871DA352AA95C6A199305311AC6DF25A484A19D1B76FA177D0169FC5082",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\PerfectDropletVisual.prefab",
+        "sha256":  "FE72D03067A50EA9C8DF296EC4F65820DEC37F8ED665F7B489CC905840F6A2B5",
+        "bytes":  4226
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\Droplet_VisualUpgrade.prefab.meta",
+        "sha256":  "95DCB0DE1DA04EFA55F8D26CE00563EC97EAF15D6EA2B4D6DBC2BE7384664E2C",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\Droplet_VisualUpgrade.prefab",
+        "sha256":  "E0F68B6D8B1F3F7BB1DB2BD386D3991C46829691D023D9437F7FAFB88346F7BF",
+        "bytes":  6327
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\Droplet_Rebuilt.prefab.meta",
+        "sha256":  "6BAD0F9B388C5E71FCC093A9E54930FD4A6B5E76038ADAA285F117A32693C106",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\Droplet_Rebuilt.prefab",
+        "sha256":  "494A0A0AE1199B39A6A79F365FB1AAED56513404760F26CE7AE9CBDF0CE8F6F4",
+        "bytes":  6321
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\Droplet.prefab.meta",
+        "sha256":  "D5988F43809E66731D0049E4D497DC0A1B41DAC597C85610B1C00D15B65FCB9A",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Player\\Droplet.prefab",
+        "sha256":  "BA1776FBD423B5497B89F66BE9953DBD34CFF08B70A55A714649D1B354519323",
+        "bytes":  6242
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet.meta",
+        "sha256":  "7A299F38C5F8C945EE423CF0C48960D4AB209C2C62B54E2A13EB07EF12FC6955",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade.meta",
+        "sha256":  "C80CCA1DF6174576947E7C6A926039CC9B7F9F0E200ECA129A0E3CCC4C94FF0B",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FusionFrigate_VisualUpgrade.prefab.meta",
+        "sha256":  "18D2CB9ECBA7EEB9E8BEA682DE6B711F48039DFDA39AA8004DE7713DA5A3F043",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FusionFrigate_VisualUpgrade.prefab",
+        "sha256":  "37EDDF05E3529FE90150F2AFCBA7E233C83220B8729DFB3346EE142375254DE9",
+        "bytes":  223758
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FusionFrigate_Lighting.prefab.meta",
+        "sha256":  "E37C167AAA484D45EE05645F17F1A4B9FBBB3C03CDE8CF035A0B00183A89449A",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FusionFrigate_Lighting.prefab",
+        "sha256":  "857BF8039DB121EBDC76D0AF2C03C517839C88EA6A680965995110652F88C361",
+        "bytes":  221607
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FusionFrigate.prefab.meta",
+        "sha256":  "D1B7CA715D387C608AD9BB08577DE45D966E34B4A8B05329E9A3011597E00FF3",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FusionFrigate.prefab",
+        "sha256":  "C543CFD060B61205E397666E1AB0550146A111A81BCD6AEADCC9E146ED02B632",
+        "bytes":  133918
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FrigateWreck.prefab.meta",
+        "sha256":  "6DA67BC4DE6C7411D14E987B7EA99002D49F6A109F7520F201FB3DA774F399BD",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\FrigateWreck.prefab",
+        "sha256":  "C10A4401ED51F8CB0B4C75F91130C1D8DD68A53E201B24C2A3C883B25BA4B1C3",
+        "bytes":  9014
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\Frigate.prefab.meta",
+        "sha256":  "968AAF9B39960015A10324EABD5EE818E7F0F35AB9888A981FEE03293DB43513",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\Frigate.prefab",
+        "sha256":  "E33E20D537376FD92A633C2B786609D596511D0D7B32E3549FE3A20C310F1954",
+        "bytes":  13082
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\DropletFlight.prefab.meta",
+        "sha256":  "BA7DEDEDDF17CF4BE6A58C54B169C083ADC9879E3CD5CFF5A847F58FD76C0141",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\DropletFlight.prefab",
+        "sha256":  "00FF6DC5B2AD6F56938FD82B2EC862E341D07945FE2ABC14B2482E59F64BA961",
+        "bytes":  6547
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\CruiserWreck.prefab.meta",
+        "sha256":  "6C3F988F56BE9200F6938D77EDF4C1931D55876AA95A9F510E1682C799443E4D",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\CruiserWreck.prefab",
+        "sha256":  "C2F060C16B10EAA5CB2AE4BDDCBEB9FCCE60B78181B42E1AB907F11CE04B00DB",
+        "bytes":  9006
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\Cruiser.prefab.meta",
+        "sha256":  "0CB9D88C09737962D93552CB239A2E2C3962CD54D181B41883C3055BEC1B101E",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\Cruiser.prefab",
+        "sha256":  "531254D229393C09048437088FFBD279FB829A931425C7661E2262ADD81603A7",
+        "bytes":  14608
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\CommandWreck.prefab.meta",
+        "sha256":  "B0F2C9B74C4806FD3E22810E48F32C5A0C72A11963CD08E0BA91668C45785BFF",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\CommandWreck.prefab",
+        "sha256":  "DF6C8401A674231A4A7C14EA96CF982F466E3E4326FEF3ABE74E0898867B44B4",
+        "bytes":  8994
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\Command.prefab.meta",
+        "sha256":  "278759574A9C312673A195B018430CA2559E3B6627F13F431EEAF1999D7E213F",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Fleet\\Command.prefab",
+        "sha256":  "287CE9E0A16C09663119E24A1CF7A87B3D9AB8D74ADA1DB08A2C71ABE23E560F",
+        "bytes":  20772
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment.meta",
+        "sha256":  "0F56069C72CCFEDF39E8773F9DB46BAF2D46CACF80CFD0CB7FE815F97165C519",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\SunBase.mat.meta",
+        "sha256":  "419ECFA4E33EFCE4202855C0780F854762BFF913F7D37523BB6B9265C7A90F28",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment_VisualUpgrade.prefab.meta",
+        "sha256":  "F426BD1D9D026AA26FB999FAAD70D2A8BB8F3D0DB0FC991598C816E486AEB3C7",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\SunBase.mat",
+        "sha256":  "114B044C4B06F19E84E11DFBB5FF6B608586AC985964B17A57944F4BB25626D9",
+        "bytes":  799
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\SolarCorona.mat.meta",
+        "sha256":  "F125D35EE1CAD41CC3D9D2EBDAEC314FB8D8083A785553050ADD69673B46A6DE",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\SolarCorona.mat",
+        "sha256":  "1B04DE6F91A5959981AC9E272FC597FB9B0F1CAECACB51B77592E19239EB6D5F",
+        "bytes":  805
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\RockSlate.mat.meta",
+        "sha256":  "C837FB158F743F1CB4C3D7BA3B916AA8488BB75DBCB790B2E50757041D5E9943",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\RockSlate.mat",
+        "sha256":  "B6878C437FA460C4E374316D108B8E5C64DC41A49DF898411BA215C9C332C1D9",
+        "bytes":  1041
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\RockBasalt.mat.meta",
+        "sha256":  "04777A2AD8FA14CB74744596B810F8AE6FF6B7BF473161192951432CE1BDB372",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\RockBasalt.mat",
+        "sha256":  "4215BCD0318A3ACE00AEFCA84E80555CEA97EBD4C6628E70DF424CC1C4AD4A6D",
+        "bytes":  1043
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\ReactorFire.mat.meta",
+        "sha256":  "95BA53155320EF841F312EEB68BB66C77675B05783B1F50091FF94F8F93AD91C",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\ReactorFire.mat",
+        "sha256":  "E7AD464E29EDE7474E69126487B9D0ABBA00BB04789A5AF9523B3C45ED48ABF3",
+        "bytes":  997
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\PerfectChrome.mat.meta",
+        "sha256":  "61639E58AEF289DF524B718A8D50FFCAC4EEB3B3E8437F4B60403531803EF89E",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\PerfectChrome.mat",
+        "sha256":  "F0034FD3C41A9CEED99B310B4C1F313B07799B4302D51310A049036CE0A677A6",
+        "bytes":  4015
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\PenetrationFlash.mat.meta",
+        "sha256":  "FFE6CBB55DD463FC3C5B1701312C0FEF2F533953D9D95735A0E6442730FB71AE",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\PenetrationFlash.mat",
+        "sha256":  "587EB42B15B419D30A7C4F7AC2D606F6EBA65CE0C827CC0014183A586BD97CE9",
+        "bytes":  1002
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\HotDebris.mat.meta",
+        "sha256":  "4E0E35B725A70E67643BFFCA993CDD7467B6410BF84F2FB09093F5C58273F806",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\HotDebris.mat",
+        "sha256":  "AD53CD9BB02E48844435FF73585FD82628D9C01E3AAA9133DDAA4894D41BAFE3",
+        "bytes":  1043
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FusionShell.mat.meta",
+        "sha256":  "F6C9EE843BDAAD76D3C3D4301B31B3CF03CED0B472EE7B11B794F45875BB6579",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FusionShell.mat",
+        "sha256":  "EB616F7EDFD82C7C3F867B42C7D98F3A51585407A5B5E733164D62F8C9425F4C",
+        "bytes":  910
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FusionLiner.mat.meta",
+        "sha256":  "435ACDE6229F067F29F38DA58F76180CB767673A267A23A5F881F7B1F2C06919",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FusionLiner.mat",
+        "sha256":  "8362240635E146A04DFDB7A633580A986E67C367659FB5DA2BF754309F4F1F92",
+        "bytes":  909
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FusionCore.mat.meta",
+        "sha256":  "7592B6364ECEDBB4306B8E246C594E76D9686F3ADA9130269873B34820FC5787",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FusionCore.mat",
+        "sha256":  "76E934A9A45505FB78FE5B8CD959283789B9152BB78C73731EE9AC429192CEB8",
+        "bytes":  944
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_Structure.mat.meta",
+        "sha256":  "3AE1E72B3A98A906C015C3D402A963635CEC4636B92CEF2F514AED35B04E3C17",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_Structure.mat",
+        "sha256":  "1878FD66C52EEA50162954B44A7BB7CDB990755FECB3A7BB9A4D908F1B40512A",
+        "bytes":  1045
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment_VisualUpgrade.prefab",
+        "sha256":  "8AFB79FF985D5C45590F1B7DC680512270BF7437C94ACA0C5B322A41F2F9A346",
+        "bytes":  483096
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_EngineMetal.mat.meta",
+        "sha256":  "75548DF5930AE11F705CEE0F8E57A9BA5A02346BBD2149892B25AF76EB388E59",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment_SolarLayout.prefab.meta",
+        "sha256":  "0D4B6C6B21EE7903AE873D354AE57F1BD6C629CD8594AEF6C9915F5D22522C0E",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_EngineMetal.mat",
+        "sha256":  "541F393E22F67A032B6D26377F4B428D5A108AAC434478568AEB38230EBCBB7B",
+        "bytes":  1048
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment_SolarLayout.prefab",
+        "sha256":  "6D1FEAFBAF7BF6CC90CFA1C1989234A4809190142423458C5EDE2B56F31B59B2",
+        "bytes":  480434
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_BlueGray.mat.meta",
+        "sha256":  "4C401F8D6D2C7D9410479E2C4FFE0852BD019ECF5A184C1990A24F4928F5138B",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment_Lighting.prefab.meta",
+        "sha256":  "967644817130C4446AC975820120C1E9BD4F4E04EBDDEFB39EA583F64D86D7EB",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_BlueGray.mat",
+        "sha256":  "00F1AD5DDA29C7F20A60C990838A0ED2472CE5CDEC98EB0B3AA810966A6EE24E",
+        "bytes":  1054
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment_Lighting.prefab",
+        "sha256":  "AE2A318FCA6E98118CC98E1BD07A561EB9BF016AD11DC19581F6CD5757236164",
+        "bytes":  483091
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment.prefab.meta",
+        "sha256":  "41E2DE10E1DC1537202A7875A68EA286877EE688AA4DFC2E11ADDAB0D3D9B327",
+        "bytes":  154
+    },
+    {
+        "path":  "Assets/_Project/Prefabs\\Environment\\SpaceEnvironment.prefab",
+        "sha256":  "A9A51279A960FD45A42DAB5C91341CDC61F68AEABD8881FF636B6D134827799F",
+        "bytes":  2495813
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_Armor.mat.meta",
+        "sha256":  "8AC8467B746D3BC72BECE3DCF2E508B11709E9BFAD009E66430BF4BC2BF0ADBB",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\FF_Armor.mat",
+        "sha256":  "55968DCB24A3954FBE825E13EC410782066991A26CECFE4FF67FCD00CA009975",
+        "bytes":  1041
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\EarthBase.mat.meta",
+        "sha256":  "DA8999115A2B7831A77FEC46FEE0DBCD8323BEF93D5CCC9876D1B390DE99564D",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\EarthBase.mat",
+        "sha256":  "71D4B9EC425B043034EC0620554651474A0386EF3976C78BB8929788A5850997",
+        "bytes":  1083
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatReflectionSky.mat.meta",
+        "sha256":  "96F2D4987E57ACEB4C17D52BC1FD00E8616ADEC5241E09B6F9329119C30B8708",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatReflectionSky.mat",
+        "sha256":  "1BD7D36B1EB0A5739D7796D8C2F0F54E7AECB7F400B97345F626DEB930ED9A86",
+        "bytes":  992
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatPost.asset.meta",
+        "sha256":  "43DA9DC2CD9B7E60F921CC09C684551E3B0F74C53C955FBDB8F7B7003F3AA8D6",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatPost.asset",
+        "sha256":  "0AB3791AE10692E51B534D10C0C0ED19CEF00DC7A12704DC266E37E73B163B7E",
+        "bytes":  2662
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatLighting.asset.meta",
+        "sha256":  "BF95711C983279C442547DF4AB7EA639662550768BB1FF2E435CED649F73CFA2",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatLighting.asset",
+        "sha256":  "B0AD562DBD0567A5DB6248D680D0DD8170090294BC4E1B91052DDF4C9379B4DA",
+        "bytes":  678
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatEnvironment.asset.meta",
+        "sha256":  "53F9222B5155200F730647BE869E448D408F89D2A13D3AA115D7C4FD7C3FE73A",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatEnvironment.asset",
+        "sha256":  "C2DFE98D34DA66DB58A4305177525BF5ED91A4ED2AED54D7021535527FA18B25",
+        "bytes":  8389730
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatEffects.asset.meta",
+        "sha256":  "3FDF72BF095DB3AAFF269FCA71951135A695088D49181485286D79B01CD856FA",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\VisualUpgrade\\CombatEffects.asset",
+        "sha256":  "B6E6209AD6E3C5C3B0EBD9A7EB8988A985220BAC3C45D4BE98915A5DFA3BC4C5",
+        "bytes":  913
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade.meta",
+        "sha256":  "36E67F1DBB95A218750D23FEFC83DA194EE0983F4BF9C44865BEFA3BAA503A2F",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Textures.meta",
+        "sha256":  "3FFC3F96159C61892D0BD63781F3101F0331405F11C7EC9E11228EB2053ACD96",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders.meta",
+        "sha256":  "1513A7DB110DD308261DA85CF55A41B6E48E3D2C26E872DBEF8B42D0CCF3E4CC",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade.meta",
+        "sha256":  "9EADC1898E1A0E9866808C39BD8EC1B15E03D68CE393FE7B90A25150C4DC7825",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SunBase.mat.meta",
+        "sha256":  "80594A1A7D8FAA3A0B6E5F04481B07FB4B8607AEDA2AAF83759589712BBBACE9",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SunBase.mat",
+        "sha256":  "4CFBBEF2073C598C7A46BF04A06A126F85544005B8B6B0B97881C2B645C03782",
+        "bytes":  797
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarReflectionSky.mat.meta",
+        "sha256":  "31F952A26CA52894F3F623E6D45F32687FF4A3C971BCD5CCBF71394D7302925E",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarReflectionSky.mat",
+        "sha256":  "61C1BFB36CA92DF3CD620A697A1DEA63AAADB6B165A5BE95620D7A450365C6A3",
+        "bytes":  991
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarPost.asset.meta",
+        "sha256":  "5730F690D8B352FF59C67EC42537CE4827AE66613844A547D232AEF6E0DE155E",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarPost.asset",
+        "sha256":  "91E5ECD634BD001A8DE73D85D314AEAB1F7F59327986F774E10EC4D17B13C2C5",
+        "bytes":  2661
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarEnvironment.asset.meta",
+        "sha256":  "EA041610A3029221CFDFAF711FDA69BEE7A3D228D87DAB48F79940F76BE0A1BA",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarEnvironment.asset",
+        "sha256":  "6E5D9A50B0CC9D984D5A6D17404D5F342750EC09F959D9A76683186140F06F6A",
+        "bytes":  8389729
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarDisplayConfig.json.meta",
+        "sha256":  "2399263E5A440EE858579A608862CDE573F4CA4A0BA533C8C773EACF610CF38B",
+        "bytes":  158
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarDisplayConfig.json",
+        "sha256":  "6CEB038C21328E76D4F895784AB2D653588861C55422A0ACF86E91B3E200C2DE",
+        "bytes":  16760
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarCorona.mat.meta",
+        "sha256":  "93D0B8DCE2F459DCB948D2246ACEBDA58685B0E77426ACC7521F4B991EA90808",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\SolarCorona.mat",
+        "sha256":  "3BCB3E4FB9EB86C1B3A615846107DE74B2E9D25F54144D4817E35E900F1B1504",
+        "bytes":  805
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\RockSlate.mat.meta",
+        "sha256":  "A8B667158FD40948F4CDF1C69349F3A211728A91A4F1368E3C2734499827EAE5",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\RockSlate.mat",
+        "sha256":  "4E602BEDFD8AA83D86B04F0328C07D1F7461CCBE63E3F435A819EA5DD2467E80",
+        "bytes":  1041
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\RockBasalt.mat.meta",
+        "sha256":  "AB3ED3A600B099C3B702D4300E124287434650232E971550A63693E66D4A3ED7",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\RockBasalt.mat",
+        "sha256":  "8C04A6E1A12232C7A89A3A9EA481C9559ACB56BB9CCCE05E15D2D57EB2FDEEB1",
+        "bytes":  1043
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\MetalDroplet.mat.meta",
+        "sha256":  "BB64D8601C9BE0C102617EE5660476C6A6DFD2F0E86BE1F057D36ECF4A03E120",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\MetalDroplet.mat",
+        "sha256":  "DED7C285CD837D85D0318309909886429BA8163B939E5E2108D61E436BAAEAC2",
+        "bytes":  3820
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FusionShell.mat.meta",
+        "sha256":  "410A30945679F3226DAB4E95714878DCDF4473FD7F8848A7ABA511BBA12B75F8",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FusionShell.mat",
+        "sha256":  "B932BBEE79D4CE5AED0FD5F40576B26CADAC19685D69CD8A083C31866E8D692E",
+        "bytes":  910
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FusionLiner.mat.meta",
+        "sha256":  "BC1155CB1DDD355AC7B48F1527634D698F9A28CB8CBCFFBA2576E7C4B2289636",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FusionLiner.mat",
+        "sha256":  "1D25FA57FF730AAE5377D52DBD0939D245ED45AE15E55990EDB17F3A058F20FF",
+        "bytes":  908
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FusionCore.mat.meta",
+        "sha256":  "87DD7629D78011776ADFE4E1E31C35522113CF1D9ED3AA3DA294E4F0F4CF53B2",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FusionCore.mat",
+        "sha256":  "991273303393920602C2D090D03F4DE1AD95F8B89B90EEDB4D8C0FAEFD42416B",
+        "bytes":  920
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_Structure.mat.meta",
+        "sha256":  "53CB7358DFE7724104A3EEBB9C19DB7558261201D5F1D402B251F10803F7499A",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_Structure.mat",
+        "sha256":  "C723FA7DBBEDBAD92D97481C3CEC2D9A9560A3F025593B5EBEA0F64EA63B390E",
+        "bytes":  1046
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_EngineMetal.mat.meta",
+        "sha256":  "79FB12C0D0733C2515FADE15F8ECFC6D306C6680FD97E46A9EFED2383BCFDAAE",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_EngineMetal.mat",
+        "sha256":  "61EBA67FF163BA82D6FCA571E6E7DB9D3BB4EFBAEF53839F4E7F6CA11E7A1DD8",
+        "bytes":  1048
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_BlueGray.mat.meta",
+        "sha256":  "602B168E81372F768315D5A59F1607E9660F6C357839035667033878CD6D65AA",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_BlueGray.mat",
+        "sha256":  "50C977A83E04681D12EEAFAB23DE775CB79EBAD75CDEF66287D2364AFED81400",
+        "bytes":  1054
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_Armor.mat.meta",
+        "sha256":  "199D453D808C08842806EB08BD1AD404B701735AFC0ECD3536EE860F1E4FC24D",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\FF_Armor.mat",
+        "sha256":  "B23C977C84D5D15269D677051F83BE3AF41E136A3021F196FFCAE2D53C3835EC",
+        "bytes":  1041
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\EarthBase.mat.meta",
+        "sha256":  "7FE9194407FED9B065A98DE7F79CAF9C9BA03770CBF585335E7FF663EEFCDE3F",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\LightingUpgrade\\EarthBase.mat",
+        "sha256":  "797D7CE89B5ACD59293B8729CB73357AF58146F4F8079ACF6DD35C813579F3C6",
+        "bytes":  1083
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials.meta",
+        "sha256":  "B06D3214C828504DBDF340147E759F772E808712AB9B6B65E31ADFCEF9E25539",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\SolarStar.shader.meta",
+        "sha256":  "658ADE93F85E8A127EF695DF36A2A6F6B4EF9237101BF90A4A21EF1C3FC9EFDA",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\SolarStar.shader",
+        "sha256":  "4566A5ADC40D27DA184D8E4F121A2D1E4E9DDB0AEBE2A9DFDF4C29480F10C1B7",
+        "bytes":  2074
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\ReactorFire.shader.meta",
+        "sha256":  "F306CECBC0121CFCB8E970ACCDB038FD59553D89EFA55FC52E8D4878E3FDC03D",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\ReactorFire.shader",
+        "sha256":  "E49FF9BD43C526CFB31C4CD5E19F7910FD64B539004B2AFFC6F546F70D37EEBB",
+        "bytes":  2782
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\ReactorCore.shader.meta",
+        "sha256":  "E33403F7766A856906FB26F6C393FBC16C6B8E474957050D0F8E921B65393EF9",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\ReactorCore.shader",
+        "sha256":  "45AE285D882F2B703373BFEFCC8CDFF343D4E4DC95A9E86388E99C0B9AE1A0E8",
+        "bytes":  4403
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\PerfectChrome.shader.meta",
+        "sha256":  "17001D1603E1FB53E2237DA7A62CFFC5685AF4BD1365406F97CFFDAD888728CE",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\PerfectChrome.shader",
+        "sha256":  "5F320D0AF762CAECBFF5885899FD41B4A90A99175A304A254651BA822A3700A7",
+        "bytes":  14509
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\FleetSurface.shader.meta",
+        "sha256":  "F0A1382DBE85B92F5F1362052E1A4C2E4774E3847CD584A0AE3E5CE4A3D13369",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\VisualUpgrade\\FleetSurface.shader",
+        "sha256":  "8AEC3B2E55679813FD2B722CCCCAAE96B5637911BED87A29BA8AE1E6CFA7D126",
+        "bytes":  7344
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade.meta",
+        "sha256":  "999953F07DFBBFB75AF5E18B6F79CA65A8E1E2D4722C627242EC9FF0AE3EC6FC",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Wreck.mat.meta",
+        "sha256":  "274D5B1C6C068A8E480AA72EF0CB7CF303E0849F9FC0D85DED09F5C223247275",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Wreck.mat",
+        "sha256":  "CF0B8B7C815974579EC5D853035C7FFD06BD5E17B9077D93A1599B3309C6B100",
+        "bytes":  3848
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Trim.mat.meta",
+        "sha256":  "EDBA05F4BAC2C00EA8B46167673445B28287711B02CAFDC1836D5FB481D79641",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Trim.mat",
+        "sha256":  "7025976A65A8394D7580EA2E95E3A22B1798DEE8A3A5003D654BA31185E0C460",
+        "bytes":  3817
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Trail.mat.meta",
+        "sha256":  "179A00542EEA7756907FF31570021A235FC9E6B6AE51CF043C3E3C581425B552",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Trail.mat",
+        "sha256":  "82E37BCF7CC28B23311516AA0E751C2FF68419BE9868F3307D185713A9711446",
+        "bytes":  813
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Stars.mat.meta",
+        "sha256":  "6CC19410A2EBD9A822B13263F88BF47345F6FF949FD3EFE6DA83D892C605E9BE",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Stars.mat",
+        "sha256":  "71AEA16D323324A916E9D49673B38CEA15E216BE2BDC933B6F03CF8C9698F525",
+        "bytes":  750
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Starfield.asset.meta",
+        "sha256":  "2CE19D492C67528E872B514EC1A82E43D0130F4B862517FF2C680D61C949ED78",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Starfield.asset",
+        "sha256":  "AAB76041AB28CC18EA1886C6B45DF334DF4C2AEAE6A328FFF355E41B2692349B",
+        "bytes":  301107
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Spark.mat.meta",
+        "sha256":  "9BAEF521E5919F068BDF93FCE9C7312C16BDD51FF3B5E02073FCD669EE3029B0",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Spark.mat",
+        "sha256":  "BF6097716931A68664ECCD438D29838F24F3B68930555460411421F2EA2029CF",
+        "bytes":  812
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\MetalDroplet.mat.meta",
+        "sha256":  "8AB5476D269A8DB41A0E5E2D258B1D87AFBB9BB3C32AE374DC124972B3FFAB79",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\MetalDroplet.mat",
+        "sha256":  "1EB3C9D2A687485A35A33BB9AE72C3701C7650C18FE6B694AD5CF7FC72FD72D9",
+        "bytes":  3824
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Impact.mat.meta",
+        "sha256":  "D466722D4485ED96158733D2D084342D92C77145864A089B9D4FFDF3445B1DB8",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Impact.mat",
+        "sha256":  "17D59430F88924A14F7B14EAD536644A1C13C112B96BC60C115E8C2082D573C0",
+        "bytes":  814
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Hull.mat.meta",
+        "sha256":  "BCBB02E3504F409AA670C4374D2E187166589669A3AFD7A0DFC1E8A556904A39",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Hull.mat",
+        "sha256":  "9AC22359CAFB79B49B94157F0624BE87AB8F1D0C5FE67F949F71996E2E81A001",
+        "bytes":  3823
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Engine.mat.meta",
+        "sha256":  "EFD59B484A128F7535C69256042370E7423AEABD5DC77FA62837C7F9DADAE936",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Engine.mat",
+        "sha256":  "B6C5B43BA1607FD79555F94C64B92B551775030A6852ACA036F3A61FB1F8307B",
+        "bytes":  3838
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Earth.mat.meta",
+        "sha256":  "590C82882CEA672061E74E685124763635F7212DA6C5C5DCB581C878D8BA3CDD",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Earth.mat",
+        "sha256":  "E0091D2A6433B79A4AFF02758A78C030EAEE7B51388BA344136F27F686255D7E",
+        "bytes":  750
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\DeepSpaceReflection.asset.meta",
+        "sha256":  "43CCB53A90A0AC4E34A51582C07F204BD0F0CFDBD45A7E1F8C2B11A9475441FE",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\DeepSpaceReflection.asset",
+        "sha256":  "99886D51C79A3CC0A98E0B58680550CF68224D487ACD274B647E1AEE8E30D166",
+        "bytes":  2098276
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Armor.mat.meta",
+        "sha256":  "D3F28495C2CFB376000FA65D30199575740FA3AF6CE9AD67A3BD12F3EBB49458",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\FleetMaterials\\Armor.mat",
+        "sha256":  "0DD4784F746E7DA6CE1B7639E76FB13F92FEC964181157A8B2C8833C2014B625",
+        "bytes":  3836
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun.meta",
+        "sha256":  "9420FBA63453A7AEDC4B41E02AF9E5B6B48AFB4B4CA19D9AD34E638D90D05ECF",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\SpaceSurface.shader.meta",
+        "sha256":  "8A2854E3F6B9441AF8516DF0DDBABCC9326CB357C2DDB81E4E6320A06909F4F9",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\SpaceSurface.shader",
+        "sha256":  "17128B538D15AD90E8AF924DC725AAFF3BA58B2D495E53974ECFF4C9F1F9D83E",
+        "bytes":  7257
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\SolarDisc.shader.meta",
+        "sha256":  "B1C125CE1FD44B93A1F594F34DAB44B5C05E601BA2C946BDEBCA2978D2B923B2",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\SolarDisc.shader",
+        "sha256":  "952AFBF6741B0D0BE5796735A90B8FE8DACA0DBEE2B162772E8923B9DBD04094",
+        "bytes":  1125
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\SolarCorona.shader.meta",
+        "sha256":  "BAB3BBCD44F1332C8A918C00AB55ED7CBF5E2077F63934EDA9DF6D98538A1935",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\SolarCorona.shader",
+        "sha256":  "6750EDE8913FA5678C1DE4A47C3DFB3BB1C1FAEDBF3C0C61AEADD7AD235348F0",
+        "bytes":  1136
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\FusionDriveShell.shader.meta",
+        "sha256":  "7A0510C2F2B540091ABB2A89D4C9A9D038494EAC711C1E9E030E3C0D44467E21",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\FusionDriveShell.shader",
+        "sha256":  "821319035AF07B0D4F57EF914FC93FFD4C3A6E0843EDA93693FF17E5DFC9D918",
+        "bytes":  3287
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\FusionDriveCore.shader.meta",
+        "sha256":  "2C9A6A266BC4C5D4C8DAA2CB5BBC79A3B35AFBA3400CFF6E8980FEF52056A459",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\LightingUpgrade\\FusionDriveCore.shader",
+        "sha256":  "F33668219B97FFEF0180EAA80E5AFAB64407BA236580BB6C8E6F26666C9C715F",
+        "bytes":  4194
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\FleetStars.shader.meta",
+        "sha256":  "F4D4030AFB9DF5FE1FC71FB7B1C4460B6346D8FD57E6D67B31CC10612320C7CB",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\FleetStars.shader",
+        "sha256":  "67D94E9EF8707B8C98655508F51C3AAED3DE1C0647D4C9509CE65294C14A1500",
+        "bytes":  695
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\FleetEffect.shader.meta",
+        "sha256":  "1A5C8AA94E1D00D5B227494E81A59B60C88211DA561772B701FC511BD3094F0C",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\FleetEffect.shader",
+        "sha256":  "051C794B6D6F2BF097E78D62F6E8DC1472C65CDE1DBF2C9D704FB2AEFC361732",
+        "bytes":  1099
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\FleetEarth.shader.meta",
+        "sha256":  "DCED77E00F570CD8CE16CD6B2762254BD54A7B71C9AA8BBBB13F316149D98343",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Shaders\\FleetEarth.shader",
+        "sha256":  "630967A8AB27B8010EA1CD340988417838E2909687505BA62E0825A460CA304C",
+        "bytes":  2037
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models.meta",
+        "sha256":  "0DDC8AC56CAA3CE684E1DC2CEA98DEF76FEC1A465A85A8659E74AA6D789C61F2",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SunPost.asset.meta",
+        "sha256":  "41897667B81AF53D96758C91A47EF163A532F35948813E0FC0C356DA62874266",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SunPost.asset",
+        "sha256":  "63C5275C73C3068D3521B1B474A51B546247CA01FBC814308A615093C475971A",
+        "bytes":  2664
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SunLighting.asset.meta",
+        "sha256":  "97DCA2C7111037BE168655F6F9E098C3F594F3CD6CF5DE0E9473662A8699D2CD",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SunLighting.asset",
+        "sha256":  "42020E97ADA599C0119C7874D0F14D689A32D0C8912F44B86C896FAE01DC104E",
+        "bytes":  677
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SunLensFlare.asset.meta",
+        "sha256":  "E40F4345804C8A11A9579E0176782C294C1ECA35CC819294E975C73B34A0CEB9",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SunLensFlare.asset",
+        "sha256":  "545B32A802015C670550FB218B08329CE4DB9DB40D41F5A5D284142AAA353724",
+        "bytes":  14417
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SolarPhotosphere.mat.meta",
+        "sha256":  "9E0F5DA249D132665DECCAEB8ADDFC29C685A16DD2C120A246E5CA97984B2A8D",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\SolarPhotosphere.mat",
+        "sha256":  "1B8622D52BEC8DB5ACA65C67AEBE336ACC57D3297125C020B982B9377F1D8B6A",
+        "bytes":  930
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\Shaders.meta",
+        "sha256":  "0ABF14202AA6A04EB7E5DEDE570B5047A184B03D512B000FB4447F54507FA199",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships.meta",
+        "sha256":  "CA50919FB393009D5F14A92B659F8568890DC854A5E92C60EA7A5BDDE6F5D140",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate.meta",
+        "sha256":  "DF1121BF6F58B7DD9CC983208E652EA7F136038793FC5D11A5FA554322366616",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\Shaders\\SolarPhotosphere.shader.meta",
+        "sha256":  "14E9B42EA4EEEA59C6571090E7A6BF4999BD63D7EE9553359D442C3CEE2C872C",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\Shaders\\SolarPhotosphere.shader",
+        "sha256":  "AF2822A17CDB47E58020B5E3FA179A83BDE2C428B71B11A94B7E2CD1606A9D3A",
+        "bytes":  4642
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\PerfectChromeSun.mat.meta",
+        "sha256":  "1455FA3C9C6DE0F1445730380B44E9DFC76FB0004B5B09E4945ADE3C6BE40C3D",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\PerfectChromeSun.mat",
+        "sha256":  "E8AC131F6AAEB376DC885AD46B117E949C148B61D83B6CFE132C013758A51B12",
+        "bytes":  4023
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\FleetMission_2000.asset.meta",
+        "sha256":  "5D6B3C9AB7AFBBA0EACB7A96647C1E0D768A81A354DBBA8A6065363A535A0F17",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\FleetMission_2000.asset",
+        "sha256":  "6E9924DDF5A6AA034E2CB14CCCB868FFC7AA80F2A1D54E550C04747EC69E4906",
+        "bytes":  995
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\FleetLayout_2000_Sun.json.meta",
+        "sha256":  "05437A0372EC4CC04ADDB03414D44A464D9D6E09ACEA2D50550F74E756105C65",
+        "bytes":  158
+    },
+    {
+        "path":  "Assets/_Project/Art\\Fleet2000Sun\\FleetLayout_2000_Sun.json",
+        "sha256":  "B47D6BE8ED3D2A9260BEB432B076B1A4E5F446783D0DB335BBF68F795004D627",
+        "bytes":  1241121
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment.meta",
+        "sha256":  "0ACF0DBFB3E6CA290926FC0DCFEF63ACECD7814A2510CDA3E16B7F078BA3FDA1",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials.meta",
+        "sha256":  "B139EC00E82F9F66811497F5EAB63194F91C50810685B33B40AE7F3A7F4FAD11",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment.meta",
+        "sha256":  "B5FF17D26ABBC02516B4CE5292483942A232493B7CC82A3470F88387AB13A67C",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_Structure.mat.meta",
+        "sha256":  "B18D292AE49C693C74E50AF2282CE97A83865DAF412B629D732D99580B82250F",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_Structure.mat",
+        "sha256":  "132597F236E413AB04482F54EB9C7437C5E2C13593D78CB3C2D8F4D969D0AE45",
+        "bytes":  3854
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_EngineMetal.mat.meta",
+        "sha256":  "C5A035107F6087762EE361C35449AA2339A4536A67CC278D32A79A30FCDB5081",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_EngineMetal.mat",
+        "sha256":  "551C539BCAF44E2248CEA588EDF078B8A0985E7A934EEF0F3B8B2589DB78D217",
+        "bytes":  3856
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_BlueGray.mat.meta",
+        "sha256":  "7C0036B5AB7356555D7AAFC83B081DD5BB252CB9DCF68A812C5254F1D4E25340",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_BlueGray.mat",
+        "sha256":  "C550C4CC488554665F0FC5750709361F8DF58E831045059E5A2A1A4AE48ABF39",
+        "bytes":  3846
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_Armor.mat.meta",
+        "sha256":  "2CDCCE2EF762DECEF366F41A56F52EC622C87CCE2BBF491B8FBE55B1FEC072CB",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\Materials\\FF_Armor.mat",
+        "sha256":  "CC9E91F0725FEF6A6A40A0262CADBE900B92808C0E260C0C6D992543391AF9F9",
+        "bytes":  3848
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\FusionFrigate.fbx.meta",
+        "sha256":  "EE6133A6DD97BFC9F0B2251504F9B54CEB760AF96C83C776BE3DC814D9C1B956",
+        "bytes":  3766
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Ships\\FusionFrigate\\FusionFrigate.fbx",
+        "sha256":  "AAA3A754C9F0ADB1F45841C5C3E2955D26F8AB7A4A2A895EA45F261C33E6403A",
+        "bytes":  362892
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\PerfectDroplet.meta",
+        "sha256":  "631240532FB596A48B185128B13F94DFF3F3BC8B20117AD079478DCA29E4B77D",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\PerfectDroplet\\PerfectDroplet_Game.fbx.meta",
+        "sha256":  "B1A975AC5483F9A37B4DDD3AC123B56E96454C4CF206E67AF77A85BB7BEF1E8A",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\PerfectDroplet\\PerfectDroplet_Game.fbx",
+        "sha256":  "D5984085AA89CCB2A939D7FE9C237343E120F6AA08E955E763C1A910205A2445",
+        "bytes":  157948
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\FleetExpansion.meta",
+        "sha256":  "E19C7A6065EB7857BA90E51DA6A9AEAF8EC8ACD9264678E62E8D4C59C4BD5DB6",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Textures.meta",
+        "sha256":  "D87834AF733732DB7633CBB002A6DD4CA93244F301A8ABE3E78E3DD566635D2F",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\FleetExpansion\\layout_config.json.meta",
+        "sha256":  "A9A1F657C6C26E959053C1C867C60EC0011255AA4528CC20BD43A39DDD7A6B89",
+        "bytes":  158
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\FleetExpansion\\layout_config.json",
+        "sha256":  "0693B71DB4557310C686CB95A83D1B4EB1A7FA3AE89847DA51B39516BDE97A1C",
+        "bytes":  71538
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\FleetExpansion\\FleetLayout_Expanded.fbx.meta",
+        "sha256":  "D8CC4D354E5552B9899DBAD4F33AE744CF505F44FDB2938AB2F37BD0CB43F598",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\FleetExpansion\\FleetLayout_Expanded.fbx",
+        "sha256":  "39ADCFC4637BB5F19700D0552F835A20F483E0C35A5C6F4058266A5B6665ED81",
+        "bytes":  265996
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet.meta",
+        "sha256":  "E6332B52B91AC64C40286EABE5C2A5B2E8DBC9CE4E14183B62884DC75AA9DC76",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Textures\\SpaceStars_BaseColor.png.meta",
+        "sha256":  "A5AD07FDA89D030573CAF4A2CA29702E56D63560504C8D3E46BBAC4D6F752305",
+        "bytes":  3717
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Textures\\SpaceStars_BaseColor.png",
+        "sha256":  "C01DA67D8408F2DCEFD80D6FA81D03DA14738CAFF82E4219C84605C85CAABEEA",
+        "bytes":  65562
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Textures\\Earth_BaseColor_2048x1024.jpg.meta",
+        "sha256":  "99C197A5F3BEEB87B64BBCC320364FA915C9EDDA2531AA6CE6383BE7145A97B2",
+        "bytes":  3717
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Textures\\Earth_BaseColor_2048x1024.jpg",
+        "sha256":  "FB67AC030214C1891994C8F976E7F6C9CD5B0F21586ABA8567250781A4FE708E",
+        "bytes":  593729
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\PreviewOnly.meta",
+        "sha256":  "4F56D863AA624AA4A3A5E019CC97C74C095522A40BF1A30303B2475A918C7D61",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials.meta",
+        "sha256":  "FB10CC3A47BFBE3A07157382596BAFF1B5AD2B0223315F857CE689B785471451",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt.meta",
+        "sha256":  "BC1065411F09919F808BD8A00D63AEEA2DFCE0DA6AA12AFF69EEDC631A51BCFC",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials.meta",
+        "sha256":  "7F0C3B840CF757AF524F2F987204B05DFC086BF215FAECE849A74AE40B23B74E",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Layout.meta",
+        "sha256":  "7B7CCDCFDE3D1B99D1F78826A6210CEC126A6DAA1497B83E6EF39CE73FAA0123",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models.meta",
+        "sha256":  "F5F944A6AC72664D2FC137F8A1521C5956732631CB6C13CAC3A3B894FA8A1A78",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SolarSystemLayout.meta",
+        "sha256":  "407F51E2B360978A9934EDB846B1B663E3774B425DC1AFA4DE5468D91D67C16D",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\PreviewOnly\\NeutralRenderer.asset.meta",
+        "sha256":  "DD221E869E257A31DD0A40FAC83D5DE227E1A7F97A7CE389E728983543B0A022",
+        "bytes":  189
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\PreviewOnly\\NeutralRenderer.asset",
+        "sha256":  "09601CB3F5209D5BFBD641EFBDFA57CC0A61BB95DC6ED7AABA672517603718AB",
+        "bytes":  2245
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\calibration.fbx.meta",
+        "sha256":  "463A2DF9827F3CCA53482689F457969302C94223CA597E389CC1AC1A8B0BC149",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\calibration.fbx",
+        "sha256":  "E548A5136AFCB101396913E9F74BE356F71FB7138A9B60536224BCAF5A323A0F",
+        "bytes":  119436
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Command.fbx",
+        "sha256":  "C3992389FEF51098A4678878314AD4625F127863952429796B846E4ED887F39B",
+        "bytes":  66668
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\FrigateWreck.fbx.meta",
+        "sha256":  "F9C2D5BC045E62E476799E936213E1A177C4DD2052AB6C4FC071C3A4318CFE9D",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\FrigateWreck.fbx",
+        "sha256":  "4404C6B071B0B5262D30B5622D59F82321672A76669C99ED210740D1E54C6062",
+        "bytes":  91292
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Frigate.fbx.meta",
+        "sha256":  "176486575C0B8DC12D83C686B89461B19552A85936C7173F310A23687BF6D059",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Frigate.fbx",
+        "sha256":  "68133CE8B5BE6307EAEB1073376B962FF438993695D6726B78873C787B8B2C81",
+        "bytes":  46348
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\FleetLayout.fbx.meta",
+        "sha256":  "3B57874E164CF2B80E394506E59BC125D158A0559516B161FC780CF1D7CC01B2",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\FleetLayout.fbx",
+        "sha256":  "193D6E265B7C22E49E1A163E748323D7DB95C6B641D9AE899D2FFB285EE75F00",
+        "bytes":  99708
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Droplet.fbx.meta",
+        "sha256":  "6E13F2447B195631BE31C8ECE5C5C8B92FCC2D1232F50843237D263C9B576635",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Droplet.fbx",
+        "sha256":  "16E1071BBBFDAEFF0A84947C8B97FB4A498468551525054A75CDDC3478461890",
+        "bytes":  90764
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\CruiserWreck.fbx.meta",
+        "sha256":  "5A696FA03B77D4C6608D2975B15D386B7ECD59ABA15EB417D710EC5AF0A82E25",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\CruiserWreck.fbx",
+        "sha256":  "17D163694B74A7E291F176607C5A6DD34232C6E2BA85866A6BCD993BA43D6CAC",
+        "bytes":  113292
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Cruiser.fbx.meta",
+        "sha256":  "1AEB9F65FEE505E766B2D5CE133F83E4CE5F48BC01E292A35ED897F3A5BED75E",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Cruiser.fbx",
+        "sha256":  "6F17E786BC204BC2AB2F910050E39DC52941CB42CC3FA73C133173E6277E4387",
+        "bytes":  55020
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\CommandWreck.fbx.meta",
+        "sha256":  "246F891AFC377B8B6A45D5F11B7AF3CCF69124A6AAAC81DA00B60DCC13C1F578",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\CommandWreck.fbx",
+        "sha256":  "8AFE2FF83899A638567853AB6957DB99E7A38A786EDCC862A7D2CEDF92246DB0",
+        "bytes":  143660
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Fleet\\Command.fbx.meta",
+        "sha256":  "ED1ECA77D008BB183CB49139ABE1A67203192F8D8B34998C19A7DE345E7FB948",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection.meta",
+        "sha256":  "3AAF6B2A223A67D697326CD5A97C1F7D6CAD68B9F2323AF5E7426BAE339608BF",
+        "bytes":  172
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Signal.mat.meta",
+        "sha256":  "66DE66DAD8816843F65106E34204B06709B8384822C7E473489CC9CF8514F532",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Signal.mat",
+        "sha256":  "EF53039DC713D4C4F64210E1477A147404191F9E03B604E940E065CEB0EC77FC",
+        "bytes":  3827
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Reference.mat.meta",
+        "sha256":  "A09C3E161B0BEFAC376529B9D626A98AB7FA98B2DA71F09C7B39DAEEEC22CC1D",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Reference.mat",
+        "sha256":  "7F2D1F8F1FA3D0B8891A9FC9666748B5293C3AF6B28F793D32BB5582390671E3",
+        "bytes":  3840
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Lane.mat.meta",
+        "sha256":  "CCD941A26FD166A4EC016F4A54D0A4510749ECC4E004075AFD8D4F7DE65FB08F",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Lane.mat",
+        "sha256":  "73E175ADD7D8A74DC4EE635B3BE5FD494940655CC95F24E5856EDD53A3035772",
+        "bytes":  3829
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Hull.mat.meta",
+        "sha256":  "169C546418C7E5F4BA8FBA036FC9CE80A5D8B7DCA10642C665FEEF0BCB425890",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Hull.mat",
+        "sha256":  "EF57F03A9FAAFA8B2740214209A083C1C0DFEE4AB3459EB41B8E858241D732D8",
+        "bytes":  3830
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Droplet.mat.meta",
+        "sha256":  "21BA68427FEAD0D75E1BA01A7E17EFCEF735A429E41C500281429F3F161F44F8",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Materials\\Droplet.mat",
+        "sha256":  "66F2D9815BFB5255EC3132CC4CE138D6C201049A0E2704D540BB847C615C100A",
+        "bytes":  3820
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Droplet_Rebuilt.fbx",
+        "sha256":  "64AE334E108A0FFE7FFB39499D2C4F30333E800B461FDC43C2829AABCE5C33F8",
+        "bytes":  148268
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Droplet_Rebuilt.fbx.meta",
+        "sha256":  "0C66C1B384055796D9CC2AD22612A1383C132395542BAF93181C9CA302579770",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\EarthBase.mat",
+        "sha256":  "497DA6EFBFF9605CF9F115DF4636335EDE6F5FB584245239BF6380D78C160947",
+        "bytes":  2961
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Layout\\SpaceEnvironmentLayout.fbx.meta",
+        "sha256":  "26BECED002C6DD269A3B60B78FF49F1DBEA7F7B0562DFC8ECD07706732A05730",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Layout\\SpaceEnvironmentLayout.fbx",
+        "sha256":  "1ECF126370CB1A102F135BC1766B37EAC4F063B812564F71852F8C83013168AC",
+        "bytes":  390924
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Layout\\SpaceCalibration.fbx.meta",
+        "sha256":  "D5F894975137DF39CFFEE311D436EBAB0E2E692636F6614123EDAE34097C91BD",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Layout\\SpaceCalibration.fbx",
+        "sha256":  "E548A5136AFCB101396913E9F74BE356F71FB7138A9B60536224BCAF5A323A0F",
+        "bytes":  119436
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\EarthBase.mat.meta",
+        "sha256":  "AF3B291D3ACB3F7CEE087A9432C4EB757F36FB5A4EBC3DAACE269E2128F4387E",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\SunBase.mat.meta",
+        "sha256":  "E69FCC1DF8D1C692489B183397BCCBC677601C33D38FF90E3F24127AD9D84FD3",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\SunBase.mat",
+        "sha256":  "F5A2DCFAFD596DACE23DE289659DF87FD7B1C39AE7393F3900C58750F935C6FF",
+        "bytes":  1882
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\StarsBase.mat.meta",
+        "sha256":  "8998441B889F053B1DCD6C593C4B7FD302072DAAD1D0B31706E586835C2265EF",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\StarsBase.mat",
+        "sha256":  "4A1BF17C97F4E3D67D8A9ED4EED7695C74B1EA6789E901D0359D45AE3BF9030C",
+        "bytes":  1982
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\RockSlate.mat.meta",
+        "sha256":  "73C0B6572BEA7DFA6D450268791392CC31CAB95FC41D308AC0E5B5F4733D4BA8",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\RockSlate.mat",
+        "sha256":  "5AA56B8A4C8A0FD62B6EB8543BE6BA993984C6C954165A9709B73268ABA903B9",
+        "bytes":  2886
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\RockBasalt.mat.meta",
+        "sha256":  "29F885356814EADFA30DAC446A549F401B27A9E1BD701C2745E4A2FE76FD7097",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Materials\\RockBasalt.mat",
+        "sha256":  "B94F7A9C05646E37E1BE7713C387B34FBDAC06AC6AFA8BDE1F9C1F8DD7E3D8D0",
+        "bytes":  2888
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SolarSystemLayout\\manifest.json.meta",
+        "sha256":  "98F2F4147DB0D73451FC0F7E79EB892442F1E549BC623ABBBD4056B7D1A9AC5A",
+        "bytes":  158
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SolarSystemLayout\\manifest.json",
+        "sha256":  "FB558819E93DCE6A6F7E5A011ADE5A02B88EA022522DB985CDD4C7BCF207CF09",
+        "bytes":  23112
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SolarSystemLayout\\SolarLayoutConfig.json",
+        "sha256":  "7D10F38D35A895A66DE7022EA922B3A1BE21A222F60A7DAAF3C15519CE9A7977",
+        "bytes":  16756
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SolarSystemLayout\\SolarLayoutMarkers.fbx.meta",
+        "sha256":  "C84657729B04BAC9A8821890F2028EDD3A79B2399261BA35510F342571841EC6",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SolarSystemLayout\\SolarLayoutMarkers.fbx",
+        "sha256":  "7A1BE8114B60AAEEB2647868444924F6F75C9A37BED68D9E16D381C543DB95F3",
+        "bytes":  76524
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SolarSystemLayout\\SolarLayoutConfig.json.meta",
+        "sha256":  "98C94420E37D1925997ABD5868F6C8CB3480B0C367BF4A394FE590BE6AA357C9",
+        "bytes":  158
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\Stripes.cubemap.meta",
+        "sha256":  "ADBBB5D600B55F8CE1035BB6ED3F41E8B7BB5592A40BAAC73747793A83247DAF",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\Stripes.cubemap",
+        "sha256":  "65B1CFAEA8DFF4D5EEB15DAAF81EFCAFBA0DF5938B89CB7C31623FE6D30204FF",
+        "bytes":  787573
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\Mirror.mat.meta",
+        "sha256":  "616B39234ADD8472A88B8CDF4A24A6ECA2A2CA49E751B25DB2CBDC1B8A507F74",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\Mirror.mat",
+        "sha256":  "1B2AA0729644A627BC4CA7F9A5F2D1C83E11E872617F363D5D094672EA5D1613",
+        "bytes":  3799
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\Gray.mat.meta",
+        "sha256":  "32F9CAA742CC2E20D22D88462B34E3CC54E06031FC429AB5AE292AA30BD89BBE",
+        "bytes":  188
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\Gray.mat",
+        "sha256":  "6F194A4BDA4FACA276AF166E5BDC2392D1FF8744715E51BD686D5E000CE3DCE6",
+        "bytes":  3889
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\AnalyticMirror.shader.meta",
+        "sha256":  "694094A237A577CBC66B4E8B67AFA2CA020D26849511BFDB448A64C28B6940DB",
+        "bytes":  204
+    },
+    {
+        "path":  "Assets/_Project/Art\\Models\\Droplet_Rebuilt\\Inspection\\AnalyticMirror.shader",
+        "sha256":  "9429511B5E0A9B600895117DFE5934CF2D6FCF02809762B014ED04B44D8AB78F",
+        "bytes":  1574
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD2.fbx",
+        "sha256":  "ADBD003B4F9D1C9B3309689A46F4C111982921451D78426D78E01E0A98CE1A7C",
+        "bytes":  30364
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD1.fbx.meta",
+        "sha256":  "73AD9B349B2FD0ED021AE96A5C1B2BDB9D1EF4CDE9DA06101248C9AA38375DA6",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD1.fbx",
+        "sha256":  "8AF8400F3A49A1F5FDA80FF2358218A43F7EC5A141282D69B068B0087E467F0A",
+        "bytes":  55100
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD0.fbx.meta",
+        "sha256":  "FBE55570F3A1E6152021FA9CA42A54B2F4506E087FD6534BC4DF0D6DCF9FEC46",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD0.fbx",
+        "sha256":  "C54FF7D47BF639779A1718A9A1B71D82069DF052428747CC793FE36AEF00928E",
+        "bytes":  133452
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far01_LOD0.fbx",
+        "sha256":  "8EA2C9337702FA47F85E9C900C1021D223178EECD05A8F617F2C847AF6A184B7",
+        "bytes":  59068
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD2.fbx.meta",
+        "sha256":  "639A0157C12F0B005644580DAF5744ABEAC9AB6D5270BC80F1136CB00115E9E5",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far01_LOD0.fbx.meta",
+        "sha256":  "BD41F7054578ECBCEB474ADCE3E37E1E53D154E37F266357E3D091FACCEEF13F",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far02_LOD0.fbx",
+        "sha256":  "80CFE19473423383D20AE2BBC51C3D3BCCAF91DA012495D4CE160A36AFFECA96",
+        "bytes":  59164
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Sun_LOD0.fbx.meta",
+        "sha256":  "108232B9E08709ACBE86F9B8011EF9F589CB11A42D282121B487D38567D16244",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Sun_LOD0.fbx",
+        "sha256":  "412380E4D7E623BB1BFF53787B8391F52C021A025471A78FEBC1938479A535D4",
+        "bytes":  43500
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Sky_LOD0.fbx.meta",
+        "sha256":  "97669CA46809BD200B07BFF05F813E94A73F09D2465FA45677308AE269E2B9DA",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Sky_LOD0.fbx",
+        "sha256":  "907BB730111C2D73C211928381CF8799AC889C252BA23BA4E97D63AB5B5EA909",
+        "bytes":  37260
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD2.fbx.meta",
+        "sha256":  "76B5C8D99E8FDB9CA9FDD6DAF059B48C683E55B79832634D20DDFCEF4FA4AC29",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD2.fbx",
+        "sha256":  "6083D22812D39C097F08266999C53519B436703D102FE1EB81F905FE0C9029EE",
+        "bytes":  18140
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD1.fbx.meta",
+        "sha256":  "4FAE33012929A3820745A5414B2EC92B5C728B41E60AD4C9735454F9254F7247",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD1.fbx",
+        "sha256":  "8F6CEF02978C0C723A1E148DAC03CAE3833E3A8491F5512E61437424EF3A8A81",
+        "bytes":  25308
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD0.fbx.meta",
+        "sha256":  "0F0A8C6DE382BADFD340CC0D37547FEE44C35B932E12ED0E7005FDD41639211B",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD0.fbx",
+        "sha256":  "B092F8D51FC01A7F2C885A3D8A31E9718F4648EA65428517053DB547946D2FC9",
+        "bytes":  51596
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD2.fbx.meta",
+        "sha256":  "4D0B5488504823119D8CC56A4CB6297A6747EE348B0FD9F8A6F26F400C13EB7D",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD2.fbx",
+        "sha256":  "5C283049E7DB38319B5005A4DEA3279853A7E57A0198D9426687F5549A024EFA",
+        "bytes":  17500
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD1.fbx.meta",
+        "sha256":  "FD1F9ADC05F7253162498FD4F791EA824CB507A3756C1B806478B232A2578151",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD1.fbx",
+        "sha256":  "0C52CD862126D6E28EFF5447D76C96A971E17674B9B94DE52182B72805D6BE7A",
+        "bytes":  22652
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD0.fbx.meta",
+        "sha256":  "527463C929910C2767E13B16B4D5B387220E4F28BCE582FACB6D5E30F34C7937",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD0.fbx",
+        "sha256":  "718D9AC82661BCC7FF83BEFCE350800D54931238BC31DE96904C9C834FC53466",
+        "bytes":  42508
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD2.fbx.meta",
+        "sha256":  "7880A2A430D2D5BD82CFDC2572C560F24DB5F5EADFCC4695AC68DBBD086265E9",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD2.fbx",
+        "sha256":  "B5DA7C83CBA6CAFE9A049287C50BCF3492AAF780133BCC0446755E64B98B525E",
+        "bytes":  17516
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD1.fbx.meta",
+        "sha256":  "6AF1107CB46AC1F1CB0328A4B152DB771AC9BC2BFA7512ACA3B6CA8A9DCCD622",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD1.fbx",
+        "sha256":  "3F6DEFA8547B1483B070FC84CE476EF46D8F60050D4466755E7603AA1D1D51F4",
+        "bytes":  22652
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD0.fbx.meta",
+        "sha256":  "925D1936DB0C8E0DB84AF1623E5C03EE904DEA0018BCEC00FD0D3F1D00E37F67",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD0.fbx",
+        "sha256":  "46D8C7917FD94B35CE2EB692AD8D894F5EC0399B93A591093531050562B919FE",
+        "bytes":  42524
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD2.fbx.meta",
+        "sha256":  "D6A35FA3542097F3C0836FE96B52487B37DBA01801BA3809CCD9E73C27C8989E",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD2.fbx",
+        "sha256":  "630D5E63EC1FB6217CC29130CA0C6DCD7A7D49E21513787F21F3F1C7619897BB",
+        "bytes":  17500
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD1.fbx.meta",
+        "sha256":  "E7C5DBCCB1B509D9EDAB4F693E320CBECC00F607CA132F1D9F7F1551BC36C9EF",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD1.fbx",
+        "sha256":  "559BD38110FED33C7293186A777D15AAB749D97CDA66964AFC6CD0450B5C5A73",
+        "bytes":  22652
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD0.fbx.meta",
+        "sha256":  "7CE875979AC7A1804EDE3DA2C30229BBAEFAA3B6620F079B9FC956C5AC285D93",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD0.fbx",
+        "sha256":  "DE3791B0857CEE9BA071D78611562F2DA12F7191D7B4A1DB9A74A5EF7233240F",
+        "bytes":  42444
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD2.fbx.meta",
+        "sha256":  "AB73F093810C5770A93E129048DC53BBA2AFA0BFC90876D35A26248CC617864E",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD2.fbx",
+        "sha256":  "DB933D6636EF9F5E6FC5FA5E6564D1F587FA00DDE7CD411C9DAD2B814F36BC3A",
+        "bytes":  18140
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD1.fbx.meta",
+        "sha256":  "2ED2394BCE336F1E728E324D3ABCF3C048B8E8AE512BEB5023E08D8FD17C487F",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD1.fbx",
+        "sha256":  "DB345117CA3AECE6629825BFE9DB936D43FD2971BF380A5BC3405DCCD7EF196C",
+        "bytes":  25308
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD0.fbx.meta",
+        "sha256":  "F8C758D3B66BA772C92395FE12DB04ADECA666F7B455406B6CAF7279653AA968",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD0.fbx",
+        "sha256":  "31B285BEE98E7EF0921684CE6C80834870499C6E9D9BA2011938AE60376B9789",
+        "bytes":  53308
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD2.fbx.meta",
+        "sha256":  "BBD649ADD9E9580EDCE5DD79D5823716392051D733ED716FCD6F4E68472129E8",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD2.fbx",
+        "sha256":  "7253466B219AEF0A6E7700DB1B357A8E40089562430093775741800F1ACF317F",
+        "bytes":  17500
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD1.fbx.meta",
+        "sha256":  "CD74AE1C1FA79225011EE38910B700F53E66FF33824D1600526DEED47F88EED8",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD1.fbx",
+        "sha256":  "505B1AE046D6AB0E9F63DD91D956A6DF93A0CB7285ED1E01DC7881B7CC1C795E",
+        "bytes":  22652
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD0.fbx.meta",
+        "sha256":  "FB32E5B178AEA22B9D0B876637FBB1AF88036E1A4C4A768F02C3A47A927B921A",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD0.fbx",
+        "sha256":  "AA1F1D208275CCF2197F64DD038C033E637B64755D12AAC48855D02608736B5E",
+        "bytes":  42396
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD2.fbx.meta",
+        "sha256":  "0BC90D8DB511DE2D87575723579D2F91C987D404C13B622125A670EC4C66A3B1",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD2.fbx",
+        "sha256":  "13D487D628EE16ADE92475EBAEF648467965E7B9F2BF5A4344C8EA541FD86769",
+        "bytes":  17500
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD1.fbx.meta",
+        "sha256":  "6A0771664CAB518998868F57726FC3B9D6EF3053900C8ACC32016CD8B2AEFB44",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD1.fbx",
+        "sha256":  "B5F86CE3BE54714B65111C4914EF21C85BCFAABBBF4624525576AF88B5A35B7B",
+        "bytes":  22668
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD0.fbx.meta",
+        "sha256":  "7E11B6A2EA5F22CD8F6AD1319D5FFE584A2A397196012E7BD8001ACF02B1094B",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD0.fbx",
+        "sha256":  "909B782C2FB96AE636F05545E0D38E23914C49B4E30618197B406B5250EB835B",
+        "bytes":  42540
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD2.fbx.meta",
+        "sha256":  "E2A9C4BCB7679E8620BB5B2019DC3163855D5954188363A1D2CC94EE5502C9FB",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD2.fbx",
+        "sha256":  "4A93C0D20C8E40556473F6167C34570D7DE4FBD450B035F99229983287A3C1E4",
+        "bytes":  17500
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD1.fbx.meta",
+        "sha256":  "6D1C1973C266274C2B0439BB9D4E48D9E23692E9A8B8FFCDFF2991F8E6D52568",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD1.fbx",
+        "sha256":  "C1E4FC309E3C64D196D884F4C79F4DFA3460666A573B1245A3CB4DD5C1758077",
+        "bytes":  22604
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD0.fbx.meta",
+        "sha256":  "A163A2E681B86D0081D148E67326C182B6EA6EE0FD4FE7D5B7A0568149DE0D58",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD0.fbx",
+        "sha256":  "7A72027B90B425475DC0277E0A6AB6F212E36A6EA12E3359C0D61A6BDA3D1680",
+        "bytes":  42412
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far08_LOD0.fbx.meta",
+        "sha256":  "C9AD8F92DFFD4E513389BF826138D3E175F47A06F7884A198870C4A6A3DFAB0E",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far08_LOD0.fbx",
+        "sha256":  "CD6596EB1242F67CA7B1F8B31D348AF91F197AA6E98BD8FDEE8FF3C3E50C459F",
+        "bytes":  59148
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far07_LOD0.fbx.meta",
+        "sha256":  "9CD9B71782366523C1D20F8B7AA2376BB63EBA05E6DAED8042305245A09DFD49",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far07_LOD0.fbx",
+        "sha256":  "09281933456C5ED33B6057A36ECFBB38B423D3E4B8BA3F74EF5C832934EC503F",
+        "bytes":  59068
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far06_LOD0.fbx.meta",
+        "sha256":  "80F51E1B4DD5450944ED7D573ED800D6291B813AFC7E6C0E51582F26BC3A6BF0",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far06_LOD0.fbx",
+        "sha256":  "A7426E93D79072CAB7C0040FECBAFF9EF1735935B559B9EDCECC906F950EB1FC",
+        "bytes":  59356
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far05_LOD0.fbx.meta",
+        "sha256":  "94605896CB718E9902B3A72702FEA1EB5E1A23A980B13F1128CA9FC9590DDB66",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far05_LOD0.fbx",
+        "sha256":  "2A5C0737F4F58B20A47443A330388EC552D51A7234BDF990F7FF20D56A21CCCD",
+        "bytes":  58844
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far04_LOD0.fbx.meta",
+        "sha256":  "47D2DEDEEE6413803CA1EAAF8F540127CFCED1EED942E602C2D08FA4056D2454",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far04_LOD0.fbx",
+        "sha256":  "4E89557402148245F1A81843685F85A05465627D64D03CDB5A9C23DD01492519",
+        "bytes":  58972
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far03_LOD0.fbx.meta",
+        "sha256":  "597464D3B9D0842F08338C52BEDA46A8BE5BA851226EDEC6B7A11EF6B0A8686D",
+        "bytes":  2993
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far03_LOD0.fbx",
+        "sha256":  "B7A7E5619945A0DFC667C60232E8CB0830F0D0C39A475BFCC2D1C95DB4D9F98C",
+        "bytes":  59052
+    },
+    {
+        "path":  "Assets/_Project/Art\\Environment\\SpaceEnvironment\\Models\\Far02_LOD0.fbx.meta",
+        "sha256":  "4B6E43C1D40BE480139646C9B210E4BFD3294B94894A21440929215D8B0267A5",
+        "bytes":  2993
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "result": "Succeeded",
+    "output": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\Builds\\Windows-NarrativeCombat\\DropletPrototype.exe",
+    "unity": "6000.5.10f1",
+    "errors": 0,
+    "warnings": 1,
+    "seconds": 17.2710064,
+    "bytes": 214210608,
+    "frameTimingStats": true
+}

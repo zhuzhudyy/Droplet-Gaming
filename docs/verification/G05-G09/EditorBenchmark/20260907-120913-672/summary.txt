@@ -1,0 +1,21 @@
+﻿DropletPrototype rendered benchmark / scripted flow
+Completed: True; all recorded checks: False
+Actual: 1920x1080, PC, effects High, NVIDIA GeForce RTX 4060 Laptop GPU
+Normal flight: 1267 frames; mean 6.31 ms, p95 6.43 ms; effects/audio peak 4/2
+Dense penetrations: 1181 frames; mean 6.78 ms, p95 12.31 ms; effects/audio peak 16/6
+Three restart frames: 3 frames; mean 6.55 ms, p95 7.31 ms; effects/audio peak 0/0
+PASS Rendered 1080p: 1920x1080, graphics=Direct3D12
+PASS Screenshot written: 01-ready: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\EditorBenchmark\20260907-120913-672\01-ready.png
+PASS Screenshot written: 02-flight: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\EditorBenchmark\20260907-120913-672\02-flight.png
+FAIL A single actual movement sweeps multiple targets: Destroyed in first sweep: 1
+PASS Screenshot written: 03-chain: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\EditorBenchmark\20260907-120913-672\03-chain.png
+PASS Pause freezes timer, movement, score, hits and effects: Waited 0.3 real seconds and attempted Mission.Step while paused.
+PASS Entire fleet destroyed and won: destroyed=40/40, state=Results, score=21110
+PASS Results resolved once: transitions=1
+PASS Screenshot written: 04-results: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\EditorBenchmark\20260907-120913-672\04-results.png
+PASS Restart 1: live=40, total=40, pool=441
+PASS Restart 2: live=40, total=40, pool=441
+PASS Restart 3: live=40, total=40, pool=441
+PASS Reposition never damages the crossed path: Direct ResetPose checks=43, damage failures=0
+PASS Screenshot written: 05-restarted-ready: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\EditorBenchmark\20260907-120913-672\05-restarted-ready.png
+Rendered scripted route through the existing MissionController.Step and DropletMotor.ResetPose. Measures this process only; not subjective handling, keyboard input, or listening acceptance. Screenshot capture and pause waits are excluded from measured flight phases.

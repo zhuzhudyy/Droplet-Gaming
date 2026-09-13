@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "schemaVersion": 1,
+  "blender": "5.2.1 LTS",
+  "blenderBuild": "9e2066aef7ef",
+  "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+  "authorityPath": "Tools/Blender/Fleet2000Sun/layout_config.json",
+  "authoritySha256": "b47d6be8ed3d2a9260beb432b076b1a4e5f446783d0db335bbf68f795004d627",
+  "blendPath": "ArtSource/Blender/Fleet2000Sun/FleetLayout_2000_Sun.blend",
+  "blendSha256": "5716c6646c2acbe1d4461da33b48d305f4f55fb117424e667331c4e690c5732d",
+  "exportPath": "ArtSource/Exports/Fleet2000Sun/FleetLayout_2000_Sun.json",
+  "exportSha256": "b47d6be8ed3d2a9260beb432b076b1a4e5f446783d0db335bbf68f795004d627",
+  "sourcePreservation": {
+    "ArtSource/Blender/Ships/FusionFrigate/FusionFrigate.blend": "446ee1a13616635b8bc26c0197e7afb7bbad8be55afa08f7f9cbb2eadf2a93df",
+    "ArtSource/Exports/Ships/FusionFrigate/FusionFrigate.fbx": "aaa3a754c9f0adb1f45841c5c3e2955d26f8ab7a4a2a895ea45f261c33e6403a"
+  },
+  "markerCount": 2000,
+  "modelId": "FusionFrigate",
+  "newFbxCount": 0,
+  "sharedCollectionCount": 1,
+  "sharedPrototypeMeshCount": 12,
+  "sharedPrototypeTriangles": 1396,
+  "previewBoundsBlender": {
+    "min": [
+      -9.593999862670898,
+      -28.781999588012695,
+      -7.101992130279541
+    ],
+    "max": [
+      9.593999862670898,
+      28.781997680664062,
+      9.047999382019043
+    ],
+    "size": [
+      19.187999725341797,
+      57.56399726867676,
+      16.149991512298584
+    ]
+  },
+  "measurements": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "columns": 50,
+    "rows": 20,
+    "layers": 2,
+    "centerBounds": {
+      "min": [
+        -4144.608,
+        8.0,
+        300.0
+      ],
+      "max": [
+        4331.691,
+        123.128,
+        4703.646
+      ],
+      "size": [
+        8476.298999999999,
+        115.128,
+        4403.646
+      ]
+    },
+    "visualBounds": {
+      "min": [
+        -4154.202,
+        0.8980090000000001,
+        271.218
+      ],
+      "max": [
+        4341.285,
+        132.176,
+        4732.428
+      ],
+      "size": [
+        8495.487000000001,
+        131.277991,
+        4461.21
+      ]
+    },
+    "nearestMin": 119.5406240112539,
+    "nearestMedian": 119.54062401125404,
+    "nearestMax": 119.54062401125411,
+    "shipPairVisualAabbOverlapCount": 0,
+    "allShipPairsChecked": 1999000,
+    "minimumVisualAabbClearance": 98.978009,
+    "maximumFleetRadiusFromSolarOrigin": 6237.857248045926,
+    "equalSpacing": {
+      "lateral": 172.692,
+      "longitudinal": 230.256,
+      "vertical": 115.128
+    },
+    "orientation": "Every ship +Z forward/+Y up in JSON and Unity. Every Blender instance +Y forward/+Z up.",
+    "method": "Exhaustive pairwise nearest centres and conservative full-ship visual AABB separation. No claim about Unity rock placement or gameplay collision tests."
+  },
+  "routeEstimate": {
+    "method": "Conservative full-clear two-layer 100-lane snake estimate, not a human playthrough. Regular real spacing plus unchanged 52/156 m/s movement produces a long all-2000-target route. The estimate explicitly prevents reusing the old 540-second limit.",
+    "lengthMeters": 458685.2079200396,
+    "effectiveSpeedMetersPerSecond": 70.90909090909092,
+    "travelSeconds": 6468.6375475903005,
+    "laneTurnAllowanceSeconds": 297,
+    "targetAlignmentAllowanceSeconds": 1000.0,
+    "marginMultiplier": 1.15,
+    "unroundedMissionSeconds": 8930.483179728844,
+    "roundedMissionSeconds": 8940
+  }
+}

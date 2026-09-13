@@ -1,0 +1,8 @@
+﻿{
+    "passed":  true,
+    "operation":  "Explicit deterministic reflow repeated with unchanged parameters",
+    "beforeSha256":  "B47D6BE8ED3D2A9260BEB432B076B1A4E5F446783D0DB335BBF68F795004D627",
+    "afterSha256":  "B47D6BE8ED3D2A9260BEB432B076B1A4E5F446783D0DB335BBF68F795004D627",
+    "exportSha256":  "B47D6BE8ED3D2A9260BEB432B076B1A4E5F446783D0DB335BBF68F795004D627",
+    "authorityMatchesExport":  true
+}

@@ -1,0 +1,1962 @@
+﻿[
+    {
+        "path":  "Assets\\InputSystem_Actions.inputactions",
+        "sha256":  "1C6CBB519D65ECFE19A29231735B7F54741A20AC1A8AD4F46A18E1BFB28A3C39"
+    },
+    {
+        "path":  "Assets\\InputSystem_Actions.inputactions.meta",
+        "sha256":  "3B4E424A80F5B4FA76B6ABD774884A24285EAA61F22FF9BB20E5AD505FD8B569"
+    },
+    {
+        "path":  "Assets\\Readme.asset",
+        "sha256":  "6D098604E909B6A0E64FE5910C2719704864D49678BCF5413BD47B67E5490107"
+    },
+    {
+        "path":  "Assets\\Readme.asset.meta",
+        "sha256":  "46C6B89AC1D47BD0C0D1A8B141AE3E32CD95D3E74C49381F0D9F942488C254CE"
+    },
+    {
+        "path":  "Assets\\Resources.meta",
+        "sha256":  "82C70379F937DD8D7E07BDFC86319C16A287CF3EEE94AFC15F84749FB0907D5C"
+    },
+    {
+        "path":  "Assets\\Scenes.meta",
+        "sha256":  "7CDD1000991122F584744A865A4A6327772AB6CAAD61A9E3CE4B25130BF0F3A3"
+    },
+    {
+        "path":  "Assets\\Settings.meta",
+        "sha256":  "73C8E19843240273FACB0AF6BDBF430D719E397ADED705629594060CE25CE7AD"
+    },
+    {
+        "path":  "Assets\\TutorialInfo.meta",
+        "sha256":  "07F022E5932C833D026E020B27D73452EBD781993B616D76003494AF1E140946"
+    },
+    {
+        "path":  "Assets\\_Project.meta",
+        "sha256":  "ADEB3D2F53A96E43B50B3CDE9960BE00E7A3693E82A7178654967A36946FB65B"
+    },
+    {
+        "path":  "Assets\\Scenes\\SampleScene.unity",
+        "sha256":  "07FCE8B04804DDCCB3026DB5B43D8DC41BA138E49D50D36A5C24877081EACDCA"
+    },
+    {
+        "path":  "Assets\\Scenes\\SampleScene.unity.meta",
+        "sha256":  "B5815A6B12AFAF810577BC89041C4CE46516C7CD6609693F8DB616F8E5584D80"
+    },
+    {
+        "path":  "Assets\\Settings\\DefaultVolumeProfile.asset",
+        "sha256":  "463776C51AE49D4FEF980E8FD268081B2F505610D79315003FAAE1ACFF8F4115"
+    },
+    {
+        "path":  "Assets\\Settings\\DefaultVolumeProfile.asset.meta",
+        "sha256":  "EFBCB026CEE6B8E32FDF27018C06B0515296A6CCBB43969E792FEA270310700A"
+    },
+    {
+        "path":  "Assets\\Settings\\Mobile_Renderer.asset",
+        "sha256":  "AA93274C9521FA941170BECEC9E87C5FA36B8587EEFD5EEB5C0EED0D1D4B1DBE"
+    },
+    {
+        "path":  "Assets\\Settings\\Mobile_Renderer.asset.meta",
+        "sha256":  "A148EE2B4987B05B8FF7AE5F9BF84916184F77AEFDDC821DCEB551F5A69F8179"
+    },
+    {
+        "path":  "Assets\\Settings\\Mobile_RPAsset.asset",
+        "sha256":  "BA642B95FE751D42A081A346B4DEE94CED67B3E7C8ED8C4F2929F6EB51D55B18"
+    },
+    {
+        "path":  "Assets\\Settings\\Mobile_RPAsset.asset.meta",
+        "sha256":  "53EA46647712C615FD1A3F2E0DDDFA8559EEEDC649E9A1DBF93FF913DE28544C"
+    },
+    {
+        "path":  "Assets\\Settings\\PC_Renderer.asset",
+        "sha256":  "3D0B01D8DED3327263B6690BE128A3DE58D17C514943AE42FE743A3E084A9C79"
+    },
+    {
+        "path":  "Assets\\Settings\\PC_Renderer.asset.meta",
+        "sha256":  "B5DF8DDB2708C6ED4C133A5FF9EE95A75CC20E4EE3ED6181366A61AEDBAF31EC"
+    },
+    {
+        "path":  "Assets\\Settings\\PC_RPAsset.asset",
+        "sha256":  "699E47BC4D32D1699DBCEE926569742A662A70D319997534D3A8DC60150F7676"
+    },
+    {
+        "path":  "Assets\\Settings\\PC_RPAsset.asset.meta",
+        "sha256":  "BB469B9B6F318E9E9BED29C3B2E73E79371C04743C6F95DD6603941F1CD3E53E"
+    },
+    {
+        "path":  "Assets\\Settings\\SampleSceneProfile.asset",
+        "sha256":  "A8677D4BAC051D24CAA11CD622E39F968155EE277BFCE132274F1DE225692FE9"
+    },
+    {
+        "path":  "Assets\\Settings\\SampleSceneProfile.asset.meta",
+        "sha256":  "2E23ABC214069F0ADBF2B2207F1DB54BE7876629EC2A3681D0F4AA5B61622EF0"
+    },
+    {
+        "path":  "Assets\\Settings\\UniversalRenderPipelineGlobalSettings.asset",
+        "sha256":  "E1ECB333956F717D6F94D95B5FAF685FF24D009E9CA014BFED40A47226208EC3"
+    },
+    {
+        "path":  "Assets\\Settings\\UniversalRenderPipelineGlobalSettings.asset.meta",
+        "sha256":  "F61661D8BC8DBE531DAF09F6211EF978C7BA145C9207C8E76524396AE0722D7C"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Icons.meta",
+        "sha256":  "546E7D7AF6B4D5E17D284C8F1188D05472E681911B8359905EE9B9E20769A106"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Layout.wlt",
+        "sha256":  "0A18BF035AA7CE914F19F7CE6B60A5A2D33E2371AF6F492A8EA7A1BC78755B8B"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Layout.wlt.meta",
+        "sha256":  "B8745A251DF078FFA75DBAAC0C4C6DEBECB61AB306B5B119A490CE6C635A11D8"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Scripts.meta",
+        "sha256":  "930D0C8276CEA1559A3E315F8500EA6CA8B58D980EEE3B44AAA1D461742C47E0"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Icons\\URP.png",
+        "sha256":  "1D17A9FF3537859ABE2C008603D29D90CF43191AE77AA386167CC65E53BA03D9"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Icons\\URP.png.meta",
+        "sha256":  "B330F1FCFC4E6CECCC95FC34A38434141603469B135633E1C4E8A03C19F9FDBC"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Scripts\\Editor.meta",
+        "sha256":  "7036BDBC8AF05799B5FD508484343B35C28A68B390198DA4673D34357D7D667F"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Scripts\\Readme.cs",
+        "sha256":  "C09C93844F93EB252A6FB39C222D169C63A63E96008FD040B9E7628C3E7CCC2E"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Scripts\\Readme.cs.meta",
+        "sha256":  "80A3DF9969FAB6E656583EE9BBCA884D0507E2B7DE3417F6EA3118FBA901CD60"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
+        "sha256":  "D2023934BC2BE23AF69CD930ADE85EFF41C5DB0A6F6666B05324B975BEFDB5B5"
+    },
+    {
+        "path":  "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs.meta",
+        "sha256":  "F59080B424C16FA13EDD105BF006FDBAD98C11FCE0C921043E63C8877F144CD9"
+    },
+    {
+        "path":  "Assets\\_Project\\Art.meta",
+        "sha256":  "D6498EA62C6089C616B561AAEDD6C460A09CEF35FF29EEE0068E3BD92A72BDB5"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio.meta",
+        "sha256":  "2AE9D93C0652A0523F7220FD4DFF93BBC8B33F8243930D5B74E636BED398A37D"
+    },
+    {
+        "path":  "Assets\\_Project\\Data.meta",
+        "sha256":  "456A104CC5CC1D9CA3026EAF5CDF4936A3ACEB05F3C26D0CE9BB3D02275F468D"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs.meta",
+        "sha256":  "840792B8313047C185B25D8033995CFFC5F0441B5176DEE803A216523BFFDDDA"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes.meta",
+        "sha256":  "2363913B2D25AF62385787DA7592D8B8EABBA40D9AC98139254CB1CEB59D9863"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts.meta",
+        "sha256":  "C71C40C94D0B819278063B882A032A3D8FC09CFE6F9E1912424956B88B7314F4"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests.meta",
+        "sha256":  "A02E7C4776DCDBF621C9EE154DD95DE6A12FFA1FA0C44C6808DA9BD8C6D62A90"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment.meta",
+        "sha256":  "0ACF0DBFB3E6CA290926FC0DCFEF63ACECD7814A2510CDA3E16B7F078BA3FDA1"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials.meta",
+        "sha256":  "B06D3214C828504DBDF340147E759F772E808712AB9B6B65E31ADFCEF9E25539"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials.meta",
+        "sha256":  "FB10CC3A47BFBE3A07157382596BAFF1B5AD2B0223315F857CE689B785471451"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models.meta",
+        "sha256":  "0DDC8AC56CAA3CE684E1DC2CEA98DEF76FEC1A465A85A8659E74AA6D789C61F2"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Shaders.meta",
+        "sha256":  "1513A7DB110DD308261DA85CF55A41B6E48E3D2C26E872DBEF8B42D0CCF3E4CC"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Textures.meta",
+        "sha256":  "3FFC3F96159C61892D0BD63781F3101F0331405F11C7EC9E11228EB2053ACD96"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment.meta",
+        "sha256":  "B5FF17D26ABBC02516B4CE5292483942A232493B7CC82A3470F88387AB13A67C"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Layout.meta",
+        "sha256":  "7B7CCDCFDE3D1B99D1F78826A6210CEC126A6DAA1497B83E6EF39CE73FAA0123"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials.meta",
+        "sha256":  "7F0C3B840CF757AF524F2F987204B05DFC086BF215FAECE849A74AE40B23B74E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models.meta",
+        "sha256":  "F5F944A6AC72664D2FC137F8A1521C5956732631CB6C13CAC3A3B894FA8A1A78"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\PreviewOnly.meta",
+        "sha256":  "4F56D863AA624AA4A3A5E019CC97C74C095522A40BF1A30303B2475A918C7D61"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Textures.meta",
+        "sha256":  "D87834AF733732DB7633CBB002A6DD4CA93244F301A8ABE3E78E3DD566635D2F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Layout\\SpaceCalibration.fbx",
+        "sha256":  "E548A5136AFCB101396913E9F74BE356F71FB7138A9B60536224BCAF5A323A0F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Layout\\SpaceCalibration.fbx.meta",
+        "sha256":  "D5F894975137DF39CFFEE311D436EBAB0E2E692636F6614123EDAE34097C91BD"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Layout\\SpaceEnvironmentLayout.fbx",
+        "sha256":  "1ECF126370CB1A102F135BC1766B37EAC4F063B812564F71852F8C83013168AC"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Layout\\SpaceEnvironmentLayout.fbx.meta",
+        "sha256":  "26BECED002C6DD269A3B60B78FF49F1DBEA7F7B0562DFC8ECD07706732A05730"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\EarthBase.mat",
+        "sha256":  "497DA6EFBFF9605CF9F115DF4636335EDE6F5FB584245239BF6380D78C160947"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\EarthBase.mat.meta",
+        "sha256":  "AF3B291D3ACB3F7CEE087A9432C4EB757F36FB5A4EBC3DAACE269E2128F4387E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\RockBasalt.mat",
+        "sha256":  "B94F7A9C05646E37E1BE7713C387B34FBDAC06AC6AFA8BDE1F9C1F8DD7E3D8D0"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\RockBasalt.mat.meta",
+        "sha256":  "29F885356814EADFA30DAC446A549F401B27A9E1BD701C2745E4A2FE76FD7097"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\RockSlate.mat",
+        "sha256":  "5AA56B8A4C8A0FD62B6EB8543BE6BA993984C6C954165A9709B73268ABA903B9"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\RockSlate.mat.meta",
+        "sha256":  "73C0B6572BEA7DFA6D450268791392CC31CAB95FC41D308AC0E5B5F4733D4BA8"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\StarsBase.mat",
+        "sha256":  "4A1BF17C97F4E3D67D8A9ED4EED7695C74B1EA6789E901D0359D45AE3BF9030C"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\StarsBase.mat.meta",
+        "sha256":  "8998441B889F053B1DCD6C593C4B7FD302072DAAD1D0B31706E586835C2265EF"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\SunBase.mat",
+        "sha256":  "F5A2DCFAFD596DACE23DE289659DF87FD7B1C39AE7393F3900C58750F935C6FF"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Materials\\SunBase.mat.meta",
+        "sha256":  "E69FCC1DF8D1C692489B183397BCCBC677601C33D38FF90E3F24127AD9D84FD3"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD0.fbx",
+        "sha256":  "C54FF7D47BF639779A1718A9A1B71D82069DF052428747CC793FE36AEF00928E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD0.fbx.meta",
+        "sha256":  "FBE55570F3A1E6152021FA9CA42A54B2F4506E087FD6534BC4DF0D6DCF9FEC46"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD1.fbx",
+        "sha256":  "8AF8400F3A49A1F5FDA80FF2358218A43F7EC5A141282D69B068B0087E467F0A"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD1.fbx.meta",
+        "sha256":  "73AD9B349B2FD0ED021AE96A5C1B2BDB9D1EF4CDE9DA06101248C9AA38375DA6"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD2.fbx",
+        "sha256":  "ADBD003B4F9D1C9B3309689A46F4C111982921451D78426D78E01E0A98CE1A7C"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Earth_LOD2.fbx.meta",
+        "sha256":  "639A0157C12F0B005644580DAF5744ABEAC9AB6D5270BC80F1136CB00115E9E5"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far01_LOD0.fbx",
+        "sha256":  "8EA2C9337702FA47F85E9C900C1021D223178EECD05A8F617F2C847AF6A184B7"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far01_LOD0.fbx.meta",
+        "sha256":  "BD41F7054578ECBCEB474ADCE3E37E1E53D154E37F266357E3D091FACCEEF13F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far02_LOD0.fbx",
+        "sha256":  "80CFE19473423383D20AE2BBC51C3D3BCCAF91DA012495D4CE160A36AFFECA96"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far02_LOD0.fbx.meta",
+        "sha256":  "4B6E43C1D40BE480139646C9B210E4BFD3294B94894A21440929215D8B0267A5"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far03_LOD0.fbx",
+        "sha256":  "B7A7E5619945A0DFC667C60232E8CB0830F0D0C39A475BFCC2D1C95DB4D9F98C"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far03_LOD0.fbx.meta",
+        "sha256":  "597464D3B9D0842F08338C52BEDA46A8BE5BA851226EDEC6B7A11EF6B0A8686D"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far04_LOD0.fbx",
+        "sha256":  "4E89557402148245F1A81843685F85A05465627D64D03CDB5A9C23DD01492519"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far04_LOD0.fbx.meta",
+        "sha256":  "47D2DEDEEE6413803CA1EAAF8F540127CFCED1EED942E602C2D08FA4056D2454"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far05_LOD0.fbx",
+        "sha256":  "2A5C0737F4F58B20A47443A330388EC552D51A7234BDF990F7FF20D56A21CCCD"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far05_LOD0.fbx.meta",
+        "sha256":  "94605896CB718E9902B3A72702FEA1EB5E1A23A980B13F1128CA9FC9590DDB66"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far06_LOD0.fbx",
+        "sha256":  "A7426E93D79072CAB7C0040FECBAFF9EF1735935B559B9EDCECC906F950EB1FC"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far06_LOD0.fbx.meta",
+        "sha256":  "80F51E1B4DD5450944ED7D573ED800D6291B813AFC7E6C0E51582F26BC3A6BF0"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far07_LOD0.fbx",
+        "sha256":  "09281933456C5ED33B6057A36ECFBB38B423D3E4B8BA3F74EF5C832934EC503F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far07_LOD0.fbx.meta",
+        "sha256":  "9CD9B71782366523C1D20F8B7AA2376BB63EBA05E6DAED8042305245A09DFD49"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far08_LOD0.fbx",
+        "sha256":  "CD6596EB1242F67CA7B1F8B31D348AF91F197AA6E98BD8FDEE8FF3C3E50C459F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Far08_LOD0.fbx.meta",
+        "sha256":  "C9AD8F92DFFD4E513389BF826138D3E175F47A06F7884A198870C4A6A3DFAB0E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD0.fbx",
+        "sha256":  "7A72027B90B425475DC0277E0A6AB6F212E36A6EA12E3359C0D61A6BDA3D1680"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD0.fbx.meta",
+        "sha256":  "A163A2E681B86D0081D148E67326C182B6EA6EE0FD4FE7D5B7A0568149DE0D58"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD1.fbx",
+        "sha256":  "C1E4FC309E3C64D196D884F4C79F4DFA3460666A573B1245A3CB4DD5C1758077"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD1.fbx.meta",
+        "sha256":  "6D1C1973C266274C2B0439BB9D4E48D9E23692E9A8B8FFCDFF2991F8E6D52568"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD2.fbx",
+        "sha256":  "4A93C0D20C8E40556473F6167C34570D7DE4FBD450B035F99229983287A3C1E4"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock01_LOD2.fbx.meta",
+        "sha256":  "E2A9C4BCB7679E8620BB5B2019DC3163855D5954188363A1D2CC94EE5502C9FB"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD0.fbx",
+        "sha256":  "909B782C2FB96AE636F05545E0D38E23914C49B4E30618197B406B5250EB835B"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD0.fbx.meta",
+        "sha256":  "7E11B6A2EA5F22CD8F6AD1319D5FFE584A2A397196012E7BD8001ACF02B1094B"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD1.fbx",
+        "sha256":  "B5F86CE3BE54714B65111C4914EF21C85BCFAABBBF4624525576AF88B5A35B7B"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD1.fbx.meta",
+        "sha256":  "6A0771664CAB518998868F57726FC3B9D6EF3053900C8ACC32016CD8B2AEFB44"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD2.fbx",
+        "sha256":  "13D487D628EE16ADE92475EBAEF648467965E7B9F2BF5A4344C8EA541FD86769"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock02_LOD2.fbx.meta",
+        "sha256":  "0BC90D8DB511DE2D87575723579D2F91C987D404C13B622125A670EC4C66A3B1"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD0.fbx",
+        "sha256":  "AA1F1D208275CCF2197F64DD038C033E637B64755D12AAC48855D02608736B5E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD0.fbx.meta",
+        "sha256":  "FB32E5B178AEA22B9D0B876637FBB1AF88036E1A4C4A768F02C3A47A927B921A"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD1.fbx",
+        "sha256":  "505B1AE046D6AB0E9F63DD91D956A6DF93A0CB7285ED1E01DC7881B7CC1C795E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD1.fbx.meta",
+        "sha256":  "CD74AE1C1FA79225011EE38910B700F53E66FF33824D1600526DEED47F88EED8"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD2.fbx",
+        "sha256":  "7253466B219AEF0A6E7700DB1B357A8E40089562430093775741800F1ACF317F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock03_LOD2.fbx.meta",
+        "sha256":  "BBD649ADD9E9580EDCE5DD79D5823716392051D733ED716FCD6F4E68472129E8"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD0.fbx",
+        "sha256":  "31B285BEE98E7EF0921684CE6C80834870499C6E9D9BA2011938AE60376B9789"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD0.fbx.meta",
+        "sha256":  "F8C758D3B66BA772C92395FE12DB04ADECA666F7B455406B6CAF7279653AA968"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD1.fbx",
+        "sha256":  "DB345117CA3AECE6629825BFE9DB936D43FD2971BF380A5BC3405DCCD7EF196C"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD1.fbx.meta",
+        "sha256":  "2ED2394BCE336F1E728E324D3ABCF3C048B8E8AE512BEB5023E08D8FD17C487F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD2.fbx",
+        "sha256":  "DB933D6636EF9F5E6FC5FA5E6564D1F587FA00DDE7CD411C9DAD2B814F36BC3A"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock04_LOD2.fbx.meta",
+        "sha256":  "AB73F093810C5770A93E129048DC53BBA2AFA0BFC90876D35A26248CC617864E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD0.fbx",
+        "sha256":  "DE3791B0857CEE9BA071D78611562F2DA12F7191D7B4A1DB9A74A5EF7233240F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD0.fbx.meta",
+        "sha256":  "7CE875979AC7A1804EDE3DA2C30229BBAEFAA3B6620F079B9FC956C5AC285D93"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD1.fbx",
+        "sha256":  "559BD38110FED33C7293186A777D15AAB749D97CDA66964AFC6CD0450B5C5A73"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD1.fbx.meta",
+        "sha256":  "E7C5DBCCB1B509D9EDAB4F693E320CBECC00F607CA132F1D9F7F1551BC36C9EF"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD2.fbx",
+        "sha256":  "630D5E63EC1FB6217CC29130CA0C6DCD7A7D49E21513787F21F3F1C7619897BB"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock05_LOD2.fbx.meta",
+        "sha256":  "D6A35FA3542097F3C0836FE96B52487B37DBA01801BA3809CCD9E73C27C8989E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD0.fbx",
+        "sha256":  "46D8C7917FD94B35CE2EB692AD8D894F5EC0399B93A591093531050562B919FE"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD0.fbx.meta",
+        "sha256":  "925D1936DB0C8E0DB84AF1623E5C03EE904DEA0018BCEC00FD0D3F1D00E37F67"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD1.fbx",
+        "sha256":  "3F6DEFA8547B1483B070FC84CE476EF46D8F60050D4466755E7603AA1D1D51F4"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD1.fbx.meta",
+        "sha256":  "6AF1107CB46AC1F1CB0328A4B152DB771AC9BC2BFA7512ACA3B6CA8A9DCCD622"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD2.fbx",
+        "sha256":  "B5DA7C83CBA6CAFE9A049287C50BCF3492AAF780133BCC0446755E64B98B525E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock06_LOD2.fbx.meta",
+        "sha256":  "7880A2A430D2D5BD82CFDC2572C560F24DB5F5EADFCC4695AC68DBBD086265E9"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD0.fbx",
+        "sha256":  "718D9AC82661BCC7FF83BEFCE350800D54931238BC31DE96904C9C834FC53466"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD0.fbx.meta",
+        "sha256":  "527463C929910C2767E13B16B4D5B387220E4F28BCE582FACB6D5E30F34C7937"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD1.fbx",
+        "sha256":  "0C52CD862126D6E28EFF5447D76C96A971E17674B9B94DE52182B72805D6BE7A"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD1.fbx.meta",
+        "sha256":  "FD1F9ADC05F7253162498FD4F791EA824CB507A3756C1B806478B232A2578151"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD2.fbx",
+        "sha256":  "5C283049E7DB38319B5005A4DEA3279853A7E57A0198D9426687F5549A024EFA"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock07_LOD2.fbx.meta",
+        "sha256":  "4D0B5488504823119D8CC56A4CB6297A6747EE348B0FD9F8A6F26F400C13EB7D"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD0.fbx",
+        "sha256":  "B092F8D51FC01A7F2C885A3D8A31E9718F4648EA65428517053DB547946D2FC9"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD0.fbx.meta",
+        "sha256":  "0F0A8C6DE382BADFD340CC0D37547FEE44C35B932E12ED0E7005FDD41639211B"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD1.fbx",
+        "sha256":  "8F6CEF02978C0C723A1E148DAC03CAE3833E3A8491F5512E61437424EF3A8A81"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD1.fbx.meta",
+        "sha256":  "4FAE33012929A3820745A5414B2EC92B5C728B41E60AD4C9735454F9254F7247"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD2.fbx",
+        "sha256":  "6083D22812D39C097F08266999C53519B436703D102FE1EB81F905FE0C9029EE"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Rock08_LOD2.fbx.meta",
+        "sha256":  "76B5C8D99E8FDB9CA9FDD6DAF059B48C683E55B79832634D20DDFCEF4FA4AC29"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Sky_LOD0.fbx",
+        "sha256":  "907BB730111C2D73C211928381CF8799AC889C252BA23BA4E97D63AB5B5EA909"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Sky_LOD0.fbx.meta",
+        "sha256":  "97669CA46809BD200B07BFF05F813E94A73F09D2465FA45677308AE269E2B9DA"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Sun_LOD0.fbx",
+        "sha256":  "412380E4D7E623BB1BFF53787B8391F52C021A025471A78FEBC1938479A535D4"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Models\\Sun_LOD0.fbx.meta",
+        "sha256":  "108232B9E08709ACBE86F9B8011EF9F589CB11A42D282121B487D38567D16244"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\PreviewOnly\\NeutralRenderer.asset",
+        "sha256":  "09601CB3F5209D5BFBD641EFBDFA57CC0A61BB95DC6ED7AABA672517603718AB"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\PreviewOnly\\NeutralRenderer.asset.meta",
+        "sha256":  "DD221E869E257A31DD0A40FAC83D5DE227E1A7F97A7CE389E728983543B0A022"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Textures\\Earth_BaseColor_2048x1024.jpg",
+        "sha256":  "FB67AC030214C1891994C8F976E7F6C9CD5B0F21586ABA8567250781A4FE708E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Textures\\Earth_BaseColor_2048x1024.jpg.meta",
+        "sha256":  "99C197A5F3BEEB87B64BBCC320364FA915C9EDDA2531AA6CE6383BE7145A97B2"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Textures\\SpaceStars_BaseColor.png",
+        "sha256":  "C01DA67D8408F2DCEFD80D6FA81D03DA14738CAFF82E4219C84605C85CAABEEA"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Environment\\SpaceEnvironment\\Textures\\SpaceStars_BaseColor.png.meta",
+        "sha256":  "A5AD07FDA89D030573CAF4A2CA29702E56D63560504C8D3E46BBAC4D6F752305"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Armor.mat",
+        "sha256":  "0DD4784F746E7DA6CE1B7639E76FB13F92FEC964181157A8B2C8833C2014B625"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Armor.mat.meta",
+        "sha256":  "D3F28495C2CFB376000FA65D30199575740FA3AF6CE9AD67A3BD12F3EBB49458"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\DeepSpaceReflection.asset",
+        "sha256":  "99886D51C79A3CC0A98E0B58680550CF68224D487ACD274B647E1AEE8E30D166"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\DeepSpaceReflection.asset.meta",
+        "sha256":  "43CCB53A90A0AC4E34A51582C07F204BD0F0CFDBD45A7E1F8C2B11A9475441FE"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Earth.mat",
+        "sha256":  "E0091D2A6433B79A4AFF02758A78C030EAEE7B51388BA344136F27F686255D7E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Earth.mat.meta",
+        "sha256":  "590C82882CEA672061E74E685124763635F7212DA6C5C5DCB581C878D8BA3CDD"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Engine.mat",
+        "sha256":  "B6C5B43BA1607FD79555F94C64B92B551775030A6852ACA036F3A61FB1F8307B"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Engine.mat.meta",
+        "sha256":  "EFD59B484A128F7535C69256042370E7423AEABD5DC77FA62837C7F9DADAE936"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Hull.mat",
+        "sha256":  "9AC22359CAFB79B49B94157F0624BE87AB8F1D0C5FE67F949F71996E2E81A001"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Hull.mat.meta",
+        "sha256":  "BCBB02E3504F409AA670C4374D2E187166589669A3AFD7A0DFC1E8A556904A39"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Impact.mat",
+        "sha256":  "17D59430F88924A14F7B14EAD536644A1C13C112B96BC60C115E8C2082D573C0"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Impact.mat.meta",
+        "sha256":  "D466722D4485ED96158733D2D084342D92C77145864A089B9D4FFDF3445B1DB8"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\MetalDroplet.mat",
+        "sha256":  "1EB3C9D2A687485A35A33BB9AE72C3701C7650C18FE6B694AD5CF7FC72FD72D9"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\MetalDroplet.mat.meta",
+        "sha256":  "8AB5476D269A8DB41A0E5E2D258B1D87AFBB9BB3C32AE374DC124972B3FFAB79"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Spark.mat",
+        "sha256":  "BF6097716931A68664ECCD438D29838F24F3B68930555460411421F2EA2029CF"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Spark.mat.meta",
+        "sha256":  "9BAEF521E5919F068BDF93FCE9C7312C16BDD51FF3B5E02073FCD669EE3029B0"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Starfield.asset",
+        "sha256":  "AAB76041AB28CC18EA1886C6B45DF334DF4C2AEAE6A328FFF355E41B2692349B"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Starfield.asset.meta",
+        "sha256":  "2CE19D492C67528E872B514EC1A82E43D0130F4B862517FF2C680D61C949ED78"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Stars.mat",
+        "sha256":  "71AEA16D323324A916E9D49673B38CEA15E216BE2BDC933B6F03CF8C9698F525"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Stars.mat.meta",
+        "sha256":  "6CC19410A2EBD9A822B13263F88BF47345F6FF949FD3EFE6DA83D892C605E9BE"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Trail.mat",
+        "sha256":  "82E37BCF7CC28B23311516AA0E751C2FF68419BE9868F3307D185713A9711446"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Trail.mat.meta",
+        "sha256":  "179A00542EEA7756907FF31570021A235FC9E6B6AE51CF043C3E3C581425B552"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Trim.mat",
+        "sha256":  "7025976A65A8394D7580EA2E95E3A22B1798DEE8A3A5003D654BA31185E0C460"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Trim.mat.meta",
+        "sha256":  "EDBA05F4BAC2C00EA8B46167673445B28287711B02CAFDC1836D5FB481D79641"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Wreck.mat",
+        "sha256":  "CF0B8B7C815974579EC5D853035C7FFD06BD5E17B9077D93A1599B3309C6B100"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\FleetMaterials\\Wreck.mat.meta",
+        "sha256":  "274D5B1C6C068A8E480AA72EF0CB7CF303E0849F9FC0D85DED09F5C223247275"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Droplet.mat",
+        "sha256":  "66F2D9815BFB5255EC3132CC4CE138D6C201049A0E2704D540BB847C615C100A"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Droplet.mat.meta",
+        "sha256":  "21BA68427FEAD0D75E1BA01A7E17EFCEF735A429E41C500281429F3F161F44F8"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Hull.mat",
+        "sha256":  "EF57F03A9FAAFA8B2740214209A083C1C0DFEE4AB3459EB41B8E858241D732D8"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Hull.mat.meta",
+        "sha256":  "169C546418C7E5F4BA8FBA036FC9CE80A5D8B7DCA10642C665FEEF0BCB425890"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Lane.mat",
+        "sha256":  "73E175ADD7D8A74DC4EE635B3BE5FD494940655CC95F24E5856EDD53A3035772"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Lane.mat.meta",
+        "sha256":  "CCD941A26FD166A4EC016F4A54D0A4510749ECC4E004075AFD8D4F7DE65FB08F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Reference.mat",
+        "sha256":  "7F2D1F8F1FA3D0B8891A9FC9666748B5293C3AF6B28F793D32BB5582390671E3"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Reference.mat.meta",
+        "sha256":  "A09C3E161B0BEFAC376529B9D626A98AB7FA98B2DA71F09C7B39DAEEEC22CC1D"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Signal.mat",
+        "sha256":  "EF53039DC713D4C4F64210E1477A147404191F9E03B604E940E065CEB0EC77FC"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Materials\\Signal.mat.meta",
+        "sha256":  "66DE66DAD8816843F65106E34204B06709B8384822C7E473489CC9CF8514F532"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet.meta",
+        "sha256":  "E6332B52B91AC64C40286EABE5C2A5B2E8DBC9CE4E14183B62884DC75AA9DC76"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\calibration.fbx",
+        "sha256":  "E548A5136AFCB101396913E9F74BE356F71FB7138A9B60536224BCAF5A323A0F"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\calibration.fbx.meta",
+        "sha256":  "463A2DF9827F3CCA53482689F457969302C94223CA597E389CC1AC1A8B0BC149"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Command.fbx",
+        "sha256":  "C3992389FEF51098A4678878314AD4625F127863952429796B846E4ED887F39B"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Command.fbx.meta",
+        "sha256":  "ED1ECA77D008BB183CB49139ABE1A67203192F8D8B34998C19A7DE345E7FB948"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\CommandWreck.fbx",
+        "sha256":  "8AFE2FF83899A638567853AB6957DB99E7A38A786EDCC862A7D2CEDF92246DB0"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\CommandWreck.fbx.meta",
+        "sha256":  "246F891AFC377B8B6A45D5F11B7AF3CCF69124A6AAAC81DA00B60DCC13C1F578"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Cruiser.fbx",
+        "sha256":  "6F17E786BC204BC2AB2F910050E39DC52941CB42CC3FA73C133173E6277E4387"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Cruiser.fbx.meta",
+        "sha256":  "1AEB9F65FEE505E766B2D5CE133F83E4CE5F48BC01E292A35ED897F3A5BED75E"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\CruiserWreck.fbx",
+        "sha256":  "17D163694B74A7E291F176607C5A6DD34232C6E2BA85866A6BCD993BA43D6CAC"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\CruiserWreck.fbx.meta",
+        "sha256":  "5A696FA03B77D4C6608D2975B15D386B7ECD59ABA15EB417D710EC5AF0A82E25"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Droplet.fbx",
+        "sha256":  "16E1071BBBFDAEFF0A84947C8B97FB4A498468551525054A75CDDC3478461890"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Droplet.fbx.meta",
+        "sha256":  "6E13F2447B195631BE31C8ECE5C5C8B92FCC2D1232F50843237D263C9B576635"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\FleetLayout.fbx",
+        "sha256":  "193D6E265B7C22E49E1A163E748323D7DB95C6B641D9AE899D2FFB285EE75F00"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\FleetLayout.fbx.meta",
+        "sha256":  "3B57874E164CF2B80E394506E59BC125D158A0559516B161FC780CF1D7CC01B2"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Frigate.fbx",
+        "sha256":  "68133CE8B5BE6307EAEB1073376B962FF438993695D6726B78873C787B8B2C81"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\Frigate.fbx.meta",
+        "sha256":  "176486575C0B8DC12D83C686B89461B19552A85936C7173F310A23687BF6D059"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\FrigateWreck.fbx",
+        "sha256":  "4404C6B071B0B5262D30B5622D59F82321672A76669C99ED210740D1E54C6062"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Models\\Fleet\\FrigateWreck.fbx.meta",
+        "sha256":  "F9C2D5BC045E62E476799E936213E1A177C4DD2052AB6C4FC071C3A4318CFE9D"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Shaders\\FleetEarth.shader",
+        "sha256":  "630967A8AB27B8010EA1CD340988417838E2909687505BA62E0825A460CA304C"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Shaders\\FleetEarth.shader.meta",
+        "sha256":  "DCED77E00F570CD8CE16CD6B2762254BD54A7B71C9AA8BBBB13F316149D98343"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Shaders\\FleetEffect.shader",
+        "sha256":  "051C794B6D6F2BF097E78D62F6E8DC1472C65CDE1DBF2C9D704FB2AEFC361732"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Shaders\\FleetEffect.shader.meta",
+        "sha256":  "1A5C8AA94E1D00D5B227494E81A59B60C88211DA561772B701FC511BD3094F0C"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Shaders\\FleetStars.shader",
+        "sha256":  "67D94E9EF8707B8C98655508F51C3AAED3DE1C0647D4C9509CE65294C14A1500"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Shaders\\FleetStars.shader.meta",
+        "sha256":  "F4D4030AFB9DF5FE1FC71FB7B1C4460B6346D8FD57E6D67B31CC10612320C7CB"
+    },
+    {
+        "path":  "Assets\\_Project\\Art\\Textures\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\Fleet.meta",
+        "sha256":  "1ADFC2EF955FF5E9CE09AD8A3FA3D804C34100B9E9DAC900D3956311925CC7A0"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\Fleet\\Flight_Resonance.wav",
+        "sha256":  "BE82B81B576134B3899204623F853C1C32FD8105A3107D3861983F11056DB46B"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\Fleet\\Flight_Resonance.wav.meta",
+        "sha256":  "F6C3525F8CDB15CAD2AE5E9200C50DA9513326363EAC6CC84376175C1C61EC4A"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\Fleet\\Impact_Heavy.wav",
+        "sha256":  "E60533CF66967B31ECE8F4309A1B114351B7FB4A3D55503F87198CECEFE483A8"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\Fleet\\Impact_Heavy.wav.meta",
+        "sha256":  "8C22EC4026A72C5AEF6C3579DEB188DABAEA8351EA945D4F5BF5DF722EBA2B78"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\Fleet\\Impact_Light.wav",
+        "sha256":  "6476CAEEBFCA002A1CFC7B727D82D7B8B78AE95F187B35FC2D974BB5EDE52039"
+    },
+    {
+        "path":  "Assets\\_Project\\Audio\\Fleet\\Impact_Light.wav.meta",
+        "sha256":  "60FF907604C42B2053973A92D91E6315245D23E2AF8661705BAB2B7536F6288D"
+    },
+    {
+        "path":  "Assets\\_Project\\Data\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Data\\DefaultSettings.asset",
+        "sha256":  "4BFE5F49669754EBB112F59B3FB49B7081B93ACCE4C95326C93AA33FF53F779B"
+    },
+    {
+        "path":  "Assets\\_Project\\Data\\DefaultSettings.asset.meta",
+        "sha256":  "284BC4D7DE01A763CA1E7D5C7087F7E39F5561D922BF68BDAA68E056EFB4FF78"
+    },
+    {
+        "path":  "Assets\\_Project\\Data\\FleetEffects.asset",
+        "sha256":  "79B282CD2809FC4D89585090AA3D0BD91BC4792FF3E9F99876CEF2D296696DAA"
+    },
+    {
+        "path":  "Assets\\_Project\\Data\\FleetEffects.asset.meta",
+        "sha256":  "2CEE8FD991BA720CD0658C4AB12E227B048A03E670270100F01CC40DFCE1C002"
+    },
+    {
+        "path":  "Assets\\_Project\\Data\\FleetMission.asset",
+        "sha256":  "B6D99EC7179A6A69C6606CF177B4312638BAF7519AA863FC6C3A4E2326E3A344"
+    },
+    {
+        "path":  "Assets\\_Project\\Data\\FleetMission.asset.meta",
+        "sha256":  "C3FF690E637D114EDE77A24B7371E8C987E30B3C008F77BC90AA7F6FA7FA511C"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Environment.meta",
+        "sha256":  "0F56069C72CCFEDF39E8773F9DB46BAF2D46CACF80CFD0CB7FE815F97165C519"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet.meta",
+        "sha256":  "7A299F38C5F8C945EE423CF0C48960D4AB209C2C62B54E2A13EB07EF12FC6955"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Player.meta",
+        "sha256":  "E353A1B107944FFB3645F855A4F84C7D2A38AC9E75E8946FC7621D23C98214C8"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Ships.meta",
+        "sha256":  "6346F93E1454666C4666504482F627DA84CE7B7D3E781E789EB56DD673C26A8C"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\VFX.meta",
+        "sha256":  "227193BC1A98DB57E2189308AD9A6560275C29F38449AD1938065148C965CF69"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Environment\\SpaceEnvironment.prefab",
+        "sha256":  "A9A51279A960FD45A42DAB5C91341CDC61F68AEABD8881FF636B6D134827799F"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Environment\\SpaceEnvironment.prefab.meta",
+        "sha256":  "41E2DE10E1DC1537202A7875A68EA286877EE688AA4DFC2E11ADDAB0D3D9B327"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\Command.prefab",
+        "sha256":  "287CE9E0A16C09663119E24A1CF7A87B3D9AB8D74ADA1DB08A2C71ABE23E560F"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\Command.prefab.meta",
+        "sha256":  "278759574A9C312673A195B018430CA2559E3B6627F13F431EEAF1999D7E213F"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\CommandWreck.prefab",
+        "sha256":  "DF6C8401A674231A4A7C14EA96CF982F466E3E4326FEF3ABE74E0898867B44B4"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\CommandWreck.prefab.meta",
+        "sha256":  "B0F2C9B74C4806FD3E22810E48F32C5A0C72A11963CD08E0BA91668C45785BFF"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\Cruiser.prefab",
+        "sha256":  "531254D229393C09048437088FFBD279FB829A931425C7661E2262ADD81603A7"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\Cruiser.prefab.meta",
+        "sha256":  "0CB9D88C09737962D93552CB239A2E2C3962CD54D181B41883C3055BEC1B101E"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\CruiserWreck.prefab",
+        "sha256":  "C2F060C16B10EAA5CB2AE4BDDCBEB9FCCE60B78181B42E1AB907F11CE04B00DB"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\CruiserWreck.prefab.meta",
+        "sha256":  "6C3F988F56BE9200F6938D77EDF4C1931D55876AA95A9F510E1682C799443E4D"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\DropletFlight.prefab",
+        "sha256":  "00FF6DC5B2AD6F56938FD82B2EC862E341D07945FE2ABC14B2482E59F64BA961"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\DropletFlight.prefab.meta",
+        "sha256":  "BA7DEDEDDF17CF4BE6A58C54B169C083ADC9879E3CD5CFF5A847F58FD76C0141"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\Frigate.prefab",
+        "sha256":  "E33E20D537376FD92A633C2B786609D596511D0D7B32E3549FE3A20C310F1954"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\Frigate.prefab.meta",
+        "sha256":  "968AAF9B39960015A10324EABD5EE818E7F0F35AB9888A981FEE03293DB43513"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\FrigateWreck.prefab",
+        "sha256":  "C10A4401ED51F8CB0B4C75F91130C1D8DD68A53E201B24C2A3C883B25BA4B1C3"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Fleet\\FrigateWreck.prefab.meta",
+        "sha256":  "6DA67BC4DE6C7411D14E987B7EA99002D49F6A109F7520F201FB3DA774F399BD"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Player\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Player\\Droplet.prefab",
+        "sha256":  "BA1776FBD423B5497B89F66BE9953DBD34CFF08B70A55A714649D1B354519323"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Player\\Droplet.prefab.meta",
+        "sha256":  "D5988F43809E66731D0049E4D497DC0A1B41DAC597C85610B1C00D15B65FCB9A"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Ships\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Ships\\GrayboxShip.prefab",
+        "sha256":  "BA70CC5890D5FF895006A5F0DBDCF27318BB3449B24B2E24EA972B541738AA76"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\Ships\\GrayboxShip.prefab.meta",
+        "sha256":  "3A44A1B58540EF797625362397CB3192B882215B19B69AB088CBFF995CE7657D"
+    },
+    {
+        "path":  "Assets\\_Project\\Prefabs\\VFX\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault.unity",
+        "sha256":  "7CCAF136A197738C265B67E7D7458BE37F19EB9438F86B0F80D16110C58C3D7C"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault.unity.meta",
+        "sha256":  "F2B6D789B68EF6601248E89F8CD24F1BAD2F8DA9250A3F7A0AD28239D1BA9762"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\SpaceEnvironment_Review.unity",
+        "sha256":  "215B55E7840CABE8228D5CDD1A532BE7173BC3FAB62CFA7EC91E98547996DCD0"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\SpaceEnvironment_Review.unity.meta",
+        "sha256":  "C3D8B0D528094CE64A3A76DE68FC3D8B5C1506137DCBA531290BF6BA8B0B6426"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\TestRange.unity",
+        "sha256":  "8ABCFA93DFD68A2CDDEB9438E59B29E09DE7187100EDD1F1E5C1F51FD63B4751"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\TestRange.unity.meta",
+        "sha256":  "76A093193217862E7A4AB34042960FEADD76B054C544A3D0F2BBC1F85C7529DC"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor.meta",
+        "sha256":  "6F5BD8A3871E4B7260D671469743127B2697FEFED9D06507ABBB82F91B1FD96B"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime.meta",
+        "sha256":  "6D7924BC39125D71A32EC39D324E76972F269836AE0F637CEC88EEDA0370C22B"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\DropletPrototype.Editor.asmdef",
+        "sha256":  "86599A8AEAAABA4ADE28701AFE9159250B3ECB389028E79D00E20250DBF7197C"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\DropletPrototype.Editor.asmdef.meta",
+        "sha256":  "1400B0DAFC0E9D1053C7DF78404D7F0BF87D9DA3CD79C69608D1D59DADD8C3A2"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetAssaultBuilder.cs",
+        "sha256":  "128564300B631872236E9D4851F92B9DE1AECB591FDBE8AC27E462FC35F1BB39"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetAssaultBuilder.cs.meta",
+        "sha256":  "508170CA22F1342E75EE387DAE0F3FB88E03066BF5A8C83E121332E8FC33D7AF"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetAssetPipeline.cs",
+        "sha256":  "A31E58BC94DFE309C051B9EB0965396DE83F109928002D619AB9AAF07A3B7218"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetAssetPipeline.cs.meta",
+        "sha256":  "76952DD63C2DC3AE938DE06ED5ED63DFBBBC6EF977B7D6E170F055469695DFE6"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetEnvironmentBuilder.cs",
+        "sha256":  "AA5C3F0EFD72D945AB6FAA80E44BC1673CC2DD8BB50F9A7738CFF049511D70D0"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetEnvironmentBuilder.cs.meta",
+        "sha256":  "BA7868B482CF24143DCA224F9EE52B0D240D9F84AE491C37F47C00894331FEBE"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetLayoutImporter.cs",
+        "sha256":  "2CAD20611D0AA2DC46EA29250C517AA58D2D43FC73980A641DF3EEB3A07F970E"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\FleetLayoutImporter.cs.meta",
+        "sha256":  "825B330AA1ED88E6F8AE162C7A836BAF798F959C433D44F1DF4BC7CD7ADAB7DD"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\LiveInputSmoke.cs",
+        "sha256":  "A864544AE1BA3D9349D53C75FF4D0A1359FB9AE42FB3B259C22756FECBE7CE21"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\LiveInputSmoke.cs.meta",
+        "sha256":  "BB4D492924926B0DA0CB1B300C694AE9B0181A1AE59C02BC568448A407FB9035"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\SpaceEnvironmentFrameProbe.cs",
+        "sha256":  "CB33EB04D676DC554600A3C9735F01666224DAF4007501B169C8687806624363"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\SpaceEnvironmentFrameProbe.cs.meta",
+        "sha256":  "DF431DC8F528A2466C8EB11A29D2A5EB69EACB5128CFA8D4688AF943D8DF9E23"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\SpaceEnvironmentPipeline.cs",
+        "sha256":  "DCB1EDD73423596B081773D73AF2430B4CF09A7DFAF1DE80ED4F62ABA8E959BF"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\SpaceEnvironmentPipeline.cs.meta",
+        "sha256":  "8E53A83FD9254BC6118DAA8AFC4B09F2E6451B148FBA1263577C6971474DD118"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\TestRangeBuilder.cs",
+        "sha256":  "D65CF18EC95FE9B7C324499FF726EF793132FF6F788F413480080073E717FD94"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Editor\\TestRangeBuilder.cs.meta",
+        "sha256":  "BE0D34DD02F82F8EA3F85D38DB07676BC718E77A5F3F4EFAB67FD0143E498311"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ChaseCamera.cs",
+        "sha256":  "00B2DAB9A2552E40A653E9332D7CB73419544E5097469CE2DC1181EFFEAFD83A"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ChaseCamera.cs.meta",
+        "sha256":  "18AA4F0EAF6F3E786665BC7B30309FD14A01AE69DBCFD9F5E578991DBDFF5575"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletHitDetector.cs",
+        "sha256":  "02527F1FA56ADBC18FB0FB13E77236F158E52747DCB4E28ECFFDA9749ACC4482"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletHitDetector.cs.meta",
+        "sha256":  "DE9AB8422A28F3EABC9182F7650BDBC5AF22F0A20A55DA04C6FE83760715DF33"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletInput.cs",
+        "sha256":  "434FD7FC85C49D33BCB26EB93523D8CC903F4530D299DDAA72760E3843E99ABA"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletInput.cs.meta",
+        "sha256":  "AF6E4703535C36BDCBDD46C1EC66A588147CD6F6F0F2D95DEB2A9F21976EA199"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletMotor.cs",
+        "sha256":  "84CAC27BD217FAF51B216380F5A520586D7F13AB37CE502A0C431BC4E7E04F71"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletMotor.cs.meta",
+        "sha256":  "59F4F9F66838700B3ACB3AB6F915026190472BCEB5433BE4100B58CB25F37D84"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletPrototype.Runtime.asmdef",
+        "sha256":  "DD555258D00B995229EB40ABBD08115FC589EFF8E8E7A137D936E03F2E06784E"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletPrototype.Runtime.asmdef.meta",
+        "sha256":  "27B8928D57E29B2E5F11E2ED4E0463E45DB31C85A8EFB16F5D8D467B45B8FD94"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletSettings.cs",
+        "sha256":  "BB5F664C0C703E90187A96A157C6B0225BCD04620623FDF3002A1D0F14EF7B0C"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\DropletSettings.cs.meta",
+        "sha256":  "6BFDB009BFB8B7F62B987E639906A09E7E5A0F6A875CDBB3AFF86D3A12059B35"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\FleetBenchmark.cs",
+        "sha256":  "423CDD9A551E711E305BDF1A682ACA3CD72C94A067EA9003A69885149F630727"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\FleetBenchmark.cs.meta",
+        "sha256":  "64762AD785B7786FC4ECA44C9843B9F474647595447A2CC1FDAC4173753FB00B"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\FleetSceneRoot.cs",
+        "sha256":  "0865FEFA27E24865C19C912DE29E4AAD79D8690CA4177C0B434BB2787CDD6ADA"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\FleetSceneRoot.cs.meta",
+        "sha256":  "D2A670D0FE8235572BAF42FBA486CB761EF3E9FFA2C1240D2483B3009ACEB65B"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\GeneratedRangeRoot.cs",
+        "sha256":  "F79E07FBA9A48DC8CFED81D24DF28B7C71A685D59B1CE790246B9D6FFA562343"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\GeneratedRangeRoot.cs.meta",
+        "sha256":  "3435121890E0EE74BA4179DD451A092CEFF7C8753DAF3855EDE8F078F9CBCE2A"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\HudPresenter.cs",
+        "sha256":  "D08E499092AE6DC03F4181B276D7C471856F72A08B8C3B02B391F35A446BD455"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\HudPresenter.cs.meta",
+        "sha256":  "E2667B3DA6DFC9A93B0D7D8CA5E8EAABC55AAB0BA9F3EE143D416CE163B5D7BC"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\MissionController.cs",
+        "sha256":  "40214E529AEC118BB682D74775C26E5EB5FAD3ADB40DE2419E8FE658EAD3FD24"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\MissionController.cs.meta",
+        "sha256":  "54561368EE0C2BD75470836BB063CA2F2538D583B8B47C2B2CAB9F7F7EF7EAF4"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\PlayerOptions.cs",
+        "sha256":  "99D7BF1F8FE736CCAC4F5F30CD8377ECCCF8DB1797C87950CB3EC87CC825D44D"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\PlayerOptions.cs.meta",
+        "sha256":  "417D5C9EA266AFCDD900083213742077C6BFBA81DC70F198555F957517353EEC"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation.meta",
+        "sha256":  "18CC9905CC4AEF3F9076CD46163D14C0885E5CC3B6F2BE8CBEFD6AE358463763"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ScoreSystem.cs",
+        "sha256":  "6C4D2A98723D53B74CD86215B315E9F2C0B0342BC334EAA11277711489CE5D52"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ScoreSystem.cs.meta",
+        "sha256":  "D61FF07B6DF9EC5414B0719E14D09B60264E343EF35272F97B552351DFA4EDD6"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ShipHitContext.cs",
+        "sha256":  "D5BE29F8024E56E2B8A8B3055D8932202D54653034530DE1E1227A6BBDC49B16"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ShipHitContext.cs.meta",
+        "sha256":  "1EC3B1FF43611C6A3FDA62BCF4917FB66123A92C238A952C7F7EB175A3D5F9A8"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ShipTarget.cs",
+        "sha256":  "7B7139516E635447441E24DECF32AF1EAD063D24B86F125B118FFB9D19847BF8"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ShipTarget.cs.meta",
+        "sha256":  "789A8B42B32FF0DCFBA064F07A21DDF139F6CCD767965E9216DA59F4C4E0BD75"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\DestructionPresenter.cs",
+        "sha256":  "0A1982961BE9F558C657114B87FA7379A451418475E2B6A6CD07D73D8BA18519"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\DestructionPresenter.cs.meta",
+        "sha256":  "BFCBD307A985C423DA0AC6BDB532844958BAD0A007F6FE597CFCE79F34C4E53D"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\DropletTrail.cs",
+        "sha256":  "451022E3E31D1706E6F6C5E5358051400C312BD8EE522D088FF7D146E71324E5"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\DropletTrail.cs.meta",
+        "sha256":  "69024A33CEA7E43623E3C26CE061B715295E3747B9A267ADF439F447204AD8EA"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\EffectSettings.cs",
+        "sha256":  "08EEACA31A9BE77FB87DF7F7A671AA88B04CF37671A57114163BDB050BDD442C"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\EffectSettings.cs.meta",
+        "sha256":  "C9713ABF351F43B5A567E96DA30566311EBC7105AE5FDB0E7263029741AAB117"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\MissionEffects.cs",
+        "sha256":  "43E0AD97C780896EB9AD49FC54556E8B1FE9C7C32E08EC457B2049540AB815B6"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Presentation\\MissionEffects.cs.meta",
+        "sha256":  "305BFB4EF01E1F66B266BFD0EB5FBF037C4649CCDA7BDF0142194460E395CCBC"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode.meta",
+        "sha256":  "C52F9EA15FA16D6F8C18CB444385796FD0DCE0A9F56BC29C6CFB3BF779C81B1E"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode.meta",
+        "sha256":  "F051693484170EAA306EB3230170FA286D7CEB47795AB05C1C6EF0709FA833BC"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\DropletPrototype.Tests.EditMode.asmdef",
+        "sha256":  "90ADE468242A6DFF110148307592BD8154DC791D0B544988728B68E5406A7231"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\DropletPrototype.Tests.EditMode.asmdef.meta",
+        "sha256":  "3D0DE8D897B02077CCD9F25A254E631DA84A09C534AA362E026CD8E18303F6A2"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\FleetAssetTests.cs",
+        "sha256":  "7769AC7B615E66B73A9BBEC8FE79FF3433E5FFD52699EFDA60437F1CD5905C3E"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\FleetAssetTests.cs.meta",
+        "sha256":  "EE74C4071042208F25DEB7462AAC53CD663D95091EF5E5733D6C4C62F186ED8B"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\SceneAuthoringTests.cs",
+        "sha256":  "FCA6380D7EA10E4FB2BA4450342829587C5A4F096A10A2A8BB652791A22B8962"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\SceneAuthoringTests.cs.meta",
+        "sha256":  "350A2EC2863134E4B0309179350CE85BB4C6C0DB9375138BEC2BE27F019A9AF1"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\ScoreTests.cs",
+        "sha256":  "7CDF2AC3276CEBEB0419B749BCCBEC54A7E18A1182BCC11B581F516FD271FBB7"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\EditMode\\ScoreTests.cs.meta",
+        "sha256":  "B8205158B48E1D21959F8AFF68D409D71E4A91C97631B35AD3E62E16BA052DCE"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\CollisionTests.cs",
+        "sha256":  "0412CA70C01E16DA888DA16F404FEFFE2EE4F6BE77E248E99DBF243E9853390F"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\CollisionTests.cs.meta",
+        "sha256":  "5C91FA54F49208D5E76F7E20A628154D8E1F713BC7385F3CDDD723E8B1AE92E4"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\DropletPrototype.Tests.PlayMode.asmdef",
+        "sha256":  "39DE6B5961241B5F263760C79CA941244DC6E4611F85EE8A67399F8B4F4565BF"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\DropletPrototype.Tests.PlayMode.asmdef.meta",
+        "sha256":  "0204BCB387A64C2608EF782558EEEB9AF38D363EFB608E853FB633D24B0AA089"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\FlightTests.cs",
+        "sha256":  "72BA8402F08CB29EBA000894EF3F42BD186FF8244ED6501FFBB9D3C8F4EF6DC9"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\FlightTests.cs.meta",
+        "sha256":  "A0BDCF0877A10B6FD64E461355FBDC74A56796598DB3116C5638E37D8C3ABA12"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\MissionTests.cs",
+        "sha256":  "AEAA35D226D352F7052A7DD90CBDB8C6CA425BC51A28546C933BA6DC6E582763"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\MissionTests.cs.meta",
+        "sha256":  "7DED4731EB02AFFC58092C6B0B8BC6615D7DDD00CDB7153D555A8AB54BEC9C3D"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\PresentationRegressionTests.cs",
+        "sha256":  "A2C37A79B057CC12BC0EAD53FCBE13B36461FFC05FF18AE81BAE7FB29DD618EC"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\PresentationRegressionTests.cs.meta",
+        "sha256":  "E5A9964784D9A15074790EAE6E43C3244A879B576C498B8363E6CF2C4FB15A8E"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\SceneLoopTests.cs",
+        "sha256":  "AE0D4212BBE8C5048B3BBD75DD10D8DDFF5A70281C83BDB3D8B9319BD6FEAB2B"
+    },
+    {
+        "path":  "Assets\\_Project\\Tests\\PlayMode\\SceneLoopTests.cs.meta",
+        "sha256":  "96FA4D3E8EE25EAC1A8C35287148CEE47E471398FFC1FE34DA74F35877C197B3"
+    },
+    {
+        "path":  "Tools\\Audio\\generate_audio.py",
+        "sha256":  "6B5C8253BC42D350CFF9B1C48DAF23236734049EC46CE10B839CF95FF9C10B00"
+    },
+    {
+        "path":  "Tools\\Blender\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Tools\\Blender\\build_fleet_assets.py",
+        "sha256":  "427D5D825471D3C92E8E04406F33B92FBDD71F0E74DC109F71B046126E86B0B0"
+    },
+    {
+        "path":  "Tools\\Blender\\inspect_sources.py",
+        "sha256":  "D3D09FDA010F13FB440E56772CE7B1811713F374CAF28FCF549735EC6A06969F"
+    },
+    {
+        "path":  "Tools\\Blender\\preview_breakup.py",
+        "sha256":  "F7905C542CEE6296FB7957EB8F6ECD98A261AA6E1C49534F3A03010E7CADACF7"
+    },
+    {
+        "path":  "Tools\\Blender\\run_assets.py",
+        "sha256":  "11E794316E7307987AA3838716B93D1D5B279FF53D536F50F3D811B3B1D3C0DC"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\asteroid_library.py",
+        "sha256":  "E437ADA7792A5A0B99A4239A4C3BFB5E40AD77B444E0C73D6EA9128E18BFF3C5"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\build_environment.py",
+        "sha256":  "B833D2C31FBA49927B5D0E1931F142E979A346ABD4EE5B252C5A9A80930C2619"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\celestial_library.py",
+        "sha256":  "C2A66F18CF4BE589D77B32A57D66765ACF349591571F46C2AB34A833CE4835BB"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\config.json",
+        "sha256":  "050A0ED2783CB64A683860AE3ECB3E247BDF6CB94B068F29C66970160BC3B3DC"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\export_environment.py",
+        "sha256":  "E132FDF6DB698F99AF3929942DBE1DCE3CCC490AB8B8D0D521F3A5F30780D568"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\inspect_environment.py",
+        "sha256":  "F3F05DB121A3E0314ACA381C48959A4476064CF17CEEC7A9F1B006AAF2A7F854"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\run.py",
+        "sha256":  "B2FBB00C60DD660503FCE8EB307259740A00F5C65E6D3F830CC0FAB9653F1776"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\source_guard.py",
+        "sha256":  "9765B0F4C085FD5F867C4841D6112321B13917D554C369F0ECEA5D749AC0D6BB"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\summarize_frames.py",
+        "sha256":  "20EB6A194E0CB075E463F40328CEE13E4F99945147AFC9C86A159834C05EBED4"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\unity_command.py",
+        "sha256":  "9507D39B58BCE8CAF277A9F94CB3EF0DA6DA62ABD319C5E80238D8E3E44165B9"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\__pycache__\\asteroid_library.cpython-313.pyc",
+        "sha256":  "5CFDD70F27C223A2F1521D7B094BCAE77EF42FFCAA4A8D25EAD25B84564F5078"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\__pycache__\\build_environment.cpython-314.pyc",
+        "sha256":  "A02EC0FCCD24CE995ACE2157CE80AB327092F37BDF005888210C4A104DE2DCBB"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\__pycache__\\celestial_library.cpython-313.pyc",
+        "sha256":  "3F6F37F7865EFD1F609930E970D6FB1F6106567F7FF7922A238375A5B2463726"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\__pycache__\\run.cpython-314.pyc",
+        "sha256":  "800C27CCD87ED2B6AF1BD477EEEAF0FA4E9495D7199C307804D3017F1960AA05"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\__pycache__\\source_guard.cpython-314.pyc",
+        "sha256":  "3C50FB625CF4F5E22B0E3E7B9940AB455C9E1B7BECCA2B880067A4B030FAB3DD"
+    },
+    {
+        "path":  "Tools\\Blender\\SpaceEnvironment\\__pycache__\\summarize_frames.cpython-314.pyc",
+        "sha256":  "85FB4A16FC7AD1ADE0B8709498F03F2399287087EA80ECE6B0601AB03A3D4B15"
+    },
+    {
+        "path":  "ArtSource\\Audio\\audio_manifest.json",
+        "sha256":  "83607E629440737DFD4204ADE6429EBE4B98B985C33A325BB2F3044655DD961C"
+    },
+    {
+        "path":  "ArtSource\\Audio\\ORIGINAL_AUDIO.txt",
+        "sha256":  "16B5CE682BBA0779BFD5F5B66F38168028C3D32AA16FD80E4AE64CF511DCBAFA"
+    },
+    {
+        "path":  "ArtSource\\Audio\\Exports\\Flight_Resonance.wav",
+        "sha256":  "BE82B81B576134B3899204623F853C1C32FD8105A3107D3861983F11056DB46B"
+    },
+    {
+        "path":  "ArtSource\\Audio\\Exports\\Impact_Heavy.wav",
+        "sha256":  "E60533CF66967B31ECE8F4309A1B114351B7FB4A3D55503F87198CECEFE483A8"
+    },
+    {
+        "path":  "ArtSource\\Audio\\Exports\\Impact_Light.wav",
+        "sha256":  "6476CAEEBFCA002A1CFC7B727D82D7B8B78AE95F187B35FC2D974BB5EDE52039"
+    },
+    {
+        "path":  "ArtSource\\Blender\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "ArtSource\\Blender\\breakup_preview.log",
+        "sha256":  "9314416E9DA891311E82529A0898ACFE163993458D1678920F6ED2457A08241C"
+    },
+    {
+        "path":  "ArtSource\\Blender\\calibration.blend",
+        "sha256":  "1DF02E5B1550D29B11EEEF04E9FE08C40401F3A5B8AF2D471D6309EAAF008BBC"
+    },
+    {
+        "path":  "ArtSource\\Blender\\calibration.log",
+        "sha256":  "4A022216F21EE618013CEFA5B6ADFC620659041C11E787E8B786C53691DDF247"
+    },
+    {
+        "path":  "ArtSource\\Blender\\DELIVERY.md",
+        "sha256":  "D4683CB1B7112C9BE08AE0CAC0F706B6029928B4ABBCE4C2872701E58585F4CB"
+    },
+    {
+        "path":  "ArtSource\\Blender\\fleet_assets.blend",
+        "sha256":  "29CB0051B34D529A88AE0F8BEAED9CC29BE5F37BE94CD547211B308C62503E7E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\fleet_layout.blend",
+        "sha256":  "17A3469EEAED4623AA84AD8505EBF9CA48344A39ADA7EB66E8D03E1037ECCB16"
+    },
+    {
+        "path":  "ArtSource\\Blender\\full_generation.log",
+        "sha256":  "024054772CA57B30C13ECCFAD023AA89D09025E8348CDF04784C1C7F6BF07372"
+    },
+    {
+        "path":  "ArtSource\\Blender\\geometry_audit.log",
+        "sha256":  "C49768223B6576FC23F33917A96771C2CB8AA483650956FEE2D8B5C61B3A7148"
+    },
+    {
+        "path":  "ArtSource\\Blender\\layout_generation.log",
+        "sha256":  "8FE8839462C43FC087C3C0F7152155CA7C7BA3629ADD09C1F3D64619C3C4611E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\model_geometry_report.json",
+        "sha256":  "D1F23F69B7E08CC975F0627A64D76ADC2594CC5A1FA1198DE2EB8F299C08C0BB"
+    },
+    {
+        "path":  "ArtSource\\Blender\\source_generation.log",
+        "sha256":  "55B894B5F6AFFAB27B18B44954986672F9769143106D5124D8014461D0418965"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\asset_manifest.json",
+        "sha256":  "E423A03DD74F68A9FEB456198E8928C4DD3BFFCF71C5AEF220FA71BC7C2F5BA8"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\calibration.fbx",
+        "sha256":  "E548A5136AFCB101396913E9F74BE356F71FB7138A9B60536224BCAF5A323A0F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\calibration_expected.json",
+        "sha256":  "A5CE2B67B70CEE21555D70CB2D5DFD8096AF52D114651E2C570DF0E92BCAE5CD"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\Command.fbx",
+        "sha256":  "C3992389FEF51098A4678878314AD4625F127863952429796B846E4ED887F39B"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\CommandWreck.fbx",
+        "sha256":  "8AFE2FF83899A638567853AB6957DB99E7A38A786EDCC862A7D2CEDF92246DB0"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\Cruiser.fbx",
+        "sha256":  "6F17E786BC204BC2AB2F910050E39DC52941CB42CC3FA73C133173E6277E4387"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\CruiserWreck.fbx",
+        "sha256":  "17D163694B74A7E291F176607C5A6DD34232C6E2BA85866A6BCD993BA43D6CAC"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\Droplet.fbx",
+        "sha256":  "16E1071BBBFDAEFF0A84947C8B97FB4A498468551525054A75CDDC3478461890"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\FleetLayout.fbx",
+        "sha256":  "193D6E265B7C22E49E1A163E748323D7DB95C6B641D9AE899D2FFB285EE75F00"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\FleetLayout_expected.json",
+        "sha256":  "D2759AAC6A4BAF63B5DFBA36E5547924EF195D9B41540B1997B77315AA33D311"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\Frigate.fbx",
+        "sha256":  "68133CE8B5BE6307EAEB1073376B962FF438993695D6726B78873C787B8B2C81"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Exports\\FrigateWreck.fbx",
+        "sha256":  "4404C6B071B0B5262D30B5622D59F82321672A76669C99ED210740D1E54C6062"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Previews\\calibration-preview.png",
+        "sha256":  "9DACFE7872961F745262D2C6399AFA148677C223A9FE3129998D771855DE9A02"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Previews\\droplet-preview.png",
+        "sha256":  "FBF2F477130F7B2D304ECA889C0E22B3EFDF05DC3FF0AAD1B723A44EA20883CD"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Previews\\fleet-assets-preview.png",
+        "sha256":  "D53C81409C0E004166456C80FF93C904977DFEC537879E84EE1B54491A997939"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Previews\\fleet-layout-preview.png",
+        "sha256":  "C907B37FA239FCF4640F24B119F69F47A3237276323EE08141B84183EB98DCAF"
+    },
+    {
+        "path":  "ArtSource\\Blender\\Previews\\frigate-breakup-preview.png",
+        "sha256":  "205A01612D26FA3985E15CDBB9751043B93406B3C3B661444B6718DA0BF01AFF"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\blender_selfcheck.json",
+        "sha256":  "F23BBE72A3271D87AB7AAA284DEA40FCC216B7788FF918A2914545D244537F8A"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\build-process.log",
+        "sha256":  "E4813F185E382FF653B7FB5B65E6FFF39726ACA4CAD8A0692EBFEE3A0A111017"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\export-process.log",
+        "sha256":  "8A8B7D0A8299F833D2E19F41C44B658273021BE3539AC31BC2E66DAADBE49B5E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\generated-source-receipt.json",
+        "sha256":  "8A76D1F9D62BB714160CCD2ADA7CBFBE24DCEA66A01D652DF6882AA7F2E6E7AB"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\inspect-process.log",
+        "sha256":  "7DF93EFDD6FDCA218D6B7682AC8260C8D15DCF10DC155FC3C45B2FCA3F866934"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\source-generation.log",
+        "sha256":  "291DC8044BA04691D030FF8FDEFB0DB1259BD4BB34C2C0380521479E121A5A2A"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\source_layout_summary.json",
+        "sha256":  "12A6213450D0BD1235BB5F23AF2BC40F99515D7A18266EEBC79A1EDAB20E1CCE"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.before-20260907-234337.blend",
+        "sha256":  "8D4D92FC19D712064D4229FF9B5E0818F3E7C8920F5EF2D91219F66B70BB5689"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.blend",
+        "sha256":  "604204FD340CB951DF6BCAAE132E5092D32DB883E441637FF132DCF5596FDD18"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\SpaceEnvironment.blend1",
+        "sha256":  "8D4D92FC19D712064D4229FF9B5E0818F3E7C8920F5EF2D91219F66B70BB5689"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Earth_LOD0.fbx",
+        "sha256":  "C54FF7D47BF639779A1718A9A1B71D82069DF052428747CC793FE36AEF00928E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Earth_LOD1.fbx",
+        "sha256":  "8AF8400F3A49A1F5FDA80FF2358218A43F7EC5A141282D69B068B0087E467F0A"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Earth_LOD2.fbx",
+        "sha256":  "ADBD003B4F9D1C9B3309689A46F4C111982921451D78426D78E01E0A98CE1A7C"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\export-manifest.json",
+        "sha256":  "C8EB75F6A46860DAFD50051D1DEBE6BB20C619D7BA289A7A9E4916F6B01E2478"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far01_LOD0.fbx",
+        "sha256":  "8EA2C9337702FA47F85E9C900C1021D223178EECD05A8F617F2C847AF6A184B7"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far02_LOD0.fbx",
+        "sha256":  "80CFE19473423383D20AE2BBC51C3D3BCCAF91DA012495D4CE160A36AFFECA96"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far03_LOD0.fbx",
+        "sha256":  "B7A7E5619945A0DFC667C60232E8CB0830F0D0C39A475BFCC2D1C95DB4D9F98C"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far04_LOD0.fbx",
+        "sha256":  "4E89557402148245F1A81843685F85A05465627D64D03CDB5A9C23DD01492519"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far05_LOD0.fbx",
+        "sha256":  "2A5C0737F4F58B20A47443A330388EC552D51A7234BDF990F7FF20D56A21CCCD"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far06_LOD0.fbx",
+        "sha256":  "A7426E93D79072CAB7C0040FECBAFF9EF1735935B559B9EDCECC906F950EB1FC"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far07_LOD0.fbx",
+        "sha256":  "09281933456C5ED33B6057A36ECFBB38B423D3E4B8BA3F74EF5C832934EC503F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Far08_LOD0.fbx",
+        "sha256":  "CD6596EB1242F67CA7B1F8B31D348AF91F197AA6E98BD8FDEE8FF3C3E50C459F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock01_LOD0.fbx",
+        "sha256":  "7A72027B90B425475DC0277E0A6AB6F212E36A6EA12E3359C0D61A6BDA3D1680"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock01_LOD1.fbx",
+        "sha256":  "C1E4FC309E3C64D196D884F4C79F4DFA3460666A573B1245A3CB4DD5C1758077"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock01_LOD2.fbx",
+        "sha256":  "4A93C0D20C8E40556473F6167C34570D7DE4FBD450B035F99229983287A3C1E4"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock02_LOD0.fbx",
+        "sha256":  "909B782C2FB96AE636F05545E0D38E23914C49B4E30618197B406B5250EB835B"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock02_LOD1.fbx",
+        "sha256":  "B5F86CE3BE54714B65111C4914EF21C85BCFAABBBF4624525576AF88B5A35B7B"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock02_LOD2.fbx",
+        "sha256":  "13D487D628EE16ADE92475EBAEF648467965E7B9F2BF5A4344C8EA541FD86769"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock03_LOD0.fbx",
+        "sha256":  "AA1F1D208275CCF2197F64DD038C033E637B64755D12AAC48855D02608736B5E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock03_LOD1.fbx",
+        "sha256":  "505B1AE046D6AB0E9F63DD91D956A6DF93A0CB7285ED1E01DC7881B7CC1C795E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock03_LOD2.fbx",
+        "sha256":  "7253466B219AEF0A6E7700DB1B357A8E40089562430093775741800F1ACF317F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock04_LOD0.fbx",
+        "sha256":  "31B285BEE98E7EF0921684CE6C80834870499C6E9D9BA2011938AE60376B9789"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock04_LOD1.fbx",
+        "sha256":  "DB345117CA3AECE6629825BFE9DB936D43FD2971BF380A5BC3405DCCD7EF196C"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock04_LOD2.fbx",
+        "sha256":  "DB933D6636EF9F5E6FC5FA5E6564D1F587FA00DDE7CD411C9DAD2B814F36BC3A"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock05_LOD0.fbx",
+        "sha256":  "DE3791B0857CEE9BA071D78611562F2DA12F7191D7B4A1DB9A74A5EF7233240F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock05_LOD1.fbx",
+        "sha256":  "559BD38110FED33C7293186A777D15AAB749D97CDA66964AFC6CD0450B5C5A73"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock05_LOD2.fbx",
+        "sha256":  "630D5E63EC1FB6217CC29130CA0C6DCD7A7D49E21513787F21F3F1C7619897BB"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock06_LOD0.fbx",
+        "sha256":  "46D8C7917FD94B35CE2EB692AD8D894F5EC0399B93A591093531050562B919FE"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock06_LOD1.fbx",
+        "sha256":  "3F6DEFA8547B1483B070FC84CE476EF46D8F60050D4466755E7603AA1D1D51F4"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock06_LOD2.fbx",
+        "sha256":  "B5DA7C83CBA6CAFE9A049287C50BCF3492AAF780133BCC0446755E64B98B525E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock07_LOD0.fbx",
+        "sha256":  "718D9AC82661BCC7FF83BEFCE350800D54931238BC31DE96904C9C834FC53466"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock07_LOD1.fbx",
+        "sha256":  "0C52CD862126D6E28EFF5447D76C96A971E17674B9B94DE52182B72805D6BE7A"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock07_LOD2.fbx",
+        "sha256":  "5C283049E7DB38319B5005A4DEA3279853A7E57A0198D9426687F5549A024EFA"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock08_LOD0.fbx",
+        "sha256":  "B092F8D51FC01A7F2C885A3D8A31E9718F4648EA65428517053DB547946D2FC9"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock08_LOD1.fbx",
+        "sha256":  "8F6CEF02978C0C723A1E148DAC03CAE3833E3A8491F5512E61437424EF3A8A81"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Rock08_LOD2.fbx",
+        "sha256":  "6083D22812D39C097F08266999C53519B436703D102FE1EB81F905FE0C9029EE"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Sky_LOD0.fbx",
+        "sha256":  "907BB730111C2D73C211928381CF8799AC889C252BA23BA4E97D63AB5B5EA909"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\SpaceCalibration.fbx",
+        "sha256":  "E548A5136AFCB101396913E9F74BE356F71FB7138A9B60536224BCAF5A323A0F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\SpaceEnvironmentLayout.fbx",
+        "sha256":  "1ECF126370CB1A102F135BC1766B37EAC4F063B812564F71852F8C83013168AC"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Exports\\Sun_LOD0.fbx",
+        "sha256":  "412380E4D7E623BB1BFF53787B8391F52C021A025471A78FEBC1938479A535D4"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Previews\\AsteroidLibraryReview.png",
+        "sha256":  "D5992F37FA6130BBE430918C3B322731408447E8B8E1E8294ED070DBD4EEAB57"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Previews\\AsteroidLibraryWireframe.png",
+        "sha256":  "BCE66BAE1FBE23841BD4A5439B7FB3B963798F88F3D25F981DCEFF1CB1A7B299"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Previews\\BeltCloseCamera.png",
+        "sha256":  "1BB11E60CA7F6B3DA827B3805C5A24E7DBCF7C8CBFE0FD0BE13DF35E6D71FD3F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Previews\\GameplayTurnCamera.png",
+        "sha256":  "5BF7C3D300D0FC9D9FFE5978585152759A59391B40839698BAC7E3B34502EC12"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Previews\\ReferenceCamera.png",
+        "sha256":  "CEAAC59681B1BCA6417D20B0BEB1F8F481EC0D1224E098D211B0A69F167A3B6E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Previews\\SideCamera.png",
+        "sha256":  "2CB2E70FEFA766BE9720205F747D01D8191CCC8B26B03F27C3E4B93E0B0A70BF"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Previews\\TopCamera.png",
+        "sha256":  "90A0A96F0F486711CD67E8C7EFA95C7F8FD42463D5DF54648A896C78390B7F6F"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Textures\\Earth_BaseColor_2048x1024.jpg",
+        "sha256":  "FB67AC030214C1891994C8F976E7F6C9CD5B0F21586ABA8567250781A4FE708E"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Textures\\SOURCES.md",
+        "sha256":  "5C04C4D31899A04B03B2B1FBC8121BEF8B264102112653F35D00C6210229B42C"
+    },
+    {
+        "path":  "ArtSource\\Blender\\SpaceEnvironment\\Textures\\SpaceStars_BaseColor.png",
+        "sha256":  "C01DA67D8408F2DCEFD80D6FA81D03DA14738CAFF82E4219C84605C85CAABEEA"
+    },
+    {
+        "path":  "ArtSource\\References\\space_environment_reference.png",
+        "sha256":  "68BF3EAAB964A2F89CFAD6C07E91819A6F8F319957C9451BAEDE0890D593E28E"
+    },
+    {
+        "path":  "ProjectSettings\\AudioManager.asset",
+        "sha256":  "AEEDEB3243F07B61DBBE854AA08B5EF6F0B5274DD9852AD9F6129DDE3E105A31"
+    },
+    {
+        "path":  "ProjectSettings\\ClusterInputManager.asset",
+        "sha256":  "40E65DD214BF254955D2C8829CA8CE2130FD3510485560CE012E9A1DDD93E623"
+    },
+    {
+        "path":  "ProjectSettings\\DynamicsManager.asset",
+        "sha256":  "B7C9A9DC08B98990109D4346F68745E15E238DE400F96C583E53E1C83C743A78"
+    },
+    {
+        "path":  "ProjectSettings\\EditorBuildSettings.asset",
+        "sha256":  "110B7EF9F9A3EA581DEC2124FCE7AB29214AFBE88C99C4EDB719F56C5AD180B3"
+    },
+    {
+        "path":  "ProjectSettings\\EditorSettings.asset",
+        "sha256":  "20E7399984B858EF7485C4E58F26A42345169749CF0D3A63EFAAA82B33F8A883"
+    },
+    {
+        "path":  "ProjectSettings\\GraphicsSettings.asset",
+        "sha256":  "4AC0D402C463FC830A46A1DDFAB132E617BB2EE00DBC9834784D6DF415014768"
+    },
+    {
+        "path":  "ProjectSettings\\InputManager.asset",
+        "sha256":  "7A1BB836A1008D26D0860D143E9D9DF7CA41731D30A72901B518063819C62DF2"
+    },
+    {
+        "path":  "ProjectSettings\\MemorySettings.asset",
+        "sha256":  "1E8379A461B10AE09F3F696911088C16875D63E87ED5F2D95DF9E1892703F9FD"
+    },
+    {
+        "path":  "ProjectSettings\\MultiplayerManager.asset",
+        "sha256":  "ABA89FD1A1DDAD182727AD82727E536D27372E90328A8196DA2A4560398983DD"
+    },
+    {
+        "path":  "ProjectSettings\\NavMeshAreas.asset",
+        "sha256":  "80106CFA7E6181A1928B142C075F3E510D527441E3D79BC83590E4AC91E7CD66"
+    },
+    {
+        "path":  "ProjectSettings\\PackageManagerSettings.asset",
+        "sha256":  "BD1BF3BC0A23B06888202F7A141BB58AB75B013672339CCBDC2ADDB78220D7EA"
+    },
+    {
+        "path":  "ProjectSettings\\Physics2DSettings.asset",
+        "sha256":  "E3CBDBF0BE15244B7B67D2F07BDB8E8981911C11A8C7FE8035F5261272FEC658"
+    },
+    {
+        "path":  "ProjectSettings\\PhysicsCoreProjectSettings2D.asset",
+        "sha256":  "BEDC5339A832C60DC3F11B84ABC4F4384DBFA20B0CD9AD6C444B907E751FC35E"
+    },
+    {
+        "path":  "ProjectSettings\\PresetManager.asset",
+        "sha256":  "29C125923FE6E29F90190D4FCE1C82D660E7051546E2C9D02908D18C9CF2436C"
+    },
+    {
+        "path":  "ProjectSettings\\ProjectAuditorSettings.asset",
+        "sha256":  "DBF44DC7E72B2FD3110F8834C18FE632A203C898D7303601B2201B67B7D18DC9"
+    },
+    {
+        "path":  "ProjectSettings\\ProjectSettings.asset",
+        "sha256":  "F59E04A21666528067706AD53D8A1A9E8A7441A401D523155C5A5405476D3225"
+    },
+    {
+        "path":  "ProjectSettings\\ProjectVersion.txt",
+        "sha256":  "68312BD68C3D81C0DABEAA9905955FD523A6A184F4E6AE180377A1CDB8B2FD42"
+    },
+    {
+        "path":  "ProjectSettings\\QualitySettings.asset",
+        "sha256":  "6814D6CC3EB850DD7D2A069A8B17BA9F7591DEBA8B1758A855978BD9C8627643"
+    },
+    {
+        "path":  "ProjectSettings\\SceneTemplateSettings.json",
+        "sha256":  "BB9098B3BFCDE78D93E264B96F7B77B5430E64E8C57A7AAD7F5A5D9C3945E16A"
+    },
+    {
+        "path":  "ProjectSettings\\ShaderGraphSettings.asset",
+        "sha256":  "CDBA1E5D65BCF6E3269D76ED3E60B6C21F98322002996642C9D74F1EB89F6B91"
+    },
+    {
+        "path":  "ProjectSettings\\TagManager.asset",
+        "sha256":  "4C2FFAE8F20EB89AA9BE77800A7974FFA4F10AA0D9AA9B18ADF4D766B70A2A50"
+    },
+    {
+        "path":  "ProjectSettings\\TimeManager.asset",
+        "sha256":  "1A83E54ADBBDA7C9F4851103A0C6AB7F6448A3343D4EA5B7620452FA08416ECD"
+    },
+    {
+        "path":  "ProjectSettings\\UnityConnectSettings.asset",
+        "sha256":  "B7DD1E8290598F5CE86919BA1C98B42B766C8C42191A30FA2C4D12195C4ECD00"
+    },
+    {
+        "path":  "ProjectSettings\\URPProjectSettings.asset",
+        "sha256":  "C317FE22B9488785C0611F0642429922E5D324430D929BFFB41648130F30C218"
+    },
+    {
+        "path":  "ProjectSettings\\VersionControlSettings.asset",
+        "sha256":  "E7BDA45BF7A394745FEE1316E6C71FA676004D591AD1F3AA247FD3E4CEB86071"
+    },
+    {
+        "path":  "ProjectSettings\\VFXManager.asset",
+        "sha256":  "F066C6483919961332415EE64204F74FE52F38C02E82892EB02B7A5B2E381F0E"
+    },
+    {
+        "path":  "ProjectSettings\\XRSettings.asset",
+        "sha256":  "EDD2BEB4A2E388312B4B7DA241AA51070434005D82C59363F1237DD2E567585F"
+    },
+    {
+        "path":  "Packages\\manifest.json",
+        "sha256":  "C60B2CFAE1561341CA1AF8F4C7F5BE8DA11174F86F0965F22CAA85662330A698"
+    },
+    {
+        "path":  "Packages\\packages-lock.json",
+        "sha256":  "2190B1F9D25030FD75D2B15970679F21CAF1343B17355C1C0B605ED3641715F0"
+    }
+]

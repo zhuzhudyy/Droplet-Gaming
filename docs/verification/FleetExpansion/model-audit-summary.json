@@ -1,0 +1,250 @@
+﻿{
+    "inspectedAtUtc":  "2026-09-08T07:49:49.7205569Z",
+    "tool":  "5.2.1 LTS",
+    "sourceExists":  true,
+    "fbxExists":  true,
+    "sourceHash":  "446ee1a13616635b8bc26c0197e7afb7bbad8be55afa08f7f9cbb2eadf2a93df",
+    "fbxHash":  "aaa3a754c9f0adb1f45841c5c3e2955d26f8ab7a4a2a895ea45f261c33e6403a",
+    "sourceHashMatchesExportManifest":  true,
+    "fbxHashMatchesExportManifest":  true,
+    "sourceAuditPassed":  true,
+    "fbxAuditPassed":  true,
+    "maxSourceFbxBoundsErrorMetres":  1.43E-06,
+    "maxSocketMatrixElementError":  2.64E-06,
+    "uniqueMeshCount":  19,
+    "uniqueMeshTrianglesAcrossAllLods":  14000,
+    "lods":  [
+                 {
+                     "lod":  0,
+                     "meshInstances":  13,
+                     "uniqueMeshes":  7,
+                     "trianglesPerShip":  17224,
+                     "boundsBlender":  {
+                                           "min":  [
+                                                       -3.69000006,
+                                                       -11.06999969,
+                                                       -2.731534
+                                                   ],
+                                           "max":  [
+                                                       3.69000006,
+                                                       11.06999969,
+                                                       3.48000002
+                                                   ],
+                                           "dimensions":  [
+                                                              7.38000011,
+                                                              22.13999939,
+                                                              6.21153402
+                                                          ],
+                                           "center":  [
+                                                          0.0,
+                                                          0.0,
+                                                          0.37423301
+                                                      ]
+                                       },
+                     "topology":  {
+                                      "boundary_edges":  0,
+                                      "loose_edges":  0,
+                                      "non_manifold_edges_including_boundary":  0,
+                                      "inconsistent_winding_edges":  0,
+                                      "invalid_polygon_normals":  0,
+                                      "zero_area_world_triangles":  0,
+                                      "closed_connected_components":  243,
+                                      "negative_signed_volume_closed_components":  0
+                                  }
+                 },
+                 {
+                     "lod":  1,
+                     "meshInstances":  13,
+                     "uniqueMeshes":  7,
+                     "trianglesPerShip":  5400,
+                     "boundsBlender":  {
+                                           "min":  [
+                                                       -3.69000006,
+                                                       -11.06999969,
+                                                       -2.731534
+                                                   ],
+                                           "max":  [
+                                                       3.69000006,
+                                                       11.06999969,
+                                                       3.48000002
+                                                   ],
+                                           "dimensions":  [
+                                                              7.38000011,
+                                                              22.13999939,
+                                                              6.21153402
+                                                          ],
+                                           "center":  [
+                                                          0.0,
+                                                          0.0,
+                                                          0.37423301
+                                                      ]
+                                       },
+                     "topology":  {
+                                      "boundary_edges":  0,
+                                      "loose_edges":  0,
+                                      "non_manifold_edges_including_boundary":  0,
+                                      "inconsistent_winding_edges":  0,
+                                      "invalid_polygon_normals":  0,
+                                      "zero_area_world_triangles":  0,
+                                      "closed_connected_components":  149,
+                                      "negative_signed_volume_closed_components":  0
+                                  }
+                 },
+                 {
+                     "lod":  2,
+                     "meshInstances":  10,
+                     "uniqueMeshes":  5,
+                     "trianglesPerShip":  1396,
+                     "boundsBlender":  {
+                                           "min":  [
+                                                       -3.69000006,
+                                                       -11.07000065,
+                                                       -2.731534
+                                                   ],
+                                           "max":  [
+                                                       3.69000006,
+                                                       11.06999969,
+                                                       3.48000002
+                                                   ],
+                                           "dimensions":  [
+                                                              7.38000011,
+                                                              22.14000034,
+                                                              6.21153402
+                                                          ],
+                                           "center":  [
+                                                          0.0,
+                                                          -4.8E-07,
+                                                          0.37423301
+                                                      ]
+                                       },
+                     "topology":  {
+                                      "boundary_edges":  0,
+                                      "loose_edges":  0,
+                                      "non_manifold_edges_including_boundary":  0,
+                                      "inconsistent_winding_edges":  0,
+                                      "invalid_polygon_normals":  0,
+                                      "zero_area_world_triangles":  0,
+                                      "closed_connected_components":  44,
+                                      "negative_signed_volume_closed_components":  0
+                                  }
+                 }
+             ],
+    "materialCount":  4,
+    "textureCount":  0,
+    "materials":  [
+                      {
+                          "name":  "FF_Armor",
+                          "users":  19,
+                          "diffuse_color":  [
+                                                0.38999999,
+                                                0.43000001,
+                                                0.45500001,
+                                                1.0
+                                            ],
+                          "metallic":  0.5,
+                          "roughness":  0.41999998688697815,
+                          "base_color":  [
+                                             0.38999999,
+                                             0.43000001,
+                                             0.45500001,
+                                             1.0
+                                         ],
+                          "node_types":  [
+                                             "BSDF_PRINCIPLED",
+                                             "NORMAL_MAP",
+                                             "OUTPUT_MATERIAL"
+                                         ]
+                      },
+                      {
+                          "name":  "FF_BlueGray",
+                          "users":  19,
+                          "diffuse_color":  [
+                                                0.075,
+                                                0.25,
+                                                0.345,
+                                                1.0
+                                            ],
+                          "metallic":  0.3499999940395355,
+                          "roughness":  0.3199999928474426,
+                          "base_color":  [
+                                             0.075,
+                                             0.25,
+                                             0.345,
+                                             1.0
+                                         ],
+                          "node_types":  [
+                                             "BSDF_PRINCIPLED",
+                                             "NORMAL_MAP",
+                                             "OUTPUT_MATERIAL"
+                                         ]
+                      },
+                      {
+                          "name":  "FF_EngineMetal",
+                          "users":  19,
+                          "diffuse_color":  [
+                                                0.235,
+                                                0.285,
+                                                0.32499999,
+                                                1.0
+                                            ],
+                          "metallic":  0.7799999713897705,
+                          "roughness":  0.3400000035762787,
+                          "base_color":  [
+                                             0.235,
+                                             0.285,
+                                             0.32499999,
+                                             1.0
+                                         ],
+                          "node_types":  [
+                                             "BSDF_PRINCIPLED",
+                                             "NORMAL_MAP",
+                                             "OUTPUT_MATERIAL"
+                                         ]
+                      },
+                      {
+                          "name":  "FF_Structure",
+                          "users":  19,
+                          "diffuse_color":  [
+                                                0.063,
+                                                0.083,
+                                                0.103,
+                                                1.0
+                                            ],
+                          "metallic":  0.44999998807907104,
+                          "roughness":  0.5199999809265137,
+                          "base_color":  [
+                                             0.063,
+                                             0.083,
+                                             0.103,
+                                             1.0
+                                         ],
+                          "node_types":  [
+                                             "BSDF_PRINCIPLED",
+                                             "NORMAL_MAP",
+                                             "OUTPUT_MATERIAL"
+                                         ]
+                      }
+                  ],
+    "fbxMeshVisibility":  [
+                              {
+                                  "Name":  "0, True, False",
+                                  "Count":  13
+                              },
+                              {
+                                  "Name":  "1, True, False",
+                                  "Count":  13
+                              },
+                              {
+                                  "Name":  "2, True, False",
+                                  "Count":  10
+                              }
+                          ],
+    "runtimeReadWriteDependency":  "No imported mesh vertex/index read found in Assets/_Project/Scripts/Runtime. MissionEffects only reads wreck sharedMesh.bounds; its new Mesh writes create pooled generic effects, independent of this FBX. Mesh Read/Write can be disabled for FusionFrigate after editor import inspection.",
+    "limits":  [
+                   "Blender audit is not Unity ModelImporter or actual rendered LOD verification.",
+                   "Finite topology checks do not prove no interpenetration.",
+                   "No memory, GPU memory, or performance measurement in this audit."
+               ],
+    "inputFilesSaved":  false,
+    "unityTouched":  false
+}

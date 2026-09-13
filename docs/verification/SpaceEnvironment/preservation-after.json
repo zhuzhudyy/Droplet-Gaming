@@ -1,0 +1,27 @@
+﻿{
+    "utc":  "2026-09-08T05:32:40.0798070Z",
+    "total":  1069,
+    "unchanged":  1066,
+    "changed":  [
+                    {
+                        "path":  "ProjectSettings\\TagManager.asset",
+                        "before":  "751E174FFD29D333AD51EC694723D175ECE663DAC84DE22F5DBF93D7098A8F78",
+                        "after":  "4C2FFAE8F20EB89AA9BE77800A7974FFA4F10AA0D9AA9B18ADF4D766B70A2A50"
+                    },
+                    {
+                        "path":  "Assets\\Settings\\PC_RPAsset.asset",
+                        "before":  "7B3794060807BB7989938DAE6B6B1102800334925A1436F8427FED7043ADBC6F",
+                        "after":  "699E47BC4D32D1699DBCEE926569742A662A70D319997534D3A8DC60150F7676"
+                    },
+                    {
+                        "path":  "Assets\\_Project\\Scenes\\TestRange.unity",
+                        "before":  "431EFCECD2C69DAC8226AFA5CE1DF3607E4683EE1052C54DE96A54C478BE22EC",
+                        "after":  "8ABCFA93DFD68A2CDDEB9438E59B29E09DE7187100EDD1F1E5C1F51FD63B4751"
+                    }
+                ],
+    "missing":  [
+
+                ],
+    "allPreservationConstraintsSatisfied":  false,
+    "knownFailure":  "TestRange was unintentionally rewritten by pre-existing SceneAuthoringTests and has not been restored."
+}

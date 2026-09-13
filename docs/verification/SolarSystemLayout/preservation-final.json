@@ -1,0 +1,26 @@
+﻿{
+    "baselineFiles":  490,
+    "changed":  [
+                    {
+                        "path":  "Assets\\Settings\\PC_RPAsset.asset",
+                        "status":  "changed",
+                        "before":  "699E47BC4D32D1699DBCEE926569742A662A70D319997534D3A8DC60150F7676",
+                        "after":  "0689E2757E10705D4DA78CF79A3FCE9AF6DD3E460C731E868A7E8F56CD14A044"
+                    },
+                    {
+                        "path":  "Assets\\_Project\\Scripts\\Editor\\DropletPrototype.Editor.asmdef",
+                        "status":  "changed",
+                        "before":  "86599A8AEAAABA4ADE28701AFE9159250B3ECB389028E79D00E20250DBF7197C",
+                        "after":  "3D5EE53169E535F21133D6871B9F9F754FE907A45F318D0ADA0E64C5592725E1"
+                    },
+                    {
+                        "path":  "Assets\\_Project\\Scripts\\Runtime\\HudPresenter.cs",
+                        "status":  "changed",
+                        "before":  "D08E499092AE6DC03F4181B276D7C471856F72A08B8C3B02B391F35A446BD455",
+                        "after":  "05A716B201CE2F911C2813EDD11AEECABB5EF99EB0E1DCC9214EE887CB111404"
+                    }
+                ],
+    "oldMetaUnchanged":  true,
+    "protectedSceneBytesUnchanged":  true,
+    "oldBlendBytesUnchanged":  true
+}

@@ -1,0 +1,37 @@
+{
+  "off": "docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07c-frozen-CHASE-explosion-response-OFF.png",
+  "on": "docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07d-frozen-CHASE-explosion-response-ON.png",
+  "width": 1920,
+  "height": 1080,
+  "scope": "RGB8 PNG comparison of an explicitly frozen actual rendered OFF/ON pair; no image pixels were changed. Numeric difference does not establish visual quality; inspect both source images.",
+  "fullImage": {
+    "pixels": 2073600,
+    "changedPixels": 8292,
+    "redIncreaseGreaterThan2of255Pixels": 5724,
+    "redIncreaseExceedsBlueBy2of255Pixels": 5377,
+    "maximumAbsoluteChannelDeltaOf255": 165,
+    "meanSignedRgbDeltaOf255": [
+      0.19945505401234567,
+      0.12398533950617284,
+      0.07496576003086419
+    ]
+  },
+  "roi": {
+    "bounds": [
+      910,
+      660,
+      1008,
+      780
+    ],
+    "pixels": 11760,
+    "changedPixels": 7531,
+    "redIncreaseGreaterThan2of255Pixels": 5724,
+    "redIncreaseExceedsBlueBy2of255Pixels": 5377,
+    "maximumAbsoluteChannelDeltaOf255": 165,
+    "meanSignedRgbDeltaOf255": [
+      35.13358843537415,
+      21.83809523809524,
+      13.206292517006803
+    ]
+  }
+}

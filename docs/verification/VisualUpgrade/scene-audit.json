@@ -1,0 +1,40 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_VisualUpgrade.unity",
+    "unity": "6000.5.10f1",
+    "pipeline": "PC_RPAsset",
+    "ships": 120,
+    "colliders": 1080,
+    "lights": 1,
+    "probes": 1,
+    "shipRenderers": 61,
+    "sharedShipMaterials": 7,
+    "oldShipSize": {
+        "x": 7.380000114440918,
+        "y": 6.211533546447754,
+        "z": 22.139999389648439
+    },
+    "newShipSize": {
+        "x": 19.187999725341798,
+        "y": 16.149986267089845,
+        "z": 57.563995361328128
+    },
+    "dropletSize": {
+        "x": 0.800000011920929,
+        "y": 0.800000011920929,
+        "z": 2.4000000953674318
+    },
+    "scale": 2.5999999046325685,
+    "oldLengthRatio": 9.22499942779541,
+    "newLengthRatio": 23.984996795654298,
+    "minCenterDistance": 110.699951171875,
+    "medianNearestDistance": 110.88798522949219,
+    "minBoundsGap": 53.1357421875,
+    "unitRoots": true,
+    "markersAssigned": true,
+    "poolAssigned": true,
+    "lods": [
+        "0.12 / 28 renderers",
+        "0.035 / 18 renderers",
+        "0.001 / 15 renderers"
+    ]
+}

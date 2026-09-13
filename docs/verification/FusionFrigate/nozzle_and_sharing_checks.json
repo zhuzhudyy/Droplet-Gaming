@@ -1,0 +1,2432 @@
+{
+  "source": {
+    "LOD0": {
+      "openings": [
+        {
+          "socket": "MainExhaust",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 2.420000534057617,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.7150000000000001,
+                0.0
+              ],
+              "depth_from_lip": 1.6716327476501465,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483815,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.671632866859436,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                4.3781123069517885e-17,
+                0.7150000000000001
+              ],
+              "depth_from_lip": 1.6716327476501465,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483814,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.6716327476501465,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.7150000000000001,
+                8.756224613903577e-17
+              ],
+              "depth_from_lip": 1.6716327476501465,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483817,
+                -0.5055813485483814
+              ],
+              "depth_from_lip": 1.671632866859436,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -1.3134336920855364e-16,
+                -0.7150000000000001
+              ],
+              "depth_from_lip": 1.6716327476501465,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483814,
+                -0.5055813485483817
+              ],
+              "depth_from_lip": 1.671632866859436,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_01",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940007019042969,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1701428699493408,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1701428699493408,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_02",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940007019042969,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1701428699493408,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1701428699493408,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_03",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940007019042969,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1701434659957886,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701428699493408,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_04",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940007019042969,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1701434659957886,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701432275772095,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701428699493408,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.170143346786499,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        }
+      ],
+      "mesh_sharing": {
+        "AuxiliaryDrive_": {
+          "instances": 4,
+          "unique_meshes": 1
+        },
+        "Turret_": {
+          "instances": 3,
+          "unique_meshes": 1
+        }
+      }
+    },
+    "LOD1": {
+      "openings": [
+        {
+          "socket": "MainExhaust",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 2.420000295639038,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.7150000000000001,
+                0.0
+              ],
+              "depth_from_lip": 1.7636735248565674,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483815,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.7422106075286865,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                4.3781123069517885e-17,
+                0.7150000000000001
+              ],
+              "depth_from_lip": 1.7636735248565674,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483814,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.7422106075286865,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.7150000000000001,
+                8.756224613903577e-17
+              ],
+              "depth_from_lip": 1.7636735248565674,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483817,
+                -0.5055813485483814
+              ],
+              "depth_from_lip": 1.7422106075286865,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -1.3134336920855364e-16,
+                -0.7150000000000001
+              ],
+              "depth_from_lip": 1.7636735248565674,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483814,
+                -0.5055813485483817
+              ],
+              "depth_from_lip": 1.7422106075286865,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_01",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940008211135864,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.234571557044983,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.234572033882141,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.2345714378356933,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345719146728515,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_02",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940008211135864,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.234571557044983,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.234572033882141,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.2345714378356933,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345719146728515,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_03",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.694000940322876,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.234572033882141,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.234572033882141,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.2345722723007202,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.234571557044983,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_04",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.694000940322876,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.2345722723007202,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.234572033882141,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.234572033882141,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1920541334152222,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.234571557044983,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1920540142059326,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        }
+      ],
+      "mesh_sharing": {
+        "AuxiliaryDrive_": {
+          "instances": 4,
+          "unique_meshes": 1
+        },
+        "Turret_": {
+          "instances": 3,
+          "unique_meshes": 1
+        }
+      }
+    },
+    "LOD2": {
+      "openings": [
+        {
+          "socket": "MainExhaust",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 2.420000534057617,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.7150000000000001,
+                0.0
+              ],
+              "depth_from_lip": 1.6474140691757202,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483815,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.576385359764099,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                4.3781123069517885e-17,
+                0.7150000000000001
+              ],
+              "depth_from_lip": 1.6474141883850097,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483814,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.5763855981826782,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.7150000000000001,
+                8.756224613903577e-17
+              ],
+              "depth_from_lip": 1.6474140691757202,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483817,
+                -0.5055813485483814
+              ],
+              "depth_from_lip": 1.576385359764099,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -1.3134336920855364e-16,
+                -0.7150000000000001
+              ],
+              "depth_from_lip": 1.6474141883850097,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483814,
+                -0.5055813485483817
+              ],
+              "depth_from_lip": 1.576385359764099,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_01",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940007019042969,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.153189878463745,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531903553009033,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531897592544555,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_02",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940007019042969,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.153189878463745,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531903553009033,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531897592544555,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1531902360916138,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_03",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940004634857178,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1531901168823242,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531904745101929,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531903553009033,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531904745101929,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531901168823242,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1531903553009033,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.153189878463745,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1531904745101929,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_04",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940004634857178,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1531901168823242,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531904745101929,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531903553009033,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531904745101929,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531901168823242,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1531903553009033,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.153189878463745,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1531904745101929,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        }
+      ],
+      "mesh_sharing": {
+        "AuxiliaryDrive_": {
+          "instances": 4,
+          "unique_meshes": 1
+        },
+        "Turret_": {
+          "instances": 3,
+          "unique_meshes": 1
+        }
+      }
+    }
+  },
+  "fbx_reimport": {
+    "LOD0": {
+      "openings": [
+        {
+          "socket": "AuxiliaryExhaust_01",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940002250671387,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1701425123214722,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701407241821289,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701403665542602,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701407241821289,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1701421546936035,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701450157165527,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701460886001587,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1701450157165527,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_02",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940002250671387,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1701425123214722,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701407241821289,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701403665542602,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701407241821289,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1701421546936035,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701450157165527,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701460886001587,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1701450157165527,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_03",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.693999629020691,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.170142273902893,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701400089263916,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701394128799438,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701400089263916,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1701425123214722,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701447772979736,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701463270187378,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1701448965072632,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_04",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.693999629020691,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1701425123214722,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701400089263916,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701394128799438,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1701400089263916,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1701423931121826,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1701447772979736,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.1701463270187378,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1701448965072632,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "MainExhaust",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 2.420000295639038,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.7150000000000001,
+                0.0
+              ],
+              "depth_from_lip": 1.6716321516036987,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483815,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.671628098487854,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                4.3781123069517885e-17,
+                0.7150000000000001
+              ],
+              "depth_from_lip": 1.671626787185669,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483814,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.6716279792785644,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.7150000000000001,
+                8.756224613903577e-17
+              ],
+              "depth_from_lip": 1.6716322708129883,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483817,
+                -0.5055813485483814
+              ],
+              "depth_from_lip": 1.6716366815567016,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -1.3134336920855364e-16,
+                -0.7150000000000001
+              ],
+              "depth_from_lip": 1.671638708114624,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483814,
+                -0.5055813485483817
+              ],
+              "depth_from_lip": 1.6716364431381225,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        }
+      ],
+      "mesh_sharing": {
+        "AuxiliaryDrive_": {
+          "instances": 4,
+          "unique_meshes": 1
+        },
+        "Turret_": {
+          "instances": 3,
+          "unique_meshes": 1
+        }
+      }
+    },
+    "LOD1": {
+      "openings": [
+        {
+          "socket": "AuxiliaryExhaust_01",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940004634857178,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.2345706033706665,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920513916015625,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345684576034546,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920513916015625,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.2345706033706665,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1920566368103027,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345757293701172,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1920566368103027,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_02",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940004634857178,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.2345706033706665,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920513916015625,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345684576034546,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920513916015625,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.2345706033706665,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.1920566368103027,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345757293701172,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1920566368103027,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_03",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.69399986743927,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.2345706033706665,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920506763458252,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345673847198486,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920505571365356,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.2345709609985351,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.192056040763855,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.234575252532959,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.192056040763855,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_04",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.69399986743927,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.2345709609985351,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920506763458252,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.2345673847198486,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1920505571365356,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.2345706033706665,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.192056040763855,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.234575252532959,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.192056040763855,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "MainExhaust",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 2.420000534057617,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.7150000000000001,
+                0.0
+              ],
+              "depth_from_lip": 1.7636724519729614,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483815,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.7422056007385254,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                4.3781123069517885e-17,
+                0.7150000000000001
+              ],
+              "depth_from_lip": 1.7636663722991943,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483814,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.742205719947815,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.7150000000000001,
+                8.756224613903577e-17
+              ],
+              "depth_from_lip": 1.7636724519729614,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483817,
+                -0.5055813485483814
+              ],
+              "depth_from_lip": 1.7422158527374267,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -1.3134336920855364e-16,
+                -0.7150000000000001
+              ],
+              "depth_from_lip": 1.763681035041809,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483814,
+                -0.5055813485483817
+              ],
+              "depth_from_lip": 1.7422158527374267,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        }
+      ],
+      "mesh_sharing": {
+        "AuxiliaryDrive_": {
+          "instances": 4,
+          "unique_meshes": 1
+        },
+        "Turret_": {
+          "instances": 3,
+          "unique_meshes": 1
+        }
+      }
+    },
+    "LOD2": {
+      "openings": [
+        {
+          "socket": "AuxiliaryExhaust_01",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940008211135864,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1531880903244018,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.15318594455719,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.153186182975769,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.15318594455719,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531880903244018,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.153192024230957,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.153194408416748,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.153192024230957,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_02",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.6940008211135864,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1531880903244018,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.15318594455719,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.153186182975769,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.15318594455719,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531880903244018,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.153192024230957,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.153194408416748,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.153192024230957,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_03",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.69399986743927,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1531873750686645,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531852293014526,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531849908828735,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531852293014526,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531873750686645,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.153190951347351,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.153193097114563,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1531908321380615,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "AuxiliaryExhaust_04",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 1.69399986743927,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.31817500000000004,
+                0.0
+              ],
+              "depth_from_lip": 1.1531873750686645,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.2249837001040298,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531852293014526,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                1.9482599765935458e-17,
+                0.31817500000000004
+              ],
+              "depth_from_lip": 1.1531849908828735,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402977,
+                0.2249837001040298
+              ],
+              "depth_from_lip": 1.1531852293014526,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.31817500000000004,
+                3.8965199531870917e-17
+              ],
+              "depth_from_lip": 1.1531873750686645,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.22498370010402985,
+                -0.22498370010402977
+              ],
+              "depth_from_lip": 1.153190951347351,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -5.844779929780637e-17,
+                -0.31817500000000004
+              ],
+              "depth_from_lip": 1.153193097114563,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.22498370010402974,
+                -0.22498370010402985
+              ],
+              "depth_from_lip": 1.1531908321380615,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        },
+        {
+          "socket": "MainExhaust",
+          "tests": [
+            {
+              "offset": [
+                0,
+                0
+              ],
+              "depth_from_lip": 2.420000057220459,
+              "first_material": "FF_BlueGray"
+            },
+            {
+              "offset": [
+                0.7150000000000001,
+                0.0
+              ],
+              "depth_from_lip": 1.6474131155014038,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483815,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.5763823795318603,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                4.3781123069517885e-17,
+                0.7150000000000001
+              ],
+              "depth_from_lip": 1.6474100160598755,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483814,
+                0.5055813485483815
+              ],
+              "depth_from_lip": 1.5763824987411499,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.7150000000000001,
+                8.756224613903577e-17
+              ],
+              "depth_from_lip": 1.6474131155014038,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -0.5055813485483817,
+                -0.5055813485483814
+              ],
+              "depth_from_lip": 1.5763883399963379,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                -1.3134336920855364e-16,
+                -0.7150000000000001
+              ],
+              "depth_from_lip": 1.6474178838729858,
+              "first_material": "FF_EngineMetal"
+            },
+            {
+              "offset": [
+                0.5055813485483814,
+                -0.5055813485483817
+              ],
+              "depth_from_lip": 1.5763882207870483,
+              "first_material": "FF_EngineMetal"
+            }
+          ],
+          "exit_clear": true
+        }
+      ],
+      "mesh_sharing": {
+        "AuxiliaryDrive_": {
+          "instances": 4,
+          "unique_meshes": 1
+        },
+        "Turret_": {
+          "instances": 3,
+          "unique_meshes": 1
+        }
+      }
+    }
+  },
+  "passed": true,
+  "limits": "Nine aperture rays per nozzle per LOD, plus opposing exit rays; not an exhaustive intersection proof."
+}

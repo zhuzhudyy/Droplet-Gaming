@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 1.36,
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.NarrativeRadioLayoutTests.RadioPanelAvoidsReadyPausedAndResultsMenusWithoutDisablingControls",
+      "Status": "Passed",
+      "Duration": 0.6681394,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.NarrativeRadioLayoutTests.SignalStatusAndVolumeGenerateEveryVisibleGlyphInTheSavedRectangle",
+      "Status": "Passed",
+      "Duration": 0.6330839,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

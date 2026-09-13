@@ -1,0 +1,6 @@
+﻿{
+    "startedUtc":  "2026-09-08T11:25:34.8728005Z",
+    "arguments":  "-lighting-validation \"C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\" -lighting-validation-label After -lighting-validation-quit -logFile \"C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Player\\player.log\" -screen-fullscreen 0",
+    "pid":  14484,
+    "exe":  "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\Builds\\Windows-Lighting-20260908\\DropletPrototype.exe"
+}

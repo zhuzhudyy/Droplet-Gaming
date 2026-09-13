@@ -1,0 +1,15 @@
+{
+    "name": "DropletPrototype.Tests.PlayMode",
+    "rootNamespace": "DropletPrototype.Tests.PlayMode",
+    "references": ["DropletPrototype.Runtime", "Unity.Timeline", "Unity.InputSystem", "Unity.TextMeshPro"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": ["TestAssemblies"]
+}

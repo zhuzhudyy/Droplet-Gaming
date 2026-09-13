@@ -1,0 +1,16 @@
+﻿{
+    "label": "After",
+    "phase": "Completed",
+    "utc": "2026-09-08T11:00:14.6454137Z",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\LightingUpgrade\\Editor\\After-20260908-110005-419",
+    "phaseFrame": 0,
+    "completedPhases": 3,
+    "screenshots": 16,
+    "unityFrame": 2929,
+    "running": false,
+    "focused": true,
+    "active": true,
+    "enabled": true,
+    "runInBackground": false,
+    "timeScale": 1.0
+}

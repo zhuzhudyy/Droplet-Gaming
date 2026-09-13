@@ -1,0 +1,498 @@
+{
+  "passed": true,
+  "authoritySha256": "0693b71db4557310c686cb95a83d1b4eb1a7fa3ae89847da51b39516bde97a1c",
+  "measurements": {
+    "count": 120,
+    "centerBounds": {
+      "min": [
+        -656.272,
+        -178.671,
+        100.0
+      ],
+      "max": [
+        768.079,
+        259.021,
+        1555.825
+      ],
+      "size": [
+        1424.351,
+        437.692,
+        1455.825
+      ]
+    },
+    "visualBounds": {
+      "min": [
+        -659.9620000000001,
+        -181.402535,
+        88.93
+      ],
+      "max": [
+        771.769,
+        262.50100000000003,
+        1566.895
+      ],
+      "size": [
+        1431.7310000000002,
+        443.90353500000003,
+        1477.965
+      ]
+    },
+    "nearestMin": 110.69999999999982,
+    "nearestMedian": 110.88803030985805,
+    "nearestMax": 110.88803030985811,
+    "nearestMedianToOld": 2.1415896704911175,
+    "nearestMedianInShipLengths": 5.008492787256461,
+    "squadronVisualBounds": [
+      {
+        "name": "Squadron_01",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -106.272,
+            -50.671,
+            100.0
+          ],
+          "max": [
+            218.079,
+            122.021,
+            625.825
+          ],
+          "size": [
+            324.351,
+            172.692,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -109.962,
+            -53.402535,
+            88.93
+          ],
+          "max": [
+            221.769,
+            125.501,
+            636.8950000000001
+          ],
+          "size": [
+            331.731,
+            178.903535,
+            547.9650000000001
+          ]
+        }
+      },
+      {
+        "name": "Squadron_02",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -656.272,
+            46.329,
+            140.0
+          ],
+          "max": [
+            -331.921,
+            219.021,
+            665.825
+          ],
+          "size": [
+            324.35100000000006,
+            172.69199999999998,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -659.9620000000001,
+            43.597465,
+            128.93
+          ],
+          "max": [
+            -328.231,
+            222.50099999999998,
+            676.8950000000001
+          ],
+          "size": [
+            331.7310000000001,
+            178.90353499999998,
+            547.9650000000001
+          ]
+        }
+      },
+      {
+        "name": "Squadron_03",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            443.728,
+            -143.671,
+            210.0
+          ],
+          "max": [
+            768.079,
+            29.021,
+            735.825
+          ],
+          "size": [
+            324.35099999999994,
+            172.692,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            440.038,
+            -146.402535,
+            198.93
+          ],
+          "max": [
+            771.769,
+            32.501,
+            746.8950000000001
+          ],
+          "size": [
+            331.731,
+            178.903535,
+            547.9650000000001
+          ]
+        }
+      },
+      {
+        "name": "Squadron_04",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -656.272,
+            -178.671,
+            900.0
+          ],
+          "max": [
+            -331.921,
+            -5.979,
+            1425.825
+          ],
+          "size": [
+            324.35100000000006,
+            172.69199999999998,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -659.9620000000001,
+            -181.402535,
+            888.93
+          ],
+          "max": [
+            -328.231,
+            -2.499,
+            1436.895
+          ],
+          "size": [
+            331.7310000000001,
+            178.903535,
+            547.965
+          ]
+        }
+      },
+      {
+        "name": "Squadron_05",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            -106.272,
+            86.329,
+            930.0
+          ],
+          "max": [
+            218.079,
+            259.021,
+            1455.825
+          ],
+          "size": [
+            324.351,
+            172.692,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            -109.962,
+            83.597465,
+            918.93
+          ],
+          "max": [
+            221.769,
+            262.50100000000003,
+            1466.895
+          ],
+          "size": [
+            331.731,
+            178.90353500000003,
+            547.965
+          ]
+        }
+      },
+      {
+        "name": "Squadron_06",
+        "count": 20,
+        "centerBounds": {
+          "min": [
+            443.728,
+            -38.671,
+            1030.0
+          ],
+          "max": [
+            768.079,
+            134.021,
+            1555.825
+          ],
+          "size": [
+            324.35099999999994,
+            172.69199999999998,
+            525.825
+          ]
+        },
+        "visualBounds": {
+          "min": [
+            440.038,
+            -41.402535,
+            1018.93
+          ],
+          "max": [
+            771.769,
+            137.50099999999998,
+            1566.895
+          ],
+          "size": [
+            331.731,
+            178.90353499999998,
+            547.965
+          ]
+        }
+      }
+    ],
+    "squadronGaps": [
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_02",
+        "clearDistance": 218.269
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_03",
+        "clearDistance": 218.269
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_04",
+        "clearDistance": 333.41115396159125
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_05",
+        "clearDistance": 282.03499999999985
+      },
+      {
+        "a": "Squadron_01",
+        "b": "Squadron_06",
+        "clearDistance": 439.9910198924518
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_03",
+        "clearDistance": 768.3491315128144
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_04",
+        "clearDistance": 216.98784599718059
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_05",
+        "clearDistance": 325.91762392666027
+      },
+      {
+        "a": "Squadron_02",
+        "b": "Squadron_06",
+        "clearDistance": 840.9668231184867
+      },
+      {
+        "a": "Squadron_03",
+        "b": "Squadron_04",
+        "clearDistance": 781.2881655228114
+      },
+      {
+        "a": "Squadron_03",
+        "b": "Squadron_05",
+        "clearDistance": 282.5743199965209
+      },
+      {
+        "a": "Squadron_03",
+        "b": "Squadron_06",
+        "clearDistance": 272.03499999999985
+      },
+      {
+        "a": "Squadron_04",
+        "b": "Squadron_05",
+        "clearDistance": 234.63579787938633
+      },
+      {
+        "a": "Squadron_04",
+        "b": "Squadron_06",
+        "clearDistance": 768.269
+      },
+      {
+        "a": "Squadron_05",
+        "b": "Squadron_06",
+        "clearDistance": 218.269
+      }
+    ],
+    "minimumSquadronClearance": 216.98784599718059,
+    "minimumSquadronClearanceInLengths": 9.800715718029837,
+    "closestRockConservative": {
+      "target": "SPAWN_Small_FF034",
+      "rock": "rock-001",
+      "conservativeClearance": 404.76043808528016
+    },
+    "rockMethod": "All-LOD prototype full AABB diagonal x scale plus ship corner radius; deliberately conservative sphere separation, not Unity physics.",
+    "maximumFleetRadiusFromSolarOrigin": 1519.7874572713242,
+    "boundaryRadius": 5840,
+    "warningRadius": 4880,
+    "shipPairVisualAabbOverlapCount": 0
+  },
+  "routeEstimate": {
+    "method": "Non-optimal reproducible all-120-target column-snake route; 60% cruise distance/40% boost distance, harmonic effective speed; lane turns and alignment plus margin. Estimate, not a completed human playthrough.",
+    "targetOrder": [
+      "SPAWN_Small_FF001",
+      "SPAWN_Small_FF002",
+      "SPAWN_Small_FF003",
+      "SPAWN_Small_FF004",
+      "SPAWN_Small_FF005",
+      "SPAWN_Small_FF010",
+      "SPAWN_Small_FF009",
+      "SPAWN_Small_FF008",
+      "SPAWN_Small_FF007",
+      "SPAWN_Small_FF006",
+      "SPAWN_Small_FF011",
+      "SPAWN_Small_FF012",
+      "SPAWN_Small_FF013",
+      "SPAWN_Small_FF014",
+      "SPAWN_Small_FF015",
+      "SPAWN_Small_FF020",
+      "SPAWN_Small_FF019",
+      "SPAWN_Small_FF018",
+      "SPAWN_Small_FF017",
+      "SPAWN_Small_FF016",
+      "SPAWN_Small_FF021",
+      "SPAWN_Small_FF022",
+      "SPAWN_Small_FF023",
+      "SPAWN_Small_FF024",
+      "SPAWN_Small_FF025",
+      "SPAWN_Small_FF030",
+      "SPAWN_Small_FF029",
+      "SPAWN_Small_FF028",
+      "SPAWN_Small_FF027",
+      "SPAWN_Small_FF026",
+      "SPAWN_Small_FF031",
+      "SPAWN_Small_FF032",
+      "SPAWN_Small_FF033",
+      "SPAWN_Small_FF034",
+      "SPAWN_Small_FF035",
+      "SPAWN_Small_FF040",
+      "SPAWN_Small_FF039",
+      "SPAWN_Small_FF038",
+      "SPAWN_Small_FF037",
+      "SPAWN_Small_FF036",
+      "SPAWN_Small_FF061",
+      "SPAWN_Small_FF062",
+      "SPAWN_Small_FF063",
+      "SPAWN_Small_FF064",
+      "SPAWN_Small_FF065",
+      "SPAWN_Small_FF070",
+      "SPAWN_Small_FF069",
+      "SPAWN_Small_FF068",
+      "SPAWN_Small_FF067",
+      "SPAWN_Small_FF066",
+      "SPAWN_Small_FF071",
+      "SPAWN_Small_FF072",
+      "SPAWN_Small_FF073",
+      "SPAWN_Small_FF074",
+      "SPAWN_Small_FF075",
+      "SPAWN_Small_FF080",
+      "SPAWN_Small_FF079",
+      "SPAWN_Small_FF078",
+      "SPAWN_Small_FF077",
+      "SPAWN_Small_FF076",
+      "SPAWN_Small_FF081",
+      "SPAWN_Small_FF082",
+      "SPAWN_Small_FF083",
+      "SPAWN_Small_FF084",
+      "SPAWN_Small_FF085",
+      "SPAWN_Small_FF090",
+      "SPAWN_Small_FF089",
+      "SPAWN_Small_FF088",
+      "SPAWN_Small_FF087",
+      "SPAWN_Small_FF086",
+      "SPAWN_Small_FF091",
+      "SPAWN_Small_FF092",
+      "SPAWN_Small_FF093",
+      "SPAWN_Small_FF094",
+      "SPAWN_Small_FF095",
+      "SPAWN_Small_FF100",
+      "SPAWN_Small_FF099",
+      "SPAWN_Small_FF098",
+      "SPAWN_Small_FF097",
+      "SPAWN_Small_FF096",
+      "SPAWN_Small_FF101",
+      "SPAWN_Small_FF102",
+      "SPAWN_Small_FF103",
+      "SPAWN_Small_FF104",
+      "SPAWN_Small_FF105",
+      "SPAWN_Small_FF110",
+      "SPAWN_Small_FF109",
+      "SPAWN_Small_FF108",
+      "SPAWN_Small_FF107",
+      "SPAWN_Small_FF106",
+      "SPAWN_Small_FF111",
+      "SPAWN_Small_FF112",
+      "SPAWN_Small_FF113",
+      "SPAWN_Small_FF114",
+      "SPAWN_Small_FF115",
+      "SPAWN_Small_FF120",
+      "SPAWN_Small_FF119",
+      "SPAWN_Small_FF118",
+      "SPAWN_Small_FF117",
+      "SPAWN_Small_FF116",
+      "SPAWN_Small_FF041",
+      "SPAWN_Small_FF042",
+      "SPAWN_Small_FF043",
+      "SPAWN_Small_FF044",
+      "SPAWN_Small_FF045",
+      "SPAWN_Small_FF050",
+      "SPAWN_Small_FF049",
+      "SPAWN_Small_FF048",
+      "SPAWN_Small_FF047",
+      "SPAWN_Small_FF046",
+      "SPAWN_Small_FF051",
+      "SPAWN_Small_FF052",
+      "SPAWN_Small_FF053",
+      "SPAWN_Small_FF054",
+      "SPAWN_Small_FF055",
+      "SPAWN_Small_FF060",
+      "SPAWN_Small_FF059",
+      "SPAWN_Small_FF058",
+      "SPAWN_Small_FF057",
+      "SPAWN_Small_FF056"
+    ],
+    "lengthMeters": 18377.24888334456,
+    "effectiveSpeedMetersPerSecond": 70.90909090909092,
+    "travelSeconds": 259.1663304061412,
+    "laneTurnAllowanceSeconds": 69,
+    "targetAlignmentAllowanceSeconds": 60.0,
+    "marginMultiplier": 1.3,
+    "unroundedMissionSeconds": 504.61622952798353,
+    "roundedMissionSeconds": 540
+  }
+}

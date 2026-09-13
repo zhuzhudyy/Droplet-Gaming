@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "duration": 0.43,
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.CrossingMovingShipHitsAlthoughBothEndpointHullsMissPath",
+      "Status": "Passed",
+      "Duration": 0.0014323,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.DamageDeadlineIsIdempotentAndResetCannotCommitPreviousGeneration",
+      "Status": "Passed",
+      "Duration": 0.0008319,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.EscapingCrossesFiniteBoundaryAndNeverAwardsDestruction",
+      "Status": "Passed",
+      "Duration": 0.0005409,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.NearbyPanicHasDifferentReactionTimesAndExplosionWitnessIsAlive",
+      "Status": "Passed",
+      "Duration": 0.0022597,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.RayGeometryIgnoresLodColliderEnableAndFindsNearestHull",
+      "Status": "Passed",
+      "Duration": 0.0005603,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.RotatingLongHullUsesControlledSubstepsAndRetainsCompoundIdentity",
+      "Status": "Passed",
+      "Duration": 0.0004952,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.ScaleUsesPhysicalSpeedAndDistanceWithoutHudMultiplier",
+      "Status": "Passed",
+      "Duration": 0.0003112,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.TemporalSubsegmentDoesNotUseWholeShipStepTwice",
+      "Status": "Passed",
+      "Duration": 0.0003938,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.ActualRebuiltDropletSurfaceHasRoundFrontAndRejectsOversizedCombatSphereMiss",
+      "Status": "Passed",
+      "Duration": 0.060838,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.BarycentricNormalAndWorldDistanceSurviveNonuniformTransform",
+      "Status": "Passed",
+      "Duration": 0.0015734,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.ReflectionUsesNormalizedWorldNormalAndObeysEqualAngles",
+      "Status": "Passed",
+      "Duration": 0.0003421,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeLaserGeometryTests.SurfaceAuthorityIgnoresInterpolatedVisualPose",
+      "Status": "Passed",
+      "Duration": 0.0004308,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeRadioAssetTests.AllFortyEightOfflineChineseVoicesAndBothSignalTonesAreRealImportedClips",
+      "Status": "Passed",
+      "Duration": 0.0123743,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeRadioAssetTests.OriginalLibraryCoversEventsAndSixtySecondNarrative",
+      "Status": "Passed",
+      "Duration": 0.0013158,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeRadioAssetTests.SavedChineseFontRetainsItsMaterialAndEveryUsedAtlas",
+      "Status": "Passed",
+      "Duration": 0.0054227,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

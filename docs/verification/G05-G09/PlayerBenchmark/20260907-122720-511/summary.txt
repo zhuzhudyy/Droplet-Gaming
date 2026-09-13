@@ -1,0 +1,27 @@
+﻿DropletPrototype rendered benchmark / scripted flow
+Completed: True; all recorded checks: True
+Actual: 1920x1080, PC, effects High, NVIDIA GeForce RTX 4060 Laptop GPU
+Normal flight: 7062 frames; mean 1.13 ms, p95 2.17 ms; effects/audio peak 4/2
+Dense penetrations: 6779 frames; mean 1.18 ms, p95 2.19 ms; effects/audio peak 16/6
+Three restart frames: 3 frames; mean 1.15 ms, p95 1.55 ms; effects/audio peak 0/0
+PASS Formal fleet has 30-60 interactive targets: Mission targets=40
+PASS Presentation pool is configured: Prewarmed objects=441
+PASS Rendered 1080p: 1920x1080, graphics=Direct3D12
+PASS Screenshot written: 01-ready: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\PlayerBenchmark\20260907-122720-511\01-ready.png
+PASS Screenshot written: 02-flight: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\PlayerBenchmark\20260907-122720-511\02-flight.png
+PASS Authored three-ship practice lane is horizontal and straight: Middle distance from line=0, direction=(0.00, 0.00, 1.00)
+PASS A single actual movement sweeps multiple targets: SPAWN_Small_001 through SPAWN_Small_003; destroyed in one segment: 3
+PASS Impact inspection uses real destroyed target and pooled effects: Inspection angle only; target=SPAWN_Small_003, camera=(28.00, 22.00, 167.00), effects=3
+PASS Screenshot written: 03-impact-inspection-flash: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\PlayerBenchmark\20260907-122720-511\03-impact-inspection-flash.png
+PASS Screenshot written: 03-impact-inspection-wreck: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\PlayerBenchmark\20260907-122720-511\03-impact-inspection-wreck.png
+PASS Screenshot written: 03-chain: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\PlayerBenchmark\20260907-122720-511\03-chain.png
+PASS Pause freezes timer, movement, score, hits and effects: Waited 0.3 real seconds and attempted Mission.Step while paused.
+PASS Entire fleet destroyed and won: destroyed=40/40, state=Results, score=21110
+PASS Results resolved once: transitions=1
+PASS Screenshot written: 04-results: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\PlayerBenchmark\20260907-122720-511\04-results.png
+PASS Restart 1: live=40, total=40, actual scene targets=40, pool=441
+PASS Restart 2: live=40, total=40, actual scene targets=40, pool=441
+PASS Restart 3: live=40, total=40, actual scene targets=40, pool=441
+PASS Reposition never damages the crossed path: Direct ResetPose checks=41, damage failures=0
+PASS Screenshot written: 05-restarted-ready: C:\学习\玩\Unity\新建文件夹\DropletPrototype\docs\verification\G05-G09\PlayerBenchmark\20260907-122720-511\05-restarted-ready.png
+Rendered scripted route through the existing MissionController.Step and DropletMotor.ResetPose. Measures this process only; not subjective handling, keyboard input, or listening acceptance. Screenshot capture and pause waits are excluded from measured flight phases. The explicitly named impact-inspection screenshots use a temporarily fixed side/rear camera looking at SPAWN_Small_003 and its real event-created wreck, not the normal chase-camera angle; chase behavior is restored afterwards.

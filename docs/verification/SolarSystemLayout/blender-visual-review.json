@@ -1,0 +1,13 @@
+﻿{
+    "source_sha256":  "9d80df9bb347a17fc359a51609382b7de5fd650c1697261a2055797b9c5be865",
+    "notes":  "Actual images opened and inspected. Sparse fixed local rocks; orbital radial order and thickness; fleets unchanged as Blender reference only. Earth subpixel accepted. No screenshot occupancy percentage claimed.",
+    "observed":  [
+                     "MacroInnerTop",
+                     "MacroInnerSide",
+                     "SpawnForward",
+                     "SpawnReverse",
+                     "ParallaxA",
+                     "ParallaxB"
+                 ],
+    "passed":  true
+}

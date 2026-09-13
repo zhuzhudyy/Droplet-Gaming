@@ -1,0 +1,1106 @@
+﻿{
+    "label": "After",
+    "scene": "Assets/_Project/Scenes/FleetAssault_VisualUpgrade.unity",
+    "utc": "2026-09-08T13:41:45.3362400Z",
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "operatingSystem": "Windows 11  (10.0.26200)",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326",
+    "scope": "Actual rendered frames in this process; each of 4 phases has at least 480 measured frames AND 6 real seconds after 60 warmup frames (16384-frame safety limit), VSync disabled and frame cap unlimited in BOTH comparisons. Standalone requests 1920x1080 windowed; actual dimensions and focus are reported per phase. NearCombat/FleetMedium/FacingSun are fixed identical world-space viewpoints in both scenes. ConcentratedExplosions teleports between existing targets then traverses each target using actual MissionController.Step(0.02) / DropletMotor sweeps every 0.16 real seconds, moves the inspection camera with the selected target, and does not directly destroy or score. These controlled attack starts are not natural gameplay pacing. Separate 120-target burst also uses real motor sweeps. Profiler recorder values exist only when marker samples are available; GPU timing is unavailable when FrameTimingManager supplies no nonzero timing. Frame time is rendered process interval, not pure GPU cost; inventory uses all scene renderers and isVisible may include Editor cameras. Screenshots and inventory/file formatting are outside timing intervals. Frozen reflection A/B changes only the component explosionReflections flag at an identical paused camera/time. No physical input, subjective feel, long-session stability or cross-hardware claim.",
+    "error": "",
+    "baseline": false,
+    "editor": true,
+    "developmentBuild": true,
+    "batchMode": false,
+    "inspectionOnly": false,
+    "completed": true,
+    "allChecksPassed": true,
+    "width": 1920,
+    "height": 1080,
+    "vSyncCount": 0,
+    "targetFrameRate": -1,
+    "previousVSyncCount": 0,
+    "previousTargetFrameRate": -1,
+    "totalTargets": 120,
+    "processorCount": 32,
+    "graphicsMemoryMB": 7956,
+    "systemMemoryMB": 15575,
+    "phases": [
+        {
+            "name": "NearCombat",
+            "workload": "Fixed camera; fleet intact; motor held stationary; normal shaders, lights, probes and presentation update",
+            "frames": 943,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 943,
+            "destroyed": 0,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 0,
+            "realtimeLightsPeak": 1,
+            "particlesPeak": 0,
+            "probeCaptures": 1,
+            "reactorDropped": 0,
+            "legacyDropped": 0,
+            "reflectionStrengthPeak": 0.0,
+            "seconds": 6.005195699999604,
+            "meanFps": 157.02767892903007,
+            "renderedFrameMs": {
+                "samples": 943,
+                "mean": 6.368304026527439,
+                "p50": 6.151700858026743,
+                "p95": 8.030002936720848,
+                "p99": 9.998200461268425,
+                "maximum": 25.081101804971696
+            },
+            "mainThreadMs": {
+                "samples": 943,
+                "mean": 6.357838706256641,
+                "p50": 6.146,
+                "p95": 7.9776,
+                "p99": 9.9616,
+                "maximum": 24.7702
+            },
+            "gpuFrameMs": {
+                "samples": 942,
+                "mean": 0.014612653927813328,
+                "p50": 0.013312,
+                "p95": 0.01536,
+                "p99": 0.022528,
+                "maximum": 0.237568
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 943,
+                "mean": 74.27147401908802,
+                "p50": 74.0,
+                "p95": 74.0,
+                "p99": 74.0,
+                "maximum": 230.0
+            },
+            "triangles": {
+                "samples": 943,
+                "mean": 1740940.6224814424,
+                "p50": 1740351.0,
+                "p95": 1740351.0,
+                "p99": 1740351.0,
+                "maximum": 1991323.0
+            },
+            "gcBytes": {
+                "samples": 943,
+                "mean": 19287.441145281016,
+                "p50": 19257.0,
+                "p95": 19345.0,
+                "p99": 19909.0,
+                "maximum": 31377.0
+            },
+            "before": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 7424,
+                "visibleRenderers": 1553,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 1305964027,
+                "reservedBytes": 2010689536,
+                "monoBytes": 850354176
+            },
+            "after": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 7424,
+                "visibleRenderers": 1553,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 1306835463,
+                "reservedBytes": 2010689536,
+                "monoBytes": 859262976
+            },
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 28.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "FleetMedium",
+            "workload": "Fixed camera; fleet intact; motor held stationary; normal shaders, lights, probes and presentation update",
+            "frames": 887,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 887,
+            "destroyed": 0,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 0,
+            "realtimeLightsPeak": 1,
+            "particlesPeak": 0,
+            "probeCaptures": 0,
+            "reactorDropped": 0,
+            "legacyDropped": 0,
+            "reflectionStrengthPeak": 0.0,
+            "seconds": 6.001141900000221,
+            "meanFps": 147.80454554914554,
+            "renderedFrameMs": {
+                "samples": 887,
+                "mean": 6.765691787655451,
+                "p50": 6.541999522596598,
+                "p95": 7.6489015482366089,
+                "p99": 8.401495404541493,
+                "maximum": 150.15950798988343
+            },
+            "mainThreadMs": {
+                "samples": 887,
+                "mean": 6.753584216459975,
+                "p50": 6.5249,
+                "p95": 7.6185,
+                "p99": 8.4763,
+                "maximum": 135.3599
+            },
+            "gpuFrameMs": {
+                "samples": 886,
+                "mean": 0.03658315124153508,
+                "p50": 0.013312,
+                "p95": 0.014336,
+                "p99": 1.39776,
+                "maximum": 1.82784
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 887,
+                "mean": 73.26493799323562,
+                "p50": 73.0,
+                "p95": 73.0,
+                "p99": 73.0,
+                "maximum": 381.0
+            },
+            "triangles": {
+                "samples": 887,
+                "mean": 1401639.8004509584,
+                "p50": 1401615.0,
+                "p95": 1401615.0,
+                "p99": 1401615.0,
+                "maximum": 2825228.0
+            },
+            "gcBytes": {
+                "samples": 887,
+                "mean": 19182.443066516345,
+                "p50": 19269.0,
+                "p95": 19357.0,
+                "p99": 19921.0,
+                "maximum": 35201.0
+            },
+            "before": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 7424,
+                "visibleRenderers": 2085,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 1306769072,
+                "reservedBytes": 2010689536,
+                "monoBytes": 860823552
+            },
+            "after": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 7424,
+                "visibleRenderers": 2085,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 1309288938,
+                "reservedBytes": 2010689536,
+                "monoBytes": 875876352
+            },
+            "cameraPosition": {
+                "x": 950.0,
+                "y": 720.0,
+                "z": -1150.0
+            },
+            "cameraForward": {
+                "x": -0.45149117708206179,
+                "y": -0.3231726288795471,
+                "z": 0.8316941857337952
+            }
+        },
+        {
+            "name": "ConcentratedExplosions",
+            "workload": "Attack selected existing target every 0.16 real seconds; full real motor sweep through hull; camera tracks selected target",
+            "frames": 957,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 957,
+            "destroyed": 37,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 12,
+            "realtimeLightsPeak": 3,
+            "particlesPeak": 0,
+            "probeCaptures": 2,
+            "reactorDropped": 0,
+            "legacyDropped": 37,
+            "reflectionStrengthPeak": 1.9978973865509034,
+            "seconds": 6.002191800002038,
+            "meanFps": 159.44942290142974,
+            "renderedFrameMs": {
+                "samples": 957,
+                "mean": 6.271581181063236,
+                "p50": 5.534601863473654,
+                "p95": 9.101197123527527,
+                "p99": 13.620294630527497,
+                "maximum": 239.89088833332063
+            },
+            "mainThreadMs": {
+                "samples": 957,
+                "mean": 6.261957575757575,
+                "p50": 5.4515,
+                "p95": 9.0136,
+                "p99": 13.2816,
+                "maximum": 243.6071
+            },
+            "gpuFrameMs": {
+                "samples": 935,
+                "mean": 1.393689189304812,
+                "p50": 1.41312,
+                "p95": 1.933312,
+                "p99": 2.152448,
+                "maximum": 2.491392
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 957,
+                "mean": 84.44723092998955,
+                "p50": 80.0,
+                "p95": 118.0,
+                "p99": 144.0,
+                "maximum": 228.0
+            },
+            "triangles": {
+                "samples": 957,
+                "mean": 1207948.1285266458,
+                "p50": 1154283.0,
+                "p95": 1735357.0,
+                "p99": 1904445.0,
+                "maximum": 3748750.0
+            },
+            "gcBytes": {
+                "samples": 957,
+                "mean": 13641.877742946708,
+                "p50": 12603.0,
+                "p95": 19245.0,
+                "p99": 29107.0,
+                "maximum": 106185.0
+            },
+            "before": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 7424,
+                "visibleRenderers": 1553,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 1308203191,
+                "reservedBytes": 2010689536,
+                "monoBytes": 877215744
+            },
+            "after": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 5290,
+                "visibleRenderers": 573,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 3,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 4,
+                "allocatedBytes": 1310230560,
+                "reservedBytes": 2010689536,
+                "monoBytes": 890183680
+            },
+            "cameraPosition": {
+                "x": -614.27197265625,
+                "y": 65.32899475097656,
+                "z": 123.35000610351563
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224120795726777,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "FacingSun",
+            "workload": "Fixed camera; fleet intact; motor held stationary; normal shaders, lights, probes and presentation update",
+            "frames": 975,
+            "width": 1920,
+            "height": 1080,
+            "focusedFrames": 975,
+            "destroyed": 0,
+            "activeEffectsPeak": 0,
+            "reactorEffectsPeak": 0,
+            "realtimeLightsPeak": 1,
+            "particlesPeak": 0,
+            "probeCaptures": 1,
+            "reactorDropped": 0,
+            "legacyDropped": 0,
+            "reflectionStrengthPeak": 0.0,
+            "seconds": 6.004094600000826,
+            "meanFps": 162.38687854862938,
+            "renderedFrameMs": {
+                "samples": 975,
+                "mean": 6.158133027358697,
+                "p50": 6.155697163194418,
+                "p95": 6.36710599064827,
+                "p99": 6.868601310998201,
+                "maximum": 14.30989895015955
+            },
+            "mainThreadMs": {
+                "samples": 975,
+                "mean": 6.150498461538457,
+                "p50": 6.1196,
+                "p95": 7.0978,
+                "p99": 8.0061,
+                "maximum": 14.7107
+            },
+            "gpuFrameMs": {
+                "samples": 972,
+                "mean": 1.575924411522634,
+                "p50": 1.5616,
+                "p95": 1.767424,
+                "p99": 1.994752,
+                "maximum": 2.038784
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": 0.0,
+                "p50": 0.0,
+                "p95": 0.0,
+                "p99": 0.0,
+                "maximum": 0.0
+            },
+            "setPassCalls": {
+                "samples": 975,
+                "mean": 81.25538461538462,
+                "p50": 81.0,
+                "p95": 81.0,
+                "p99": 81.0,
+                "maximum": 237.0
+            },
+            "triangles": {
+                "samples": 975,
+                "mean": 1748605.3692307694,
+                "p50": 1748131.0,
+                "p95": 1748131.0,
+                "p99": 1748131.0,
+                "maximum": 3635394.0
+            },
+            "gcBytes": {
+                "samples": 975,
+                "mean": 12646.989743589744,
+                "p50": 12613.0,
+                "p95": 12665.0,
+                "p99": 12701.0,
+                "maximum": 29355.0
+            },
+            "before": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 7424,
+                "visibleRenderers": 1600,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 1310765327,
+                "reservedBytes": 2010689536,
+                "monoBytes": 892026880
+            },
+            "after": {
+                "sceneRenderers": 7544,
+                "activeRenderers": 7424,
+                "visibleRenderers": 1600,
+                "uniqueSharedMaterials": 18,
+                "instanceNamedMaterials": 0,
+                "sceneLights": 6,
+                "enabledRealtimeLights": 1,
+                "particles": 0,
+                "particleSystems": 0,
+                "probes": 1,
+                "enabledRealtimeProbes": 1,
+                "legacyPoolTransforms": 9,
+                "reactorPoolTransforms": 135,
+                "reactorCapacity": 12,
+                "reflectionSources": 0,
+                "allocatedBytes": 1311477780,
+                "reservedBytes": 2010689536,
+                "monoBytes": 905191424
+            },
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.6427876353263855,
+                "y": 0.02673456445336342,
+                "z": 0.7655777335166931
+            }
+        }
+    ],
+    "checks": [
+        {
+            "name": "Rendered graphics device",
+            "detail": "Direct3D12",
+            "passed": true
+        },
+        {
+            "name": "120 registered fleet targets",
+            "detail": "targets=120",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-NearCombat",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-NearCombat.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-FleetMedium",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-FleetMedium.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-ConcentratedExplosions",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-ConcentratedExplosions.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot performance-FacingSun",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-FacingSun.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 01-ship-droplet-size",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\01-ship-droplet-size.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 02-chrome-before-explosion",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\02-chrome-before-explosion.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 03-reactor-normal",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\03-reactor-normal.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 04-penetration-instability",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\04-penetration-instability.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 05-main-reactor-blast",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\05-main-reactor-blast.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 06-chrome-orange-reflection",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\06-chrome-orange-reflection.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 07-chase-explosion-reflection",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07-chase-explosion-reflection.png",
+            "passed": true
+        },
+        {
+            "name": "Actual explosion produces a droplet reflection source",
+            "detail": "sources=1, strength=1.489017",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 07c-frozen-CHASE-explosion-response-OFF",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07c-frozen-CHASE-explosion-response-OFF.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 07d-frozen-CHASE-explosion-response-ON",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07d-frozen-CHASE-explosion-response-ON.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 07a-frozen-chrome-explosion-response-OFF",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07a-frozen-chrome-explosion-response-OFF.png",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 07b-frozen-chrome-explosion-response-ON",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07b-frozen-chrome-explosion-response-ON.png",
+            "passed": true
+        },
+        {
+            "name": "Frozen A/B re-enables the same explosion source",
+            "detail": "sources=1, strength=1.138411",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 08-reactor-afterglow",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\08-reactor-afterglow.png",
+            "passed": true
+        },
+        {
+            "name": "Explosion reflection naturally decays",
+            "detail": "sources=0, strength=0",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 08a-solar-surface-DIAGNOSTIC-NOT-GAME-SCALE",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\08a-solar-surface-DIAGNOSTIC-NOT-GAME-SCALE.png",
+            "passed": true
+        },
+        {
+            "name": "Real motor path crosses enlarged hull and scores",
+            "detail": "SPAWN_Small_FF001, score=100, hit=(0.00, 7.45, 71.24), droplet=(0.00, 7.38, 134.68)",
+            "passed": true
+        },
+        {
+            "name": "Destroyed collision volumes immediately disabled",
+            "detail": "All compound hit volumes checked after sweep.",
+            "passed": true
+        },
+        {
+            "name": "Intact ship and engine subtree hidden after instability",
+            "detail": "VisualRoot may remain visible for the intentional 0.16-second instability, then must hide.",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes movement timer score and both effect clocks",
+            "detail": "0.3 real seconds and an attempted one-second mission step while paused.",
+            "passed": true
+        },
+        {
+            "name": "All 120 actual motor sweeps reach victory",
+            "detail": "120/120, state=Results, elapsed=152.4758, score=62870",
+            "passed": true
+        },
+        {
+            "name": "Results and score resolve once",
+            "detail": "result transitions=1",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 09-victory",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\09-victory.png",
+            "passed": true
+        },
+        {
+            "name": "Restart 1 fully restores gameplay and presentation",
+            "detail": "ships restored=True, pools/lights/reflection clean=True",
+            "passed": true
+        },
+        {
+            "name": "Restart 2 fully restores gameplay and presentation",
+            "detail": "ships restored=True, pools/lights/reflection clean=True",
+            "passed": true
+        },
+        {
+            "name": "Restart 3 fully restores gameplay and presentation",
+            "detail": "ships restored=True, pools/lights/reflection clean=True",
+            "passed": true
+        },
+        {
+            "name": "120-target same-frame hit burst preserves victory",
+            "detail": "destroyed=120",
+            "passed": true
+        },
+        {
+            "name": "Explosion pool stays bounded under 120-hit burst",
+            "detail": "active=12, capacity=12, dropped=0, pool transforms=135",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 10-bounded-120-hit-burst",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\10-bounded-120-hit-burst.png",
+            "passed": true
+        },
+        {
+            "name": "Disabled VFX leaves destruction and scoring correct",
+            "detail": "Both optional effect pool components disabled during actual motor sweep.",
+            "passed": true
+        },
+        {
+            "name": "Screenshot 11-restarted-ready",
+            "detail": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\11-restarted-ready.png",
+            "passed": true
+        },
+        {
+            "name": "Teleport setup never awards a hit",
+            "detail": "setups=282, unexpected hits=0",
+            "passed": true
+        }
+    ],
+    "screenshots": [
+        {
+            "name": "performance-NearCombat",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-NearCombat.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 28.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "performance-FleetMedium",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-FleetMedium.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 950.0,
+                "y": 720.0,
+                "z": -1150.0
+            },
+            "cameraForward": {
+                "x": -0.45149117708206179,
+                "y": -0.3231726288795471,
+                "z": 0.8316941857337952
+            }
+        },
+        {
+            "name": "performance-ConcentratedExplosions",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-ConcentratedExplosions.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -614.27197265625,
+                "y": 65.32899475097656,
+                "z": 123.35000610351563
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224120795726777,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "performance-FacingSun",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\performance-FacingSun.png",
+            "purpose": "Actual phase camera after measurement; screenshot and formatting excluded from the timed interval.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.6427876353263855,
+                "y": 0.02673456445336342,
+                "z": 0.7655777335166931
+            }
+        },
+        {
+            "name": "01-ship-droplet-size",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\01-ship-droplet-size.png",
+            "purpose": "Real-size ship and droplet side by side at the same camera depth. Camera has fixed world-space offset; droplet sits outside the projected hull bounds to prevent occlusion.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 24.0,
+                "y": 16.38249969482422,
+                "z": 58.0
+            },
+            "cameraForward": {
+                "x": -0.48776859045028689,
+                "y": -0.18291319906711579,
+                "z": 0.8535950779914856
+            }
+        },
+        {
+            "name": "02-chrome-before-explosion",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\02-chrome-before-explosion.png",
+            "purpose": "Close material inspection; no replacement material or exposure changes.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 18.417236328125,
+                "y": 8.432500839233399,
+                "z": 108.20984649658203
+            },
+            "cameraForward": {
+                "x": 0.5505495071411133,
+                "y": -0.2223372906446457,
+                "z": 0.804649829864502
+            }
+        },
+        {
+            "name": "03-reactor-normal",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\03-reactor-normal.png",
+            "purpose": "Intact main reactor and four auxiliary engine structures; solar direction unchanged.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 28.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "04-penetration-instability",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\04-penetration-instability.png",
+            "purpose": "First actual motor hit; capture occurs on subsequent rendered frames, exact latency depends on frame time.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 28.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "05-main-reactor-blast",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\05-main-reactor-blast.png",
+            "purpose": "Actual pooled blast after the short instability stage.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 28.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "06-chrome-orange-reflection",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\06-chrome-orange-reflection.png",
+            "purpose": "Same actual explosion; close droplet surface response, world position and material unchanged.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -2.5999999046325685,
+                "y": 8.432500839233399,
+                "z": 66.87621307373047
+            },
+            "cameraForward": {
+                "x": 0.5505494475364685,
+                "y": -0.22233735024929048,
+                "z": 0.8046498894691467
+            }
+        },
+        {
+            "name": "07-chase-explosion-reflection",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07-chase-explosion-reflection.png",
+            "purpose": "Normal third-person camera reset behind the droplet after a full real motor path through the hull.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 9.582500457763672,
+                "z": 126.67807006835938
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            }
+        },
+        {
+            "name": "07c-frozen-CHASE-explosion-response-OFF",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07c-frozen-CHASE-explosion-response-OFF.png",
+            "purpose": "Exact normal third-person camera at paused impact age; only explosionReflections=false. HUD hidden.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 9.582500457763672,
+                "z": 126.67807006835938
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            }
+        },
+        {
+            "name": "07d-frozen-CHASE-explosion-response-ON",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07d-frozen-CHASE-explosion-response-ON.png",
+            "purpose": "Identical normal third-person camera/source/exposure at paused impact age; only explosionReflections=true. HUD hidden.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 9.582500457763672,
+                "z": 126.67807006835938
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            }
+        },
+        {
+            "name": "07a-frozen-chrome-explosion-response-OFF",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07a-frozen-chrome-explosion-response-OFF.png",
+            "purpose": "Paused camera/source/exposure; only explosionReflections=false. HUD hidden.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -2.5999999046325685,
+                "y": 8.432500839233399,
+                "z": 130.87806701660157
+            },
+            "cameraForward": {
+                "x": 0.5505494475364685,
+                "y": -0.22233735024929048,
+                "z": 0.8046498894691467
+            }
+        },
+        {
+            "name": "07b-frozen-chrome-explosion-response-ON",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\07b-frozen-chrome-explosion-response-ON.png",
+            "purpose": "Identical paused camera/source/exposure; only explosionReflections=true. HUD hidden.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": -2.5999999046325685,
+                "y": 8.432500839233399,
+                "z": 130.87806701660157
+            },
+            "cameraForward": {
+                "x": 0.5505494475364685,
+                "y": -0.22233735024929048,
+                "z": 0.8046498894691467
+            }
+        },
+        {
+            "name": "08-reactor-afterglow",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\08-reactor-afterglow.png",
+            "purpose": "Finite fading explosion residue; no collision targets created by the presentation.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 28.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "08a-solar-surface-DIAGNOSTIC-NOT-GAME-SCALE",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\08a-solar-surface-DIAGNOSTIC-NOT-GAME-SCALE.png",
+            "purpose": "Diagnostic close view of the actual solar mesh/material with celestial proxy mapping temporarily frozen; the gameplay angular size is NOT changed and this is NOT a game-scale shot.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 10744.5322265625,
+                "y": 472.13543701171877,
+                "z": 12775.0107421875
+            },
+            "cameraForward": {
+                "x": 0.6427876353263855,
+                "y": 0.026734570041298868,
+                "z": 0.7655777335166931
+            }
+        },
+        {
+            "name": "09-victory",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\09-victory.png",
+            "purpose": "All targets destroyed by real motor swept paths; no direct kill or scoring calls.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095958799123767,
+                "z": 0.9986937642097473
+            }
+        },
+        {
+            "name": "10-bounded-120-hit-burst",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\10-bounded-120-hit-burst.png",
+            "purpose": "120 target events in one frame using motor sweeps; pooled effects remain bounded.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 42.0,
+                "y": 27.0,
+                "z": 28.0
+            },
+            "cameraForward": {
+                "x": -0.49127018451690676,
+                "y": -0.22224126756191255,
+                "z": 0.8421772122383118
+            }
+        },
+        {
+            "name": "11-restarted-ready",
+            "path": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\VisualUpgrade\\Editor\\After-20260908-134145-326\\11-restarted-ready.png",
+            "purpose": "Final clean restart; mission ready, full intact fleet, no retained explosion light.",
+            "written": true,
+            "fov": 65.0,
+            "width": 1920,
+            "height": 1080,
+            "cameraPosition": {
+                "x": 0.0,
+                "y": 10.199999809265137,
+                "z": -8.0
+            },
+            "cameraForward": {
+                "x": 0.0,
+                "y": -0.051095955073833469,
+                "z": 0.9986937642097473
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "path": "Assets/_Project/Scenes/FleetAssault_Droplet_Rebuilt.unity",
+    "baseline": "Assets/_Project/Scenes/FleetAssault_Lighting.unity",
+    "root": "PlayerRoot",
+    "settings": "Assets/_Project/Data/FleetMission_Expanded.asset",
+    "material": "Assets/_Project/Art/LightingUpgrade/MetalDroplet.mat",
+    "ships": 120,
+    "colliders": 1080,
+    "hitRadius": 0.699999988079071,
+    "missionSeconds": 540.0,
+    "visualScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "duration": 0.11,
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.CrossingMovingShipHitsAlthoughBothEndpointHullsMissPath",
+      "Status": "Passed",
+      "Duration": 0.0415517,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.DamageDeadlineIsIdempotentAndResetCannotCommitPreviousGeneration",
+      "Status": "Passed",
+      "Duration": 0.0057592,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.EscapingCrossesFiniteBoundaryAndNeverAwardsDestruction",
+      "Status": "Passed",
+      "Duration": 0.0041086,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.NearbyPanicHasDifferentReactionTimesAndExplosionWitnessIsAlive",
+      "Status": "Passed",
+      "Duration": 0.0043376,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.RayGeometryIgnoresLodColliderEnableAndFindsNearestHull",
+      "Status": "Passed",
+      "Duration": 0.003542,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.RotatingLongHullUsesControlledSubstepsAndRetainsCompoundIdentity",
+      "Status": "Passed",
+      "Duration": 0.0008904,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.ScaleUsesPhysicalSpeedAndDistanceWithoutHudMultiplier",
+      "Status": "Passed",
+      "Duration": 0.0011471,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.NarrativeFleetTests.TemporalSubsegmentDoesNotUseWholeShipStepTwice",
+      "Status": "Passed",
+      "Duration": 0.0008151,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

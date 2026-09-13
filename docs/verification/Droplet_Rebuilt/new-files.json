@@ -1,0 +1,267 @@
+[
+  {
+    "path": "Assets/_Project/Scenes/Droplet_Rebuilt_Review.unity",
+    "bytes": 13093,
+    "sha256": "83d7e862e7e298630d0d64e7f809a81f9a01b004d6db609fce159e13d1c95829"
+  },
+  {
+    "path": "Assets/_Project/Scenes/Droplet_Rebuilt_Review.unity.meta",
+    "bytes": 155,
+    "sha256": "702243ee8f536bd4b585ed557ed5fe7030d55bf5860536ed00eb59146f5d065d"
+  },
+  {
+    "path": "Assets/_Project/Scenes/FleetAssault_Droplet_Rebuilt.unity",
+    "bytes": 535177,
+    "sha256": "123a4236bd6b02cc086bc198c4d545ccdfe5af8b40a5c9451564381161fdbaf5"
+  },
+  {
+    "path": "Assets/_Project/Scenes/FleetAssault_Droplet_Rebuilt.unity.meta",
+    "bytes": 155,
+    "sha256": "379dac392c27dabd353862b1d4a8cd1a356a7c0e9bacaaf261019a7d0ac22488"
+  },
+  {
+    "path": "Assets/_Project/Tests/EditMode/DropletRebuiltTests.cs",
+    "bytes": 4917,
+    "sha256": "27f6712a18f9586d960c8bbdbfb258ba7bf4ea4a236875fbf69ff9233213eb47"
+  },
+  {
+    "path": "Assets/_Project/Tests/EditMode/DropletRebuiltTests.cs.meta",
+    "bytes": 59,
+    "sha256": "21e209203665ec8722ff2c7bc1e7a3353d490027448480bcf16b75e409c96445"
+  },
+  {
+    "path": "Assets/_Project/Tests/PlayMode/DropletRebuiltPlayTests.cs",
+    "bytes": 5954,
+    "sha256": "ce3a722006c64d989c05930a87ffb7cf4fb07391da1b344932f6c1c0689c0350"
+  },
+  {
+    "path": "Assets/_Project/Tests/PlayMode/DropletRebuiltPlayTests.cs.meta",
+    "bytes": 59,
+    "sha256": "bde68052e132430337fca13d5dbd43908de5b95568e2c058b611029ebca3c8b8"
+  },
+  {
+    "path": "Assets/_Project/Scripts/Editor/DropletRebuiltLiveCheck.cs",
+    "bytes": 9680,
+    "sha256": "300132b1b81b90c748cd92deff92b1de954a9259f9018729a03e4207dfe832a2"
+  },
+  {
+    "path": "Assets/_Project/Scripts/Editor/DropletRebuiltLiveCheck.cs.meta",
+    "bytes": 59,
+    "sha256": "103ef1d26927a187084a67aff13744a9b3f4e27fffd0749e55ff292e5fb87a34"
+  },
+  {
+    "path": "Assets/_Project/Scripts/Editor/DropletRebuiltPipeline.cs",
+    "bytes": 18542,
+    "sha256": "5e1c6543c7ce9abd804785a2d380801f62b147e2422ae92d1dc82a9333831bd3"
+  },
+  {
+    "path": "Assets/_Project/Scripts/Editor/DropletRebuiltPipeline.cs.meta",
+    "bytes": 59,
+    "sha256": "04fc7ba7b7496cc2a4a80a8b680c98d489f4cb76fdec8ed1ed2d5f4faf8cbf9f"
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Player/Droplet_Rebuilt.prefab",
+    "bytes": 6321,
+    "sha256": "494a0a0ae1199b39a6a79f365fb1aaed56513404760f26ce7ae9cbdf0ce8f6f4"
+  },
+  {
+    "path": "Assets/_Project/Prefabs/Player/Droplet_Rebuilt.prefab.meta",
+    "bytes": 154,
+    "sha256": "6bad0f9b388c5e71fcc093a9e54930fd4a6b5e76038adaa285f117a32693c106"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt.meta",
+    "bytes": 172,
+    "sha256": "bc1065411f09919f808bd8a00d63aeea2dfce0da6aa12aff69eedc631a51bcfc"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Droplet_Rebuilt.fbx",
+    "bytes": 148268,
+    "sha256": "64ae334e108a0ffe7ffb39499d2c4f30333e800b461fdc43c2829aabce5c33f8"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Droplet_Rebuilt.fbx.meta",
+    "bytes": 2993,
+    "sha256": "0c66c1b384055796d9cc2ad22612a1383c132395542baf93181c9ca302579770"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection.meta",
+    "bytes": 172,
+    "sha256": "3aaf6b2a223a67d697326cd5a97c1f7d6cad68b9f2323af5e7426bae339608bf"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/AnalyticMirror.shader",
+    "bytes": 1574,
+    "sha256": "9429511b5e0a9b600895117dfe5934cf2d6fcf02809762b014ed04b44d8ab78f"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/AnalyticMirror.shader.meta",
+    "bytes": 204,
+    "sha256": "694094a237a577cbc66b4e8b67afa2ca020d26849511bfdb448a64c28b6940db"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/Gray.mat",
+    "bytes": 3889,
+    "sha256": "6f194a4bda4faca276af166e5bdc2392d1ff8744715e51bd686d5e000ce3dce6"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/Gray.mat.meta",
+    "bytes": 188,
+    "sha256": "32f9caa742cc2e20d22d88462b34e3cc54e06031fc429ab5ae292aa30bd89bbe"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/Mirror.mat",
+    "bytes": 3799,
+    "sha256": "1b2aa0729644a627bc4ca7f9a5f2d1c83e11e872617f363d5d094672ea5d1613"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/Mirror.mat.meta",
+    "bytes": 188,
+    "sha256": "616b39234add8472a88b8cdf4a24a6eca2a2ca49e751b25db2cbdc1b8a507f74"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/Stripes.cubemap",
+    "bytes": 787573,
+    "sha256": "65b1cfaea8dff4d5eeb15daaf81efcafba0df5938b89cb7c31623fe6d30204ff"
+  },
+  {
+    "path": "Assets/_Project/Art/Models/Droplet_Rebuilt/Inspection/Stripes.cubemap.meta",
+    "bytes": 188,
+    "sha256": "adbbb5d600b55f8ce1035bb6ed3f41e8b7bb5592a40baac73747793a83247daf"
+  },
+  {
+    "path": "ArtSource/droplet",
+    "bytes": 1628800,
+    "sha256": "fa0a9d3d6d2607adaea0cf52ac08a9e3d5ed5c29def59f8bdb3ef32aecb8b429"
+  },
+  {
+    "path": "ArtSource/Exports/Droplet/Droplet_Rebuilt/Droplet_Rebuilt.fbx",
+    "bytes": 148268,
+    "sha256": "64ae334e108a0ffe7ffb39499d2c4f30333e800b461fdc43c2829aabce5c33f8"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Droplet_Rebuilt.blend",
+    "bytes": 202205,
+    "sha256": "d0503df3290a8404ea35e04a9d12425284a27d4461a7c679087d63ded6931e80"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Droplet_Rebuilt_Inspection.blend",
+    "bytes": 202122,
+    "sha256": "68009e4615c821d377ec99c12b8c4a64c41ab4eae1b8180c0d7c9bc5eb4ad855"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Droplet_Rebuilt_Inspection.blend1",
+    "bytes": 202115,
+    "sha256": "bee7007d2f3a09dbf1e60671a31fc32f52bc8e6507b81765c9b4844dfd9e9605"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Gray-Head.png",
+    "bytes": 436061,
+    "sha256": "1ca75a73822a58ff18cc534ac188bfba5f76f5a900f29042052c180440e9e468"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Gray-Side.png",
+    "bytes": 526370,
+    "sha256": "b0d8125b4aae73a7d2b8c2facbebc85d23325fbfac84504e2180b474acbd42ea"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Gray-Tail-Detail.png",
+    "bytes": 910299,
+    "sha256": "0ec25713a5b47f33dcf9aa45240262c276367b3f221bc7d59fd37928386d2256"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Gray-Tail.png",
+    "bytes": 434736,
+    "sha256": "bd22724ae986f5bba04d716ee43f312a5d5cc4c832e5453e0b3b1a8ddfdd1b3f"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Gray-ThreeQuarter.png",
+    "bytes": 509563,
+    "sha256": "1b4ad44887ae875fa6e03bc7615106afe8b6795731423ada88c71aed2389de12"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Head.png",
+    "bytes": 437073,
+    "sha256": "df5ad0f55cc2c5ca117512faf5f567349616715ee37a5ace5b8e7316216c798c"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Opposite.png",
+    "bytes": 474574,
+    "sha256": "610a463acbb1026fddf30488d8b872cf208472420000d7d1a7a71d6078d9fba3"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Side.png",
+    "bytes": 486331,
+    "sha256": "d469da2e8810ae8ac062be15d25545844d5a0ccbcabefe7c5422cfb24878cd48"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep-00.png",
+    "bytes": 452031,
+    "sha256": "75ff0e007f408541822a1527b6a1eb5115e096c20bfc34deba31da7e5452b02d"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep-01.png",
+    "bytes": 480604,
+    "sha256": "abc481e177b9d3cd8bdfc1fe5a10225483d5b6d32dab26b23597916f58e99e19"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep-02.png",
+    "bytes": 485547,
+    "sha256": "31947c88cf176529066f75ea7d9c651e78321502aedef43a0245acf71b52b36b"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep-03.png",
+    "bytes": 486041,
+    "sha256": "9b6caa0fa218b5a6e62eacd266b75e5ae6f0ac7a5255a1a8266620de06161e44"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep-04.png",
+    "bytes": 485192,
+    "sha256": "88d58b1d800e56faa0286451e51333949fe53a731b880c02603d7c3a469e4982"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep-05.png",
+    "bytes": 480619,
+    "sha256": "4ec9adf316c649530fe29721999524bca7bce1d29c8ff87ee30b640593bdccae"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep-06.png",
+    "bytes": 468412,
+    "sha256": "5c52339256b41e5afe719b1c7d6f1beedb92eab22976dcafbb3f931ef549020f"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Sweep.gif",
+    "bytes": 1098916,
+    "sha256": "cbb6c5cbc5107a733c64be79590d12baaa550f1f383c64a7b6dac51277ba8d80"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Tail-Detail-Other.png",
+    "bytes": 780597,
+    "sha256": "d93446333e2c23c43c1c2cf96b0a22a019d431c315236ba260427e8e4bfc016b"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Tail-Detail.png",
+    "bytes": 782430,
+    "sha256": "3e0a58a4b12cd073f54d769fc369e169355960f6690be177a47e1392a98925ef"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-Tail.png",
+    "bytes": 413160,
+    "sha256": "95a2bd94ad8d85fc977335737037a1bbf9145aeaceb3ecce658e76d791f99d75"
+  },
+  {
+    "path": "ArtSource/Blender/Droplet/Droplet_Rebuilt/Previews/Mirror-ThreeQuarter.png",
+    "bytes": 477991,
+    "sha256": "aaa8d8af64f59ad0bdbe14b3465f4994dbb3173c9680a5cfceb7b7c9d671674c"
+  },
+  {
+    "path": "Tools/Blender/Droplet_Rebuilt/pipeline.py",
+    "bytes": 18028,
+    "sha256": "62778bed31b60e7bfedc054a1c43054f41815652d17444162e14ca09b01d3ddd"
+  },
+  {
+    "path": "Tools/Blender/Droplet_Rebuilt/run.py",
+    "bytes": 549,
+    "sha256": "96b1309fe73f75ed06c91d1f2e0e489f81cd5bf98b36054b581aec7c8161eda8"
+  }
+]

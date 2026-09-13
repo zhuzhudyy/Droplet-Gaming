@@ -1,0 +1,35 @@
+﻿{
+    "utc":  "2026-09-08T05:34:26.3670111Z",
+    "delivered":  [
+                      {
+                          "path":  "ArtSource/Blender/SpaceEnvironment/SpaceEnvironment.blend",
+                          "sha256":  "604204FD340CB951DF6BCAAE132E5092D32DB883E441637FF132DCF5596FDD18"
+                      },
+                      {
+                          "path":  "Assets/_Project/Prefabs/Environment/SpaceEnvironment.prefab",
+                          "sha256":  "A9A51279A960FD45A42DAB5C91341CDC61F68AEABD8881FF636B6D134827799F"
+                      },
+                      {
+                          "path":  "Assets/_Project/Scenes/SpaceEnvironment_Review.unity",
+                          "sha256":  "215B55E7840CABE8228D5CDD1A532BE7173BC3FAB62CFA7EC91E98547996DCD0"
+                      },
+                      {
+                          "path":  "docs/SPACE_ENVIRONMENT_GEOMETRY_REPORT.md",
+                          "sha256":  "00415228B36B3D979638FC6E05B303CA135AF292349ED3266F3F27F0D963D4BD"
+                      }
+                  ],
+    "blenderGeneratedReopenedExported":  true,
+    "unityImportedSavedReimportedTwice":  true,
+    "sharedReferencesVerified":  true,
+    "nativeLodAndFiveFrameCapturesPassed":  true,
+    "meshTextureEditorNativeBytes":  9271968,
+    "allPreservationRequirementsSatisfied":  false,
+    "unresolved":  "TestRange unintentionally saved by existing regression test; original backup not found, not restored.",
+    "notMeasured":  [
+                        "standalone Player memory",
+                        "attributable GPU residency",
+                        "GPU time",
+                        "long term/cross hardware performance"
+                    ],
+    "stoppedAfter":  "Space environment geometry only"
+}

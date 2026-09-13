@@ -1,0 +1,11 @@
+{
+  "baselineCompared": 62,
+  "changed": [
+    "Assets\\Settings\\DefaultVolumeProfile.asset",
+    "Assets\\Settings\\PC_RPAsset.asset",
+    "Assets\\Settings\\UniversalRenderPipelineGlobalSettings.asset",
+    "ProjectSettings\\EditorBuildSettings.asset",
+    "ProjectSettings\\ProjectSettings.asset",
+    "ProjectSettings\\TagManager.asset"
+  ]
+}

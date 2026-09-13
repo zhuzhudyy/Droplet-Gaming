@@ -1,0 +1,1 @@
+2026-09-08T11:00:05.5034766Z frame=1064 rendered=1064 realtimeProbes=True captures=2 fresh=False probeEnabled=True texture=Shared nearby reflection capture size=(500.00, 500.00, 500.00) camera=True

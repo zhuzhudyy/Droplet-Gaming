@@ -1,0 +1,234 @@
+﻿{
+    "scene": "Assets/_Project/Scenes/FleetAssault_NarrativeCombat.unity",
+    "utc": "2026-09-12T14:30:51.7698700Z",
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "operatingSystem": "Windows 11  (10.0.26200)",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Retreat-Affine\\FleetAssault_NarrativeCombat-20260912-143051-759",
+    "scope": "Retreat-only rendering/performance experiment: preserves every saved ship identity, requests retreat on the whole fleet, then measures ordinary fleet FixedUpdate acceleration/steering, space partitioning, dynamic LOD and a 70-degree panorama for >=480 rendered frames and >=6 wall seconds. Player motion is disabled and no damage is submitted. This run does NOT execute or claim narrative, player-input, laser-reflection, delayed-explosion, or three-restart validation. Recorded renderer draw calls count only FleetRenderManager instanced submissions, not all Unity rendering. It is not a full-duration flight to the evacuation boundary.",
+    "error": "",
+    "validationMode": "retreat-only",
+    "completed": true,
+    "allChecksPassed": true,
+    "editor": false,
+    "batchMode": false,
+    "developmentBuild": false,
+    "inputOnly": false,
+    "retreatOnly": true,
+    "totalTargets": 2000,
+    "distinctIds": 2000,
+    "width": 1920,
+    "height": 1080,
+    "cpuThreads": 32,
+    "systemMemoryMB": 15575,
+    "graphicsMemoryCapacityMB": 7956,
+    "actualProcessVramBytes": -1,
+    "vramStatus": "Unmeasured: adapter capacity is not allocation. Gfx Used Memory, if sampled, is Unity tracked graphics allocation, not total process VRAM.",
+    "frameGeneration": "No frame generation implementation is used by this project; renderScale and dynamic resolution are reported per phase.",
+    "checks": [
+        {
+            "name": "Rendered graphics device",
+            "detail": "Direct3D12",
+            "passed": true
+        },
+        {
+            "name": "Saved fleet count and stable IDs",
+            "detail": "expected=2000, actual=2000, unique=2000",
+            "passed": true
+        },
+        {
+            "name": "1080p standalone",
+            "detail": "1920x1080",
+            "passed": true
+        },
+        {
+            "name": "All-fleet retreat requests preserve every saved identity",
+            "detail": "requested=2000, intact=2000, controlledSetup=true",
+            "passed": true
+        },
+        {
+            "name": "AllFleetRetreatPanorama full measurement window",
+            "detail": "frames=494, seconds=6.003",
+            "passed": true
+        },
+        {
+            "name": "AllFleetRetreatPanorama native resolution scale",
+            "detail": "renderScale=1, dynamic=False",
+            "passed": true
+        },
+        {
+            "name": "All-fleet retreat advances real autonomous movement and steering",
+            "detail": "breaking=0, fleeing=2000, moved=2000, simulationSeconds=6.040, displacementMeters(min/mean/max)=9684.57/18221.53/25477.96, maxTurnDegrees=96.64",
+            "passed": true
+        },
+        {
+            "name": "All-fleet retreat uses configured speed caps without player damage",
+            "detail": "peakShipMetersPerSecond=7997.24, cap=8000, playerDisabled=True, noDamage=True, identitiesPreserved=True",
+            "passed": true
+        },
+        {
+            "name": "Retreat-only fleet count preserved at completion",
+            "detail": "final=2000, mode=retreat-only; other feature validation not run",
+            "passed": true
+        }
+    ],
+    "phases": [
+        {
+            "name": "AllFleetRetreatPanorama",
+            "workload": "Controlled retreat request for EVERY saved ship, preserving all IDs and ordinary fleet FixedUpdate, acceleration, turning, avoidance, spatial indexing and dynamic LOD. Camera remains at a 70-degree panorama. Player motor is disabled; retreating ships cannot fire, and no damage is submitted. Includes per-frame managed state/speed instrumentation for every ship; position and identity audits and screenshot are outside timing. Not a full-duration escape-boundary soak.",
+            "frames": 494,
+            "focusedFrames": 494,
+            "width": 1920,
+            "height": 1080,
+            "targets": 2000,
+            "destroyed": 0,
+            "pending": 0,
+            "escaped": 0,
+            "peakBeams": 0,
+            "peakReactorEffects": 0,
+            "shots": 0,
+            "reflections": 0,
+            "damageFromReflection": 0,
+            "retreatRequested": 2000,
+            "breakingFormation": 0,
+            "fleeing": 2000,
+            "peakBreakingFormation": 2000,
+            "peakFleeing": 2000,
+            "movedShips": 2000,
+            "retreatSimulationSeconds": 6.039994716644287,
+            "maximumShipSpeedMetersPerSecond": 7997.2421875,
+            "minimumDisplacementMeters": 9684.572265625,
+            "meanDisplacementMeters": 18221.529296875,
+            "maximumDisplacementMeters": 25477.955078125,
+            "maximumTurnDegrees": 96.6402816772461,
+            "playerMotionDisabled": true,
+            "unchangedRetreatIdentities": true,
+            "noRetreatDamage": true,
+            "fleetInstancedDrawCalls": 140,
+            "peakFleetInstancedDrawCalls": 142,
+            "fleetVisibleInstancedShips": 1915,
+            "minimumFleetVisibleInstancedShips": 1915,
+            "fleetChunkCount": 4,
+            "fleetFullPrefabShips": 0,
+            "fleetChunkSizeUnits": 20000.0,
+            "rendererRefreshCpuMsPerFrame": 1.178381174089069,
+            "rendererSubmissionCpuMsPerFrame": 3.070064777327934,
+            "fleetBeginCpuMsPerFrame": 1.2949605263157898,
+            "fleetEndCpuMsPerFrame": 1.043595951417003,
+            "seconds": 6.003234299999999,
+            "meanFps": 82.28897546111104,
+            "controlledDamageSubmissionMs": 0.0,
+            "frameMs": {
+                "samples": 494,
+                "mean": 12.183446339086482,
+                "p50": 11.416695080697537,
+                "p95": 19.3937998265028,
+                "p99": 31.446103006601335,
+                "maximum": 41.24379903078079
+            },
+            "cpuFrameMs": {
+                "samples": 494,
+                "mean": 12.196004655870438,
+                "p50": 11.5476,
+                "p95": 19.6973,
+                "p99": 30.9777,
+                "maximum": 41.3021
+            },
+            "mainThreadMs": {
+                "samples": 494,
+                "mean": 12.175887651821857,
+                "p50": 11.5389,
+                "p95": 19.692,
+                "p99": 30.9705,
+                "maximum": 41.2975
+            },
+            "gpuMs": {
+                "samples": 494,
+                "mean": 3.582735546558704,
+                "p50": 3.577856,
+                "p95": 4.260864,
+                "p99": 4.462592,
+                "maximum": 5.208064
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "gcBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "unityGraphicsBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "cameraPosition": {
+                "x": -7877.25,
+                "y": 10629.208984375,
+                "z": -5215.625
+            },
+            "cameraForward": {
+                "x": 0.40169769525527956,
+                "y": -0.5030143857002258,
+                "z": 0.7652552127838135
+            },
+            "renderScale": 1.0,
+            "dynamicResolution": false
+        }
+    ],
+    "screenshots": [
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Retreat-Affine\\FleetAssault_NarrativeCombat-20260912-143051-759\\12-all-fleet-retreat-panorama.png"
+    ],
+    "flight": {
+        "inputMethod": "",
+        "setup": "",
+        "simulationSeconds": 0.0,
+        "measuredDistanceUnits": 0.0,
+        "measuredMetersPerSecond": 0.0,
+        "minimumHeadForwardDot": 1.0,
+        "cruiseMaximumRelativeHudError": 0.0,
+        "cruiseMetersPerSecond": 0.0,
+        "sprintPeakMetersPerSecond": 0.0,
+        "brakeMinimumMetersPerSecond": 3.4028234663852887e38,
+        "mouseYawDegrees": 0.0,
+        "mousePitchDegrees": 0.0,
+        "fixedPoseSamples": 0,
+        "newlyDamaged": 0,
+        "exploded": 0,
+        "recoveries": 0,
+        "shots": 0,
+        "reflections": 0,
+        "releasedUpdateFrames": 0,
+        "observedSprintFrames": 0,
+        "observedBrakeFrames": 0,
+        "observedMouseFrames": 0,
+        "focusedFrames": 0,
+        "inputBackgroundBehavior": "",
+        "editorInputBehavior": "",
+        "start": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "end": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "missionFixedUpdateRemainedEnabled": false
+    }
+}

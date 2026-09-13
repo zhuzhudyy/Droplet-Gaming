@@ -1,0 +1,4072 @@
+{
+  "mode": "fbx",
+  "input": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\ArtSource\\Exports\\Ships\\FusionFrigate\\FusionFrigate.fbx",
+  "blender_version": "5.2.1 LTS",
+  "inspector_version": "1.0",
+  "timestamp_utc": "2026-09-08T07:26:15.568995+00:00",
+  "input_saved_by_inspector": false,
+  "scene": "FusionFrigate_FBX_Inspection",
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "length_unit": "METERS"
+  },
+  "axis_note": "World axes as loaded in Blender; no guessed coordinate correction was applied.",
+  "bounds_tolerance": 0.0001,
+  "root": {
+    "name": "FusionFrigate",
+    "type": "EMPTY",
+    "world_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.6e-07,
+        0.0
+      ],
+      [
+        0.0,
+        -1.6e-07,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "world_position": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "initial_visibility": [
+    {
+      "name": "FusionFrigate_LOD0_ArmorStation_A",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_ArmorStation_B",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_AuxiliaryDrive_01",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_AuxiliaryDrive_02",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_AuxiliaryDrive_03",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_AuxiliaryDrive_04",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_Details",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_FusionDrive",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_Hull",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_Superstructure",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_Turret_01",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_Turret_02",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD0_Turret_03",
+      "lod": 0,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_ArmorStation_A",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_ArmorStation_B",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_AuxiliaryDrive_01",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_AuxiliaryDrive_02",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_AuxiliaryDrive_03",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_AuxiliaryDrive_04",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_Details",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_FusionDrive",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_Hull",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_Superstructure",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_Turret_01",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_Turret_02",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD1_Turret_03",
+      "lod": 1,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_AuxiliaryDrive_01",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_AuxiliaryDrive_02",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_AuxiliaryDrive_03",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_AuxiliaryDrive_04",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_FusionDrive",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_Hull",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_Superstructure",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_Turret_01",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_Turret_02",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    },
+    {
+      "name": "FusionFrigate_LOD2_Turret_03",
+      "lod": 2,
+      "visible": true,
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_set": false
+    }
+  ],
+  "initial_collections": [
+    {
+      "name": "Scene Collection",
+      "exclude": false,
+      "hide_viewport": false,
+      "collection_hide_viewport": false,
+      "collection_hide_render": false
+    }
+  ],
+  "sockets": [
+    {
+      "name": "AuxiliaryExhaust_01",
+      "type": "EMPTY",
+      "world_position": [
+        -2.5,
+        -10.54899979,
+        0.15000252
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.5
+        ],
+        [
+          0.0,
+          -4e-08,
+          -1.0,
+          -10.54899979
+        ],
+        [
+          0.0,
+          1.0,
+          -4e-08,
+          0.15000252
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "AuxiliaryExhaust_02",
+      "type": "EMPTY",
+      "world_position": [
+        2.5,
+        -10.54899979,
+        0.15000252
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.5
+        ],
+        [
+          0.0,
+          -4e-08,
+          -1.0,
+          -10.54899979
+        ],
+        [
+          0.0,
+          1.0,
+          -4e-08,
+          0.15000252
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "AuxiliaryExhaust_03",
+      "type": "EMPTY",
+      "world_position": [
+        -1.62,
+        -10.54899979,
+        -1.9999975
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.62
+        ],
+        [
+          0.0,
+          -4e-08,
+          -1.0,
+          -10.54899979
+        ],
+        [
+          0.0,
+          1.0,
+          -4e-08,
+          -1.9999975
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "AuxiliaryExhaust_04",
+      "type": "EMPTY",
+      "world_position": [
+        1.62,
+        -10.54899979,
+        -1.9999975
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.62
+        ],
+        [
+          0.0,
+          -4e-08,
+          -1.0,
+          -10.54899979
+        ],
+        [
+          0.0,
+          1.0,
+          -4e-08,
+          -1.9999975
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "MainExhaust",
+      "type": "EMPTY",
+      "world_position": [
+        0.0,
+        -11.06999969,
+        -0.04999736
+      ],
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4e-08,
+          -1.0,
+          -11.06999969
+        ],
+        [
+          0.0,
+          1.0,
+          -4e-08,
+          -0.04999736
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "resources": {
+    "count": 4,
+    "materials": [
+      {
+        "name": "FF_Armor",
+        "users": 19,
+        "diffuse_color": [
+          0.38999999,
+          0.43000001,
+          0.45500001,
+          1.0
+        ],
+        "metallic": 0.5,
+        "roughness": 0.41999998688697815,
+        "base_color": [
+          0.38999999,
+          0.43000001,
+          0.45500001,
+          1.0
+        ],
+        "node_types": [
+          "BSDF_PRINCIPLED",
+          "NORMAL_MAP",
+          "OUTPUT_MATERIAL"
+        ]
+      },
+      {
+        "name": "FF_BlueGray",
+        "users": 19,
+        "diffuse_color": [
+          0.075,
+          0.25,
+          0.345,
+          1.0
+        ],
+        "metallic": 0.3499999940395355,
+        "roughness": 0.3199999928474426,
+        "base_color": [
+          0.075,
+          0.25,
+          0.345,
+          1.0
+        ],
+        "node_types": [
+          "BSDF_PRINCIPLED",
+          "NORMAL_MAP",
+          "OUTPUT_MATERIAL"
+        ]
+      },
+      {
+        "name": "FF_EngineMetal",
+        "users": 19,
+        "diffuse_color": [
+          0.235,
+          0.285,
+          0.32499999,
+          1.0
+        ],
+        "metallic": 0.7799999713897705,
+        "roughness": 0.3400000035762787,
+        "base_color": [
+          0.235,
+          0.285,
+          0.32499999,
+          1.0
+        ],
+        "node_types": [
+          "BSDF_PRINCIPLED",
+          "NORMAL_MAP",
+          "OUTPUT_MATERIAL"
+        ]
+      },
+      {
+        "name": "FF_Structure",
+        "users": 19,
+        "diffuse_color": [
+          0.063,
+          0.083,
+          0.103,
+          1.0
+        ],
+        "metallic": 0.44999998807907104,
+        "roughness": 0.5199999809265137,
+        "base_color": [
+          0.063,
+          0.083,
+          0.103,
+          1.0
+        ],
+        "node_types": [
+          "BSDF_PRINCIPLED",
+          "NORMAL_MAP",
+          "OUTPUT_MATERIAL"
+        ]
+      }
+    ],
+    "texture_count": 0,
+    "textures": []
+  },
+  "all_lods_unique_mesh_datablocks": 19,
+  "lods": [
+    {
+      "lod": 0,
+      "source_mesh_objects": 13,
+      "evaluated_draw_instances": 13,
+      "unique_source_mesh_datablocks": 7,
+      "unique_evaluated_local_geometries": 7,
+      "triangles_after_modifiers_including_repeats": 17224,
+      "vertices_after_modifiers_including_repeats": 9056,
+      "world_bounds": {
+        "min": [
+          -3.69000006,
+          -11.06999969,
+          -2.731534
+        ],
+        "max": [
+          3.69000006,
+          11.06999969,
+          3.48000002
+        ],
+        "dimensions": [
+          7.38000011,
+          22.13999939,
+          6.21153402
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.37423301
+        ]
+      },
+      "topology_totals_including_repeats": {
+        "boundary_edges": 0,
+        "loose_edges": 0,
+        "non_manifold_edges_including_boundary": 0,
+        "inconsistent_winding_edges": 0,
+        "invalid_polygon_normals": 0,
+        "zero_area_world_triangles": 0,
+        "closed_connected_components": 243,
+        "negative_signed_volume_closed_components": 0
+      },
+      "objects": [
+        {
+          "name": "FusionFrigate_LOD0_ArmorStation_A",
+          "mesh_datablock": "FF_LOD0_ArmorStation_A_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Hull",
+          "triangles_after_modifiers": 324,
+          "vertices_after_modifiers": 176,
+          "polygons_after_modifiers": 324,
+          "local_location": [
+            0.0,
+            -4.63999987,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -4.63999987
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11e-06
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.99000001,
+              -5.56999969,
+              -0.98499894
+            ],
+            "max": [
+              2.99000001,
+              -3.7099998,
+              1.43000126
+            ],
+            "dimensions": [
+              5.98000002,
+              1.8599999,
+              2.4150002
+            ],
+            "center": [
+              0.0,
+              -4.63999975,
+              0.22250116
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 7,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_ArmorStation_B",
+          "mesh_datablock": "FF_LOD0_ArmorStation_A_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Hull",
+          "triangles_after_modifiers": 324,
+          "vertices_after_modifiers": 176,
+          "polygons_after_modifiers": 324,
+          "local_location": [
+            0.0,
+            -2.5,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -2.5
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              6e-07
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.99000001,
+              -3.43000007,
+              -0.98499948
+            ],
+            "max": [
+              2.99000001,
+              -1.56999993,
+              1.43000066
+            ],
+            "dimensions": [
+              5.98000002,
+              1.86000013,
+              2.41500014
+            ],
+            "center": [
+              0.0,
+              -2.5,
+              0.22250059
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 7,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_01",
+          "mesh_datablock": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 2124,
+          "vertices_after_modifiers": 1104,
+          "polygons_after_modifiers": 2124,
+          "local_location": [
+            -2.5,
+            -7.0,
+            0.15000001
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.15000167
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.23153543,
+              -10.54899979,
+              -0.58153391
+            ],
+            "max": [
+              -1.76846457,
+              -6.82926178,
+              0.88153708
+            ],
+            "dimensions": [
+              1.46307087,
+              3.71973801,
+              1.46307099
+            ],
+            "center": [
+              -2.5,
+              -8.68913078,
+              0.15000159
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 25,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_02",
+          "mesh_datablock": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 2124,
+          "vertices_after_modifiers": 1104,
+          "polygons_after_modifiers": 2124,
+          "local_location": [
+            2.5,
+            -7.0,
+            0.15000001
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.5
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.15000167
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              1.76846457,
+              -10.54899979,
+              -0.58153391
+            ],
+            "max": [
+              3.23153543,
+              -6.82926178,
+              0.88153708
+            ],
+            "dimensions": [
+              1.46307087,
+              3.71973801,
+              1.46307099
+            ],
+            "center": [
+              2.5,
+              -8.68913078,
+              0.15000159
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 25,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_03",
+          "mesh_datablock": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 2124,
+          "vertices_after_modifiers": 1104,
+          "polygons_after_modifiers": 2124,
+          "local_location": [
+            -1.62,
+            -7.0,
+            -2.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.62
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.00000048
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              -1.99999833
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.35153556,
+              -10.54900074,
+              -2.731534
+            ],
+            "max": [
+              -0.88846451,
+              -6.82926226,
+              -1.2684629
+            ],
+            "dimensions": [
+              1.46307105,
+              3.71973848,
+              1.46307111
+            ],
+            "center": [
+              -1.62000003,
+              -8.6891315,
+              -1.99999845
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 25,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_AuxiliaryDrive_04",
+          "mesh_datablock": "FF_LOD0_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 2124,
+          "vertices_after_modifiers": 1104,
+          "polygons_after_modifiers": 2124,
+          "local_location": [
+            1.62,
+            -7.0,
+            -2.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.62
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.00000048
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              -1.99999833
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              0.88846451,
+              -10.54900074,
+              -2.731534
+            ],
+            "max": [
+              2.35153556,
+              -6.82926226,
+              -1.2684629
+            ],
+            "dimensions": [
+              1.46307105,
+              3.71973848,
+              1.46307111
+            ],
+            "center": [
+              1.62000003,
+              -8.6891315,
+              -1.99999845
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 25,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_Details",
+          "mesh_datablock": "FF_LOD0_RecessedEquipmentBays_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Details",
+          "triangles_after_modifiers": 1488,
+          "vertices_after_modifiers": 832,
+          "polygons_after_modifiers": 1488,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.14999986,
+              -5.46000004,
+              -1.59500015
+            ],
+            "max": [
+              3.14999986,
+              8.45800877,
+              1.42500007
+            ],
+            "dimensions": [
+              6.29999971,
+              13.9180088,
+              3.02000022
+            ],
+            "center": [
+              0.0,
+              1.49900436,
+              -0.08500004
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 44,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_FusionDrive",
+          "mesh_datablock": "FF_LOD0_DriveMount_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 4576,
+          "vertices_after_modifiers": 2368,
+          "polygons_after_modifiers": 4576,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.69000006,
+              -11.06999969,
+              -2.12423372
+            ],
+            "max": [
+              3.69000006,
+              -5.75,
+              1.62571967
+            ],
+            "dimensions": [
+              7.38000011,
+              5.31999969,
+              3.74995339
+            ],
+            "center": [
+              0.0,
+              -8.40999985,
+              -0.24925703
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 45,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_Hull",
+          "mesh_datablock": "FF_LOD0_PressureHull_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Hull",
+          "triangles_after_modifiers": 632,
+          "vertices_after_modifiers": 328,
+          "polygons_after_modifiers": 632,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.89211273,
+              -6.28000021,
+              -1.51999998
+            ],
+            "max": [
+              2.89211273,
+              11.06999969,
+              1.32000005
+            ],
+            "dimensions": [
+              5.78422546,
+              17.3499999,
+              2.84000003
+            ],
+            "center": [
+              0.0,
+              2.39499974,
+              -0.09999996
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 6,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_Superstructure",
+          "mesh_datablock": "FF_LOD0_LayeredBridge_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 544,
+          "vertices_after_modifiers": 304,
+          "polygons_after_modifiers": 544,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -1.31999993,
+              -2.29999995,
+              1.22000003
+            ],
+            "max": [
+              1.31999993,
+              1.24000001,
+              3.48000002
+            ],
+            "dimensions": [
+              2.63999987,
+              3.53999996,
+              2.25999999
+            ],
+            "center": [
+              0.0,
+              -0.52999997,
+              2.35000002
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 16,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_Turret_01",
+          "mesh_datablock": "FF_LOD0_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 280,
+          "vertices_after_modifiers": 152,
+          "polygons_after_modifiers": 280,
+          "local_location": [
+            -1.23000002,
+            2.1500001,
+            1.12
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.23000002
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              2.15000033
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11999953
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -1.64999998,
+              1.73000038,
+              1.07999957
+            ],
+            "max": [
+              -0.81000006,
+              3.27000022,
+              1.43999958
+            ],
+            "dimensions": [
+              0.83999991,
+              1.53999984,
+              0.36000001
+            ],
+            "center": [
+              -1.23000002,
+              2.5000003,
+              1.25999957
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 6,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_Turret_02",
+          "mesh_datablock": "FF_LOD0_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 280,
+          "vertices_after_modifiers": 152,
+          "polygons_after_modifiers": 280,
+          "local_location": [
+            1.23000002,
+            2.1500001,
+            1.12
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.23000002
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              2.15000033
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11999953
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              0.81000006,
+              1.73000038,
+              1.07999957
+            ],
+            "max": [
+              1.64999998,
+              3.27000022,
+              1.43999958
+            ],
+            "dimensions": [
+              0.83999991,
+              1.53999984,
+              0.36000001
+            ],
+            "center": [
+              1.23000002,
+              2.5000003,
+              1.25999957
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 6,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD0_Turret_03",
+          "mesh_datablock": "FF_LOD0_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 280,
+          "vertices_after_modifiers": 152,
+          "polygons_after_modifiers": 280,
+          "local_location": [
+            0.0,
+            6.25,
+            0.88999999
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              6.25
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.8899985
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -0.41999999,
+              5.82999992,
+              0.84999847
+            ],
+            "max": [
+              0.41999999,
+              7.36999989,
+              1.20999849
+            ],
+            "dimensions": [
+              0.83999997,
+              1.53999996,
+              0.36000001
+            ],
+            "center": [
+              0.0,
+              6.5999999,
+              1.02999848
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 6,
+            "negative_signed_volume_closed_components": 0
+          }
+        }
+      ]
+    },
+    {
+      "lod": 1,
+      "source_mesh_objects": 13,
+      "evaluated_draw_instances": 13,
+      "unique_source_mesh_datablocks": 7,
+      "unique_evaluated_local_geometries": 7,
+      "triangles_after_modifiers_including_repeats": 5400,
+      "vertices_after_modifiers_including_repeats": 2956,
+      "world_bounds": {
+        "min": [
+          -3.69000006,
+          -11.06999969,
+          -2.731534
+        ],
+        "max": [
+          3.69000006,
+          11.06999969,
+          3.48000002
+        ],
+        "dimensions": [
+          7.38000011,
+          22.13999939,
+          6.21153402
+        ],
+        "center": [
+          0.0,
+          0.0,
+          0.37423301
+        ]
+      },
+      "topology_totals_including_repeats": {
+        "boundary_edges": 0,
+        "loose_edges": 0,
+        "non_manifold_edges_including_boundary": 0,
+        "inconsistent_winding_edges": 0,
+        "invalid_polygon_normals": 0,
+        "zero_area_world_triangles": 0,
+        "closed_connected_components": 149,
+        "negative_signed_volume_closed_components": 0
+      },
+      "objects": [
+        {
+          "name": "FusionFrigate_LOD1_ArmorStation_A",
+          "mesh_datablock": "FF_LOD1_ArmorStation_A_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Hull",
+          "triangles_after_modifiers": 52,
+          "vertices_after_modifiers": 32,
+          "polygons_after_modifiers": 52,
+          "local_location": [
+            0.0,
+            -4.63999987,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -4.63999987
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11e-06
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.99000001,
+              -5.56999969,
+              -0.98499894
+            ],
+            "max": [
+              2.99000001,
+              -3.7099998,
+              1.34000123
+            ],
+            "dimensions": [
+              5.98000002,
+              1.8599999,
+              2.32500017
+            ],
+            "center": [
+              0.0,
+              -4.63999975,
+              0.17750114
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 3,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_ArmorStation_B",
+          "mesh_datablock": "FF_LOD1_ArmorStation_A_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Hull",
+          "triangles_after_modifiers": 52,
+          "vertices_after_modifiers": 32,
+          "polygons_after_modifiers": 52,
+          "local_location": [
+            0.0,
+            -2.5,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -2.5
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              6e-07
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.99000001,
+              -3.43000007,
+              -0.98499948
+            ],
+            "max": [
+              2.99000001,
+              -1.56999993,
+              1.34000063
+            ],
+            "dimensions": [
+              5.98000002,
+              1.86000013,
+              2.32500011
+            ],
+            "center": [
+              0.0,
+              -2.5,
+              0.17750058
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 3,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_01",
+          "mesh_datablock": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 644,
+          "vertices_after_modifiers": 340,
+          "polygons_after_modifiers": 644,
+          "local_location": [
+            -2.5,
+            -7.0,
+            0.15000001
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.15000167
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.23153543,
+              -10.54899979,
+              -0.58153391
+            ],
+            "max": [
+              -1.76846457,
+              -6.88170052,
+              0.88153708
+            ],
+            "dimensions": [
+              1.46307087,
+              3.66729927,
+              1.46307099
+            ],
+            "center": [
+              -2.5,
+              -8.71535015,
+              0.15000159
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 13,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_02",
+          "mesh_datablock": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 644,
+          "vertices_after_modifiers": 340,
+          "polygons_after_modifiers": 644,
+          "local_location": [
+            2.5,
+            -7.0,
+            0.15000001
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.5
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.15000167
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              1.76846457,
+              -10.54899979,
+              -0.58153391
+            ],
+            "max": [
+              3.23153543,
+              -6.88170052,
+              0.88153708
+            ],
+            "dimensions": [
+              1.46307087,
+              3.66729927,
+              1.46307099
+            ],
+            "center": [
+              2.5,
+              -8.71535015,
+              0.15000159
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 13,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_03",
+          "mesh_datablock": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 644,
+          "vertices_after_modifiers": 340,
+          "polygons_after_modifiers": 644,
+          "local_location": [
+            -1.62,
+            -7.0,
+            -2.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.62
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.00000048
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              -1.99999833
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.35153556,
+              -10.54900074,
+              -2.731534
+            ],
+            "max": [
+              -0.88846451,
+              -6.88170099,
+              -1.2684629
+            ],
+            "dimensions": [
+              1.46307105,
+              3.66729975,
+              1.46307111
+            ],
+            "center": [
+              -1.62000003,
+              -8.71535087,
+              -1.99999845
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 13,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_AuxiliaryDrive_04",
+          "mesh_datablock": "FF_LOD1_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 644,
+          "vertices_after_modifiers": 340,
+          "polygons_after_modifiers": 644,
+          "local_location": [
+            1.62,
+            -7.0,
+            -2.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.62
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.00000048
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              -1.99999833
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              0.88846451,
+              -10.54900074,
+              -2.731534
+            ],
+            "max": [
+              2.35153556,
+              -6.88170099,
+              -1.2684629
+            ],
+            "dimensions": [
+              1.46307105,
+              3.66729975,
+              1.46307111
+            ],
+            "center": [
+              1.62000003,
+              -8.71535087,
+              -1.99999845
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 13,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_Details",
+          "mesh_datablock": "FF_LOD1_RecessedEquipmentBays_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Details",
+          "triangles_after_modifiers": 372,
+          "vertices_after_modifiers": 248,
+          "polygons_after_modifiers": 372,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.14999986,
+              -5.46000004,
+              -0.40000018
+            ],
+            "max": [
+              3.14999986,
+              6.5777359,
+              1.42500007
+            ],
+            "dimensions": [
+              6.29999971,
+              12.03773594,
+              1.82500026
+            ],
+            "center": [
+              0.0,
+              0.55886793,
+              0.51249994
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 31,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_FusionDrive",
+          "mesh_datablock": "FF_LOD1_DriveMount_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 1368,
+          "vertices_after_modifiers": 732,
+          "polygons_after_modifiers": 1368,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.69000006,
+              -11.06999969,
+              -2.14493918
+            ],
+            "max": [
+              3.69000006,
+              -5.75,
+              1.62571967
+            ],
+            "dimensions": [
+              7.38000011,
+              5.31999969,
+              3.77065885
+            ],
+            "center": [
+              0.0,
+              -8.40999985,
+              -0.25960976
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 29,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_Hull",
+          "mesh_datablock": "FF_LOD1_PressureHull_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Hull",
+          "triangles_after_modifiers": 280,
+          "vertices_after_modifiers": 152,
+          "polygons_after_modifiers": 280,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.894979,
+              -6.28000021,
+              -1.51999998
+            ],
+            "max": [
+              2.894979,
+              11.06999969,
+              1.32000005
+            ],
+            "dimensions": [
+              5.789958,
+              17.3499999,
+              2.84000003
+            ],
+            "center": [
+              0.0,
+              2.39499974,
+              -0.09999996
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 6,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_Superstructure",
+          "mesh_datablock": "FF_LOD1_LayeredBridge_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 316,
+          "vertices_after_modifiers": 184,
+          "polygons_after_modifiers": 316,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -1.31999993,
+              -2.29999995,
+              1.22000003
+            ],
+            "max": [
+              1.31999993,
+              1.24000001,
+              3.48000002
+            ],
+            "dimensions": [
+              2.63999987,
+              3.53999996,
+              2.25999999
+            ],
+            "center": [
+              0.0,
+              -0.52999997,
+              2.35000002
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 13,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_Turret_01",
+          "mesh_datablock": "FF_LOD1_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 128,
+          "vertices_after_modifiers": 72,
+          "polygons_after_modifiers": 128,
+          "local_location": [
+            -1.23000002,
+            2.1500001,
+            1.12
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.23000002
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              2.15000033
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11999953
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -1.64999998,
+              1.73000038,
+              1.07999957
+            ],
+            "max": [
+              -0.81000006,
+              3.27000022,
+              1.43999958
+            ],
+            "dimensions": [
+              0.83999991,
+              1.53999984,
+              0.36000001
+            ],
+            "center": [
+              -1.23000002,
+              2.5000003,
+              1.25999957
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 4,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_Turret_02",
+          "mesh_datablock": "FF_LOD1_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 128,
+          "vertices_after_modifiers": 72,
+          "polygons_after_modifiers": 128,
+          "local_location": [
+            1.23000002,
+            2.1500001,
+            1.12
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.23000002
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              2.15000033
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11999953
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              0.81000006,
+              1.73000038,
+              1.07999957
+            ],
+            "max": [
+              1.64999998,
+              3.27000022,
+              1.43999958
+            ],
+            "dimensions": [
+              0.83999991,
+              1.53999984,
+              0.36000001
+            ],
+            "center": [
+              1.23000002,
+              2.5000003,
+              1.25999957
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 4,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD1_Turret_03",
+          "mesh_datablock": "FF_LOD1_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 128,
+          "vertices_after_modifiers": 72,
+          "polygons_after_modifiers": 128,
+          "local_location": [
+            0.0,
+            6.25,
+            0.88999999
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              6.25
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.8899985
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -0.41999999,
+              5.82999992,
+              0.84999847
+            ],
+            "max": [
+              0.41999999,
+              7.36999989,
+              1.20999849
+            ],
+            "dimensions": [
+              0.83999997,
+              1.53999996,
+              0.36000001
+            ],
+            "center": [
+              0.0,
+              6.5999999,
+              1.02999848
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 4,
+            "negative_signed_volume_closed_components": 0
+          }
+        }
+      ]
+    },
+    {
+      "lod": 2,
+      "source_mesh_objects": 10,
+      "evaluated_draw_instances": 10,
+      "unique_source_mesh_datablocks": 5,
+      "unique_evaluated_local_geometries": 5,
+      "triangles_after_modifiers_including_repeats": 1396,
+      "vertices_after_modifiers_including_repeats": 772,
+      "world_bounds": {
+        "min": [
+          -3.69000006,
+          -11.07000065,
+          -2.731534
+        ],
+        "max": [
+          3.69000006,
+          11.06999969,
+          3.48000002
+        ],
+        "dimensions": [
+          7.38000011,
+          22.14000034,
+          6.21153402
+        ],
+        "center": [
+          0.0,
+          -4.8e-07,
+          0.37423301
+        ]
+      },
+      "topology_totals_including_repeats": {
+        "boundary_edges": 0,
+        "loose_edges": 0,
+        "non_manifold_edges_including_boundary": 0,
+        "inconsistent_winding_edges": 0,
+        "invalid_polygon_normals": 0,
+        "zero_area_world_triangles": 0,
+        "closed_connected_components": 44,
+        "negative_signed_volume_closed_components": 0
+      },
+      "objects": [
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_01",
+          "mesh_datablock": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 148,
+          "vertices_after_modifiers": 80,
+          "polygons_after_modifiers": 148,
+          "local_location": [
+            -2.5,
+            -7.0,
+            0.15000001
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.5
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.15000167
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.23153543,
+              -10.54899979,
+              -0.58153391
+            ],
+            "max": [
+              -1.76846457,
+              -6.89041901,
+              0.88153708
+            ],
+            "dimensions": [
+              1.46307087,
+              3.65858078,
+              1.46307099
+            ],
+            "center": [
+              -2.5,
+              -8.7197094,
+              0.15000159
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 4,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_02",
+          "mesh_datablock": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 148,
+          "vertices_after_modifiers": 80,
+          "polygons_after_modifiers": 148,
+          "local_location": [
+            2.5,
+            -7.0,
+            0.15000001
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              2.5
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.15000167
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              1.76846457,
+              -10.54899979,
+              -0.58153391
+            ],
+            "max": [
+              3.23153543,
+              -6.89041901,
+              0.88153708
+            ],
+            "dimensions": [
+              1.46307087,
+              3.65858078,
+              1.46307099
+            ],
+            "center": [
+              2.5,
+              -8.7197094,
+              0.15000159
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 4,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_03",
+          "mesh_datablock": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 148,
+          "vertices_after_modifiers": 80,
+          "polygons_after_modifiers": 148,
+          "local_location": [
+            -1.62,
+            -7.0,
+            -2.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.62
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.00000048
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              -1.99999833
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -2.35153556,
+              -10.54900074,
+              -2.731534
+            ],
+            "max": [
+              -0.88846451,
+              -6.89041948,
+              -1.2684629
+            ],
+            "dimensions": [
+              1.46307105,
+              3.65858126,
+              1.46307111
+            ],
+            "center": [
+              -1.62000003,
+              -8.71971011,
+              -1.99999845
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 4,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_AuxiliaryDrive_04",
+          "mesh_datablock": "FF_LOD2_AuxiliaryDrive_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 148,
+          "vertices_after_modifiers": 80,
+          "polygons_after_modifiers": 148,
+          "local_location": [
+            1.62,
+            -7.0,
+            -2.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.62
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -7.00000048
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              -1.99999833
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              0.88846451,
+              -10.54900074,
+              -2.731534
+            ],
+            "max": [
+              2.35153556,
+              -6.89041948,
+              -1.2684629
+            ],
+            "dimensions": [
+              1.46307105,
+              3.65858126,
+              1.46307111
+            ],
+            "center": [
+              1.62000003,
+              -8.71971011,
+              -1.99999845
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 4,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_FusionDrive",
+          "mesh_datablock": "FF_LOD2_MainFusionDrive_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "FusionDrive",
+          "triangles_after_modifiers": 436,
+          "vertices_after_modifiers": 236,
+          "polygons_after_modifiers": 436,
+          "local_location": [
+            0.0,
+            -6.0,
+            -0.05
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              -6.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              -0.04999857
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.69000006,
+              -11.07000065,
+              -1.72571862
+            ],
+            "max": [
+              3.69000006,
+              -5.83100033,
+              1.62572134
+            ],
+            "dimensions": [
+              7.38000011,
+              5.23900032,
+              3.35143995
+            ],
+            "center": [
+              0.0,
+              -8.45050049,
+              -0.04999864
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 12,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_Hull",
+          "mesh_datablock": "FF_LOD2_HullSilhouette_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Hull",
+          "triangles_after_modifiers": 156,
+          "vertices_after_modifiers": 88,
+          "polygons_after_modifiers": 156,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -3.11999989,
+              -7.24729538,
+              -2.14493918
+            ],
+            "max": [
+              3.11999989,
+              11.06999969,
+              1.33999991
+            ],
+            "dimensions": [
+              6.23999977,
+              18.31729507,
+              3.4849391
+            ],
+            "center": [
+              0.0,
+              1.91135216,
+              -0.40246964
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 5,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_Superstructure",
+          "mesh_datablock": "FF_LOD2_LayeredBridge_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 92,
+          "vertices_after_modifiers": 56,
+          "polygons_after_modifiers": 92,
+          "local_location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -1.24000001,
+              -2.29999995,
+              1.22000003
+            ],
+            "max": [
+              1.24000001,
+              1.24000001,
+              3.48000002
+            ],
+            "dimensions": [
+              2.48000002,
+              3.53999996,
+              2.25999999
+            ],
+            "center": [
+              0.0,
+              -0.52999997,
+              2.35000002
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 5,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_Turret_01",
+          "mesh_datablock": "FF_LOD2_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 40,
+          "vertices_after_modifiers": 24,
+          "polygons_after_modifiers": 40,
+          "local_location": [
+            -1.23000002,
+            2.1500001,
+            1.12
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -1.23000002
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              2.15000033
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11999953
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -1.59000003,
+              1.80000031,
+              1.11999953
+            ],
+            "max": [
+              -0.87,
+              3.27000022,
+              1.43999946
+            ],
+            "dimensions": [
+              0.72000003,
+              1.46999991,
+              0.31999993
+            ],
+            "center": [
+              -1.23000002,
+              2.53500026,
+              1.27999949
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 2,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_Turret_02",
+          "mesh_datablock": "FF_LOD2_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 40,
+          "vertices_after_modifiers": 24,
+          "polygons_after_modifiers": 40,
+          "local_location": [
+            1.23000002,
+            2.1500001,
+            1.12
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.23000002
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              2.15000033
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              1.11999953
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              0.87,
+              1.80000031,
+              1.11999953
+            ],
+            "max": [
+              1.59000003,
+              3.27000022,
+              1.43999946
+            ],
+            "dimensions": [
+              0.72000003,
+              1.46999991,
+              0.31999993
+            ],
+            "center": [
+              1.23000002,
+              2.53500026,
+              1.27999949
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 2,
+            "negative_signed_volume_closed_components": 0
+          }
+        },
+        {
+          "name": "FusionFrigate_LOD2_Turret_03",
+          "mesh_datablock": "FF_LOD2_Turret_01_Mesh.001",
+          "is_generated_instance": false,
+          "persistent_id": null,
+          "group": "Superstructure",
+          "triangles_after_modifiers": 40,
+          "vertices_after_modifiers": 24,
+          "polygons_after_modifiers": 40,
+          "local_location": [
+            0.0,
+            6.25,
+            0.88999999
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "world_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -4e-08,
+              -1.0,
+              6.25
+            ],
+            [
+              0.0,
+              1.0,
+              -4e-08,
+              0.8899985
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "world_bounds": {
+            "min": [
+              -0.36000001,
+              5.9000001,
+              0.8899985
+            ],
+            "max": [
+              0.36000001,
+              7.36999989,
+              1.20999849
+            ],
+            "dimensions": [
+              0.72000003,
+              1.46999979,
+              0.31999999
+            ],
+            "center": [
+              0.0,
+              6.63499999,
+              1.04999849
+            ]
+          },
+          "world_determinant": 1.0,
+          "material_slots": [
+            "FF_Armor",
+            "FF_Structure",
+            "FF_EngineMetal",
+            "FF_BlueGray"
+          ],
+          "modifiers": [],
+          "topology": {
+            "boundary_edges": 0,
+            "loose_edges": 0,
+            "non_manifold_edges_including_boundary": 0,
+            "inconsistent_winding_edges": 0,
+            "invalid_polygon_normals": 0,
+            "zero_area_world_triangles": 0,
+            "closed_connected_components": 2,
+            "negative_signed_volume_closed_components": 0
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Triangles include evaluated modifiers and every repeated mesh placement in each LOD.",
+    "Unique source mesh datablocks and unique evaluated geometry hashes are separate measurements.",
+    "Topology diagnostics do not prove absence of self-intersection, z-fighting, or artistic shading defects.",
+    "Signed volume only flags closed connected components; inward-facing open surfaces need visual inspection.",
+    "No GPU/CPU resident memory measurement was performed; file size and geometry are not memory usage."
+  ],
+  "checks": {
+    "passed": true,
+    "errors": [],
+    "topology_is_advisory": true,
+    "fbx_axes_and_socket_poses_require_comparison": true
+  }
+}

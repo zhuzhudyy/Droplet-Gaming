@@ -1,0 +1,27 @@
+{
+  "pillow_version": "12.1.1",
+  "method": "Mean absolute RGB difference between same-camera Workbench renders; 0..255 channel scale.",
+  "views": {
+    "ThreeQuarter": {
+      "mean_absolute_rgb_error": [
+        0.05842610677083333,
+        0.061565755208333336,
+        0.06329915364583333
+      ]
+    },
+    "Rear": {
+      "mean_absolute_rgb_error": [
+        0.06207356770833333,
+        0.064423828125,
+        0.06631022135416667
+      ]
+    },
+    "DriveDetail": {
+      "mean_absolute_rgb_error": [
+        0.06642903645833333,
+        0.07246744791666666,
+        0.07847493489583333
+      ]
+    }
+  }
+}

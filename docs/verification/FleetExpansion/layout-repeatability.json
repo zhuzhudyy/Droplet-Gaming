@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "independentRuns": 2,
+  "configUnchanged": true,
+  "configSha256": "0693b71db4557310c686cb95a83d1b4eb1a7fa3ae89847da51b39516bde97a1c",
+  "markerCount": 120,
+  "stableIdsIdentical": true,
+  "positionsOrientationsScalesIdentical": true,
+  "measurementsIdentical": true,
+  "resourceCountsIdentical": true,
+  "sourceReopenAndFbxRoundtripPassedBothRuns": true,
+  "resourceCounts": {
+    "sourceShipMeshes": 0,
+    "sourceMaterials": 0,
+    "sourceTextures": 0,
+    "sourceCameras": 0,
+    "sourceLights": 0,
+    "fbxTemporaryPoseProxies": 120,
+    "fbxShipGeometry": 0
+  },
+  "note": "Semantic source/FBX poses and resources compared. Binary Blender/FBX files may include session metadata; byte identity is not required."
+}

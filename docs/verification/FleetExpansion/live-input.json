@@ -1,0 +1,28 @@
+{
+    "passed": true,
+    "error": "",
+    "scope": "Saved expanded scene; synthetic Input System Enter/W/Shift/Esc/R/Space/mouse; real FixedUpdate and normal timeScale, no pose teleports along the flight, no direct remaining-count writes. Not subjective physical keyboard acceptance.",
+    "destroyed": 5,
+    "score": 1500,
+    "pool": 57,
+    "elapsed": 4.839995861053467,
+    "distance": 528.437744140625,
+    "maxSpeed": 156.0,
+    "endPosition": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 533.7177124023438
+    },
+    "endForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+    },
+    "hitIds": [
+        "SPAWN_Small_FF001",
+        "SPAWN_Small_FF002",
+        "SPAWN_Small_FF003",
+        "SPAWN_Small_FF004",
+        "SPAWN_Small_FF005"
+    ]
+}

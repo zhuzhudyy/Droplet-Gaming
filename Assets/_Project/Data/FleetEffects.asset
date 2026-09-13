@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41ae2898dc830f409962dd6b200bd28, type: 3}
+  m_Name: FleetEffects
+  m_EditorClassIdentifier: DropletPrototype.Runtime::DropletPrototype.EffectSettings
+  initialQuality: 2
+  highEffectCapacity: 16
+  lowEffectCapacity: 8
+  highAudioCapacity: 8
+  lowAudioCapacity: 4
+  wreckLifetime: 4.2
+  flashLifetime: 0.14
+  sparkLifetime: 0.32
+  outwardSpeed: 3.5
+  directionalSpeed: 5
+  tumbleDegreesPerSecond: 12
+  flashSize: 2.8
+  cameraImpulse: 0.1
+  cameraFeedback: 1
+  masterVolume: 0.55
+  impactVolume: 0.75
+  flightVolume: 0.025
+  enableTrails: 1
+  trailLifetime: 0.28
+  trailWidth: 0.085
+  trailMinimumSpeed: 24

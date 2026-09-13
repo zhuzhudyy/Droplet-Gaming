@@ -1,0 +1,16 @@
+{
+  "clip_start": 9.999999747378752e-06,
+  "orthographic_width_m": 0.024,
+  "target": [
+    0.0,
+    0.0,
+    -1.1979999542236328
+  ],
+  "tail_analytic_curvature_radius_m": 0.0005574810281173505,
+  "files": [
+    "Gray-Tail-Detail.png",
+    "Mirror-Tail-Detail.png",
+    "Mirror-Tail-Detail-Other.png"
+  ],
+  "note": "Previous too-close detail camera near plane clipped the tip; corrected inspection camera only, geometry unchanged."
+}

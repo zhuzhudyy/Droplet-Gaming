@@ -1,0 +1,11 @@
+{
+    "passed": false,
+    "error": "System.InvalidOperationException: Continuous first five-ship attack lane failed.\r\n  at DropletPrototype.Editor.FusionFleetLiveCheck.Run () [0x00321] in C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\Assets\\_Project\\Scripts\\Editor\\FusionFleetLiveCheck.cs:30 ",
+    "scope": "Saved expanded scene; synthetic Input System Enter/W/Shift/Esc/R/Space/mouse; real FixedUpdate and normal timeScale, no pose teleports along the flight, no direct remaining-count writes. Not subjective physical keyboard acceptance.",
+    "destroyed": 3,
+    "score": 600,
+    "pool": 57,
+    "elapsed": 12.320091247558594,
+    "distance": 1368.818603515625,
+    "maxSpeed": 156.0
+}

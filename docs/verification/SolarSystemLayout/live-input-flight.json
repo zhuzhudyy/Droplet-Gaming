@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "error": null,
+  "checks": [
+    {
+      "name": "Continuous real InputSystem/FixedUpdate flight",
+      "passed": true,
+      "oldCrossingSeconds": 7.819993,
+      "warningSeconds": 34.4405975,
+      "recoverySeconds": 40.66074,
+      "maxObservedRadius": 5837.79932,
+      "observedRatio": 7.99698544,
+      "nominalBoundary": 5840.0,
+      "destroyed": 4,
+      "score": 1000,
+      "rocksFixed": true
+    },
+    {
+      "name": "Input pause/restart/brake/turn/effect-pool",
+      "passed": true,
+      "initialPool": 441
+    }
+  ],
+  "scope": "Real saved scene, synthetic Input System keyboard/mouse, real FixedUpdate scheduler and Game view. No accelerated clock, no movement teleports except actual boundary recovery. Subjective physical-keyboard feel not claimed."
+}

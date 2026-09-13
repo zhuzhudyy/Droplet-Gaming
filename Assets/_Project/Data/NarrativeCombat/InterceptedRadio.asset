@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ccfff0b66a0c5498e8d6172313d464, type: 3}
+  m_Name: InterceptedRadio
+  m_EditorClassIdentifier: DropletPrototype.Runtime::DropletPrototype.RadioLibrary
+  combat:
+  - id: C01
+    eventKind: AttackIneffective
+    channel: "\u6218\u672F\u706B\u63A7"
+    text: "\u547D\u4E2D\u786E\u8BA4\u3002\u76EE\u6807\u6CA1\u6709\u51CF\u901F\uFF0C\u91CD\u590D\uFF0C\u653B\u51FB\u6CA1\u6709\u6548\u679C\u3002"
+    weight: 2
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 6c6d9eeec83c0f148bf99a03a30a0c2d, type: 3}
+  - id: C02
+    eventKind: AttackIneffective
+    channel: "\u6218\u672F\u706B\u63A7"
+    text: "\u8868\u9762\u6E29\u5EA6\u6CA1\u6709\u53D8\u5316\u2026\u2026\u6211\u4EEC\u7684\u80FD\u91CF\u53BB\u54EA\u4E86\uFF1F"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: a2225fa7ca2779c4f953cca5ded4352d, type: 3}
+  - id: C03
+    eventKind: AttackIneffective
+    channel: "\u8230\u961F\u516C\u9891"
+    text: "\u505C\u6B62\u91CD\u590D\u65E0\u6548\u5C04\u51FB\uFF0C\u91CD\u65B0\u6821\u51C6\uFF01\u5B83\u8FD8\u5728\u63A5\u8FD1\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 9dfe4863686ab064d8a6387e832f22bc, type: 3}
+  - id: C04
+    eventKind: LaserReflected
+    channel: "\u706B\u63A7\u8B66\u62A5"
+    text: "\u5149\u675F\u8F6C\u5411\u4E86\uFF01\u68C0\u67E5\u53CB\u8230\u65B9\u4F4D\uFF0C\u7ACB\u5373\u505C\u706B\uFF01"
+    weight: 2
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 97f8e1a5d41d76044a33da577369111a, type: 3}
+  - id: C05
+    eventKind: LaserReflected
+    channel: "\u706B\u63A7\u8B66\u62A5"
+    text: "\u4E0D\u662F\u6563\u5C04\uFF0C\u662F\u5B8C\u6574\u53CD\u5C04\uFF01\u522B\u518D\u7167\u7740\u5B83\u6253\u4E86\uFF01"
+    weight: 2
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: da5779431cb96aa4b97ff60b09152705, type: 3}
+  - id: C06
+    eventKind: LaserReflected
+    channel: "\u6218\u672F\u706B\u63A7"
+    text: "\u56DE\u6CE2\u4ECE\u6211\u4EEC\u81EA\u5DF1\u7684\u65B9\u5411\u8FC7\u6765\uFF0C\u70AE\u7EC4\u9690\u853D\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 01d43abff40772c4dbfba05eaa61a8eb, type: 3}
+  - id: C07
+    eventKind: LaserReflected
+    channel: "\u8230\u961F\u516C\u9891"
+    text: "\u5B83\u7684\u66F2\u9762\u6B63\u5728\u628A\u706B\u529B\u9001\u56DE\u6765\uFF01\u62C9\u5F00\u4EA4\u53C9\u5C04\u754C\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 5fffc3f60098efd4e91285ad7e7858f3, type: 3}
+  - id: C08
+    eventKind: HullPenetrated
+    channel: "\u635F\u7BA1\u7D27\u6025"
+    text: "\u5B83\u4ECE\u8230\u4F53\u7A7F\u8FC7\u53BB\u4E86\uFF01\u4E09\u53F7\u8231\u5931\u538B\uFF0C\u5C01\u95ED\u9694\u79BB\u95E8\uFF01"
+    weight: 2
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: 730d243afb962c84b91ac1618b0de2f8, type: 3}
+  - id: C09
+    eventKind: HullPenetrated
+    channel: "\u635F\u7BA1\u7D27\u6025"
+    text: "\u7EB5\u5411\u7ED3\u6784\u65AD\u4E86\uFF0C\u63A8\u8FDB\u63A7\u5236\u5168\u7EA2\uFF01\u6211\u4EEC\u8FD8\u5728\u6F02\u79FB\uFF01"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: fb7f02155f1e74241b3e0681fab2483e, type: 3}
+  - id: C10
+    eventKind: HullPenetrated
+    channel: "\u8230\u961F\u516C\u9891"
+    text: "\u521A\u624D\u4E0D\u662F\u64E6\u78B0\uFF01\u5B83\u628A\u6574\u6761\u52A8\u529B\u901A\u9053\u6253\u7A7F\u4E86\uFF01"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: fc542ef6947950640962d9c0c9f30c1e, type: 3}
+  - id: C11
+    eventKind: HullPenetrated
+    channel: "\u635F\u7BA1\u7D27\u6025"
+    text: "\u88C5\u7532\u91CC\u6CA1\u6709\u5F39\u7247\uFF0C\u53EA\u6709\u4E00\u4E2A\u6D1E\u2026\u2026\u5B83\u5230\u5E95\u662F\u4EC0\u4E48\uFF1F"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: 199e35e942715fb4cbb9d25f5fc7b913, type: 3}
+  - id: C12
+    eventKind: ReactorUnstable
+    channel: "\u53CD\u5E94\u5806\u8B66\u62A5"
+    text: "\u78C1\u7EA6\u675F\u6B63\u5728\u5D29\u6E83\uFF01\u64A4\u79BB\u52A8\u529B\u8231\uFF0C\u4E0D\u8981\u56DE\u5934\uFF01"
+    weight: 2
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: 8fa24c0782996424a9282e699a1319d2, type: 3}
+  - id: C13
+    eventKind: ReactorUnstable
+    channel: "\u53CD\u5E94\u5806\u8B66\u62A5"
+    text: "\u505C\u5806\u6307\u4EE4\u6CA1\u6709\u56DE\u5E94\uFF0C\u5907\u7528\u603B\u7EBF\u4E5F\u70E7\u6BC1\u4E86\uFF01"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: 4d16d45b6dd95f84b8c66d2bf02fd419, type: 3}
+  - id: C14
+    eventKind: ReactorUnstable
+    channel: "\u635F\u7BA1\u7D27\u6025"
+    text: "\u51B7\u5374\u56DE\u8DEF\u65AD\u88C2\uFF0C\u6E29\u5EA6\u8FD8\u5728\u4E0A\u5347\uFF0C\u6211\u4EEC\u6491\u4E0D\u4E86\u591A\u4E45\uFF01"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: 1627540a5f1cad94b958e7ca7c50aaad, type: 3}
+  - id: C15
+    eventKind: ReactorUnstable
+    channel: "\u53CD\u5E94\u5806\u8B66\u62A5"
+    text: "\u9694\u79BB\u5931\u8D25\u2026\u2026\u628A\u6C42\u751F\u4FE1\u6807\u9001\u51FA\u53BB\uFF0C\u73B0\u5728\uFF01"
+    weight: 2
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: baa32f5f663b36a449a19f1126a4d309, type: 3}
+  - id: C16
+    eventKind: ShipExploded
+    channel: "\u76EE\u51FB\u62A5\u544A"
+    text: "\u53CB\u8230\u4FE1\u53F7\u6D88\u5931\u4E86\uFF01\u7206\u5FC3\u5C31\u5728\u6211\u4EEC\u5DE6\u524D\u65B9\uFF01"
+    weight: 2
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 1a5f7fcfc9be2d14c96cd04393857ed8, type: 3}
+  - id: C17
+    eventKind: ShipExploded
+    channel: "\u76EE\u51FB\u62A5\u544A"
+    text: "\u521A\u624D\u8FD8\u5728\u8BF7\u6C42\u6551\u63F4\u7684\u90A3\u8258\u8230\u2026\u2026\u5DF2\u7ECF\u6CA1\u6709\u4E86\u3002"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: e5e451154ea004a42a40ab53d92ce27f, type: 3}
+  - id: C18
+    eventKind: ShipExploded
+    channel: "\u8230\u961F\u516C\u9891"
+    text: "\u907F\u5F00\u6B8B\u9AB8\u4E91\uFF01\u4E0D\u8981\u8BA9\u7206\u70B8\u906E\u4F4F\u90A3\u4E2A\u4E1C\u897F\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: b50d0d2e88c07d041832acef674d15d6, type: 3}
+  - id: C19
+    eventKind: ShipExploded
+    channel: "\u76EE\u51FB\u62A5\u544A"
+    text: "\u4E00\u6574\u8258\u8230\u5C31\u8FD9\u6837\u70B8\u5F00\u4E86\uFF1F\u6240\u6709\u4EBA\u7CFB\u7D27\u5B89\u5168\u5E26\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 5cb7d12c8ada14842a087f0dfaeadd44, type: 3}
+  - id: C20
+    eventKind: RescueRequested
+    channel: "\u6551\u63F4\u547C\u53EB"
+    text: "\u8FD9\u91CC\u8FD8\u6709\u5E78\u5B58\u8005\uFF01\u8BF7\u9501\u5B9A\u6211\u4EEC\u7684\u9003\u751F\u8231\u4FE1\u6807\uFF01"
+    weight: 2
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: 6358f7c01d9df4e4fab456a7d1666870, type: 3}
+  - id: C21
+    eventKind: RescueRequested
+    channel: "\u6551\u63F4\u547C\u53EB"
+    text: "\u533B\u7597\u8231\u65AD\u7535\u4E86\uFF0C\u4F24\u5458\u65E0\u6CD5\u8F6C\u79FB\uFF01\u8C01\u80FD\u542C\u5230\u6211\u4EEC\uFF1F"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: c6106e0593f85bf428a902e4e958c6f7, type: 3}
+  - id: C22
+    eventKind: RescueRequested
+    channel: "\u6551\u63F4\u547C\u53EB"
+    text: "\u6211\u4EEC\u5931\u53BB\u52A8\u529B\uFF0C\u9700\u8981\u62D6\u5E26\uFF01\u6C42\u6551\u4FE1\u53F7\u5DF2\u8F6C\u5168\u9891\uFF01"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: 5e46211526c454d41822148369f2f40a, type: 3}
+  - id: C23
+    eventKind: RescueRequested
+    channel: "\u6551\u63F4\u547C\u53EB"
+    text: "\u522B\u9760\u8FD1\u6211\u4EEC\u7684\u8230\u5C3E\uFF0C\u53CD\u5E94\u5806\u5FEB\u5931\u63A7\u4E86\uFF01\u6551\u751F\u8231\u5148\u8D70\uFF01"
+    weight: 1
+    pendingOnly: 1
+    voice: {fileID: 8300000, guid: e67fd4ce1fe523a43b61d3034f4877df, type: 3}
+  - id: C24
+    eventKind: RetreatOrdered
+    channel: "\u64A4\u79BB\u8C03\u5EA6"
+    text: "\u7F16\u961F\u5DF2\u65E0\u6CD5\u7EF4\u6301\uFF0C\u5404\u8230\u6CBF\u64A4\u79BB\u8D70\u5ECA\u52A0\u901F\uFF01"
+    weight: 2
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 8f2e176aaf38fcd40b47bcc6c9f09f5d, type: 3}
+  - id: C25
+    eventKind: RetreatOrdered
+    channel: "\u64A4\u79BB\u8C03\u5EA6"
+    text: "\u89E3\u5F00\u961F\u5F62\uFF0C\u4FDD\u6301\u5F7C\u6B64\u95F4\u8DDD\uFF01\u4E0D\u8981\u5835\u4F4F\u64A4\u79BB\u65B9\u5411\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: db9346656aacb26478584736e9e537ee, type: 3}
+  - id: C26
+    eventKind: RetreatOrdered
+    channel: "\u64A4\u79BB\u8C03\u5EA6"
+    text: "\u505C\u6B62\u8FFD\u8E2A\u5C04\u51FB\uFF0C\u6240\u6709\u53EF\u7528\u63A8\u529B\u8F6C\u5411\u64A4\u79BB\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: ce8f9da60d17afe4d908081a6820348c, type: 3}
+  - id: C27
+    eventKind: RetreatOrdered
+    channel: "\u8230\u961F\u516C\u9891"
+    text: "\u6211\u4E0D\u7B49\u6279\u51C6\u4E86\uFF0C\u5E26\u7740\u8FD8\u80FD\u52A8\u7684\u8230\u79BB\u5F00\u8FD9\u91CC\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: ab5349b697b0a5e4599039ae908d70d1, type: 3}
+  - id: C28
+    eventKind: AttackIneffective
+    channel: "\u5931\u5E8F\u516C\u9891"
+    text: "\u4F60\u4EEC\u8FD9\u4E9B\u4E09\u4F53\u6DF7\u86CB\uFF01\u8FDE\u4E00\u53E5\u56DE\u7B54\u90FD\u4E0D\u80AF\u7ED9\u6211\u4EEC\u5417\uFF01"
+    weight: 0.6
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 7b5e80d9434ff2a49b953c4008ac772c, type: 3}
+  - id: C29
+    eventKind: RetreatOrdered
+    channel: "\u5931\u5E8F\u516C\u9891"
+    text: "\u8BE5\u6B7B\u7684\uFF0C\u522B\u518D\u8BA9\u6211\u4FDD\u6301\u9635\u5F62\uFF01\u90A3\u6761\u7EBF\u4E0A\u5DF2\u7ECF\u6CA1\u6709\u8230\u4E86\uFF01"
+    weight: 0.6
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 2672cb53756f4344fabc41247df0983f, type: 3}
+  - id: C30
+    eventKind: LaserReflected
+    channel: "\u5931\u5E8F\u516C\u9891"
+    text: "\u8C01\u8FD8\u5728\u5F00\u706B\uFF01\u4F60\u5DEE\u70B9\u6253\u4E2D\u6211\u4EEC\u7684\u8230\u6865\uFF01"
+    weight: 0.6
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 41feabcf060fd8b44bd5a531962d0149, type: 3}
+  - id: C31
+    eventKind: CommunicationInterrupted
+    channel: "\u4FE1\u53F7\u5F02\u5E38"
+    text: "\u6211\u4EEC\u6B63\u5728\u4E22\u5931\u635F\u7BA1\u9891\u9053\uFF0C\u6700\u540E\u4E00\u6B21\u547C\u53EB\u6CA1\u6709\u56DE\u5E94\u3002"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 0564ea44df5148b419b409ca76eedc89, type: 3}
+  - id: C32
+    eventKind: CommunicationInterrupted
+    channel: "\u4FE1\u53F7\u5F02\u5E38"
+    text: "\u4E2D\u7EE7\u70B9\u7A81\u7136\u79BB\u7EBF\uFF0C\u5207\u6362\u672C\u5730\u77ED\u6CE2\uFF0C\u786E\u8BA4\u90BB\u8230\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 7206e328c9f9fb94d9a370cd946b0c10, type: 3}
+  - id: C33
+    eventKind: CommunicationInterrupted
+    channel: "\u4FE1\u53F7\u5F02\u5E38"
+    text: "\u9891\u9053\u53EA\u5269\u4E0B\u6742\u97F3\u4E86\u2026\u2026\u628A\u5931\u8054\u4F4D\u7F6E\u6807\u51FA\u6765\u3002"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 567d84c1769898441aab83c76f0ed504, type: 3}
+  - id: C34
+    eventKind: ShipEscaped
+    channel: "\u64A4\u79BB\u8C03\u5EA6"
+    text: "\u524D\u8230\u5DF2\u901A\u8FC7\u64A4\u79BB\u754C\u6807\uFF0C\u540E\u7EED\u8230\u4FDD\u6301\u901A\u9053\u7545\u901A\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 897dde9f5eb8de04aad1f04bc70221bd, type: 3}
+  - id: C35
+    eventKind: RetreatOrdered
+    channel: "\u8230\u961F\u516C\u9891"
+    text: "\u6211\u4EEC\u770B\u89C1\u90BB\u8230\u88AB\u7A7F\u900F\u4E86\uFF0C\u7ACB\u5373\u8F6C\u5411\uFF0C\u7ACB\u5373\u8F6C\u5411\uFF01"
+    weight: 1
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: 7a552bf4fdd50544295ca588b17f3dc1, type: 3}
+  - id: C36
+    eventKind: ShipExploded
+    channel: "\u5931\u5E8F\u516C\u9891"
+    text: "\u90A3\u4E9B\u706F\u521A\u624D\u8FD8\u662F\u4EBA\u7684\u8237\u7A97\u2026\u2026\u4E3A\u4EC0\u4E48\u4F1A\u53D8\u6210\u8FD9\u6837\uFF01"
+    weight: 0.6
+    pendingOnly: 0
+    voice: {fileID: 8300000, guid: a34ae963933693644a2c2dba297b5d7b, type: 3}
+  narrative:
+  - id: N01
+    channel: "\u5730\u7403\u7535\u89C6 / \u7F13\u5B58\u5F55\u64AD"
+    text: "\u4ECA\u5929\u7684\u7279\u522B\u8282\u76EE\uFF1A\u4EBA\u7C7B\u8230\u961F\u8FCE\u63A5\u8FDC\u65B9\u6765\u5BA2\u3002"
+    time: 0
+    duration: 4.8
+    cameraShot: 0
+    voice: {fileID: 8300000, guid: 111b2f0572f3d8e43aee7c47cacc5f15, type: 3}
+  - id: N02
+    channel: "\u5730\u7403\u7535\u89C6 / \u7F13\u5B58\u5F55\u64AD"
+    text: "\u5C0F\u5C0F\u7684\u63A2\u6D4B\u5668\uFF0C\u770B\u8D77\u6765\u66F4\u50CF\u4E00\u4EFD\u7CBE\u81F4\u7684\u793C\u7269\u3002"
+    time: 5
+    duration: 4.8
+    cameraShot: 0
+    voice: {fileID: 8300000, guid: d8e9d1ef8f919384c8b357b73002020b, type: 3}
+  - id: N03
+    channel: "\u5730\u7403\u7535\u89C6 / \u7F13\u5B58\u5F55\u64AD"
+    text: "\u4E13\u5BB6\u8BA4\u4E3A\uFF0C\u5982\u6B64\u5E9E\u5927\u7684\u9635\u5217\u8DB3\u4EE5\u8868\u8FBE\u6211\u4EEC\u7684\u8BDA\u610F\u4E0E\u529B\u91CF\u3002"
+    time: 10
+    duration: 4.8
+    cameraShot: 1
+    voice: {fileID: 8300000, guid: 5c8689ee114e6b24ba408c0c5bb8d82a, type: 3}
+  - id: N04
+    channel: "\u8230\u961F\u5F15\u5BFC\u9891\u9053"
+    text: "\u4E0D\u660E\u63A2\u6D4B\u5668\uFF0C\u524D\u65B9\u662F\u4EBA\u7C7B\u8230\u961F\u3002\u8BF7\u51CF\u901F\uFF0C\u63A5\u53D7\u5F15\u5BFC\u3002"
+    time: 15
+    duration: 4.8
+    cameraShot: 1
+    voice: {fileID: 8300000, guid: 601df429a09e1ea4eace32c55a91c2f6, type: 3}
+  - id: N05
+    channel: "\u8230\u961F\u5F15\u5BFC\u9891\u9053"
+    text: "\u4FDD\u6301\u5F53\u524D\u822A\u5411\uFF0C\u5173\u95ED\u63A8\u8FDB\u7CFB\u7EDF\u3002\u6211\u4EEC\u5C06\u5B89\u6392\u63A5\u89E6\u3002"
+    time: 20
+    duration: 4.8
+    cameraShot: 1
+    voice: {fileID: 8300000, guid: 1cfd7f042282523439ae697415a0cf18, type: 3}
+  - id: N06
+    channel: "\u519B\u60C5\u5206\u6790\u5185\u7EBF"
+    text: "\u672A\u53D1\u73B0\u5916\u9732\u6B66\u5668\u3002\u76EE\u6807\u59FF\u6001\u7A33\u5B9A\uFF0C\u4F46\u6CA1\u6709\u4EFB\u4F55\u56DE\u5E94\u3002"
+    time: 25
+    duration: 4.8
+    cameraShot: 2
+    voice: {fileID: 8300000, guid: 0462d3d10ff2b444abc53b4ef3a03380, type: 3}
+  - id: N07
+    channel: "\u519B\u60C5\u5206\u6790\u5185\u7EBF"
+    text: "\u822A\u8FF9\u5E76\u672A\u5F2F\u5411\u5F15\u5BFC\u70B9\u3002\u5B83\u5728\u76F4\u7EBF\u63A5\u8FD1\u4E2D\u592E\u7F16\u961F\u3002"
+    time: 30
+    duration: 4.8
+    cameraShot: 2
+    voice: {fileID: 8300000, guid: 0a0614195dc560c4ab545860f65b40c6, type: 3}
+  - id: N08
+    channel: "\u8230\u961F\u5F15\u5BFC\u9891\u9053"
+    text: "\u518D\u6B21\u547C\u53EB\uFF1A\u505C\u6B62\u63A5\u8FD1\uFF0C\u786E\u8BA4\u6536\u5230\u3002\u4F60\u5DF2\u8FDB\u5165\u8B66\u6212\u533A\u3002"
+    time: 35
+    duration: 4.8
+    cameraShot: 2
+    voice: {fileID: 8300000, guid: 0e6dc91c8058849449fc8fa3bf64ee70, type: 3}
+  - id: N09
+    channel: "\u519B\u60C5\u5206\u6790\u5185\u7EBF"
+    text: "\u6CA1\u6709\u51CF\u901F\u8FF9\u8C61\u3002\u4E0D\u8981\u518D\u628A\u6C89\u9ED8\u7406\u89E3\u6210\u914D\u5408\u3002"
+    time: 40
+    duration: 4.8
+    cameraShot: 3
+    voice: {fileID: 8300000, guid: ccf08df935cc48c4292a44c2042ac625, type: 3}
+  - id: N10
+    channel: "\u8230\u961F\u6307\u6325\u9891\u9053"
+    text: "\u5404\u8230\u706B\u63A7\u5F85\u547D\u3002\u89E3\u9664\u5B89\u5168\u9501\uFF0C\u7B49\u5019\u7EDF\u4E00\u547D\u4EE4\u3002"
+    time: 45
+    duration: 4.8
+    cameraShot: 3
+    voice: {fileID: 8300000, guid: 071ea15b420e2424da8e03b747ef5e83, type: 3}
+  - id: N11
+    channel: "\u6700\u540E\u8B66\u544A / \u5168\u9891"
+    text: "\u8FD9\u662F\u6700\u540E\u8B66\u544A\u3002\u7ACB\u5373\u505C\u6B62\u63A5\u8FD1\uFF0C\u5426\u5219\u6211\u4EEC\u5C06\u5F00\u706B\u3002"
+    time: 50
+    duration: 4.8
+    cameraShot: 3
+    voice: {fileID: 8300000, guid: 5f561451b59289e49aa6c60bd7c7e6de, type: 3}
+  - id: N12
+    channel: "\u8230\u961F\u6307\u6325\u9891\u9053"
+    text: "\u6240\u6709\u9891\u9053\u4ECD\u7136\u9759\u9ED8\u3002\u76EE\u6807\u8D8A\u8FC7\u8B66\u6212\u7EBF\u2026\u2026\u51C6\u5907\u4EA4\u6218\u3002"
+    time: 55
+    duration: 5
+    cameraShot: 0
+    voice: {fileID: 8300000, guid: 61c98a53c94262a41bcafdb8bcc86a7e, type: 3}
+  queueLimit: 6
+  globalCooldown: 1.1
+  eventExpiry: 7
+  recentLineLimit: 8
+  speakerEventCooldown: 12
+  historyLimit: 40
+  eventBudgetPerFrame: 24
+  connectTone: {fileID: 8300000, guid: d12162b9a79442c4cb8d8865f8006087, type: 3}
+  interruptTone: {fileID: 8300000, guid: e8c00d8dae0c3114ca2fc5c818693793, type: 3}
+  voiceProvenance: Microsoft Huihui Desktop / installed offline zh-CN synthesis

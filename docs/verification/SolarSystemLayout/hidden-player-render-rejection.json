@@ -1,0 +1,7 @@
+{
+  "run": "PlayerBenchmark/20260908-061708-443",
+  "flowAssertionsPassed": true,
+  "renderValidationPassed": false,
+  "performanceAccepted": false,
+  "reason": "Started hidden: every ScreenCapture was the same black frame. Actual first image opened and inspected. The inherited benchmark's Rendered1080p check only checks resolution and graphics API and is insufficient; its sub-millisecond frame numbers are rejected as rendering evidence. A visible-window rerun is required."
+}

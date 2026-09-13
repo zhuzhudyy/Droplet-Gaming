@@ -1,0 +1,537 @@
+﻿{
+    "scene": "Assets/_Project/Scenes/FleetAssault_NarrativeCombat.unity",
+    "utc": "2026-09-12T13:35:16.3199972Z",
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "operatingSystem": "Windows 11  (10.0.26200)",
+    "outputDirectory": "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311",
+    "scope": "Same saved scene and all stable IDs throughout. Natural 60-second Timeline, pause/skip/replay; ten simulation seconds of virtual Keyboard/Mouse through the existing Update and FixedUpdate; three rendered phases each >=480 frames and >=6 wall seconds. Concentrated fatal damage uses explicitly controlled ApplyDamage setup, never claimed as human input. Screenshots outside measured samples. No subjective physical-keyboard, thermal soak, cross-hardware, or total-process VRAM claim. Unknown counters use -1 or empty CSV cells.",
+    "error": "",
+    "completed": true,
+    "allChecksPassed": true,
+    "editor": false,
+    "batchMode": false,
+    "developmentBuild": false,
+    "totalTargets": 2000,
+    "distinctIds": 2000,
+    "width": 1920,
+    "height": 1080,
+    "cpuThreads": 32,
+    "systemMemoryMB": 15575,
+    "graphicsMemoryCapacityMB": 7956,
+    "actualProcessVramBytes": -1,
+    "vramStatus": "Unmeasured: adapter capacity is not allocation. Gfx Used Memory, if sampled, is Unity tracked graphics allocation, not total process VRAM.",
+    "frameGeneration": "No frame generation implementation is used by this project; renderScale and dynamic resolution are reported per phase.",
+    "checks": [
+        {
+            "name": "Rendered graphics device",
+            "detail": "Direct3D12",
+            "passed": true
+        },
+        {
+            "name": "Saved fleet count and stable IDs",
+            "detail": "expected=2000, actual=2000, unique=2000",
+            "passed": true
+        },
+        {
+            "name": "1080p standalone",
+            "detail": "1920x1080",
+            "passed": true
+        },
+        {
+            "name": "Narrative does not start combat",
+            "detail": "combatSeconds=0, generation=3",
+            "passed": true
+        },
+        {
+            "name": "Keyboard Escape pauses narrative",
+            "detail": "Paused",
+            "passed": true
+        },
+        {
+            "name": "Narrative pause freezes movement and time",
+            "detail": "narrativeSeconds=2.319998",
+            "passed": true
+        },
+        {
+            "name": "Skip enters combat once and restores controls",
+            "detail": "completions=1, state=Playing",
+            "passed": true
+        },
+        {
+            "name": "Natural Timeline completes once with all cues",
+            "detail": "wallSeconds=59.671, timelineSeconds=60, cues=12",
+            "passed": true
+        },
+        {
+            "name": "Normal ending restores player and camera",
+            "detail": "state=Playing",
+            "passed": true
+        },
+        {
+            "name": "Ten seconds actual FixedUpdate input flight",
+            "detail": "seconds=10.00005, distanceUU=3254.999, damage=3",
+            "passed": true
+        },
+        {
+            "name": "Cruise HUD agrees with displacement and physical scale",
+            "detail": "cruise m/s=30000.03, maxRelativeError=1.139335E-05",
+            "passed": true
+        },
+        {
+            "name": "Preserved round head stays forward",
+            "detail": "minimumDot=0.9996572",
+            "passed": true
+        },
+        {
+            "name": "Actual flight damages saved moving fleet",
+            "detail": "damaged=3, recoveries=0",
+            "passed": true
+        },
+        {
+            "name": "Injected Shift produces actual acceleration",
+            "detail": "observedKeyFrames=86, peakMetersPerSecond=90000.04",
+            "passed": true
+        },
+        {
+            "name": "Injected Space produces actual braking",
+            "detail": "observedKeyFrames=97, minimumMetersPerSecond=0",
+            "passed": true
+        },
+        {
+            "name": "Injected mouse changes actual yaw and pitch",
+            "detail": "yawDegrees=14.41017, pitchDegrees=4.323051, observedMouseFrames=1",
+            "passed": true
+        },
+        {
+            "name": "FleetPanorama full measurement window",
+            "detail": "frames=490, seconds=6.007",
+            "passed": true
+        },
+        {
+            "name": "FleetPanorama native resolution scale",
+            "detail": "renderScale=1, dynamic=False",
+            "passed": true
+        },
+        {
+            "name": "Diagnostic teleport is not an attack",
+            "detail": "position=(0.00, 13.19, 1139.21)",
+            "passed": true
+        },
+        {
+            "name": "NearLaserCombat full measurement window",
+            "detail": "frames=1921, seconds=6.002",
+            "passed": true
+        },
+        {
+            "name": "NearLaserCombat native resolution scale",
+            "detail": "renderScale=1, dynamic=False",
+            "passed": true
+        },
+        {
+            "name": "Autonomous lasers actually fire and reflect",
+            "detail": "shots=23, reflected=10, reflectedDamage=0",
+            "passed": true
+        },
+        {
+            "name": "Diagnostic teleport is not an attack",
+            "detail": "position=(0.00, 13.19, 1139.21)",
+            "passed": true
+        },
+        {
+            "name": "Controlled all-fleet fatal setup retains hulls",
+            "detail": "submitted=2000, pending=2000",
+            "passed": true
+        },
+        {
+            "name": "Repeated fatal damage never reschedules",
+            "detail": "deadline=3.715949",
+            "passed": true
+        },
+        {
+            "name": "Paused delayed explosions remain pending",
+            "detail": "time=0",
+            "passed": true
+        },
+        {
+            "name": "ConcentratedDelayedExplosions full measurement window",
+            "detail": "frames=2229, seconds=6.001",
+            "passed": true
+        },
+        {
+            "name": "ConcentratedDelayedExplosions native resolution scale",
+            "detail": "renderScale=1, dynamic=False",
+            "passed": true
+        },
+        {
+            "name": "All fleet delayed explosions submit each kill once",
+            "detail": "destroyed=2000, pending=0, results=1",
+            "passed": true
+        },
+        {
+            "name": "Controlled stress uses bounded presentation",
+            "detail": "reactorPeak=12, beamPeak=0",
+            "passed": true
+        },
+        {
+            "name": "Diagnostic teleport is not an attack",
+            "detail": "position=(0.00, 13.19, 1139.21)",
+            "passed": true
+        },
+        {
+            "name": "Live reflected beam presentation can be captured",
+            "detail": "activeBeams=1",
+            "passed": true
+        },
+        {
+            "name": "Restart 1 clears previous generation",
+            "detail": "generation=11, targets=2000",
+            "passed": true
+        },
+        {
+            "name": "Restart 2 clears previous generation",
+            "detail": "generation=13, targets=2000",
+            "passed": true
+        },
+        {
+            "name": "Restart 3 clears previous generation",
+            "detail": "generation=15, targets=2000",
+            "passed": true
+        },
+        {
+            "name": "Diagnostic teleport is not an attack",
+            "detail": "position=(405.00, 6258.00, 10562.50)",
+            "passed": true
+        },
+        {
+            "name": "No old explosion after three restarts",
+            "detail": "observedSimulationSeconds=5.519995",
+            "passed": true
+        },
+        {
+            "name": "Fleet count preserved at completion",
+            "detail": "final=2000",
+            "passed": true
+        }
+    ],
+    "phases": [
+        {
+            "name": "FleetPanorama",
+            "workload": "Fixed panorama of the entire unchanged saved fleet; simulation intentionally held to isolate rendering.",
+            "frames": 490,
+            "focusedFrames": 490,
+            "width": 1920,
+            "height": 1080,
+            "targets": 2000,
+            "destroyed": 0,
+            "pending": 0,
+            "escaped": 0,
+            "peakBeams": 0,
+            "peakReactorEffects": 0,
+            "shots": 0,
+            "reflections": 0,
+            "damageFromReflection": 0,
+            "seconds": 6.007162600000001,
+            "meanFps": 81.56929196489536,
+            "controlledDamageSubmissionMs": 0.0,
+            "frameMs": {
+                "samples": 490,
+                "mean": 12.259343443248345,
+                "p50": 12.218402698636055,
+                "p95": 14.232199639081955,
+                "p99": 15.533899888396264,
+                "maximum": 17.50979945063591
+            },
+            "cpuFrameMs": {
+                "samples": 490,
+                "mean": 12.2701675510204,
+                "p50": 12.2449,
+                "p95": 14.2305,
+                "p99": 15.5402,
+                "maximum": 18.0434
+            },
+            "mainThreadMs": {
+                "samples": 490,
+                "mean": 12.251171020408166,
+                "p50": 12.2104,
+                "p95": 14.2137,
+                "p99": 15.5309,
+                "maximum": 17.4993
+            },
+            "gpuMs": {
+                "samples": 490,
+                "mean": 3.794259069387757,
+                "p50": 3.889152,
+                "p95": 4.081664,
+                "p99": 4.282368,
+                "maximum": 4.668416
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "gcBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "unityGraphicsBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "cameraPosition": {
+                "x": -7877.25,
+                "y": 10629.208984375,
+                "z": -5215.625
+            },
+            "cameraForward": {
+                "x": 0.40169769525527956,
+                "y": -0.5030143857002258,
+                "z": 0.7652552127838135
+            },
+            "renderScale": 1.0,
+            "dynamicResolution": false
+        },
+        {
+            "name": "NearLaserCombat",
+            "workload": "Normal mission FixedUpdate advances autonomous fleet and bounded lasers; diagnostic player pose is held near the nearest ship. No direct attack calls.",
+            "frames": 1921,
+            "focusedFrames": 1921,
+            "width": 1920,
+            "height": 1080,
+            "targets": 2000,
+            "destroyed": 0,
+            "pending": 0,
+            "escaped": 0,
+            "peakBeams": 4,
+            "peakReactorEffects": 0,
+            "shots": 23,
+            "reflections": 10,
+            "damageFromReflection": 0,
+            "seconds": 6.001960299999993,
+            "meanFps": 320.0620970451941,
+            "controlledDamageSubmissionMs": 0.0,
+            "frameMs": {
+                "samples": 1921,
+                "mean": 3.1263702762357306,
+                "p50": 2.475503133609891,
+                "p95": 6.4744045957922939,
+                "p99": 7.105895783752203,
+                "maximum": 9.910402819514275
+            },
+            "cpuFrameMs": {
+                "samples": 1921,
+                "mean": 3.1253545549193086,
+                "p50": 2.4784,
+                "p95": 6.4759,
+                "p99": 7.1067,
+                "maximum": 9.9131
+            },
+            "mainThreadMs": {
+                "samples": 1921,
+                "mean": 3.1250123373243094,
+                "p50": 2.4763,
+                "p95": 6.4737,
+                "p99": 7.1049,
+                "maximum": 9.9104
+            },
+            "gpuMs": {
+                "samples": 1921,
+                "mean": 0.651914327954188,
+                "p50": 0.651264,
+                "p95": 0.690176,
+                "p99": 0.714752,
+                "maximum": 0.768
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "gcBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "unityGraphicsBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "cameraPosition": {
+                "x": 4.0,
+                "y": 16.184995651245118,
+                "z": 1147.2139892578125
+            },
+            "cameraForward": {
+                "x": -0.027119450271129609,
+                "y": -0.05549314618110657,
+                "z": -0.9980908036231995
+            },
+            "renderScale": 1.0,
+            "dynamicResolution": false
+        },
+        {
+            "name": "ConcentratedDelayedExplosions",
+            "workload": "Controlled stress: one ApplyDamage per ALL saved ships in one rendered frame; standard 2-5 simulation-second deadlines, pools, radio and actual mission loop complete all explosions. This is not human input.",
+            "frames": 2229,
+            "focusedFrames": 2229,
+            "width": 1920,
+            "height": 1080,
+            "targets": 2000,
+            "destroyed": 2000,
+            "pending": 0,
+            "escaped": 0,
+            "peakBeams": 0,
+            "peakReactorEffects": 12,
+            "shots": 0,
+            "reflections": 0,
+            "damageFromReflection": 0,
+            "seconds": 6.000606300000001,
+            "meanFps": 371.4624637180412,
+            "controlledDamageSubmissionMs": 19.08679999999663,
+            "frameMs": {
+                "samples": 2229,
+                "mean": 2.6965082557571109,
+                "p50": 2.138003008440137,
+                "p95": 6.57720398157835,
+                "p99": 7.9025933519005779,
+                "maximum": 17.228996381163598
+            },
+            "cpuFrameMs": {
+                "samples": 2229,
+                "mean": 2.7258697173620405,
+                "p50": 2.1379,
+                "p95": 6.5877,
+                "p99": 7.9788,
+                "maximum": 67.4672
+            },
+            "mainThreadMs": {
+                "samples": 2229,
+                "mean": 2.6951093315388108,
+                "p50": 2.1365,
+                "p95": 6.5737,
+                "p99": 7.9023,
+                "maximum": 17.2327
+            },
+            "gpuMs": {
+                "samples": 2229,
+                "mean": 0.6140588963660848,
+                "p50": 0.58368,
+                "p95": 0.647168,
+                "p99": 0.663552,
+                "maximum": 54.749184
+            },
+            "drawCalls": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "gcBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "unityGraphicsBytes": {
+                "samples": 0,
+                "mean": -1.0,
+                "p50": -1.0,
+                "p95": -1.0,
+                "p99": -1.0,
+                "maximum": -1.0
+            },
+            "cameraPosition": {
+                "x": 4.0,
+                "y": 16.184995651245118,
+                "z": 1147.2139892578125
+            },
+            "cameraForward": {
+                "x": -0.027119450271129609,
+                "y": -0.05549314618110657,
+                "z": -0.9980908036231995
+            },
+            "renderScale": 1.0,
+            "dynamicResolution": false
+        }
+    ],
+    "screenshots": [
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\01-narrative-fragment.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\02-skip-combat-handover.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\03-narrative-middle.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\04-narrative-last-warning.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\05-actual-input-flight.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\00-complete-fleet-panorama.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\06-near-laser-combat.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\07-all-fleet-fatal-pending.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\08-all-fleet-explosion-results.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\10-live-beam-contact.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\11-live-delayed-reactor-explosion.png",
+        "C:\\学习\\玩\\Unity\\新建文件夹\\DropletPrototype\\docs\\verification\\NarrativeCombat\\Player-First\\FleetAssault_NarrativeCombat-20260912-133516-311\\09-third-restart-clean.png"
+    ],
+    "flight": {
+        "inputMethod": "InputSystem.QueueStateEvent on temporary Keyboard/Mouse, consumed by existing DropletInput.Update and MissionController.FixedUpdate. No calls to Motor.Simulate or Mission.Step in this phase.",
+        "setup": "Restart at saved spawn, then >=0.35 real seconds and four neutral LateUpdate observations to clear the existing release gate. W cruise; Shift boost at 4-5 s; Space brake at 8-9 s; one 100/-30 pixel mouse event after 9 s. Fleet remains autonomous. Sprint, brake and turn each require measured motor response.",
+        "simulationSeconds": 10.000054359436036,
+        "measuredDistanceUnits": 3254.9990234375,
+        "measuredMetersPerSecond": 32549.814453125,
+        "minimumHeadForwardDot": 0.999657154083252,
+        "cruiseMaximumRelativeHudError": 0.000011393354725441895,
+        "cruiseMetersPerSecond": 30000.02734375,
+        "sprintPeakMetersPerSecond": 90000.0390625,
+        "brakeMinimumMetersPerSecond": 0.0,
+        "mouseYawDegrees": 14.410167694091797,
+        "mousePitchDegrees": 4.3230509757995609,
+        "fixedPoseSamples": 497,
+        "newlyDamaged": 3,
+        "exploded": 2,
+        "recoveries": 0,
+        "shots": 29,
+        "reflections": 10,
+        "releasedUpdateFrames": 25,
+        "observedSprintFrames": 86,
+        "observedBrakeFrames": 97,
+        "observedMouseFrames": 1,
+        "focusedFrames": 881,
+        "inputBackgroundBehavior": "IgnoreFocus",
+        "editorInputBehavior": "Not an Editor player",
+        "start": {
+            "x": 0.0,
+            "y": 8.0,
+            "z": 203.99996948242188
+        },
+        "end": {
+            "x": 54.76361846923828,
+            "y": -8.634223937988282,
+            "z": 3451.468994140625
+        },
+        "missionFixedUpdateRemainedEnabled": true
+    }
+}
