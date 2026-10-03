@@ -1,5 +1,9 @@
 # Verified environment
 
+## Packaging and repository delivery — 2026-10-03
+
+Used installed Python **3.14.3** standard-library zipfile/hashlib/urllib and Git **2.53.0.windows.2** with the existing Git Credential Manager. No tools, packages or Editor versions were installed or upgraded. Package verification checked ZIP CRC and 197 SHA-256 entry comparisons against the existing Seed Windows player; publisher authentication/permission was checked against the actual repository. Unity **6000.5.10f1 (3bd4f66ad299)** and package versions were read from ProjectVersion.txt and manifest.json; Unity/Blender and gameplay suites were not rerun for packaging. Existing 2026-09-29 game test versions/results below remain unchanged.
+
 ## 全 Seed 音频交付环境 — 2026-09-29（最新状态）
 
 工程仍使用 Unity **6000.5.10f1 (3bd4f66ad299)**、URP **17.5.0**、Input System **1.20.0**、Timeline **1.8.13**、Test Framework **1.7.0** 与 Pipeline **0.6.0-exp.1**；没有更换 Editor、管线或包。Blender 本批未运行，历史验证版本为 **5.2.1 LTS**。本批音频生成、后期与检查使用已有 Python **3.14.3**、NumPy **2.4.3** 和 SciPy **1.17.1**；这些开发工具不进入离线玩家。既有 FFmpeg **9.0.1** 属于历史批次环境记录，不将其列为新版素材产生的必经步骤。

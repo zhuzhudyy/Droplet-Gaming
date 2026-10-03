@@ -2,7 +2,7 @@
 
 ## 版本整理与远端交付 — 2026-10-03
 
-按当前保留策略整理，并提交此前未推送的 Seed / Cinematic / Enhanced 源码、资源及验证记录。已删除仓库中的旧 NarrativeCombat 发行 ZIP（56,067,483 bytes）；Git 历史仍可恢复。最新版 Seed 玩家归档为 176,407,481 bytes，197 个条目的 SHA-256 全部与本机现有已验证构建一致。发行包通过 GitHub Release `seed-audio-20260929` 分发，README 已指向最新版。详见 [整理报告](verification/VersionCleanup-20261003/REPORT.md)。
+按当前保留策略整理，并将此前未推送的 Seed / Cinematic / Enhanced 源码、资源及验证记录成功推送至 `origin/main`（源码/资源提交 `988ec9a`，交付记录随后单独提交）。已删除仓库中的旧 NarrativeCombat 发行 ZIP（56,067,483 bytes）；Git 历史仍可恢复。最新版 Seed 玩家归档为 176,407,481 bytes，197 个条目的 SHA-256 全部与本机现有已验证构建一致。[GitHub Release `seed-audio-20260929`](https://github.com/zhuzhudyy/Droplet-Gaming/releases/tag/seed-audio-20260929) 已发布，远端包大小及 SHA-256 与本机一致；README 已指向最新版。详见 [整理报告](verification/VersionCleanup-20261003/REPORT.md) 与其中 `remote-delivery.json`。
 
 **11 个旧构建目录仍未清理：** 已校验路径的递归删除再次被工具自动审核以 `blocked by policy` 拒绝，未执行、未释放其空间。本机当前 Seed 玩家、前版 CinematicAudio 完整回退、v0.2.2 ZIP、源材、历史场景与 GUID 均保留；无关根目录截图不纳入提交。本次仅做整理、归档与版本控制交付，没有重新编译/试玩，不改变下方 34 自动通过、3 人工待验的结论。
 

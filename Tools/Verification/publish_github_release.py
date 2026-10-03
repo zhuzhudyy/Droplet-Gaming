@@ -50,7 +50,7 @@ def main():
             headers['Content-Type'] = 'application/json'
         else:
             data = None
-        with opener.open(urllib.request.Request(url, data=data, headers=headers, method=method), timeout=180) as response:
+        with opener.open(urllib.request.Request(url, data=data, headers=headers, method=method), timeout=900) as response:
             return json.load(response)
 
     repository = request(api)

@@ -1,0 +1,23 @@
+{
+  "retainedFiles": [
+    {
+      "path": "Builds/Windows-SeedAudio-20260929/DropletGaming.exe",
+      "bytes": 667648,
+      "sha256": "6cd16edfbe85284eb69cd2efe1170aa1cffdf0dbdb309c3269e2f8454811adab"
+    },
+    {
+      "path": "Builds/Windows-CinematicAudio-20260919/DropletGaming.exe",
+      "bytes": 667648,
+      "sha256": "6cd16edfbe85284eb69cd2efe1170aa1cffdf0dbdb309c3269e2f8454811adab"
+    },
+    {
+      "path": "Builds/DropletPrototype-v0.2.2-Windows.zip",
+      "bytes": 45752309,
+      "sha256": "f4582dbdd0af97ab42c8d9729509108f7b83f2ec25cfa123808f9988007884dd"
+    }
+  ],
+  "earlyZipCrcValid": true,
+  "obsoleteBuildDirectoriesStillPresent": 11,
+  "oldTrackedReleaseZipAbsent": true,
+  "unrelatedScreenshotPreserved": true
+}
