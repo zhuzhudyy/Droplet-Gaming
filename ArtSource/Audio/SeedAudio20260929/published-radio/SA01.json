@@ -1,0 +1,144 @@
+{
+  "accepted": true,
+  "sha256": "00f791a3e31e53e413ecc1396a7e94ddb5592915137eb97779b84dfba661b96a",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/SA01/e3f2602839ef95f4/mix_recipe.json",
+  "sourceSha256": "4dfee31095da0b2adb92981e5e8d79be721749b94f9833fa82befa2287db9d8f",
+  "durationSeconds": 8.073458333333333,
+  "english": "Bridge hit! Seal the forward doors. Stay with me, keep reporting!",
+  "text": "舰桥受袭！封闭前舱门。别乱，继续报告！",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 4.771,
+      "english": "Bridge hit! Seal the forward doors. Stay with me, keep reporting!",
+      "text": "舰桥受袭！封闭前舱门。别乱，继续报告！",
+      "role": "commander"
+    },
+    {
+      "time": 5.121,
+      "duration": 2.202458,
+      "english": "Panel is burning! Cutting power!",
+      "text": "面板起火！切断电源！",
+      "role": "engineer"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SA01-dcdc2203338f4659/job.json",
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SA02-6bf823b2dd3fb0f2/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Hatch_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Penetration_03/job.json"
+  ],
+  "sourceHashes": [
+    "49037b7970974f740a1d547e73a7fbe259f0be34dad55e34a86a277fa9a572a8",
+    "43c12af29632fdf92e174d908de32f47cf8557e181aaa8f2f21e68b54dfebc9a",
+    "ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554",
+    "a5d7bac7f7886f3571c9b7658b08a55722f02e77cfbb0552bb6766c96df898b0",
+    "407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b",
+    "c5c67c07f655443a4275b4c9b23cc35017723b35d1710fe4b4ca71e48f3da48e",
+    "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+    "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+    "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+    "4de45f1466551091e7ff75086e8c5db487ae821fd39258c0f53dcfe887d89ce0",
+    "67435ceb2eaa3108108dd187015913881b5ca71c4adbf25454e67318c987f3b9",
+    "030d4e7b28fd428aa5666cedc8031a716980516951acebc418c0d78b91705965"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SA01-dcdc2203338f4659/job.json",
+      "sha256": "49037b7970974f740a1d547e73a7fbe259f0be34dad55e34a86a277fa9a572a8",
+      "usedSha256": "49037b7970974f740a1d547e73a7fbe259f0be34dad55e34a86a277fa9a572a8",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SA02-6bf823b2dd3fb0f2/job.json",
+      "sha256": "43c12af29632fdf92e174d908de32f47cf8557e181aaa8f2f21e68b54dfebc9a",
+      "usedSha256": "43c12af29632fdf92e174d908de32f47cf8557e181aaa8f2f21e68b54dfebc9a",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+      "sha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+      "usedSha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+      "sha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+      "usedSha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Hatch_03/job.json",
+      "sha256": "4de45f1466551091e7ff75086e8c5db487ae821fd39258c0f53dcfe887d89ce0",
+      "usedSha256": "0ce30f6a0e615c45d6de5ff0559e70ee785c21e7c069c0a70a519388a6118c89",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_02/job.json",
+      "sha256": "c5c67c07f655443a4275b4c9b23cc35017723b35d1710fe4b4ca71e48f3da48e",
+      "usedSha256": "41c2fda58b5858d2580fadb4bc7ff7e7bc9cc96f006f74581fdbf88eb4072205",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_01/job.json",
+      "sha256": "ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554",
+      "usedSha256": "109c4f5582b303787b3b926a90c78445ca0939438bf9c71500649a220da614af",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_02/job.json",
+      "sha256": "a5d7bac7f7886f3571c9b7658b08a55722f02e77cfbb0552bb6766c96df898b0",
+      "usedSha256": "ad23410b1af5117d5b5a889bbf3b8be48412fdeae512b583c298e27dc3c19d97",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_03/job.json",
+      "sha256": "407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b",
+      "usedSha256": "baedbd6cf4d4797a5c136de160d36bb46668a0f79084a30adcfa7717ad35969b",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_01/job.json",
+      "sha256": "ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554",
+      "usedSha256": "109c4f5582b303787b3b926a90c78445ca0939438bf9c71500649a220da614af",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Penetration_03/job.json",
+      "sha256": "030d4e7b28fd428aa5666cedc8031a716980516951acebc418c0d78b91705965",
+      "usedSha256": "2a328de7054c970a188529dd8fbed92a9029a4290ce6fd788d8e912f90d1648d",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+      "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+      "usedSha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+      "sha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+      "usedSha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_01/job.json",
+      "sha256": "67435ceb2eaa3108108dd187015913881b5ca71c4adbf25454e67318c987f3b9",
+      "usedSha256": "9ef70ec0e3a2356acb5a81338ba1a55eba6f8f7c41f3ce8ed0e676a4205ab434",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

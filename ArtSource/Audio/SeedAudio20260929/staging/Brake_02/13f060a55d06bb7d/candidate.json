@@ -1,0 +1,42 @@
+{
+  "id": "Brake_02",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "Brake_02",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Brake_02/job.json",
+    "sourceSha256": "fef89043d9b5c18b2ab4152c7bc8b091f6b6468ef3ed48add09753a36c1862e9",
+    "targetSeconds": 2.0,
+    "loop": false,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Brake_02/job.json",
+  "sourceSha256": "fef89043d9b5c18b2ab4152c7bc8b091f6b6468ef3ed48add09753a36c1862e9",
+  "sha256": "3fa7b7536a1d22fd5b1ff1cf7d27ebed02f716f8cd19f13d7b12674d3e311a13",
+  "recipe": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 96000,
+    "rate": 48000,
+    "targetSeconds": 2.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 96000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 96000,
+    "linearGain": 1.0290428149165414,
+    "targetLevelDbFS": -8
+  },
+  "qa": {
+    "sha256": "3fa7b7536a1d22fd5b1ff1cf7d27ebed02f716f8cd19f13d7b12674d3e311a13",
+    "durationSeconds": 2.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.000782896515972,
+    "rmsDbFS": -25.993725818199614,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

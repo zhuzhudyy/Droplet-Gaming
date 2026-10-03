@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E025",
+    "text": "Hold the spacing. A withdrawal could look like preparation to fire, and the object has not attacked. But prepare escape routes now. I will not make the crews wait while we finish arguing."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Hold the spacing. A withdrawal could look like preparation to fire, and the object has not attacked. But prepare escape routes now. I will not make the crews wait while we finish arguing.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A decision with a visible cost; make the change of emphasis at but clear.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "ce6a5f21-8c2f-43df-832d-157317a1973a",
+  "sha256": "a9f3ef456bff75947cc2290fc890265530aece432b09eff0d5516e6c071d6b29",
+  "duration_seconds": 11.597958333333333,
+  "usage": {
+    "text_words": 187
+  }
+}

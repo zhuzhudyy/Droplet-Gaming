@@ -1,0 +1,25 @@
+﻿{
+  "success": true,
+  "command": "command editor_status",
+  "data": {
+    "command": "editor_status",
+    "parameters": {},
+    "result": {
+      "status": "ready",
+      "compiling": false,
+      "domainReloadInProgress": false,
+      "playMode": "stopped",
+      "lastHeartbeat": "2026-09-19T15:20:00.8672528Z",
+      "projectPath": "C:\\学习\\玩\\Unity\\Trysolar Drip",
+      "unityVersion": "6000.5.10f1"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\学习\\玩\\Unity\\Trysolar Drip"
+    },
+    "success": true
+  },
+  "errors": [],
+  "warnings": []
+}

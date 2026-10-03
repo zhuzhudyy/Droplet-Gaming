@@ -16,9 +16,15 @@ namespace DropletPrototype
         [Range(1, 16)] public int shotsPerStep = 4;
         [Range(3, 64)] public int rayQueriesPerStep = 12;
         [Range(1, 32)] public int visualBeamBudget = 12;
-        [Range(.025f, .3f)] public float beamSeconds = .1f;
-        [Min(.01f)] public float beamWidthMeters = 9;
-        [Min(.01f)] public float contactRadiusMeters = 8;
+        [Range(.025f, .3f)] public float beamSeconds = .18f;
+        [Min(.01f)] public float beamWidthMeters = 12;
+        [Min(.01f)] public float contactRadiusMeters = 14;
+        [Tooltip("Visual width only; ray geometry and damage are unchanged.")]
+        [Range(0, 4)] public float minimumBeamPixels = 1.8f;
+        [Min(.01f)] public float maximumBeamWidthMeters = 300;
+        [Range(0, 5)] public int contactParticleCount = 3;
+        [Range(.025f, .2f)] public float surfaceHighlightSeconds = .09f;
+        [Min(.01f)] public float surfaceHighlightRadiusMeters = 22;
         [Min(.001f)] public float reflectionOffsetMeters = .8f;
         [Min(1)] public float visualDistanceMeters = 240000;
         public bool reflectedLaserIsLethal = true;

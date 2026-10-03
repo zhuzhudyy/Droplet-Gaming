@@ -1,0 +1,3545 @@
+{
+  "schema": "droplet.seed-narrative-revision.v1",
+  "revision": "seed-all-audio-20260929-r1",
+  "title": "The Open Corridor",
+  "status": "authored_not_generated",
+  "voiceProvider": "Seed-TTS 2.0",
+  "take": "seed-all-audio-voices-en-20260929-r1",
+  "runtimeLanguage": "English dialogue / Simplified Chinese subtitles",
+  "targetOpeningSeconds": [
+    480,
+    600
+  ],
+  "missionSecondsUnchanged": 5400,
+  "fleetCountUnchanged": 2000,
+  "additionalShortVoices": [],
+  "lines": [
+    {
+      "id": "E001",
+      "english": "Every public screen is showing the same small light tonight. A silver point has crossed the outer watch line. We have enlarged the picture and waited. It is still coming toward us.",
+      "text": "今夜，所有公共屏幕都显示着同一个小光点。一个银色目标越过了外层警戒线。我们放大画面，然后等待。它仍在向我们飞来。",
+      "performanceNote": "Begin quietly, as if returning to a live conversation; leave a small pause after waited. Wonder is present but restrained.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E001",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Begin quietly, as if returning to a live conversation; leave a small pause after waited. Wonder is present but restrained."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E001",
+        "english": "Tonight, every public screen carries the same picture: a silver point, crossing the outer watch line without a sound.",
+        "text": "今夜，所有公共屏幕都显示着同一幅画面：一个银色光点，无声地越过外层警戒线。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E001-bc21d3a2cc9a17e4/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E001-bc21d3a2cc9a17e4/voice.wav",
+        "audioSha256": "ef435c8723931c170777999677c244cf3c43a10e8d4cca0512f09d4c3a781c9a",
+        "dryDurationSeconds": 8.207416666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 32,
+        "billableCharactersProxy": 180,
+        "afpAt0135PerCharacter": 24.3,
+        "drySecondsFromPriorRoleRate": 12.075,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E002",
+      "english": "The markets opened early for it. The ministries found a careful name for it. On the night side, children are watching the windows, trying to find a star that nobody can see.",
+      "text": "市场为它提前开盘，各部为它选好了谨慎的称谓。在夜半球，孩子们望着窗外，寻找那颗其实谁也看不见的星星。",
+      "performanceNote": "Concrete and intimate, with a faint trace of sadness rather than a grand announcement.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E002",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Concrete and intimate, with a faint trace of sadness rather than a grand announcement."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E002",
+        "english": "The markets have named it an opportunity. The ministries call it an incident. Children watching from the night side call it a star.",
+        "text": "市场把它称作机遇，各部称它为事件；在夜半球观看的孩子们，把它叫作星星。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E002-45744e995acbc249/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E002-45744e995acbc249/voice.wav",
+        "audioSha256": "be75bdbffbce929459bc8d96e31c9a08ada1da634545f70f887577e69f61b650",
+        "dryDurationSeconds": 9.830416666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 32,
+        "billableCharactersProxy": 173,
+        "afpAt0135PerCharacter": 23.355,
+        "drySecondsFromPriorRoleRate": 12.075,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E003",
+      "english": "We have put cities between the planets and sent our voices farther than their builders could travel. Now something has come the other way, and our first question is what it might give us.",
+      "text": "我们在行星之间建起城市，把声音送到连建造者也无法抵达的远方。如今，有什么从相反的方向到来，我们首先想到的，却是它能带给我们什么。",
+      "performanceNote": "Let the final observation land gently; do not sound judgmental or theatrical.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E003",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Let the final observation land gently; do not sound judgmental or theatrical."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E003",
+        "english": "We have learned to build cities between planets, and still we ask a stranger the oldest question: what can you give us?",
+        "text": "我们已学会在行星之间建造城市，却仍向陌生者提出最古老的问题：你能给我们什么？",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E003-bd29140452af62a2/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E003-bd29140452af62a2/voice.wav",
+        "audioSha256": "5365ad8a9e0ba551dfeb0e3dabd5f1107f2f082268765d55421ffa1c2ef94a7a",
+        "dryDurationSeconds": 8.389416666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 187,
+        "afpAt0135PerCharacter": 25.245,
+        "drySecondsFromPriorRoleRate": 12.83,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E004",
+      "english": "Civil network, contact control here. Your picture is delayed. Keep that notice on the screen, please. We have repeated the greeting, but there is no reply. Do not call this an arrival ceremony yet.",
+      "text": "民用频道，这里是接触管制。你们的画面存在延迟，请保留屏幕提示。我们已重复发送问候，但仍无回应。现在还不能把它称作欢迎仪式。",
+      "performanceNote": "A working officer correcting a colleague politely, not reading a prepared warning.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E004",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A working officer correcting a colleague politely, not reading a prepared warning."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E004",
+        "english": "Civil network, this is contact control. Your picture is delayed. Please remind your audience that the object has not acknowledged us.",
+        "text": "民用频道，这里是接触管制。你们的画面存在延迟。请提醒观众：目标尚未回应我们。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E004-3418cbdef3ffcd7c/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E004-3418cbdef3ffcd7c/voice.wav",
+        "audioSha256": "8c40361c2d0b933c57921ed802c9abcd737e07b70b98af944371db7eb99d0e26",
+        "dryDurationSeconds": 8.364166666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 197,
+        "afpAt0135PerCharacter": 26.595,
+        "drySecondsFromPriorRoleRate": 14.465,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E005",
+      "english": "We will keep the notice there. People are filling the silence themselves: a promise, a warning, proof that someone else was wrong. None of those interpretations has answered our transmitter.",
+      "text": "我们会保留提示。人们正自行填补这片沉默：承诺、警告，或是别人判断错误的证据。但这些解释，没有一种回应过我们的发射机。",
+      "performanceNote": "Acknowledge the officer first, then turn back toward the audience with quiet skepticism.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E005",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Acknowledge the officer first, then turn back toward the audience with quiet skepticism."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E005",
+        "english": "That silence has become whatever people need it to be. A promise, a threat, a proof that their rivals were wrong.",
+        "text": "人们把那片沉默解释成自己需要的模样：承诺、威胁，或是对手犯错的证明。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E005-8f01501720a05a44/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E005-8f01501720a05a44/voice.wav",
+        "audioSha256": "25aea91947ec10732aa39e31e5141420415faf53143b1261277fa1ae1501792d",
+        "dryDurationSeconds": 7.001541666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 30,
+        "billableCharactersProxy": 190,
+        "afpAt0135PerCharacter": 25.65,
+        "drySecondsFromPriorRoleRate": 11.32,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E006",
+      "english": "For the record, silence is all we have measured. No exhaust spectrum, no readable markings, no view beneath the surface. I know the shape invites comparisons. Please keep them out of the instrument log.",
+      "text": "记录在案：我们测到的只有沉默。没有尾气光谱，没有可辨识标记，也无法看到表面之下。我知道它的外形容易引起联想，但请不要把联想写进仪器记录。",
+      "performanceNote": "Patient technical precision; an understated personal edge on the final sentence.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E006",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Patient technical precision; an understated personal edge on the final sentence."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E006",
+        "english": "For the record, silence is only silence. We have no exhaust spectrum, no readable markings, and no measurement of its interior.",
+        "text": "记录在案：沉默只是沉默。我们没有尾气光谱、可辨识标记，也没有内部结构测量。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E006-97558454dbc1e524/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E006-97558454dbc1e524/voice.wav",
+        "audioSha256": "a34ce09fccc26b707299ed0d05a05783bc23bc355327dc86e6c5893f7a7f9d77",
+        "dryDurationSeconds": 8.790583333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 202,
+        "afpAt0135PerCharacter": 27.27,
+        "drySecondsFromPriorRoleRate": 13.274,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E007",
+      "english": "The assembly has approved a reception. There are names on the guest list and empty places at a table. Nobody has accepted the invitation. We do not even know whether there is anyone aboard.",
+      "text": "议会已批准接待安排。宾客名单已经拟好，席位却仍然空着。还没有谁接受邀请，我们甚至不知道，那里面是否有人。",
+      "performanceNote": "Measured and humane; pause briefly before the uncertainty in the last sentence.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E007",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Measured and humane; pause briefly before the uncertainty in the last sentence."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E007",
+        "english": "The assembly has voted to receive a delegation. There is, as yet, no evidence that a delegation is coming.",
+        "text": "议会已表决同意接待代表团。但截至目前，没有任何证据表明代表团正在到来。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E007-0e3fcb5a6c125183/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E007-0e3fcb5a6c125183/voice.wav",
+        "audioSha256": "0632407b327d038e367369d91284fa713cbd1390e20fe2223ba1ca54202bb65d",
+        "dryDurationSeconds": 7.575833333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 189,
+        "afpAt0135PerCharacter": 25.515,
+        "drySecondsFromPriorRoleRate": 12.83,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E008",
+      "english": "My crews hear this broadcast too. They did not choose the headlines or the argument. They have a corridor to hold. Let us give them clear instructions while we still can.",
+      "text": "我的船员也在收听广播。他们没有选择那些标题或争论。他们必须守住一条通道。趁现在还来得及，给他们明确的指令。",
+      "performanceNote": "Protective authority without anger; stress clear instructions, not military rank.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E008",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Protective authority without anger; stress clear instructions, not military rank."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E008",
+        "english": "Our crews did not choose the headlines. They trained to keep a corridor open, and that is what they will do.",
+        "text": "我们的船员并不决定新闻标题。他们接受训练，为的是守住一条通道。他们会履行职责。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E008-813d0f8dd669ee25/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E008-813d0f8dd669ee25/voice.wav",
+        "audioSha256": "191c09621022f5d6f5205959401c1716a2213e4f6ac92c1e08e603c0e55c55ff",
+        "dryDurationSeconds": 6.617583333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 31,
+        "billableCharactersProxy": 170,
+        "afpAt0135PerCharacter": 22.95,
+        "drySecondsFromPriorRoleRate": 10.913,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E009",
+      "english": "Two thousand ships hold that corridor. Behind every engine is a watch changing over, an unfinished meal, somebody counting the hours until the journey home. Keep them in mind when you hear that number.",
+      "text": "两千艘舰船正守着那条通道。每台引擎后面，都有正在换班的人、没吃完的一顿饭，以及数着回家时间的人。听见那个数字时，请记住他们。",
+      "performanceNote": "Close, grounded delivery; the human details should sound observed, not like a speech.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E009",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Close, grounded delivery; the human details should sound observed, not like a speech."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E009",
+        "english": "Two thousand hulls are holding that corridor. Behind each bright engine is a person who expected to come home after this shift.",
+        "text": "两千艘舰船正守着那条通道。每台明亮引擎后，都有一个原本打算下班回家的人。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E009-3f1f8938de406ade/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E009-3f1f8938de406ade/voice.wav",
+        "audioSha256": "68c79d4e0f5799120fdf68a2ea70db3ed3366a4a310bc91066b738056dc12b48",
+        "dryDurationSeconds": 7.000166666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 201,
+        "afpAt0135PerCharacter": 27.135,
+        "drySecondsFromPriorRoleRate": 12.83,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E010",
+      "english": "Public relay, stand by. I am bringing you onto the fleet approach channel. The emergency band stays clear during the broadcast. Contact is still inbound. All stations, use your own call signs and report briefly.",
+      "text": "公共转播请稍候，正在接入舰队接近频道。广播期间，紧急频段仍须保持畅通。目标继续向内飞行。所有岗位，使用各自呼号，简短报告。",
+      "performanceNote": "A clean transition into operational rhythm; concise on the last two commands.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "originalId": "E010",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A clean transition into operational rhythm; concise on the last two commands."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E010",
+        "english": "Transferring the public relay to the fleet approach channel. We are keeping the emergency band clear. Contact continues inbound.",
+        "text": "公共转播转接舰队接近频道。紧急频段保持畅通。接触目标仍在向内飞行。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E010-fef779096e8d8f68/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E010-fef779096e8d8f68/voice.wav",
+        "audioSha256": "7872bdc75779b4d97158c99f35cdb20bdc72ef66ecce870c20b96de2ba4f1a92",
+        "dryDurationSeconds": 8.790833333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 35,
+        "billableCharactersProxy": 211,
+        "afpAt0135PerCharacter": 28.485,
+        "drySecondsFromPriorRoleRate": 14.89,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E011",
+      "english": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin. We are receiving on this frequency. You still have time to answer.",
+      "text": "不明飞行器，这里是边界舰队。你正在进入受控航道。请减速，并报告出发地点。我们正在本频率接收，现在仍有时间回应。",
+      "performanceNote": "Formal protocol addressed to a real listener; leave space after the identification request.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E011",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Formal protocol addressed to a real listener; leave space after the identification request."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E011",
+        "english": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin.",
+        "text": "不明飞行器，这里是边界舰队。你正在进入受控航道。请减速并报告出发地点。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E011-9f79596c4338f87d/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E011-9f79596c4338f87d/voice.wav",
+        "audioSha256": "c805ab80c5bcbfb9aacb0121fe779cf5424bf8dfd45704d56e9c0b099a73bef7",
+        "dryDurationSeconds": 9.581666666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 206,
+        "afpAt0135PerCharacter": 27.81,
+        "drySecondsFromPriorRoleRate": 14.465,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E012",
+      "english": "Hold formation. Leave the approach corridor open. Give that object a way through without a collision. No captain is to turn a bright reflection into a reason to fire.",
+      "text": "保持阵型，接近走廊保持畅通。让那个目标能够通过，而不发生碰撞。任何舰长，都不得把明亮反光当作开火理由。",
+      "performanceNote": "Firm, almost reassuring; the final instruction is precise rather than threatening.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E012",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Firm, almost reassuring; the final instruction is precise rather than threatening."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E012",
+        "english": "Hold formation. Keep the approach corridor open. No captain is to mistake a bright reflection for a weapon discharge.",
+        "text": "保持阵型，留出接近走廊。任何舰长都不得把明亮反光误判为武器发射。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E012-f1fe47f490758a2e/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E012-f1fe47f490758a2e/voice.wav",
+        "audioSha256": "5c127fdca0727bb8fa895c0d8f9f89d9fa66ea915759e311ef8f1caf5c69d7f6",
+        "dryDurationSeconds": 7.801458333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 29,
+        "billableCharactersProxy": 166,
+        "afpAt0135PerCharacter": 22.41,
+        "drySecondsFromPriorRoleRate": 10.209,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E013",
+      "english": "We can transmit navigation references and a safe holding position. You need not match our language. A reply on this carrier, a change of course, any clear acknowledgement will do. The channel will stay open.",
+      "text": "我们可以发送导航参照和安全停泊位置。你不必使用我们的语言。在本载波回应、改变航向，任何明确确认都可以。频道会保持畅通。",
+      "performanceNote": "Soften the protocol into a practical invitation; no excessive sentiment.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E013",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Soften the protocol into a practical invitation; no excessive sentiment."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E013",
+        "english": "We can provide navigation references and a protected holding position. Acknowledge on this carrier, or change your course to confirm reception.",
+        "text": "我们可以提供导航参照与安全停泊点。请在本载波回应，或改变航向以确认收到信息。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E013-50e65db9dc3d52fe/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E013-50e65db9dc3d52fe/voice.wav",
+        "audioSha256": "6081fc01fca032e48327b1512f057d2dea6cb19b8d6c85c77b11fbf85159d8cb",
+        "dryDurationSeconds": 8.770416666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 35,
+        "billableCharactersProxy": 207,
+        "afpAt0135PerCharacter": 27.945,
+        "drySecondsFromPriorRoleRate": 14.89,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E014",
+      "english": "The track is clean. Too clean for our first explanation. Ranging pulses should find seams or exposed machinery, something that scatters the return. I have checked the calibration twice. The instruments agree.",
+      "text": "轨迹很干净，干净得让最初的解释站不住脚。测距脉冲本应找到接缝或外露机械，找到某种散射回波。我已复核两次校准，各台仪器结果一致。",
+      "performanceNote": "Professional curiosity beginning to tighten; give calibration a natural technical cadence.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E014",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Professional curiosity beginning to tighten; give calibration a natural technical cadence."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E014",
+        "english": "Its track is exceptionally clean. Our ranging pulses return without the scattering we expect from seams, antennae, or exposed machinery.",
+        "text": "它的轨迹异常干净。测距脉冲的回波中，没有接缝、天线或外露机械通常产生的散射。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E014-1125292e73576487/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E014-1125292e73576487/voice.wav",
+        "audioSha256": "81d43ea59862e340bb2b201e38b94f8e328365654f11bfb155ee2add99d17fdf",
+        "dryDurationSeconds": 8.626791666666668,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 32,
+        "billableCharactersProxy": 208,
+        "afpAt0135PerCharacter": 28.08,
+        "drySecondsFromPriorRoleRate": 12.493,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E015",
+      "english": "Still no answer. Contact protocol, mathematical sequence, navigation lights. I repeated all three. The transmitter works; our ships can read it. I cannot solve this by turning up the volume.",
+      "text": "仍无回应。接触协议、数学序列、导航灯，我都重复发送过。发射机正常，己方舰船也能接收。这不是调高音量能解决的。",
+      "performanceNote": "A little fatigue under disciplined reporting; the last phrase should sound spoken to nearby colleagues.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E015",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A little fatigue under disciplined reporting; the last phrase should sound spoken to nearby colleagues."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E015",
+        "english": "Still no reply. I have repeated the invitation in the contact protocol, mathematics, and a plain sequence of navigation lights.",
+        "text": "仍无回应。我已用接触协议、数学编码和简单导航灯序列发送邀请。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E015-46a137775017a8a1/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E015-46a137775017a8a1/voice.wav",
+        "audioSha256": "4cbbadab1625d429606d7c204d2d54e1ccd2716f3197b8ddc5bc0a353cc701d8",
+        "dryDurationSeconds": 7.994541666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 30,
+        "billableCharactersProxy": 190,
+        "afpAt0135PerCharacter": 25.65,
+        "drySecondsFromPriorRoleRate": 12.763,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E016",
+      "english": "Send the terms plainly. Stop outside the inner line and accept remote inspection. No boarding party will approach. If there are weapons, leave them inactive. Give them understandable conditions, not a threat.",
+      "text": "把条件说清楚：停在内侧警戒线外，接受远程检查，不会有登舰队靠近。如果存在武器，请保持关闭。给对方能够理解的条件，而不是威胁。",
+      "performanceNote": "A commander choosing words in real time; emphasize plainly and no boarding party.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E016",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A commander choosing words in real time; emphasize plainly and no boarding party."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E016",
+        "english": "Then transmit the terms. Stop outside the inner line, power down any weapon system, and accept remote inspection. No boarding party will approach.",
+        "text": "那就发送条件：停在内侧警戒线外，关闭武器系统，接受远程检查。不会有登舰队靠近。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E016-7d87081d2bc5a0ed/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E016-7d87081d2bc5a0ed/voice.wav",
+        "audioSha256": "cf3718e20750a9bef7539442d0d965bfc2743f406bf91edde238cfcf284b901e",
+        "dryDurationSeconds": 9.0075,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 32,
+        "billableCharactersProxy": 208,
+        "afpAt0135PerCharacter": 28.08,
+        "drySecondsFromPriorRoleRate": 11.265,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E017",
+      "english": "The word surrender has reached the public feeds. That is not what we heard here. We heard an offer, and a set of instructions. The visitor has agreed to neither.",
+      "text": "“投降”一词已出现在公共信息流中，但这里没有听到投降。我们听到的是一份提议和一组指令。来客对两者，都未表示同意。",
+      "performanceNote": "Careful correction with journalistic clarity; avoid a declarative newsreader melody.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E017",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Careful correction with journalistic clarity; avoid a declarative newsreader melody."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E017",
+        "english": "The word surrender is already spreading through the public feeds. Fleet command has issued instructions; the visitor has made no agreement.",
+        "text": "“投降”一词已在公共信息流中传播。舰队司令部发出了指令，来客却没有作出任何承诺。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E017-db0115d18e415150/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E017-db0115d18e415150/voice.wav",
+        "audioSha256": "4d6e2ea2c4a7505a90167da581901a39df2e383f504066a2bca2a30290a86ced",
+        "dryDurationSeconds": 8.765,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 30,
+        "billableCharactersProxy": 161,
+        "afpAt0135PerCharacter": 21.735,
+        "drySecondsFromPriorRoleRate": 11.32,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E018",
+      "english": "Commander, I cannot find a cockpit or a power system it could switch off. We are describing the controls on our own ships. Those may be reasonable terms, but they are still our terms.",
+      "text": "指挥官，我找不到驾驶舱，也无法确认它有可以关闭的动力系统。我们描述的是自己舰船上的控制方式。这些条件或许合理，但终究是我们的条件。",
+      "performanceNote": "Respectful disagreement, quiet enough to require attention; do not perform defiance.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E018",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Respectful disagreement, quiet enough to require attention; do not perform defiance."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E018",
+        "english": "Commander, our instruments cannot establish that it has a power system to shut down. We are describing our ships, not necessarily theirs.",
+        "text": "指挥官，仪器甚至无法确认它是否有可关闭的动力系统。我们描述的是自己的舰船，未必是它。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E018-95b67b59c104f8a1/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E018-95b67b59c104f8a1/voice.wav",
+        "audioSha256": "f7ac03dd7be8272f0320e449f8b0d48ebdbf41ed1ba0965b8800f79ba2fabad9",
+        "dryDurationSeconds": 8.605,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 183,
+        "afpAt0135PerCharacter": 24.705,
+        "drySecondsFromPriorRoleRate": 13.274,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E019",
+      "english": "Understood. Keep that distinction in the record. We still need to make the offer. If anyone can receive it, they should know we left a safe way to stop. Repeat it slowly.",
+      "text": "明白，把这个区别写入记录。但提议仍要发出。如果有人能够接收，就应该知道，我们留下了安全停下的办法。慢慢再发一次。",
+      "performanceNote": "Accept the correction sincerely, then give a calm practical order.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E019",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Accept the correction sincerely, then give a calm practical order."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E019",
+        "english": "Understood. Keep recording. If it can receive any part of our message, it will know there is a safe way to stop.",
+        "text": "明白，继续记录。只要它能接收部分信息，就会知道这里提供了安全停下的方式。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E019-572599c8b354043d/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E019-572599c8b354043d/voice.wav",
+        "audioSha256": "964e6ce9ff0770f239e7191b194414ba1cbb20ebf1ceed3b916be6ffab369930",
+        "dryDurationSeconds": 6.367541666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 32,
+        "billableCharactersProxy": 170,
+        "afpAt0135PerCharacter": 22.95,
+        "drySecondsFromPriorRoleRate": 11.265,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E020",
+      "english": "The point is resolving. Rounded nose, tapering tail. No jets, no change in speed. It looks almost still in the center of my display. The distance readout tells a different story.",
+      "text": "光点开始显出轮廓：圆头，逐渐收窄的尾部。没有喷口，速度也未改变。在画面中央，它看上去几乎静止。但距离读数讲的是另一回事。",
+      "performanceNote": "Visual concentration with growing concern; a short pause before the distance readout.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "originalId": "E020",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Visual concentration with growing concern; a short pause before the distance readout."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E020",
+        "english": "The point is becoming a shape now. Rounded nose, narrow tail. No visible attitude jets. Approach speed has not changed.",
+        "text": "那个光点开始显出轮廓：圆头、细尾，没有可见姿态喷口。接近速度没有改变。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E020-2dbfd7752f7d635d/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E020-2dbfd7752f7d635d/voice.wav",
+        "audioSha256": "9d0d0343ead316144ca555443168f3accfed8264267238aa5b22147565228326",
+        "dryDurationSeconds": 8.780125,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 31,
+        "billableCharactersProxy": 178,
+        "afpAt0135PerCharacter": 24.03,
+        "drySecondsFromPriorRoleRate": 13.188,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E021",
+      "english": "Weapons crews, listen before making a damage estimate. A polished surface tells us about reflected light. A small silhouette tells us about apparent size. Neither tells us whether we can stop it. Trust the data.",
+      "text": "各炮组，作出损伤判断前请听清楚。光滑表面说明反光方式，小小的轮廓说明视尺寸。它们都不能证明我们能否阻止它。相信数据。",
+      "performanceNote": "Controlled urgency, speaking across a busy room; stress neither and data.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E021",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Controlled urgency, speaking across a busy room; stress neither and data."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E021",
+        "english": "I need the weapons crews to hear this. A polished surface is not a damage assessment, and a small silhouette is not a measure of strength.",
+        "text": "我需要武器操作员听清楚：光滑表面不是损伤评估，小小的轮廓也不代表强度低。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E021-304d48c756f9314c/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E021-304d48c756f9314c/voice.wav",
+        "audioSha256": "7b930e342cf603d4c703374e880a147fc1badde102654c03d656a1135686276c",
+        "dryDurationSeconds": 7.817458333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 35,
+        "billableCharactersProxy": 211,
+        "afpAt0135PerCharacter": 28.485,
+        "drySecondsFromPriorRoleRate": 13.664,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E022",
+      "english": "Our firing lanes cross the corridor without closing it. No single approach should expose every hull. That is our working assumption. I hear your warning, but I need a reason to move two thousand ships.",
+      "text": "射界交叉覆盖走廊，却没有封死通道。单次接近不应暴露所有舰体，这是当前假设。我听到了警告，但调动两千艘舰船之前，需要一个理由。",
+      "performanceNote": "Reasoned command under pressure, not arrogance; acknowledge the warning genuinely.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E022",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Reasoned command under pressure, not arrogance; acknowledge the warning genuinely."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E022",
+        "english": "We have crossed weapons to cover the corridor without closing it. The object cannot threaten every hull at once. That is our working assumption.",
+        "text": "我们以交叉火力覆盖走廊，但没有封死通道。目标无法同时威胁所有舰体，这是当前判断。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E022-99e99a862d18f53b/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E022-99e99a862d18f53b/voice.wav",
+        "audioSha256": "2e94fe29e1991b4729786d2a8fa69116076cd3c14b1962936e857d210e1bfecf",
+        "dryDurationSeconds": 8.199458333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 35,
+        "billableCharactersProxy": 201,
+        "afpAt0135PerCharacter": 27.135,
+        "drySecondsFromPriorRoleRate": 12.321,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E023",
+      "english": "The surface has barely warmed under our ranging pulses. We cannot account for the energy or predict damage. I am not asking you to fear a measurement. I am asking you to leave room for error.",
+      "text": "测距脉冲照射后，表面几乎没有升温。我们无法解释能量去向，也无法预测损伤。我不是请你害怕测量结果，而是请你为判断错误留出余地。",
+      "performanceNote": "Faster on the technical finding, then slower and personal on the final request.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E023",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Faster on the technical finding, then slower and personal on the final request."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E023",
+        "english": "Then mark that sentence as an assumption. Its surface temperature has barely changed under our ranging pulses. We do not know where the energy goes.",
+        "text": "那就请把它明确标为假设。测距脉冲照射后，它的表面温度几乎未变。我们不知道能量去了哪里。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E023-f0c8aa6795ac9e50/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E023-f0c8aa6795ac9e50/voice.wav",
+        "audioSha256": "7444fdd2869d00862fea0cc89552a119b959d352df018b81fefd73b2c4884190",
+        "dryDurationSeconds": 9.853958333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 36,
+        "billableCharactersProxy": 191,
+        "afpAt0135PerCharacter": 25.785,
+        "drySecondsFromPriorRoleRate": 14.055,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E024",
+      "english": "Two requests are waiting. Science wants wider separation. Fire control wants the present geometry. Both are on your display. Commander, which instruction goes first? The captains are listening with us.",
+      "text": "两项请求待确认：科学频道要求增大间距，火控要求保持当前布阵。两项都在你的屏幕上。指挥官，先转达哪一项？各舰长也在听。",
+      "performanceNote": "Taut but neutral; the officer needs an answer, not a debate of their own.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E024",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Taut but neutral; the officer needs an answer, not a debate of their own."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E024",
+        "english": "Science channel is requesting wider separation between ships. Command channel is requesting a tighter firing solution. Both orders are waiting for confirmation.",
+        "text": "科学频道请求增大舰间距；指挥频道要求缩紧射击解算。两条指令都在等待确认。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E024-859f52216c09fa9e/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E024-859f52216c09fa9e/voice.wav",
+        "audioSha256": "d44e8f81549e45c9888ca698e11721190a8179f7db3cd2110bb17af60543476d",
+        "dryDurationSeconds": 9.819708333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 30,
+        "billableCharactersProxy": 201,
+        "afpAt0135PerCharacter": 27.135,
+        "drySecondsFromPriorRoleRate": 12.763,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E025",
+      "english": "Hold the spacing. A withdrawal could look like preparation to fire, and the object has not attacked. But prepare escape routes now. I will not make the crews wait while we finish arguing.",
+      "text": "保持间距。后撤可能被理解为开火准备，而目标尚未攻击。但现在就准备撤离路线，我不会让船员等我们争论完。",
+      "performanceNote": "A decision with a visible cost; make the change of emphasis at but clear.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E025",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A decision with a visible cost; make the change of emphasis at but clear."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E025",
+        "english": "Maintain spacing for now. A sudden withdrawal could look like preparation to fire. I will not start a war by moving a symbol on a display.",
+        "text": "暂时保持间距。突然后撤可能被理解为开火准备。我不能因为屏幕上的一个符号而发动战争。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E025-540e30e62a897206/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E025-540e30e62a897206/voice.wav",
+        "audioSha256": "0800d6e63082c766a3fbe9c4cad3a7fa32f8e2370d9b3078e894cdda8b8072af",
+        "dryDurationSeconds": 7.97925,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 33,
+        "billableCharactersProxy": 187,
+        "afpAt0135PerCharacter": 25.245,
+        "drySecondsFromPriorRoleRate": 11.617,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E026",
+      "english": "Thank you. Give the outer ranks independent vectors, clear of neighboring hulls. Each captain needs somewhere to go without waiting for the formation. A route is useful only if somebody has time to take it.",
+      "text": "谢谢。为外层各列分配独立方向，避开邻舰。每位舰长都需要一条不必等待全阵行动的去路。路线只有让人来得及使用，才有意义。",
+      "performanceNote": "The brief thanks is sincere; keep the following instructions practical and unadorned.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E026",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. The brief thanks is sincere; keep the following instructions practical and unadorned."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E026",
+        "english": "And I will not call a formation safe because its symbols are tidy. Give the outer ranks independent escape vectors before anything happens.",
+        "text": "我也不会因为符号排列整齐，就说阵型安全。请在事发前，给外层各列分配独立撤离方向。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E026-76c3585a8df0cc90/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E026-76c3585a8df0cc90/voice.wav",
+        "audioSha256": "72f2cf051c0cc857e28110af341e35e2e5bd41ae4878797704786b69d15fe1ee",
+        "dryDurationSeconds": 8.392583333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 35,
+        "billableCharactersProxy": 206,
+        "afpAt0135PerCharacter": 27.81,
+        "drySecondsFromPriorRoleRate": 13.664,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E027",
+      "english": "Approved. Routes loaded, engines ready, positions held until threatened. If your neighbor is struck, clear the lane before reporting. Damaged ships get priority on rescue traffic. Nobody needs permission to call for help.",
+      "text": "批准。载入路线，引擎就绪，受威胁前保持位置。邻舰受袭，先让出航道，再报告。救援通信优先保障受损舰，呼救不需要等待许可。",
+      "performanceNote": "A sequence of clear operational commitments, firm and protective rather than heroic.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E027",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A sequence of clear operational commitments, firm and protective rather than heroic."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E027",
+        "english": "Approved. Load evacuation routes, but hold your position until threatened. Damaged ships get priority on rescue traffic. Keep those routes out of the firing lanes.",
+        "text": "批准。载入撤离路线，受威胁前保持位置。受损舰优先使用救援频道，撤离路线避开射界。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E027-e6f2e1ef761a48ff/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E027-e6f2e1ef761a48ff/voice.wav",
+        "audioSha256": "b1266a50cc30964e2d7c983aa985eecce5bb2538fa63b7cb4693b24cc833b4ed",
+        "dryDurationSeconds": 10.3885,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 33,
+        "billableCharactersProxy": 221,
+        "afpAt0135PerCharacter": 29.835,
+        "drySecondsFromPriorRoleRate": 11.617,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E028",
+      "english": "Routes distributed. Captains confirm local control. Every hull has a separate identity; the emergency network will keep those identities if formation breaks. Checking the return list now. We still have everyone.",
+      "text": "路线已分发，各舰长确认本地控制。每艘舰都有独立身份，即使阵型解体，紧急网络也会保留这些身份。正在核对回报列表，目前所有人都在。",
+      "performanceNote": "Efficient checklist delivery softening slightly on everyone; no premature grief.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E028",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Efficient checklist delivery softening slightly on everyone; no premature grief."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E028",
+        "english": "Routes distributed. Captains confirm local control and independent engines. The emergency channel will identify each hull, even if the formation breaks apart.",
+        "text": "路线已分发。各舰长确认本地控制与独立引擎可用。即使阵型解体，紧急频道仍将识别每艘舰。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E028-5c191957736e29e2/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E028-5c191957736e29e2/voice.wav",
+        "audioSha256": "2fef41d0a01fc58315544a4146be87eaf8568ab0610d4880cfae5fb220c41009",
+        "dryDurationSeconds": 10.577791666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 31,
+        "billableCharactersProxy": 211,
+        "afpAt0135PerCharacter": 28.485,
+        "drySecondsFromPriorRoleRate": 13.188,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E029",
+      "english": "For everyone listening at home, those voices are disagreeing because the answer matters. The picture is sharp. The explanation is not. We will carry the discussion as it happens, without replacing their uncertainty with a more comfortable story.",
+      "text": "致家中的听众：他们之所以争论，是因为答案很重要。画面清楚，解释却不清楚。我们会如实转播这场讨论，不会用一个更令人安心的故事代替他们的不确定。",
+      "performanceNote": "Quiet steadiness; the broadcaster is keeping a promise to the audience.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E029",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Quiet steadiness; the broadcaster is keeping a promise to the audience."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E029",
+        "english": "For those listening at home, disagreement is not panic. It is what careful people do when the picture is clearer than the explanation.",
+        "text": "致家中的听众：分歧并不等于恐慌。画面清晰而解释不足时，谨慎的人就应当讨论。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E029-ef8f250bd89dbfa1/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E029-ef8f250bd89dbfa1/voice.wav",
+        "audioSha256": "9fb531b9d1fecdfd812db35885c844f588784125375cacc3488deb593d0ed9f6",
+        "dryDurationSeconds": 8.210958333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 38,
+        "billableCharactersProxy": 245,
+        "afpAt0135PerCharacter": 33.075,
+        "drySecondsFromPriorRoleRate": 14.339,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E030",
+      "english": "One more thing for the weapons crews. If a beam returns from that surface, do not expect it to retrace the shot. Follow the actual reflection. Clear the line it takes, and check the friendly hulls beyond it before firing again.",
+      "text": "炮组还有一条需要注意：光束若从表面折返，不要指望它沿原路返回。跟踪实际反射路径，避开那条路线，再次开火前确认其后方的己方舰体。",
+      "performanceNote": "Teach a crucial observation under time pressure; stress actual reflection without shouting.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "originalId": "E030",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Teach a crucial observation under time pressure; stress actual reflection without shouting."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E030",
+        "english": "One last recommendation: if you see a beam return, clear its path immediately. Do not assume the return will follow the line back to its source.",
+        "text": "最后一条建议：一旦看到光束折返，立即避开其路径。不要假定反射光会沿原路回到发射源。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E030-a8df4d0eca7651c8/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E030-a8df4d0eca7651c8/voice.wav",
+        "audioSha256": "8dc21f0ec109c8d0b9cb8ef3948ecc648fa3b9f12fef85e2268225b4f4eb94e1",
+        "dryDurationSeconds": 9.212083333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 41,
+        "billableCharactersProxy": 227,
+        "afpAt0135PerCharacter": 30.645,
+        "drySecondsFromPriorRoleRate": 16.007,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E031",
+      "english": "Unidentified craft, final warning. You are approaching the inner line. Alter course now. The corridor remains open, and we are receiving. Any acknowledgement will be relayed immediately. Please do not leave us guessing.",
+      "text": "不明飞行器，这是最后警告。你即将接近内侧警戒线，请改变航向。走廊仍然开放，我们仍在接收。任何确认都会立即转达。请不要让我们继续猜测。",
+      "performanceNote": "Protocol begins firm, then the human request escapes through the last phrase; keep control.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E031",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Protocol begins firm, then the human request escapes through the last phrase; keep control."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E031",
+        "english": "Unidentified craft, this is your final warning. You are approaching the inner safety line. Alter course now. We are leaving the corridor ahead of you open.",
+        "text": "不明飞行器，这是最后警告。你即将接近内侧安全线。立即改变航向；你前方的通道仍然开放。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E031-b19f21e9f64fc445/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E031-b19f21e9f64fc445/voice.wav",
+        "audioSha256": "4dfe5e52a66d778eac55c0c77a1e17192f2327ff606834f91ca64db5640fb114",
+        "dryDurationSeconds": 9.412333333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 33,
+        "billableCharactersProxy": 219,
+        "afpAt0135PerCharacter": 29.565,
+        "drySecondsFromPriorRoleRate": 14.039,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E032",
+      "english": "All batteries, track only. Before enabling a beam, identify the hull behind your target. Read its call sign if you have to. That mark in the background is another crew, and they are trusting you to see them.",
+      "text": "所有炮组，仅跟踪。启动光束前，确认目标后方的舰体；有必要就读出它的呼号。背景里的那个标记，是另一群船员。他们相信你会看见他们。",
+      "performanceNote": "Direct address to operators, with a low, emphatic final sentence.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E032",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Direct address to operators, with a low, emphatic final sentence."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E032",
+        "english": "All batteries, track only. Confirm the hull behind your target before enabling a beam. The background on your screen is another crew.",
+        "text": "所有炮组，仅跟踪。启动光束前确认目标后方的舰体。屏幕里的背景，是另一群船员。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E032-641adbe616d5cd3b/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E032-641adbe616d5cd3b/voice.wav",
+        "audioSha256": "4212cb520a83c64c40c10a5845e2058068e32da8749d1de5316a0352cd24d07d",
+        "dryDurationSeconds": 7.994916666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 38,
+        "billableCharactersProxy": 207,
+        "afpAt0135PerCharacter": 27.945,
+        "drySecondsFromPriorRoleRate": 13.377,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E033",
+      "english": "The latest return is sharper. A continuous surface, no opening, no joint, no visible heat rejection. Keep every sensor recording through first contact. If our explanation fails, these readings may be all the next crew has.",
+      "text": "最新回波更清晰了。连续表面，没有开口，没有接缝，也看不到散热。首次接触期间，所有传感器持续记录。如果我们的解释失效，下一批船员也许只能依靠这些读数。",
+      "performanceNote": "Concentrated, precise; concern should enter only when mentioning the next crew.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E033",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Concentrated, precise; concern should enter only when mentioning the next crew."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E033",
+        "english": "The latest return resolves a continuous surface. No opening, no joint, no obvious heat rejection. Please keep every sensor recording through first contact.",
+        "text": "最新回波显示连续表面：无开口、无接缝，也无明显散热。请让每台传感器持续记录首次接触。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E033-7240ce1dd2f25e03/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E033-7240ce1dd2f25e03/voice.wav",
+        "audioSha256": "274885d0fcda9c94de78c2c0504c2a0a6f264d7b8320b59b02fb948442601107",
+        "dryDurationSeconds": 9.818333333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 36,
+        "billableCharactersProxy": 222,
+        "afpAt0135PerCharacter": 29.97,
+        "drySecondsFromPriorRoleRate": 14.055,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E034",
+      "english": "No acknowledgement. Carrier level steady. The receiver is working; this is not a dropped connection. I hear our ships between their reports. From the object, nothing. The inner line is coming up.",
+      "text": "没有确认，载波强度稳定。接收机正常，并非连接丢失。己方舰船报告之间的声音都能听到，目标却毫无回应。它就要抵达内侧警戒线了。",
+      "performanceNote": "Listen between short observations; do not manufacture audible breathing or radio effects.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E034",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Listen between short observations; do not manufacture audible breathing or radio effects."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E034",
+        "english": "No acknowledgement. Carrier level is steady. This is not a lost connection; there is simply nobody answering on the frequencies we understand.",
+        "text": "没有确认。载波强度稳定。这并非连接丢失，只是在我们理解的频率上，始终无人回应。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E034-e1c8784f1f25fcd9/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E034-e1c8784f1f25fcd9/voice.wav",
+        "audioSha256": "9ce3415527f39b11758a9d1f0c9abec8ebb4677c3da88d0d17762630dfa4237a",
+        "dryDurationSeconds": 8.383,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 32,
+        "billableCharactersProxy": 195,
+        "afpAt0135PerCharacter": 26.325,
+        "drySecondsFromPriorRoleRate": 13.614,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E035",
+      "english": "If it crosses the line, the nearest batteries may fire within their assigned lanes. Controlled bursts. Break off if the beam reflects across friendly positions. A shot that misses safely is better than a correction that strikes one of our own.",
+      "text": "目标越线后，最近的炮组可在各自射界内开火，控制点射。光束若反射穿过己方位置，立即停火。安全脱靶，也好过修正射击却击中自己人。",
+      "performanceNote": "Terse commands inside a longer instruction; measured authority, never a battle cry.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E035",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Terse commands inside a longer instruction; measured authority, never a battle cry."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E035",
+        "english": "If the object crosses the line, the nearest batteries may fire controlled bursts. Break off if the beam is reflected. Do not chase a bad shot.",
+        "text": "如果目标越线，最近的炮组可以短促射击。出现反射立即停火，不能追着错误的射线继续打。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E035-508bb053bb5a05f5/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E035-508bb053bb5a05f5/voice.wav",
+        "audioSha256": "8eb26d40c5aa5f7536948f1e8b4bb4be70265e5824bc19dac04665df7ca0bc70",
+        "dryDurationSeconds": 8.996958333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 41,
+        "billableCharactersProxy": 243,
+        "afpAt0135PerCharacter": 32.805,
+        "drySecondsFromPriorRoleRate": 14.433,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E036",
+      "english": "If a hull is pierced, stay clear of its reactor. The impact may end before the failure does. Do not approach a silent wreck because the light has faded. Keep its channel open and give it room.",
+      "text": "舰体若被贯穿，远离它的反应堆。撞击结束，不代表故障停止。不要因为闪光消退，就靠近沉默的残舰。保持它的频道畅通，留出安全距离。",
+      "performanceNote": "Urgent and concrete warning about delayed failure; avoid melodrama or artificial sobbing.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E036",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Urgent and concrete warning about delayed failure; avoid melodrama or artificial sobbing."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E036",
+        "english": "If a hull is pierced, isolate its reactor and keep clear. A quiet wreck can still be counting down. Rescue crews must wait for a safe approach.",
+        "text": "舰体若被贯穿，立即隔离反应堆并保持距离。安静的残舰仍可能在倒计时。救援组必须等待安全接近。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E036-fe2292c78ad75bd4/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E036-fe2292c78ad75bd4/voice.wav",
+        "audioSha256": "4fb38787274236e7ae47ce0dead7c62c397f7bd991c94416458be5e002713ffc",
+        "dryDurationSeconds": 10.798625,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 37,
+        "billableCharactersProxy": 192,
+        "afpAt0135PerCharacter": 25.92,
+        "drySecondsFromPriorRoleRate": 14.445,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E037",
+      "english": "The civilian relay will stay with these crews while contact control can carry us. There is no victory announcement waiting here. There is a live channel, a clear picture, and people doing their work. We will listen with you.",
+      "text": "只要接触管制还能承载信号，民用转播就会陪伴这些船员。这里没有预先写好的胜利公告，只有直播频道、清晰画面，以及正在履行职责的人。我们会与你们一起倾听。",
+      "performanceNote": "A grounded sign-off into continued listening; warmer without becoming sentimental.",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E037",
+      "group": "narrative",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A grounded sign-off into continued listening; warmer without becoming sentimental."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E037",
+        "english": "The civilian relay will remain open as long as contact control can carry it. There will be no victory announcement written in advance tonight.",
+        "text": "只要接触管制还能维持转播，民用频道就会保持开放。今夜，不会有提前写好的胜利公告。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E037-a22550714f241b9a/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E037-a22550714f241b9a/voice.wav",
+        "audioSha256": "51fb296599fe7f98a55002cba2bb68874956073fe93436a3a70961acc223654c",
+        "dryDurationSeconds": 8.222916666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 39,
+        "billableCharactersProxy": 224,
+        "afpAt0135PerCharacter": 30.24,
+        "drySecondsFromPriorRoleRate": 14.716,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E038",
+      "english": "Inner line crossed. Independent track confirms it. Two thousand identification signals, all distinct, still reporting. Emergency band is live. Captains, use your own call signs. If formation breaks, we must know who is speaking.",
+      "text": "目标已越过内侧警戒线，独立跟踪确认。两千个识别信号，全部独立，仍在回报。紧急频段已开通。各舰长使用本舰呼号。阵型一旦解体，我们必须知道是谁在说话。",
+      "performanceNote": "A sharper operational tempo, letting the count land once; no triumph or panic.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E038",
+      "group": "narrative",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A sharper operational tempo, letting the count land once; no triumph or panic."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E038",
+        "english": "Inner line crossing confirmed. I have two thousand identification signals, all distinct. Emergency band is live. Captains, answer with your own hull call sign.",
+        "text": "确认越过内侧警戒线。两千个识别信号，各自独立。紧急频段已开放。各舰长，请用本舰呼号回应。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E038-da93fa05a0b3ed6e/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E038-da93fa05a0b3ed6e/voice.wav",
+        "audioSha256": "4a41c79cc0265f8dd36a449f5f8977677dc9266f673d9687168ea575d6ba1149",
+        "dryDurationSeconds": 11.203875,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 228,
+        "afpAt0135PerCharacter": 30.78,
+        "drySecondsFromPriorRoleRate": 14.465,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E039",
+      "english": "Weapons free in your assigned lanes. Keep escape routes clear. If your neighbor is hit, move first; report when you can. You know your ship and crew. Do not wait for my voice to protect them.",
+      "text": "各自射界内自由开火，保持撤离路线畅通。邻舰受袭，先移动，能够报告时再报告。你们了解自己的舰船与船员。保护他们，不要等待我的声音。",
+      "performanceNote": "Decisive order followed by trust in the captains; restrained strain at the end.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E039",
+      "group": "narrative",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Decisive order followed by trust in the captains; restrained strain at the end."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E039",
+        "english": "Weapons free within your assigned lanes. Keep your escape route clear. If your neighbor is hit, move first and report when you can.",
+        "text": "允许在指定射界内开火。保持撤离路线畅通。邻舰中弹时先移动，能够通信后再报告。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E039-4c03bd8cf8ab48fe/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E039-4c03bd8cf8ab48fe/voice.wav",
+        "audioSha256": "61178550e036f823276d981d540522ebf8544f202d47e0263a6d3b71360f4412",
+        "dryDurationSeconds": 7.966458333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 36,
+        "billableCharactersProxy": 191,
+        "afpAt0135PerCharacter": 25.785,
+        "drySecondsFromPriorRoleRate": 12.673,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "E040",
+      "english": "It has not slowed. Watch the contact point, not the glare. Record what happens, even if it contradicts our expectations. Keep your people clear of damaged sections. Stay on the channel. We are here.",
+      "text": "它没有减速。看接触点，不要只盯着强光。记录实际发生的一切，哪怕与预期相反。让人员远离受损区域。留在频道上，我们就在这里。",
+      "performanceNote": "Immediate focus gives way to a small human reassurance; never stretch the final words unnaturally.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "originalId": "E040",
+      "group": "narrative",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Immediate focus gives way to a small human reassurance; never stretch the final words unnaturally."
+      ],
+      "use": "按现有顺序播放四幕开场，沿用舞台和镜头编号",
+      "original": {
+        "id": "E040",
+        "english": "It is still coming. Watch the contact point, not the glare. Whatever happens next, trust the measurements. All stations, protect your people.",
+        "text": "它仍在前进。看接触点，不要被眩光迷惑。无论接下来发生什么，都要相信测量。所有岗位，保护好你们的人。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E040-216525ee282909c1/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/E040-216525ee282909c1/voice.wav",
+        "audioSha256": "199cf58977fd46f5372d7412edf30d54936b17e4b7a25d267ccf9782ca0f6e66",
+        "dryDurationSeconds": 9.829333333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 34,
+        "billableCharactersProxy": 198,
+        "afpAt0135PerCharacter": 26.73,
+        "drySecondsFromPriorRoleRate": 13.274,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B001",
+      "english": "No heat rise. It took nothing.",
+      "text": "温度没有上升，它毫无损伤。",
+      "performanceNote": "A fast, stunned measurement; hold the voice steady.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "AttackIneffective",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B001",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A fast, stunned measurement; hold the voice steady."
+      ],
+      "use": "己方对水滴攻击无效的既有事件",
+      "original": {
+        "id": "B001",
+        "english": "No thermal rise. That shot did nothing.",
+        "text": "温度没有升高。这一击毫无作用。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B001-56dbda7d8c19751e/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B001-56dbda7d8c19751e/voice.wav",
+        "audioSha256": "78b8e061bee32fa9df82310f76bc9c9e8d3a408b55bdc670af00a9b8d392ae03",
+        "dryDurationSeconds": 2.781416666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 30,
+        "afpAt0135PerCharacter": 4.05,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B002",
+      "english": "Stop firing. Check the return path.",
+      "text": "停止射击，检查反射路径。",
+      "performanceNote": "Short command with no preamble; firm rather than loud.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "AttackIneffective",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B002",
+      "group": "combat",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Short command with no preamble; firm rather than loud."
+      ],
+      "use": "己方对水滴攻击无效的既有事件",
+      "original": {
+        "id": "B002",
+        "english": "Cease wasteful fire. Check the return path.",
+        "text": "停止无效射击，检查反射路径。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B002-dd2707c420e8a280/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B002-dd2707c420e8a280/voice.wav",
+        "audioSha256": "0f1e95fc6fb91a17a9b42bad551140b4619e4e03161f7c6d4c3072b1dfe1d4e0",
+        "dryDurationSeconds": 3.5850416666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 35,
+        "afpAt0135PerCharacter": 4.725,
+        "drySecondsFromPriorRoleRate": 2.112,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B003",
+      "english": "Surface intact. Not even a mark.",
+      "text": "表面完好，连痕迹都没有。",
+      "performanceNote": "Disbelief under a factual report; clipped final phrase.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "AttackIneffective",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B003",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Disbelief under a factual report; clipped final phrase."
+      ],
+      "use": "己方对水滴攻击无效的既有事件",
+      "original": {
+        "id": "B003",
+        "english": "Surface intact. I cannot find a mark.",
+        "text": "表面完好，找不到任何痕迹。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B003-4b48158995f6a225/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B003-4b48158995f6a225/voice.wav",
+        "audioSha256": "5f32cb2c04a5c0158303cf8d347ba61069161c0fa1639960ada8f81e0f326e04",
+        "dryDurationSeconds": 2.793041666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 32,
+        "afpAt0135PerCharacter": 4.32,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B004",
+      "english": "Those shots did nothing. Watch our lanes.",
+      "text": "射击无效，注意己方航道。",
+      "performanceNote": "Warn nearby operators quickly; actionable stress on watch.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "AttackIneffective",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B004",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Warn nearby operators quickly; actionable stress on watch."
+      ],
+      "use": "己方对水滴攻击无效的既有事件",
+      "original": {
+        "id": "B004",
+        "english": "All batteries, your beams are scattering across our lanes.",
+        "text": "各炮组，光束正在散入我方航道。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B004-821dbd228c74d158/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B004-821dbd228c74d158/voice.wav",
+        "audioSha256": "09de60a3eb5b03ed160144eb114805732efdffc9cf74bd8eaaea4005d1cdac89",
+        "dryDurationSeconds": 3.574291666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 7,
+        "billableCharactersProxy": 41,
+        "afpAt0135PerCharacter": 5.535,
+        "drySecondsFromPriorRoleRate": 2.978,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B005",
+      "english": "Beam returning! Clear that line!",
+      "text": "光束折返！避开那条线！",
+      "performanceNote": "A sudden warning, distinct words in one quick burst.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "LaserReflected",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B005",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A sudden warning, distinct words in one quick burst."
+      ],
+      "use": "激光在水滴表面反射的既有事件",
+      "original": {
+        "id": "B005",
+        "english": "Reflected beam! Clear that line now!",
+        "text": "反射光束！立即让开那条线！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B005-a3d55f31861b57b8/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B005-a3d55f31861b57b8/voice.wav",
+        "audioSha256": "3ecd60850eb5eca1f32fdc507b5ea858a849e7dbe29e098a68016009e139cb6d",
+        "dryDurationSeconds": 2.5901666666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 32,
+        "afpAt0135PerCharacter": 4.32,
+        "drySecondsFromPriorRoleRate": 2.127,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B006",
+      "english": "Reflection crossing the formation!",
+      "text": "反射光正穿过阵型！",
+      "performanceNote": "Pointing out an immediate hazard; no long lead breath.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "LaserReflected",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B006",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Pointing out an immediate hazard; no long lead breath."
+      ],
+      "use": "激光在水滴表面反射的既有事件",
+      "original": {
+        "id": "B006",
+        "english": "The angle changed. The return is crossing the formation!",
+        "text": "角度变了，反射束正在横穿阵型！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B006-e767b0ecc469eb8f/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B006-e767b0ecc469eb8f/voice.wav",
+        "audioSha256": "538695e862dd49deaf705d7000f8cba9e4f1799254c208353a1f2972f09a6737",
+        "dryDurationSeconds": 3.8124166666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 4,
+        "billableCharactersProxy": 34,
+        "afpAt0135PerCharacter": 4.59,
+        "drySecondsFromPriorRoleRate": 1.562,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B007",
+      "english": "Hold fire! Friendly hull behind it!",
+      "text": "停火！后面是己方舰体！",
+      "performanceNote": "Sharp command, then essential reason; do not scream.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "LaserReflected",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B007",
+      "group": "combat",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Sharp command, then essential reason; do not scream."
+      ],
+      "use": "激光在水滴表面反射的既有事件",
+      "original": {
+        "id": "B007",
+        "english": "Hold fire! Friendly hull behind the reflection!",
+        "text": "停火！反射方向后方有友舰！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B007-7ad815b7a6a97a92/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B007-7ad815b7a6a97a92/voice.wav",
+        "audioSha256": "45c33913f702c33ca06ad4f67c6de7b5a06cee683d1dfb724a34952ad471f398",
+        "dryDurationSeconds": 3.5685416666666665,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 35,
+        "afpAt0135PerCharacter": 4.725,
+        "drySecondsFromPriorRoleRate": 2.112,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B008",
+      "english": "It reflected. Track the outgoing beam!",
+      "text": "光束反射了，跟踪出射路径！",
+      "performanceNote": "An engineer making an observation useful immediately.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "LaserReflected",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B008",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. An engineer making an observation useful immediately."
+      ],
+      "use": "激光在水滴表面反射的既有事件",
+      "original": {
+        "id": "B008",
+        "english": "Contact confirmed. Energy is leaving the surface, not entering it.",
+        "text": "确认接触。能量离开了表面，并未进入。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B008-3cbe7aed2811b4bc/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B008-3cbe7aed2811b4bc/voice.wav",
+        "audioSha256": "c330eba48059111aca96a1391ab5615c02384b091eb4157dcd0163c439686c06",
+        "dryDurationSeconds": 5.000666666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 38,
+        "afpAt0135PerCharacter": 5.13,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B009",
+      "english": "Through both sides! Isolate the reactor!",
+      "text": "两侧都被击穿！隔离反应堆！",
+      "performanceNote": "Close microphone, controlled alarm, urgent second clause.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "HullPenetrated",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B009",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Close microphone, controlled alarm, urgent second clause."
+      ],
+      "use": "舰体贯穿后尚待延爆的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B009",
+        "english": "Breach through both sides. Isolating the reactor!",
+        "text": "两侧贯穿。正在隔离反应堆！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B009-8fdfc48746de1fe2/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B009-8fdfc48746de1fe2/voice.wav",
+        "audioSha256": "8a23bd9adf0bf61eae4b47c8b9a3e6d755ae37cd536577f9199fcbc0900be5c3",
+        "dryDurationSeconds": 3.182125,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 40,
+        "afpAt0135PerCharacter": 5.4,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B010",
+      "english": "Central decks breached! Seal the doors!",
+      "text": "中央甲板破损！封闭舱门！",
+      "performanceNote": "A report turning directly into a shouted instruction, still intelligible.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "HullPenetrated",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B010",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A report turning directly into a shouted instruction, still intelligible."
+      ],
+      "use": "舰体贯穿后尚待延爆的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B010",
+        "english": "We have lost pressure across the central decks!",
+        "text": "中央甲板全面失压！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B010-9fd6648f6915931a/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B010-9fd6648f6915931a/voice.wav",
+        "audioSha256": "00e33d4cc65247d2f3586b74bd0fca8585415937129952ad46407542a768bb85",
+        "dryDurationSeconds": 2.7668333333333335,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 39,
+        "afpAt0135PerCharacter": 5.265,
+        "drySecondsFromPriorRoleRate": 2.553,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B011",
+      "english": "Straight through us. Close every door!",
+      "text": "它直接穿过去了，关闭所有舱门！",
+      "performanceNote": "One shocked beat before taking action; keep the beat short.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "HullPenetrated",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B011",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. One shocked beat before taking action; keep the beat short."
+      ],
+      "use": "舰体贯穿后尚待延爆的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B011",
+        "english": "It went straight through us. Close every internal door!",
+        "text": "它直接穿过了我们，关闭全部内部舱门！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B011-fa5b502061af84d4/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B011-fa5b502061af84d4/voice.wav",
+        "audioSha256": "d4481eafc9ce981303902108cc860d6ef17fd6ba1fbda6755fe02bb1a805ee15",
+        "dryDurationSeconds": 3.1765416666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 38,
+        "afpAt0135PerCharacter": 5.13,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B012",
+      "english": "Hull pierced. We are drifting!",
+      "text": "舰体贯穿，我们正在漂移！",
+      "performanceNote": "Compressed emergency report with rising concern only at the end.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "HullPenetrated",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B012",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Compressed emergency report with rising concern only at the end."
+      ],
+      "use": "舰体贯穿后尚待延爆的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B012",
+        "english": "Hull pierced. Navigation is gone. We are drifting!",
+        "text": "舰体被贯穿，导航失效，我们正在漂移！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B012-a4739943a729f36b/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B012-a4739943a729f36b/voice.wav",
+        "audioSha256": "fc575717dbfe7b69ed0f3f2b6ca62492afdfdb8d06c0d3d11b625b8a997eb527",
+        "dryDurationSeconds": 3.7884583333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 30,
+        "afpAt0135PerCharacter": 4.05,
+        "drySecondsFromPriorRoleRate": 2.127,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B013",
+      "english": "Containment failing! Clear the core!",
+      "text": "约束失效！远离堆芯！",
+      "performanceNote": "Clear the core is the urgent command; no decorative vocal sounds.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ReactorUnstable",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "originalId": "B013",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Clear the core is the urgent command; no decorative vocal sounds."
+      ],
+      "use": "受损舰反应堆临界的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B013",
+        "english": "Containment is failing. Everyone away from the core!",
+        "text": "约束正在失效，所有人远离核心！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B013-45230f2b7b98ef66/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B013-45230f2b7b98ef66/voice.wav",
+        "audioSha256": "a6a4b50fce373c7baf5b23544d6406701bd910f7f441d6705f0271e7a672d892",
+        "dryDurationSeconds": 3.5835416666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 36,
+        "afpAt0135PerCharacter": 4.86,
+        "drySecondsFromPriorRoleRate": 1.952,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B014",
+      "english": "Shutdown failed. Temperature still rising!",
+      "text": "停堆失败，温度还在上升！",
+      "performanceNote": "Fast technical realization, clipped and increasingly strained.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ReactorUnstable",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "originalId": "B014",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Fast technical realization, clipped and increasingly strained."
+      ],
+      "use": "受损舰反应堆临界的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B014",
+        "english": "The shutdown did not take. Reactor temperature is still climbing!",
+        "text": "停堆没有生效，反应堆温度仍在上升！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B014-0fbc5d3454e78984/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B014-0fbc5d3454e78984/voice.wav",
+        "audioSha256": "4fd28a726f1e34ede4ff486b63992f1607e77b7c0898979fe71398e06a7f9af7",
+        "dryDurationSeconds": 4.1942916666666665,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 42,
+        "afpAt0135PerCharacter": 5.67,
+        "drySecondsFromPriorRoleRate": 1.952,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B015",
+      "english": "Reactor critical! Nobody come alongside!",
+      "text": "反应堆临界！任何舰船都别靠近！",
+      "performanceNote": "Warn others away decisively, speaking through controlled fear.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ReactorUnstable",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "originalId": "B015",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Warn others away decisively, speaking through controlled fear."
+      ],
+      "use": "受损舰反应堆临界的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B015",
+        "english": "Reactor warning. Do not bring a rescue ship alongside us!",
+        "text": "反应堆警报！救援舰不要靠近我们！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B015-4113a2ac12553c88/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B015-4113a2ac12553c88/voice.wav",
+        "audioSha256": "0dde898549302a9d71c570df9966c2804d8bfbe440556f3dc8302883c2a7d985",
+        "dryDurationSeconds": 3.7946666666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 40,
+        "afpAt0135PerCharacter": 5.4,
+        "drySecondsFromPriorRoleRate": 2.127,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B016",
+      "english": "Cooling gone. Get everyone clear!",
+      "text": "冷却失效，让所有人离开！",
+      "performanceNote": "Matter-of-fact first clause, immediate order second.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ReactorUnstable",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "originalId": "B016",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Matter-of-fact first clause, immediate order second."
+      ],
+      "use": "受损舰反应堆临界的既有事件，保留 pendingOnly",
+      "original": {
+        "id": "B016",
+        "english": "We are out of cooling. There is no restart from this!",
+        "text": "冷却已经耗尽，再也无法重启了！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B016-45039e719a3d3883/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B016-45039e719a3d3883/voice.wav",
+        "audioSha256": "9a777cefc605de23988eb4a06723273f55c092a95b0d1d43785b7dd1072d0496",
+        "dryDurationSeconds": 3.9705,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 33,
+        "afpAt0135PerCharacter": 4.455,
+        "drySecondsFromPriorRoleRate": 1.952,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B017",
+      "english": "Mayday. Forward section still answering!",
+      "text": "求救！前舱仍有人回应！",
+      "performanceNote": "A trained distress call with urgency, without crying or added words.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RescueRequested",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B017",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A trained distress call with urgency, without crying or added words."
+      ],
+      "use": "既有受损舰求救广播，只作叙事，不增加救援玩法",
+      "original": {
+        "id": "B017",
+        "english": "Mayday. We have survivors in the forward section. Can anyone hear us?",
+        "text": "求救！前舱仍有幸存者，有人能听到吗？",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B017-a5bc76f4d4660371/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B017-a5bc76f4d4660371/voice.wav",
+        "audioSha256": "7ff49c378627edb0a0d042cc4088f7cc00cebf77bbeb574e3219cdfc22600ea2",
+        "dryDurationSeconds": 4.621291666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 40,
+        "afpAt0135PerCharacter": 5.4,
+        "drySecondsFromPriorRoleRate": 2.127,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B018",
+      "english": "Rescue channel, we are trapped forward!",
+      "text": "救援频道，我们被困在前舱！",
+      "performanceNote": "Speak into a handheld receiver; quick, direct, frightened but understandable.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RescueRequested",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B018",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Speak into a handheld receiver; quick, direct, frightened but understandable."
+      ],
+      "use": "既有受损舰求救广播，只作叙事，不增加救援玩法",
+      "original": {
+        "id": "B018",
+        "english": "Rescue channel, our launch bay is sealed. We need an external pickup!",
+        "text": "救援频道，我们的机库封死了，需要外部接应！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B018-9e95b45be5b15fe1/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B018-9e95b45be5b15fe1/voice.wav",
+        "audioSha256": "1351ef8226ce588badcb19e6fade0bdac0544d0984a4bf8f361d5eed96e45434",
+        "dryDurationSeconds": 4.212125,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 39,
+        "afpAt0135PerCharacter": 5.265,
+        "drySecondsFromPriorRoleRate": 2.553,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B019",
+      "english": "Suits on. Keep listening for us!",
+      "text": "穿上太空服，别断开我们的频道！",
+      "performanceNote": "First to nearby crew, then to the remote listener; a tiny natural transition.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "RescueRequested",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B019",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. First to nearby crew, then to the remote listener; a tiny natural transition."
+      ],
+      "use": "既有受损舰求救广播，只作叙事，不增加救援玩法",
+      "original": {
+        "id": "B019",
+        "english": "We are getting them into suits. Please keep a receiver on us.",
+        "text": "正在帮他们穿上宇航服，请保持监听。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B019-6c4bfb568f369336/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B019-6c4bfb568f369336/voice.wav",
+        "audioSha256": "52f201e7c55539fa25333b77c17c567a05e7beb045c2555b6e15e4e503922de8",
+        "dryDurationSeconds": 3.5777083333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 32,
+        "afpAt0135PerCharacter": 4.32,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B020",
+      "english": "Beacon live. We cannot stop the drift!",
+      "text": "信标已开启，我们无法停止漂移！",
+      "performanceNote": "Urgent status report; emphasize cannot without drawn-out delivery.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RescueRequested",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "originalId": "B020",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Urgent status report; emphasize cannot without drawn-out delivery."
+      ],
+      "use": "既有受损舰求救广播，只作叙事，不增加救援玩法",
+      "original": {
+        "id": "B020",
+        "english": "Emergency beacon active. We cannot control our drift. Please respond!",
+        "text": "紧急信标已启动，漂移无法控制，请回应！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B020-3f2c137a0ee21218/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B020-3f2c137a0ee21218/voice.wav",
+        "audioSha256": "f0fe9307696f6702a096c352112d3d814a451c5bae8947c336b99451b87145f4",
+        "dryDurationSeconds": 4.606875,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 7,
+        "billableCharactersProxy": 38,
+        "afpAt0135PerCharacter": 5.13,
+        "drySecondsFromPriorRoleRate": 2.978,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B021",
+      "english": "Hull lost. Stay clear of the debris.",
+      "text": "舰体已毁，远离残骸。",
+      "performanceNote": "A different surviving observer, low and controlled after the flash.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipExploded",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B021",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A different surviving observer, low and controlled after the flash."
+      ],
+      "use": "舰爆后由存活观察者报告，不继续播放死舰舱内声音",
+      "original": {
+        "id": "B021",
+        "english": "We lost that hull. Rescue craft, stand clear of the debris.",
+        "text": "那艘舰消失了。救援艇远离残骸。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B021-247499133f22876f/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B021-247499133f22876f/voice.wav",
+        "audioSha256": "8a6a8311e77befbe02b58c7b4761d484fb7345749c043126bac89aea9aea4131",
+        "dryDurationSeconds": 3.570625,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 7,
+        "billableCharactersProxy": 36,
+        "afpAt0135PerCharacter": 4.86,
+        "drySecondsFromPriorRoleRate": 2.978,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B022",
+      "english": "Explosion confirmed. Keep that lane clear.",
+      "text": "确认爆炸，保持那条航道畅通。",
+      "performanceNote": "Command through the shock, no triumphant tone.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "ShipExploded",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B022",
+      "group": "combat",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Command through the shock, no triumphant tone."
+      ],
+      "use": "舰爆后由存活观察者报告，不继续播放死舰舱内声音",
+      "original": {
+        "id": "B022",
+        "english": "Explosion confirmed. Open a lane for the survivors.",
+        "text": "确认爆炸，为幸存者让出通道。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B022-c3cb0ccbfd342a7a/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B022-c3cb0ccbfd342a7a/voice.wav",
+        "audioSha256": "7c79730123d46ac19857faf92826354b0e0129f42933dad611dee69e9b55034e",
+        "dryDurationSeconds": 3.8045416666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 42,
+        "afpAt0135PerCharacter": 5.67,
+        "drySecondsFromPriorRoleRate": 2.112,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B023",
+      "english": "Reactor gone. Debris is still moving.",
+      "text": "反应堆已毁，残骸仍在移动。",
+      "performanceNote": "Observe the aftermath without inventing a second explosion.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ShipExploded",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B023",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Observe the aftermath without inventing a second explosion."
+      ],
+      "use": "舰爆后由存活观察者报告，不继续播放死舰舱内声音",
+      "original": {
+        "id": "B023",
+        "english": "Secondary flash. Watch for another reactor failure nearby.",
+        "text": "出现次级闪光，警惕附近再次失稳。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B023-0617b251fd14165c/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B023-0617b251fd14165c/voice.wav",
+        "audioSha256": "2e65a38c5171cbafc627dcff9355a99d6d7665b81713136a3f4ff656346c207c",
+        "dryDurationSeconds": 3.9857916666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 37,
+        "afpAt0135PerCharacter": 4.995,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B024",
+      "english": "Signal gone. Marking the last position.",
+      "text": "信号消失，正在标记最后位置。",
+      "performanceNote": "A small pause after signal gone; keep working, no weeping.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipExploded",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B024",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A small pause after signal gone; keep working, no weeping."
+      ],
+      "use": "舰爆后由存活观察者报告，不继续播放死舰舱内声音",
+      "original": {
+        "id": "B024",
+        "english": "Their signal is gone. I am marking the last known position.",
+        "text": "他们的信号断了，正在标记最后位置。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B024-ae97747ebb012510/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B024-ae97747ebb012510/voice.wav",
+        "audioSha256": "c890504c2a34c8889f717a5aea0f6ead206b707e9227b2787a8a662f2260edcf",
+        "dryDurationSeconds": 3.5725416666666665,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 39,
+        "afpAt0135PerCharacter": 5.265,
+        "drySecondsFromPriorRoleRate": 2.553,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B025",
+      "english": "Break formation. Take your escape vector!",
+      "text": "脱离阵型，沿撤离方向加速！",
+      "performanceNote": "Immediate directional command, concise and authoritative.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "RetreatOrdered",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B025",
+      "group": "combat",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Immediate directional command, concise and authoritative."
+      ],
+      "use": "受威胁舰开始撤离的既有事件",
+      "original": {
+        "id": "B025",
+        "english": "Break formation. Accelerate along your assigned escape vector!",
+        "text": "脱离阵型，沿分配的撤离方向加速！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B025-f12403db7accf817/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B025-f12403db7accf817/voice.wav",
+        "audioSha256": "8694724c5c4f743440a435a6dd0fd804989abe12530e12662ab0abde5e4784b0",
+        "dryDurationSeconds": 4.205958333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 41,
+        "afpAt0135PerCharacter": 5.535,
+        "drySecondsFromPriorRoleRate": 2.112,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B026",
+      "english": "Retreat confirmed. Clear the damaged hulls!",
+      "text": "确认撤离，避开受损舰体！",
+      "performanceNote": "Relay an active order quickly; crisp consonants.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RetreatOrdered",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B026",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Relay an active order quickly; crisp consonants."
+      ],
+      "use": "受威胁舰开始撤离的既有事件",
+      "original": {
+        "id": "B026",
+        "english": "Local retreat confirmed. Keep clear of the damaged ships.",
+        "text": "确认本地撤退，避开受损舰。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B026-1728d989f1d23fc0/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B026-1728d989f1d23fc0/voice.wav",
+        "audioSha256": "533acfcf2a3cf536a51e33860d5113fedebea90c2026620ac343de9fac9715f4",
+        "dryDurationSeconds": 3.407125,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 43,
+        "afpAt0135PerCharacter": 5.805,
+        "drySecondsFromPriorRoleRate": 2.553,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B027",
+      "english": "Do not wait for us. Move your ship!",
+      "text": "不要等我们，让你的舰船动起来！",
+      "performanceNote": "Urgent permission to act, not anger at a subordinate.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "RetreatOrdered",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B027",
+      "group": "combat",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Urgent permission to act, not anger at a subordinate."
+      ],
+      "use": "受威胁舰开始撤离的既有事件",
+      "original": {
+        "id": "B027",
+        "english": "Do not wait for the whole fleet. Move your own ship now!",
+        "text": "别再等待全舰队，现在就移动本舰！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B027-d027d07a4b14c2bf/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B027-d027d07a4b14c2bf/voice.wav",
+        "audioSha256": "a9728adbc91bd57b6c3e9d4fa4a2dca92a040e7015d688778a6bd2835394bc74",
+        "dryDurationSeconds": 3.8077916666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 8,
+        "billableCharactersProxy": 35,
+        "afpAt0135PerCharacter": 4.725,
+        "drySecondsFromPriorRoleRate": 2.816,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B028",
+      "english": "Escape route loaded. Bringing engines up!",
+      "text": "撤离路线已载入，正在提升推力！",
+      "performanceNote": "Working engineer acknowledging the retreat command before movement is complete.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "RetreatOrdered",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "originalId": "B028",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Working engineer acknowledging the retreat command before movement is complete."
+      ],
+      "use": "受威胁舰开始撤离的既有事件",
+      "original": {
+        "id": "B028",
+        "english": "Engines responding. We are opening the distance.",
+        "text": "引擎有响应，我们正在拉开距离。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B028-14728ea09c7f0ced/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B028-14728ea09c7f0ced/voice.wav",
+        "audioSha256": "52656c73af17ee306642dc04fba7692ab071e98c7033d42068e996f2874b5567",
+        "dryDurationSeconds": 3.011791666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 41,
+        "afpAt0135PerCharacter": 5.535,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B029",
+      "english": "One hull clear. Beacon still answering.",
+      "text": "一艘舰已脱离，信标仍有回应。",
+      "performanceNote": "A brief touch of relief in an otherwise focused report.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipEscaped",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B029",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A brief touch of relief in an otherwise focused report."
+      ],
+      "use": "舰船越过撤离边界的既有事件",
+      "original": {
+        "id": "B029",
+        "english": "One hull has cleared the combat boundary. Beacon still active.",
+        "text": "一艘舰已离开战斗边界，信标仍然工作。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B029-0b9a49c845411472/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B029-0b9a49c845411472/voice.wav",
+        "audioSha256": "c252de438d5a074891d5752cb72cb7d27f32f9530a56ba5d9dff25b2373db4d2",
+        "dryDurationSeconds": 4.189916666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 39,
+        "afpAt0135PerCharacter": 5.265,
+        "drySecondsFromPriorRoleRate": 2.553,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B030",
+      "english": "You are clear. Keep moving outward.",
+      "text": "你们已脱离，继续向外航行。",
+      "performanceNote": "Reassuring instruction, less force than the retreat order.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "ShipEscaped",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B030",
+      "group": "combat",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Reassuring instruction, less force than the retreat order."
+      ],
+      "use": "舰船越过撤离边界的既有事件",
+      "original": {
+        "id": "B030",
+        "english": "Escape confirmed. Keep moving until you reach the assembly area.",
+        "text": "确认逃脱，继续前往集结区域。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B030-c407549df10ec929/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B030-c407549df10ec929/voice.wav",
+        "audioSha256": "73bb48363a3a7ad8d4d237b4efaf1b2036ba24d0b0fff94db9f8e00d9f068087",
+        "dryDurationSeconds": 4.377416666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 35,
+        "afpAt0135PerCharacter": 4.725,
+        "drySecondsFromPriorRoleRate": 2.112,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B031",
+      "english": "That crew is out. Updating their position.",
+      "text": "那群船员逃出去了，正在更新位置。",
+      "performanceNote": "Relief is audible but restrained; return to work immediately.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipEscaped",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B031",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Relief is audible but restrained; return to work immediately."
+      ],
+      "use": "舰船越过撤离边界的既有事件",
+      "original": {
+        "id": "B031",
+        "english": "That crew is outside the engagement zone. Sending their new coordinates.",
+        "text": "那群船员已经离开交战区，正在发送新坐标。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B031-122877ec6e143968/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B031-122877ec6e143968/voice.wav",
+        "audioSha256": "3aec596a3034f6669d89de49f5a21b80d94e565cb93f4193b9291f640b0b526b",
+        "dryDurationSeconds": 3.992541666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 7,
+        "billableCharactersProxy": 42,
+        "afpAt0135PerCharacter": 5.67,
+        "drySecondsFromPriorRoleRate": 2.978,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B032",
+      "english": "Drive signal steady beyond the perimeter.",
+      "text": "边界外推进信号稳定。",
+      "performanceNote": "A short checked measurement with a calmer ending.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ShipEscaped",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B032",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A short checked measurement with a calmer ending."
+      ],
+      "use": "舰船越过撤离边界的既有事件",
+      "original": {
+        "id": "B032",
+        "english": "Their drive signature is stable beyond the perimeter.",
+        "text": "边界外，他们的推进信号已经稳定。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B032-8f2d069f70381cf2/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B032-8f2d069f70381cf2/voice.wav",
+        "audioSha256": "0685c4e8b410206383c354b0b5021a2b90570bc1e40c8d5a78a3edd8f3299c61",
+        "dryDurationSeconds": 3.011416666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 41,
+        "afpAt0135PerCharacter": 5.535,
+        "drySecondsFromPriorRoleRate": 2.342,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B033",
+      "english": "Transmission lost. Finding another live channel.",
+      "text": "通信丢失，正在寻找其他有效频道。",
+      "performanceNote": "Receiver-side officer after a cutoff, composed and efficient.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "CommunicationInterrupted",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B033",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Receiver-side officer after a cutoff, composed and efficient."
+      ],
+      "use": "既有通信中断事件的接收端回报",
+      "original": {
+        "id": "B033",
+        "english": "Transmission cut off. Switching to the next live beacon.",
+        "text": "通信被切断，切换下一个有效信标。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B033-f9f82b083bc11cde/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B033-f9f82b083bc11cde/voice.wav",
+        "audioSha256": "1f0f3b819c30981d2bb004f1e1c6e62a62f31aba548965f78c03998889153c4e",
+        "dryDurationSeconds": 3.4035,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 48,
+        "afpAt0135PerCharacter": 6.48,
+        "drySecondsFromPriorRoleRate": 2.553,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B034",
+      "english": "Their carrier is gone. Keep this band clear.",
+      "text": "他们的载波消失了，保持本频段畅通。",
+      "performanceNote": "Do not impersonate the destroyed ship; report as a surviving network operator.",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "CommunicationInterrupted",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B034",
+      "group": "combat",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Do not impersonate the destroyed ship; report as a surviving network operator."
+      ],
+      "use": "既有通信中断事件的接收端回报",
+      "original": {
+        "id": "B034",
+        "english": "No carrier from that ship. Keep the emergency band clear.",
+        "text": "那艘舰的载波消失了，保持紧急频段畅通。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B034-597adc6303a52d23/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B034-597adc6303a52d23/voice.wav",
+        "audioSha256": "5d9f344369a2fbd59f91c65211637243fe5ddfea1509c7db980f55ed0f972caa",
+        "dryDurationSeconds": 3.5924583333333335,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 8,
+        "billableCharactersProxy": 44,
+        "afpAt0135PerCharacter": 5.94,
+        "drySecondsFromPriorRoleRate": 3.403,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B035",
+      "english": "We heard you. Position marked. Keep withdrawing.",
+      "text": "我们听到了，位置已标记，继续撤离。",
+      "performanceNote": "Address the fleet after a lost distress call; steady, without implying a successful rescue.",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "CommunicationInterrupted",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B035",
+      "group": "combat",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Address the fleet after a lost distress call; steady, without implying a successful rescue."
+      ],
+      "use": "既有通信中断事件的接收端回报",
+      "original": {
+        "id": "B035",
+        "english": "We heard the distress call. Mark the position and continue withdrawal.",
+        "text": "我们听到了求救，标记位置，继续撤离。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B035-8208a6cfbee914e4/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B035-8208a6cfbee914e4/voice.wav",
+        "audioSha256": "6049e66b695bffeb3f4e077a5f3400885cd33cfb8fcf4d63aa81d0ccbff18fce",
+        "dryDurationSeconds": 4.388708333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 7,
+        "billableCharactersProxy": 48,
+        "afpAt0135PerCharacter": 6.48,
+        "drySecondsFromPriorRoleRate": 2.464,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "B036",
+      "english": "Telemetry stopped. No readings after the flash.",
+      "text": "遥测停止，闪光之后没有读数。",
+      "performanceNote": "Quiet technical finality, no flourish.",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "CommunicationInterrupted",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "originalId": "B036",
+      "group": "combat",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Quiet technical finality, no flourish."
+      ],
+      "use": "既有通信中断事件的接收端回报",
+      "original": {
+        "id": "B036",
+        "english": "Their telemetry stopped with the flash. I have no further readings.",
+        "text": "闪光时遥测也停止了，没有后续读数。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B036-55f87fa05fae884e/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/B036-55f87fa05fae884e/voice.wav",
+        "audioSha256": "cc70998daa0ce7e9d27b1f3110a5c79add73d34c897a50967afa3cb9bcf58023",
+        "dryDurationSeconds": 3.8124583333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 7,
+        "billableCharactersProxy": 47,
+        "afpAt0135PerCharacter": 6.345,
+        "drySecondsFromPriorRoleRate": 2.733,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "SC01",
+      "english": "Helm, hold here. Leave the corridor open. Tell me the moment that track changes.",
+      "text": "舵手，保持这里的位置，留出通道。轨迹一有变化，立刻报告。",
+      "performanceNote": "A nearby bridge conversation; unhurried command with a natural connective rhythm.",
+      "role": "commander",
+      "direction": "calm",
+      "channel": "指挥官 / FLEET COMMAND",
+      "originalId": "SC01",
+      "group": "extra",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A nearby bridge conversation; unhurried command with a natural connective rhythm."
+      ],
+      "use": "平静舰桥代表段主声轨",
+      "original": {
+        "id": "SC01",
+        "english": "Helm, hold our position. Keep that corridor open.",
+        "text": "舵手，保持位置。让那条通道保持畅通。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SC01-d834f7e4be60673c/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SC01-d834f7e4be60673c/voice.wav",
+        "audioSha256": "f8e5e6cde26128be24d9811dc6afdebcf937a23dffd7e8df83c198c85e89da35",
+        "dryDurationSeconds": 3.577958333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 14,
+        "billableCharactersProxy": 80,
+        "afpAt0135PerCharacter": 10.8,
+        "drySecondsFromPriorRoleRate": 4.928,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "SC02",
+      "english": "Holding here. Track is steady.",
+      "text": "位置保持，轨迹稳定。",
+      "performanceNote": "A simple acknowledgment to a colleague, no radio-announcer cadence.",
+      "role": "comms",
+      "direction": "calm",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "originalId": "SC02",
+      "group": "extra",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A simple acknowledgment to a colleague, no radio-announcer cadence."
+      ],
+      "use": "SC01 后方回应",
+      "original": {
+        "id": "SC02",
+        "english": "Course held. Batteries standing by.",
+        "text": "航向已保持。炮组待命。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SC02-c5bdbf60baeca579/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SC02-c5bdbf60baeca579/voice.wav",
+        "audioSha256": "8e993f8a4cdfefa7568836c15beb9041af12a15a6bbe8d8ffba6f5ad9d261489",
+        "dryDurationSeconds": 3.004958333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 30,
+        "afpAt0135PerCharacter": 4.05,
+        "drySecondsFromPriorRoleRate": 2.127,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "SA01",
+      "english": "Bridge hit! Seal the forward doors. Stay with me, keep reporting!",
+      "text": "舰桥受袭！封闭前舱门。别乱，继续报告！",
+      "performanceNote": "Brief shock, then take control; no long shout or spoken stage directions.",
+      "role": "commander",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND",
+      "originalId": "SA01",
+      "group": "extra",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Brief shock, then take control; no long shout or spoken stage directions."
+      ],
+      "use": "舰桥受袭代表段主声轨",
+      "original": {
+        "id": "SA01",
+        "english": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+        "text": "舰桥遭到撞击！封闭前舱门。坚守岗位。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SA01-4f1b80514ffca180/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SA01-4f1b80514ffca180/voice.wav",
+        "audioSha256": "184a96a4e9d7d75bc571b3fd00d5d18d15c764dfd9e37639340b7baa2a1ac9db",
+        "dryDurationSeconds": 5.400041666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 11,
+        "billableCharactersProxy": 65,
+        "afpAt0135PerCharacter": 8.775,
+        "drySecondsFromPriorRoleRate": 3.872,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "SA02",
+      "english": "Panel is burning! Cutting power!",
+      "text": "面板起火！切断电源！",
+      "performanceNote": "A hurried technical response from nearby, crisp enough to mix behind the commander.",
+      "role": "engineer",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "originalId": "SA02",
+      "group": "extra",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A hurried technical response from nearby, crisp enough to mix behind the commander."
+      ],
+      "use": "SA01 后方紧急回应",
+      "original": {
+        "id": "SA02",
+        "english": "Fire under the console! Cutting power now!",
+        "text": "控制台下面起火了！正在切断电源！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SA02-ca31d35e7fe7ebe9/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SA02-ca31d35e7fe7ebe9/voice.wav",
+        "audioSha256": "3dc31952351ac0b5974ed99aeec45c8170266c1bc9bdaefdc64afc9031825f7d",
+        "dryDurationSeconds": 2.7877916666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 5,
+        "billableCharactersProxy": 32,
+        "afpAt0135PerCharacter": 4.32,
+        "drySecondsFromPriorRoleRate": 1.952,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "SE01",
+      "english": "Everyone off the bridge! Aft passage, move!",
+      "text": "全体撤离舰桥！走后方通道，快！",
+      "performanceNote": "Decisive evacuation order with two distinct actionable phrases.",
+      "role": "commander",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND",
+      "originalId": "SE01",
+      "group": "extra",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Decisive evacuation order with two distinct actionable phrases."
+      ],
+      "use": "撤离代表段第一主对白",
+      "original": {
+        "id": "SE01",
+        "english": "All hands, abandon the bridge! Move!",
+        "text": "全体人员，撤离舰桥！快！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SE01-50595702817f0dcf/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SE01-50595702817f0dcf/voice.wav",
+        "audioSha256": "89cc6249e8643e29f9a709cebc69d1d858ba4171e66c8eadd211f0c5112b3a9d",
+        "dryDurationSeconds": 3.174916666666667,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 7,
+        "billableCharactersProxy": 43,
+        "afpAt0135PerCharacter": 5.805,
+        "drySecondsFromPriorRoleRate": 2.464,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "SE02",
+      "english": "Hatch will not open!",
+      "text": "舱门打不开！",
+      "performanceNote": "One urgent obstruction report; do not add effort sounds.",
+      "role": "engineer",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "originalId": "SE02",
+      "group": "extra",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. One urgent obstruction report; do not add effort sounds."
+      ],
+      "use": "SE01 后方舱门受阻回应",
+      "original": {
+        "id": "SE02",
+        "english": "The hatch is jammed!",
+        "text": "舱门卡住了！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SE02-8f403cb53a226529/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SE02-8f403cb53a226529/voice.wav",
+        "audioSha256": "b05954c088887d6ab6614828786c3e2fab05c7157645b0fb46a2369778dcded7",
+        "dryDurationSeconds": 1.570625,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 4,
+        "billableCharactersProxy": 20,
+        "afpAt0135PerCharacter": 2.7,
+        "drySecondsFromPriorRoleRate": 1.562,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "SE03",
+      "english": "Leave it! Aft passage, keep together!",
+      "text": "别管它！走后方通道，跟紧！",
+      "performanceNote": "React immediately to the jammed hatch, redirect people with controlled force.",
+      "role": "commander",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND",
+      "originalId": "SE03",
+      "group": "extra",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. React immediately to the jammed hatch, redirect people with controlled force."
+      ],
+      "use": "SE01 撤离代表段第二主对白",
+      "original": {
+        "id": "SE03",
+        "english": "Use the aft passage! Keep moving!",
+        "text": "走后方通道！不要停！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SE03-2b68a55bba4858a1/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/SE03-2b68a55bba4858a1/voice.wav",
+        "audioSha256": "863574b3acc30cbb230032260ee18da54113b6898d4252eb527fd7fd2c3c3490",
+        "dryDurationSeconds": 2.7882083333333334,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 6,
+        "billableCharactersProxy": 37,
+        "afpAt0135PerCharacter": 4.995,
+        "drySecondsFromPriorRoleRate": 2.112,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "BG01",
+      "english": "On it. Checking now.",
+      "text": "收到，正在检查。",
+      "performanceNote": "Low-key, matter-of-fact background acknowledgment; close dry recording, no added distance effect.",
+      "role": "comms",
+      "direction": "calm",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "originalId": "BG01",
+      "group": "extra",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Low-key, matter-of-fact background acknowledgment; close dry recording, no added distance effect."
+      ],
+      "use": "已有平静舱内场景的短回应",
+      "original": {
+        "id": "BG01",
+        "english": "Aye, checking the panel.",
+        "text": "收到，正在检查面板。",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/BG01-74e2c366be950491/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/BG01-74e2c366be950491/voice.wav",
+        "audioSha256": "da135182421500d0eb8a01bcaef5855d5218546438be675d3ea1d11fe0c28ace",
+        "dryDurationSeconds": 1.8035833333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 4,
+        "billableCharactersProxy": 20,
+        "afpAt0135PerCharacter": 2.7,
+        "drySecondsFromPriorRoleRate": 1.702,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "BG02",
+      "english": "Stand clear!",
+      "text": "让开！",
+      "performanceNote": "One useful urgent warning, short and intelligible.",
+      "role": "engineer",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "originalId": "BG02",
+      "group": "extra",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. One useful urgent warning, short and intelligible."
+      ],
+      "use": "已有受袭舱内场景的短警示",
+      "original": {
+        "id": "BG02",
+        "english": "Get back!",
+        "text": "退后！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/BG02-460fc977e0a6de41/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/BG02-460fc977e0a6de41/voice.wav",
+        "audioSha256": "89f290e99f55cc99ed4e2f314f9ca19abb8afebcd197bc2a893b5565aadb6452",
+        "dryDurationSeconds": 1.1782083333333333,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 2,
+        "billableCharactersProxy": 12,
+        "afpAt0135PerCharacter": 1.62,
+        "drySecondsFromPriorRoleRate": 0.781,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "BG03",
+      "english": "This way! Stay together!",
+      "text": "这边！别走散！",
+      "performanceNote": "Calling to nearby crew while evacuating; no footsteps or breathing effects.",
+      "role": "comms",
+      "direction": "urgent",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "originalId": "BG03",
+      "group": "extra",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Calling to nearby crew while evacuating; no footsteps or breathing effects."
+      ],
+      "use": "已有撤离舱内场景的短引导",
+      "original": {
+        "id": "BG03",
+        "english": "This way! Keep together!",
+        "text": "这边！跟紧！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/BG03-6e3233a3ad754ece/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/BG03-6e3233a3ad754ece/voice.wav",
+        "audioSha256": "8c42ded5d68c36dabb99bc55b7e726cea6dc7e2a21661ca402dfae1239692c2d",
+        "dryDurationSeconds": 1.7995416666666666,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 4,
+        "billableCharactersProxy": 24,
+        "afpAt0135PerCharacter": 3.24,
+        "drySecondsFromPriorRoleRate": 1.702,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    },
+    {
+      "id": "HELP",
+      "english": "Core breached! Everybody back!",
+      "text": "堆芯破损！所有人退后！",
+      "performanceNote": "Very short emergency interruption, emphasize back, stop cleanly.",
+      "role": "engineer",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "originalId": "HELP",
+      "group": "extra",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "speech_rate": 0,
+      "context_texts": [
+        "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Very short emergency interruption, emphasize back, stop cleanly."
+      ],
+      "use": "已有求救急迫短插入",
+      "original": {
+        "id": "HELP",
+        "english": "Reactor breach! Get clear!",
+        "text": "反应堆破损！快离开！",
+        "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/HELP-5eccb477b308669e/job.json",
+        "audio": "ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/HELP-5eccb477b308669e/voice.wav",
+        "audioSha256": "9a828478ca3ead0fc0dd1afebba97d800650892d93ba49c2cb397d941990ae7f",
+        "dryDurationSeconds": 2.78025,
+        "generationStatus": "complete"
+      },
+      "estimate": {
+        "englishWords": 4,
+        "billableCharactersProxy": 30,
+        "afpAt0135PerCharacter": 4.05,
+        "drySecondsFromPriorRoleRate": 1.562,
+        "isMeasured": false
+      },
+      "generationStatus": "not_submitted",
+      "subjectiveReview": "not_performed"
+    }
+  ],
+  "roles": [
+    {
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "speaker": "en_female_dacey_uranus_bigtts"
+    },
+    {
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "speaker": "en_male_tim_uranus_bigtts"
+    },
+    {
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "speaker": "en_female_jane_uranus_bigtts"
+    },
+    {
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "speaker": "en_female_stokie_uranus_bigtts"
+    }
+  ],
+  "voiceProvenance": "AI synthesized English planned for Seed-TTS 2.0; original fictional dialogue; no generation performed in this file-authoring step.",
+  "sourceFiles": [
+    "Tools/Audio/EnhancementEnglish.json",
+    "Tools/Audio/cinematic_audio.py::EXTRA",
+    "ArtSource/Audio/CinematicAudio/generation-manifest.json"
+  ],
+  "groups": {
+    "narrative": [
+      "E001",
+      "E002",
+      "E003",
+      "E004",
+      "E005",
+      "E006",
+      "E007",
+      "E008",
+      "E009",
+      "E010",
+      "E011",
+      "E012",
+      "E013",
+      "E014",
+      "E015",
+      "E016",
+      "E017",
+      "E018",
+      "E019",
+      "E020",
+      "E021",
+      "E022",
+      "E023",
+      "E024",
+      "E025",
+      "E026",
+      "E027",
+      "E028",
+      "E029",
+      "E030",
+      "E031",
+      "E032",
+      "E033",
+      "E034",
+      "E035",
+      "E036",
+      "E037",
+      "E038",
+      "E039",
+      "E040"
+    ],
+    "combat": [
+      "B001",
+      "B002",
+      "B003",
+      "B004",
+      "B005",
+      "B006",
+      "B007",
+      "B008",
+      "B009",
+      "B010",
+      "B011",
+      "B012",
+      "B013",
+      "B014",
+      "B015",
+      "B016",
+      "B017",
+      "B018",
+      "B019",
+      "B020",
+      "B021",
+      "B022",
+      "B023",
+      "B024",
+      "B025",
+      "B026",
+      "B027",
+      "B028",
+      "B029",
+      "B030",
+      "B031",
+      "B032",
+      "B033",
+      "B034",
+      "B035",
+      "B036"
+    ],
+    "extra": [
+      "SC01",
+      "SC02",
+      "SA01",
+      "SA02",
+      "SE01",
+      "SE02",
+      "SE03",
+      "BG01",
+      "BG02",
+      "BG03",
+      "HELP"
+    ]
+  },
+  "timingPolicy": {
+    "method": "Rebuild timings from measured revised WAV and final Seed-only premix durations, retaining cue order and stage/cameraShot. Do not reuse the old generated time/duration values.",
+    "speedPolicy": "speech_rate 0; no time stretching, no silence inserted merely to meet a duration target.",
+    "openingTargetSeconds": [
+      480,
+      600
+    ],
+    "subtitlePolicy": "Generate sentence or clause subtitle cues from the final performance; full text here is the translation source, not one long caption held for an entire revised line.",
+    "mandatoryReview": "Actual generated opening duration and subtitle timings must be checked before Unity import."
+  },
+  "statePolicy": {
+    "idChanges": 0,
+    "roleChanges": 0,
+    "eventKindChanges": 0,
+    "stageChanges": 0,
+    "cameraShotChanges": 0,
+    "pendingOnlyChanges": 0,
+    "weightChanges": 0,
+    "importantChanges": 0,
+    "addedMechanics": 0,
+    "additionalShortVoiceCount": 0,
+    "additionalShortVoiceLimit": 24
+  },
+  "estimate": {
+    "allRewrittenExistingLines": 87,
+    "additionalShortVoices": 0,
+    "narrativeLines": 40,
+    "combatLines": 36,
+    "extraLines": 11,
+    "oldOpeningEnglishWords": 899,
+    "revisedOpeningEnglishWords": 1356,
+    "allEnglishWords": 1639,
+    "allBillableCharactersProxy": 9772,
+    "afpAt0135PerCharacter": 1319.22,
+    "oldMeasuredDrySeconds": 347.9465,
+    "oldMeasuredMixedOpeningSeconds": 387.9215833333334,
+    "oldMixOverheadSeconds": 39.97508333333337,
+    "revisedEstimatedDrySeconds": 524.96,
+    "revisedEstimatedMixedOpeningSecondsUsingOldOverhead": 564.935,
+    "secondsPerEnglishWordByRoleFromOldMeasuredOpening": {
+      "anchor": 0.3773384879725086,
+      "commander": 0.3520330086580087,
+      "engineer": 0.3904031914893617,
+      "comms": 0.42543288005578794
+    },
+    "isMeasured": false,
+    "caveat": "Character count times 0.135 AFP is a planning proxy. Only returned service text_words or actual bill establishes charged usage. Timing predicts unchanged delivery using role-specific old measured rates; new performances and remix must be measured."
+  }
+}

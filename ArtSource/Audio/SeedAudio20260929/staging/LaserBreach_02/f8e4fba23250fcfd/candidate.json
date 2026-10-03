@@ -1,0 +1,42 @@
+{
+  "id": "LaserBreach_02",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "LaserBreach_02",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/LaserBreach_02/job.json",
+    "sourceSha256": "6d53df9abd77b47335ab6ef580c6ecfce76d3a935d9321043761b89dd57717b0",
+    "targetSeconds": 1.2,
+    "loop": false,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/LaserBreach_02/job.json",
+  "sourceSha256": "6d53df9abd77b47335ab6ef580c6ecfce76d3a935d9321043761b89dd57717b0",
+  "sha256": "824e8569b0757948527f96947e6e83175ab949498cb9bd758bd5c36d3c66fadc",
+  "recipe": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 57600,
+    "rate": 48000,
+    "targetSeconds": 1.2,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 57600,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 57600,
+    "linearGain": 1.2377400780607621,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "824e8569b0757948527f96947e6e83175ab949498cb9bd758bd5c36d3c66fadc",
+    "durationSeconds": 1.2,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -20.524986278152,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

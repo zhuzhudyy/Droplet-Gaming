@@ -1,0 +1,25 @@
+{
+  "id": "Narrative_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "2204ce5e-c0c3-4cc7-959c-edfc42b5c783",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 1: quiet wonder, slow bowed-metal harmonics and widely spaced low synth pulses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:11:36.063224+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "9594e6a75fba554aadf7b181f684f349fa53c54357cfdb6724a9942069a3d94a",
+  "originalDurationSeconds": 60,
+  "actualSeconds": 60.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:12:40.669144+00:00"
+}

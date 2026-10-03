@@ -1,0 +1,12 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "scene": "Assets/_Project/Scenes/FleetAssault_Enhanced.unity",
+    "dirty": false,
+    "playing": false,
+    "ships": 2000,
+    "frameTimingStats": false
+  }
+}

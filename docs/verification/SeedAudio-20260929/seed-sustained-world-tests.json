@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 0.21,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CinematicAudioTests.ImmediateContactDeduplicatesAndWorldAudioRemainsBounded",
+      "Status": "Passed",
+      "Duration": 0.0524752,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CinematicAudioTests.ReactorAndRetreatMayCoexistForOneShipButRepeatedKindDoesNotDoubleLoop",
+      "Status": "Passed",
+      "Duration": 0.0322199,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CinematicAudioTests.ReactorRetreatEscapeAndLaserBreachUseTheirEventAudioWithoutExtraSources",
+      "Status": "Passed",
+      "Duration": 0.0208886,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CinematicAudioTests.RecentCombatIntensityRisesThenFullyDecaysWithoutLifetimeKillCount",
+      "Status": "Passed",
+      "Duration": 0.0224899,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CinematicAudioTests.SpeakerExplosionStopsWholeCabinAndAllAuxiliaryTracks",
+      "Status": "Passed",
+      "Duration": 0.0184533,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.CinematicAudioTests.SustainedReactorAndRetreatFollowShipsAndStopOnTheirOwnResolution",
+      "Status": "Passed",
+      "Duration": 0.0219264,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

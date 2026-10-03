@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E020",
+    "text": "The point is becoming a shape now. Rounded nose, narrow tail. No visible attitude jets. Approach speed has not changed."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The point is becoming a shape now. Rounded nose, narrow tail. No visible attitude jets. Approach speed has not changed.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "67633f7e-94d6-4a24-acd4-a5c7fe54a5a4",
+  "sha256": "9d0d0343ead316144ca555443168f3accfed8264267238aa5b22147565228326",
+  "duration_seconds": 8.780125,
+  "usage": {
+    "text_words": 119
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "accepted": true,
+  "sha256": "73f5cf91931878aadb3f76a62126e5f3d09c859152637adfe872ec9d60eece80",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E003/26814acd6d6e0757/mix_recipe.json",
+  "sourceSha256": "52d4ee907070ff8ca671a3c6a2bbcaa04ddc0fa34ff9c411db400dc7f833845a",
+  "durationSeconds": 11.121833333333333,
+  "english": "We have put cities between the planets and sent our voices farther than their builders could travel. Now something has come the other way, and our first question is what it might give us.",
+  "text": "我们在行星之间建起城市，把声音送到连建造者也无法抵达的远方。如今，有什么从相反的方向到来，我们首先想到的，却是它能带给我们什么。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 10.621833,
+      "english": "We have put cities between the planets and sent our voices farther than their builders could travel. Now something has come the other way, and our first question is what it might give us.",
+      "text": "我们在行星之间建起城市，把声音送到连建造者也无法抵达的远方。如今，有什么从相反的方向到来，我们首先想到的，却是它能带给我们什么。",
+      "role": "anchor"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E003-1ce7a266ffffab88/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json"
+  ],
+  "sourceHashes": [
+    "5122cbb194c8790a1388dde67f13ab89bcb5b73f8718df02414cdbdee1075a8f",
+    "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+    "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+    "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E003-1ce7a266ffffab88/job.json",
+      "sha256": "5122cbb194c8790a1388dde67f13ab89bcb5b73f8718df02414cdbdee1075a8f",
+      "usedSha256": "5122cbb194c8790a1388dde67f13ab89bcb5b73f8718df02414cdbdee1075a8f",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+      "sha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+      "usedSha256": "6cbf56412bef92b9d50e91ee18b8ccb23936186a3acad333fc3aaf859d5b5599",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json",
+      "sha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+      "usedSha256": "8dc709afd428ace4d24e330c1e275c195aea83bf4768165fe698734a4f87f18c",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

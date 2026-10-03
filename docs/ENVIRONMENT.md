@@ -1,5 +1,49 @@
 # Verified environment
 
+## 全 Seed 音频交付环境 — 2026-09-29（最新状态）
+
+工程仍使用 Unity **6000.5.10f1 (3bd4f66ad299)**、URP **17.5.0**、Input System **1.20.0**、Timeline **1.8.13**、Test Framework **1.7.0** 与 Pipeline **0.6.0-exp.1**；没有更换 Editor、管线或包。Blender 本批未运行，历史验证版本为 **5.2.1 LTS**。本批音频生成、后期与检查使用已有 Python **3.14.3**、NumPy **2.4.3** 和 SciPy **1.17.1**；这些开发工具不进入离线玩家。既有 FFmpeg **9.0.1** 属于历史批次环境记录，不将其列为新版素材产生的必经步骤。
+
+本机用户环境中分别保存 `VOLC_AUDIO_API_KEY`（Seed Audio 1.0）与 `VOLC_SPEECH_API_KEY`（Seed-TTS 2.0），密钥不在项目资源或日志中。真实云端产出为 **131** 条独立非语音 Seed Audio 成品与 **87** 条新版 TTS 干声；本机从 Seed 源材混成 **158** 条通讯。六类非语音代表样音得到用户听感认可；其余独立条目尚未逐项人工试听。原始、处理后及发布音频与请求侧车保存在 `ArtSource/Audio/SeedAudio20260929/`。旧 Ark / APP ID 拒绝记录属于早期诊断，不代表现用 Speech 凭据状态。
+
+实际 Unity Editor 导入 **131** 条效果和 **158** 条通讯，并通过 Editor API 保存 `Assets/_Project/Scenes/FleetAssault_SeedAudio.unity`。实际运行时 PlayMode **6/6**、EditMode **3/3**、新场景集成 PlayMode **3/3**、持续世界音源 PlayMode **6/6**，另有验证器迭代器专项 **1/1**；音频工具离线测试 **64/64**。持续音修复后 Windows x64 构建 `Builds/Windows-SeedAudio-20260929/DropletGaming.exe` 成功（**0 错误、1 警告**，最终 BuildReport **353,197,031 bytes / 26.07 s**）。本机 **AMD Ryzen 9 7940HX、RTX 4060 Laptop GPU、Direct3D12、1920×1080** 最新独立玩家在保存的 2000 舰场景通过 **34** 项自动检查，**0** 失败，另 **3** 项需要自然长时路线或人工试听；实际录制六段监听器 WAV 和六张 PNG。1280×720 亦运行验证，但 1920×1080 为本轮主要审查画面。最终证据见 `verification/SeedAudio-20260929/player-validation-release/`。下文旧批次的“未运行”仅描述当时状态。
+
+Unity Editor API 另将 `FleetAssault_SeedAudio.unity` 设为项目 Build Settings 唯一启用场景；前版 CinematicAudio 场景留在列表但禁用。现有 Seed Windows 玩家原本就通过显式新场景列表构建，仍是有效证据。
+
+## Seed Audio production preparation — 2026-09-29
+
+Confirmed unchanged Unity 6000.5.10f1 (3bd4f66ad299), URP 17.5.0, Input System 1.20.0, Timeline 1.8.13, Test Framework 1.7.0. No new packages or third-party tools installed. New domestic Seed Audio client uses Python standard-library HTTP/WAV plus the existing NumPy; model seed-audio-1.0, /api/v3/tts/create, 48 kHz WAV requested with source channels preserved. Official list price 1 CNY/minute, 120-second maximum; 2 CNY reserved per request under user-provided 60 CNY cap.
+
+Actual first LASER_R1 call using locally saved ARK_API_KEY returned HTTP 401 / 45000010 / Invalid X-Api-Key at 2026-09-29T09:00:20Z. Zero audio outputs, unknown usage retains 2 CNY reservation. No balance query. A separate local password dialog for the documented Speech-platform key is available as Set-SeedAudioCredential.ps1, saving VOLC_AUDIO_API_KEY without replacing existing keys. No Unity compilation, tests, build, import or player verification performed for this new batch yet; offline client tests are separate.
+
+## Seed-TTS soundscape capability trial — 2026-09-29
+
+Read the installed project versions again: Unity **6000.5.10f1 (3bd4f66ad299)**, URP **17.5.0**, Input System **1.20.0**, Timeline **1.8.13**, Test Framework **1.7.0**, Pipeline **0.6.0-exp.1**. No Editor/package upgrade or Unity asset change in this trial. Unity compilation, tests, build and player were **not run**, because the six-category content gate did not pass. Blender was not invoked; the retained authored-source environment remains Blender 5.2.1 LTS from the preceding batch.
+
+Actually used Python **3.14.3**, NumPy **2.4.3**, standard-library unittest (**24/24** final); PowerShell **7.6.5** for orchestration and installed Windows PowerShell/System.Speech **4.0.0.0** for offline first-utterance dictation on Windows **10.0.26200.0**. The recognizer reports **Microsoft Speech Recognizer 8.0 for Windows (Chinese Simplified - PRC)**. Only the installed zh-CN recognizer was available. SciPy **1.17.1** remains installed; no new dependencies were installed. The soundscape WAV inspection itself uses NumPy and wave, with no audio source synthesis or postprocessing.
+
+Seed-TTS 2.0 Agent Plan endpoint executed **19** actual requests: English Tim control plus six non-speech categories with up to two revisions each; **17** complete native 24 kHz mono PCM WAVs and **2** invalid/empty outputs. Chinese revisions use the official example voice `zh_female_vv_uranus_bigtts`; English control/early laser use `en_male_tim_uranus_bigtts`. Service usage totals **313 text_words / 42.255 AFP conversion**, with **495.720 AFP** separately reserved for missing usage. Existing local key works. No console invoice/remaining account balance is claimed.
+
+This session's tools do not provide audio perception input. Subjective listening was **not performed**; local ASR is supporting evidence for prompt leakage only. The initial offline test run failed because one test read a Chinese UTF-8 ledger with Windows' GBK default; explicit UTF-8 fixed it, and the failed log is retained. See [trial report](verification/SeedTTS-Soundscape-20260929/REPORT.md) for technical/content results separately.
+
+## Cinematic audio / cubic fleet batch — 2026-09-19
+
+Actual current batch: Unity **6000.5.10f1 (3bd4f66ad299)**, URP **17.5.0**, Timeline **1.8.13**, Input System **1.20.0**, Test Framework **1.7.0**, Pipeline **0.6.0-exp.1**; no upgrades. No Cinemachine package is installed, so the existing ChaseCamera is extended. Unity CLI beta8 controls the one local Editor. Actual targeted checks: 6 EditMode and 27 PlayMode cases passed (18 shots, 1 native rendered LOD lifecycle, 3 audio, 5 saved full-fleet scene); standalone results are recorded separately in CINEMATIC_AUDIO_ACCEPTANCE.md.
+
+Blender **5.2.1 LTS**, build **9e2066aef7ef**, embedded Python **3.13.13** actually generated, saved, reopened and repeated the 2000-instance layout. Audio authoring actually used Python **3.14.3**, NumPy **2.4.3**, SciPy **1.17.1**, FFmpeg **9.0.1-full_build-www.gyan.dev**. Seed-TTS 2.0 Agent Plan endpoint completed 87 real English voice requests; the previously recorded voice-authorization failure below is historical. One separate non-speech probe returned 45002001 without audio. No unverified Seed SFX endpoint was added. Original programmatic sound effects supply the non-speech layers.
+
+Audacity is installed but its automation was unavailable and it was not operated. No Audacity project or subjective listening pass is claimed. Existing tools only; no software or package installation. Runtime plays imported local clips and contains no cloud, FFmpeg or Audacity calls. Actual rendered player: AMD Ryzen9 7940HX / NVIDIA GeForce RTX4060 Laptop / Direct3D12 / 1920×1080. This batch did not optimize or certify frame rate.
+
+The earlier entries below describe their respective historical checks, not the latest readiness state.
+
+Voice tooling update 2026-09-19: Python 3.14.3, standard-library unittest 9/9; Seed-TTS 2.0 only. User speech key is readable; live authentication/synthesis unverified. FFmpeg 9.0.1-full_build-www.gyan.dev is installed and passed local synthetic-video extraction (1 second, 48 kHz/16-bit/mono); the voice tool no longer uses it. PowerShell helper syntax passed; persistence helper not executed.
+
+## 火山引擎配音工具 — 2026-09-19
+
+本轮实查 `ProjectSettings/ProjectVersion.txt`：Unity **6000.5.10f1（3bd4f66ad299）**；manifest：URP **17.5.0**、Input System **1.20.0**、Timeline **1.8.13**、Unity Test Framework **1.7.0**、ugui **2.5.0**、Pipeline **0.6.0-exp.1**。全部保留。本轮未运行 Unity 或 Blender；Blender **5.2.1 LTS** 是历史记录，不算本轮实查。
+
+
+
 ## Narrative Combat 六项集成 — 2026-09-12；路径复核2026-09-13
 
 实际实施沿用Unity **6000.5.10f1（3bd4f66ad299）**、URP **17.5.0**、Timeline **1.8.13**、Input System **1.20.0**、Test Framework **1.7.0**、ugui/TextMeshPro **2.5.0**、Pipeline **0.6.0-exp.1**；2026-09-13当前ProjectVersion与manifest复核一致，没有升级包或迁移管线。本轮复用既有FusionFrigate/Droplet模型及挂点，**未执行Blender**；历史源资产由Blender5.2.1 LTS创作，不将历史建模校验当成本轮执行。48条人声实际由本机Microsoft Huihui离线导出，另2提示音，无在线语音服务或新付费依赖。
@@ -271,3 +315,14 @@ Editor环境唯一Mesh+Texture原生大小6.688 MiB；可见Player全局Unity分
 实际 Unity 编译通过，专项 EditMode **3/3**、PlayMode **2/2**。临时 Input System 合成设备驱动真实 FixedUpdate 完成 528.438 m / 4.860 s 连续五舰飞行、1,500 分和暂停/刹车/转向/重开检查；不是物理键鼠的主观验收。实际 Unity 相机/屏幕截图共 9 张，均 1920×1080，复用现有 URP 灯光及水滴材质；中性近景用临时内存材质，拍摄后恢复全部临时配置。未生成新构建或执行本轮独立 Player/GPU 性能测试。
 
 本轮动态 Roslyn eval 出现 Illegal byte sequence，后续通过编译菜单完成操作；首次 EditMode 工具请求超时，随后查询获得实际 3/3 完成结果。结束时 Editor ready、Play stopped、测试场景无未保存修改，近期捕获错误为 0。未运行会重建 TestRange 的旧作者测试。完整证据与边界见 [DROPLET_UNITY_IMPORT_REPORT.md](DROPLET_UNITY_IMPORT_REPORT.md)。
+
+
+## Enhancement integration — 2026-09-19
+
+Current project `C:/学习/玩/Unity/Trysolar Drip`; preserved Unity **6000.5.10f1 (3bd4f66ad299)**, URP **17.5.0**, Timeline **1.8.13**, Input System **1.20.0**, Unity Test Framework **1.7.0**, Pipeline **0.6.0-exp.1**. No Blender operation or geometry re-export in this batch (existing Blender 5.2.1 sources retained). Python **3.14.3** runs the existing Seed-TTS 2.0 authoring tool and procedural PCM synthesis; FFmpeg **9.0.1-full_build-www.gyan.dev** located. Audacity not used. No new software installed.
+
+Actual Editor compile and full PlayMode **91/91**, new fleet EditMode **6/6**, audio offline Python **14/14**. Seed-TTS real call is **blocked HTTP403 / resource permission not granted**, not a passed live synthesis. New voice/listening and 4–6 minute opening acceptance remain blocked. The real AudioMixer was authored through installed Editor APIs; the isolated solar feature uses installed URP17.5 RenderGraph/Blitter/depth APIs.
+
+Hardware: AMD Ryzen9 7940HX, NVIDIA GeForce RTX4060 Laptop GPU; standalone Direct3D12, native 1920x1080, renderScale1, no frame generation. Final player timing and PID-scoped WDDM memory evidence are reported separately in `ENHANCEMENT_ACCEPTANCE.md`. Scene and build paths are `Assets/_Project/Scenes/FleetAssault_Enhanced.unity` and `Builds/Windows-Enhanced-20260919/DropletGaming.exe`.
+
+Follow-up visual repair: the contact-flash lifetime regression class was rerun in the actual Editor, **4/4 passed** after the initial full91 pass. The verification build enables Unity FrameTiming statistics; the project's original `PlayerSettings.enableFrameTimingStats=false` was restored after building. FrameTiming's invalid GPU timestamp values are counted and rejected rather than reported as physical GPU time. Existing PC quality preset and High effects are used; no dynamic resolution or frame generation was added. See the final accepted run and retained intermediate failed observation-window run in the acceptance report.

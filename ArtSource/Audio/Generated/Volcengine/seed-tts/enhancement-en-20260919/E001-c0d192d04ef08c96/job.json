@@ -1,0 +1,25 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E001",
+    "text": "Tonight, every public screen carries the same picture: a silver point, crossing the outer watch line without a sound."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Tonight, every public screen carries the same picture: a silver point, crossing the outer watch line without a sound.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 5
+      },
+      "additions": "{\"context_texts\": [\"Speak in natural conversational English, calm and thoughtful, with connected phrases and subtle human hesitation. This is an original fictional radio drama. No music or sound effects.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "status": "submission_unknown",
+  "request_id": "50657149-7e13-46fe-a91f-7e67aba02c7a"
+}

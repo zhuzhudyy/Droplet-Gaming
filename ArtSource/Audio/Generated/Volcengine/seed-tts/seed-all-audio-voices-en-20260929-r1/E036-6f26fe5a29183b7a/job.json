@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E036",
+    "text": "If a hull is pierced, stay clear of its reactor. The impact may end before the failure does. Do not approach a silent wreck because the light has faded. Keep its channel open and give it room."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "If a hull is pierced, stay clear of its reactor. The impact may end before the failure does. Do not approach a silent wreck because the light has faded. Keep its channel open and give it room.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Urgent and concrete warning about delayed failure; avoid melodrama or artificial sobbing.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "8f386615-5393-4968-b26f-cabddd4e73f5",
+  "sha256": "48174cde319ee0475712818a6b14131dda145acd3380193fc0e1184c4e4086ae",
+  "duration_seconds": 12.758166666666666,
+  "usage": {
+    "text_words": 192
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "duration": 21.01,
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests.NarrativePauseSkipAndThreeRestartsRetainAudioAndGameplayState",
+      "Status": "Passed",
+      "Duration": 8.6593442,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests.RealFleetExplosionFallsInsideThePreBlastCaptureWindow",
+      "Status": "Passed",
+      "Duration": 7.1667221,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests.SavedFleetAndSeedCatalogContainAllIndependentRecordedCues",
+      "Status": "Passed",
+      "Duration": 5.1395486,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

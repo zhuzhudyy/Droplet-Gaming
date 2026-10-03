@@ -1,0 +1,25 @@
+{
+  "id": "Ready_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "4d457988-9d17-4a61-b197-25d1f474d0c5",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Sparse menu score, glassy synth chords over a restrained sub-bass bed; no climax. Suspended fifths, distant metallic harmonic accents and spacious pauses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:10:56.435804+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "8556e11d5ae5432f6eb8063723c751e6bbc79c3528776727229b9fac16c7eee7",
+  "originalDurationSeconds": 60,
+  "actualSeconds": 60.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:11:36.054938+00:00"
+}

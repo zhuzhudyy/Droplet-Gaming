@@ -1,0 +1,37 @@
+{
+  "id": "Focus_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "90097d9188895b829571865fc328078b35cb2eb6c976c95d1e6efdcfc275acd1",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Focus_01/job.json",
+  "sourceSha256": "846a7cc1c5fe57b9ad51bea18fc972e8ebf741c988c7cde2bbd658bbc82507ac",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.15 seconds. Tiny restrained interface focus sound, precise attack and no ringing tail. One soft ceramic-like tick with a faint electronic glint. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Focus_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 9600,
+    "rate": 48000,
+    "targetSeconds": 0.15,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 7200,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 576,
+    "outputFrames": 7200,
+    "linearGain": 8.0,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "90097d9188895b829571865fc328078b35cb2eb6c976c95d1e6efdcfc275acd1",
+    "durationSeconds": 0.15,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -20.428691204051482,
+    "rmsDbFS": -37.0960847797595,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

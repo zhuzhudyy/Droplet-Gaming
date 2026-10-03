@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B003",
+    "text": "Surface intact. Not even a mark."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Surface intact. Not even a mark.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Disbelief under a factual report; clipped final phrase.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "12d653f7-6010-466e-b342-9f2bf6f4abcf",
+  "sha256": "220a0412a4e4ada996c228b2a60a0a73780d679454b90208085348564d2e771e",
+  "duration_seconds": 2.6182916666666665,
+  "usage": {
+    "text_words": 32
+  }
+}

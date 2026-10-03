@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "SA02",
+    "text": "Panel is burning! Cutting power!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Panel is burning! Cutting power!",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A hurried technical response from nearby, crisp enough to mix behind the commander.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "ed571f67-fa70-494c-bd11-8e00da41c9d2",
+  "sha256": "43c12af29632fdf92e174d908de32f47cf8557e181aaa8f2f21e68b54dfebc9a",
+  "duration_seconds": 2.2024583333333334,
+  "usage": {
+    "text_words": 32
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E022",
+    "text": "We have crossed weapons to cover the corridor without closing it. The object cannot threaten every hull at once. That is our working assumption."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "We have crossed weapons to cover the corridor without closing it. The object cannot threaten every hull at once. That is our working assumption.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "eca5790d-4393-490e-bd5d-2acd445b3cef",
+  "sha256": "2e94fe29e1991b4729786d2a8fa69116076cd3c14b1962936e857d210e1bfecf",
+  "duration_seconds": 8.199458333333334,
+  "usage": {
+    "text_words": 144
+  }
+}

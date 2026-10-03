@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B008",
+    "text": "Contact confirmed. Energy is leaving the surface, not entering it."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Contact confirmed. Energy is leaving the surface, not entering it.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "4838dd37-4cf5-4f07-9f91-badb40efa566",
+  "sha256": "c330eba48059111aca96a1391ab5615c02384b091eb4157dcd0163c439686c06",
+  "duration_seconds": 5.000666666666667,
+  "usage": {
+    "text_words": 66
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "BattleMedium_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "fbe06163c21bede8780331e22d03673da74b4e1d57e055e8688c6ed134495eb2",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BattleMedium_02/job.json",
+  "sourceSha256": "17b6ad7622de37e6bd75678d3efded3b403b3630b484c19fd64932e3e3aeddfb",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Moderate battle score, firm propulsion while leaving the midrange open. Measured tom pattern with plucked synth cells and evolving minor chords. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "BattleMedium_02",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 3600000,
+    "rate": 48000,
+    "targetSeconds": 75.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 3600000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 3528000,
+    "linearGain": 0.3547330076687947,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "fbe06163c21bede8780331e22d03673da74b4e1d57e055e8688c6ed134495eb2",
+    "durationSeconds": 73.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.412717748621596,
+    "rmsDbFS": -26.00208776053686,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.006378173828125
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

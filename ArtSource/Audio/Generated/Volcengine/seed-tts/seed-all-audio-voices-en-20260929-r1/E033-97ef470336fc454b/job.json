@@ -1,0 +1,26 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E033",
+    "text": "The latest return is sharper. A continuous surface, no opening, no joint, no visible heat rejection. Keep every sensor recording through first contact. If our explanation fails, these readings may be all the next crew has."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The latest return is sharper. A continuous surface, no opening, no joint, no visible heat rejection. Keep every sensor recording through first contact. If our explanation fails, these readings may be all the next crew has.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Concentrated, precise; concern should enter only when mentioning the next crew.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "submission_unknown",
+  "request_id": "bdfbca5a-744b-42e4-a89f-7ec71220ea20"
+}

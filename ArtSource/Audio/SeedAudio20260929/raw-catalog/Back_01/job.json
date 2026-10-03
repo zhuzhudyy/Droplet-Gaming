@@ -1,0 +1,26 @@
+{
+  "id": "Back_01",
+  "cueId": "Back_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "a970f5a5-0e4d-4f56-a68b-0b972b8c4240",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short interface return cue, calm and understated. A soft reverse glass ripple ending in a dry tap. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:56:17.657704+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "1b5706e509ca7c6203e4bc1896a90219d52a4d1bdec908f77fc7ef648e546590",
+  "originalDurationSeconds": 0.3,
+  "actualSeconds": 0.3,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:56:28.196738+00:00"
+}

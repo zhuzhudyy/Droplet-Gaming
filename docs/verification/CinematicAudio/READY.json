@@ -1,0 +1,12 @@
+{
+  "status": "actual_audio_assets_ready_for_root_Unity_import",
+  "realSeedVoiceRequests": 87,
+  "completeSceneMixes": 80,
+  "subtitleCues": 126,
+  "openingDuration": 387.9215833333334,
+  "nonSpeechSeed": "One actual supported-TTS empty-text probe returned 45002001; no supported configured non-speech Seed endpoint found, no sound-description text spoken",
+  "proceduralSource": "Original modal heel/toe deck contacts, steel mechanisms, console, alarm, receiver and transient effects; not field recordings",
+  "audacity": "Audacity installed; no scripting automation connected. FFmpeg used for all repeatable edits. No Audacity project claimed.",
+  "listening": "待人工试听; no subjective acoustic/emotional acceptance asserted",
+  "ready": true
+}

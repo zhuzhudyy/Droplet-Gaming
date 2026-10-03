@@ -1,0 +1,37 @@
+{
+  "id": "Combo_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "e7ffdd2c88c37401d1ef0c2888e27e050b20cbd95d980f6f2c11590c2a58811a",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Combo_02/job.json",
+  "sourceSha256": "52c282fc49bcf6079585942fc8f426c0ef58104f1466f199288ab6b876d1324a",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Short score-multiplier increase cue; distinct rhythmic pattern and clean tail. Second tier: a quick pair of crystalline notes over a tiny bass pulse. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Combo_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 24000,
+    "rate": 48000,
+    "targetSeconds": 0.5,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 24000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 1920,
+    "outputFrames": 24000,
+    "linearGain": 5.417071779275633,
+    "targetLevelDbFS": -7
+  },
+  "qa": {
+    "sha256": "e7ffdd2c88c37401d1ef0c2888e27e050b20cbd95d980f6f2c11590c2a58811a",
+    "durationSeconds": 0.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.0005506829029605,
+    "rmsDbFS": -20.888966484228444,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

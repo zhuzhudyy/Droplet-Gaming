@@ -1,0 +1,36 @@
+{
+  "id": "Aftermath_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "3d8ffc9ca1a7288402fc0aaee179c17faee35de78c9bdbd170e3633c53c936f9",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Aftermath_01/job.json",
+  "sourceSha256": "f3e825f5ffca1ce92d56d28b6941569104e9899d8caf39efc1454ba822d81508",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Restrained aftermath score, energy gently settling into empty space. Long decaying piano-like metallic notes over a thinning low synth chord; sombre, no triumphant fanfare. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "Aftermath_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.41641780785362253,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "3d8ffc9ca1a7288402fc0aaee179c17faee35de78c9bdbd170e3633c53c936f9",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.788962352050811,
+    "rmsDbFS": -26.002308617168275,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.004791259765625
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B035",
+    "text": "We heard the distress call. Mark the position and continue withdrawal."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "We heard the distress call. Mark the position and continue withdrawal.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "e039fe44-e54a-4ddb-af33-a125a19e1f26",
+  "sha256": "6049e66b695bffeb3f4e077a5f3400885cd33cfb8fcf4d63aa81d0ccbff18fce",
+  "duration_seconds": 4.388708333333334,
+  "usage": {
+    "text_words": 70
+  }
+}

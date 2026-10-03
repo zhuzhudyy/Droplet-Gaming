@@ -1,0 +1,117 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E006",
+  "fingerprint": "736ce14f53298f5f8c76ca325e0ad72d50565d4971d599f90f7846ef0da82b81",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E006",
+    "templateSha256": "8d1d03fcf7d64f21fcf23c8b777b29505b6b5423bd3ebbebf5d02f3307aeb2b9",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 14.090875,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E006",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E006-fd4f4ed99a46067c/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E006-fd4f4ed99a46067c/job.json",
+        "sha256": "9632e2ebbac2fd5040c8d973b10f2f11b30e4feaa750f30da4917d43bffd5132",
+        "sourceSha256": "9632e2ebbac2fd5040c8d973b10f2f11b30e4feaa750f30da4917d43bffd5132",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 4.171366135702432,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+        "sha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+        "sourceSha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+        "model": "seed-audio-1.0",
+        "start": 0.05,
+        "oldGain": 0.27,
+        "perspective": "room",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+        "sha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+        "sourceSha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+        "model": "seed-audio-1.0",
+        "start": 7.637584,
+        "oldGain": 0.16,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "environment",
+        "sourceId": "CabinBed_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/CabinBed_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+        "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+        "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.65,
+        "perspective": "room",
+        "loop": true
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+        "sha256": "6cbf56412bef92b9d50e91ee18b8ccb23936186a3acad333fc3aaf859d5b5599",
+        "sourceSha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json",
+        "sha256": "8dc709afd428ace4d24e330c1e275c195aea83bf4768165fe698734a4f87f18c",
+        "sourceSha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+        "model": "seed-audio-1.0",
+        "start": 13.880875,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 13.590875,
+        "english": "For the record, silence is all we have measured. No exhaust spectrum, no readable markings, no view beneath the surface. I know the shape invites comparisons. Please keep them out of the instrument log.",
+        "text": "记录在案：我们测到的只有沉默。没有尾气光谱，没有可辨识标记，也无法看到表面之下。我知道它的外形容易引起联想，但请不要把联想写进仪器记录。",
+        "role": "engineer"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "7355cebab0fbad80ea7ece9238691679fd294db28e60cafadcb3763619bb424c",
+      "seconds": 14.090875,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -3.3125733089465403,
+      "rmsDbFS": -21.333737375206386,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

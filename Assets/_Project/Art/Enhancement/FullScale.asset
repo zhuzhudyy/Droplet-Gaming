@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c5b82cc8ecc4d4081c87f78cae6743, type: 3}
+  m_Name: FullScale
+  m_EditorClassIdentifier: DropletPrototype.Runtime::DropletPrototype.CombatScaleSettings
+  metersPerUnityUnit: 100
+  cruiseMetersPerSecond: 30000
+  sprintMetersPerSecond: 150000
+  accelerationMetersPerSecondSquared: 60000
+  brakeMetersPerSecondSquared: 150000
+  speedAdjustmentMetersPerSecondSquared: 15000
+  strafeMetersPerSecond: 6000
+  formationSpacingMeters: {x: 75000, y: 50000, z: 100000}
+  fleeMinMetersPerSecond: 2000
+  fleeMaxMetersPerSecond: 8000
+  fleeAccelerationMetersPerSecondSquared: 1400
+  engagementMetersPerSecond: 250
+  engagementRangeMeters: 250000
+  nearDecisionRangeMeters: 200000
+  nearDecisionInterval: 0.12
+  farDecisionInterval: 0.6
+  fleeTurnDegreesPerSecond: 16
+  avoidanceDistanceMeters: 16000
+  nearbyPanicRadiusMeters: 175000
+  fleetLossRetreatFraction: 0.08
+  reactionDelaySeconds: {x: 1, y: 3}
+  explosionDelaySeconds: {x: 2, y: 5}
+  escapeRadiusMeters: 2600000
+  arenaBoundaryMeters: 3200000
+  randomSeed: 73191
+  spatialCellMeters: 100000

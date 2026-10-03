@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "SA01",
+    "text": "We have a hit on the bridge! Seal the forward doors. Stay at your stations."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "cfaef033-ea5e-4272-b88f-eb47051a07d3",
+  "sha256": "184a96a4e9d7d75bc571b3fd00d5d18d15c764dfd9e37639340b7baa2a1ac9db",
+  "duration_seconds": 5.400041666666667,
+  "usage": {
+    "text_words": 75
+  }
+}

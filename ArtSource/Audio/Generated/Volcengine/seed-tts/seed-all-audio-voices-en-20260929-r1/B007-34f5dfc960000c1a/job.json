@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B007",
+    "text": "Hold fire! Friendly hull behind it!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Hold fire! Friendly hull behind it!",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Sharp command, then essential reason; do not scream.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "1dc9e1b9-cfee-48c6-8c21-c99b6d227558",
+  "sha256": "f485db7b056b2a753f55833648623d563073e54fc44d3295be8f2905da321c99",
+  "duration_seconds": 4.398625,
+  "usage": {
+    "text_words": 35
+  }
+}

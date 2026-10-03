@@ -1,0 +1,76 @@
+{
+  "source": "PlayerAccepted/report.json, normal S-key 150 UU/s input before LOD-warning repair",
+  "target": "SPAWN_Small_FS1C12R18",
+  "events": [
+    {
+      "kind": "HullPenetrated",
+      "attacker": "Droplet",
+      "target": "SPAWN_Small_FS1C12R18",
+      "damage": "FatalPending",
+      "id": 17179869308,
+      "generation": 4,
+      "time": 5.499995231628418,
+      "position": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 957.1422119140625
+      }
+    },
+    {
+      "kind": "RescueRequested",
+      "attacker": "Droplet",
+      "target": "SPAWN_Small_FS1C12R18",
+      "damage": "FatalPending",
+      "id": 17179869309,
+      "generation": 4,
+      "time": 5.499995231628418,
+      "position": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 957.1422119140625
+      }
+    },
+    {
+      "kind": "ReactorUnstable",
+      "attacker": "Droplet",
+      "target": "SPAWN_Small_FS1C12R18",
+      "damage": "FatalPending",
+      "id": 17179869346,
+      "generation": 4,
+      "time": 7.699993133544922,
+      "position": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 983.8441162109375
+      }
+    },
+    {
+      "kind": "CommunicationInterrupted",
+      "attacker": "Droplet",
+      "target": "SPAWN_Small_FS1C12R18",
+      "damage": "Exploded",
+      "id": 17179869369,
+      "generation": 4,
+      "time": 10.36004638671875,
+      "position": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 980.6768188476562
+      }
+    },
+    {
+      "kind": "ShipExploded",
+      "attacker": "Droplet",
+      "target": "SPAWN_Small_FS1C12R18",
+      "damage": "Exploded",
+      "id": 17179869370,
+      "generation": 4,
+      "time": 10.36004638671875,
+      "position": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 980.6768188476562
+      }
+    }
+  ]
+}

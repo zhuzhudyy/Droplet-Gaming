@@ -20,12 +20,14 @@ namespace DropletPrototype
         [Tooltip("Uses initialSpeed in Unity units; no separate cinematic world scale.")]
         public bool positionFromFlightDuration = true;
         public event Action Completed;
+        public event Action Skipped;
         public bool IsActive { get; private set; }
         public bool IsPaused { get; private set; }
         public float Elapsed { get; private set; }
         public int CompletionCount { get; private set; }
         public int CueCount => playedCues.Count;
         public int CurrentShot { get; private set; }
+        public int CurrentStage { get; private set; }
         public bool AutopilotEnabled { get; private set; }
         readonly HashSet<int> playedCues = new HashSet<int>();
         bool cameraWasEnabled;
@@ -37,7 +39,8 @@ namespace DropletPrototype
         {
             Cancel();
             if (motor == null || director == null || timeline == null) { Debug.LogError("Narrative approach requires motor, saved Timeline and director.", this); IsActive = true; Complete(); return; }
-            CompletionCount = 0; Elapsed = 0; CurrentShot = 0; playedCues.Clear(); IsActive = true; IsPaused = false; AutopilotEnabled = false;
+            duration = (float)timeline.duration;
+            CompletionCount = 0; Elapsed = 0; CurrentShot = 0; CurrentStage = 0; playedCues.Clear(); IsActive = true; IsPaused = false; AutopilotEnabled = false;
             motor.SimulationEnabled = true;
             Vector3 end = mission != null ? mission.spawnPosition : motor.transform.position;
             float approachLength = positionFromFlightDuration && motor.settings != null ? motor.settings.initialSpeed * duration : 18000;
@@ -73,10 +76,15 @@ namespace DropletPrototype
         public void ApplyCue(int index, bool enableAutopilot = true)
         {
             if (!IsActive || IsPaused || radio == null || radio.library == null || index < 0 || index >= radio.library.narrative.Length || !playedCues.Add(index)) return;
-            var line = radio.library.narrative[index]; CurrentShot = line.cameraShot; AutopilotEnabled = enableAutopilot; radio.PlayNarrative(line);
+            var line = radio.library.narrative[index]; CurrentShot = line.cameraShot; CurrentStage = line.stage; AutopilotEnabled = enableAutopilot; radio.PlayNarrative(line);
         }
         public void SetPaused(bool value) { IsPaused = value; radio?.SetPaused(value); }
-        public void Skip() { if (IsActive) Complete(); }
+        public void Skip()
+        {
+            if (!IsActive) return;
+            Skipped?.Invoke();
+            Complete();
+        }
         void Complete()
         {
             if (!IsActive) return;
@@ -122,7 +130,9 @@ namespace DropletPrototype
             chaseCamera.transform.position = playerPosition + heading * cameraOffset;
             Quaternion rotation = Quaternion.LookRotation(playerPosition + heading * Vector3.forward * 4 - chaseCamera.transform.position, Vector3.up);
             chaseCamera.transform.rotation = Quaternion.Slerp(chaseCamera.transform.rotation, rotation, blend);
-            if (cinematicCamera != null) cinematicCamera.fieldOfView = Mathf.Lerp(cinematicCamera.fieldOfView, CurrentShot == 3 ? 53 : 65, blend);
+            // The saved gameplay FOV also applies in the approach: shot composition uses offsets,
+            // keeping the solar angular-size calibration consistent with normal third-person play.
+            if (cinematicCamera != null) cinematicCamera.fieldOfView = previousFov;
         }
         void OnDisable() { Cancel(); }
     }

@@ -1,0 +1,75 @@
+{
+  "accepted": true,
+  "sha256": "9a96e74353bf4c6abc53b99a2b98bf84ef12264069db6cb419468182fd9173cc",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E028/77461f10331978f4/mix_recipe.json",
+  "sourceSha256": "77ddce6591b7486de721f6929184c2f8e851738b19730da7210dcf49d5571067",
+  "durationSeconds": 14.88825,
+  "english": "Routes distributed. Captains confirm local control. Every hull has a separate identity; the emergency network will keep those identities if formation breaks. Checking the return list now. We still have everyone.",
+  "text": "路线已分发，各舰长确认本地控制。每艘舰都有独立身份，即使阵型解体，紧急网络也会保留这些身份。正在核对回报列表，目前所有人都在。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 14.38825,
+      "english": "Routes distributed. Captains confirm local control. Every hull has a separate identity; the emergency network will keep those identities if formation breaks. Checking the return list now. We still have everyone.",
+      "text": "路线已分发，各舰长确认本地控制。每艘舰都有独立身份，即使阵型解体，紧急网络也会保留这些身份。正在核对回报列表，目前所有人都在。",
+      "role": "comms"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E028-21d7248fc2e27067/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json"
+  ],
+  "sourceHashes": [
+    "2b544dbc49aaba994fdee65638b4a068e9853c50587c3e9aecbc6d4355e5c5b7",
+    "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+    "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+    "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+    "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E028-21d7248fc2e27067/job.json",
+      "sha256": "2b544dbc49aaba994fdee65638b4a068e9853c50587c3e9aecbc6d4355e5c5b7",
+      "usedSha256": "2b544dbc49aaba994fdee65638b4a068e9853c50587c3e9aecbc6d4355e5c5b7",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+      "sha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+      "usedSha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+      "sha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+      "usedSha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+      "sha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+      "usedSha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+      "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+      "usedSha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+      "sha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+      "usedSha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B013",
+    "text": "Containment failing! Clear the core!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Containment failing! Clear the core!",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Clear the core is the urgent command; no decorative vocal sounds.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "c34781b4-2786-48f8-8e9b-2d12b236941e",
+  "sha256": "5aeaf2e91c2f01b137f5f294edcd86a20b739e444aa288bea67b04b1d9a0c395",
+  "duration_seconds": 2.604375,
+  "usage": {
+    "text_words": 36
+  }
+}

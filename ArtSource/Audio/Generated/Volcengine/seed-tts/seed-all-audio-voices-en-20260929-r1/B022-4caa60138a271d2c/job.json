@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B022",
+    "text": "Explosion confirmed. Keep that lane clear."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Explosion confirmed. Keep that lane clear.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Command through the shock, no triumphant tone.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "d5bce8d9-23b1-4d31-b79e-cfdd2ad6300e",
+  "sha256": "7d5a25d7412d3144a39087095e1a5508800745f50600c9e8202d26e5cc289990",
+  "duration_seconds": 3.5857916666666667,
+  "usage": {
+    "text_words": 42
+  }
+}

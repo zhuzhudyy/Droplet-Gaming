@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E038",
+    "text": "Inner line crossed. Independent track confirms it. Two thousand identification signals, all distinct, still reporting. Emergency band is live. Captains, use your own call signs. If formation breaks, we must know who is speaking."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Inner line crossed. Independent track confirms it. Two thousand identification signals, all distinct, still reporting. Emergency band is live. Captains, use your own call signs. If formation breaks, we must know who is speaking.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A sharper operational tempo, letting the count land once; no triumph or panic.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "b8ed823c-3ce0-485e-a015-d13f7e7e5880",
+  "sha256": "e2d56edcdb0975e750ce009389ca3a20868fe3947834fb363b039ee6254892fc",
+  "duration_seconds": 15.177375,
+  "usage": {
+    "text_words": 228
+  }
+}

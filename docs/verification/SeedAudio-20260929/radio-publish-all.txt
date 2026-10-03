@@ -1,0 +1,80 @@
+{"id": "B001", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B001.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B001_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B001_high.wav"]}
+{"id": "B002", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B002.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B002_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B002_high.wav"]}
+{"id": "B003", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B003.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B003_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B003_high.wav"]}
+{"id": "B004", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B004.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B004_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B004_high.wav"]}
+{"id": "B005", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B005.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B005_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B005_high.wav"]}
+{"id": "B006", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B006.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B006_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B006_high.wav"]}
+{"id": "B007", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B007.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B007_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B007_high.wav"]}
+{"id": "B008", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B008.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B008_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B008_high.wav"]}
+{"id": "B009", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B009.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B009_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B009_high.wav"]}
+{"id": "B010", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B010.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B010_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B010_high.wav"]}
+{"id": "B011", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B011.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B011_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B011_high.wav"]}
+{"id": "B012", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B012.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B012_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B012_high.wav"]}
+{"id": "B013", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B013.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B013_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B013_high.wav"]}
+{"id": "B014", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B014.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B014_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B014_high.wav"]}
+{"id": "B015", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B015.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B015_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B015_high.wav"]}
+{"id": "B016", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B016.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B016_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B016_high.wav"]}
+{"id": "B017", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B017.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B017_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B017_high.wav"]}
+{"id": "B018", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B018.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B018_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B018_high.wav"]}
+{"id": "B019", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B019.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B019_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B019_high.wav"]}
+{"id": "B020", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B020.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B020_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B020_high.wav"]}
+{"id": "B021", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B021.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B021_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B021_high.wav"]}
+{"id": "B022", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B022.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B022_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B022_high.wav"]}
+{"id": "B023", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B023.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B023_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B023_high.wav"]}
+{"id": "B024", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B024.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B024_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B024_high.wav"]}
+{"id": "B025", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B025.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B025_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B025_high.wav"]}
+{"id": "B026", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B026.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B026_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B026_high.wav"]}
+{"id": "B027", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B027.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B027_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B027_high.wav"]}
+{"id": "B028", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B028.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B028_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B028_high.wav"]}
+{"id": "B029", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B029.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B029_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B029_high.wav"]}
+{"id": "B030", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B030.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B030_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B030_high.wav"]}
+{"id": "B031", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B031.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B031_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B031_high.wav"]}
+{"id": "B032", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B032.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B032_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B032_high.wav"]}
+{"id": "B033", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B033.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B033_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B033_high.wav"]}
+{"id": "B034", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B034.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B034_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B034_high.wav"]}
+{"id": "B035", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B035.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B035_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B035_high.wav"]}
+{"id": "B036", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/B036.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B036_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/B036_high.wav"]}
+{"id": "E001", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E001.wav"]}
+{"id": "E002", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E002.wav"]}
+{"id": "E003", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E003.wav"]}
+{"id": "E004", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E004.wav"]}
+{"id": "E005", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E005.wav"]}
+{"id": "E006", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E006.wav"]}
+{"id": "E007", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E007.wav"]}
+{"id": "E008", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E008.wav"]}
+{"id": "E009", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E009.wav"]}
+{"id": "E010", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E010.wav"]}
+{"id": "E011", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E011.wav"]}
+{"id": "E012", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E012.wav"]}
+{"id": "E013", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E013.wav"]}
+{"id": "E014", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E014.wav"]}
+{"id": "E015", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E015.wav"]}
+{"id": "E016", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E016.wav"]}
+{"id": "E017", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E017.wav"]}
+{"id": "E018", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E018.wav"]}
+{"id": "E019", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E019.wav"]}
+{"id": "E020", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E020.wav"]}
+{"id": "E021", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E021.wav"]}
+{"id": "E022", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E022.wav"]}
+{"id": "E023", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E023.wav"]}
+{"id": "E024", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E024.wav"]}
+{"id": "E025", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E025.wav"]}
+{"id": "E026", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E026.wav"]}
+{"id": "E027", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E027.wav"]}
+{"id": "E028", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E028.wav"]}
+{"id": "E029", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E029.wav"]}
+{"id": "E030", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E030.wav"]}
+{"id": "E031", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E031.wav"]}
+{"id": "E032", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E032.wav"]}
+{"id": "E033", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E033.wav"]}
+{"id": "E034", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E034.wav"]}
+{"id": "E035", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E035.wav"]}
+{"id": "E036", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E036.wav"]}
+{"id": "E037", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E037.wav"]}
+{"id": "E038", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E038.wav"]}
+{"id": "E039", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E039.wav"]}
+{"id": "E040", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/E040.wav"]}
+{"id": "HELP", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/HELP.wav"]}
+{"id": "SA01", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/SA01.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/SA01_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/SA01_high.wav"]}
+{"id": "SC01", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/SC01.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/SC01_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/SC01_high.wav"]}
+{"id": "SE01", "published": ["ArtSource/Audio/SeedAudio20260929/published-radio/SE01.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/SE01_low.wav", "ArtSource/Audio/SeedAudio20260929/published-radio/SE01_high.wav"]}

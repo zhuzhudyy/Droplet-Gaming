@@ -1,0 +1,36 @@
+{
+  "id": "ResultBed_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "786c0838bdf353abbada239fb5ae2869b53f7f5b3ecccf8fb3c81f5e1fc5a692",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/ResultBed_02/job.json",
+  "sourceSha256": "827c3775d9083d3809f8897ea3a39a30979b21b50161e8065c285e174c6421bd",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Restrained result-screen instrumental score with a calm sustained ending. Incomplete: unresolved descending minor harmony, isolated muted piano notes and a distant low drone. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "ResultBed_02",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 3600000,
+    "rate": 48000,
+    "targetSeconds": 75.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 3600000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 3528000,
+    "linearGain": 0.6307863011371304,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "786c0838bdf353abbada239fb5ae2869b53f7f5b3ecccf8fb3c81f5e1fc5a692",
+    "durationSeconds": 73.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.574026115750314,
+    "rmsDbFS": -26.002317658202657,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.001251220703125
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

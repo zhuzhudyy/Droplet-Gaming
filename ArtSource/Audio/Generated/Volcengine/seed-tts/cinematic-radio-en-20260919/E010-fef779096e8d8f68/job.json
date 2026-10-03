@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E010",
+    "text": "Transferring the public relay to the fleet approach channel. We are keeping the emergency band clear. Contact continues inbound."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Transferring the public relay to the fleet approach channel. We are keeping the emergency band clear. Contact continues inbound.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "8b590307-7ea1-4fcc-ad31-9a17854fc0b6",
+  "sha256": "7872bdc75779b4d97158c99f35cdb20bdc72ef66ecce870c20b96de2ba4f1a92",
+  "duration_seconds": 8.790833333333333,
+  "usage": {
+    "text_words": 128
+  }
+}

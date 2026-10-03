@@ -1,0 +1,274 @@
+{
+  "id": "E014",
+  "profile": "calm",
+  "sourceShip": "Runtime authoritative event speaker ID; narrative fleet command",
+  "trigger": "NarrativeCue",
+  "english": "Its track is exceptionally clean. Our ranging pulses return without the scattering we expect from seams, antennae, or exposed machinery.",
+  "caption": "它的轨迹异常干净。测距脉冲的回波中，没有接缝、天线或外露机械通常产生的散射。",
+  "role": "engineer",
+  "duration": 9.126791666666668,
+  "stems": {
+    "lead": [
+      {
+        "file": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\E014-1125292e73576487\\voice.wav",
+        "start": 0.2,
+        "gain": 4.36133756870231,
+        "perspective": "near"
+      }
+    ],
+    "background_people": [],
+    "actions": [
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Console_3.wav",
+        "start": 0.05,
+        "gain": 0.27,
+        "perspective": "room"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Console_3.wav",
+        "start": 4.917271,
+        "gain": 0.16,
+        "perspective": "far"
+      }
+    ],
+    "environment": [
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+        "start": 0.0,
+        "gain": 0.65,
+        "perspective": "room"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+        "start": 4.0,
+        "gain": 0.65,
+        "perspective": "room"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+        "start": 8.0,
+        "gain": 0.65,
+        "perspective": "room"
+      }
+    ],
+    "events": [],
+    "link": [
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Connect_1.wav",
+        "start": 0,
+        "gain": 0.4,
+        "perspective": "near"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Disconnect_1.wav",
+        "start": 8.916792,
+        "gain": 0.35,
+        "perspective": "near"
+      }
+    ]
+  },
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 8.626791666666668,
+      "text": "它的轨迹异常干净。测距脉冲的回波中，没有接缝、天线或外露机械通常产生的散射。",
+      "english": "Its track is exceptionally clean. Our ranging pulses return without the scattering we expect from seams, antennae, or exposed machinery.",
+      "role": "engineer"
+    }
+  ],
+  "commands": [
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\E014-1125292e73576487\\voice.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=95,lowpass=f=8200,volume=4.36133756870231,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=200:all=1[s0];[s0]amix=inputs=1:normalize=0:dropout_transition=0,apad,atrim=duration=9.126791666666668[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "9.126791666666668",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\lead.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Console_3.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Console_3.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.27,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=50:all=1[s0];[1:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=240,lowpass=f=3100,aecho=0.8:0.65:31|57:0.16|0.08,volume=0.16,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=4917:all=1[s1];[s0][s1]amix=inputs=2:normalize=0:dropout_transition=0,apad,atrim=duration=9.126791666666668[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "9.126791666666668",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\actions.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.65,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=0:all=1[s0];[1:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.65,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=4000:all=1[s1];[2:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.65,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=8000:all=1[s2];[s0][s1][s2]amix=inputs=3:normalize=0:dropout_transition=0,apad,atrim=duration=9.126791666666668[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "9.126791666666668",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\environment.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Connect_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Disconnect_1.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=95,lowpass=f=8200,volume=0.4,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=0:all=1[s0];[1:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=95,lowpass=f=8200,volume=0.35,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=8917:all=1[s1];[s0][s1]amix=inputs=2:normalize=0:dropout_transition=0,apad,atrim=duration=9.126791666666668[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "9.126791666666668",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\link.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\lead.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\background_people.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\actions.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\environment.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\events.wav",
+      "-filter_complex",
+      "[0:a]asplit=2[lead][sc];[1:a][2:a][3:a][4:a]amix=inputs=4:normalize=0:dropout_transition=0[bg];[bg][sc]sidechaincompress=threshold=0.026:ratio=3:attack=14:release=180[duck];[lead][duck]amix=inputs=2:normalize=0:dropout_transition=0,alimiter=limit=0.85:level=0[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "9.126791666666668",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\scene_mix.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\scene_mix.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\link.wav",
+      "-filter_complex",
+      "[0:a]highpass=f=230,lowpass=f=4300,acompressor=threshold=0.18:ratio=2.2:attack=9:release=100:makeup=1.15,asoftclip=type=tanh:threshold=0.82:output=0.95[cabin];[cabin][1:a]amix=inputs=2:normalize=0:dropout_transition=0,alimiter=limit=0.84:level=0[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "9.126791666666668",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\radio_mix.wav"
+    ]
+  ],
+  "mode": "single whole-scene premix; never concurrently play stems",
+  "interrupt": "source explosion stops entire clip including cabin tail; receiver-only 0.2s disconnect is allowed",
+  "candidate": "v1",
+  "selected": "Assets\\_Project\\Audio\\CinematicAudio\\E014.wav",
+  "listening": "待人工试听",
+  "qa": {
+    "duration": 9.126791666666668,
+    "sampleRate": 24000,
+    "channels": 1,
+    "peakDb": -5.280127998527114,
+    "rmsDb": -22.326098956107078,
+    "clippedSamples": 0,
+    "maxSilenceSeconds": 0.0,
+    "edgeDiscontinuity": 0.0,
+    "sha256": "9b389fbfff9ce57c1489c72ae07725ac3c6771f55390c49b72999c5831126e53"
+  },
+  "generation": {
+    "prompt": "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+    "parameters": {
+      "user": {
+        "uid": "droplet-offline-authoring"
+      },
+      "req_params": {
+        "text": "Its track is exceptionally clean. Our ranging pulses return without the scattering we expect from seams, antennae, or exposed machinery.",
+        "speaker": "en_female_jane_uranus_bigtts",
+        "audio_params": {
+          "format": "pcm",
+          "sample_rate": 24000,
+          "speech_rate": 0
+        },
+        "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+      }
+    },
+    "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\E014-1125292e73576487\\job.json"
+  },
+  "dry_stems": [
+    {
+      "file": "ArtSource\\Audio\\CinematicAudio\\Scenes\\E014\\lead_dry_01.wav",
+      "source": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\E014-1125292e73576487\\voice.wav",
+      "start": 0.2,
+      "kind": "lead"
+    }
+  ]
+}

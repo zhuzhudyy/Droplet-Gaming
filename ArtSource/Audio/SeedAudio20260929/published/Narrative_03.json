@@ -1,0 +1,36 @@
+{
+  "id": "Narrative_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "334a18a4c18d31c210193b5849f6a6d960358418b74bdc5b5196df45325d6e0d",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Narrative_03/job.json",
+  "sourceSha256": "825755cc35b48269bb855a5f16bca497ab9e2254fc838ba8d817b03d8a9998f8",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 90 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 3: mounting alarm, asymmetrical muted drum patterns and dark restrained string clusters. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "Narrative_03",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 4320000,
+    "rate": 48000,
+    "targetSeconds": 90.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 4320000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 4248000,
+    "linearGain": 0.9221202585358046,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "334a18a4c18d31c210193b5849f6a6d960358418b74bdc5b5196df45325d6e0d",
+    "durationSeconds": 88.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.689978611604696,
+    "rmsDbFS": -26.002322178723382,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0064697265625
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

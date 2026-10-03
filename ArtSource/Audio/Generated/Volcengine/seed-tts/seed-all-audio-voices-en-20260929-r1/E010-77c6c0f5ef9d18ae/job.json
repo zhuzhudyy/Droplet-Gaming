@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E010",
+    "text": "Public relay, stand by. I am bringing you onto the fleet approach channel. The emergency band stays clear during the broadcast. Contact is still inbound. All stations, use your own call signs and report briefly."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Public relay, stand by. I am bringing you onto the fleet approach channel. The emergency band stays clear during the broadcast. Contact is still inbound. All stations, use your own call signs and report briefly.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A clean transition into operational rhythm; concise on the last two commands.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "43b0a97c-428c-4521-8732-fd15acd46350",
+  "sha256": "fea923865bce635c6320b5e908e1879b270efc5d4869b9bb97998c769fd74165",
+  "duration_seconds": 14.397458333333333,
+  "usage": {
+    "text_words": 211
+  }
+}

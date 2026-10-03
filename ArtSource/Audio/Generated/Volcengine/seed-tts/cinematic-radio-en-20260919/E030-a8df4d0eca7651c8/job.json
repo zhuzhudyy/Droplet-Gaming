@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E030",
+    "text": "One last recommendation: if you see a beam return, clear its path immediately. Do not assume the return will follow the line back to its source."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "One last recommendation: if you see a beam return, clear its path immediately. Do not assume the return will follow the line back to its source.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "e0491ceb-ce7f-4f0f-88cb-d0eb26bee416",
+  "sha256": "8dc21f0ec109c8d0b9cb8ef3948ecc648fa3b9f12fef85e2268225b4f4eb94e1",
+  "duration_seconds": 9.212083333333334,
+  "usage": {
+    "text_words": 144
+  }
+}

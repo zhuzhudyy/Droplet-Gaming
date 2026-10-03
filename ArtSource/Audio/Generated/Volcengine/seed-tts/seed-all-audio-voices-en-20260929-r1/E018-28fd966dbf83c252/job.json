@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E018",
+    "text": "Commander, I cannot find a cockpit or a power system it could switch off. We are describing the controls on our own ships. Those may be reasonable terms, but they are still our terms."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Commander, I cannot find a cockpit or a power system it could switch off. We are describing the controls on our own ships. Those may be reasonable terms, but they are still our terms.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Respectful disagreement, quiet enough to require attention; do not perform defiance.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "5c9bb331-d9d5-46b4-a6eb-92f5e14377bc",
+  "sha256": "91f78af0316c3b49a7b22b03c985e1039ff423556936a9e60abd87fee9aa9783",
+  "duration_seconds": 11.46725,
+  "usage": {
+    "text_words": 183
+  }
+}

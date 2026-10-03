@@ -1,0 +1,37 @@
+{
+  "id": "Escape_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "66b705819fdb88e45ec44944ec8a6457b07bdb8375016e00d70ea738f00110ac",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Escape_02/job.json",
+  "sourceSha256": "b42158cf27e32657b75b3bb704d2fb2843c8b3da7ca2f582d0f0998557e8ad7e",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.6 seconds. Brief distant spacecraft departure cue ending cleanly; no explosion. Soft vacuum-like pressure release and one fading metallic resonance. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Escape_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 28800,
+    "rate": 48000,
+    "targetSeconds": 0.6,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 28800,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 2304,
+    "outputFrames": 28800,
+    "linearGain": 8.0,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "66b705819fdb88e45ec44944ec8a6457b07bdb8375016e00d70ea738f00110ac",
+    "durationSeconds": 0.6,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.20219670831073,
+    "rmsDbFS": -23.109137462961478,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

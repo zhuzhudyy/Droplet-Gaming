@@ -1,0 +1,555 @@
+{
+  "provider": "seed-tts",
+  "model": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "purpose": "Capability trial; not a game asset release",
+  "provenance": [
+    {
+      "id": "CONTROL_R1",
+      "category": "voice_control",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CONTROL_R1-76c8fe2acf45bf02\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Keep the channel open. Stay with me. We will bring you home.",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"A calm space-fleet commander speaking to one frightened colleague. Natural connected English, gentle urgency, about five seconds. Speak only the exact line, without music or added words.\"]}"
+        }
+      },
+      "sha256": "65704aa2f9432ebfdec22cbee3f3693c9224a0dc9e60a817f9a66b7eb275c91c",
+      "durationSeconds": 5.39575,
+      "usage": {
+        "text_words": 60
+      },
+      "contentAcceptance": "technical_pass_listening_pending",
+      "variant": 1,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CONTROL_R1-76c8fe2acf45bf02\\voice.wav"
+    },
+    {
+      "id": "LASER_R1",
+      "category": "LASER",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\LASER_R1-9f6ea21399ede290\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "一束短促的电子激光，尖锐起音迅速向下滑落，留下很短的金属尾音。",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"这是游戏声音素材制作，不是朗读。合成文本描述了声音事件，请直接呈现这个事件的声音：一束短促的电子激光，尖锐起音迅速向下滑落，留下很短的金属尾音。 目标约1.5秒。只输出声音本身，不说出描述文字，不添加旁白，不发出人声口技。不要音乐、说话或歌词。\"]}"
+        }
+      },
+      "sha256": null,
+      "durationSeconds": null,
+      "usage": null,
+      "contentAcceptance": "rejected_no_audio",
+      "variant": 1,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": null
+    },
+    {
+      "id": "LASER_R2",
+      "category": "LASER",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\LASER_R2-d7ecad7f2f172689\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Pshhheew!",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"Create one original science-fiction laser pulse as a non-speech sound effect. Treat the supplied syllables as an acoustic score, not words: an extremely sharp electronic attack, a rapidly descending bright pitch sweep and a short metallic resonance tail. Render an electronic effect, not a person saying the syllables. One pulse, under two seconds. No narration, no spoken words, no music, no breathing, no room noise.\"]}"
+        }
+      },
+      "sha256": "b4184ab8555352413a8317e50eddf2b5ecf154d876bfb15d6ba85b6e812b7cde",
+      "durationSeconds": 3.9692083333333334,
+      "usage": {
+        "text_words": 9
+      },
+      "contentAcceptance": "unaccepted_acoustic_identity_unverified",
+      "variant": 2,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\LASER_R2-d7ecad7f2f172689\\voice.wav"
+    },
+    {
+      "id": "METAL_R1",
+      "category": "METAL",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\METAL_R1-22f2441575c7145d\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "厚重钢板被高速尖物贯穿，先是尖锐撕裂，随后是低沉金属共振和碎片落下。",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"这是游戏声音素材制作，不是朗读。合成文本描述了声音事件，请直接呈现这个事件的声音：厚重钢板被高速尖物贯穿，先是尖锐撕裂，随后是低沉金属共振和碎片落下。 目标约3秒。只输出声音本身，不说出描述文字，不添加旁白，不发出人声口技。不要音乐、说话或歌词。\"]}"
+        }
+      },
+      "sha256": null,
+      "durationSeconds": null,
+      "usage": null,
+      "contentAcceptance": "rejected_no_audio",
+      "variant": 1,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": null
+    },
+    {
+      "id": "METAL_R2",
+      "category": "METAL",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\METAL_R2-56c32663ffa7fb78\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "铿！刺啦——当啷。",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"你正在生成游戏金属贯穿音效，文本是动作声音谱，不是台词。直接呈现厚钢板被高速刺穿：硬金属起音、尖锐撕裂、短暂低频共振和碎片落下，约三秒。不得说出文本，不要人声口技，不要旁白或音乐。\"]}"
+        }
+      },
+      "sha256": "15c704f7e60496a959021185d17f560471e3cbfc5d0f402ab3adeebc5d66ae60",
+      "durationSeconds": 2.3765416666666668,
+      "usage": {
+        "text_words": 9
+      },
+      "contentAcceptance": "unaccepted_suspected_vocal_cue",
+      "variant": 2,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\METAL_R2-56c32663ffa7fb78\\voice.wav"
+    },
+    {
+      "id": "LASER_R3",
+      "category": "LASER",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\LASER_R3-552948e6390dc0fe\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "咻——滋！",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"只生成一道短促的科幻电子激光音效。把文本当作声音动作谱，直接产生尖锐电子起音和快速下降的啸声，以很短的金属共振结尾。总长约一秒。不要念字、不要说话、不要人声口技、不要喘气、不要配乐。\"]}"
+        }
+      },
+      "sha256": "6e116888415d2fc87e4581b0e6123fe3a19cf48bbd38a515291603d80e4deebc",
+      "durationSeconds": 1.7982916666666666,
+      "usage": {
+        "text_words": 5
+      },
+      "contentAcceptance": "unaccepted_acoustic_identity_unverified",
+      "variant": 3,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\LASER_R3-552948e6390dc0fe\\voice.wav"
+    },
+    {
+      "id": "EXPLOSION_R1",
+      "category": "EXPLOSION",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R1-23a01abde1cb6edd\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "一次沉重的科幻舰船爆炸，瞬间冲击后低频轰鸣扩散，金属碎片尾音逐渐消失。",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"这是游戏声音素材制作，不是朗读。合成文本描述了声音事件，请直接呈现这个事件的声音：一次沉重的科幻舰船爆炸，瞬间冲击后低频轰鸣扩散，金属碎片尾音逐渐消失。 目标约5秒。只输出声音本身，不说出描述文字，不添加旁白，不发出人声口技。不要音乐、说话或歌词。\"]}"
+        }
+      },
+      "sha256": "13b1dc7451af4f1c32df8297846702d24b0b284a6dc9e52ef4905b14586fd806",
+      "durationSeconds": 7.587041666666667,
+      "usage": {
+        "text_words": 35
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 1,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R1-23a01abde1cb6edd\\voice.wav"
+    },
+    {
+      "id": "FLIGHT_R1",
+      "category": "FLIGHT",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R1-bc0f2b05ba2f9122\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "持续稳定的低频电子共振，柔和高频谐波缓慢变化，冷峻、平滑、适合高速飞行循环。",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"这是游戏声音素材制作，不是朗读。合成文本描述了声音事件，请直接呈现这个事件的声音：持续稳定的低频电子共振，柔和高频谐波缓慢变化，冷峻、平滑、适合高速飞行循环。 目标约8秒。只输出声音本身，不说出描述文字，不添加旁白，不发出人声口技。不要音乐、说话或歌词。\"]}"
+        }
+      },
+      "sha256": "4a173347c6cc75120cd3c523a733aac9048dba3328c744a3daea59510f6ce8bd",
+      "durationSeconds": 9.008791666666667,
+      "usage": {
+        "text_words": 38
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 1,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R1-bc0f2b05ba2f9122\\voice.wav"
+    },
+    {
+      "id": "CABIN_R1",
+      "category": "CABIN",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R1-976c460a2b3b5eb0\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "安静舰桥的设备低鸣，远处通风与偶尔细小继电器咔嗒声，稳定且稀疏。",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"这是游戏声音素材制作，不是朗读。合成文本描述了声音事件，请直接呈现这个事件的声音：安静舰桥的设备低鸣，远处通风与偶尔细小继电器咔嗒声，稳定且稀疏。 目标约8秒。只输出声音本身，不说出描述文字，不添加旁白，不发出人声口技。不要音乐、说话或歌词。\"]}"
+        }
+      },
+      "sha256": "a7a287fe82ce4092a423198f287b53d43a315d6d26cf3977630699b5df32828a",
+      "durationSeconds": 7.18875,
+      "usage": {
+        "text_words": 32
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 1,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R1-976c460a2b3b5eb0\\voice.wav"
+    },
+    {
+      "id": "MUSIC_R1",
+      "category": "MUSIC",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R1-891f13d2e724c5b0\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "冷峻科幻纯器乐背景，缓慢低音合成器脉冲与稀疏暗色和弦，克制紧张，没有人声。",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"这是游戏声音素材制作，不是朗读。合成文本描述了声音事件，请直接呈现这个事件的声音：冷峻科幻纯器乐背景，缓慢低音合成器脉冲与稀疏暗色和弦，克制紧张，没有人声。 目标约12秒。只输出声音本身，不说出描述文字，不添加旁白，不发出人声口技。只要纯器乐，不要歌词、吟唱或说话。\"]}"
+        }
+      },
+      "sha256": "29fd8b6b3954671f5f16fe4f148095441d36a71d23ea859cb74ea8e735f9cbe1",
+      "durationSeconds": 8.615708333333334,
+      "usage": {
+        "text_words": 37
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 1,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R1-891f13d2e724c5b0\\voice.wav"
+    },
+    {
+      "id": "EXPLOSION_R2",
+      "category": "EXPLOSION",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R2-40f6c43732e32881\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "轰——轰隆隆……",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"为科幻游戏生成一声舰船爆炸。输入仅表示声音动作，不是台词。输出瞬时低沉冲击、扩散的宽频爆炸轰鸣和逐渐衰减的碎片尾声，约五秒。声音应来自物体和爆炸，不来自人的喉咙。不要念字、旁白、说话、口技或配乐。\"]}"
+        }
+      },
+      "sha256": "0f5f759dc6fbb8331cf40f3c57e42aebf57a700fc05eb1e428e2e7dadef53487",
+      "durationSeconds": 3.57225,
+      "usage": {
+        "text_words": 8
+      },
+      "contentAcceptance": "unaccepted_suspected_vocal_cue",
+      "variant": 2,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R2-40f6c43732e32881\\voice.wav"
+    },
+    {
+      "id": "FLIGHT_R2",
+      "category": "FLIGHT",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R2-74dcdeff785d681b\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "嗡————————",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"输出连续八秒的科幻飞行电子共振，平稳的低频底音与轻微移动的高频泛音，没有音节和节奏，首尾强度一致，可循环。合成文本只是延音标记，不能被朗读。不要人的嗓音、呼吸、口技、对白或音乐。只呈现持续的电子机械声音。\"]}"
+        }
+      },
+      "sha256": "6754ca6842f5db641e670e993e74742a7129107ec1e4ab5776b7b30a5a90fedd",
+      "durationSeconds": 10.630375,
+      "usage": {
+        "text_words": 9
+      },
+      "contentAcceptance": "unaccepted_acoustic_identity_unverified",
+      "variant": 2,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R2-74dcdeff785d681b\\voice.wav"
+    },
+    {
+      "id": "CABIN_R2",
+      "category": "CABIN",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R2-1b1c23abd95f5186\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "嘶————嗒、嗒……",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"生成八秒安静舰桥的真实环境声音：持续的轻微通风、低沉设备底噪，远处两声很轻的继电器开关。文本是声音节奏谱，不是要说的字。只输出环境声，保持空间感和稳定尾部，禁止人声、口技、旁白、说话和音乐。\"]}"
+        }
+      },
+      "sha256": "0fe44681dd2032572e5349952039822072a88d2b2f0bc0c5488545c0b3bb50f2",
+      "durationSeconds": 5.417916666666667,
+      "usage": {
+        "text_words": 10
+      },
+      "contentAcceptance": "unaccepted_suspected_vocal_cue",
+      "variant": 2,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R2-1b1c23abd95f5186\\voice.wav"
+    },
+    {
+      "id": "MUSIC_R2",
+      "category": "MUSIC",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R2-a6da6877c0178d23\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "噔——咚——叮——咚——",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"演奏十二秒原创纯器乐科幻电影配乐。声音由低音合成器脉冲、缓慢小调和弦和稀疏金属键盘高音组成，冷峻克制，适合循环。输入文字是器乐动作谱，只用乐器声音实现，不能朗读或演唱这些字。无任何人声、哼唱、歌词、口技或旁白。\"]}"
+        }
+      },
+      "sha256": "8c40155623d3a08c7a7f33904b84f3d46ad31d54c87cb53958fd5ff035887c40",
+      "durationSeconds": 3.9718333333333335,
+      "usage": {
+        "text_words": 12
+      },
+      "contentAcceptance": "unaccepted_suspected_vocal_cue",
+      "variant": 2,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R2-a6da6877c0178d23\\voice.wav"
+    },
+    {
+      "id": "METAL_R3",
+      "category": "METAL",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\METAL_R3-db39b633a472c69b\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "[厚钢板贯穿声]",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"Render the event named in brackets as an actual non-vocal Foley sound, not spoken text. A hard metallic transient breaks into a sharp tearing scrape, followed by irregular heavy steel resonances and several small falling fragments. One event lasting three seconds. The bracketed text is a stage direction, not dialogue. No narrator, speech, imitation by a human voice, or music.\"]}"
+        }
+      },
+      "sha256": "9a626e5b611c26980612d19fec6b60d8654fda443b85d3fda3ade5431ccba2d8",
+      "durationSeconds": 2.196875,
+      "usage": {
+        "text_words": 8
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 3,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\METAL_R3-db39b633a472c69b\\voice.wav"
+    },
+    {
+      "id": "EXPLOSION_R3",
+      "category": "EXPLOSION",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R3-f93c29b3b47832ad\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "[舰船爆炸声]",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"Generate the physical sound event in brackets, not a reading of the label. One heavy science-fiction reactor explosion: instantaneous sub-bass impact, a dense broadband blast, and irregular metallic debris decaying for five seconds. It must sound like an explosion recording, without a human vocal tract, narration, speech, or musical notes.\"]}"
+        }
+      },
+      "sha256": "081e9b242a55d009cbb2eeca67ca0cc8b774bd324278d9827d1da3ac52fab087",
+      "durationSeconds": 1.8020416666666668,
+      "usage": {
+        "text_words": 7
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 3,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R3-f93c29b3b47832ad\\voice.wav"
+    },
+    {
+      "id": "FLIGHT_R3",
+      "category": "FLIGHT",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R3-45bb0508f4b06543\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "[持续电子飞行声]",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"Produce eight seconds of uninterrupted synthetic spacecraft propulsion texture. Continuous sub-bass machinery resonance, soft moving electronic overtones, no syllabic rhythm or breaths, consistent level and tone at both ends for a loop. Execute the bracketed stage direction as a non-vocal sound event; do not read it. No human humming, narration, music, or voice imitation.\"]}"
+        }
+      },
+      "sha256": "ca1255b6f94949467866834ddb8ef0602362bc7565150d386c0b2104f1ccb227",
+      "durationSeconds": 2.2060833333333334,
+      "usage": {
+        "text_words": 9
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 3,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R3-45bb0508f4b06543\\voice.wav"
+    },
+    {
+      "id": "CABIN_R3",
+      "category": "CABIN",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R3-44894e3611696f3f\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "[安静舰桥环境声]",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"Execute the bracketed scene direction as an eight-second non-vocal environmental recording. A quiet spaceship bridge: continuous low ventilation, soft machinery resonance, two distant tiny relay clicks. Sparse enclosed-room depth, steady seamless ambience. Do not say the bracketed words. No person making the sounds, breathing, speech, narration, or music.\"]}"
+        }
+      },
+      "sha256": "be322add922441960a3abc8cde7648e2c3ef22dba0557d1c47fb280d42ef75a6",
+      "durationSeconds": 1.8055833333333333,
+      "usage": {
+        "text_words": 9
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 3,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R3-44894e3611696f3f\\voice.wav"
+    },
+    {
+      "id": "MUSIC_R3",
+      "category": "MUSIC",
+      "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R3-ad58d65e281a0fe3\\job.json",
+      "payload": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "[低音合成器与暗色和弦，纯器乐]",
+          "speaker": "zh_female_vv_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"Perform the bracketed musical direction using instruments alone. Twelve seconds of original cold cinematic science-fiction underscore: a slow bass synthesizer pulse, restrained minor-key pad chords and sparse metallic keyboard notes. No lead voice, humming, singing, spoken syllables or narration. The label is a performance instruction, not lyrics or dialogue. Keep the ending suitable for a repeating music bed.\"]}"
+        }
+      },
+      "sha256": "d945bf2883f33514cbfd74f5541beb4bafadea47432d1ceadde03ba8d1cb00b3",
+      "durationSeconds": 3.5705,
+      "usage": {
+        "text_words": 16
+      },
+      "contentAcceptance": "rejected_prompt_reading_evidence",
+      "variant": 3,
+      "processingRecipe": "PCM -> WAV container only; no new sound source.",
+      "rawAudio": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R3-ad58d65e281a0fe3\\voice.wav"
+    }
+  ]
+}

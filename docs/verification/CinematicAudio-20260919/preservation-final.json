@@ -1,0 +1,477 @@
+{
+  "unchanged": 70,
+  "baselineCount": 78,
+  "protectedUnchanged": true,
+  "protectedCount": 35,
+  "rows": [
+    {
+      "path": "Assets\\_Project\\Scenes\\.gitkeep",
+      "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\Droplet_Rebuilt_Review.unity",
+      "before": "83d7e862e7e298630d0d64e7f809a81f9a01b004d6db609fce159e13d1c95829",
+      "after": "83d7e862e7e298630d0d64e7f809a81f9a01b004d6db609fce159e13d1c95829",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\Droplet_Rebuilt_Review.unity.meta",
+      "before": "702243ee8f536bd4b585ed557ed5fe7030d55bf5860536ed00eb59146f5d065d",
+      "after": "702243ee8f536bd4b585ed557ed5fe7030d55bf5860536ed00eb59146f5d065d",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault.unity",
+      "before": "7ccaf136a197738c265b67e7d7458be37f19eb9438f86b0f80d16110c58c3d7c",
+      "after": "7ccaf136a197738c265b67e7d7458be37f19eb9438f86b0f80d16110c58c3d7c",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault.unity.meta",
+      "before": "f2b6d789b68ef6601248e89f8cd24f1bad2f8da9250a3f7a0ad28239d1ba9762",
+      "after": "f2b6d789b68ef6601248e89f8cd24f1bad2f8da9250a3f7a0ad28239d1ba9762",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_2000_Sun.unity",
+      "before": "4de21c068585214b545ccaaec0c7f688e27b0f88fcbee86d4947f7eb7bbbb476",
+      "after": "4de21c068585214b545ccaaec0c7f688e27b0f88fcbee86d4947f7eb7bbbb476",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_2000_Sun.unity.meta",
+      "before": "8e59c91e9cb920b30611b4e22c6b4ba69c755f94268dba553ea6faf48a7f6468",
+      "after": "8e59c91e9cb920b30611b4e22c6b4ba69c755f94268dba553ea6faf48a7f6468",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Droplet_Rebuilt.unity",
+      "before": "123a4236bd6b02cc086bc198c4d545ccdfe5af8b40a5c9451564381161fdbaf5",
+      "after": "123a4236bd6b02cc086bc198c4d545ccdfe5af8b40a5c9451564381161fdbaf5",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Droplet_Rebuilt.unity.meta",
+      "before": "379dac392c27dabd353862b1d4a8cd1a356a7c0e9bacaaf261019a7d0ac22488",
+      "after": "379dac392c27dabd353862b1d4a8cd1a356a7c0e9bacaaf261019a7d0ac22488",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Enhanced.unity",
+      "before": "e8e8654718bf4461286f6e5489ba350658a686c8116b4a6e7cf612d6186df10d",
+      "after": "e8e8654718bf4461286f6e5489ba350658a686c8116b4a6e7cf612d6186df10d",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Enhanced.unity.meta",
+      "before": "43eae009890be31d0e6fd13a67a6cfadc6620c32aa6b535c3938a01f737c7bab",
+      "after": "43eae009890be31d0e6fd13a67a6cfadc6620c32aa6b535c3938a01f737c7bab",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Enhanced_Small.unity",
+      "before": "1d905a62c37b383c2036a89a3a6df2e38407a618e63919d91f4e4321e78c1e30",
+      "after": "1d905a62c37b383c2036a89a3a6df2e38407a618e63919d91f4e4321e78c1e30",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Enhanced_Small.unity.meta",
+      "before": "a296087ad06ff1e6e8d09d12921439041bf35417f26e6e127212d39f1e0e5d3f",
+      "after": "a296087ad06ff1e6e8d09d12921439041bf35417f26e6e127212d39f1e0e5d3f",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Expanded.unity",
+      "before": "3d385bdf61b37b49acf7bd52030d0b2b455d670cd27a72dc05e0ec5f99c70954",
+      "after": "3d385bdf61b37b49acf7bd52030d0b2b455d670cd27a72dc05e0ec5f99c70954",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Expanded.unity.meta",
+      "before": "464f8d167a4f5cd9e923057a4aa1eb04f10c01ad3699dc8e5c978c8c347b5ab8",
+      "after": "464f8d167a4f5cd9e923057a4aa1eb04f10c01ad3699dc8e5c978c8c347b5ab8",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Lighting.unity",
+      "before": "f8460a752709de60651f394aea9c4230dbdbe75fa72edb7b5bab8152cc120bfc",
+      "after": "f8460a752709de60651f394aea9c4230dbdbe75fa72edb7b5bab8152cc120bfc",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_Lighting.unity.meta",
+      "before": "c96d6591b429d038cecdf2e055ca81e68eb4899dc1eb5bcc0bff790c44785e39",
+      "after": "c96d6591b429d038cecdf2e055ca81e68eb4899dc1eb5bcc0bff790c44785e39",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat.unity",
+      "before": "c9c5f965eac8ed4e5a619dbd9f4594c7de7a4c3fc712f011e1103a7886cfe98c",
+      "after": "c9c5f965eac8ed4e5a619dbd9f4594c7de7a4c3fc712f011e1103a7886cfe98c",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat.unity.meta",
+      "before": "7d86014f0fa4fa2fe14a99608d16ac3dd1062e00aa55e0fd8f3d0154d19f58c0",
+      "after": "7d86014f0fa4fa2fe14a99608d16ac3dd1062e00aa55e0fd8f3d0154d19f58c0",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat_Small.unity",
+      "before": "3cb2ddbb24ed0ee1fdcc5c51a29f9eb4051878389a8704b3c31cb9e1c85328ae",
+      "after": "3cb2ddbb24ed0ee1fdcc5c51a29f9eb4051878389a8704b3c31cb9e1c85328ae",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat_Small.unity.meta",
+      "before": "ef0a2863ed728442504a1813f4f5628833d1dd895343f6ab9a60cc50ebc53954",
+      "after": "ef0a2863ed728442504a1813f4f5628833d1dd895343f6ab9a60cc50ebc53954",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_PerfectDroplet_Test.unity",
+      "before": "d11aca78d09a87e2b52ed9d757cf4f75394a00412938a93c117a97632a224a10",
+      "after": "d11aca78d09a87e2b52ed9d757cf4f75394a00412938a93c117a97632a224a10",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_PerfectDroplet_Test.unity.meta",
+      "before": "1d47974918e4f953cff02e39dc226f458ca3d2b07339c946a9cfcc76cc39e9fe",
+      "after": "1d47974918e4f953cff02e39dc226f458ca3d2b07339c946a9cfcc76cc39e9fe",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_SolarLayout.unity",
+      "before": "03a4aa704f6a0464182ef9c13eb7b805b4803dea22098b9c6930e656835dca91",
+      "after": "03a4aa704f6a0464182ef9c13eb7b805b4803dea22098b9c6930e656835dca91",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_SolarLayout.unity.meta",
+      "before": "66c465b5aeb65e850411343e7e2a44b0b6bb0c1d33e1baeb33eb84f0cf69fffa",
+      "after": "66c465b5aeb65e850411343e7e2a44b0b6bb0c1d33e1baeb33eb84f0cf69fffa",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_VisualUpgrade.unity",
+      "before": "cd2d0390c9ceaa2a73dd59d8069f0c59741b082a0919ddc443b61755d243b7fe",
+      "after": "cd2d0390c9ceaa2a73dd59d8069f0c59741b082a0919ddc443b61755d243b7fe",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\FleetAssault_VisualUpgrade.unity.meta",
+      "before": "1f9606a1232c670059518f6852ff2fe97aa24e44c0e9fd2c80ff548654351a87",
+      "after": "1f9606a1232c670059518f6852ff2fe97aa24e44c0e9fd2c80ff548654351a87",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\SolarSystemLayout_Review.unity",
+      "before": "9eb1ecff606d92e37a456b4bc8c3f0bc74fa4404bf9d234c8ac3b9b4fc19127e",
+      "after": "9eb1ecff606d92e37a456b4bc8c3f0bc74fa4404bf9d234c8ac3b9b4fc19127e",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\SolarSystemLayout_Review.unity.meta",
+      "before": "57543f149a1c8a0a148c7537eff55dda963b3b6a0e3ee5185d5c6b02c752a21c",
+      "after": "57543f149a1c8a0a148c7537eff55dda963b3b6a0e3ee5185d5c6b02c752a21c",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\SpaceEnvironment_Review.unity",
+      "before": "215b55e7840cabe8228d5cdd1a532be7173bc3fab62cfa7ec91e98547996dcd0",
+      "after": "215b55e7840cabe8228d5cdd1a532be7173bc3fab62cfa7ec91e98547996dcd0",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\SpaceEnvironment_Review.unity.meta",
+      "before": "c3d8b0d528094ce64a3a76de68fc3d8b5c1506137dcba531290bf6ba8b0b6426",
+      "after": "c3d8b0d528094ce64a3a76de68fc3d8b5c1506137dcba531290bf6ba8b0b6426",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\TestRange.unity",
+      "before": "8abcfa93dfd68a2cddeb9438e59b29e09de7187100edd1f1e5c1f51fd63b4751",
+      "after": "8abcfa93dfd68a2cddeb9438e59b29e09de7187100edd1f1e5c1f51fd63b4751",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scenes\\TestRange.unity.meta",
+      "before": "76a093193217862e7a4ab34042960feadd76b054c544a3d0f2bbc1f85c7529dc",
+      "after": "76a093193217862e7a4ab34042960feadd76b054c544a3d0f2bbc1f85c7529dc",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatEvents.cs",
+      "before": "9a79cd57882cb8d803e4f2e776e0f6efab9c92844ad26686b03bca9477f1752a",
+      "after": "3fb2ea3256ba1e3aaa0397f24489be951a1bee18b8155ef8ddd624225eaabd37",
+      "unchanged": false
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatEvents.cs.meta",
+      "before": "85b29aaa8076119c3c6ecd0813f6fea53c7370476ff427b7eab30b96f3e6b960",
+      "after": "85b29aaa8076119c3c6ecd0813f6fea53c7370476ff427b7eab30b96f3e6b960",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatScaleSettings.cs",
+      "before": "7dfb80254b9bf12e996088c4629975a51f231b7e5bbcd2d7b00cb2356728579f",
+      "after": "7dfb80254b9bf12e996088c4629975a51f231b7e5bbcd2d7b00cb2356728579f",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatScaleSettings.cs.meta",
+      "before": "c9c0482c0346876323fb48ca1ea91e9a489f3959da333d935f82ed708b057fcc",
+      "after": "c9c0482c0346876323fb48ca1ea91e9a489f3959da333d935f82ed708b057fcc",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectionGeometry.cs",
+      "before": "9cb489da532d0f2ca6a7295174a8ba33afe205a23c89531974d7bcfaf93a5851",
+      "after": "9cb489da532d0f2ca6a7295174a8ba33afe205a23c89531974d7bcfaf93a5851",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectionGeometry.cs.meta",
+      "before": "52a25d99dcf2aa7cf770e5fbe20df5320cff8888acf78da3bda062439f396017",
+      "after": "52a25d99dcf2aa7cf770e5fbe20df5320cff8888acf78da3bda062439f396017",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectiveSurface.cs",
+      "before": "c385821d4b5dc82246206e1cc5450d7d13af567ef1b4240e2141245e67e198ad",
+      "after": "c385821d4b5dc82246206e1cc5450d7d13af567ef1b4240e2141245e67e198ad",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectiveSurface.cs.meta",
+      "before": "f7046702f7d989b8eee35fb2ad672fe541203bafd82b3d9d12da423cbac7f8f6",
+      "after": "f7046702f7d989b8eee35fb2ad672fe541203bafd82b3d9d12da423cbac7f8f6",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetCombatSimulation.cs",
+      "before": "b5392b99d62d0a079b90ec05c9804bf4b260527ff9d330241d5114f0a5c5d986",
+      "after": "687517497d3addfb091ddfd4fbc5adc7b896674b3abb6d4d6cd5be6b252a507b",
+      "unchanged": false
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetCombatSimulation.cs.meta",
+      "before": "8e8c06596c8bc14bbbc70649347e6a6dec016000ed05678c059c92981b956617",
+      "after": "8e8c06596c8bc14bbbc70649347e6a6dec016000ed05678c059c92981b956617",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetEscapeDiagnostics.cs",
+      "before": "12e072001b7e04ccaa000a1e662b172aedad76a5a49177848634b26cd2d1e94a",
+      "after": "12e072001b7e04ccaa000a1e662b172aedad76a5a49177848634b26cd2d1e94a",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetEscapeDiagnostics.cs.meta",
+      "before": "be835a3a21182dd63d3e703b481203899959e6d817e696794b07cc9201f681e6",
+      "after": "be835a3a21182dd63d3e703b481203899959e6d817e696794b07cc9201f681e6",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetLaserDirector.cs",
+      "before": "f09c032476c85d998e8041ef44b60ebc20f78e56abbd11cda5583ddec13e3732",
+      "after": "a82e8be50f8e20b29ea0a6d3618726a3a0b017cf94484cdaba07bdad69d37bfa",
+      "unchanged": false
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetLaserDirector.cs.meta",
+      "before": "1477a285b2d12c0a3bc2c940c3051e85b9448b1d01ddea454c1327138c067231",
+      "after": "1477a285b2d12c0a3bc2c940c3051e85b9448b1d01ddea454c1327138c067231",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserBeamPool.cs",
+      "before": "a6875d461ba6eb65a7308c09c54b37bd327a0ae71c0208988ce1bc31f7b3923a",
+      "after": "730f33e43ac8321da73d67532c762bc755624c2c9ef67a3d94714a08bc9b8f4a",
+      "unchanged": false
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserBeamPool.cs.meta",
+      "before": "00faa6c1236121709e03d0c72a6ca723360dc88b8864988aed420ad9126df883",
+      "after": "00faa6c1236121709e03d0c72a6ca723360dc88b8864988aed420ad9126df883",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserContactResponse.cs",
+      "before": "ce962402e824c2e845a84313aa43e5ae1c7d7786347ac8a62cbf4d7ff1df53cf",
+      "after": "ce962402e824c2e845a84313aa43e5ae1c7d7786347ac8a62cbf4d7ff1df53cf",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserContactResponse.cs.meta",
+      "before": "798c6846da0cddc498b1352d2d9c3751221362183c393b12b3173811834ca278",
+      "after": "798c6846da0cddc498b1352d2d9c3751221362183c393b12b3173811834ca278",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserGeometryMath.cs",
+      "before": "fa439acd7539854ba8717af10d348272d9357eb3f11cc237d6fad8433ff89e06",
+      "after": "fa439acd7539854ba8717af10d348272d9357eb3f11cc237d6fad8433ff89e06",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserGeometryMath.cs.meta",
+      "before": "bc8ca9992ec8781dfefb109a776276cc88a747843ae5dbc875954961c04beefc",
+      "after": "bc8ca9992ec8781dfefb109a776276cc88a747843ae5dbc875954961c04beefc",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserWeaponSettings.cs",
+      "before": "ea7a98ec406472376b97576769785ef65717d3eeb56eb378cd270c5fc24a302e",
+      "after": "ea7a98ec406472376b97576769785ef65717d3eeb56eb378cd270c5fc24a302e",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserWeaponSettings.cs.meta",
+      "before": "002d16d34fdc4503e49c74fcb8c3f61a840d9523d9ea7da3f97b86ffe50abdff",
+      "after": "002d16d34fdc4503e49c74fcb8c3f61a840d9523d9ea7da3f97b86ffe50abdff",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeApproachController.cs",
+      "before": "1c5d474646dfd0acc269b37232fb3cfeed8e761c3537035f5dedfc3d99a33a9b",
+      "after": "1c5d474646dfd0acc269b37232fb3cfeed8e761c3537035f5dedfc3d99a33a9b",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeApproachController.cs.meta",
+      "before": "bc02b75aa07f60e2fe54e99d2eef1716e1e92b5c8097df0f7b9eca7d10458576",
+      "after": "bc02b75aa07f60e2fe54e99d2eef1716e1e92b5c8097df0f7b9eca7d10458576",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastClip.cs",
+      "before": "21a5e43defb75989f447409f5a147c6b88507dd5b527cdfb5f98a2efdefeb786",
+      "after": "21a5e43defb75989f447409f5a147c6b88507dd5b527cdfb5f98a2efdefeb786",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastClip.cs.meta",
+      "before": "22105eac5558c3e707af77e35195382d59f2153b60c1fcb1dcbc1365800f7dfd",
+      "after": "22105eac5558c3e707af77e35195382d59f2153b60c1fcb1dcbc1365800f7dfd",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastTrack.cs",
+      "before": "01582840ad1cc2919fcf7fea09b926e3bdb294a420758a78ec23cd2fd82657a4",
+      "after": "01582840ad1cc2919fcf7fea09b926e3bdb294a420758a78ec23cd2fd82657a4",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastTrack.cs.meta",
+      "before": "6d1a63e9a039f693e5727b55093a30d31cdde062d59968e7f2873deab42917ca",
+      "after": "6d1a63e9a039f693e5727b55093a30d31cdde062d59968e7f2873deab42917ca",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeCombatValidationRunner.cs",
+      "before": "74cadec39e9d268dc3bc580eda28b44f1bfd3ef8448a6ac4075eebe78ac52c02",
+      "after": "74cadec39e9d268dc3bc580eda28b44f1bfd3ef8448a6ac4075eebe78ac52c02",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeCombatValidationRunner.cs.meta",
+      "before": "6cdd45222bab51733f9d799a42a375659df907867a09cff206539298666b4e16",
+      "after": "6cdd45222bab51733f9d799a42a375659df907867a09cff206539298666b4e16",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeNativeInputProbe.cs",
+      "before": "be42fa86adcfdaeac479b043754733203599dae213f8075568b9eee92f9f024b",
+      "after": "be42fa86adcfdaeac479b043754733203599dae213f8075568b9eee92f9f024b",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeNativeInputProbe.cs.meta",
+      "before": "e159a9462fecba33c5093dd975eb9f6f25a9f1894da9f7e155be54b3520ba45a",
+      "after": "e159a9462fecba33c5093dd975eb9f6f25a9f1894da9f7e155be54b3520ba45a",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\PendingDamageVisualPool.cs",
+      "before": "71e3a43aed0d893ef6b6d2cff170643e56fc02a2bf730126f8ae6555aaddbaaa",
+      "after": "71e3a43aed0d893ef6b6d2cff170643e56fc02a2bf730126f8ae6555aaddbaaa",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\PendingDamageVisualPool.cs.meta",
+      "before": "f403c1d509d67d09db83fa6f686d0d4d83c248597bffbdb5a29c5670fdff646e",
+      "after": "f403c1d509d67d09db83fa6f686d0d4d83c248597bffbdb5a29c5670fdff646e",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioController.cs",
+      "before": "a6a5493cad706c72c4ad4180ea0b345302ef8a38c0f71195f424f64ef8fae38f",
+      "after": "ab4f41908edcfc4acac97e11f6d6d98e774766cc68cba86d5a721afcbac1015a",
+      "unchanged": false
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioController.cs.meta",
+      "before": "8a8456aaf0b0e1c32ea9eb85f2fdd3b9086054df023d243d0e207baab52847b0",
+      "after": "8a8456aaf0b0e1c32ea9eb85f2fdd3b9086054df023d243d0e207baab52847b0",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioLibrary.cs",
+      "before": "eeb9c796e2394dcb5da4c2cf76c616cbab0ad4bae4b9b4fcac3a687f0a11a7c0",
+      "after": "af4d0e8e48b2fab2c6f0f47a5a4fc0e7cdb7bd62e1bbb6acc06a5475dd3a0dd9",
+      "unchanged": false
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioLibrary.cs.meta",
+      "before": "c5196b1a98c8d43e44dd2bada9004ee6f73f987c3132eb0247f5babac908cea9",
+      "after": "c5196b1a98c8d43e44dd2bada9004ee6f73f987c3132eb0247f5babac908cea9",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioPresenter.cs",
+      "before": "8cf2a0da7e6a0e747048c3187572534ec8fb18381cf6f788a503c2bf8586a2a2",
+      "after": "8cf2a0da7e6a0e747048c3187572534ec8fb18381cf6f788a503c2bf8586a2a2",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioPresenter.cs.meta",
+      "before": "a7c99e8d4a17fd8afaa692683028b15ba84abb99571a7f927457c35ad517a963",
+      "after": "a7c99e8d4a17fd8afaa692683028b15ba84abb99571a7f927457c35ad517a963",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\MissionController.cs",
+      "before": "4ab4776b405c35b042e80c04d35f95feace56a91a1036326ab43b87db3f32d78",
+      "after": "4ab4776b405c35b042e80c04d35f95feace56a91a1036326ab43b87db3f32d78",
+      "unchanged": true
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\ChaseCamera.cs",
+      "before": "0843cd74470fa507d4c8c9db49ab1b56bee92d53253ffd80d34514672b2239c1",
+      "after": "bdda3ce7d4f5bed3388456e66d6fed2ffe9108e3d046c2414001659f1efde4aa",
+      "unchanged": false
+    },
+    {
+      "path": "Assets\\_Project\\Scripts\\Runtime\\Fleet2000Sun\\FleetRenderManager.cs",
+      "before": "41d24a72191343726a1163f3cbb2063405334bd91a7c2cd1cf4621787a69f24e",
+      "after": "3bf3e01deab929a2c6d07857022017c692be1cfc2ff0c249ffcad7f8e2a079d3",
+      "unchanged": false
+    },
+    {
+      "path": "Packages\\manifest.json",
+      "before": "c60b2cfae1561341ca1af8f4c7f5be8da11174f86f0965f22caa85662330a698",
+      "after": "c60b2cfae1561341ca1af8f4c7f5be8da11174f86f0965f22caa85662330a698",
+      "unchanged": true
+    },
+    {
+      "path": "ProjectSettings\\ProjectVersion.txt",
+      "before": "68312bd68c3d81c0dabeaa9905955fd523a6a184f4e6ae180377a1cdb8b2fd42",
+      "after": "68312bd68c3d81c0dabeaa9905955fd523a6a184f4e6ae180377a1cdb8b2fd42",
+      "unchanged": true
+    }
+  ],
+  "scope": "Recorded baseline only; shared runtime edits are expected. Not an all-assets claim."
+}

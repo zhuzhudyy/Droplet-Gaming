@@ -1,0 +1,37 @@
+{
+  "id": "Reflect_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "bbd6f1b385c528ee82fcdfe816fcb93b4da796ade45ad346e7220666754b7b3f",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Reflect_01/job.json",
+  "sourceSha256": "5f1d13e16d9bd23b3cf9de347bac836a84fb96234133fe9aca32532a80b36bc7",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Bright crystalline contact ping and a narrow departing energy streak. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Reflect_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 38400,
+    "rate": 48000,
+    "targetSeconds": 0.8,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 38400,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3072,
+    "outputFrames": 38400,
+    "linearGain": 2.8314448457856716,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "bbd6f1b385c528ee82fcdfe816fcb93b4da796ade45ad346e7220666754b7b3f",
+    "durationSeconds": 0.8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -17.401707712888378,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

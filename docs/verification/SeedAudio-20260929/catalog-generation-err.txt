@@ -1,0 +1,1 @@
+ERROR: Catalogue generation stopped at Laser_03: HTTP 502; no automatic retry.

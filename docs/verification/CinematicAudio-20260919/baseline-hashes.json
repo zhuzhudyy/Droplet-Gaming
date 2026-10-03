@@ -1,0 +1,314 @@
+﻿[
+    {
+        "path":  "Assets\\_Project\\Scenes\\.gitkeep",
+        "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\Droplet_Rebuilt_Review.unity",
+        "sha256":  "83D7E862E7E298630D0D64E7F809A81F9A01B004D6DB609FCE159E13D1C95829"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\Droplet_Rebuilt_Review.unity.meta",
+        "sha256":  "702243EE8F536BD4B585ED557ED5FE7030D55BF5860536ED00EB59146F5D065D"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault.unity",
+        "sha256":  "7CCAF136A197738C265B67E7D7458BE37F19EB9438F86B0F80D16110C58C3D7C"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault.unity.meta",
+        "sha256":  "F2B6D789B68EF6601248E89F8CD24F1BAD2F8DA9250A3F7A0AD28239D1BA9762"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_2000_Sun.unity",
+        "sha256":  "4DE21C068585214B545CCAAEC0C7F688E27B0F88FCBEE86D4947F7EB7BBBB476"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_2000_Sun.unity.meta",
+        "sha256":  "8E59C91E9CB920B30611B4E22C6B4BA69C755F94268DBA553EA6FAF48A7F6468"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Droplet_Rebuilt.unity",
+        "sha256":  "123A4236BD6B02CC086BC198C4D545CCDFE5AF8B40A5C9451564381161FDBAF5"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Droplet_Rebuilt.unity.meta",
+        "sha256":  "379DAC392C27DABD353862B1D4A8CD1A356A7C0E9BACAAF261019A7D0AC22488"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Enhanced.unity",
+        "sha256":  "E8E8654718BF4461286F6E5489BA350658A686C8116B4A6E7CF612D6186DF10D"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Enhanced.unity.meta",
+        "sha256":  "43EAE009890BE31D0E6FD13A67A6CFADC6620C32AA6B535C3938A01F737C7BAB"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Enhanced_Small.unity",
+        "sha256":  "1D905A62C37B383C2036A89A3A6DF2E38407A618E63919D91F4E4321E78C1E30"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Enhanced_Small.unity.meta",
+        "sha256":  "A296087AD06FF1E6E8D09D12921439041BF35417F26E6E127212D39F1E0E5D3F"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Expanded.unity",
+        "sha256":  "3D385BDF61B37B49ACF7BD52030D0B2B455D670CD27A72DC05E0EC5F99C70954"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Expanded.unity.meta",
+        "sha256":  "464F8D167A4F5CD9E923057A4AA1EB04F10C01AD3699DC8E5C978C8C347B5AB8"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Lighting.unity",
+        "sha256":  "F8460A752709DE60651F394AEA9C4230DBDBE75FA72EDB7B5BAB8152CC120BFC"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_Lighting.unity.meta",
+        "sha256":  "C96D6591B429D038CECDF2E055CA81E68EB4899DC1EB5BCC0BFF790C44785E39"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat.unity",
+        "sha256":  "C9C5F965EAC8ED4E5A619DBD9F4594C7DE7A4C3FC712F011E1103A7886CFE98C"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat.unity.meta",
+        "sha256":  "7D86014F0FA4FA2FE14A99608D16AC3DD1062E00AA55E0FD8F3D0154D19F58C0"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat_Small.unity",
+        "sha256":  "3CB2DDBB24ED0EE1FDCC5C51A29F9EB4051878389A8704B3C31CB9E1C85328AE"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_NarrativeCombat_Small.unity.meta",
+        "sha256":  "EF0A2863ED728442504A1813F4F5628833D1DD895343F6AB9A60CC50EBC53954"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_PerfectDroplet_Test.unity",
+        "sha256":  "D11ACA78D09A87E2B52ED9D757CF4F75394A00412938A93C117A97632A224A10"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_PerfectDroplet_Test.unity.meta",
+        "sha256":  "1D47974918E4F953CFF02E39DC226F458CA3D2B07339C946A9CFCC76CC39E9FE"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_SolarLayout.unity",
+        "sha256":  "03A4AA704F6A0464182EF9C13EB7B805B4803DEA22098B9C6930E656835DCA91"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_SolarLayout.unity.meta",
+        "sha256":  "66C465B5AEB65E850411343E7E2A44B0B6BB0C1D33E1BAEB33EB84F0CF69FFFA"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_VisualUpgrade.unity",
+        "sha256":  "CD2D0390C9CEAA2A73DD59D8069F0C59741B082A0919DDC443B61755D243B7FE"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\FleetAssault_VisualUpgrade.unity.meta",
+        "sha256":  "1F9606A1232C670059518F6852FF2FE97AA24E44C0E9FD2C80FF548654351A87"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\SolarSystemLayout_Review.unity",
+        "sha256":  "9EB1ECFF606D92E37A456B4BC8C3F0BC74FA4404BF9D234C8AC3B9B4FC19127E"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\SolarSystemLayout_Review.unity.meta",
+        "sha256":  "57543F149A1C8A0A148C7537EFF55DDA963B3B6A0E3EE5185D5C6B02C752A21C"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\SpaceEnvironment_Review.unity",
+        "sha256":  "215B55E7840CABE8228D5CDD1A532BE7173BC3FAB62CFA7EC91E98547996DCD0"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\SpaceEnvironment_Review.unity.meta",
+        "sha256":  "C3D8B0D528094CE64A3A76DE68FC3D8B5C1506137DCBA531290BF6BA8B0B6426"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\TestRange.unity",
+        "sha256":  "8ABCFA93DFD68A2CDDEB9438E59B29E09DE7187100EDD1F1E5C1F51FD63B4751"
+    },
+    {
+        "path":  "Assets\\_Project\\Scenes\\TestRange.unity.meta",
+        "sha256":  "76A093193217862E7A4AB34042960FEADD76B054C544A3D0F2BBC1F85C7529DC"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatEvents.cs",
+        "sha256":  "9A79CD57882CB8D803E4F2E776E0F6EFAB9C92844AD26686B03BCA9477F1752A"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatEvents.cs.meta",
+        "sha256":  "85B29AAA8076119C3C6ECD0813F6FEA53C7370476FF427B7EAB30B96F3E6B960"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatScaleSettings.cs",
+        "sha256":  "7DFB80254B9BF12E996088C4629975A51F231B7E5BBCD2D7B00CB2356728579F"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\CombatScaleSettings.cs.meta",
+        "sha256":  "C9C0482C0346876323FB48CA1EA91E9A489F3959DA333D935F82ED708B057FCC"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectionGeometry.cs",
+        "sha256":  "9CB489DA532D0F2CA6A7295174A8BA33AFE205A23C89531974D7BCFAF93A5851"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectionGeometry.cs.meta",
+        "sha256":  "52A25D99DCF2AA7CF770E5FBE20DF5320CFF8888ACF78DA3BDA062439F396017"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectiveSurface.cs",
+        "sha256":  "C385821D4B5DC82246206E1CC5450D7D13AF567EF1B4240E2141245E67E198AD"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\DropletReflectiveSurface.cs.meta",
+        "sha256":  "F7046702F7D989B8EEE35FB2AD672FE541203BAFD82B3D9D12DA423CBAC7F8F6"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetCombatSimulation.cs",
+        "sha256":  "B5392B99D62D0A079B90EC05C9804BF4B260527FF9D330241D5114F0A5C5D986"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetCombatSimulation.cs.meta",
+        "sha256":  "8E8C06596C8BC14BBBC70649347E6A6DEC016000ED05678C059C92981B956617"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetEscapeDiagnostics.cs",
+        "sha256":  "12E072001B7E04CCAA000A1E662B172AEDAD76A5A49177848634B26CD2D1E94A"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetEscapeDiagnostics.cs.meta",
+        "sha256":  "BE835A3A21182DD63D3E703B481203899959E6D817E696794B07CC9201F681E6"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetLaserDirector.cs",
+        "sha256":  "F09C032476C85D998E8041EF44B60EBC20F78E56ABBD11CDA5583DDEC13E3732"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\FleetLaserDirector.cs.meta",
+        "sha256":  "1477A285B2D12C0A3BC2C940C3051E85B9448B1D01DDEA454C1327138C067231"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserBeamPool.cs",
+        "sha256":  "A6875D461BA6EB65A7308C09C54B37BD327A0AE71C0208988CE1BC31F7B3923A"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserBeamPool.cs.meta",
+        "sha256":  "00FAA6C1236121709E03D0C72A6CA723360DC88B8864988AED420AD9126DF883"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserContactResponse.cs",
+        "sha256":  "CE962402E824C2E845A84313AA43E5AE1C7D7786347AC8A62CBF4D7FF1DF53CF"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserContactResponse.cs.meta",
+        "sha256":  "798C6846DA0CDDC498B1352D2D9C3751221362183C393B12B3173811834CA278"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserGeometryMath.cs",
+        "sha256":  "FA439ACD7539854BA8717AF10D348272D9357EB3F11CC237D6FAD8433FF89E06"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserGeometryMath.cs.meta",
+        "sha256":  "BC8CA9992EC8781DFEFB109A776276CC88A747843AE5DBC875954961C04BEEFC"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserWeaponSettings.cs",
+        "sha256":  "EA7A98EC406472376B97576769785EF65717D3EEB56EB378CD270C5FC24A302E"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\LaserWeaponSettings.cs.meta",
+        "sha256":  "002D16D34FDC4503E49C74FCB8C3F61A840D9523D9EA7DA3F97B86FFE50ABDFF"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeApproachController.cs",
+        "sha256":  "1C5D474646DFD0ACC269B37232FB3CFEED8E761C3537035F5DEDFC3D99A33A9B"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeApproachController.cs.meta",
+        "sha256":  "BC02B75AA07F60E2FE54E99D2EEF1716E1E92B5C8097DF0F7B9ECA7D10458576"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastClip.cs",
+        "sha256":  "21A5E43DEFB75989F447409F5A147C6B88507DD5B527CDFB5F98A2EFDEFEB786"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastClip.cs.meta",
+        "sha256":  "22105EAC5558C3E707AF77E35195382D59F2153B60C1FCB1DCBC1365800F7DFD"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastTrack.cs",
+        "sha256":  "01582840AD1CC2919FCF7FEA09B926E3BDB294A420758A78EC23CD2FD82657A4"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeBroadcastTrack.cs.meta",
+        "sha256":  "6D1A63E9A039F693E5727B55093A30D31CDDE062D59968E7F2873DEAB42917CA"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeCombatValidationRunner.cs",
+        "sha256":  "74CADEC39E9D268DC3BC580EDA28B44F1BFD3EF8448A6AC4075EEBE78AC52C02"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeCombatValidationRunner.cs.meta",
+        "sha256":  "6CDD45222BAB51733F9D799A42A375659DF907867A09CFF206539298666B4E16"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeNativeInputProbe.cs",
+        "sha256":  "BE42FA86ADCFDAEAC479B043754733203599DAE213F8075568B9EEE92F9F024B"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\NarrativeNativeInputProbe.cs.meta",
+        "sha256":  "E159A9462FECBA33C5093DD975EB9F6F25A9F1894DA9F7E155BE54B3520BA45A"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\PendingDamageVisualPool.cs",
+        "sha256":  "71E3A43AED0D893EF6B6D2CFF170643E56FC02A2BF730126F8AE6555AADDBAAA"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\PendingDamageVisualPool.cs.meta",
+        "sha256":  "F403C1D509D67D09DB83FA6F686D0D4D83C248597BFFBDB5A29C5670FDFF646E"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioController.cs",
+        "sha256":  "A6A5493CAD706C72C4AD4180EA0B345302EF8A38C0F71195F424F64EF8FAE38F"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioController.cs.meta",
+        "sha256":  "8A8456AAF0B0E1C32EA9EB85F2FDD3B9086054DF023D243D0E207BAAB52847B0"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioLibrary.cs",
+        "sha256":  "EEB9C796E2394DCB5DA4C2CF76C616CBAB0AD4BAE4B9B4FCAC3A687F0A11A7C0"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioLibrary.cs.meta",
+        "sha256":  "C5196B1A98C8D43E44DD2BADA9004EE6F73F987C3132EB0247F5BABAC908CEA9"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioPresenter.cs",
+        "sha256":  "8CF2A0DA7E6A0E747048C3187572534EC8FB18381CF6F788A503C2BF8586A2A2"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\NarrativeCombat\\RadioPresenter.cs.meta",
+        "sha256":  "A7C99E8D4A17FD8AFAA692683028B15BA84ABB99571A7F927457C35AD517A963"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\MissionController.cs",
+        "sha256":  "4AB4776B405C35B042E80C04D35F95FEACE56A91A1036326AB43B87DB3F32D78"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\ChaseCamera.cs",
+        "sha256":  "0843CD74470FA507D4C8C9DB49AB1B56BEE92D53253FFD80D34514672B2239C1"
+    },
+    {
+        "path":  "Assets\\_Project\\Scripts\\Runtime\\Fleet2000Sun\\FleetRenderManager.cs",
+        "sha256":  "41D24A72191343726A1163F3CBB2063405334BD91A7C2CD1CF4621787A69F24E"
+    },
+    {
+        "path":  "Packages\\manifest.json",
+        "sha256":  "C60B2CFAE1561341CA1AF8F4C7F5BE8DA11174F86F0965F22CAA85662330A698"
+    },
+    {
+        "path":  "ProjectSettings\\ProjectVersion.txt",
+        "sha256":  "68312BD68C3D81C0DABEAA9905955FD523A6A184F4E6AE180377A1CDB8B2FD42"
+    }
+]

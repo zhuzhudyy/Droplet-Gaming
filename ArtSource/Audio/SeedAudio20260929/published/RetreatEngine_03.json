@@ -1,0 +1,36 @@
+{
+  "id": "RetreatEngine_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "1af5c9758be047388ae58ec56c239a5637d0777d4cf73909cc9b576c67b493a0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/RetreatEngine_03/job.json",
+  "sourceSha256": "547aa8f481d133bec5b37d91a93e79c0c6f52b6aafd37cf12d67b2899bfb521b",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 8 seconds. A retreating spacecraft engine under steady heavy thrust, sustained mechanical energy. Broad plasma propulsion roar with rattling nozzle plates and a low resonant core. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "RetreatEngine_03",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 384000,
+    "rate": 48000,
+    "targetSeconds": 8.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 384000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 367200,
+    "linearGain": 0.3737666915965417,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "1af5c9758be047388ae58ec56c239a5637d0777d4cf73909cc9b576c67b493a0",
+    "durationSeconds": 7.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -13.207099676021922,
+    "rmsDbFS": -26.002373196191762,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0009765625
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -8,9 +8,12 @@ namespace DropletPrototype
         public Camera viewCamera;
         public PlayerOptions options;
         public MissionEffects effects;
+        public UiMissionAudioController audioFeedback;
+        public SeedAudioMixController audioMix;
         public string locationLabel = "EARTH ORBIT  /  TRAINING SORTIE";
         GUIStyle title, body, small, button, value, centered, eyebrow, targetLabel, targetSymbol;
         bool settingsOpen;
+        string focusedAudioControl;
         static readonly Color Cyan = new Color(.38f,.8f,.93f);
         static readonly Color Gold = new Color(1,.62f,.28f);
         void Styles()
@@ -51,11 +54,26 @@ namespace DropletPrototype
             else if(mission.State==MissionState.Narrative)
             {
                 GUI.Label(new Rect(35,674,850,26),"INTERCEPTED APPROACH   /   TAB skip    ESC pause    N replay    R combat",small);
-                if (GUI.Button(new Rect(910,621,155,42),"PAUSE [ESC]",button)) mission.TogglePause();
-                if (GUI.Button(new Rect(1080,621,170,42),"SKIP [TAB]",button)) mission.narrative.Skip();
+                if (AudioButton(new Rect(910,621,155,42),"PAUSE [ESC]","NarrativePause")) mission.TogglePause();
+                if (AudioButton(new Rect(1080,621,170,42),"SKIP [TAB]","NarrativeSkip")) mission.narrative.Skip();
             }
             else if(settingsOpen&&options!=null)DrawSettings();else DrawMenu();
+            if (Event.current.type == EventType.Repaint)
+            {
+                string focused = GUI.GetNameOfFocusedControl();
+                if (focused != focusedAudioControl)
+                {
+                    focusedAudioControl = focused;
+                    if (!string.IsNullOrEmpty(focused) && focused.StartsWith("SeedAudio_"))
+                        audioFeedback?.NotifyUi(SeedUiAction.Focus);
+                }
+            }
             GUI.matrix=old;
+        }
+        bool AudioButton(Rect rect, string label, string id)
+        {
+            GUI.SetNextControlName("SeedAudio_" + id);
+            return GUI.Button(rect, label, button);
         }
         void Stat(float x,string label,string text){GUI.Label(new Rect(x,29,180,22),label,small);GUI.Label(new Rect(x,53,180,32),text,value);}
         void Crosshair()
@@ -73,44 +91,125 @@ namespace DropletPrototype
             {
                 GUI.Label(new Rect(82,287,415,80),$"One indestructible droplet. {mission.TotalCount} targets.\nClear the fleet within {mission.settings.missionSeconds:0} seconds.\nFly straight through the hulls.",body);
                 GUI.Label(new Rect(82,383,415,94),$"Mouse steers. W / S sets cruise speed.\nShift boosts. Space brakes for turns.\nA / D adjusts your line. Esc pauses.\nChain impacts within {mission.settings.comboWindow:0} seconds for bonus score.",small);
-                if(GUI.Button(new Rect(82,501,434,50),mission.narrative != null ? "BEGIN APPROACH   [ ENTER ]" : "BEGIN SORTIE   [ ENTER ]",button))mission.StartMission();
-                if (mission.narrative != null && GUI.Button(new Rect(590,591,355,44),"DIRECT COMBAT [R]",button)) mission.RestartIntoCombat();
+                if(AudioButton(new Rect(82,501,434,50),mission.narrative != null ? "BEGIN APPROACH   [ ENTER ]" : "BEGIN SORTIE   [ ENTER ]","Begin"))
+                { audioFeedback?.NotifyUi(SeedUiAction.Confirm); mission.StartMission(); }
+                if (mission.narrative != null && AudioButton(new Rect(590,591,355,44),"DIRECT COMBAT [R]","DirectCombat")) mission.RestartIntoCombat();
             }
             else if(mission.State==MissionState.Paused)
             {
                 GUI.Label(new Rect(82,293,415,75),"Time and flight are suspended.\nChoose your next approach, or adjust the controls.",body);
-                if(GUI.Button(new Rect(82,411,434,50),"RESUME   [ ESC ]",button))mission.TogglePause();
-                if(GUI.Button(new Rect(82,478,434,50),"RESTART   [ R ]",button)){if(mission.combat != null)mission.RestartIntoCombat();else mission.Restart();}
+                if(AudioButton(new Rect(82,411,434,50),"RESUME   [ ESC ]","Resume"))mission.TogglePause();
+                if(AudioButton(new Rect(82,478,434,50),"RESTART   [ R ]","Restart")){if(mission.combat != null)mission.RestartIntoCombat();else mission.Restart();}
             }
             else
             {
                 GUI.Label(new Rect(82,289,415,111),$"{mission.score.Score:00000}  POINTS\n{mission.DestroyedCount} / {mission.TotalCount}  SHIPS CLEARED\n{mission.Elapsed:0.00}s  ELAPSED",value);
                 GUI.Label(new Rect(82,416,415,64),mission.combat != null ? $"RATING {mission.Rating}   /   {mission.EscapedCount} ESCAPED\nEscaped ships earn no kill or time bonus." : mission.Won?"Completion bonus included.\nFind a cleaner line. Leave nothing behind.":"Brake into turns. Follow the amber target cue.\nKeep your next approach in view.",body);
-                if(GUI.Button(new Rect(82,501,434,50),"FLY AGAIN   [ R ]",button)){if(mission.combat != null)mission.RestartIntoCombat();else mission.Restart();}
-                if (mission.narrative != null && GUI.Button(new Rect(590,591,355,44),"REPLAY APPROACH [N]",button)) mission.ReplayNarrative();
+                if(AudioButton(new Rect(82,501,434,50),"FLY AGAIN   [ R ]","FlyAgain")){if(mission.combat != null)mission.RestartIntoCombat();else mission.Restart();}
+                if (mission.narrative != null && AudioButton(new Rect(590,591,355,44),"REPLAY APPROACH [N]","Replay")) mission.ReplayNarrative();
             }
-            if(options!=null&&GUI.Button(new Rect(82,572,270,43),"SETTINGS",button))settingsOpen=true;
-            if(GUI.Button(new Rect(368,572,148,43),"QUIT",button)) {if(!Application.isEditor)Application.Quit();}
+            if(options!=null&&AudioButton(new Rect(82,572,270,43),"SETTINGS","Settings"))
+            { settingsOpen=true; audioFeedback?.NotifyUi(SeedUiAction.Confirm); }
+            if(AudioButton(new Rect(368,572,148,43),"QUIT","Quit"))
+            { audioFeedback?.NotifyUi(SeedUiAction.Confirm); if(!Application.isEditor)Application.Quit(); }
             GUI.Label(new Rect(590,649,640,35),"METAL / MOMENTUM / SILENCE",eyebrow);
         }
         void DrawSettings()
         {
+            if (audioMix != null) { DrawSeedAudioSettings(); return; }
             Panel(new Rect(270,141,740,520));GUI.Label(new Rect(302,163,660,60),"FLIGHT SETTINGS",title);
             float sens=Slider(244,"MOUSE SENSITIVITY",options.Sensitivity,.35f,2.5f,"x");
             float fov=Slider(319,"FIELD OF VIEW",options.FieldOfView,50,90,"deg");
             float volume=Slider(394,"MASTER VOLUME",options.Volume,0,1,"");
             bool invert=GUI.Toggle(new Rect(305,467,310,35),options.InvertY,(options.InvertY?"[ON] ":"[OFF] ")+"Invert Y",body);
             bool reduced=GUI.Toggle(new Rect(625,467,330,35),options.ReducedMotion,(options.ReducedMotion?"[ON] ":"[OFF] ")+"Reduce camera motion",body);
-            if(sens!=options.Sensitivity||fov!=options.FieldOfView||volume!=options.Volume||invert!=options.InvertY||reduced!=options.ReducedMotion)options.Apply(sens,invert,fov,volume,reduced);
+            bool sliderMoved = Mathf.RoundToInt(sens*20f)!=Mathf.RoundToInt(options.Sensitivity*20f) ||
+                               Mathf.RoundToInt(fov)!=Mathf.RoundToInt(options.FieldOfView) ||
+                               Mathf.RoundToInt(volume*20f)!=Mathf.RoundToInt(options.Volume*20f);
+            bool toggleChanged = invert!=options.InvertY || reduced!=options.ReducedMotion;
+            if(sens!=options.Sensitivity||fov!=options.FieldOfView||volume!=options.Volume||toggleChanged)
+            {
+                options.Apply(sens,invert,fov,volume,reduced);
+                if (sliderMoved) audioFeedback?.NotifyUi(SeedUiAction.Slider);
+                else if (toggleChanged) audioFeedback?.NotifyUi(SeedUiAction.Toggle);
+            }
             GUI.Label(new Rect(305,512,210,34),"EFFECTS BUDGET",small);
             if(effects!=null)
             {
                 int choice=GUI.SelectionGrid(new Rect(515,507,440,36),(int)effects.Quality,new[]{effects.Quality==EffectQuality.Off?"[ OFF ]":"OFF",effects.Quality==EffectQuality.Low?"[ LOW ]":"LOW",effects.Quality==EffectQuality.High?"[ HIGH ]":"HIGH"},3,button);
-                if(choice!=(int)effects.Quality)effects.Quality=(EffectQuality)choice;
+                if(choice!=(int)effects.Quality)
+                { effects.Quality=(EffectQuality)choice; audioFeedback?.NotifyUi(SeedUiAction.Toggle); }
             }
-            if(GUI.Button(new Rect(305,586,315,45),"RESET DEFAULTS",button))
-            {options.Apply(1,false,65,.65f,true);if(effects!=null)effects.Quality=EffectQuality.High;PlayerPrefs.Save();}
-            if(GUI.Button(new Rect(640,586,315,45),"BACK",button)){settingsOpen=false;PlayerPrefs.Save();}
+            if(AudioButton(new Rect(305,586,315,45),"RESET DEFAULTS","Defaults"))
+            {options.Apply(1,false,65,.65f,true);if(effects!=null)effects.Quality=EffectQuality.High;PlayerPrefs.Save();audioFeedback?.NotifyUi(SeedUiAction.Confirm);}
+            if(AudioButton(new Rect(640,586,315,45),"BACK","SettingsBack"))
+            {settingsOpen=false;PlayerPrefs.Save();audioFeedback?.NotifyUi(SeedUiAction.Back);}
+        }
+        void DrawSeedAudioSettings()
+        {
+            Panel(new Rect(70,108,1140,560));
+            GUI.Label(new Rect(100,123,1050,54),"FLIGHT  /  AUDIO SETTINGS",title);
+            const float left = 102f, right = 665f, width = 505f;
+            float sens = CompactSlider(left,183,width,"MOUSE SENSITIVITY",options.Sensitivity,.35f,2.5f,"x");
+            float fov = CompactSlider(left,250,width,"FIELD OF VIEW",options.FieldOfView,50f,90f,"deg");
+            float master = CompactSlider(left,317,width,"MASTER VOLUME",options.Volume,0f,1f,"");
+            bool invert = GUI.Toggle(new Rect(left,397,245,32),options.InvertY,
+                (options.InvertY?"[ON] ":"[OFF] ")+"Invert Y",body);
+            bool reduced = GUI.Toggle(new Rect(left+260,397,255,32),options.ReducedMotion,
+                (options.ReducedMotion?"[ON] ":"[OFF] ")+"Reduce camera motion",body);
+            bool sliderMoved = Mathf.RoundToInt(sens*20f)!=Mathf.RoundToInt(options.Sensitivity*20f) ||
+                               Mathf.RoundToInt(fov)!=Mathf.RoundToInt(options.FieldOfView) ||
+                               Mathf.RoundToInt(master*20f)!=Mathf.RoundToInt(options.Volume*20f);
+            bool toggleChanged = invert!=options.InvertY || reduced!=options.ReducedMotion;
+            if (sens!=options.Sensitivity || fov!=options.FieldOfView || master!=options.Volume || toggleChanged)
+            {
+                options.Apply(sens,invert,fov,master,reduced);
+                if (sliderMoved) audioFeedback?.NotifyUi(SeedUiAction.Slider);
+                else if (toggleChanged) audioFeedback?.NotifyUi(SeedUiAction.Toggle);
+            }
+            GUI.Label(new Rect(left,456,170,27),"EFFECTS BUDGET",small);
+            if (effects != null)
+            {
+                int choice = GUI.SelectionGrid(new Rect(left+180,450,325,35),(int)effects.Quality,
+                    new[]{"OFF","LOW","HIGH"},3,button);
+                if (choice != (int)effects.Quality)
+                { effects.Quality = (EffectQuality)choice; audioFeedback?.NotifyUi(SeedUiAction.Toggle); }
+            }
+            GUI.Label(new Rect(right,160,width,25),"SOUND GROUPS",eyebrow);
+            GroupSlider(right,188,width,"MUSIC",SeedAudioBus.Music);
+            GroupSlider(right,247,width,"AMBIENCE",SeedAudioBus.Ambience);
+            GroupSlider(right,306,width,"FLIGHT",SeedAudioBus.Flight);
+            GroupSlider(right,365,width,"COMBAT",SeedAudioBus.Combat);
+            GroupSlider(right,424,width,"COMMUNICATIONS",SeedAudioBus.Communications);
+            GroupSlider(right,483,width,"INTERFACE",SeedAudioBus.Ui);
+            GroupSlider(right,542,width,"MISSION FEEDBACK",SeedAudioBus.Mission);
+            if (AudioButton(new Rect(left,585,240,46),"RESET DEFAULTS","Defaults"))
+            {
+                options.Apply(1,false,65,.65f,true);
+                audioMix.ResetUserVolumes();
+                if (effects != null) effects.Quality = EffectQuality.High;
+                PlayerPrefs.Save();
+                audioFeedback?.NotifyUi(SeedUiAction.Confirm);
+            }
+            if (AudioButton(new Rect(left+261,585,240,46),"BACK","SettingsBack"))
+            { settingsOpen=false; PlayerPrefs.Save(); audioFeedback?.NotifyUi(SeedUiAction.Back); }
+        }
+        float CompactSlider(float x,float y,float width,string label,float value,float min,float max,string suffix)
+        {
+            GUI.Label(new Rect(x,y,width-110,25),label,small);
+            GUI.Label(new Rect(x+width-105,y,105,25),$"{value:0.00} {suffix}",small);
+            return GUI.HorizontalSlider(new Rect(x,y+30,width,20),value,min,max);
+        }
+        void GroupSlider(float x,float y,float width,string label,SeedAudioBus bus)
+        {
+            float before = audioMix.GetUserVolume(bus);
+            GUI.Label(new Rect(x,y,width-80,23),label,small);
+            GUI.Label(new Rect(x+width-75,y,75,23),$"{Mathf.RoundToInt(before*100f)}%",small);
+            float after = GUI.HorizontalSlider(new Rect(x,y+26,width,18),before,0f,1f);
+            if (Mathf.Abs(after-before) <= .0001f) return;
+            audioMix.SetUserVolume(bus,after);
+            if (Mathf.RoundToInt(after*20f) != Mathf.RoundToInt(before*20f))
+                audioFeedback?.NotifyUi(SeedUiAction.Slider);
         }
         float Slider(float y,string label,float v,float min,float max,string suffix)
         {GUI.Label(new Rect(305,y,490,28),label,small);GUI.Label(new Rect(821,y,160,28),$"{v:0.00} {suffix}",small);return GUI.HorizontalSlider(new Rect(306,y+37,648,22),v,min,max);}

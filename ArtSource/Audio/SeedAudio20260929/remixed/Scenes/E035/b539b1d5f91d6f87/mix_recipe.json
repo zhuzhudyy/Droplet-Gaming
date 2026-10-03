@@ -1,0 +1,137 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E035",
+  "fingerprint": "b539b1d5f91d6f87bb71072dad9ab0e8f44ab777e9f3b6190d72b2eb4c843ca7",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E035",
+    "templateSha256": "1c8788bba6c338fdcdf4f4ac4bf0b5ed2c626778d7118a6ed52567193a049a1d",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 17.803292,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E035",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E035-039d1aa95830befa/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E035-039d1aa95830befa/job.json",
+        "sha256": "989296ba7c7dc0fa0ee3410188121499ed391e50460507b7c9a82462f1ea3e65",
+        "sourceSha256": "989296ba7c7dc0fa0ee3410188121499ed391e50460507b7c9a82462f1ea3e65",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 2.823356730495808,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "background_people",
+        "sourceId": "BG01",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/job.json",
+        "sha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+        "sourceSha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+        "model": "seed-tts-2.0",
+        "start": 15.704041,
+        "oldGain": 0.643852743225342,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+        "sha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+        "sourceSha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+        "model": "seed-audio-1.0",
+        "start": 0.05,
+        "oldGain": 0.27,
+        "perspective": "room",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+        "sha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+        "sourceSha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+        "model": "seed-audio-1.0",
+        "start": 8.637876,
+        "oldGain": 0.16,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "environment",
+        "sourceId": "CabinBed_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/CabinBed_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+        "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+        "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.65,
+        "perspective": "room",
+        "loop": true
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+        "sha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+        "sourceSha256": "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json",
+        "sha256": "f6d909d5950e39e64773cafd4623de77069d1d02efd857bf9a1b3ae5aa84de31",
+        "sourceSha256": "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7",
+        "model": "seed-audio-1.0",
+        "start": 17.593292,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 15.404042,
+        "english": "If it crosses the line, the nearest batteries may fire within their assigned lanes. Controlled bursts. Break off if the beam reflects across friendly positions. A shot that misses safely is better than a correction that strikes one of our own.",
+        "text": "目标越线后，最近的炮组可在各自射界内开火，控制点射。光束若反射穿过己方位置，立即停火。安全脱靶，也好过修正射击却击中自己人。",
+        "role": "commander"
+      },
+      {
+        "time": 15.704041,
+        "duration": 1.79925,
+        "english": "On it. Checking now.",
+        "text": "收到，正在检查。",
+        "role": "comms"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "a3ab5176e385907cda3fb487c6862b47b179dd4647f63f8578f639938c1e71ba",
+      "seconds": 17.803291666666667,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -2.805606522161657,
+      "rmsDbFS": -21.245347260502395,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

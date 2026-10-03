@@ -1,0 +1,26 @@
+{
+  "id": "History_02",
+  "cueId": "History_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "827eed3b-e4ba-4b4c-932a-23dbcd0161a0",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Quiet communications-history panel interface feedback. Closing: a brief muted digital fold ending with a tactile click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:59:51.098878+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "1f798b0db43d26d05be2217f3f6609922499bc89c9e7387a4e4ccd02a9978d74",
+  "originalDurationSeconds": 0.3,
+  "actualSeconds": 0.3,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T12:00:02.539248+00:00"
+}

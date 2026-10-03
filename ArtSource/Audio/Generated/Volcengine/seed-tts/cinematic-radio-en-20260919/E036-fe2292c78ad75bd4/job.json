@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E036",
+    "text": "If a hull is pierced, isolate its reactor and keep clear. A quiet wreck can still be counting down. Rescue crews must wait for a safe approach."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "If a hull is pierced, isolate its reactor and keep clear. A quiet wreck can still be counting down. Rescue crews must wait for a safe approach.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "75c564a8-cde6-45d2-9dad-98320161a396",
+  "sha256": "4fb38787274236e7ae47ce0dead7c62c397f7bd991c94416458be5e002713ffc",
+  "duration_seconds": 10.798625,
+  "usage": {
+    "text_words": 143
+  }
+}

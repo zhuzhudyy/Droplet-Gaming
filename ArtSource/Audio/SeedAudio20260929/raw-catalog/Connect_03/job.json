@@ -1,0 +1,26 @@
+{
+  "id": "Connect_03",
+  "cueId": "Connect_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "bfbaa16e-20a9-4e94-ab05-8945b4853d9c",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.4 seconds. Very short radio link connection sound, isolated and dry. A tiny static flutter settling into one muted confirmation pip. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:52:26.573794+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+  "originalDurationSeconds": 0.4,
+  "actualSeconds": 0.4,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:52:43.910557+00:00"
+}

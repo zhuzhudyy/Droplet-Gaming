@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E024",
+    "text": "Science channel is requesting wider separation between ships. Command channel is requesting a tighter firing solution. Both orders are waiting for confirmation."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Science channel is requesting wider separation between ships. Command channel is requesting a tighter firing solution. Both orders are waiting for confirmation.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "58d1467a-1b8d-48af-87bc-f425744a871f",
+  "sha256": "d44e8f81549e45c9888ca698e11721190a8179f7db3cd2110bb17af60543476d",
+  "duration_seconds": 9.819708333333333,
+  "usage": {
+    "text_words": 160
+  }
+}

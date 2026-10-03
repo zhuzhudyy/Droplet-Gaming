@@ -1,0 +1,37 @@
+{
+  "id": "Interference_04",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "0f63e2ca1085077b0f0c35d8f5ac87bc7bbca1eee28cba12b7377c2fcdca509c",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_04/job.json",
+  "sourceSha256": "2529ad72281fce076e7311edc428c13d377a9865f4c846dc28f3d7897c2a831b",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.7 seconds. Brief isolated communications interference detail; no intelligible voices, music or speech. A low relay pop followed by a rough granular signal dropout. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Interference_04",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 32640,
+    "rate": 48000,
+    "targetSeconds": 0.7,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 32640,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 2688,
+    "outputFrames": 32640,
+    "linearGain": 0.7207486391217681,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "0f63e2ca1085077b0f0c35d8f5ac87bc7bbca1eee28cba12b7377c2fcdca509c",
+    "durationSeconds": 0.68,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -29.211842396148768,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

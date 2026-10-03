@@ -1,0 +1,25 @@
+{
+  "id": "BoostRelease_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "bb37d159-47dc-4ccb-aba8-8d68ba4672bc",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Boost disengages: energy rapidly unwinds without an impact or explosion. Dense low energy whoosh breaks into a brief granular afterglow. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:33:02.272069+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "49602465c3e8a45f84612926f36be560cfaf7eb100774e4a40fce7a95f94bae7",
+  "originalDurationSeconds": 1.5,
+  "actualSeconds": 1.5,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:33:14.195056+00:00"
+}

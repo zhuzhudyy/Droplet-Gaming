@@ -15,7 +15,10 @@ namespace DropletPrototype
         public Material sparkMaterial;
         public GameObject[] wreckPrefabs;
         public AudioClip[] impactClips;
+        [Tooltip("Disable when the event audio director owns world impacts; flight sound is independent.")]
+        public bool worldAudioEnabled = true;
         public AudioClip flightClip;
+        public UnityEngine.Audio.AudioMixerGroup outputMixerGroup;
 
         public int ActiveEffectCount { get; private set; }
         public int ActiveAudioCount { get; private set; }
@@ -24,8 +27,9 @@ namespace DropletPrototype
         public float ElapsedSimulationTime { get; private set; }
         public int Capacity => settings == null || Quality == EffectQuality.Off ? 0 : Mathf.Min(slots.Length,
             Mathf.Clamp(Quality == EffectQuality.High ? settings.highEffectCapacity : settings.lowEffectCapacity, 0, 32));
-        public int AudioCapacity => settings == null || Quality == EffectQuality.Off ? 0 : Mathf.Min(sounds.Length,
-            Mathf.Clamp(Quality == EffectQuality.High ? settings.highAudioCapacity : settings.lowAudioCapacity, 0, 12));
+        // Audio remains available when optional visual effects are disabled.
+        public int AudioCapacity => settings == null ? 0 : Mathf.Min(sounds.Length,
+            Mathf.Clamp(Quality == EffectQuality.Low ? settings.lowAudioCapacity : settings.highAudioCapacity, 0, 12));
         public EffectQuality Quality
         {
             get => qualityAssigned ? quality : settings != null ? settings.initialQuality : EffectQuality.High;
@@ -150,6 +154,7 @@ namespace DropletPrototype
                 var go = new GameObject("Sound_" + i.ToString("00")); go.layer = 2;
                 go.transform.SetParent(poolRoot.transform, false);
                 var source = go.AddComponent<AudioSource>();
+                source.outputAudioMixerGroup = outputMixerGroup;
                 source.playOnAwake = false; source.spatialBlend = .65f;
                 source.rolloffMode = AudioRolloffMode.Linear; source.minDistance = 15; source.maxDistance = 200;
                 source.dopplerLevel = 0; source.priority = 160;
@@ -210,6 +215,7 @@ namespace DropletPrototype
 
         bool PlayImpact(Vector3 point, int kind)
         {
+            if (!worldAudioEnabled) return false;
             if (impactClips == null || impactClips.Length == 0) return false;
             AudioClip clip = impactClips[Mathf.Clamp(kind == 0 ? 0 : 1, 0, impactClips.Length - 1)];
             if (clip == null) return false;
@@ -231,10 +237,10 @@ namespace DropletPrototype
         void Update()
         {
             if (!initialized) InitializePool();
-            if (!initialized || settings == null || Quality == EffectQuality.Off ||
+            if (!initialized || settings == null ||
                 Time.deltaTime <= 0 || (mission != null && mission.State == MissionState.Paused)) return;
             float dt = Time.deltaTime; ElapsedSimulationTime += dt;
-            foreach (Slot slot in slots)
+            if (Quality != EffectQuality.Off) foreach (Slot slot in slots)
             {
                 if (!slot.active) continue;
                 slot.age += dt;
@@ -276,7 +282,7 @@ namespace DropletPrototype
         }
         void UpdateFlightSound()
         {
-            bool allowed = flightClip != null && motor != null && settings.flightVolume > 0 &&
+            bool allowed = flightClip != null && motor != null && motor.settings != null && settings.flightVolume > 0 &&
                 mission != null && mission.State == MissionState.Playing && motor.Speed > 4 && AudioCapacity > 0;
             Sound flight = null;
             foreach (Sound sound in sounds)
@@ -291,8 +297,10 @@ namespace DropletPrototype
                 flight.source.Play();
             }
             flight.source.transform.position = motor.PresentedPosition;
-            flight.source.volume = settings.masterVolume * settings.flightVolume * Mathf.Clamp01(motor.Speed / 100);
-            flight.source.pitch = .75f + Mathf.Clamp01(motor.Speed / 120) * .55f;
+            float speedRatio = Mathf.Clamp01(motor.Speed /
+                Mathf.Max(0.01f, motor.settings.maxCruiseSpeed * motor.settings.boostMultiplier));
+            flight.source.volume = settings.masterVolume * settings.flightVolume * (.15f + .85f * speedRatio);
+            flight.source.pitch = .72f + speedRatio * .60f;
         }
         void OnStateChanged(MissionState state)
         {

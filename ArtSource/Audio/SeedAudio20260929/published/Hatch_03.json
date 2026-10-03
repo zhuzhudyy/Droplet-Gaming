@@ -1,0 +1,37 @@
+{
+  "id": "Hatch_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "0ce30f6a0e615c45d6de5ff0559e70ee785c21e7c069c0a70a519388a6118c89",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Hatch_03/job.json",
+  "sourceSha256": "4de45f1466551091e7ff75086e8c5db487ae821fd39258c0f53dcfe887d89ce0",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 2 seconds. Motorised spacecraft hatch action in a steel interior, clear mechanism and seal detail. Light maintenance hatch unlocks and folds back with two hinge clicks. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Hatch_03",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 96000,
+    "rate": 48000,
+    "targetSeconds": 2.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 96000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 96000,
+    "linearGain": 1.750148726083477,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "0ce30f6a0e615c45d6de5ff0559e70ee785c21e7c069c0a70a519388a6118c89",
+    "durationSeconds": 2.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -33.49951842527839,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

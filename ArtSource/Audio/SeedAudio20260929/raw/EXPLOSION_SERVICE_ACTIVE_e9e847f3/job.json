@@ -1,0 +1,29 @@
+{
+  "id": "EXPLOSION_SERVICE_ACTIVE_e9e847f3",
+  "category": "EXPLOSION",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "e9e847f3-071f-498a-99fa-9f75df063388",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "生成约8秒音频。一艘大型科幻舰船反应堆爆炸。单次强劲但不削波的低频冲击起音，随后多层沉重轰鸣扩散，稀疏金属残骸撞击在远处衰减，最后两秒安静。电影听觉表达，瞬态清楚，没有第二次独立爆炸。 直接输出所描述的声音。不要读出提示词，不要旁白、对白、说话、口技、呼吸或人群。不要音乐。",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T09:28:36.933631+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "authMode": "X-Api-Key",
+  "authorization": "User authorized six representative Seed Audio categories; first laser succeeded, this is a distinct category request.",
+  "originalDurationSeconds": 8,
+  "sha256": "9e156ccee9ff958efca481616896699cb92f9e3e19c328be68233bfdd73d6294",
+  "audio": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\raw\\EXPLOSION_SERVICE_ACTIVE_e9e847f3\\audio.wav",
+  "actualSeconds": 8.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "rmsDbFS": -14.654200746258974,
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "completedAt": "2026-09-29T09:28:49.692614+00:00"
+}

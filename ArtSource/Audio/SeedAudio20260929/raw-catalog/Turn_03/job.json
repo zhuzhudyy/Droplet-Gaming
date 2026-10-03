@@ -1,0 +1,25 @@
+{
+  "id": "Turn_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "389a8230-c9e0-4cbd-9679-dbee69d38c7d",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 1 seconds. Very short executed sharp-turn energy cue, fast lateral motion then silence. Compact low pressure flick with a fine electrical trailing spray. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:34:16.729222+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "11d6058a20155fd31b43d32c9dd1d26c33e1d0f267418aefddca820e8fc54494",
+  "originalDurationSeconds": 1,
+  "actualSeconds": 1.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:34:32.546024+00:00"
+}

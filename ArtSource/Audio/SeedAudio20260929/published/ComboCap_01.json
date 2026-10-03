@@ -1,0 +1,37 @@
+{
+  "id": "ComboCap_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "53f49d026f473284a4733c6664a3cade2853e69137ed9807ce050bde99058f2d",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/ComboCap_01/job.json",
+  "sourceSha256": "c48923abbce5e6a9c1f925c2405c61311b7e6ff37c49b42c3249eb81ed11391e",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Short maximum-multiplier feedback, controlled energy without a victory fanfare. A compact four-note crystalline flourish ending in one firm electronic chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "ComboCap_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 38400,
+    "rate": 48000,
+    "targetSeconds": 0.8,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 38400,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3072,
+    "outputFrames": 38400,
+    "linearGain": 1.3920045599241808,
+    "targetLevelDbFS": -7
+  },
+  "qa": {
+    "sha256": "53f49d026f473284a4733c6664a3cade2853e69137ed9807ce050bde99058f2d",
+    "durationSeconds": 0.8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.0005506829029605,
+    "rmsDbFS": -20.771863938412686,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

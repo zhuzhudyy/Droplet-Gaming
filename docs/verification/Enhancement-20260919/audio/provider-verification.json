@@ -1,0 +1,59 @@
+{
+  "retrieved": "2026-09-19",
+  "method": "Public vendor doc API discovered in official doccenter JS; no authenticated account data",
+  "sources": [
+    {
+      "url": "https://www.volcengine.com/docs/6561/1257544",
+      "title": "音色列表",
+      "updatedTime": "2026-09-15T02:21:04Z"
+    },
+    {
+      "url": "https://www.volcengine.com/docs/6561/1598757",
+      "title": "HTTP Chunked/SSE单向流式-V3",
+      "updatedTime": "2026-05-25T09:03:36Z"
+    },
+    {
+      "url": "https://www.volcengine.com/docs/6561/1871062",
+      "title": "语音指令与标签",
+      "updatedTime": "2026-08-20T13:51:12Z"
+    }
+  ],
+  "cast": [
+    {
+      "role": "anchor",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "language": "English",
+      "liveVoiceVerification": "blocked by resource access"
+    },
+    {
+      "role": "commander",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "language": "English",
+      "liveVoiceVerification": "blocked by resource access"
+    },
+    {
+      "role": "engineer",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "language": "English",
+      "liveVoiceVerification": "blocked by resource access"
+    },
+    {
+      "role": "comms",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "language": "English",
+      "liveVoiceVerification": "blocked by resource access"
+    }
+  ],
+  "supportedParameters": {
+    "resource": "seed-tts-2.0",
+    "endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional",
+    "authentication": "X-Api-Key and X-Api-Resource-Id",
+    "speech_rate": [
+      -50,
+      100
+    ],
+    "context_texts": "One natural-language direction; only first list value applies; confirmed TTS 2.0",
+    "ssml": "Not used; provider states TTS 2.0 voices do not support SSML"
+  },
+  "cloudOutcome": "HTTP 403 resource not granted; only first 117-character synthesis submitted; no WAV returned. Two empty-text diagnostic requests confirmed nested provider code 45000030."
+}

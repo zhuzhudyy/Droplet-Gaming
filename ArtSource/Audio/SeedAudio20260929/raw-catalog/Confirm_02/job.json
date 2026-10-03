@@ -1,0 +1,26 @@
+{
+  "id": "Confirm_02",
+  "cueId": "Confirm_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "8ba8f7a3-7cc7-45b5-9554-7d7d3ecc24ab",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short clear interface confirmation, soft and restrained. A tactile click followed by a brief resolved electronic chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:56:03.704223+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "cdeb1badc63524630e9585ebc18eb23398bc13a51a95bb445cc46050003aa7b7",
+  "originalDurationSeconds": 0.3,
+  "actualSeconds": 0.3,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:56:17.586280+00:00"
+}

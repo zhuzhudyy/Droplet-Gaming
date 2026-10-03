@@ -1,0 +1,16 @@
+BASELINE normal StartCombat, 600 Mission.Step at .02s, default forward control, no forced flee. state=Playing elapsed=12.00008 destroyed=2 pending=1 fleeing=27
+SPAWN_Small_FS1C23R01 Fleeing delta=131.0728 speed=29.33555
+SPAWN_Small_FS1C24R01 Fleeing delta=142.4006 speed=33.77932
+SPAWN_Small_FS1C24R02 Fleeing delta=215.1582 speed=59.94132
+SPAWN_Small_FS1C24R03 Fleeing delta=87.93787 speed=38.92253
+SPAWN_Small_FS1C25R02 Fleeing delta=193.3524 speed=34.01747
+SPAWN_Small_FS1C25R03 Fleeing delta=87.55544 speed=24.66514
+SPAWN_Small_FS1C26R01 Fleeing delta=180.7271 speed=33.23388
+SPAWN_Small_FS1C26R02 Fleeing delta=94.87085 speed=27.0954
+SPAWN_Small_FS1C26R03 Fleeing delta=87.06072 speed=23.43695
+SPAWN_Small_FS1C27R01 Fleeing delta=269.0191 speed=51.79074
+SPAWN_Small_FS1C27R02 BreakingFormation delta=35.27327 speed=15.73076
+SPAWN_Small_FS2C23R01 Fleeing delta=173.9613 speed=31.68044
+SPAWN_Small_FS2C23R02 Fleeing delta=100.3585 speed=44.65907
+SPAWN_Small_FS2C23R03 BreakingFormation delta=29.93605 speed=19.95468
+SPAWN_Small_FS2C24R01 Fleeing delta=168.1109 speed=50.56179

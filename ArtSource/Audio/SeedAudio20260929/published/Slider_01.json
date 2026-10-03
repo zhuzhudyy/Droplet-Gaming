@@ -1,0 +1,37 @@
+{
+  "id": "Slider_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "4357b86babe25b24e280b25764809e448eaf7f9af475333645382fdbcbd2d8fd",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Slider_01/job.json",
+  "sourceSha256": "209dc6302be04000e05f027e2f58dfac7c3b8878cde5f5c4dc04f987de54c775",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.12 seconds. Extremely short quiet interface slider increment, safe for repeated interaction. A single soft granular digital tick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Slider_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 9600,
+    "rate": 48000,
+    "targetSeconds": 0.12,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 5760,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 576,
+    "outputFrames": 5760,
+    "linearGain": 1.7386160128925747,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "4357b86babe25b24e280b25764809e448eaf7f9af475333645382fdbcbd2d8fd",
+    "durationSeconds": 0.12,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -29.274233595487992,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

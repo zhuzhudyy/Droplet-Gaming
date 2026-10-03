@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E027",
+    "text": "Approved. Load evacuation routes, but hold your position until threatened. Damaged ships get priority on rescue traffic. Keep those routes out of the firing lanes."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Approved. Load evacuation routes, but hold your position until threatened. Damaged ships get priority on rescue traffic. Keep those routes out of the firing lanes.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "c0064375-c41c-4588-93df-19dd3970e302",
+  "sha256": "b1266a50cc30964e2d7c983aa985eecce5bb2538fa63b7cb4693b24cc833b4ed",
+  "duration_seconds": 10.3885,
+  "usage": {
+    "text_words": 163
+  }
+}

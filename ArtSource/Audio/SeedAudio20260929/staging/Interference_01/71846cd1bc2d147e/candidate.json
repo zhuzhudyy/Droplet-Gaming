@@ -1,0 +1,42 @@
+{
+  "id": "Interference_01",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "Interference_01",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_01/job.json",
+    "sourceSha256": "67435ceb2eaa3108108dd187015913881b5ca71c4adbf25454e67318c987f3b9",
+    "targetSeconds": 0.7,
+    "loop": false,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_01/job.json",
+  "sourceSha256": "67435ceb2eaa3108108dd187015913881b5ca71c4adbf25454e67318c987f3b9",
+  "sha256": "9ef70ec0e3a2356acb5a81338ba1a55eba6f8f7c41f3ce8ed0e676a4205ab434",
+  "recipe": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 32640,
+    "rate": 48000,
+    "targetSeconds": 0.7,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 32640,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 2688,
+    "outputFrames": 32640,
+    "linearGain": 1.8315419356409863,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "9ef70ec0e3a2356acb5a81338ba1a55eba6f8f7c41f3ce8ed0e676a4205ab434",
+    "durationSeconds": 0.68,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -40.60105906825232,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

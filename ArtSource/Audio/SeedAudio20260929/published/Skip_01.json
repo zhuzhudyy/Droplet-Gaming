@@ -1,0 +1,37 @@
+{
+  "id": "Skip_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "8c7d7892cadeb4736d7b06372983e0ef5552d2e219e35dbc1fb01a4d3b540499",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Skip_01/job.json",
+  "sourceSha256": "383ed2513b926a4a78876aa25d93414449faf00f482ab3ef0272296b86372766",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Brief narrative-skip interface cue with a clean tail. A delicate forward energy swish ends with a single resolved electronic pip. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Skip_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 24000,
+    "rate": 48000,
+    "targetSeconds": 0.5,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 24000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 1920,
+    "outputFrames": 24000,
+    "linearGain": 2.5937800843153305,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "8c7d7892cadeb4736d7b06372983e0ef5552d2e219e35dbc1fb01a4d3b540499",
+    "durationSeconds": 0.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -23.446205428914887,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Interference_02",
+  "cueId": "Interference_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "d249e4c7-d804-46a1-ab06-36c3cc5dcf3b",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.7 seconds. Brief isolated communications interference detail; no intelligible voices, music or speech. A broken digital packet stutter with small silent gaps. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:54:16.930372+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "debc476bfbddc66a8fd36684147b7cb286ef4c415abd2dce9429ac05b68ae921",
+  "originalDurationSeconds": 0.68,
+  "actualSeconds": 0.68,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:54:30.677706+00:00"
+}

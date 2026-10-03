@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E034",
+    "text": "No acknowledgement. Carrier level steady. The receiver is working; this is not a dropped connection. I hear our ships between their reports. From the object, nothing. The inner line is coming up."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "No acknowledgement. Carrier level steady. The receiver is working; this is not a dropped connection. I hear our ships between their reports. From the object, nothing. The inner line is coming up.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Listen between short observations; do not manufacture audible breathing or radio effects.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "457cb16f-bc3a-49a4-8740-5b6a412c66c6",
+  "sha256": "9c035720cf288bba3373be658592168cefd88808bcf700023e7311d83e2c6f93",
+  "duration_seconds": 13.038166666666667,
+  "usage": {
+    "text_words": 195
+  }
+}

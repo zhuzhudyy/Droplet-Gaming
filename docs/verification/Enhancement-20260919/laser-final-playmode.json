@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 0.09,
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LaserPresentationRegressionTests.ContactLastsAtMostTwoRenderFramesPauseFreezesItAndPoolReuseRearmsIt",
+      "Status": "Passed",
+      "Duration": 0.0452982,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LaserPresentationRegressionTests.FastMovingPresentationCannotBendOrTranslatePastReflectionPath",
+      "Status": "Passed",
+      "Duration": 0.006128,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LaserPresentationRegressionTests.MeshLocalGlintPreservesOtherResponsesAndRespectsPauseExpiryAndReset",
+      "Status": "Passed",
+      "Duration": 0.0044638,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.LaserPresentationRegressionTests.PooledPulseFadesWithoutObjectsLightsOrDamageAndClearsOnRestart",
+      "Status": "Passed",
+      "Duration": 0.0022028,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

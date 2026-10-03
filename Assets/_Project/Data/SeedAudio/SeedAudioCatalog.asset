@@ -1,0 +1,1325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44bb029ce4ee4158b82e3dd666a02680, type: 3}
+  m_Name: SeedAudioCatalog
+  m_EditorClassIdentifier: DropletPrototype.Runtime::DropletPrototype.SeedAudioCatalog
+  cues:
+  - id: Ready_01
+    family: Ready
+    category: music
+    clip: {fileID: 8300000, guid: cb8b6add06e2b9c419182357242fe178, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 4d457988-9d17-4a61-b197-25d1f474d0c5
+    sourceHash: 8556e11d5ae5432f6eb8063723c751e6bbc79c3528776727229b9fac16c7eee7
+  - id: Narrative_01
+    family: Narrative
+    category: music
+    clip: {fileID: 8300000, guid: b812d3d11f46ada4d8cc1f22a59d3b7a, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 2204ce5e-c0c3-4cc7-959c-edfc42b5c783
+    sourceHash: 9594e6a75fba554aadf7b181f684f349fa53c54357cfdb6724a9942069a3d94a
+  - id: Narrative_02
+    family: Narrative
+    category: music
+    clip: {fileID: 8300000, guid: 385aa03551ef440429137259dc1439a4, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 2d2b33df-a58d-4814-b1ec-6b3fecc7c725
+    sourceHash: 437073f90d0e8219d6b0d922a2998ff684b00d0a42a967a095281bd81c1dbfe7
+  - id: Narrative_03
+    family: Narrative
+    category: music
+    clip: {fileID: 8300000, guid: eb87774215e53c04aa70c970876ed216, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: a08ce20f-f873-455c-ab01-96c2a573e6bd
+    sourceHash: 825755cc35b48269bb855a5f16bca497ab9e2254fc838ba8d817b03d8a9998f8
+  - id: Narrative_04
+    family: Narrative
+    category: music
+    clip: {fileID: 8300000, guid: a7e4d4a4f15e6f94bb716e0722e2674d, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 37396ba3-9d40-4cc6-bd61-2d086a3293c2
+    sourceHash: 7dc49e0e838d66ba005147fb5fa2a33a96b74c0736c01afd68de81d43e4be554
+  - id: BattleLow_01
+    family: BattleLow
+    category: music
+    clip: {fileID: 8300000, guid: fe42cb2cab8358d4a885fe1bdc11cc4b, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: d416814d-b88c-4348-b5ac-45ca7cf15c13
+    sourceHash: bfa5917faa0ff0dd8da0a8e1d194cf44ef06db2d6a7db62742c80af4a1552cee
+  - id: BattleLow_02
+    family: BattleLow
+    category: music
+    clip: {fileID: 8300000, guid: 9af282d425ae3c04c822c2277b0d203d, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: d49fcca9-e98e-4cab-8fad-078382c653d6
+    sourceHash: 7b9001390af0735b9ea5436cb9e00159deed3abb81edbd867083ec4a6e43329f
+  - id: BattleMedium_01
+    family: BattleMedium
+    category: music
+    clip: {fileID: 8300000, guid: bf5c8c3dec7e13a49960105eb83d21c1, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 3ae412a2-c026-46e2-9814-630627c8f629
+    sourceHash: e6e3ddd0cff4b16f500b5ac88ab507aa2514689214a862a3163b3fc5fbc9c22b
+  - id: BattleMedium_02
+    family: BattleMedium
+    category: music
+    clip: {fileID: 8300000, guid: a1813bd1dbf447f44a065a9d2fbf3a5d, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 3c666486-6851-46a5-8e31-61cfe9d7b656
+    sourceHash: 17b6ad7622de37e6bd75678d3efded3b403b3630b484c19fd64932e3e3aeddfb
+  - id: BattleHigh_01
+    family: BattleHigh
+    category: music
+    clip: {fileID: 8300000, guid: 9dbd1515ea06f6340bcf439662bdccba, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 9982f025-4181-43c3-a168-44ca352fe4c9
+    sourceHash: d467e697bd4617c5451b8cbeee12d1c1fab07581bb0245ef0ca4ac76844b1dcb
+  - id: BattleHigh_02
+    family: BattleHigh
+    category: music
+    clip: {fileID: 8300000, guid: 450725170362f4e4d8f59457fbe3f07e, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 724cf7f0-cd23-4791-a218-92ee93e970e5
+    sourceHash: 75235324ccf806bc32115c2c999fe7d6d7d5e2b73deed60b8bfdc481a9a8b77d
+  - id: Aftermath_01
+    family: Aftermath
+    category: music
+    clip: {fileID: 8300000, guid: e1508ee1c0f7a6f499805bfc24ed4828, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: f44f5489-e6f5-469b-ae2e-538f7b27cb0e
+    sourceHash: f3e825f5ffca1ce92d56d28b6941569104e9899d8caf39efc1454ba822d81508
+  - id: PauseBed_01
+    family: PauseBed
+    category: music
+    clip: {fileID: 8300000, guid: 5f3ad2c2b3080ce4e8fd5ff6e6c6400c, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 412c05bc-62aa-4836-ab5d-20ec6c06d136
+    sourceHash: a524b5ce13b19f21191781e7f242e51df3be44d333ea28e6ffb77e3743c0e2f7
+  - id: ResultBed_01
+    family: ResultBed
+    category: music
+    clip: {fileID: 8300000, guid: c036e21b8fddd564a842ea1953270308, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: b93bfa54-07c8-4862-8562-8a0e9967af93
+    sourceHash: c5ac74be9b23e9df5e25898530ea445d90a9a7e1c02d4212a2f2b74740b37f16
+  - id: ResultBed_02
+    family: ResultBed
+    category: music
+    clip: {fileID: 8300000, guid: 1a0057f565d6ec44a9db9a8f9f575b9c, type: 3}
+    loop: 1
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 436e848b-b13c-4648-8996-05463d5b2ba5
+    sourceHash: 827c3775d9083d3809f8897ea3a39a30979b21b50161e8065c285e174c6421bd
+  - id: Transition_01
+    family: Transition
+    category: music
+    clip: {fileID: 8300000, guid: 1f1a3f44a7c39cd48b375e4d27bce860, type: 3}
+    loop: 0
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 8b1e6958-cd8d-4dcb-b3f9-f41b81f41f66
+    sourceHash: 9c8d2e6876e5be1a85de58025439b38bab1657219e255394c7929c4069ce944c
+  - id: Transition_02
+    family: Transition
+    category: music
+    clip: {fileID: 8300000, guid: 21155d8d2d314e144957db7d04779886, type: 3}
+    loop: 0
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 28ce0e48-544b-4c4c-a6ca-a7f2aa8d0f63
+    sourceHash: f87d4202571b627648c706d75421399f263a97bb1ac4c890788e52e9083acfad
+  - id: Transition_03
+    family: Transition
+    category: music
+    clip: {fileID: 8300000, guid: 5d4522821d9a5a64bac611f2cd0f6f52, type: 3}
+    loop: 0
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: 250f9f07-a5e3-4d19-8f03-253d0f980052
+    sourceHash: f34c35edfc5d55beb7e29b372cee24474a45fa44882a2accc27780d4e13f13b9
+  - id: Transition_04
+    family: Transition
+    category: music
+    clip: {fileID: 8300000, guid: 6dcc073690749a84b8d780cc1adaaf31, type: 3}
+    loop: 0
+    gain: 1
+    priority: 110
+    cooldownSeconds: 0
+    sourceRequestId: aa49c3f1-2f21-4fa8-8eea-a1db7046696f
+    sourceHash: fbc0131c7ce896d133fca0da1a47f6af65556a67d8c437875df82323df9a4164
+  - id: SpaceTexture_01
+    family: SpaceTexture
+    category: ambience
+    clip: {fileID: 8300000, guid: 266bc64b347f13844b0ac0a4fd5d1b3f, type: 3}
+    loop: 1
+    gain: 1
+    priority: 150
+    cooldownSeconds: 0
+    sourceRequestId: 70b0ec68-5819-40ff-9043-b2719a4cfd5a
+    sourceHash: 734de4cc137c4b0a644f49abc9d24d930e12c240fa58edb9da1e7bb373d1fe95
+  - id: SpaceTexture_02
+    family: SpaceTexture
+    category: ambience
+    clip: {fileID: 8300000, guid: 8227934b35e6be5449a918e4ba6c46da, type: 3}
+    loop: 1
+    gain: 1
+    priority: 150
+    cooldownSeconds: 0
+    sourceRequestId: 3d01e7e9-1a20-410c-a753-50e5a2479522
+    sourceHash: 5412ae496477716cd535cda8bf565de5c44e3eb0435be3f8bec2bf228aa75e51
+  - id: SpaceTexture_03
+    family: SpaceTexture
+    category: ambience
+    clip: {fileID: 8300000, guid: 6364d8a969fdaf64fb127d7bf51c0669, type: 3}
+    loop: 1
+    gain: 1
+    priority: 150
+    cooldownSeconds: 0
+    sourceRequestId: 962f7c15-7c8d-4663-8706-f9491f8ffff3
+    sourceHash: db1a7f06e9bbad42a39f72122e50c47125176be08aff4c8906ea5dbb34ae1c9c
+  - id: CabinBed_01
+    family: CabinBed
+    category: ambience
+    clip: {fileID: 8300000, guid: ab37e8873acf9824cb627f8d53a861b4, type: 3}
+    loop: 1
+    gain: 1
+    priority: 150
+    cooldownSeconds: 0
+    sourceRequestId: 21594e34-403d-478e-88a6-4e3301983bea
+    sourceHash: f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6
+  - id: CabinBed_02
+    family: CabinBed
+    category: ambience
+    clip: {fileID: 8300000, guid: 5c6aeea58ad0c99479b6c5af96b607a3, type: 3}
+    loop: 1
+    gain: 1
+    priority: 150
+    cooldownSeconds: 0
+    sourceRequestId: 43b271d8-161a-49d3-8439-fff3d09349b9
+    sourceHash: c5c67c07f655443a4275b4c9b23cc35017723b35d1710fe4b4ca71e48f3da48e
+  - id: CabinBed_03
+    family: CabinBed
+    category: ambience
+    clip: {fileID: 8300000, guid: 068ad3b2aba6c4b4a96612ab02940b2b, type: 3}
+    loop: 1
+    gain: 1
+    priority: 150
+    cooldownSeconds: 0
+    sourceRequestId: f63e5e40-9dd1-44f3-81b0-2992cef79246
+    sourceHash: 02e91eab41561058c4cd23f81e1adbc495d99a989f3f3972fb3548aa2c4fb768
+  - id: Cruise_01
+    family: Cruise
+    category: flight
+    clip: {fileID: 8300000, guid: df734c0a562f56644b0b96a96457cb69, type: 3}
+    loop: 1
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0
+    sourceRequestId: 333caf30-e9c1-4675-a932-0c8797344bc0
+    sourceHash: 6c7d2969f7b9cada991782621dae33ed3f08c1827cc34ac331103cc1b54a1c0d
+  - id: Cruise_02
+    family: Cruise
+    category: flight
+    clip: {fileID: 8300000, guid: bb3876df18d496c4e8402b721e9d9784, type: 3}
+    loop: 1
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0
+    sourceRequestId: 038b0e8c-4f17-490d-9996-b50c97326162
+    sourceHash: 22e1f4760a1967f9f77afd31f72f7db4ee0a0dbe7dde467418e2f33b5acee38a
+  - id: BoostLoop_01
+    family: BoostLoop
+    category: flight
+    clip: {fileID: 8300000, guid: 50655f25e49d5964e94bb963bbc23d59, type: 3}
+    loop: 1
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0
+    sourceRequestId: b1ad0cc0-4423-4cec-b671-af7db40ca909
+    sourceHash: 02a2df0a3ac7bb798651758ab12a599dc63f8ad5d53d6438593ede327ee816df
+  - id: BoostLoop_02
+    family: BoostLoop
+    category: flight
+    clip: {fileID: 8300000, guid: b40adc2a388bb8b4980120dc18281c76, type: 3}
+    loop: 1
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0
+    sourceRequestId: 7e418809-a2ee-4e87-8977-d7c3d64a210f
+    sourceHash: 462613efb7c58ed5e3b139c777e9ae485c667ac88f39aefe3e1a12a0341442c3
+  - id: BoostEnter_01
+    family: BoostEnter
+    category: flight
+    clip: {fileID: 8300000, guid: 9b676b30ecb13964a8b1080fc11e28d7, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: daa56c92-952c-482f-89e3-ae2c820b8877
+    sourceHash: 51ad0cc72eb79a2f460708252a400adc038a90a2fb30b6b974806d4d896eaa9a
+  - id: BoostEnter_02
+    family: BoostEnter
+    category: flight
+    clip: {fileID: 8300000, guid: 3540a1c7b9ee3034db3e98546b68d6dc, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: f8d8683e-d020-4612-8a27-6a1c2514ab42
+    sourceHash: ed7753e2e3fe96767d2042ca39ce7a6c92232f778555d48919784e9233301183
+  - id: BoostEnter_03
+    family: BoostEnter
+    category: flight
+    clip: {fileID: 8300000, guid: 99db12ddb9d70df49991ad63f9cb2c75, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 76c48be2-3185-417e-9e87-1b39fc1da851
+    sourceHash: 02161142e5a14a193ef80d02ac534ca9f5a5e0b8a29de7d7a083e48f9558f3d3
+  - id: BoostRelease_01
+    family: BoostRelease
+    category: flight
+    clip: {fileID: 8300000, guid: ba5a90d36b6fc7d4bba48f582e0d1020, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: ef73b05f-7295-43ef-be04-440601dde84f
+    sourceHash: a028d36cf3b173459c2f8d6f2124556def9fecc34a1fac658c20424557b853c7
+  - id: BoostRelease_02
+    family: BoostRelease
+    category: flight
+    clip: {fileID: 8300000, guid: bfaea2a612ac6dc449b8d6946e28cd2a, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: cbe3bc8a-6cec-45ff-a6ce-5f709ebfa31f
+    sourceHash: 7fbed94c48bb934151d204dd62d769ef7f7969dbdb2f3f197d186c90c24e58c0
+  - id: BoostRelease_03
+    family: BoostRelease
+    category: flight
+    clip: {fileID: 8300000, guid: 158487dbbe37bbf4b8ae8f8ba0236e36, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: bb37d159-47dc-4ccb-aba8-8d68ba4672bc
+    sourceHash: 49602465c3e8a45f84612926f36be560cfaf7eb100774e4a40fce7a95f94bae7
+  - id: Brake_01
+    family: Brake
+    category: flight
+    clip: {fileID: 8300000, guid: a421f4c2cd744e94391cdaaefb6e31d3, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 90ffa8a7-4f71-4863-961e-96b5c01489d4
+    sourceHash: 8385991dbd2a58ee5be74c1a15900f084f067365af8d975821ab0d17cb6e3855
+  - id: Brake_02
+    family: Brake
+    category: flight
+    clip: {fileID: 8300000, guid: dd338d112416207408a32c8ddf9ba993, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 98d3d074-504f-4211-8eca-dbb25bf04fb9
+    sourceHash: fef89043d9b5c18b2ab4152c7bc8b091f6b6468ef3ed48add09753a36c1862e9
+  - id: Brake_03
+    family: Brake
+    category: flight
+    clip: {fileID: 8300000, guid: 1dcb700a72a85d44caccd2d0db508ce1, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 61abf1ab-68d8-4771-8461-1fd2bf19cc6f
+    sourceHash: 374395cf54f4b24fedeb48b69927586b830017f49fabf54aa3dbcffc5c1f87cf
+  - id: Turn_01
+    family: Turn
+    category: flight
+    clip: {fileID: 8300000, guid: c6c44463ece4f444eb44fa20807b18cd, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: bb0c506c-311c-495d-93a8-d431653fee76
+    sourceHash: 2dfc80012ca7ea9778d5bcccc0f6a46e1a862fda579bb7312a49984a1bbdab32
+  - id: Turn_02
+    family: Turn
+    category: flight
+    clip: {fileID: 8300000, guid: 4c841fcfe0fe893498a6bfe570a309ee, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 9d0ee5f8-7f2c-4942-97a2-e6dc1f849bb3
+    sourceHash: ae989299855e572a9681f09af2c83d0f6488549e8c655c688bd31a6b04b46ba6
+  - id: Turn_03
+    family: Turn
+    category: flight
+    clip: {fileID: 8300000, guid: e5b3cc451533f3a44a1541e1d69da41e, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 389a8230-c9e0-4cbd-9679-dbee69d38c7d
+    sourceHash: 11d6058a20155fd31b43d32c9dd1d26c33e1d0f267418aefddca820e8fc54494
+  - id: Recover_01
+    family: Recover
+    category: flight
+    clip: {fileID: 8300000, guid: 1fdb03d5bab71a143b1129c8528ba948, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 15d325f9-2448-47fe-8e8e-efb08763c11a
+    sourceHash: 3f900d517edf2350ca27f4782daf36dc16768da32ce793d4b6c497bf13dcc3b8
+  - id: Recover_02
+    family: Recover
+    category: flight
+    clip: {fileID: 8300000, guid: d2366b168171a294c85df0fd85f4e9af, type: 3}
+    loop: 0
+    gain: 1
+    priority: 100
+    cooldownSeconds: 0.18
+    sourceRequestId: 02bdcbf9-965b-4942-8e53-c1eb4237a306
+    sourceHash: bbcd8246ed27ad9eb4a6cce2d5e2649a14c8e4a2a21df762709eea77e728b573
+  - id: Laser_01
+    family: Laser
+    category: combat
+    clip: {fileID: 8300000, guid: 2561fa59e57b97a44bcd87294f1d9be5, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 243ae4ff-337c-4953-9cf7-9a03624d5a1c
+    sourceHash: 4419a8a9e387fff6e3f2787931a7dab93b1debb92a9c9911093a1945627c02ee
+  - id: Laser_02
+    family: Laser
+    category: combat
+    clip: {fileID: 8300000, guid: e4c99eac8e866c4499f0a9bbe05d3ad7, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 01828ef7-fffc-4bf7-8673-9973a997e0db
+    sourceHash: f9b71d17df8e07a68424cb48f50179bc461cd7f20f46d521cd872daffbfa5a0b
+  - id: Laser_03
+    family: Laser
+    category: combat
+    clip: {fileID: 8300000, guid: f61a1764ad063c14bb51ba96c1c0bcc5, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: d62ababe-9941-4353-bd5d-79404fdf234d
+    sourceHash: aa656128db59b81cfc5ab7275d7753c32307929f970f2e656df2fb0855c23399
+  - id: Laser_04
+    family: Laser
+    category: combat
+    clip: {fileID: 8300000, guid: 9f789dec3ae890f4db5de1d207c7eb56, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: acc7a2a7-3e12-441f-b5a5-6c1968ad96c9
+    sourceHash: 1d48e28725ef7ecf7e35d4a060ec7f754a306960158e7ba0e6fe6b2db6d4abab
+  - id: Laser_05
+    family: Laser
+    category: combat
+    clip: {fileID: 8300000, guid: ca7534ec8b2a0864f94a8d507f39eb46, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: e7a7263d-14ec-41b0-a047-35b6d05123e0
+    sourceHash: 682cb418e7c812806dac6396998526b4256ac94bd97b2dacde6dfb75b444bb13
+  - id: Laser_06
+    family: Laser
+    category: combat
+    clip: {fileID: 8300000, guid: c022e388d9cbca042a1017c87ce75b77, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 6ee7cae8-4082-4e26-a485-713a0f7719cd
+    sourceHash: 703d36c37f4e26d16aa2d969433ca1f84669d6ccc13676fbbae7e6df7830bb0d
+  - id: Reflect_01
+    family: Reflect
+    category: combat
+    clip: {fileID: 8300000, guid: f28edbd68e956b94fa7f0d4e04dc9d7b, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 2384a86c-47f4-421f-a1f9-7820de854bbe
+    sourceHash: 5f1d13e16d9bd23b3cf9de347bac836a84fb96234133fe9aca32532a80b36bc7
+  - id: Reflect_02
+    family: Reflect
+    category: combat
+    clip: {fileID: 8300000, guid: a56eca779a8c01e43ba14ac68c837ceb, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: d18d1400-783f-4f9e-994c-10f88fd6eaf3
+    sourceHash: 815a360ff3d8fe685edba3eaab594e60bdd8383150e5ca507970c5fddf4d6655
+  - id: Reflect_03
+    family: Reflect
+    category: combat
+    clip: {fileID: 8300000, guid: 212b4fee10c4f2d4e8b8aa4b18deee80, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 5b4aaaab-ce42-4f14-9fbc-4261c3d25c09
+    sourceHash: 29a2bbafc31dd0f21b1ba4697a497a328850b2ac03668fb00862fdbe5ec8beab
+  - id: Reflect_04
+    family: Reflect
+    category: combat
+    clip: {fileID: 8300000, guid: 5191d94a5e37ac54c9985dd6592109bb, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 2b32ed10-380c-4488-bb49-619be3463ec3
+    sourceHash: a9c9f080a34892be3b93816772e27bdb6e860f1df7a6dcbf715640753f48ef5a
+  - id: Reflect_05
+    family: Reflect
+    category: combat
+    clip: {fileID: 8300000, guid: 75b58579e5ebc2e4884ef2db75bdf7b0, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: a27eb15f-55e0-4c44-b6bb-504916619e1c
+    sourceHash: 907aaad80e5315082bfb0344afc09569f703c81390e98a56f6b485ef0ed25056
+  - id: Reflect_06
+    family: Reflect
+    category: combat
+    clip: {fileID: 8300000, guid: 436461cf5e7a519429e0528be704a329, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 3486a097-7cee-4111-abc5-7144a2717970
+    sourceHash: 5dd0f040926d39ba96afb2463abfb5550adff704d41ddca124f113b90dca6f2c
+  - id: Penetration_01
+    family: Penetration
+    category: combat
+    clip: {fileID: 8300000, guid: 58586f69aa02cf547a2ec32b02e4ae9c, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 6977e1a7-41b3-407a-a08a-9e0bb8335321
+    sourceHash: ad9eafb8e0507c28d3a40e5b0e06c756859e2df231cf4c63eae8c723044372a0
+  - id: Penetration_02
+    family: Penetration
+    category: combat
+    clip: {fileID: 8300000, guid: 6d4c6ee48fca5a54b9ccb11be163d00b, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 8920a722-6696-4688-a745-ce47b66cabdf
+    sourceHash: 5f438e907bc7287efa69c3ac0e416d3b22a23446961a0df9dbb64b9eacf6e605
+  - id: Penetration_03
+    family: Penetration
+    category: combat
+    clip: {fileID: 8300000, guid: aa88bdb8b0496e9498c8d3d237c84175, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: f53c6ed3-6299-42dc-a1be-5a480e9f820a
+    sourceHash: 030d4e7b28fd428aa5666cedc8031a716980516951acebc418c0d78b91705965
+  - id: Penetration_04
+    family: Penetration
+    category: combat
+    clip: {fileID: 8300000, guid: a0336bbd3dda2da4c884d568db57a0c4, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: edf74514-4db3-4ce3-a02b-3477b402ae2b
+    sourceHash: 41e7b4f6a07a2921116dd9aaacf13ba96710a92b66e392958c2b5365e40da0c7
+  - id: Penetration_05
+    family: Penetration
+    category: combat
+    clip: {fileID: 8300000, guid: a228a47d502edab4ca99f8726d3425a5, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: d470ffef-33e7-41ea-98dd-abc2127c0251
+    sourceHash: 7f4fbaead5e7696c7c009ef95bba6a0b7347a656961af735835c4287dc69031d
+  - id: Penetration_06
+    family: Penetration
+    category: combat
+    clip: {fileID: 8300000, guid: 2a4b6b2d8b3fcb648bb6fbf23c8547ea, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: bbd7d3dd-af3c-4867-909c-6e9686f3d733
+    sourceHash: 3ecf527143281f824448553f2b9714acaecd7acdfe8dc0edc78961f41efd6b9b
+  - id: LaserBreach_01
+    family: LaserBreach
+    category: combat
+    clip: {fileID: 8300000, guid: 21780c8b7631a494cb8fa072c7d58a0e, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 4192a2e4-ca9b-4dfa-acff-0f06dd9b9154
+    sourceHash: 195b58cea9a5d66d271d66db3469dece99fbda8e41fa297c65db35b519bc7671
+  - id: LaserBreach_02
+    family: LaserBreach
+    category: combat
+    clip: {fileID: 8300000, guid: 8b8120d2791a349479c96117dfd26a04, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: a9b6843b-62fd-4fd6-93b3-cc3ebfb42a1b
+    sourceHash: 6d53df9abd77b47335ab6ef580c6ecfce76d3a935d9321043761b89dd57717b0
+  - id: LaserBreach_03
+    family: LaserBreach
+    category: combat
+    clip: {fileID: 8300000, guid: d6b8ec4a033afaa4484037aebf8ad664, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 01998b3d-9c12-43d2-bcf5-a7fdd4602cba
+    sourceHash: e25bf4affc69f0180ec7b3ec808d7191262d7f2ed050333536ab2fa9f77ddba2
+  - id: Explosion_01
+    family: Explosion
+    category: combat
+    clip: {fileID: 8300000, guid: 03d585f142a6d3f47ba8b4c84debe90c, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: ed9caf07-8989-403a-839d-db3c6839f158
+    sourceHash: cf97e440e6d6b0f68013bd598482369fb1405d7da210b6125933595d4e3fa8e6
+  - id: Explosion_02
+    family: Explosion
+    category: combat
+    clip: {fileID: 8300000, guid: 234e8280260601d44948fe2ea545609c, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 8536aa8a-7976-4ec9-8c7f-02824b9c820e
+    sourceHash: 6f3772bcc0af894dbac053ffc3778dbb2311b49b99f4f97e6cef49813d4dc78b
+  - id: Explosion_03
+    family: Explosion
+    category: combat
+    clip: {fileID: 8300000, guid: 45854adbac946cc45b3bf4edb0c3d48a, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 88179aa2-d790-4fe4-a7d0-6633aee26238
+    sourceHash: 494d8219b7a9624b6f04a115308b7f88e71427009d45db6115c8a50672a372bf
+  - id: Explosion_04
+    family: Explosion
+    category: combat
+    clip: {fileID: 8300000, guid: 620e152458fa53e439f8ad45b2094ddb, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 6a4527a9-ebff-4a0e-86e4-d11981c5c507
+    sourceHash: be74f0d5f96041e03987254f95d35e056c6355111bcee539591d5e08abba3591
+  - id: Explosion_05
+    family: Explosion
+    category: combat
+    clip: {fileID: 8300000, guid: 30b74bc7368457842a80943fbe38b501, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 389e74c0-e969-4581-96c4-39664cd0538b
+    sourceHash: 20758d667d8d1ff63859b56a7a151f6a6daa075068bd43e25b3da47ae23b2655
+  - id: Explosion_06
+    family: Explosion
+    category: combat
+    clip: {fileID: 8300000, guid: 7ee48db960893b14bbd27eb86d52b998, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: 2036f65e-5884-4770-b568-0ad1db4d8967
+    sourceHash: f937ad906d10e95ff7a5145aef33af9d7e72ed31db96dc4d04f1317a514c1390
+  - id: Reactor_01
+    family: Reactor
+    category: combat
+    clip: {fileID: 8300000, guid: 92b0d7f0101ce7a4e9d4951f0d027eca, type: 3}
+    loop: 1
+    gain: 1
+    priority: 50
+    cooldownSeconds: 0
+    sourceRequestId: a16a5b0c-1397-41b0-8f4e-aef3a0f25467
+    sourceHash: 54cd6bcf521ff6b88ae2937154adf464f1cb71138adbf5bdf4d8caaeebc543fa
+  - id: Reactor_02
+    family: Reactor
+    category: combat
+    clip: {fileID: 8300000, guid: 4e5d42815733fc7418791f556ee7cd84, type: 3}
+    loop: 1
+    gain: 1
+    priority: 50
+    cooldownSeconds: 0
+    sourceRequestId: 52310da2-642f-4ee3-84dd-17b83e2b956b
+    sourceHash: 6c7b27ac96901e5dfe26f266262a9bcb69ef1477eba948598c38412f955e583f
+  - id: Reactor_03
+    family: Reactor
+    category: combat
+    clip: {fileID: 8300000, guid: 84187ff47670f8840ad5d46ad50ecffe, type: 3}
+    loop: 1
+    gain: 1
+    priority: 50
+    cooldownSeconds: 0
+    sourceRequestId: 50718ae1-1184-4355-92e3-43882b8404e4
+    sourceHash: 92ebfbafbc98f258c69b72a4f6f9771e21b6078d9eb71a7b751ee3bc769a7155
+  - id: RetreatEngine_01
+    family: RetreatEngine
+    category: combat
+    clip: {fileID: 8300000, guid: a394170d2997cc949be855c7fdebbd53, type: 3}
+    loop: 1
+    gain: 1
+    priority: 50
+    cooldownSeconds: 0
+    sourceRequestId: baa789bd-fff5-4237-9001-2fb4d74d6d76
+    sourceHash: ade351c36e89c460436e42f0efc08b473e0501c524cf907afcafd0df601a2a8a
+  - id: RetreatEngine_02
+    family: RetreatEngine
+    category: combat
+    clip: {fileID: 8300000, guid: e816e444711b7b34783f829373ca936c, type: 3}
+    loop: 1
+    gain: 1
+    priority: 50
+    cooldownSeconds: 0
+    sourceRequestId: c50a8f13-8beb-4696-a681-88fdeb0213bb
+    sourceHash: f26a393df4cadd3df33b68dce00b6ce37dce82bc07907e903819a98d66f8dd7f
+  - id: RetreatEngine_03
+    family: RetreatEngine
+    category: combat
+    clip: {fileID: 8300000, guid: 4d7b633b273ec4b4ca203c75f4189ef2, type: 3}
+    loop: 1
+    gain: 1
+    priority: 50
+    cooldownSeconds: 0
+    sourceRequestId: a499d1e1-d6d7-424a-bf78-7d1027deb5b8
+    sourceHash: 547aa8f481d133bec5b37d91a93e79c0c6f52b6aafd37cf12d67b2899bfb521b
+  - id: Escape_01
+    family: Escape
+    category: combat
+    clip: {fileID: 8300000, guid: 797b3a91301c4bc408ca2329967f7784, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: e401f89a-a472-467b-8e8e-86eec8fd1916
+    sourceHash: 6f15d73a39cfbf3ce5fa9372f26d8b64847efcfb5c97eb595464a2b6a0dca469
+  - id: Escape_02
+    family: Escape
+    category: combat
+    clip: {fileID: 8300000, guid: ec9b7bb7c7a0de84686e2c5e94b40020, type: 3}
+    loop: 0
+    gain: 1
+    priority: 75
+    cooldownSeconds: 0.05
+    sourceRequestId: e43815ef-d405-437c-8139-7f35efdf5808
+    sourceHash: b42158cf27e32657b75b3bb704d2fb2843c8b3da7ca2f582d0f0998557e8ad7e
+  - id: DeckSteps_01
+    family: DeckSteps
+    category: cabin
+    clip: {fileID: 8300000, guid: 56398716e76ca6148a3fab624c032ad7, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 475e2b38-2ce1-45ee-a87b-016666054bf0
+    sourceHash: 0ed70025d885c083ccba9cf5fb4e3fb1b6bcb8346b886bbd22e4024a525465b6
+  - id: DeckSteps_02
+    family: DeckSteps
+    category: cabin
+    clip: {fileID: 8300000, guid: 633e60a9de2f0e64d95d3efc0b3fa050, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: aa55a2ed-e2a3-41ad-87b2-3b04bc076ca7
+    sourceHash: 0d002780878499925605f9071f058218a5fcb9330bb6c4a5cfc9a3c51dfd6031
+  - id: DeckSteps_03
+    family: DeckSteps
+    category: cabin
+    clip: {fileID: 8300000, guid: 72263eb12fc2a9843b9d954dbe0cd34b, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: a3b8c166-52b6-428e-ace0-fa50b294c549
+    sourceHash: 23ceba07e2a43a16f1d39e2864405cfd63f17a74576e9c0ebf798da7ccda6254
+  - id: Console_01
+    family: Console
+    category: cabin
+    clip: {fileID: 8300000, guid: cdc691b4cdaa57649878069816e22a10, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 30e175b8-3991-4f3b-9deb-b3e979098371
+    sourceHash: 9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0
+  - id: Console_02
+    family: Console
+    category: cabin
+    clip: {fileID: 8300000, guid: 0c34354b3df76dc419f1b449e7a08f3f, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 887022b0-874d-49c5-924a-34b5db4d890b
+    sourceHash: 1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97
+  - id: Console_03
+    family: Console
+    category: cabin
+    clip: {fileID: 8300000, guid: 61a3c18b55428f044b88808f4b3c0343, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 7c7443c7-3ae3-459d-bdec-87df2ae687a5
+    sourceHash: 444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb
+  - id: Hatch_01
+    family: Hatch
+    category: cabin
+    clip: {fileID: 8300000, guid: 33b67c08c3b2ab34f91244f79e5013fa, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 584e1e53-ba25-4c1a-bd1b-f1a35bdeb53a
+    sourceHash: d2dc2f651973ce94233986e679412339df977a0574a59b80928f35bbe8ad691c
+  - id: Hatch_02
+    family: Hatch
+    category: cabin
+    clip: {fileID: 8300000, guid: 9d0c667f478bd1448a59c19d573b76f5, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 3745d789-4fc7-4970-8e12-4e83aff42b52
+    sourceHash: 644772d622e8fe89731cd9e24e33e5fc40d1f032a5dd3fd32253a01306678888
+  - id: Hatch_03
+    family: Hatch
+    category: cabin
+    clip: {fileID: 8300000, guid: 80985f3466568b643bd652e3353199f9, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 0344b129-2178-43fa-bae2-c262b0cc9017
+    sourceHash: 4de45f1466551091e7ff75086e8c5db487ae821fd39258c0f53dcfe887d89ce0
+  - id: Alarm_01
+    family: Alarm
+    category: cabin
+    clip: {fileID: 8300000, guid: a2ade12cf5d562d438db302e708e03e0, type: 3}
+    loop: 1
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0
+    sourceRequestId: 21006461-2ec5-4e45-ad8f-c34ef88ea83c
+    sourceHash: ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554
+  - id: Alarm_02
+    family: Alarm
+    category: cabin
+    clip: {fileID: 8300000, guid: bf8735a423a41394ab066e3125d83649, type: 3}
+    loop: 1
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0
+    sourceRequestId: 8f3fb9d6-dd72-418c-a5f9-746e1621a567
+    sourceHash: a5d7bac7f7886f3571c9b7658b08a55722f02e77cfbb0552bb6766c96df898b0
+  - id: Alarm_03
+    family: Alarm
+    category: cabin
+    clip: {fileID: 8300000, guid: 513ecb5a19f493e48b03920ebf758d51, type: 3}
+    loop: 1
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0
+    sourceRequestId: 123c585f-305f-4fe3-b9cd-50c289845696
+    sourceHash: 407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b
+  - id: Connect_01
+    family: Connect
+    category: cabin
+    clip: {fileID: 8300000, guid: 1d7f44f247202274a8daa3dc2b457159, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 9e253deb-1e6d-4d03-91ce-2983849a0dde
+    sourceHash: fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5
+  - id: Connect_02
+    family: Connect
+    category: cabin
+    clip: {fileID: 8300000, guid: c34733c0eb2a42640807764a8efc192f, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 539bc05f-75b8-4bc7-ba52-21e014834b4e
+    sourceHash: dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a
+  - id: Connect_03
+    family: Connect
+    category: cabin
+    clip: {fileID: 8300000, guid: 5bb7a6bb1f7165943a10d792c31253dd, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: bfbaa16e-20a9-4e94-ab05-8945b4853d9c
+    sourceHash: 240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba
+  - id: Disconnect_01
+    family: Disconnect
+    category: cabin
+    clip: {fileID: 8300000, guid: 7cc689cc710f2a148bccca0d603a531d, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: db035de6-abd3-4cae-8690-62b9fd2f7000
+    sourceHash: 069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99
+  - id: Disconnect_02
+    family: Disconnect
+    category: cabin
+    clip: {fileID: 8300000, guid: 4e48b317ad64ad94aaf46154444c6fdb, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: a97756fc-db20-4d94-9910-ad650aca427b
+    sourceHash: a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7
+  - id: Disconnect_03
+    family: Disconnect
+    category: cabin
+    clip: {fileID: 8300000, guid: 9db11e51218b19a4d9a0cbd245964f35, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: a007f0ba-b1d2-427e-9fa7-9dcd0786d310
+    sourceHash: 14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b
+  - id: Interference_01
+    family: Interference
+    category: cabin
+    clip: {fileID: 8300000, guid: c1420ab8c61ad95458e13a3e439283e2, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: da3f447e-456e-4fee-b8b4-c46c409f0fe9
+    sourceHash: 67435ceb2eaa3108108dd187015913881b5ca71c4adbf25454e67318c987f3b9
+  - id: Interference_02
+    family: Interference
+    category: cabin
+    clip: {fileID: 8300000, guid: 12a33bca481730442bcbd0537dabc555, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: d249e4c7-d804-46a1-ab06-36c3cc5dcf3b
+    sourceHash: debc476bfbddc66a8fd36684147b7cb286ef4c415abd2dce9429ac05b68ae921
+  - id: Interference_03
+    family: Interference
+    category: cabin
+    clip: {fileID: 8300000, guid: f714a0199fd53a540b40d768a70d2c92, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 0c3db6dd-d90d-4cbb-92c1-400726fc3ae0
+    sourceHash: 8c1e196dc3cbb315bf89e71afcfc22494e2bb77a5ac5ece6705ba50c7a0b555d
+  - id: Interference_04
+    family: Interference
+    category: cabin
+    clip: {fileID: 8300000, guid: 3ae78744a9696b54ba208a0835aab68a, type: 3}
+    loop: 0
+    gain: 1
+    priority: 85
+    cooldownSeconds: 0.15
+    sourceRequestId: 0272aba2-243a-4c32-ad97-cbe06990a73c
+    sourceHash: 2529ad72281fce076e7311edc428c13d377a9865f4c846dc28f3d7897c2a831b
+  - id: Focus_01
+    family: Focus
+    category: ui
+    clip: {fileID: 8300000, guid: 4ffbe7db6ca83604497111aca6b8735c, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 881f428c-8192-4577-8784-8763e14a55f1
+    sourceHash: 846a7cc1c5fe57b9ad51bea18fc972e8ebf741c988c7cde2bbd658bbc82507ac
+  - id: Focus_02
+    family: Focus
+    category: ui
+    clip: {fileID: 8300000, guid: 1ec35e73b945e6949bff5f3f7b11a70a, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 9f50c074-8009-4746-93ca-b4d1971217d8
+    sourceHash: b127bc009a2a6349ed09a9a1bed35801a1fb3b4ed6cea3519fbcf636bf34d56a
+  - id: Confirm_01
+    family: Confirm
+    category: ui
+    clip: {fileID: 8300000, guid: 649c97fdad10810439230b5bec3f89ea, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: a18ff0a7-d922-4ab3-b607-22f3b057f28f
+    sourceHash: c2693526af887b95b271888ea2d6ac18e7bee0017e648d8994d7738f760072b6
+  - id: Confirm_02
+    family: Confirm
+    category: ui
+    clip: {fileID: 8300000, guid: 599b92eae16dca0499abb7966d32144e, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 8ba8f7a3-7cc7-45b5-9554-7d7d3ecc24ab
+    sourceHash: cdeb1badc63524630e9585ebc18eb23398bc13a51a95bb445cc46050003aa7b7
+  - id: Back_01
+    family: Back
+    category: ui
+    clip: {fileID: 8300000, guid: 4c10b34fe0bb1b847aa97d20c06d779b, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: a970f5a5-0e4d-4f56-a68b-0b972b8c4240
+    sourceHash: 1b5706e509ca7c6203e4bc1896a90219d52a4d1bdec908f77fc7ef648e546590
+  - id: Back_02
+    family: Back
+    category: ui
+    clip: {fileID: 8300000, guid: fad922407e1c86542a765f80f7caf8ac, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: ed609c76-979e-48d3-a224-a3fd3044a87e
+    sourceHash: 49ad78436030834c8d5a7b1fa9bbacb2059a9d19494d76a14880771ecbe66a10
+  - id: Toggle_01
+    family: Toggle
+    category: ui
+    clip: {fileID: 8300000, guid: 7eecc315e023aac45a36383e65084395, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 89f17283-d002-4e1e-add4-0df427a76411
+    sourceHash: 3662afc5cf17a0c5da0271f0068f3972aef3446f7179a1375c599a0ea80bfce8
+  - id: Toggle_02
+    family: Toggle
+    category: ui
+    clip: {fileID: 8300000, guid: 51146fbbdeb389a468c4ddbf7125c184, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 53726898-cc21-46bb-84eb-53876688eb04
+    sourceHash: 2b4f401ad4549c5aeb7cacd6523316ee72c80b8e79c768059f25cd7c4b462afb
+  - id: Slider_01
+    family: Slider
+    category: ui
+    clip: {fileID: 8300000, guid: 106e5f6ddccde1d4eabdf1ccf98c5446, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 290cff41-cc35-4fb8-ae3b-56ac28d36149
+    sourceHash: 209dc6302be04000e05f027e2f58dfac7c3b8878cde5f5c4dc04f987de54c775
+  - id: Slider_02
+    family: Slider
+    category: ui
+    clip: {fileID: 8300000, guid: 742ea8ad168df864daabc05e43df985b, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 7d8b917d-9cee-4726-88b9-c56ff0d2c277
+    sourceHash: cc0c89b78966943a204e72a87afc8ed43bb6695e7f77b79e27d5ce9719f49234
+  - id: Pause_01
+    family: Pause
+    category: ui
+    clip: {fileID: 8300000, guid: fc12583d3b232ec4a9b58adc22873391, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: b4ba3a91-b299-4669-b5e7-ad7c54b5cd9f
+    sourceHash: 37c19656ba14f42b257341c16f61b10fad7787247153443a57fb86955ffd514c
+  - id: Resume_01
+    family: Resume
+    category: ui
+    clip: {fileID: 8300000, guid: e07aab33a35a6534a90e88b701679693, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 09076157-52e1-47af-b9bd-8681b8acf6df
+    sourceHash: 38de29bb0cf516c83fdb70a373ccdc098744bf77f7caa7da8bec996b91f3c31d
+  - id: Skip_01
+    family: Skip
+    category: ui
+    clip: {fileID: 8300000, guid: 59c55305fa8388647a74b8e9fdef3e53, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 6e100f2f-b763-42b2-8cb5-aa4ef6c67a5b
+    sourceHash: 383ed2513b926a4a78876aa25d93414449faf00f482ab3ef0272296b86372766
+  - id: Restart_01
+    family: Restart
+    category: ui
+    clip: {fileID: 8300000, guid: aad2050150909a34b9dbe1a975dfbcdb, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 29c8d302-f21d-4c73-a597-d89885bb91fa
+    sourceHash: a4128d51edfcc7a697c50d1c041774340ba5425170e15a5d1292cec428171a53
+  - id: History_01
+    family: History
+    category: ui
+    clip: {fileID: 8300000, guid: fb6650e3c582f9740a800ef1bcbc3fee, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 242fc1c1-a5ad-476a-aa34-8cb90326d9fd
+    sourceHash: 3e9539d88fc74277cd81474c180a44ac44065c8b6d7bc1b6e3026fb501653457
+  - id: History_02
+    family: History
+    category: ui
+    clip: {fileID: 8300000, guid: 446836461ca4aa74da294f27c6eeae74, type: 3}
+    loop: 0
+    gain: 1
+    priority: 35
+    cooldownSeconds: 0.08
+    sourceRequestId: 827eed3b-e4ba-4b4c-932a-23dbcd0161a0
+    sourceHash: 1f798b0db43d26d05be2217f3f6609922499bc89c9e7387a4e4ccd02a9978d74
+  - id: Boundary_01
+    family: Boundary
+    category: mission
+    clip: {fileID: 8300000, guid: bbe28d69828d3c141bf617c427f3b1ac, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 4
+    sourceRequestId: e20f3936-272e-46a5-bf8f-a6e8fa907442
+    sourceHash: 259d5fa90f8a40a6d8a1a147762cd3e8dccf7233b4c54963ee3e8e740c6a5d76
+  - id: Boundary_02
+    family: Boundary
+    category: mission
+    clip: {fileID: 8300000, guid: 6374dcfde1684ed49b906f37c24df235, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 4
+    sourceRequestId: bae0a252-d8d1-4f13-9beb-a1b3b61eac90
+    sourceHash: 45d3b7f52ef0fc8e33a7bf1b29c6271c12a59a4ea51792e2a16f471bd3ba468e
+  - id: Return_01
+    family: Return
+    category: mission
+    clip: {fileID: 8300000, guid: da2a2c455640d9047b0115da3687ff4f, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 1
+    sourceRequestId: d607cadc-5b66-44ec-9b4e-d5bede86b3cc
+    sourceHash: 1fcb92897c4b073e78bd7424826db3f048fe808d9997b4d28a455f429d9ff4f6
+  - id: Return_02
+    family: Return
+    category: mission
+    clip: {fileID: 8300000, guid: 1115dbcac3da4b449af85a1f95abf607, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 1
+    sourceRequestId: 5685ac55-b6fa-4388-8ed5-4eb8ce45faee
+    sourceHash: abc3f81ecb28afdc6b7945a4c6302e68562b37d7de4947f27a1ef371d53c1571
+  - id: TimeWarning_01
+    family: TimeWarning
+    category: mission
+    clip: {fileID: 8300000, guid: 8050a1230b4a2e142824c7fb18ac7fbc, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: 9e90c46c-3c18-4f41-9a35-a47d2b846c61
+    sourceHash: a9a783ebad98a8a0bcc49e10a14b54c775d2c49884f1a37e9a3b303b55c6a767
+  - id: TimeWarning_02
+    family: TimeWarning
+    category: mission
+    clip: {fileID: 8300000, guid: 1df3c52fde4112c4294fb4f429cfc881, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: c956850c-e0de-4e98-bb81-9256d9ecd5d0
+    sourceHash: 08980f89b98dcc4651deaf287f35c8ed823850a84900c54c1ef2dfd22b376604
+  - id: Countdown_01
+    family: Countdown
+    category: mission
+    clip: {fileID: 8300000, guid: 9e639becb6ca47f4095dfc6cc9d55fab, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.9
+    sourceRequestId: 11a28996-2c8c-494b-ad6f-6a4d793e37a7
+    sourceHash: 0c489d35635e745d80e6c97686a9fbfc6b8ed6b8439b7b311bf0c63edfb3a77f
+  - id: Countdown_02
+    family: Countdown
+    category: mission
+    clip: {fileID: 8300000, guid: b536a6188912db742a67151b569e7f66, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.9
+    sourceRequestId: a507f648-f736-4764-985f-c9811f839a6e
+    sourceHash: bba3adcf78090472e1310b11b6203eebd04dac4ac16a831c3f68d92780873bc3
+  - id: Combo_01
+    family: Combo
+    category: mission
+    clip: {fileID: 8300000, guid: 4b55d13fffed72844bb5950b36e82347, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: 0c17a42e-b454-462f-96a7-a40a59ce8bca
+    sourceHash: ed91798e954c15c892eb00ea56e32334bcb6ab36f52fc67802bb67a965d92852
+  - id: Combo_02
+    family: Combo
+    category: mission
+    clip: {fileID: 8300000, guid: 5db6afb90589b3f4da701e83042f8590, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: f0f82bf8-fc9a-4acf-8ba0-12c0eb0fde9e
+    sourceHash: 52c282fc49bcf6079585942fc8f426c0ef58104f1466f199288ab6b876d1324a
+  - id: Combo_03
+    family: Combo
+    category: mission
+    clip: {fileID: 8300000, guid: 7f7d0effeec3f1f46932aa6e34c740d1, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: d77769a8-6d68-4372-be2a-765b6bb87268
+    sourceHash: 30e96308e5e05426a85818cc3e25e395fb75d23f0374695dd3f0ade5e5830f50
+  - id: ComboCap_01
+    family: ComboCap
+    category: mission
+    clip: {fileID: 8300000, guid: 305f1c0439f0cd44580c3d73758c1e13, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: 2c9d8972-8281-45a8-afe8-326fe291d3bc
+    sourceHash: c48923abbce5e6a9c1f925c2405c61311b7e6ff37c49b42c3249eb81ed11391e
+  - id: ResultSting_01
+    family: ResultSting
+    category: mission
+    clip: {fileID: 8300000, guid: cc8d232a33a5ebc4abacf00798ddef19, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: 504b0116-383b-4f5e-9344-35a0ebd5c6fc
+    sourceHash: b211e8183045cc13635198ea41478877e0eac7efc7e02ff91ee659343814a4d8
+  - id: ResultSting_02
+    family: ResultSting
+    category: mission
+    clip: {fileID: 8300000, guid: 9a15870b4198aeb4d9c6a4518fe0ea1f, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: 6d09506c-1b86-4491-af31-7a55e8125343
+    sourceHash: 807e9cfb740d2a433a849b398f468f04bbf2a7e39c4ffcad04c1ae0beaaa1337
+  - id: ResultSting_03
+    family: ResultSting
+    category: mission
+    clip: {fileID: 8300000, guid: a632ae6cf1806ef41a287f4a547be3f9, type: 3}
+    loop: 0
+    gain: 1
+    priority: 45
+    cooldownSeconds: 0.3
+    sourceRequestId: 0cf3d21c-37e5-44d9-883a-f20b8aecbc1e
+    sourceHash: d41a7217921a5c17573a931b8bc9a23518862d5c0b7b24f0577835d738c35699

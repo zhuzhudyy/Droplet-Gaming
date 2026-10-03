@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E015",
+    "text": "Still no answer. Contact protocol, mathematical sequence, navigation lights. I repeated all three. The transmitter works; our ships can read it. I cannot solve this by turning up the volume."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Still no answer. Contact protocol, mathematical sequence, navigation lights. I repeated all three. The transmitter works; our ships can read it. I cannot solve this by turning up the volume.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A little fatigue under disciplined reporting; the last phrase should sound spoken to nearby colleagues.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "f8fad5ec-008a-4a78-adf8-e983eb24d5d7",
+  "sha256": "9384ee04f09d26fdad512d45741e6b0a9eddaac066065bf07517cea331a57b53",
+  "duration_seconds": 13.450541666666666,
+  "usage": {
+    "text_words": 190
+  }
+}

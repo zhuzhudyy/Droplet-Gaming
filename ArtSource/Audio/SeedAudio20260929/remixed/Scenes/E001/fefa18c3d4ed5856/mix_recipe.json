@@ -1,0 +1,91 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E001",
+  "fingerprint": "fefa18c3d4ed5856ea384ac6c8a46939330577c64035ae1d5c9195933120c980",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E001",
+    "templateSha256": "c9591037bda4125d8a657236621238e8dfd066454f904f53b5671d46de48eaa4",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 12.482667,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E001",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E001-f8711a5287b75c58/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E001-f8711a5287b75c58/job.json",
+        "sha256": "4175b4381bbc20d9cf9a588a09132e538e030c203fd799c91ab5f1f0e2299a4d",
+        "sourceSha256": "4175b4381bbc20d9cf9a588a09132e538e030c203fd799c91ab5f1f0e2299a4d",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 1.6256196846186732,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+        "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+        "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+        "model": "seed-audio-1.0",
+        "start": 7.696738,
+        "oldGain": 0.1,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+        "sha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+        "sourceSha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+        "sha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+        "sourceSha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+        "model": "seed-audio-1.0",
+        "start": 12.272667,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 11.982667,
+        "english": "Every public screen is showing the same small light tonight. A silver point has crossed the outer watch line. We have enlarged the picture and waited. It is still coming toward us.",
+        "text": "今夜，所有公共屏幕都显示着同一个小光点。一个银色目标越过了外层警戒线。我们放大画面，然后等待。它仍在向我们飞来。",
+        "role": "anchor"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "6f219d5ec89722bb2a0df294e0ee1ea0c30158e5136bc5a32385eaac84214be5",
+      "seconds": 12.482666666666667,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -4.089188156502784,
+      "rmsDbFS": -21.110037007513682,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

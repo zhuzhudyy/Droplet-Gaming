@@ -1,0 +1,29 @@
+{
+  "id": "METAL_SERVICE_ACTIVE_729b8857",
+  "category": "METAL",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "729b8857-aa15-4049-8712-300cb910438f",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "生成约6秒音频。一枚坚硬光滑物体高速贯穿厚重舰船钢板。短而有重量的撞击起音，紧接鋼板撕裂、刮擦，低沉船壳共振与几片金属碎片落下，5秒内自然衰减至静音。单次动作，近景音效，紧致而不混浊，不含爆炸。 直接输出所描述的声音。不要读出提示词，不要旁白、对白、说话、口技、呼吸或人群。不要音乐。",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T09:28:24.292981+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "authMode": "X-Api-Key",
+  "authorization": "User authorized six representative Seed Audio categories; first laser succeeded, this is a distinct category request.",
+  "originalDurationSeconds": 6,
+  "sha256": "68f8c23164ca85ce655b3b1380af35727a4dead00f3079d616fa6855fc5032ef",
+  "audio": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\raw\\METAL_SERVICE_ACTIVE_729b8857\\audio.wav",
+  "actualSeconds": 6.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "rmsDbFS": -22.7792542610148,
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "completedAt": "2026-09-29T09:28:36.931368+00:00"
+}

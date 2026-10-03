@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E025",
+    "text": "Maintain spacing for now. A sudden withdrawal could look like preparation to fire. I will not start a war by moving a symbol on a display."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Maintain spacing for now. A sudden withdrawal could look like preparation to fire. I will not start a war by moving a symbol on a display.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "c96371df-535c-4c8b-8b80-9ee1cbc92752",
+  "sha256": "0800d6e63082c766a3fbe9c4cad3a7fa32f8e2370d9b3078e894cdda8b8072af",
+  "duration_seconds": 7.97925,
+  "usage": {
+    "text_words": 138
+  }
+}

@@ -1,0 +1,168 @@
+wall,simulation,phase,mission,music,musicGain,ambienceGain,cruiseVolume,boostVolume,radioVoice,radioDucking,worldSources,outputPeak,destroyed,pending
+3.91165,0.00000,Startup,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.00000,0,0
+5.27831,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.04048,0,0
+5.38177,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.05562,0,0
+5.48735,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.06297,0,0
+5.58939,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.07657,0,0
+5.70202,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.06315,0,0
+5.80642,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.05579,0,0
+5.90966,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.06521,0,0
+6.01981,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.05179,0,0
+6.12415,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.05350,0,0
+6.23119,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.04230,0,0
+6.33934,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.05347,0,0
+6.44000,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.04257,0,0
+6.54826,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.03252,0,0
+6.64829,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.04574,0,0
+6.74940,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.04509,0,0
+6.84984,0.00000,Ready,Ready,Ready_01,0.75000,0.55000,1.00000,1.00000,0,0,0,0.06050,0,0
+7.42753,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.05482,0,0
+7.58599,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.05762,0,0
+7.69157,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.12518,0,0
+7.79800,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.10218,0,0
+7.89818,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.13877,0,0
+8.00693,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.04307,0,0
+8.10696,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.11688,0,0
+8.21118,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.04410,0,0
+8.31955,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.11250,0,0
+8.41970,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.12949,0,0
+8.53086,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.05180,0,0
+8.64036,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.04816,0,0
+8.74276,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.07456,0,0
+8.84658,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.08980,0,0
+8.95340,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.07151,0,0
+9.05649,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.05876,0,0
+9.16538,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.13883,0,0
+9.27043,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.12525,0,0
+9.37692,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.04848,0,0
+9.48094,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.02710,0,0
+9.58562,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.02763,0,0
+9.68862,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.03962,0,0
+9.79030,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.09544,0,0
+9.89430,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.13589,0,0
+9.99577,0.00000,Narrative,Narrative,Narrative_01,0.31500,0.27500,1.00000,1.00000,1,1,0,0.02003,0,0
+10.10372,0.00000,Narrative,Narrative,Narrative_02,0.31500,0.27500,1.00000,1.00000,1,1,0,0.03970,0,0
+10.21054,0.00000,Narrative,Narrative,Narrative_03,0.31500,0.27500,1.00000,1.00000,1,1,0,0.00720,0,0
+10.31206,0.00000,Narrative,Narrative,Narrative_03,0.31500,0.27500,1.00000,1.00000,1,1,0,0.04440,0,0
+10.42307,0.00000,Narrative,Narrative,Narrative_04,0.31500,0.27500,1.00000,1.00000,1,1,0,0.11764,0,0
+10.53071,0.00000,Pause,Paused,Narrative_04,0.31500,0.27500,1.00000,1.00000,0,1,0,0.00000,0,0
+10.64008,0.00000,Pause,Paused,Narrative_04,0.31500,0.27500,1.00000,1.00000,0,1,0,0.10994,0,0
+10.75009,0.00000,Pause,Paused,Narrative_04,0.31500,0.27500,1.00000,1.00000,0,1,0,0.05146,0,0
+10.85375,0.00000,Pause,Paused,Narrative_04,0.31500,0.27500,1.00000,1.00000,0,1,0,0.04842,0,0
+10.95969,0.00000,Pause,Paused,Narrative_04,0.31500,0.27500,1.00000,1.00000,0,1,0,0.04100,0,0
+11.07112,0.00000,Pause,Narrative,Narrative_04,0.31500,0.27500,1.00000,1.00000,1,1,0,0.01878,0,0
+11.18184,0.00000,Pause,Narrative,Narrative_04,0.31500,0.27500,1.00000,1.00000,1,1,0,0.13627,0,0
+11.29461,0.00000,Pause,Narrative,Narrative_04,0.31500,0.27500,1.00000,1.00000,1,1,0,0.04964,0,0
+11.40055,0.08000,Pause,Playing,BattleLow,0.39247,0.32397,0.16200,0.00000,0,1,0,0.06439,0,0
+11.87576,0.02000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.56176,0.00000,0,0,0,0.00000,0,0
+11.98629,0.20000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.62485,0.00000,0,0,0,0.11163,0,0
+12.09215,0.38000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.66121,0.00000,0,0,0,0.08664,0,0
+12.27850,0.54000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.69464,0.00000,1,0,4,0.10938,0,0
+12.38923,0.72000,Direct combat flight,Playing,BattleLow,0.34350,0.29302,0.65337,0.00000,1,1,4,0.20700,0,0
+12.49352,0.88000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.59155,0.00000,1,1,4,0.16356,0,0
+12.60077,1.04000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.55221,0.00000,1,1,4,0.11325,0,0
+12.71070,1.20000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.52760,0.00000,1,1,6,0.23463,0,0
+12.81260,1.36000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.51350,0.00000,1,1,6,0.22699,0,0
+12.92481,1.54000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.50396,0.00000,1,1,6,0.13952,0,0
+13.03538,1.68000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.49828,0.00000,1,1,6,0.13046,0,0
+13.14786,1.84000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.49482,0.00000,1,1,7,0.25959,0,0
+13.25560,2.00000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.49279,0.00000,1,1,7,0.16870,0,0
+13.35902,2.14000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.49160,0.00000,1,1,8,0.09416,0,0
+13.46038,2.28000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.49086,0.00000,1,1,5,0.11891,0,0
+13.56134,2.42000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.49040,0.00000,1,1,7,0.13016,0,0
+13.67005,2.56000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.48526,0.00709,1,1,7,0.11362,0,0
+13.78381,2.74000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.47035,0.02874,1,1,7,0.25794,0,0
+13.88533,2.90000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.45195,0.05563,1,1,7,0.19418,0,0
+13.99630,3.04000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.42988,0.08799,1,1,7,0.25499,0,1
+14.09955,3.22000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.40709,0.12145,1,1,10,0.15119,0,1
+14.21212,3.40000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.37944,0.16206,1,1,9,0.30322,0,1
+14.31469,3.56000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.35379,0.19976,1,1,9,0.24111,0,1
+14.42368,3.72000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.32639,0.24003,1,1,7,0.12227,0,1
+14.53841,3.88000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.29833,0.28130,1,1,5,0.13032,0,1
+14.64801,4.06000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.27114,0.32128,1,1,5,0.14689,0,1
+14.75652,4.20000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.24358,0.36180,1,1,6,0.15254,0,1
+14.87224,4.36000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.21606,0.40226,1,1,4,0.07793,0,1
+14.97741,4.52000,Direct combat flight,Playing,BattleLow,0.31500,0.27500,0.19387,0.43490,0,1,4,0.16830,0,1
+15.07849,4.66000,Direct combat flight,Playing,BattleLow,0.41268,0.33675,0.18392,0.46675,0,1,5,0.17684,0,1
+15.18165,4.82000,Direct combat flight,Playing,BattleLow,0.51236,0.39977,0.18372,0.50654,0,1,5,0.16736,0,1
+15.28305,4.98000,Direct combat flight,Playing,BattleLow,0.61040,0.46175,0.18977,0.55041,0,1,5,0.23010,0,1
+15.38475,5.14000,Direct combat flight,Playing,BattleLow,0.70874,0.52391,0.19977,0.59744,0,1,7,0.22440,0,1
+15.49613,5.32000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.21162,0.64513,0,0,10,0.29765,0,1
+15.60680,5.50000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.21904,0.67472,0,0,11,0.25027,0,1
+15.70809,5.66000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.22323,0.69143,0,0,10,0.50812,0,1
+15.80989,5.84000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.22589,0.70202,0,0,11,0.40113,0,1
+15.91429,6.02000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.22759,0.70881,0,0,11,0.23197,0,1
+16.02178,6.18000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.22868,0.71313,0,0,11,0.47626,0,1
+16.12750,6.33999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.22933,0.71574,0,0,12,0.29988,0,1
+16.22804,6.47999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.22972,0.71730,0,0,9,0.28982,0,1
+16.32853,6.65999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.22997,0.71829,0,0,10,0.15945,0,2
+16.43727,6.85999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23014,0.71896,0,0,8,0.14063,0,2
+16.54482,7.05999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23024,0.71936,0,0,7,0.19179,0,2
+16.65493,7.27999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23030,0.71961,0,0,7,0.15994,0,2
+16.75639,7.45999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23034,0.71976,0,0,7,0.20658,0,2
+16.86223,7.65999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23036,0.71985,0,0,6,0.19192,0,2
+16.96374,7.81999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23038,0.71991,0,0,8,0.19426,1,1
+17.07354,8.03999,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23039,0.71994,0,0,9,0.20497,1,1
+17.17575,8.24000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23039,0.71996,0,0,10,0.20317,1,1
+17.28033,8.44000,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23039,0.71998,0,0,11,0.28332,1,1
+17.38596,8.62001,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.71999,0,0,12,0.27544,2,0
+17.49026,8.82001,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.71999,0,0,12,0.10779,2,0
+17.59930,9.02002,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.71999,0,0,12,0.25683,2,0
+17.70062,9.22002,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.72000,0,0,12,0.32006,2,0
+17.80820,9.44003,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.72000,0,0,12,0.27315,2,0
+17.91094,9.64003,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.72000,0,0,12,0.24150,2,0
+18.01860,9.84003,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.72000,0,0,12,0.15498,2,1
+18.11906,9.96004,Direct combat flight,Playing,BattleLow,0.75000,0.55000,0.23040,0.72000,0,0,11,0.15083,2,1
+18.57992,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.75000,0.55000,0.56176,0.00000,1,0,1,0.12073,0,1
+18.68113,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.35851,0.30251,0.57650,0.00000,1,1,1,0.19746,0,1
+18.79219,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.54223,0.00000,1,1,1,0.13814,0,1
+18.89790,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.52215,0.00000,1,1,1,0.09767,0,1
+19.00125,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.50995,0.00000,1,1,1,0.10407,0,1
+19.10724,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.50217,0.00000,1,1,1,0.12383,0,1
+19.21243,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.49740,0.00000,1,1,1,0.05066,0,1
+19.31321,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.49453,0.00000,1,1,1,0.05975,0,1
+19.42304,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.49259,0.00000,1,1,1,0.08075,0,1
+19.52501,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.49148,0.00000,1,1,1,0.18310,0,1
+19.62934,0.00000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.49077,0.00000,1,1,1,0.10989,0,1
+19.74553,0.02000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.49029,0.00000,0,1,1,0.03734,0,1
+19.85079,0.18000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.49003,0.00000,0,1,1,0.05682,0,1
+19.95514,0.34000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48987,0.00000,0,1,1,0.06031,0,1
+20.06885,0.50000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48976,0.00000,0,1,0,0.09138,0,1
+20.17282,0.64000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48970,0.00000,0,1,4,0.22722,0,1
+20.27673,0.78000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48966,0.00000,0,1,4,0.18899,0,1
+20.37843,0.92000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48964,0.00000,0,1,4,0.16118,0,1
+20.49166,1.08000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48962,0.00000,0,1,6,0.12145,0,1
+20.60303,1.24000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48961,0.00000,0,1,6,0.17776,0,1
+20.70856,1.40000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48961,0.00000,0,1,6,0.11041,0,1
+20.81544,1.56000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48961,0.00000,0,1,6,0.18291,0,1
+20.91587,1.70000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,4,0.10999,0,1
+21.01895,1.84000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,5,0.16954,0,1
+21.12183,1.98000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,5,0.12095,0,1
+21.22361,2.10000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,7,0.15332,0,1
+21.32924,2.24000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,6,0.22735,0,1
+21.42979,2.38000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,5,0.11356,0,1
+21.53059,2.52000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,6,0.12225,0,1
+21.63153,2.66000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,8,0.13779,0,1
+21.74196,2.82000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,9,0.19268,0,1
+21.85091,2.98000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,9,0.11215,0,1
+21.95572,3.14000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,10,0.07801,0,1
+22.06488,3.28000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,9,0.11337,0,1
+22.16824,3.44000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,9,0.13020,0,1
+22.26846,3.60000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,8,0.08739,0,1
+22.37218,3.76000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,10,0.20571,0,1
+22.48299,3.94000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,7,0.21511,0,1
+22.58823,4.12000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,7,0.14984,0,1
+22.69094,4.30000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,8,0.10436,0,1
+22.79676,4.48000,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,7,0.19127,0,1
+22.90617,4.64410,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,1,1,7,0.10046,0,1
+23.01167,4.82410,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,1,1,7,0.14691,0,1
+23.11653,4.90410,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,6,0.13988,1,0
+23.22203,4.90410,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,6,0.16251,1,0
+23.32613,4.90410,Penetration and delayed explosion,Playing,BattleLow,0.31500,0.27500,0.48960,0.00000,0,1,6,0.08965,1,0
+23.42779,4.90410,Penetration and delayed explosion,Playing,BattleLow,0.41326,0.33712,0.50078,0.00000,0,1,5,0.15697,1,0
+23.53205,4.90410,Penetration and delayed explosion,Playing,BattleLow,0.51404,0.40083,0.52791,0.00000,0,1,5,0.18074,1,0
+23.63307,4.90410,Penetration and delayed explosion,Playing,BattleLow,0.61164,0.46253,0.56364,0.00000,0,1,5,0.23594,1,0
+24.13024,0.00000,Three restarts,Playing,BattleLow,0.75000,0.55000,0.56176,0.00000,0,0,0,0.00000,0,0
+24.56456,0.00000,Three restarts,Playing,BattleLow,0.75000,0.55000,0.56176,0.00000,0,0,0,0.00847,0,0
+25.03012,0.00000,Three restarts,Playing,BattleLow,0.75000,0.55000,0.56176,0.00000,0,0,0,0.04938,0,0
+25.53335,5400.00000,Accelerated timer result,Results,ResultBed_02,0.75000,0.55000,0.00000,0.00000,0,0,0,0.00000,0,0

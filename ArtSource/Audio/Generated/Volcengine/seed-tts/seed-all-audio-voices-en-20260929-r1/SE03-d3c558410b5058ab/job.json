@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "SE03",
+    "text": "Leave it! Aft passage, keep together!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Leave it! Aft passage, keep together!",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. React immediately to the jammed hatch, redirect people with controlled force.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "806bc1f0-4182-4cb5-8a57-b48050484920",
+  "sha256": "6e8a5582e29f9c5e2db88f9651e5cf17ecc0c94b67692b631d4b9e940f0962f2",
+  "duration_seconds": 4.778208333333334,
+  "usage": {
+    "text_words": 37
+  }
+}

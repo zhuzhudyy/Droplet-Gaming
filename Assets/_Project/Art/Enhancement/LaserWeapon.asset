@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8005f46ad0866b4ca78fdf42700d18a, type: 3}
+  m_Name: LaserWeapon
+  m_EditorClassIdentifier: DropletPrototype.Runtime::DropletPrototype.LaserWeaponSettings
+  rangeMeters: 220000
+  fireIntervalSeconds: 3.5
+  aimDegreesPerSecond: 26
+  firingToleranceDegrees: 0.08
+  nearDecisionSeconds: 0.06
+  farDecisionSeconds: 0.5
+  nearDecisionDistanceMeters: 120000
+  decisionsPerStep: 48
+  shotsPerStep: 4
+  rayQueriesPerStep: 12
+  visualBeamBudget: 12
+  beamSeconds: 0.18
+  beamWidthMeters: 12
+  contactRadiusMeters: 14
+  minimumBeamPixels: 1.8
+  maximumBeamWidthMeters: 300
+  contactParticleCount: 3
+  surfaceHighlightSeconds: 0.09
+  surfaceHighlightRadiusMeters: 22
+  reflectionOffsetMeters: 0.8
+  visualDistanceMeters: 240000
+  reflectedLaserIsLethal: 1
+  directLaserIsLethal: 0
+  audioVolume: 0.18
+  audioCooldownSeconds: 0.18
+  incidentColor: {r: 0.45, g: 1.7, b: 3.5, a: 1}
+  reflectedColor: {r: 3.8, g: 1.25, b: 0.3, a: 1}

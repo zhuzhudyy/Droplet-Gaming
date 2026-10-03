@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "method": "Actual second background Blender generation and saved-source roundtrip.",
+  "layoutBeforeSha256": "cc1f8812c48bcececb4c8e1f3e89c4a83e5847bcf595f9d427f59c6a074a91c4",
+  "layoutAfterSha256": "cc1f8812c48bcececb4c8e1f3e89c4a83e5847bcf595f9d427f59c6a074a91c4",
+  "unchanged": true
+}

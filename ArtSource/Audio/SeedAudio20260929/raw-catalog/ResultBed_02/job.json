@@ -1,0 +1,25 @@
+{
+  "id": "ResultBed_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "436e848b-b13c-4648-8996-05463d5b2ba5",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Restrained result-screen instrumental score with a calm sustained ending. Incomplete: unresolved descending minor harmony, isolated muted piano notes and a distant low drone. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:22:18.550709+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "827c3775d9083d3809f8897ea3a39a30979b21b50161e8065c285e174c6421bd",
+  "originalDurationSeconds": 75,
+  "actualSeconds": 75.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:23:16.438513+00:00"
+}

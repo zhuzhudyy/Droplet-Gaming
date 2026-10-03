@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B020",
+    "text": "Beacon live. We cannot stop the drift!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Beacon live. We cannot stop the drift!",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Urgent status report; emphasize cannot without drawn-out delivery.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "1dcb9119-a032-45c9-81db-5c66287fb836",
+  "sha256": "75c2df1c1f3b9dc1eebf8c9547f70609d089c2c2f7b44cfa7604c92dd6409661",
+  "duration_seconds": 3.18,
+  "usage": {
+    "text_words": 38
+  }
+}

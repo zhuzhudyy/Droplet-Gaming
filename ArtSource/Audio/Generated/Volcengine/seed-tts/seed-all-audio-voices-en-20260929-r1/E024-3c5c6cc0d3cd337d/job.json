@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E024",
+    "text": "Two requests are waiting. Science wants wider separation. Fire control wants the present geometry. Both are on your display. Commander, which instruction goes first? The captains are listening with us."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Two requests are waiting. Science wants wider separation. Fire control wants the present geometry. Both are on your display. Commander, which instruction goes first? The captains are listening with us.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Taut but neutral; the officer needs an answer, not a debate of their own.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "1e76192b-ad72-4497-8dda-90b4ada4c9ed",
+  "sha256": "731a1e7376ecc890dab853d41338089f68428829650dab8ea398bded0e4cffa9",
+  "duration_seconds": 13.621583333333334,
+  "usage": {
+    "text_words": 201
+  }
+}

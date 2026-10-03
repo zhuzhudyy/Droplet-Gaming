@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E019",
+    "text": "Understood. Keep that distinction in the record. We still need to make the offer. If anyone can receive it, they should know we left a safe way to stop. Repeat it slowly."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Understood. Keep that distinction in the record. We still need to make the offer. If anyone can receive it, they should know we left a safe way to stop. Repeat it slowly.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Accept the correction sincerely, then give a calm practical order.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "bf3ba7bb-6454-40a1-b013-66d6becb55af",
+  "sha256": "831d1357771a75f37ccd0a43b571392316d5575808cfcf429492b6fca5d754c1",
+  "duration_seconds": 11.432708333333334,
+  "usage": {
+    "text_words": 170
+  }
+}

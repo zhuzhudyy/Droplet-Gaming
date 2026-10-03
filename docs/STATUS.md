@@ -1,5 +1,134 @@
 # Implementation status
 
+## 版本整理与远端交付 — 2026-10-03
+
+按当前保留策略整理，并提交此前未推送的 Seed / Cinematic / Enhanced 源码、资源及验证记录。已删除仓库中的旧 NarrativeCombat 发行 ZIP（56,067,483 bytes）；Git 历史仍可恢复。最新版 Seed 玩家归档为 176,407,481 bytes，197 个条目的 SHA-256 全部与本机现有已验证构建一致。发行包通过 GitHub Release `seed-audio-20260929` 分发，README 已指向最新版。详见 [整理报告](verification/VersionCleanup-20261003/REPORT.md)。
+
+**11 个旧构建目录仍未清理：** 已校验路径的递归删除再次被工具自动审核以 `blocked by policy` 拒绝，未执行、未释放其空间。本机当前 Seed 玩家、前版 CinematicAudio 完整回退、v0.2.2 ZIP、源材、历史场景与 GUID 均保留；无关根目录截图不纳入提交。本次仅做整理、归档与版本控制交付，没有重新编译/试玩，不改变下方 34 自动通过、3 人工待验的结论。
+
+## 当前交付：全 Seed 音频与 2000 舰音频场景 — 2026-09-29
+
+最新可玩场景是 `Assets/_Project/Scenes/FleetAssault_SeedAudio.unity`，独立玩家是 `Builds/Windows-SeedAudio-20260929/DropletGaming.exe`。Unity Editor API 从上一版正式场景创建安全副本，并将新版设为默认启用的 Build Settings 场景；旧场景在设置中保留但禁用，原 GUID 和无关未提交工作保留。播放器只使用已导入的本地音频，不联网。2000 舰、90 分钟任务与原有玩法参数保留。
+
+六类 Seed Audio 代表样音（激光、贯穿、爆炸、飞行、舱室、配乐）已由用户试听并确认“六类都可用”。随后完成 **131/131** 条独立非语音成品、**87/87** 条新版 Seed-TTS 2.0 英语干声及 **80** 段通讯加 **78** 条强度变体，共 **158** 条新通讯混音。旧程序音效的 25 个源槽位已由 Seed 录音替换，通讯随之重混；旧素材仍保留。`Laser_03` 原请求返回 502 且状态不明，目录显式映射到成功的 `Laser_03_R2`；E033 原中断请求也保留，以 `E033_R2` 替代，均未对不明请求自动重发。提示词、原声、处理与哈希保存在 `ArtSource/Audio/SeedAudio20260929/`，试听入口见其中 `listening.html`、`catalog-qa/delivery-listening.html`、`voice-qa/listening.html` 和 `remixed/listening.html`。
+
+客观素材检查显示 **131/131** 可发布，**0** 技术错误、**0** 疑似重复；25 项非阻断提醒包括 22 条文件级通讯频段余量、两条起音偏迟及一条偏短，需在实际混音中试听判断。音频离线工具测试 **64/64** 通过。Unity 6000.5.10f1 实际导入 131 条效果与 158 条通讯，运行时 PlayMode **6/6**、Editor 导入 EditMode **3/3**、新场景集成 PlayMode **3/3**，验证器迭代器专项 **1/1** 通过；先前飞行测试首轮失败及修复后的通过记录均保留。Windows 构建成功、**0 错误、1 警告**。原生 **1920×1080 / Direct3D12** 独立玩家在完整 2000 舰场景通过 **34** 项自动检查、**0** 失败，录得六段真实监听器 WAV 与六张画面；覆盖四幕音轨/舱室映射、巡航与冲刺、压低背景、暂停恢复、跳过、真实贯穿至延爆、12 路世界声源上限和连续三次重开。证据见 `docs/verification/SeedAudio-20260929/`。
+
+终审修复了反应堆与撤离持续声的生命周期：同舰两层可并行循环，同类重复事件去重，舰爆/逃脱即停对应持续声，复用槽位清除循环。最终 Unity 编译、针对世界音源 PlayMode **6/6**、场景集成 **3/3**、运行时 **6/6** 复测通过；随后重新构建并在最新二进制上复跑 1920×1080 玩家，仍为 **34 自动通过、0 失败、3 人工**。最终玩家报告及六段录音位于 `docs/verification/SeedAudio-20260929/player-validation-release/`，专项测试位于同级 `seed-sustained-world-release-tests.json`。
+
+**仍待人工验收 3 项：** 自然走完 90 分钟及成功结算；逐条成品/英文表演、背景循环接缝与玩家内混音试听；完整四幕自然播放后以真实键鼠攻击。四幕映射已经由加速定位技术检查覆盖，但这不等于自然完整观看。除六类代表样音外，131 条正式变体、87 条新版干声与 158 条通讯均未逐项由人试听，因此最终 `allAcceptancePassed=false`。目前没有自动检查失败或已知功能阻断；下一步是上述主观与长时路线验收，不把技术通过写成听感通过。完整交付与手动步骤见 [本批验收报告](SEED_AUDIO_ACCEPTANCE.md)，下方 2026-09-29 较早条目和 2026-09-19 条目保留为历史记录。
+
+版本保留清理已检查目标路径，拟移除的 11 个过时构建目录的递归删除被自动审核拒绝，因此**旧目录仍在，未报告为已清理**。当前 Seed 玩家、前版 CinematicAudio 完整回退及 v0.2.2 精简 ZIP 均在；素材源文件与验证证据不属于清理目标。
+
+## Audio 免费服务开通后复测 — 2026-09-29
+
+用户告知已开通免费服务并明确要求再试。对同一 seed-audio-1.0 激光请求依次复测已配置的 UUID Key、Ark Key、旧版 APP ID + Access Token（含 Audio 资源头）：分别仍返回 403/45000030 requested resource not granted、401/45000010 Invalid X-Api-Key、401/45000010 load grant: requested grant not found in SaaS storage。无音频产物。独立原始记录在 ArtSource/Audio/SeedAudio20260929/raw/LASER_ACTIVATED_e66b5798、LASER_ACTIVATED_491b2fb6、LASER_ACTIVATED_LEGACY_8b9740e6。此次三条均为用户报告服务状态变化后的显式复测，无自动重试。下一步需核对实际开通服务名称及所属项目与调用凭据对应关系，不能仅凭错误推断开通未成功。未修改 Unity 或新增账本工作。
+
+## Audio 权限修改后复测 — 2026-09-29
+
+用户明确告知刚修改权限并要求再试。以文档模型 seed-audio-1.0 对两个已保存 Key 各提交一次激光请求：截图方舟 Key 仍返回 401/45000010 Invalid X-Api-Key；先前 UUID Key 仍返回 403/45000030、[resource_id=volc.service_type.10074] requested resource not granted。均无音频输出。证据为 ArtSource/Audio/SeedAudio20260929/raw/LASER_PERMISSION_25f1c1ba/job.json 与 LASER_PERMISSION_4d0f7c8a/job.json。不推断权限传播延迟或修改无效，仅确认当前接口仍拒绝这两次请求。未修改 Unity 或开展额外账本工作。
+
+## Audio 截图模型名与两把 Key 对照实测 — 2026-09-29
+
+用户提供模型勾选“Doubao-音频生成-1.0”和方舟 API Key 截图，明确要求都试。针对同一国内官方 /api/v3/tts/create 接口，执行有限四组激光请求：seed-audio-1.0 + 截图 ARK_API_KEY 返回 401/45000010 Invalid X-Api-Key；seed-audio-1.0 + 先前 VOLC_AUDIO_API_KEY 返回 403/45000030、volc.service_type.10074 requested resource not granted；将截图显示名称 Doubao-音频生成-1.0 字面作为 model 分别配这两把 Key，两次均返回 403/45000030、extract request resource id: fail to convert model to resource_id。四组均无 WAV；真实日志依次为 raw/LASER_MATRIX_021a745c、530538ee、939c140b、f2901ead 下 job.json（后三项同 LASER_MATRIX_ 前缀）。确认截图显示名称不能作为此接口 model 参数；尚未验证截图方舟页面是否存在另一种官方接入路径，不将 Ark Key 在语音接口拒绝等同于全局失效。未自动重试、改计费、开发账本或修改 Unity。
+
+## Audio 旧版双头鉴权实测 — 2026-09-29
+
+按用户两张截图，将 APP ID / Access Token 保存到本地用户变量 VOLC_AUDIO_APP_ID / VOLC_AUDIO_ACCESS_TOKEN（不使用 Secret Key，不覆盖 TTS），扩展 seed_audio.submit 的旧版鉴权。先按截图双头提交激光请求，返回 HTTP 401 / 45000010 / load grant: requested grant not found in SaaS storage。随后打开官方音频文档链接的旧版鉴权示例，发现其通用旧版合成要求 X-Api-Resource-Id；用前次 Audio 服务实际返回的资源标识 volc.service_type.10074 补齐后再提交一次，结果相同，无音频输出。两次请求分别留在 raw/LASER_LEGACY_a48c01ce 和 raw/LASER_LEGACY_RESOURCE_2c66b807。不是超时自动重发；尚无法区分凭据/应用匹配或该应用资源授权缺失，不把失败声称为模型能力问题。没有额外账本开发或 Unity 改动。
+
+## Audio 替换密钥实测 — 2026-09-29
+
+用户提供替换凭据并要求直接试用。已保存到 Windows 用户 VOLC_AUDIO_API_KEY，保留原 TTS；随后仅提交一条约 4 秒激光请求。国内 Seed Audio 1.0 接口这次返回 HTTP 403 / 45000030，明确消息为 [resource_id=volc.service_type.10074] requested resource not granted。没有音频输出、没有自动重试，也未自行开通/购买资源。此结果区别于前两次的 401 Invalid X-Api-Key：当前请求被资源授权拒绝，尚不能生成。证据：ArtSource/Audio/SeedAudio20260929/raw/LASER_NEWKEY_b5062a4f/job.json。未修改 Unity 或运行构建；本次直接请求仅保存来源/结果，不开展额外账本工作。
+
+## Audio 密钥直接配置与生成 — 2026-09-29
+
+用户要求停止账本准备、直接配置其明确提供的凭据并先生成音频。已保存为 Windows 用户变量 VOLC_AUDIO_API_KEY，读回比较成功，原 TTS 凭据保留，关闭本批已不需要的本地输入窗口。随即向国内 Seed Audio 1.0 官方 /api/v3/tts/create 实际提交一条约 4 秒激光请求：仍返回 HTTP 401 / 45000010 / Invalid X-Api-Key，没有生成音频。原始请求与脱敏结果留在 ArtSource/Audio/SeedAudio20260929/raw/LASER_DIRECT_*；没有自动重试。此直接请求未写入前面的 audio-ledger，后续若恢复账本须从原始 job 纳入未明用量，不应将旧账本当最新总额。当前缺口是这把密钥被 Audio 接口拒绝，不是本地保存失败或额度判断；需使用官方语音服务密钥入口的可用凭据。未修改 Unity 场景或生成新构建。
+
+## 全 Seed 音频补全 — 2026-09-29，新 Audio 路线执行中
+
+用户最新授权非语音改用已配置 Audio，独立上限 60 元，无需查询余额；对白保持 Seed-TTS 2.0，累计上限 20,000 AFP，继承旧试验占用 537.975 AFP。[修订方案](SEED_AUDIO_IMPLEMENTATION_PLAN.md) 已保存，旧 TTS-only 方案和证据保留。目标 131 个非语音、重写 87 条英语对白/中文字幕、按缺口最多 24 条新增短语音；适度延长开场，保持 2000 舰与 5400 秒任务参数。目前进行官方 API 契约核对、代表提示词和对白/工具准备，未声称新素材已生成或 Unity 已接入。
+
+## 火山方舟 API Key 本地配置 — 2026-09-29，已保存并核对
+
+用户提供方舟 API Key 管理页面并要求本地配置。已新增 `Tools/Audio/Set-ArkAudioCredential.ps1`，语法检查通过。最初隐藏启动未显示窗口，改为可见交互窗口后，用户已完成输入。2026-09-29 16:46:29（UTC+8）本机助手保存到 Windows 用户变量 `ARK_API_KEY` 并比较读回值成功；随后独立检查确认状态 `saved_and_readback_verified`、方舟凭据可读取、原 `VOLC_SPEECH_API_KEY` 仍存在。本轮未打印、记录或写入项目任何密钥值。状态记录在 `%LOCALAPPDATA%/DropletPrototype/ark-credential-status.json`，不含密钥。**本地配置完成，云端鉴权和具体音频模型权限尚未测试。** 未调用 API、消耗生成额度或修改 Unity；说明见 [音频配置文档](VOLCENGINE_VOICE.md)。
+
+## Seed-TTS 全音频补全 — 2026-09-29，停在代表素材门槛
+
+已先记录 [实施计划](SEED_AUDIO_IMPLEMENTATION_PLAN.md) 与 [131 项声音目录](../ArtSource/Audio/SeedTTS20260929/catalog.json)，再执行真实测试。唯一模型 Seed-TTS 2.0，沿用既有 Agent Plan 和本机密钥。**现有鉴权可用，不需要提供新密钥。** 英语控制生成 5.396 秒完整 WAV；六类非语音各完成初次 + 两轮修订，合计 19 次请求、17 个完整 WAV、2 次无有效音频。
+
+**六类内容验收未全部通过，按用户计划停止扩量。** 爆炸、飞行、舰内环境、配乐等样例的离线自由转写出现输入描述／标签语句；拟声音节候选也尚未证实具有目标物体或器乐音色。17 个 WAV 格式／哈希检查通过、0 削波，不等于听感验收。本会话不具备音频感知输入，未声称主观试听；转写仅为辅助证据，空转写不算通过。
+
+服务返回累计 313 个 text_words，按官方系数折算 **42.255 AFP**；两次未返回用量的请求保守预留 **495.720 AFP**，预算占用合计 **537.975 / 20,000 AFP**。预留不是确认消费，未读取控制台结算账单。没有重发不确定请求、充值、启用额外付费或更换模型。
+
+交付 [原始试听目录](../ArtSource/Audio/SeedTTS20260929/listening.html)、[AFP 账本](../ArtSource/Audio/SeedTTS20260929/ledger.json)、[来源与提示词清单](../ArtSource/Audio/SeedTTS20260929/source-manifest.json)、[验收报告](verification/SeedTTS-Soundscape-20260929/REPORT.md)。离线工具回归 **24/24** 通过；初次测试编码错误及修复保留在报告中，mock 不算 API 实测。
+
+131 项仍为计划目录，未生成游戏成品、补充正式语音、替换旧 25 个程序声源或导入 Unity。音频增强场景、速度归一化与质量开关解耦、混音接入、Unity 编译／测试、Windows 新构建及 2000 舰验收均未执行。未修改本批范围以外的现有工作；下方 2026-09-19 仍是当前可玩版本。下一阶段是对保留候选实际试听并解决六类代表验收，之后才能进入批量制作；本次每类三次额度已用完，不自动增加第四次调用。
+
+## 当前交付：事件特写、完整英文通讯与立体2000舰阵 — 2026-09-19
+
+打开 **`Assets/_Project/Scenes/FleetAssault_CinematicAudio_Cubic.unity`**，或运行 **`Builds/Windows-CinematicAudio-20260919/DropletGaming.exe`**。Enter播放约6分28秒英语剧情，Tab跳过，R直接战斗/重开，Esc暂停，Q返回正常镜头，F8切换关闭/低频/标准特写。试听入口 [完整通讯试听页](../ArtSource/Audio/CinematicAudio/listening.html)，三个代表场景置顶并提供六条分轨链接。完整说明、改变文件、执行证据、未验项目与手动步骤见 [本批验收报告](CINEMATIC_AUDIO_ACCEPTANCE.md)。
+
+- 已保存新安全副本，复用最新Enhanced场景和已有游戏系统；Cinemachine未安装，扩展ChaseCamera。四类镜头消费既有带稳定ID/代际/身份/方向/位置的真实事件，独立Q返回，不修改水滴操控、时间、碰撞、伤害和延爆；唯一监听器维持正常听点。只提升被拍舰细节，修复远舰激活及销毁后恢复LOD顺序。
+- 实际完成 **87条Seed-TTS 2.0英语语音、80段完整通讯、78个额外强度变体、14个世界/链路效果，172个导入WAV**；源干声、分轨、配方、提示词、中文字幕、生成日志和母版保存在Assets外。FFmpeg实际混音，172解码通过/0削波，126字幕条目技术校验通过。声音密度来自近8秒附近交战，战后回落；主通讯1条、世界池最多12，舰爆即停整个舱内声音。
+- 20×25×2只有1000；本批保留2000身份，实际采用 **20×25×4**，20×25面朝水滴，范围14250×14400×14400 UU。Blender共享低模实例源已真实保存/重开/重复导出；Unity重复导入2000ID/18000碰撞体一致，1,999,000对实际船壳0穿插，不缩船、不缩放舰队根。
+- 实际Unity编译通过；去重 **33/33** 当前范围用例（EditMode6，PlayMode27）；Windows构建0错误。最终完整2000舰玩家 **26/26**、完整英语开场 **5/5** 均通过，两个实际进程退出0。普通S键路线真实触发攻击者/水滴/贯穿/爆炸四类镜头，真实伤害/延爆/整舱通信中断/计分、强度衰退、原点重定位与三次连续重开成立。开场按真实墙钟388.695秒自然播放40条提示并转入战斗。另补实际Editor中段画面复核，未代替玩家音频检查。详见 [运行证据页](verification/CinematicAudio-20260919/index.html) 与 `delivery-audit.json`。首次验证器原点时序失败、LOD警告及其修复记录均保留，不改写成初次通过。
+- 已主观试听：**无，全部待人工试听**；英语自然度/情绪、对白遮蔽、逐词字幕一致性和程序脚步/人群真实感尚未验收。Audacity未操作，没有声称.aup工程。当前未接入可用Seed非语音端点，实探返回45002001；非语音由明确来源的原创程序效果完成，不冒充录音或云生成Foley。当前英语TTS没有权限阻塞。
+
+旧16场景及其meta、Editor版本与manifest基线哈希未变，旧成功音频、模型、现有未提交工作和历史构建保留。本批不做FPS优化、旧版本删除、Git提交或推送，不扩展其他玩法。当前默认构建入口通过Editor API改为新场景；Enhanced作为前版完整回退，compact v0.2.2 ZIP保留。本批之后停止；下面都是历史记录，不覆盖本节状态。
+
+## Version retention cleanup - 2026-09-19
+
+Changed default Unity build entry through Editor API to FleetAssault_Enhanced only; current scene untouched. Added current-version/affected-feature test policy and opt-in historical scene checks to AGENTS/TEST_PLAN/START_HERE. Retain current player, previous NarrativeCombat rollback and compact v0.2.2 ZIP. Identified 9 obsolete generated build folders (1.118 GiB), but automatic policy rejected recursive deletion before execution: all remain, 0 bytes reclaimed. No source assets deleted or gameplay checks rerun. See [cleanup report](verification/VersionCleanup-20260919/REPORT.md).
+
+
+## Natural English Seed-TTS audition - 2026-09-19
+
+User found the first voice stiff. Authored new context_texts direction for conversational connected phrasing, calm urgency, light emphasis, natural pauses, and avoidance of newsreader delivery. Kept Tim speaker and rate 0; rewrote the line into three short spoken phrases. Previewed then executed one request; real PCM WAV completed at 4.778292 seconds, 24 kHz mono, peak -13.22 dBFS, zero clipped samples. Saved under ArtSource/Audio/Generated/Volcengine/seed-tts/agent-plan-natural-20260919/Natural5s-3ccdf5a67bc979e7/ with job.json and qa.json. Prior audition preserved. AI-generated dry voice, human listening pending; no claim that subjective naturalness has passed, no artificial silence/stretching, no Unity import or batch generation.
+
+
+## Agent Plan Seed-TTS live success - 2026-09-19
+
+After the user configured the dedicated key, refreshed the Windows user credential into this test process without printing it. One real request to the corrected /api/v3/plan/tts/unidirectional endpoint succeeded (HTTP 200, complete stream). Generated English AI voice: ArtSource/Audio/Generated/Volcengine/seed-tts/agent-plan-newkey-20260919/Probe5s-22e973ea3eafb8d8/voice.wav. Actual duration 5.007083 seconds, 24 kHz mono 16-bit PCM, peak -11.17 dBFS, zero clipped samples. Human listening pending. Evidence: verification/SeedTTS-5s-20260919/newkey-result.json and generation job.json. Confirms endpoint plus dedicated-key configuration now works; no video calls, batch voice generation, or Unity imports performed. Earlier authorization blocker is resolved for this tested voice/request, not an assertion about all voices or remaining quota.
+
+
+## Agent Plan TTS endpoint correction ? 2026-09-19
+
+Read the official agent-plan-personal-voice-model document: Agent Plan DOES support Seed-TTS 2.0 through /api/v3/plan/tts/unidirectional with its dedicated API key. Corrected the existing tool endpoint and journal endpoint field; updated its endpoint assertion and guide. Previewed and executed exactly one 73-character English TTS request (about 5 seconds intended): HTTP 401 / 45000010 / Invalid X-Api-Key. No audio returned. Earlier ordinary-endpoint HTTP 403 is not evidence that the plan excludes TTS. Existing local credential is not accepted at the correct plan endpoint; account-side key origin/revocation remains unverified. Offline tool tests 9/9 passed; this does not count as synthesis success. No video calls, key changes, billing changes, or Unity changes. See [corrected diagnosis](verification/SeedTTS-5s-20260919/PLAN_DIAGNOSIS.md).
+
+
+## Seed-TTS 5-second diagnostic ? 2026-09-19
+
+User requested a new approximately five-second audio request and failure analysis against the Ark subscription page. Previewed then submitted one 73-character English line through the existing volc_voice.py. Actual response: HTTP 403, provider code 45000030, requested resource not granted (volc.seedtts.default). No WAV returned; no retries, credential changes, purchases, or Unity changes. The subscription URL returned only a public application shell; browser connection was unavailable, so authenticated plan entitlements and key origin remain unverified. Evidence and next checks: [diagnostic report](verification/SeedTTS-5s-20260919/REPORT.md). This is a live failed API check, not successful synthesis.
+
+
+## 当前增强副本：逃跑、反射、太阳与混音 — 2026-09-19
+
+打开 **`Assets/_Project/Scenes/FleetAssault_Enhanced.unity`**（2000舰），独立版 **`Builds/Windows-Enhanced-20260919/DropletGaming.exe`**；12舰检查副本为 `FleetAssault_Enhanced_Small.unity`。没有重建工程、升级Unity/URP、减少正式舰数或改水滴/舰船/太阳系布局。旧场景、旧构建和开始时未提交的工作保留，尚未提交或推送本批。完整改动、证据和手动复核步骤见 [简短验收报告](ENHANCEMENT_ACCEPTANCE.md)。
+
+**部分交付，英语声库存在真实外部阻塞。** 现有 Seed-TTS 2.0 接口首条英语试音实际返回 HTTP403；空文本鉴权确认 `45000030 / requested resource not granted`。不是已证实的额度耗尽，没有更换服务、充值、暴露密钥或继续盲重试。完成40条/四幕原创新英语开场、36条事件广播和中文字幕，但未生成英语人声，不能验收实际4–6分钟剧情、英语表演和新字幕同步。增强场景明确显示 `AI VOICE: ZH (legacy)`，保留与旧中文音频匹配的60秒Timeline。新增4个真实独立PCM音效与实际5组AudioMixer；试听清单、固定角色和恢复条件见 [音频报告](ENHANCEMENT_AUDIO_REPORT.md)，声音待人工试听。
+
+- D优先：正常战斗基线已能逃跑，实际修复1–3秒反应延迟与同帧位置发布顺序。正常贯穿后完好邻舰离阵加速；权威位置、近景Transform、远景矩阵和查询同步；待爆漂移、相对运动扫掠、独立逃脱计数保留。新增可关闭0/3/10秒诊断和正常触发测试，不用ForceFlee代替验收。
+- B：真实表面命中/平滑法线/反射方向保留。入射、接触、反射与局部网格高光可辨；瞬时光路整体冻结0.18秒，追加修复将世界接触亮点/粒子限制到最多2个非暂停渲染帧且25ms以内，避免高速离开后大亮点残留。不改计伤，不逐束加灯。
+- C：物理太阳角直径约0.213162°，美术倍率2，显示约0.426324°，光晕单独配置；曝光0、FOV65，主光绑定太阳。保存独立URP17.5 Renderer与真正半分辨率16采样、深度裁切的局部体积日冕，质量Off可关闭；旧Renderer仍为默认索引。
+- 验证：实际Unity编译、逃跑EditMode **6/6**、完整PlayMode **91/91**；接触闪光修复后专项PlayMode **4/4**；Python音频离线 **14/14**。Windows构建成功，独立版正常战斗/暂停/延爆/结算/连续三次重开等 **22/22** 实测通过，保留完整2000身份。没有把离线测试算作云合成成功，也没有将旧60秒剧情检查算作新4–6分钟英语剧情通过。
+- 证据：`docs/verification/Enhancement-20260919/` 含原始测试、构建报告、实机PNG、采样MP4、0/3/10秒ID位置、逐帧耗时和PID显存CSV。旧场景与原meta **136/136** 哈希不变。未运行会覆盖旧TestRange的作者测试。性能与本机RTX4060 Laptop/1080p原生结果详见验收报告；平均FPS不能证明P95满足12.5ms，未承诺稳定80FPS。
+
+最终二进制对应 `build-accepted.json`，实机最终结果在 `PlayerAccepted/report.json`：**22/22、退出0**。最终5阶段平均81.56–112.41FPS，P95为12.745–17.002ms，未达到P95≤12.5ms目标；体积开/关整帧GPU均值2.848/2.746ms。PID专用显存峰值323.63MiB（共享312.64MiB）。中间一次21/22由验证器没有等待实际威胁后10秒样本导致，已保留失败记录并修复观察窗口、隔离测试输入，未改变舰船行为或降低误差阈值；最终15舰的0/3/10秒位置误差均0。
+
+未验收：新英语试音/全库/真实4–6分钟剧情和其音画同步；新增音效与混音主观试听；人的物理键鼠手感、长期热机、跨机器、全部2000舰自然飞达撤离圈。云端只阻塞音频部分；其余已持续集成与验证。下一步仅在现有账户取得Seed-TTS资源授权后补齐该音频批次，不扩展无关玩法。
+
+## Seed-TTS only - 2026-09-19
+
+User requested Seed-TTS 2.0 exclusively. Removed video endpoints, submission/query/download/collection, video model/duration options, FFmpeg extraction and video credential selection.
+
+- Changed: Tools/Audio/volc_voice.py, Set-VolcVoiceCredential.ps1, test_volc_voice.py, AGENTS.md, VOLCENGINE_VOICE.md, ENVIRONMENT.md, STATUS.md and verification/SeedTTSOnly-20260919.json. Original verification remains historical evidence.
+- Executed: Python 3.14.3 unittest 9/9, default-provider CLI preview/help, PowerShell helper syntax parsing. Tests verify the speech endpoint/resource and rejection of removed video options. Mocks are not live API verification.
+- Environment: user speech key is readable; no value logged. FFmpeg 9.0.1 passed local synthetic-video extraction during the preceding check; this tool no longer needs it.
+- Unrun: cloud authentication/synthesis, listening QA, credential persistence helper, Unity compilation/tests/build. No paid calls or changes to game assets, voices, GUIDs or builds.
+- Manual next step: select an enabled TTS 2.0 speaker, preview one line using the guide, then execute/listen when generation is requested. Known limitation: cloud readiness remains unverified.
+- Requested cleanup complete. No gameplay milestone advanced; audio import is a separate task.
+
+
 ## 本次仓库提交内容 — 2026-09-13
 
 为`origin/main`整理完整源工程与最新已验证可玩构建：`Releases/Droplet-Gaming-Windows-NarrativeCombat.zip`，56,067,483字节，包含原构建全部199文件，逐文件SHA-256一致。根README提供下载与Unity打开方式。仅打包现有2026-09-12构建，没有改玩法或重新声称运行测试。Unity缓存、旧构建、迁移Git恢复包、重复基线快照、原始Profiler和运行日志保留本机，不上传；可玩归档、源码/源美术、原场景、测试、报告及结构化证据纳入本次提交。远端提交结果以实际Git推送核对为准。

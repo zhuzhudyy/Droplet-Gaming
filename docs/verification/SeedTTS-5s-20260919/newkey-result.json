@@ -1,0 +1,22 @@
+{
+  "time": "2026-09-19T20:39:10.488386",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "credential_source": "Windows user environment, refreshed for this process only",
+  "requests": 1,
+  "http_status": 200,
+  "logid": "202609192039133FB90507B2905D1403AB",
+  "tool_completed": true,
+  "audio": [
+    {
+      "path": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\agent-plan-newkey-20260919\\Probe5s-22e973ea3eafb8d8\\voice.wav",
+      "seconds": 5.007083333333333,
+      "sample_rate": 24000,
+      "channels": 1,
+      "sample_width": 2,
+      "peak_dbfs": -11.17218889600969,
+      "rms_dbfs": -31.09377699150389,
+      "clipped_samples": 0,
+      "listening": "pending human listening"
+    }
+  ]
+}

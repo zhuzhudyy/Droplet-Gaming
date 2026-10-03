@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B014",
+    "text": "Shutdown failed. Temperature still rising!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Shutdown failed. Temperature still rising!",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Fast technical realization, clipped and increasingly strained.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "8a4ec188-cd52-419c-b6b6-0367737e9bf9",
+  "sha256": "b306be23b73e8c3741ab41d85f6ff96d8b9c9938b10a3ecabafb205bf86df64f",
+  "duration_seconds": 3.582291666666667,
+  "usage": {
+    "text_words": 42
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Users\\\u848b\u96e8\u8fb0\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "Tools/Audio",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "at": "2026-09-29T08:30:09.177920+00:00",
+  "exitCode": 0,
+  "evidence": "python-tests.txt",
+  "testType": "offline mocks; not live API or Unity verification"
+}

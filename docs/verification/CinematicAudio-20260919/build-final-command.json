@@ -1,0 +1,24 @@
+﻿{
+  "success": true,
+  "command": "command menu",
+  "data": {
+    "command": "menu",
+    "parameters": {
+      "path": "DropletPrototype/Cinematic Audio/2 Build Windows"
+    },
+    "result": {
+      "success": true,
+      "path": "DropletPrototype/Cinematic Audio/2 Build Windows",
+      "items": null,
+      "message": "Executed menu item 'DropletPrototype/Cinematic Audio/2 Build Windows'"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\学习\\玩\\Unity\\Trysolar Drip"
+    },
+    "success": true
+  },
+  "errors": [],
+  "warnings": []
+}

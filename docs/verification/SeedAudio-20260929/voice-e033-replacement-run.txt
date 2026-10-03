@@ -1,0 +1,59 @@
+{
+  "execute": false,
+  "take": "seed-all-audio-voices-en-20260929-r1",
+  "manifestSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+  "budgetAFP": "20000",
+  "inheritedLedger": {
+    "path": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedTTS20260929\\ledger.json",
+    "sha256": "e9b28f443383739bcd328ecdd1819e3cf40420687352e6f82165cd28dea762e0",
+    "accountedAFP": "537.975"
+  },
+  "revisionAccountedAFP": "1667.250",
+  "remainingAFP": "17794.775",
+  "blockedByUnknownSubmission": false,
+  "reservationRule": "4 * UTF-8 bytes of English text plus context direction * 0.135 AFP, per request; settle only service usage.text_words.",
+  "lines": [
+    {
+      "id": "E033_R2",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "The latest return is sharper. A continuous surface, no opening, no joint, no visible heat rejection. Keep every sensor recording through first contact. If our explanation fails, these readings may be all the next crew has.",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Concentrated, precise; concern should enter only when mentioning the next crew.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "97ef470336fc454b2d433e90c8080c742a44293fcd29bb62542650ff27aa11ae",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\E033_R2-97ef470336fc454b",
+      "reservedAFP": "378.000"
+    }
+  ]
+}
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "E033_R2",
+      "text": "The latest return is sharper. A continuous surface, no opening, no joint, no visible heat rejection. Keep every sensor recording through first contact. If our explanation fails, these readings may be all the next crew has.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\E033_R2-97ef470336fc454b"
+    }
+  ],
+  "characters": 222
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\E033_R2-97ef470336fc454b\job.json
+{"completed": 1, "ledger": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\voice-ledger.json"}

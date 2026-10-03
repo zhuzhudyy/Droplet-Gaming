@@ -1,0 +1,433 @@
+{
+  "id": "B013",
+  "profile": "attack",
+  "sourceShip": "Runtime authoritative event speaker ID; narrative fleet command",
+  "trigger": "ReactorUnstable",
+  "english": "Containment is failing. Everyone away from the core!",
+  "caption": "约束正在失效，所有人远离核心！",
+  "role": "engineer",
+  "duration": 5.36175,
+  "stems": {
+    "lead": [
+      {
+        "file": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\B013-45230f2b7b98ef66\\voice.wav",
+        "start": 0.2,
+        "gain": 3.155176543788981,
+        "perspective": "near"
+      }
+    ],
+    "background_people": [
+      {
+        "file": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\BG02-460fc977e0a6de41\\voice.wav",
+        "start": 3.883542,
+        "gain": 0.8673905028457514,
+        "perspective": "far"
+      }
+    ],
+    "actions": [
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Console_2.wav",
+        "start": 0.05,
+        "gain": 0.27,
+        "perspective": "room"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Console_2.wav",
+        "start": 2.042619,
+        "gain": 0.16,
+        "perspective": "far"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Hatch_2.wav",
+        "start": 3.833542,
+        "gain": 0.45,
+        "perspective": "room"
+      }
+    ],
+    "environment": [
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+        "start": 0.0,
+        "gain": 0.9,
+        "perspective": "room"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+        "start": 4.0,
+        "gain": 0.9,
+        "perspective": "room"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Alarm_1.wav",
+        "start": 0.12,
+        "gain": 0.24,
+        "perspective": "far"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Alarm_1.wav",
+        "start": 2.72,
+        "gain": 0.24,
+        "perspective": "far"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Alarm_1.wav",
+        "start": 5.32,
+        "gain": 0.24,
+        "perspective": "far"
+      }
+    ],
+    "events": [
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Impact_2.wav",
+        "start": 1.612594,
+        "gain": 0.38,
+        "perspective": "room"
+      }
+    ],
+    "link": [
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Connect_1.wav",
+        "start": 0,
+        "gain": 0.4,
+        "perspective": "near"
+      },
+      {
+        "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Disconnect_1.wav",
+        "start": 5.15175,
+        "gain": 0.35,
+        "perspective": "near"
+      }
+    ]
+  },
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 3.5835416666666666,
+      "text": "约束正在失效，所有人远离核心！",
+      "english": "Containment is failing. Everyone away from the core!",
+      "role": "engineer"
+    },
+    {
+      "time": 3.883541666666667,
+      "duration": 1.1782083333333333,
+      "text": "退后！",
+      "english": "Get back!",
+      "role": "background crew"
+    }
+  ],
+  "commands": [
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\B013-45230f2b7b98ef66\\voice.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=95,lowpass=f=8200,volume=3.155176543788981,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=200:all=1[s0];[s0]amix=inputs=1:normalize=0:dropout_transition=0,apad,atrim=duration=5.36175[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\lead.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\BG02-460fc977e0a6de41\\voice.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=240,lowpass=f=3100,aecho=0.8:0.65:31|57:0.16|0.08,volume=0.8673905028457514,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=3884:all=1[s0];[s0]amix=inputs=1:normalize=0:dropout_transition=0,apad,atrim=duration=5.36175[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\background_people.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Console_2.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Console_2.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Hatch_2.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.27,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=50:all=1[s0];[1:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=240,lowpass=f=3100,aecho=0.8:0.65:31|57:0.16|0.08,volume=0.16,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=2043:all=1[s1];[2:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.45,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=3834:all=1[s2];[s0][s1][s2]amix=inputs=3:normalize=0:dropout_transition=0,apad,atrim=duration=5.36175[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\actions.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Alarm_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Alarm_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Alarm_1.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.9,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=0:all=1[s0];[1:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.9,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=4000:all=1[s1];[2:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=240,lowpass=f=3100,aecho=0.8:0.65:31|57:0.16|0.08,volume=0.24,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=120:all=1[s2];[3:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=240,lowpass=f=3100,aecho=0.8:0.65:31|57:0.16|0.08,volume=0.24,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=2720:all=1[s3];[4:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=240,lowpass=f=3100,aecho=0.8:0.65:31|57:0.16|0.08,volume=0.24,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=5320:all=1[s4];[s0][s1][s2][s3][s4]amix=inputs=5:normalize=0:dropout_transition=0,apad,atrim=duration=5.36175[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\environment.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Impact_2.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6200,aecho=0.8:0.7:23|43:0.09|0.05,volume=0.38,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=1613:all=1[s0];[s0]amix=inputs=1:normalize=0:dropout_transition=0,apad,atrim=duration=5.36175[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\events.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Connect_1.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Effects\\Disconnect_1.wav",
+      "-filter_complex",
+      "[0:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=95,lowpass=f=8200,volume=0.4,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=0:all=1[s0];[1:a]atrim=0,asetpts=PTS-STARTPTS,highpass=f=95,lowpass=f=8200,volume=0.35,alimiter=limit=0.9:level=0,afade=t=in:d=0.004,adelay=5152:all=1[s1];[s0][s1]amix=inputs=2:normalize=0:dropout_transition=0,apad,atrim=duration=5.36175[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\link.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\lead.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\background_people.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\actions.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\environment.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\events.wav",
+      "-filter_complex",
+      "[0:a]asplit=2[lead][sc];[1:a][2:a][3:a][4:a]amix=inputs=4:normalize=0:dropout_transition=0[bg];[bg][sc]sidechaincompress=threshold=0.026:ratio=3:attack=14:release=180[duck];[lead][duck]amix=inputs=2:normalize=0:dropout_transition=0,alimiter=limit=0.85:level=0[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\scene_mix.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\scene_mix.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\link.wav",
+      "-filter_complex",
+      "[0:a]highpass=f=230,lowpass=f=4300,acompressor=threshold=0.18:ratio=2.2:attack=9:release=100:makeup=1.15,asoftclip=type=tanh:threshold=0.82:output=0.95[cabin];[cabin][1:a]amix=inputs=2:normalize=0:dropout_transition=0,alimiter=limit=0.84:level=0[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\radio_mix.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\lead.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\background_people.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\actions.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\environment.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\events.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\link.wav",
+      "-filter_complex",
+      "[0:a]asplit=2[lead][sc];[1:a]volume=0.42[people];[2:a]volume=0.42[actions];[3:a]volume=0.42[env];[4:a]volume=0.42[events];[people][actions][env][events]amix=inputs=4:normalize=0:dropout_transition=0[bg];[bg][sc]sidechaincompress=threshold=0.026:ratio=3:attack=14:release=180[duck];[lead][duck]amix=inputs=2:normalize=0:dropout_transition=0,highpass=f=230,lowpass=f=4300,acompressor=threshold=0.18:ratio=2.2:attack=9:release=100:makeup=1.15,asoftclip=type=tanh:threshold=0.82:output=0.95[cabin];[cabin][5:a]amix=inputs=2:normalize=0:dropout_transition=0,alimiter=limit=0.84:level=0[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\radio_low.wav"
+    ],
+    [
+      "C:\\FFmpeg\\ffmpeg-9.0.1-full_build\\ffmpeg-9.0.1-full_build\\bin\\ffmpeg.EXE",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\lead.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\background_people.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\actions.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\environment.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\events.wav",
+      "-i",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\link.wav",
+      "-filter_complex",
+      "[0:a]asplit=2[lead][sc];[1:a]volume=1.35[people];[2:a]volume=1.35[actions];[3:a]volume=1.35[env];[4:a]volume=1.35[events];[people][actions][env][events]amix=inputs=4:normalize=0:dropout_transition=0[bg];[bg][sc]sidechaincompress=threshold=0.026:ratio=3:attack=14:release=180[duck];[lead][duck]amix=inputs=2:normalize=0:dropout_transition=0,highpass=f=230,lowpass=f=4300,acompressor=threshold=0.18:ratio=2.2:attack=9:release=100:makeup=1.15,asoftclip=type=tanh:threshold=0.82:output=0.95[cabin];[cabin][5:a]amix=inputs=2:normalize=0:dropout_transition=0,alimiter=limit=0.84:level=0[out]",
+      "-map",
+      "[out]",
+      "-ar",
+      "24000",
+      "-ac",
+      "1",
+      "-c:a",
+      "pcm_s16le",
+      "-t",
+      "5.36175",
+      "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\radio_high.wav"
+    ]
+  ],
+  "mode": "single whole-scene premix; never concurrently play stems",
+  "interrupt": "source explosion stops entire clip including cabin tail; receiver-only 0.2s disconnect is allowed",
+  "candidate": "v1",
+  "selected": "Assets\\_Project\\Audio\\CinematicAudio\\B013.wav",
+  "listening": "待人工试听",
+  "qa": {
+    "duration": 5.36175,
+    "sampleRate": 24000,
+    "channels": 1,
+    "peakDb": -5.38789476106548,
+    "rmsDb": -22.718265216808625,
+    "clippedSamples": 0,
+    "maxSilenceSeconds": 0.0,
+    "edgeDiscontinuity": 0.0,
+    "sha256": "dcd7ada4999dceb124ec26b1d68d657bef09dc550f3a8035c03709faad8d37fd"
+  },
+  "generation": {
+    "prompt": "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+    "parameters": {
+      "user": {
+        "uid": "droplet-offline-authoring"
+      },
+      "req_params": {
+        "text": "Containment is failing. Everyone away from the core!",
+        "speaker": "en_female_jane_uranus_bigtts",
+        "audio_params": {
+          "format": "pcm",
+          "sample_rate": 24000,
+          "speech_rate": 0
+        },
+        "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+      }
+    },
+    "job": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\B013-45230f2b7b98ef66\\job.json"
+  },
+  "dry_stems": [
+    {
+      "file": "ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\lead_dry_01.wav",
+      "source": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\B013-45230f2b7b98ef66\\voice.wav",
+      "start": 0.2,
+      "kind": "lead"
+    },
+    {
+      "file": "ArtSource\\Audio\\CinematicAudio\\Scenes\\B013\\background_people_dry_01.wav",
+      "source": "ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\cinematic-radio-en-20260919\\BG02-460fc977e0a6de41\\voice.wav",
+      "start": 3.883542,
+      "kind": "background_people"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DeckSteps_02",
+  "cueId": "DeckSteps_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "aa55a2ed-e2a3-41ad-87b2-3b04bc076ca7",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. A few isolated human boot footfalls on a spacecraft deck; only footsteps, no speech or breathing. Hurried light boots over ribbed alloy flooring, six uneven steps and one heel scuff. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:48:45.646386+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "0d002780878499925605f9071f058218a5fcb9330bb6c4a5cfc9a3c51dfd6031",
+  "originalDurationSeconds": 4,
+  "actualSeconds": 4.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:48:58.604644+00:00"
+}

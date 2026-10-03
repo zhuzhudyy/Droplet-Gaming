@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c58619dd8fd90347a414e4175c5e3fb, type: 3}
+  m_Name: FullFlight
+  m_EditorClassIdentifier: DropletPrototype.Runtime::DropletPrototype.DropletSettings
+  worldScale: {fileID: 11400000, guid: c239a99aa34caa6469f762518df43b0f, type: 2}
+  initialSpeed: 300
+  maxCruiseSpeed: 300
+  speedAdjustment: 150
+  acceleration: 600
+  boostMultiplier: 5
+  brakeStrength: 1500
+  strafeSpeed: 60
+  mouseSensitivity: 0.14
+  turnDegreesPerSecond: 150
+  pitchLimit: 75
+  invertY: 0
+  cameraDistance: 8
+  cameraHeight: 2.2
+  cameraSmoothing: 12
+  fieldOfView: 65
+  hitRadius: 0.7
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  missionSeconds: 5400
+  boundaryWarningRadius: 29120
+  boundaryRadius: 32000
+  baseScore: 100
+  comboWindow: 8
+  maxMultiplier: 5
+  timeBonusPerSecond: 10

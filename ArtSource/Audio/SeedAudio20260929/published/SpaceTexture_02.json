@@ -1,0 +1,36 @@
+{
+  "id": "SpaceTexture_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "43f9b26163ef2d1f57c5e4e25ab373186ff7a8e9f3b25634e1b34149127253f5",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/SpaceTexture_02/job.json",
+  "sourceSha256": "5412ae496477716cd535cda8bf565de5c44e3eb0435be3f8bec2bf228aa75e51",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Abstract cinematic space ambience, not literal wind in vacuum; sparse non-musical energy texture. Slow pressure-like resonances with faint granular upper harmonics; no rhythmic beat. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "SpaceTexture_02",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 3600000,
+    "rate": 48000,
+    "targetSeconds": 75.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 3600000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 3528000,
+    "linearGain": 0.10597212105029462,
+    "targetLevelDbFS": -36
+  },
+  "qa": {
+    "sha256": "43f9b26163ef2d1f57c5e4e25ab373186ff7a8e9f3b25634e1b34149127253f5",
+    "durationSeconds": 73.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -20.98351226340852,
+    "rmsDbFS": -36.00679260282359,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0006103515625
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

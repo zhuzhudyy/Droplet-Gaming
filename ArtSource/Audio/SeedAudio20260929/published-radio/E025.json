@@ -1,0 +1,90 @@
+{
+  "accepted": true,
+  "sha256": "d03d57f6821524cd51953e4d9ca0de7053814d9850e6240f7af5b3d9712d204e",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E025/d43cbe2e8f5b1eca/mix_recipe.json",
+  "sourceSha256": "7b7e20eb0107ed8e047ee2cbe0a39fd1e2814e36a7adecca4d676a3d940bc54b",
+  "durationSeconds": 13.997208333333333,
+  "english": "Hold the spacing. A withdrawal could look like preparation to fire, and the object has not attacked. But prepare escape routes now. I will not make the crews wait while we finish arguing.",
+  "text": "保持间距。后撤可能被理解为开火准备，而目标尚未攻击。但现在就准备撤离路线，我不会让船员等我们争论完。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 11.597958,
+      "english": "Hold the spacing. A withdrawal could look like preparation to fire, and the object has not attacked. But prepare escape routes now. I will not make the crews wait while we finish arguing.",
+      "text": "保持间距。后撤可能被理解为开火准备，而目标尚未攻击。但现在就准备撤离路线，我不会让船员等我们争论完。",
+      "role": "commander"
+    },
+    {
+      "time": 11.897958,
+      "duration": 1.79925,
+      "english": "On it. Checking now.",
+      "text": "收到，正在检查。",
+      "role": "comms"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/job.json",
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E025-e40dced7d83035e0/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json"
+  ],
+  "sourceHashes": [
+    "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+    "a9f3ef456bff75947cc2290fc890265530aece432b09eff0d5516e6c071d6b29",
+    "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+    "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+    "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+    "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E025-e40dced7d83035e0/job.json",
+      "sha256": "a9f3ef456bff75947cc2290fc890265530aece432b09eff0d5516e6c071d6b29",
+      "usedSha256": "a9f3ef456bff75947cc2290fc890265530aece432b09eff0d5516e6c071d6b29",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/job.json",
+      "sha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+      "usedSha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+      "sha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+      "usedSha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+      "sha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+      "usedSha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+      "sha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+      "usedSha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+      "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+      "usedSha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+      "sha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+      "usedSha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

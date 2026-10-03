@@ -1,0 +1,61 @@
+{
+  "accepted": true,
+  "sha256": "d63870ab9ab1f84fb31c0747b3a517c675bb74f78f3b7f3c1f06e310ea48d904",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E007/0516c743c4deeec9/mix_recipe.json",
+  "sourceSha256": "17d6eeccff55cd24eb2aadf0175917b8e1fc2c975753fe71c17101bf5975f644",
+  "durationSeconds": 12.492666666666667,
+  "english": "The assembly has approved a reception. There are names on the guest list and empty places at a table. Nobody has accepted the invitation. We do not even know whether there is anyone aboard.",
+  "text": "议会已批准接待安排。宾客名单已经拟好，席位却仍然空着。还没有谁接受邀请，我们甚至不知道，那里面是否有人。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 11.992667,
+      "english": "The assembly has approved a reception. There are names on the guest list and empty places at a table. Nobody has accepted the invitation. We do not even know whether there is anyone aboard.",
+      "text": "议会已批准接待安排。宾客名单已经拟好，席位却仍然空着。还没有谁接受邀请，我们甚至不知道，那里面是否有人。",
+      "role": "anchor"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E007-fef1a0d25baf189c/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json"
+  ],
+  "sourceHashes": [
+    "60698cafef08ecee4797810410ac9ad20362aed2cf0d9ddd9998282088d505f5",
+    "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+    "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+    "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E007-fef1a0d25baf189c/job.json",
+      "sha256": "60698cafef08ecee4797810410ac9ad20362aed2cf0d9ddd9998282088d505f5",
+      "usedSha256": "60698cafef08ecee4797810410ac9ad20362aed2cf0d9ddd9998282088d505f5",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+      "sha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+      "usedSha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+      "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+      "usedSha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+      "sha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+      "usedSha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,248 @@
+{
+  "status": "technical_acceptance_passed_subjective_listening_pending",
+  "uniqueEditorTests": 33,
+  "passedEditorTests": 33,
+  "build": {
+    "result": "Succeeded",
+    "path": "C:/学习/玩/Unity/Trysolar Drip/Builds/Windows-CinematicAudio-20260919/DropletGaming.exe",
+    "errors": 0,
+    "warnings": 1,
+    "bytes": 266014136,
+    "seconds": 23.6294678
+  },
+  "naturalShotKinds": [
+    "Attacker",
+    "DropletContact",
+    "Explosion",
+    "Penetration"
+  ],
+  "players": {
+    "PlayerFinal": {
+      "ships": 2000,
+      "identities": 2000,
+      "maximumVoices": 1,
+      "maximumWorldSources": 12,
+      "nonzeroOutputSamples": 1972,
+      "peakOutput": 0.27519598603248596,
+      "checks": [
+        {
+          "name": "Full authored fleet",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "One stable listener",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Narrative pause",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Single combat initialization",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "S key slows normal motor",
+          "detail": "Cruise=99; normal mission duration=5400",
+          "passed": true
+        },
+        {
+          "name": "Independent Q returns during real shot",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Return input exercised",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Normal penetration",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Intact ships actually escape formation",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Natural event close-ups",
+          "detail": "Explosion/DropletContact/Attacker/Attacker/Explosion/Penetration",
+          "passed": true
+        },
+        {
+          "name": "No back-to-back close-ups",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Pause stops simulation and shots",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Paused fatal deadline unchanged",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Explosion does not wait for dialogue",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Destroyed speaker fully stopped",
+          "detail": "SA01 played=True stopped at actual destruction callback=True; interrupted=1 (start 0)",
+          "passed": true
+        },
+        {
+          "name": "Single death score unchanged",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Concentrated delayed explosions once",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Audio density decays",
+          "detail": "quiet=0 peak=0.9999986 aftermath=0.0002554914",
+          "passed": true
+        },
+        {
+          "name": "Single principal transmission",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Bounded world audio",
+          "detail": "maximum sources=12",
+          "passed": true
+        },
+        {
+          "name": "Actual mixer output",
+          "detail": "meter nonzero samples=1971",
+          "passed": true
+        },
+        {
+          "name": "Origin rebases all 2000 render identities",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Restart 0",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Restart 1",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Restart 2",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Results once and clean",
+          "detail": "",
+          "passed": true
+        }
+      ],
+      "shots": [
+        {
+          "phase": "Normal input slower flight",
+          "kind": "Explosion",
+          "time": 9.980037689208984,
+          "eventId": 17179869388
+        },
+        {
+          "phase": "Normal input slower flight",
+          "kind": "DropletContact",
+          "time": 38.800697326660156,
+          "eventId": 17179869448
+        },
+        {
+          "phase": "Normal input slower flight",
+          "kind": "Attacker",
+          "time": 54.141048431396484,
+          "eventId": 17179869631
+        },
+        {
+          "phase": "Normal input slower flight",
+          "kind": "Attacker",
+          "time": 87.11739349365234,
+          "eventId": 17179869761
+        },
+        {
+          "phase": "Normal input slower flight",
+          "kind": "Explosion",
+          "time": 107.1540298461914,
+          "eventId": 17179870038
+        },
+        {
+          "phase": "Normal input slower flight",
+          "kind": "Penetration",
+          "time": 152.4757537841797,
+          "eventId": 17179870337
+        },
+        {
+          "phase": "Live event stress and interrupted transmission",
+          "kind": "Penetration",
+          "time": 6.4399943351745605,
+          "eventId": 21474836506
+        }
+      ]
+    },
+    "Opening": {
+      "ships": 2000,
+      "identities": 2000,
+      "maximumVoices": 1,
+      "maximumWorldSources": 0,
+      "nonzeroOutputSamples": 3612,
+      "peakOutput": 0.18980199098587036,
+      "checks": [
+        {
+          "name": "Full authored fleet",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "One stable listener",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "All forty natural narrative cues",
+          "detail": "Actual wall seconds=388.6954",
+          "passed": true
+        },
+        {
+          "name": "Natural Timeline completes once",
+          "detail": "",
+          "passed": true
+        },
+        {
+          "name": "Actual English opening output",
+          "detail": "",
+          "passed": true
+        }
+      ],
+      "shots": []
+    }
+  },
+  "sha256": {
+    "Assets/_Project/Scenes/FleetAssault_CinematicAudio_Cubic.unity": "cf21e239c47c00a0fdb89b908f8ddbda86c42fb3f49494f1364b6315bb9b0ba7",
+    "Assets/_Project/Data/CinematicAudio/CinematicRadioContent.json": "3a2b4aa072d6cd5008122361f8bf83182f97db1bdb8bf196718b571c2e332115",
+    "Assets/_Project/Data/CinematicFleet/FleetLayout_Cubic.json": "cc1f8812c48bcececb4c8e1f3e89c4a83e5847bcf595f9d427f59c6a074a91c4",
+    "Builds/Windows-CinematicAudio-20260919/DropletGaming_Data/Managed/DropletPrototype.Runtime.dll": "a630209a1b66ec2a56bcb1a83767cc5b775e879bb9be2a80d6c175b6a7e35416"
+  },
+  "listening": "待人工试听。Technical signal/output checks do not verify acting, intelligibility or Foley realism."
+}

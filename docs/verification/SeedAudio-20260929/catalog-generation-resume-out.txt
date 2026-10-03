@@ -1,0 +1,217 @@
+{"execute": true, "count": 131, "targetSeconds": 1699.64, "maximumCNYPerRequest": "2", "ids": ["Ready_01", "Narrative_01", "Narrative_02", "Narrative_03", "Narrative_04", "BattleLow_01", "BattleLow_02", "BattleMedium_01", "BattleMedium_02", "BattleHigh_01", "BattleHigh_02", "Aftermath_01", "PauseBed_01", "ResultBed_01", "ResultBed_02", "Transition_01", "Transition_02", "Transition_03", "Transition_04", "SpaceTexture_01", "SpaceTexture_02", "SpaceTexture_03", "CabinBed_01", "CabinBed_02", "CabinBed_03", "Cruise_01", "Cruise_02", "BoostLoop_01", "BoostLoop_02", "BoostEnter_01", "BoostEnter_02", "BoostEnter_03", "BoostRelease_01", "BoostRelease_02", "BoostRelease_03", "Brake_01", "Brake_02", "Brake_03", "Turn_01", "Turn_02", "Turn_03", "Recover_01", "Recover_02", "Laser_01", "Laser_02", "Laser_03", "Laser_04", "Laser_05", "Laser_06", "Reflect_01", "Reflect_02", "Reflect_03", "Reflect_04", "Reflect_05", "Reflect_06", "Penetration_01", "Penetration_02", "Penetration_03", "Penetration_04", "Penetration_05", "Penetration_06", "LaserBreach_01", "LaserBreach_02", "LaserBreach_03", "Explosion_01", "Explosion_02", "Explosion_03", "Explosion_04", "Explosion_05", "Explosion_06", "Reactor_01", "Reactor_02", "Reactor_03", "RetreatEngine_01", "RetreatEngine_02", "RetreatEngine_03", "Escape_01", "Escape_02", "DeckSteps_01", "DeckSteps_02", "DeckSteps_03", "Console_01", "Console_02", "Console_03", "Hatch_01", "Hatch_02", "Hatch_03", "Alarm_01", "Alarm_02", "Alarm_03", "Connect_01", "Connect_02", "Connect_03", "Disconnect_01", "Disconnect_02", "Disconnect_03", "Interference_01", "Interference_02", "Interference_03", "Interference_04", "Focus_01", "Focus_02", "Confirm_01", "Confirm_02", "Back_01", "Back_02", "Toggle_01", "Toggle_02", "Slider_01", "Slider_02", "Pause_01", "Resume_01", "Skip_01", "Restart_01", "History_01", "History_02", "Boundary_01", "Boundary_02", "Return_01", "Return_02", "TimeWarning_01", "TimeWarning_02", "Countdown_01", "Countdown_02", "Combo_01", "Combo_02", "Combo_03", "ComboCap_01", "ResultSting_01", "ResultSting_02", "ResultSting_03"]}
+{"id": "Ready_01", "cached": true}
+{"id": "Narrative_01", "cached": true}
+{"id": "Narrative_02", "cached": true}
+{"id": "Narrative_03", "cached": true}
+{"id": "Narrative_04", "cached": true}
+{"id": "BattleLow_01", "cached": true}
+{"id": "BattleLow_02", "cached": true}
+{"id": "BattleMedium_01", "cached": true}
+{"id": "BattleMedium_02", "cached": true}
+{"id": "BattleHigh_01", "cached": true}
+{"id": "BattleHigh_02", "cached": true}
+{"id": "Aftermath_01", "cached": true}
+{"id": "PauseBed_01", "cached": true}
+{"id": "ResultBed_01", "cached": true}
+{"id": "ResultBed_02", "cached": true}
+{"id": "Transition_01", "cached": true}
+{"id": "Transition_02", "cached": true}
+{"id": "Transition_03", "cached": true}
+{"id": "Transition_04", "cached": true}
+{"id": "SpaceTexture_01", "cached": true}
+{"id": "SpaceTexture_02", "cached": true}
+{"id": "SpaceTexture_03", "cached": true}
+{"id": "CabinBed_01", "cached": true}
+{"id": "CabinBed_02", "cached": true}
+{"id": "CabinBed_03", "cached": true}
+{"id": "Cruise_01", "cached": true}
+{"id": "Cruise_02", "cached": true}
+{"id": "BoostLoop_01", "cached": true}
+{"id": "BoostLoop_02", "cached": true}
+{"id": "BoostEnter_01", "cached": true}
+{"id": "BoostEnter_02", "cached": true}
+{"id": "BoostEnter_03", "cached": true}
+{"id": "BoostRelease_01", "cached": true}
+{"id": "BoostRelease_02", "cached": true}
+{"id": "BoostRelease_03", "cached": true}
+{"id": "Brake_01", "cached": true}
+{"id": "Brake_02", "cached": true}
+{"id": "Brake_03", "cached": true}
+{"id": "Turn_01", "cached": true}
+{"id": "Turn_02", "cached": true}
+{"id": "Turn_03", "cached": true}
+{"id": "Recover_01", "cached": true}
+{"id": "Recover_02", "cached": true}
+{"id": "Laser_01", "cached": true}
+{"id": "Laser_02", "cached": true}
+{"id": "Laser_03", "cached": true}
+{"generating": "Laser_04", "cueId": "Laser_04", "targetSeconds": 0.8}
+{"complete": "Laser_04", "cueId": "Laser_04", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Laser_05", "cueId": "Laser_05", "targetSeconds": 0.8}
+{"complete": "Laser_05", "cueId": "Laser_05", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Laser_06", "cueId": "Laser_06", "targetSeconds": 0.8}
+{"complete": "Laser_06", "cueId": "Laser_06", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Reflect_01", "cueId": "Reflect_01", "targetSeconds": 0.8}
+{"complete": "Reflect_01", "cueId": "Reflect_01", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Reflect_02", "cueId": "Reflect_02", "targetSeconds": 0.8}
+{"complete": "Reflect_02", "cueId": "Reflect_02", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Reflect_03", "cueId": "Reflect_03", "targetSeconds": 0.8}
+{"complete": "Reflect_03", "cueId": "Reflect_03", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Reflect_04", "cueId": "Reflect_04", "targetSeconds": 0.8}
+{"complete": "Reflect_04", "cueId": "Reflect_04", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Reflect_05", "cueId": "Reflect_05", "targetSeconds": 0.8}
+{"complete": "Reflect_05", "cueId": "Reflect_05", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Reflect_06", "cueId": "Reflect_06", "targetSeconds": 0.8}
+{"complete": "Reflect_06", "cueId": "Reflect_06", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Penetration_01", "cueId": "Penetration_01", "targetSeconds": 1.8}
+{"complete": "Penetration_01", "cueId": "Penetration_01", "seconds": 1.78, "channels": 2, "clippedSamples": 0}
+{"generating": "Penetration_02", "cueId": "Penetration_02", "targetSeconds": 1.8}
+{"complete": "Penetration_02", "cueId": "Penetration_02", "seconds": 1.78, "channels": 2, "clippedSamples": 0}
+{"generating": "Penetration_03", "cueId": "Penetration_03", "targetSeconds": 1.8}
+{"complete": "Penetration_03", "cueId": "Penetration_03", "seconds": 1.78, "channels": 2, "clippedSamples": 0}
+{"generating": "Penetration_04", "cueId": "Penetration_04", "targetSeconds": 1.8}
+{"complete": "Penetration_04", "cueId": "Penetration_04", "seconds": 1.78, "channels": 2, "clippedSamples": 0}
+{"generating": "Penetration_05", "cueId": "Penetration_05", "targetSeconds": 1.8}
+{"complete": "Penetration_05", "cueId": "Penetration_05", "seconds": 1.78, "channels": 2, "clippedSamples": 0}
+{"generating": "Penetration_06", "cueId": "Penetration_06", "targetSeconds": 1.8}
+{"complete": "Penetration_06", "cueId": "Penetration_06", "seconds": 1.78, "channels": 2, "clippedSamples": 0}
+{"generating": "LaserBreach_01", "cueId": "LaserBreach_01", "targetSeconds": 1.2}
+{"complete": "LaserBreach_01", "cueId": "LaserBreach_01", "seconds": 1.2, "channels": 2, "clippedSamples": 0}
+{"generating": "LaserBreach_02", "cueId": "LaserBreach_02", "targetSeconds": 1.2}
+{"complete": "LaserBreach_02", "cueId": "LaserBreach_02", "seconds": 1.2, "channels": 2, "clippedSamples": 0}
+{"generating": "LaserBreach_03", "cueId": "LaserBreach_03", "targetSeconds": 1.2}
+{"complete": "LaserBreach_03", "cueId": "LaserBreach_03", "seconds": 1.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Explosion_01", "cueId": "Explosion_01", "targetSeconds": 5}
+{"complete": "Explosion_01", "cueId": "Explosion_01", "seconds": 5.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Explosion_02", "cueId": "Explosion_02", "targetSeconds": 5}
+{"complete": "Explosion_02", "cueId": "Explosion_02", "seconds": 5.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Explosion_03", "cueId": "Explosion_03", "targetSeconds": 5}
+{"complete": "Explosion_03", "cueId": "Explosion_03", "seconds": 5.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Explosion_04", "cueId": "Explosion_04", "targetSeconds": 5}
+{"complete": "Explosion_04", "cueId": "Explosion_04", "seconds": 5.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Explosion_05", "cueId": "Explosion_05", "targetSeconds": 5}
+{"complete": "Explosion_05", "cueId": "Explosion_05", "seconds": 5.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Explosion_06", "cueId": "Explosion_06", "targetSeconds": 5}
+{"complete": "Explosion_06", "cueId": "Explosion_06", "seconds": 5.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Reactor_01", "cueId": "Reactor_01", "targetSeconds": 4}
+{"complete": "Reactor_01", "cueId": "Reactor_01", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Reactor_02", "cueId": "Reactor_02", "targetSeconds": 4}
+{"complete": "Reactor_02", "cueId": "Reactor_02", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Reactor_03", "cueId": "Reactor_03", "targetSeconds": 4}
+{"complete": "Reactor_03", "cueId": "Reactor_03", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "RetreatEngine_01", "cueId": "RetreatEngine_01", "targetSeconds": 8}
+{"complete": "RetreatEngine_01", "cueId": "RetreatEngine_01", "seconds": 8.0, "channels": 2, "clippedSamples": 0}
+{"generating": "RetreatEngine_02", "cueId": "RetreatEngine_02", "targetSeconds": 8}
+{"complete": "RetreatEngine_02", "cueId": "RetreatEngine_02", "seconds": 8.0, "channels": 2, "clippedSamples": 0}
+{"generating": "RetreatEngine_03", "cueId": "RetreatEngine_03", "targetSeconds": 8}
+{"complete": "RetreatEngine_03", "cueId": "RetreatEngine_03", "seconds": 8.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Escape_01", "cueId": "Escape_01", "targetSeconds": 0.6}
+{"complete": "Escape_01", "cueId": "Escape_01", "seconds": 0.6, "channels": 2, "clippedSamples": 0}
+{"generating": "Escape_02", "cueId": "Escape_02", "targetSeconds": 0.6}
+{"complete": "Escape_02", "cueId": "Escape_02", "seconds": 0.6, "channels": 2, "clippedSamples": 0}
+{"generating": "DeckSteps_01", "cueId": "DeckSteps_01", "targetSeconds": 4}
+{"complete": "DeckSteps_01", "cueId": "DeckSteps_01", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "DeckSteps_02", "cueId": "DeckSteps_02", "targetSeconds": 4}
+{"complete": "DeckSteps_02", "cueId": "DeckSteps_02", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "DeckSteps_03", "cueId": "DeckSteps_03", "targetSeconds": 4}
+{"complete": "DeckSteps_03", "cueId": "DeckSteps_03", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Console_01", "cueId": "Console_01", "targetSeconds": 1}
+{"complete": "Console_01", "cueId": "Console_01", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Console_02", "cueId": "Console_02", "targetSeconds": 1}
+{"complete": "Console_02", "cueId": "Console_02", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Console_03", "cueId": "Console_03", "targetSeconds": 1}
+{"complete": "Console_03", "cueId": "Console_03", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Hatch_01", "cueId": "Hatch_01", "targetSeconds": 2}
+{"complete": "Hatch_01", "cueId": "Hatch_01", "seconds": 2.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Hatch_02", "cueId": "Hatch_02", "targetSeconds": 2}
+{"complete": "Hatch_02", "cueId": "Hatch_02", "seconds": 2.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Hatch_03", "cueId": "Hatch_03", "targetSeconds": 2}
+{"complete": "Hatch_03", "cueId": "Hatch_03", "seconds": 2.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Alarm_01", "cueId": "Alarm_01", "targetSeconds": 6}
+{"complete": "Alarm_01", "cueId": "Alarm_01", "seconds": 6.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Alarm_02", "cueId": "Alarm_02", "targetSeconds": 6}
+{"complete": "Alarm_02", "cueId": "Alarm_02", "seconds": 6.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Alarm_03", "cueId": "Alarm_03", "targetSeconds": 6}
+{"complete": "Alarm_03", "cueId": "Alarm_03", "seconds": 6.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Connect_01", "cueId": "Connect_01", "targetSeconds": 0.4}
+{"complete": "Connect_01", "cueId": "Connect_01", "seconds": 0.4, "channels": 2, "clippedSamples": 0}
+{"generating": "Connect_02", "cueId": "Connect_02", "targetSeconds": 0.4}
+{"complete": "Connect_02", "cueId": "Connect_02", "seconds": 0.4, "channels": 2, "clippedSamples": 0}
+{"generating": "Connect_03", "cueId": "Connect_03", "targetSeconds": 0.4}
+{"complete": "Connect_03", "cueId": "Connect_03", "seconds": 0.4, "channels": 2, "clippedSamples": 0}
+{"generating": "Disconnect_01", "cueId": "Disconnect_01", "targetSeconds": 0.3}
+{"complete": "Disconnect_01", "cueId": "Disconnect_01", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Disconnect_02", "cueId": "Disconnect_02", "targetSeconds": 0.3}
+{"complete": "Disconnect_02", "cueId": "Disconnect_02", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Disconnect_03", "cueId": "Disconnect_03", "targetSeconds": 0.3}
+{"complete": "Disconnect_03", "cueId": "Disconnect_03", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Interference_01", "cueId": "Interference_01", "targetSeconds": 0.7}
+{"complete": "Interference_01", "cueId": "Interference_01", "seconds": 0.68, "channels": 2, "clippedSamples": 0}
+{"generating": "Interference_02", "cueId": "Interference_02", "targetSeconds": 0.7}
+{"complete": "Interference_02", "cueId": "Interference_02", "seconds": 0.68, "channels": 2, "clippedSamples": 0}
+{"generating": "Interference_03", "cueId": "Interference_03", "targetSeconds": 0.7}
+{"complete": "Interference_03", "cueId": "Interference_03", "seconds": 0.68, "channels": 2, "clippedSamples": 0}
+{"generating": "Interference_04", "cueId": "Interference_04", "targetSeconds": 0.7}
+{"complete": "Interference_04", "cueId": "Interference_04", "seconds": 0.68, "channels": 2, "clippedSamples": 0}
+{"generating": "Focus_01", "cueId": "Focus_01", "targetSeconds": 0.15}
+{"complete": "Focus_01", "cueId": "Focus_01", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Focus_02", "cueId": "Focus_02", "targetSeconds": 0.15}
+{"complete": "Focus_02", "cueId": "Focus_02", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Confirm_01", "cueId": "Confirm_01", "targetSeconds": 0.25}
+{"complete": "Confirm_01", "cueId": "Confirm_01", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Confirm_02", "cueId": "Confirm_02", "targetSeconds": 0.25}
+{"complete": "Confirm_02", "cueId": "Confirm_02", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Back_01", "cueId": "Back_01", "targetSeconds": 0.25}
+{"complete": "Back_01", "cueId": "Back_01", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Back_02", "cueId": "Back_02", "targetSeconds": 0.25}
+{"complete": "Back_02", "cueId": "Back_02", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Toggle_01", "cueId": "Toggle_01", "targetSeconds": 0.2}
+{"complete": "Toggle_01", "cueId": "Toggle_01", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Toggle_02", "cueId": "Toggle_02", "targetSeconds": 0.2}
+{"complete": "Toggle_02", "cueId": "Toggle_02", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Slider_01", "cueId": "Slider_01", "targetSeconds": 0.12}
+{"complete": "Slider_01", "cueId": "Slider_01", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Slider_02", "cueId": "Slider_02", "targetSeconds": 0.12}
+{"complete": "Slider_02", "cueId": "Slider_02", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Pause_01", "cueId": "Pause_01", "targetSeconds": 0.35}
+{"complete": "Pause_01", "cueId": "Pause_01", "seconds": 0.4, "channels": 2, "clippedSamples": 0}
+{"generating": "Resume_01", "cueId": "Resume_01", "targetSeconds": 0.35}
+{"complete": "Resume_01", "cueId": "Resume_01", "seconds": 0.4, "channels": 2, "clippedSamples": 0}
+{"generating": "Skip_01", "cueId": "Skip_01", "targetSeconds": 0.5}
+{"complete": "Skip_01", "cueId": "Skip_01", "seconds": 0.5, "channels": 2, "clippedSamples": 0}
+{"generating": "Restart_01", "cueId": "Restart_01", "targetSeconds": 0.6}
+{"complete": "Restart_01", "cueId": "Restart_01", "seconds": 0.6, "channels": 2, "clippedSamples": 0}
+{"generating": "History_01", "cueId": "History_01", "targetSeconds": 0.25}
+{"complete": "History_01", "cueId": "History_01", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "History_02", "cueId": "History_02", "targetSeconds": 0.25}
+{"complete": "History_02", "cueId": "History_02", "seconds": 0.3, "channels": 2, "clippedSamples": 0}
+{"generating": "Boundary_01", "cueId": "Boundary_01", "targetSeconds": 1}
+{"complete": "Boundary_01", "cueId": "Boundary_01", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Boundary_02", "cueId": "Boundary_02", "targetSeconds": 1}
+{"complete": "Boundary_02", "cueId": "Boundary_02", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Return_01", "cueId": "Return_01", "targetSeconds": 1}
+{"complete": "Return_01", "cueId": "Return_01", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Return_02", "cueId": "Return_02", "targetSeconds": 1}
+{"complete": "Return_02", "cueId": "Return_02", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "TimeWarning_01", "cueId": "TimeWarning_01", "targetSeconds": 0.8}
+{"complete": "TimeWarning_01", "cueId": "TimeWarning_01", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "TimeWarning_02", "cueId": "TimeWarning_02", "targetSeconds": 0.8}
+{"complete": "TimeWarning_02", "cueId": "TimeWarning_02", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Countdown_01", "cueId": "Countdown_01", "targetSeconds": 0.2}
+{"complete": "Countdown_01", "cueId": "Countdown_01", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Countdown_02", "cueId": "Countdown_02", "targetSeconds": 0.2}
+{"complete": "Countdown_02", "cueId": "Countdown_02", "seconds": 0.2, "channels": 2, "clippedSamples": 0}
+{"generating": "Combo_01", "cueId": "Combo_01", "targetSeconds": 0.5}
+{"complete": "Combo_01", "cueId": "Combo_01", "seconds": 0.5, "channels": 2, "clippedSamples": 0}
+{"generating": "Combo_02", "cueId": "Combo_02", "targetSeconds": 0.5}
+{"complete": "Combo_02", "cueId": "Combo_02", "seconds": 0.5, "channels": 2, "clippedSamples": 0}
+{"generating": "Combo_03", "cueId": "Combo_03", "targetSeconds": 0.5}
+{"complete": "Combo_03", "cueId": "Combo_03", "seconds": 0.5, "channels": 2, "clippedSamples": 0}
+{"generating": "ComboCap_01", "cueId": "ComboCap_01", "targetSeconds": 0.8}
+{"complete": "ComboCap_01", "cueId": "ComboCap_01", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "ResultSting_01", "cueId": "ResultSting_01", "targetSeconds": 4}
+{"complete": "ResultSting_01", "cueId": "ResultSting_01", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "ResultSting_02", "cueId": "ResultSting_02", "targetSeconds": 4}
+{"complete": "ResultSting_02", "cueId": "ResultSting_02", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "ResultSting_03", "cueId": "ResultSting_03", "targetSeconds": 4}
+{"complete": "ResultSting_03", "cueId": "ResultSting_03", "seconds": 4.0, "channels": 2, "clippedSamples": 0}

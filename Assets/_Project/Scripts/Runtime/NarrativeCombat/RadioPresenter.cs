@@ -8,6 +8,7 @@ namespace DropletPrototype
     public sealed class RadioPresenter : MonoBehaviour
     {
         public RadioController radio;
+        public UiMissionAudioController audioFeedback;
         public TMP_Text sourceLabel, subtitleLabel, signalLabel, historyLabel, controlsLabel;
         public RectTransform radioPanel;
         public GameObject historyPanel;
@@ -16,8 +17,21 @@ namespace DropletPrototype
         int historyCount = -1, historyRevision = -1;
         bool layoutInitialized;
         MissionState displayedState;
-        public void ToggleHistory() { HistoryOpen = !HistoryOpen; if (historyPanel != null) historyPanel.SetActive(HistoryOpen); RefreshHistory(); }
-        public void SetVolume(float value) { if (radio != null) radio.Volume = value; }
+        public void ToggleHistory()
+        {
+            HistoryOpen = !HistoryOpen;
+            if (historyPanel != null) historyPanel.SetActive(HistoryOpen);
+            RefreshHistory();
+            audioFeedback?.NotifyUi(SeedUiAction.History);
+        }
+        public void SetVolume(float value)
+        {
+            if (radio == null) return;
+            float before = radio.Volume;
+            radio.Volume = value;
+            if (Mathf.Abs(radio.Volume - before) >= .049f)
+                audioFeedback?.NotifyUi(SeedUiAction.Slider);
+        }
         void Update()
         {
             if (radio == null) return;
@@ -25,8 +39,8 @@ namespace DropletPrototype
             if (keyboard != null)
             {
                 if (keyboard.hKey.wasPressedThisFrame) ToggleHistory();
-                if (keyboard.minusKey.wasPressedThisFrame) radio.Volume -= .1f;
-                if (keyboard.equalsKey.wasPressedThisFrame) radio.Volume += .1f;
+                if (keyboard.minusKey.wasPressedThisFrame) SetVolume(radio.Volume - .1f);
+                if (keyboard.equalsKey.wasPressedThisFrame) SetVolume(radio.Volume + .1f);
             }
             RefreshView();
         }
@@ -36,7 +50,11 @@ namespace DropletPrototype
             RefreshPanelPlacement();
             if (sourceLabel != null) sourceLabel.text = "截获无线电  /  " + radio.CurrentChannel;
             if (subtitleLabel != null) subtitleLabel.text = radio.CurrentText;
-            if (signalLabel != null) signalLabel.text = radio.SignalStatus + "   音量 " + Mathf.RoundToInt(radio.Volume * 100) + "%";
+            if (signalLabel != null)
+            {
+                string provenance = radio.showVoiceProvenance ? (radio.library != null && radio.library.voiceProvenance.StartsWith("AI synthesized English") ? "AI VOICE: EN  |  " : "AI VOICE: ZH (legacy)  |  ") : "";
+                signalLabel.text = provenance + radio.SignalStatus + "   音量 " + Mathf.RoundToInt(radio.Volume * 100) + "%";
+            }
             if (controlsLabel != null) controlsLabel.text = "H 历史   - / + 广播音量   TAB 跳过剧情   N 重播剧情";
             if (HistoryOpen && historyRevision != radio.HistoryRevision) RefreshHistory();
         }

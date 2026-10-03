@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E011",
+    "text": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin. We are receiving on this frequency. You still have time to answer."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin. We are receiving on this frequency. You still have time to answer.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Formal protocol addressed to a real listener; leave space after the identification request.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "f3082000-012b-4ebd-aaa8-922c8a3e340f",
+  "sha256": "272d82bee612b8236c195d52d8b45050005e9924227406298e46021a18d21d38",
+  "duration_seconds": 13.203083333333334,
+  "usage": {
+    "text_words": 206
+  }
+}

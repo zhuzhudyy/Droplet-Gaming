@@ -1,0 +1,37 @@
+{
+  "id": "LaserBreach_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "2fc5daa6e4faedc89294b51fb0bb9580cb8040e980e37c88d9e2ad429884426b",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/LaserBreach_01/job.json",
+  "sourceSha256": "195b58cea9a5d66d271d66db3469dece99fbda8e41fa297c65db35b519bc7671",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1.2 seconds. A laser penetrates a ship hull: hot energy contact, sizzling metal rupture and short decay. Fine piercing crack, molten steel sizzle and one small ringing fragment. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "LaserBreach_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 57600,
+    "rate": 48000,
+    "targetSeconds": 1.2,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 57600,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 57600,
+    "linearGain": 1.8833312319117301,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "2fc5daa6e4faedc89294b51fb0bb9580cb8040e980e37c88d9e2ad429884426b",
+    "durationSeconds": 1.2,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -21.98255749734646,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

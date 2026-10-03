@@ -1,0 +1,25 @@
+{
+  "id": "BoostEnter_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "daa56c92-952c-482f-89e3-ae2c820b8877",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet boost engages: immediate clean onset, energy gathers then settles into a short tail. Compact magnetic snap followed by a thick accelerating energy rush. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:31:10.527146+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "51ad0cc72eb79a2f460708252a400adc038a90a2fb30b6b974806d4d896eaa9a",
+  "originalDurationSeconds": 1.5,
+  "actualSeconds": 1.5,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:31:21.660939+00:00"
+}

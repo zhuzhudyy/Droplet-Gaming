@@ -1,0 +1,37 @@
+{
+  "id": "DeckSteps_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "9c544be92a0e4fb51edf4e9dae2a767260a515d7693a9881ab5e39f67fc2bf02",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/DeckSteps_01/job.json",
+  "sourceSha256": "0ed70025d885c083ccba9cf5fb4e3fb1b6bcb8346b886bbd22e4024a525465b6",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. A few isolated human boot footfalls on a spacecraft deck; only footsteps, no speech or breathing. Measured heavy boots on thick steel grating, four distinct steps with short room reflections. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "DeckSteps_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 192000,
+    "rate": 48000,
+    "targetSeconds": 4.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 192000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 192000,
+    "linearGain": 4.266951507916326,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "9c544be92a0e4fb51edf4e9dae2a767260a515d7693a9881ab5e39f67fc2bf02",
+    "durationSeconds": 4.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -31.776836754837653,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Reflect_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "402c13edfb5b3c68a8d0cd5ddb08bb4c07a7f4bbb0fc35812d3bba925aed63e6",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Reflect_02/job.json",
+  "sourceSha256": "815a360ff3d8fe685edba3eaab594e60bdd8383150e5ca507970c5fddf4d6655",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Dense magnetic snap followed by two delicate splinter-like glints. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Reflect_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 38400,
+    "rate": 48000,
+    "targetSeconds": 0.8,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 38400,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3072,
+    "outputFrames": 38400,
+    "linearGain": 4.422504869289192,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "402c13edfb5b3c68a8d0cd5ddb08bb4c07a7f4bbb0fc35812d3bba925aed63e6",
+    "durationSeconds": 0.8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -27.619339074025397,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

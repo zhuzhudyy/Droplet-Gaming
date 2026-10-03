@@ -1,0 +1,29 @@
+{
+  "id": "MUSIC_SERVICE_ACTIVE_9a7f713e",
+  "category": "MUSIC",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "9a7f713e-82ab-4c08-9ed1-1a733a9c432b",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "生成约65秒音频。原创冷峻电影科幻纯器乐背景音乐。缓慢的低音合成器脉冲，稀疏暗色和弦，细微金属颗粒节奏，克制的紧张感，留出对白中频空间。完整但开放的段落，约60秒持续发展，最后5秒自然回到开头和声质地，适合交叉淡化循环。不要人声或人声采样，不要歌词、吟唱、口哨，不模仿既有曲目。 直接输出所描述的声音。不要读出提示词，不要旁白、对白、说话、口技、呼吸或人群。",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T09:29:41.705955+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "authMode": "X-Api-Key",
+  "authorization": "User authorized six representative Seed Audio categories; first laser succeeded, this is a distinct category request.",
+  "originalDurationSeconds": 65,
+  "sha256": "80945de8521fca48c2fc2e698802701d30ccfce090e2f5833d7cfe3955c3ee3e",
+  "audio": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\raw\\MUSIC_SERVICE_ACTIVE_9a7f713e\\audio.wav",
+  "actualSeconds": 65.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "rmsDbFS": -34.678676789429986,
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "completedAt": "2026-09-29T09:30:26.450956+00:00"
+}

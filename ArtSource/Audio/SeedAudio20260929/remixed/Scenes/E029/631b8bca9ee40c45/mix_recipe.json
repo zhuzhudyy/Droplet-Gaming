@@ -1,0 +1,91 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E029",
+  "fingerprint": "631b8bca9ee40c45a5159e1ab30b60e6e523a5f1365561807f5d0f79631e360e",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E029",
+    "templateSha256": "f8db64a5da863e80b04dc88a39ee8fbd2107a92f3d9af42c0c23dc61a92aacb8",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 15.88725,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E029",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E029-da15cccb946699ae/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E029-da15cccb946699ae/job.json",
+        "sha256": "5a5e365913f95e70696b509df1bc3c9e0bb563e12f98af346119cf92fd7b6524",
+        "sourceSha256": "5a5e365913f95e70696b509df1bc3c9e0bb563e12f98af346119cf92fd7b6524",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 1.2953741734402575,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+        "sha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+        "sourceSha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+        "model": "seed-audio-1.0",
+        "start": 9.826915,
+        "oldGain": 0.1,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+        "sha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+        "sourceSha256": "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json",
+        "sha256": "f6d909d5950e39e64773cafd4623de77069d1d02efd857bf9a1b3ae5aa84de31",
+        "sourceSha256": "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7",
+        "model": "seed-audio-1.0",
+        "start": 15.67725,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 15.38725,
+        "english": "For everyone listening at home, those voices are disagreeing because the answer matters. The picture is sharp. The explanation is not. We will carry the discussion as it happens, without replacing their uncertainty with a more comfortable story.",
+        "text": "致家中的听众：他们之所以争论，是因为答案很重要。画面清楚，解释却不清楚。我们会如实转播这场讨论，不会用一个更令人安心的故事代替他们的不确定。",
+        "role": "anchor"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "847bfb74336bc69c173aecb8de7d8c66ada6c0f9c6ec3b59f6b91dca0826575e",
+      "seconds": 15.88725,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -3.4656791709391266,
+      "rmsDbFS": -20.516067498346224,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

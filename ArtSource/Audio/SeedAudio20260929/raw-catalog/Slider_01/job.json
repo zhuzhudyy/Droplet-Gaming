@@ -1,0 +1,26 @@
+{
+  "id": "Slider_01",
+  "cueId": "Slider_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "290cff41-cc35-4fb8-ae3b-56ac28d36149",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.12 seconds. Extremely short quiet interface slider increment, safe for repeated interaction. A single soft granular digital tick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:57:53.340345+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "209dc6302be04000e05f027e2f58dfac7c3b8878cde5f5c4dc04f987de54c775",
+  "originalDurationSeconds": 0.2,
+  "actualSeconds": 0.2,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:58:04.489917+00:00"
+}

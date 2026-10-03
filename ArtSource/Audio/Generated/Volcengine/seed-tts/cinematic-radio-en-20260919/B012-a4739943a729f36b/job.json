@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B012",
+    "text": "Hull pierced. Navigation is gone. We are drifting!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Hull pierced. Navigation is gone. We are drifting!",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "5b01e088-8e09-4b3f-a8c1-bd8274755bd5",
+  "sha256": "fc575717dbfe7b69ed0f3f2b6ca62492afdfdb8d06c0d3d11b625b8a997eb527",
+  "duration_seconds": 3.7884583333333333,
+  "usage": {
+    "text_words": 50
+  }
+}

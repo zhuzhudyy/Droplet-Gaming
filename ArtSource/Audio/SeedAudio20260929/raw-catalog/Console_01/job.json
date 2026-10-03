@@ -1,0 +1,26 @@
+{
+  "id": "Console_01",
+  "cueId": "Console_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "30e175b8-3991-4f3b-9deb-b3e979098371",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 1 seconds. Brief spacecraft console interaction, tactile hardware and a small electronic response. Two firm mechanical key presses with a tiny dry confirmation chirp. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:49:09.571497+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+  "originalDurationSeconds": 1,
+  "actualSeconds": 1.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:49:35.363253+00:00"
+}

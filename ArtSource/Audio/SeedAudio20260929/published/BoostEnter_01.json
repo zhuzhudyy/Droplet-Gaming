@@ -1,0 +1,37 @@
+{
+  "id": "BoostEnter_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "376ffc3b58ddf6d08b2c3d01ef443e869dce6c7949711484d1f8a0371aaf4b8a",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BoostEnter_01/job.json",
+  "sourceSha256": "51ad0cc72eb79a2f460708252a400adc038a90a2fb30b6b974806d4d896eaa9a",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet boost engages: immediate clean onset, energy gathers then settles into a short tail. Compact magnetic snap followed by a thick accelerating energy rush. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "BoostEnter_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 72000,
+    "rate": 48000,
+    "targetSeconds": 1.5,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 72000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 72000,
+    "linearGain": 3.171693597057378,
+    "targetLevelDbFS": -8
+  },
+  "qa": {
+    "sha256": "376ffc3b58ddf6d08b2c3d01ef443e869dce6c7949711484d1f8a0371aaf4b8a",
+    "durationSeconds": 1.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.000782896515972,
+    "rmsDbFS": -22.10163879042463,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

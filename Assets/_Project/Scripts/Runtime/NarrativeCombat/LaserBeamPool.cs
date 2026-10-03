@@ -12,6 +12,10 @@ namespace DropletPrototype
         public LaserWeaponSettings settings;
         public CombatScaleSettings scale;
         public AudioClip shotAudio;
+        [Tooltip("Disable when the event audio director owns world laser playback.")]
+        public bool worldAudioEnabled = true;
+        public UnityEngine.Audio.AudioMixerGroup outputMixerGroup;
+        public Camera viewCamera;
         public bool effectsEnabled = true;
         public int ActiveCount { get; private set; }
         public int PeakCount { get; private set; }
@@ -23,9 +27,11 @@ namespace DropletPrototype
             public LineRenderer incident, reflected;
             public Transform contact;
             public MeshRenderer contactRenderer;
-            public Transform contactAnchor;
-            public Vector3 contactLocal, incidentStart, incidentEnd, reflectedEnd;
-            public float remaining;
+            public ParticleSystem sparks;
+            public readonly ParticleSystem.Particle[] particles = new ParticleSystem.Particle[5];
+            public Vector3 incidentStart, incidentEnd, reflectedEnd, normal;
+            public float remaining, duration;
+            public int contactFrame, contactFrameAge;
             public bool bounced;
         }
         Slot[] slots = Array.Empty<Slot>();
@@ -36,6 +42,11 @@ namespace DropletPrototype
         float soundCooldown;
         MaterialPropertyBlock colorBlock;
         static readonly int BaseColor = Shader.PropertyToID("_BaseColor");
+        static readonly int ContactShape = Shader.PropertyToID("_ContactShape");
+        // World-space contact is an impact flash, not a marker that hangs in space
+        // for the beam's whole afterimage. The mesh-local glint has its own lifetime.
+        const float ContactSeconds = .025f;
+        const int ContactFrames = 2;
 
         void Start() => InitializePool();
         public void InitializePool()
@@ -44,10 +55,11 @@ namespace DropletPrototype
             colorBlock = new MaterialPropertyBlock();
             if (material == null)
             {
-                var shader = Shader.Find("Universal Render Pipeline/Unlit");
+                var shader = Shader.Find("DropletPrototype/NarrativeCombat/LaserPulse");
+                if (shader == null) shader = Shader.Find("Universal Render Pipeline/Unlit");
                 if (shader == null) return;
                 fallbackMaterial = new Material(shader) { name = "RuntimeLaserFallback" };
-                fallbackMaterial.SetColor(BaseColor, Color.white * 3); material = fallbackMaterial;
+                fallbackMaterial.SetColor(BaseColor, Color.white); material = fallbackMaterial;
             }
             contactMesh = CreateContactMesh();
             slots = new Slot[Mathf.Clamp(settings.visualBeamBudget, 1, 32)];
@@ -60,9 +72,11 @@ namespace DropletPrototype
                 contact.AddComponent<MeshFilter>().sharedMesh = contactMesh;
                 slot.contactRenderer = contact.AddComponent<MeshRenderer>(); slot.contactRenderer.sharedMaterial = material;
                 slot.contactRenderer.shadowCastingMode = ShadowCastingMode.Off; slot.contactRenderer.receiveShadows = false;
-                slot.contact = contact.transform; slots[i] = slot; slot.root.SetActive(false);
+                slot.contact = contact.transform; slot.sparks = CreateSparks(slot.root.transform);
+                slots[i] = slot; slot.root.SetActive(false);
             }
             audioSource = gameObject.AddComponent<AudioSource>(); audioSource.playOnAwake = false;
+            audioSource.outputAudioMixerGroup = outputMixerGroup;
             audioSource.spatialBlend = 0; audioSource.volume = settings.audioVolume;
             if (shotAudio == null) { generatedAudio = GenerateShotAudio(); shotAudio = generatedAudio; }
         }
@@ -72,36 +86,58 @@ namespace DropletPrototype
             var line = node.AddComponent<LineRenderer>(); line.sharedMaterial = material; line.useWorldSpace = true;
             line.positionCount = 2; line.widthMultiplier = scale.MetersToUnits(settings.beamWidthMeters);
             line.numCapVertices = 2; line.shadowCastingMode = ShadowCastingMode.Off; line.receiveShadows = false;
-            line.alignment = LineAlignment.View; return line;
+            line.alignment = LineAlignment.View; line.textureMode = LineTextureMode.Stretch; return line;
+        }
+
+        ParticleSystem CreateSparks(Transform parent)
+        {
+            var node = new GameObject("ContactSparklets"); node.layer = 2; node.transform.SetParent(parent, false);
+            var system = node.AddComponent<ParticleSystem>();
+            var main = system.main; main.playOnAwake = false; main.loop = false;
+            main.maxParticles = 5; main.simulationSpace = ParticleSystemSimulationSpace.World;
+            var emission = system.emission; emission.enabled = false;
+            var shape = system.shape; shape.enabled = false;
+            var renderer = system.GetComponent<ParticleSystemRenderer>();
+            renderer.sharedMaterial = material; renderer.shadowCastingMode = ShadowCastingMode.Off;
+            renderer.receiveShadows = false; renderer.renderMode = ParticleSystemRenderMode.Billboard;
+            SetColor(renderer, Color.white, true);
+            system.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            return system;
         }
 
         public bool Show(Vector3 start, Vector3 contact, Vector3 reflectedEnd, bool bounced,
-            Transform contactAnchor = null, Vector3 contactLocal = default)
+            Transform contactAnchor = null, Vector3 contactLocal = default, Vector3 contactNormal = default)
         {
             if (!effectsEnabled) return false;
             InitializePool();
+            if (settings == null || scale == null) return false;
             Slot slot = null; foreach (var candidate in slots) if (candidate.remaining <= 0) { slot = candidate; break; }
             if (slot == null) { DroppedVisualCount++; return false; }
-            slot.remaining = settings.beamSeconds; slot.bounced = bounced;
+            slot.remaining = slot.duration = Mathf.Max(.001f, settings.beamSeconds); slot.bounced = bounced;
+            slot.contactFrame = Time.frameCount; slot.contactFrameAge = 0;
             slot.incidentStart = start; slot.incidentEnd = contact; slot.reflectedEnd = reflectedEnd;
-            slot.contactAnchor = bounced ? contactAnchor : null; slot.contactLocal = contactLocal;
-            slot.incident.startColor = slot.incident.endColor = settings.incidentColor;
-            slot.reflected.startColor = slot.reflected.endColor = settings.reflectedColor;
-            SetColor(slot.incident, settings.incidentColor); SetColor(slot.reflected, settings.reflectedColor);
-            SetColor(slot.contactRenderer, (bounced ? settings.reflectedColor : settings.incidentColor) * 2);
+            slot.normal = contactNormal.sqrMagnitude > .00001f ? contactNormal.normalized : (start - contact).normalized;
+            // The legacy anchor arguments remain source-compatible, but a short
+            // flash is a frozen complete path. Moving one endpoint would invent
+            // a new reflected ray without checking occlusion or the surface.
+            slot.incident.startColor = slot.incident.endColor = Color.white;
+            slot.reflected.startColor = slot.reflected.endColor = Color.white;
             slot.reflected.enabled = bounced;
             slot.contact.localScale = Vector3.one * scale.MetersToUnits(settings.contactRadiusMeters) * 2;
             slot.root.SetActive(true); Present(slot);
             ActiveCount++; PeakCount = Mathf.Max(PeakCount, ActiveCount);
-            if (soundCooldown <= 0 && audioSource != null && !audioSource.isPlaying && shotAudio != null)
+            if (worldAudioEnabled && soundCooldown <= 0 && audioSource != null && !audioSource.isPlaying && shotAudio != null)
             {
                 audioSource.volume = settings.audioVolume; audioSource.clip = shotAudio; audioSource.Play();
                 soundCooldown = settings.audioCooldownSeconds;
             }
             return true;
         }
-        void SetColor(Renderer renderer, Color color)
-        { colorBlock.Clear(); colorBlock.SetColor(BaseColor, color); renderer.SetPropertyBlock(colorBlock); }
+        void SetColor(Renderer renderer, Color color, bool contact = false)
+        {
+            colorBlock.Clear(); colorBlock.SetColor(BaseColor, color);
+            colorBlock.SetFloat(ContactShape, contact ? 1 : 0); renderer.SetPropertyBlock(colorBlock);
+        }
         public void Step(float simulationDelta)
         {
             if (simulationDelta <= 0) return;
@@ -115,6 +151,7 @@ namespace DropletPrototype
         }
         void LateUpdate()
         {
+            if (viewCamera == null) viewCamera = Camera.main;
             foreach (var slot in slots) if (slot.remaining > 0) Present(slot);
             if (audioSource != null)
             {
@@ -123,14 +160,67 @@ namespace DropletPrototype
         }
         void Present(Slot slot)
         {
-            Vector3 point = slot.contactAnchor != null ? slot.contactAnchor.TransformPoint(slot.contactLocal) : slot.incidentEnd;
-            slot.incident.SetPosition(0, slot.incidentStart); slot.incident.SetPosition(1, point);
-            slot.reflected.SetPosition(0, point); slot.reflected.SetPosition(1, slot.reflectedEnd + (point - slot.incidentEnd));
-            slot.contact.position = point;
+            if (slot.contactFrame != Time.frameCount)
+            {
+                // A paused image keeps its exact transient state. Repeated
+                // presentation calls in one frame never spend another frame.
+                if (Time.timeScale > 0) slot.contactFrameAge++;
+                slot.contactFrame = Time.frameCount;
+            }
+            float life = Mathf.Clamp01(slot.remaining / slot.duration);
+            float alpha = Mathf.SmoothStep(0, 1, life / .75f);
+            Color incident = settings.incidentColor, reflected = settings.reflectedColor;
+            incident.a = reflected.a = alpha;
+            SetColor(slot.incident, incident); SetColor(slot.reflected, reflected);
+            float contactLife = Mathf.Clamp01(1 - (slot.duration - slot.remaining) / ContactSeconds);
+            bool showContact = slot.contactFrameAge < ContactFrames && contactLife > 0;
+            Color contactColor = slot.bounced ? reflected : incident;
+            contactColor.a = contactLife * contactLife;
+            SetColor(slot.contactRenderer, contactColor, true);
+            slot.contactRenderer.enabled = showContact;
+            slot.incident.SetPosition(0, slot.incidentStart); slot.incident.SetPosition(1, slot.incidentEnd);
+            slot.reflected.SetPosition(0, slot.incidentEnd); slot.reflected.SetPosition(1, slot.reflectedEnd);
+            slot.incident.widthMultiplier = slot.reflected.widthMultiplier = 1;
+            slot.incident.startWidth = BeamWidth(slot.incidentStart); slot.incident.endWidth = BeamWidth(slot.incidentEnd);
+            slot.reflected.startWidth = BeamWidth(slot.incidentEnd); slot.reflected.endWidth = BeamWidth(slot.reflectedEnd);
+            slot.contact.position = slot.incidentEnd;
+            if (viewCamera != null) slot.contact.rotation = viewCamera.transform.rotation;
+            if (showContact) PresentSparks(slot, contactLife);
+            else if (slot.sparks.particleCount > 0) slot.sparks.Clear(false);
+        }
+        float BeamWidth(Vector3 position)
+        {
+            float physical = scale.MetersToUnits(settings.beamWidthMeters);
+            if (viewCamera == null || settings.minimumBeamPixels <= 0) return physical;
+            float depth = Mathf.Max(viewCamera.nearClipPlane, Vector3.Dot(position - viewCamera.transform.position, viewCamera.transform.forward));
+            float unitsPerPixel = viewCamera.orthographic ? viewCamera.orthographicSize * 2 / Mathf.Max(1, viewCamera.pixelHeight)
+                : 2 * depth * Mathf.Tan(viewCamera.fieldOfView * .5f * Mathf.Deg2Rad) / Mathf.Max(1, viewCamera.pixelHeight);
+            return Mathf.Clamp(unitsPerPixel * settings.minimumBeamPixels, physical,
+                Mathf.Max(physical, scale.MetersToUnits(settings.maximumBeamWidthMeters)));
+        }
+        void PresentSparks(Slot slot, float life)
+        {
+            int count = slot.bounced ? Mathf.Clamp(settings.contactParticleCount, 0, 5) : 0;
+            Vector3 tangent = Vector3.Cross(slot.normal, Mathf.Abs(slot.normal.y) > .9f ? Vector3.right : Vector3.up).normalized;
+            Vector3 bitangent = Vector3.Cross(slot.normal, tangent);
+            float radius = scale.MetersToUnits(settings.contactRadiusMeters);
+            for (int i = 0; i < count; i++)
+            {
+                float angle = i * 2.399963f;
+                Vector3 direction = (tangent * Mathf.Cos(angle) + bitangent * Mathf.Sin(angle) + slot.normal * .6f).normalized;
+                slot.particles[i].position = slot.incidentEnd + direction * radius * (1 - life) * 3;
+                slot.particles[i].startSize = radius * .34f * life;
+                Color color = settings.reflectedColor; color.a = life * life;
+                slot.particles[i].startColor = color;
+                slot.particles[i].startLifetime = slot.particles[i].remainingLifetime = 10;
+            }
+            slot.sparks.SetParticles(slot.particles, count);
+            slot.sparks.Pause(false);
         }
         public void ResetEffects()
         {
-            foreach (var slot in slots) { slot.remaining = 0; slot.contactAnchor = null; slot.root.SetActive(false); }
+            foreach (var slot in slots)
+            { slot.remaining = 0; slot.sparks.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear); slot.root.SetActive(false); }
             ActiveCount = PeakCount = DroppedVisualCount = 0; soundCooldown = 0;
             if (audioSource != null) audioSource.Stop();
         }
@@ -143,10 +233,12 @@ namespace DropletPrototype
         }
         static Mesh CreateContactMesh()
         {
-            var vertices = new[] { Vector3.up, Vector3.right, Vector3.forward, Vector3.left, Vector3.back, Vector3.down };
+            var vertices = new[] { new Vector3(-.5f, -.5f, 0), new Vector3(.5f, -.5f, 0), new Vector3(.5f, .5f, 0), new Vector3(-.5f, .5f, 0) };
             var mesh = new Mesh { name = "PooledLaserContact" };
             mesh.vertices = vertices;
-            mesh.triangles = new[] { 0,2,1, 0,3,2, 0,4,3, 0,1,4, 5,1,2, 5,2,3, 5,3,4, 5,4,1 };
+            mesh.triangles = new[] { 0, 2, 1, 0, 3, 2 };
+            mesh.uv = new[] { Vector2.zero, Vector2.right, Vector2.one, Vector2.up };
+            mesh.colors = new[] { Color.white, Color.white, Color.white, Color.white };
             mesh.RecalculateNormals(); mesh.RecalculateBounds(); return mesh;
         }
         static AudioClip GenerateShotAudio()

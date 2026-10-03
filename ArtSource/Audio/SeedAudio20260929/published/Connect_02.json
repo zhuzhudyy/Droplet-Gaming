@@ -1,0 +1,37 @@
+{
+  "id": "Connect_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+  "sourceSha256": "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.4 seconds. Very short radio link connection sound, isolated and dry. A compact digital handshake trill ending in a clean click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Connect_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 19200,
+    "rate": 48000,
+    "targetSeconds": 0.4,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 19200,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 1536,
+    "outputFrames": 19200,
+    "linearGain": 0.8527713902580389,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+    "durationSeconds": 0.4,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -29.862685060140088,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

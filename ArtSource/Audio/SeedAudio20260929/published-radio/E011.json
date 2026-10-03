@@ -1,0 +1,75 @@
+{
+  "accepted": true,
+  "sha256": "adbf647cb482243c890dd32792d4956ef10b2c0c51e90c45a79ff8c45c2fc283",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E011/df4aee9c7e2cc964/mix_recipe.json",
+  "sourceSha256": "6c6f8f0a160f468756260259b49f4401d14963c1ac148dd34ddffcd39fbd3580",
+  "durationSeconds": 13.703083333333334,
+  "english": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin. We are receiving on this frequency. You still have time to answer.",
+  "text": "不明飞行器，这里是边界舰队。你正在进入受控航道。请减速，并报告出发地点。我们正在本频率接收，现在仍有时间回应。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 13.203083,
+      "english": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin. We are receiving on this frequency. You still have time to answer.",
+      "text": "不明飞行器，这里是边界舰队。你正在进入受控航道。请减速，并报告出发地点。我们正在本频率接收，现在仍有时间回应。",
+      "role": "comms"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E011-a8f4933cd4907ddf/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json"
+  ],
+  "sourceHashes": [
+    "272d82bee612b8236c195d52d8b45050005e9924227406298e46021a18d21d38",
+    "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+    "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+    "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+    "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E011-a8f4933cd4907ddf/job.json",
+      "sha256": "272d82bee612b8236c195d52d8b45050005e9924227406298e46021a18d21d38",
+      "usedSha256": "272d82bee612b8236c195d52d8b45050005e9924227406298e46021a18d21d38",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+      "sha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+      "usedSha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+      "sha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+      "usedSha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+      "sha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+      "usedSha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+      "sha256": "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+      "usedSha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json",
+      "sha256": "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7",
+      "usedSha256": "f6d909d5950e39e64773cafd4623de77069d1d02efd857bf9a1b3ae5aa84de31",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

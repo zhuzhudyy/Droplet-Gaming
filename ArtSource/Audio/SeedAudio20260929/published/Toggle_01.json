@@ -1,0 +1,37 @@
+{
+  "id": "Toggle_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "c5b61104a443c74b1bf7c460add9e6b7ab78f54d29bfc8e73af0b2045ec4455a",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Toggle_01/job.json",
+  "sourceSha256": "3662afc5cf17a0c5da0271f0068f3972aef3446f7179a1375c599a0ea80bfce8",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.2 seconds. Tiny interface toggle acknowledgement with distinct switch action. A dry miniature relay click with a warm digital pip. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Toggle_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 9600,
+    "rate": 48000,
+    "targetSeconds": 0.2,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 9600,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 768,
+    "outputFrames": 9600,
+    "linearGain": 0.40329070743518897,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "c5b61104a443c74b1bf7c460add9e6b7ab78f54d29bfc8e73af0b2045ec4455a",
+    "durationSeconds": 0.2,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -26.259527035602886,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

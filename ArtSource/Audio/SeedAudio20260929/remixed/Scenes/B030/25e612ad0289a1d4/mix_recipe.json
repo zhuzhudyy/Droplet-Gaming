@@ -1,0 +1,157 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "B030",
+  "fingerprint": "25e612ad0289a1d434403447fa3669d5d454dc6386e7e383686c81b03d97c32c",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "B030",
+    "templateSha256": "10553bb72226e7bce6cef9b2c1b604236543f024ede192224f72b48beb5d09e8",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 5.398875,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "B030",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/B030-58a26bf4ef7a9116/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/B030-58a26bf4ef7a9116/job.json",
+        "sha256": "f54acc891a00c90c16dd42436126bd369d59da7d859ba994159ed4744b291cf2",
+        "sourceSha256": "f54acc891a00c90c16dd42436126bd369d59da7d859ba994159ed4744b291cf2",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 4.476763745872756,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "background_people",
+        "sourceId": "BG01",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/job.json",
+        "sha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+        "sourceSha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+        "model": "seed-tts-2.0",
+        "start": 3.299625,
+        "oldGain": 0.643852743225342,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+        "sha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+        "sourceSha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+        "model": "seed-audio-1.0",
+        "start": 0.05,
+        "oldGain": 0.27,
+        "perspective": "room",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+        "sha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+        "sourceSha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+        "model": "seed-audio-1.0",
+        "start": 1.772737,
+        "oldGain": 0.16,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "environment",
+        "sourceId": "CabinBed_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/CabinBed_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+        "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+        "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.65,
+        "perspective": "room",
+        "loop": true
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+        "sha256": "6cbf56412bef92b9d50e91ee18b8ccb23936186a3acad333fc3aaf859d5b5599",
+        "sourceSha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json",
+        "sha256": "8dc709afd428ace4d24e330c1e275c195aea83bf4768165fe698734a4f87f18c",
+        "sourceSha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+        "model": "seed-audio-1.0",
+        "start": 5.188875,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 2.999625,
+        "english": "You are clear. Keep moving outward.",
+        "text": "你们已脱离，继续向外航行。",
+        "role": "commander"
+      },
+      {
+        "time": 3.299625,
+        "duration": 1.79925,
+        "english": "On it. Checking now.",
+        "text": "收到，正在检查。",
+        "role": "comms"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "1e98593bd04aafbb66751aa71ff6e515564b0d673d1f3888c944ca48782c4fd2",
+      "seconds": 5.398875,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -3.105464397390769,
+      "rmsDbFS": -22.94075118005361,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    },
+    "radio_low.wav": {
+      "sha256": "f335399e76f0b7da1e70f2e9788a56dc5f0553e3eadc00687da4bff275b7d54a",
+      "seconds": 5.398875,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -3.1024329377533095,
+      "rmsDbFS": -23.344730273128636,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    },
+    "radio_high.wav": {
+      "sha256": "cf49e460efca091a9655a71a1e9c68016e561b7a2dd3fe6872601bcba171a8b8",
+      "seconds": 5.398875,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -3.1077386866391277,
+      "rmsDbFS": -22.59165886765898,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

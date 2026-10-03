@@ -1,0 +1,61 @@
+{
+  "accepted": true,
+  "sha256": "bf900af876a30c4f4a105101ab4791d6b5524e0c51be07fd3700052356978677",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E037/67d5cd2662e18209/mix_recipe.json",
+  "sourceSha256": "d32bff086ad739b305cd22a06dedc4908fa634c6c9659fcad71cd58099f85e91",
+  "durationSeconds": 13.253708333333334,
+  "english": "The civilian relay will stay with these crews while contact control can carry us. There is no victory announcement waiting here. There is a live channel, a clear picture, and people doing their work. We will listen with you.",
+  "text": "只要接触管制还能承载信号，民用转播就会陪伴这些船员。这里没有预先写好的胜利公告，只有直播频道、清晰画面，以及正在履行职责的人。我们会与你们一起倾听。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 12.753708,
+      "english": "The civilian relay will stay with these crews while contact control can carry us. There is no victory announcement waiting here. There is a live channel, a clear picture, and people doing their work. We will listen with you.",
+      "text": "只要接触管制还能承载信号，民用转播就会陪伴这些船员。这里没有预先写好的胜利公告，只有直播频道、清晰画面，以及正在履行职责的人。我们会与你们一起倾听。",
+      "role": "anchor"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E037-7d6eae2f90719207/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json"
+  ],
+  "sourceHashes": [
+    "f03c3e9a4ceb07e3ff134da76865a02bdb2948131e789c539aa827bf872aa56d",
+    "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+    "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+    "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E037-7d6eae2f90719207/job.json",
+      "sha256": "f03c3e9a4ceb07e3ff134da76865a02bdb2948131e789c539aa827bf872aa56d",
+      "usedSha256": "f03c3e9a4ceb07e3ff134da76865a02bdb2948131e789c539aa827bf872aa56d",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+      "sha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+      "usedSha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+      "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+      "usedSha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+      "sha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+      "usedSha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

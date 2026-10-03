@@ -1,0 +1,36 @@
+{
+  "id": "Alarm_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "109c4f5582b303787b3b926a90c78445ca0939438bf9c71500649a220da614af",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_01/job.json",
+  "sourceSha256": "ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 6 seconds. Restrained instrumental electronic ship alarm pattern, clear pauses between calls; no spoken warning. Two separated low resonant pulses, regular slow repetition. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Alarm_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 288000,
+    "rate": 48000,
+    "targetSeconds": 6.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 288000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 271200,
+    "linearGain": 0.3037525462528382,
+    "targetLevelDbFS": -36
+  },
+  "qa": {
+    "sha256": "109c4f5582b303787b3b926a90c78445ca0939438bf9c71500649a220da614af",
+    "durationSeconds": 5.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -25.82870247173708,
+    "rmsDbFS": -36.00634719338399,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.001312255859375
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

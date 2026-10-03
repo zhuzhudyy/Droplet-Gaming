@@ -1,0 +1,173 @@
+{
+  "accepted": true,
+  "sha256": "ab78d8cb496ac5ea197fe7dac446bd1475901aa835cab9866b7197231aad20e1",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/SE01/172461e2688b2b74/mix_recipe.json",
+  "sourceSha256": "0edc450553fe9b635f3d2c9fd3deecf3b638916e8cc2b66c17d97549403ccbf4",
+  "durationSeconds": 12.02575,
+  "english": "Everyone off the bridge! Aft passage, move!",
+  "text": "全体撤离舰桥！走后方通道，快！",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 3.411333,
+      "english": "Everyone off the bridge! Aft passage, move!",
+      "text": "全体撤离舰桥！走后方通道，快！",
+      "role": "commander"
+    },
+    {
+      "time": 3.861334,
+      "duration": 1.586208,
+      "english": "Hatch will not open!",
+      "text": "舱门打不开！",
+      "role": "engineer"
+    },
+    {
+      "time": 5.747542,
+      "duration": 4.778208,
+      "english": "Leave it! Aft passage, keep together!",
+      "text": "别管它！走后方通道，跟紧！",
+      "role": "commander"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SE01-a04690ef89cdfd4a/job.json",
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SE02-d3be68b55b6c51f1/job.json",
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SE03-d3c558410b5058ab/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/DeckSteps_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Hatch_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Penetration_01/job.json"
+  ],
+  "sourceHashes": [
+    "d9d2c590999f089b70b848219ea81e6d0c19ec4f3fdd51f0a6e3beb296ff0618",
+    "424aa1786b77d546b385c202df61a8c87726835db3987ba79d155bbc7d045e6e",
+    "6e8a5582e29f9c5e2db88f9651e5cf17ecc0c94b67692b631d4b9e940f0962f2",
+    "ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554",
+    "a5d7bac7f7886f3571c9b7658b08a55722f02e77cfbb0552bb6766c96df898b0",
+    "407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b",
+    "02e91eab41561058c4cd23f81e1adbc495d99a989f3f3972fb3548aa2c4fb768",
+    "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+    "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+    "0ed70025d885c083ccba9cf5fb4e3fb1b6bcb8346b886bbd22e4024a525465b6",
+    "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+    "d2dc2f651973ce94233986e679412339df977a0574a59b80928f35bbe8ad691c",
+    "67435ceb2eaa3108108dd187015913881b5ca71c4adbf25454e67318c987f3b9",
+    "ad9eafb8e0507c28d3a40e5b0e06c756859e2df231cf4c63eae8c723044372a0"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SE01-a04690ef89cdfd4a/job.json",
+      "sha256": "d9d2c590999f089b70b848219ea81e6d0c19ec4f3fdd51f0a6e3beb296ff0618",
+      "usedSha256": "d9d2c590999f089b70b848219ea81e6d0c19ec4f3fdd51f0a6e3beb296ff0618",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SE03-d3c558410b5058ab/job.json",
+      "sha256": "6e8a5582e29f9c5e2db88f9651e5cf17ecc0c94b67692b631d4b9e940f0962f2",
+      "usedSha256": "6e8a5582e29f9c5e2db88f9651e5cf17ecc0c94b67692b631d4b9e940f0962f2",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SE02-d3be68b55b6c51f1/job.json",
+      "sha256": "424aa1786b77d546b385c202df61a8c87726835db3987ba79d155bbc7d045e6e",
+      "usedSha256": "424aa1786b77d546b385c202df61a8c87726835db3987ba79d155bbc7d045e6e",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Hatch_01/job.json",
+      "sha256": "d2dc2f651973ce94233986e679412339df977a0574a59b80928f35bbe8ad691c",
+      "usedSha256": "7885e354f04727279a40335d55c5d425717d568be8d6d9cba872fa7a15ebb6e2",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/DeckSteps_01/job.json",
+      "sha256": "0ed70025d885c083ccba9cf5fb4e3fb1b6bcb8346b886bbd22e4024a525465b6",
+      "usedSha256": "9c544be92a0e4fb51edf4e9dae2a767260a515d7693a9881ab5e39f67fc2bf02",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/DeckSteps_01/job.json",
+      "sha256": "0ed70025d885c083ccba9cf5fb4e3fb1b6bcb8346b886bbd22e4024a525465b6",
+      "usedSha256": "9c544be92a0e4fb51edf4e9dae2a767260a515d7693a9881ab5e39f67fc2bf02",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_03/job.json",
+      "sha256": "02e91eab41561058c4cd23f81e1adbc495d99a989f3f3972fb3548aa2c4fb768",
+      "usedSha256": "c1965630e605fb46fb2ec5db39033ea40b5bd08fdf25247ff9beb3b3b75bff9a",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_01/job.json",
+      "sha256": "ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554",
+      "usedSha256": "109c4f5582b303787b3b926a90c78445ca0939438bf9c71500649a220da614af",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_02/job.json",
+      "sha256": "a5d7bac7f7886f3571c9b7658b08a55722f02e77cfbb0552bb6766c96df898b0",
+      "usedSha256": "ad23410b1af5117d5b5a889bbf3b8be48412fdeae512b583c298e27dc3c19d97",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_03/job.json",
+      "sha256": "407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b",
+      "usedSha256": "baedbd6cf4d4797a5c136de160d36bb46668a0f79084a30adcfa7717ad35969b",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_01/job.json",
+      "sha256": "ff8f1931b5e8dda93acde3c978ae00ea2104699a14e76e97805a3e732f5a7554",
+      "usedSha256": "109c4f5582b303787b3b926a90c78445ca0939438bf9c71500649a220da614af",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Penetration_01/job.json",
+      "sha256": "ad9eafb8e0507c28d3a40e5b0e06c756859e2df231cf4c63eae8c723044372a0",
+      "usedSha256": "b9bc2d615aa6c4737b08ddb0b2d7ce8baf0442fe559532aa772f04a3294098bf",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+      "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+      "usedSha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+      "sha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+      "usedSha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_01/job.json",
+      "sha256": "67435ceb2eaa3108108dd187015913881b5ca71c4adbf25454e67318c987f3b9",
+      "usedSha256": "9ef70ec0e3a2356acb5a81338ba1a55eba6f8f7c41f3ce8ed0e676a4205ab434",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

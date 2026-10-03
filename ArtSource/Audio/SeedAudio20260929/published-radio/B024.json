@@ -1,0 +1,90 @@
+{
+  "accepted": true,
+  "sha256": "9b339e4b68337bc89c3597ffb9cb619d103052aa63433531928fb47053f77490",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/B024/25a509bbaf258b17/mix_recipe.json",
+  "sourceSha256": "80290ad91145d9ac6149ae6051cc1b8fb6d6cc4173a22579e1429e8f82884097",
+  "durationSeconds": 5.181791666666666,
+  "english": "Signal gone. Marking the last position.",
+  "text": "信号消失，正在标记最后位置。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 2.782542,
+      "english": "Signal gone. Marking the last position.",
+      "text": "信号消失，正在标记最后位置。",
+      "role": "comms"
+    },
+    {
+      "time": 3.082542,
+      "duration": 1.79925,
+      "english": "On it. Checking now.",
+      "text": "收到，正在检查。",
+      "role": "comms"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/B024-16525bded19e9d11/job.json",
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json"
+  ],
+  "sourceHashes": [
+    "4ff95aac8e701469278f8a3ef064b99eecb488c94480279909bb94d15b151f7b",
+    "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+    "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+    "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+    "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+    "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/B024-16525bded19e9d11/job.json",
+      "sha256": "4ff95aac8e701469278f8a3ef064b99eecb488c94480279909bb94d15b151f7b",
+      "usedSha256": "4ff95aac8e701469278f8a3ef064b99eecb488c94480279909bb94d15b151f7b",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/job.json",
+      "sha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+      "usedSha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+      "sha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+      "usedSha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+      "sha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+      "usedSha256": "6cbf56412bef92b9d50e91ee18b8ccb23936186a3acad333fc3aaf859d5b5599",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json",
+      "sha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+      "usedSha256": "8dc709afd428ace4d24e330c1e275c195aea83bf4768165fe698734a4f87f18c",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

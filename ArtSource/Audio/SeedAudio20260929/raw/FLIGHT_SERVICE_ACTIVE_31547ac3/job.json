@@ -1,0 +1,29 @@
+{
+  "id": "FLIGHT_SERVICE_ACTIVE_31547ac3",
+  "category": "FLIGHT",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "31547ac3-a68c-487a-87dd-e624d445f414",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "生成约16秒音频。水滴飞行器巡航的抽象电子共振持续层。低沉、光滑、冷峻的磁性机械嗡鸣，细微高频泛音缓慢漂移，音量稳定，开头与结尾质地相近以便循环。无明显启动、停止或高潮，不是喷气飞机或风声。 直接输出所描述的声音。不要读出提示词，不要旁白、对白、说话、口技、呼吸或人群。不要音乐。",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T09:28:49.694175+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "authMode": "X-Api-Key",
+  "authorization": "User authorized six representative Seed Audio categories; first laser succeeded, this is a distinct category request.",
+  "originalDurationSeconds": 16,
+  "sha256": "e5faf2c992d29a172706215d2e66f2c9d05b452c45ce8614747cf7d6d75dad72",
+  "audio": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\raw\\FLIGHT_SERVICE_ACTIVE_31547ac3\\audio.wav",
+  "actualSeconds": 16.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "rmsDbFS": -16.391422702628663,
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "completedAt": "2026-09-29T09:29:04.152236+00:00"
+}

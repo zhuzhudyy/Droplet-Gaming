@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E004",
+    "text": "Civil network, contact control here. Your picture is delayed. Keep that notice on the screen, please. We have repeated the greeting, but there is no reply. Do not call this an arrival ceremony yet."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Civil network, contact control here. Your picture is delayed. Keep that notice on the screen, please. We have repeated the greeting, but there is no reply. Do not call this an arrival ceremony yet.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A working officer correcting a colleague politely, not reading a prepared warning.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "c9467c55-087a-48bc-bed0-37479b5536df",
+  "sha256": "91ddc4e44204448b02558f6881894bd28f91dc1679710445946af9751298ce9b",
+  "duration_seconds": 12.794291666666666,
+  "usage": {
+    "text_words": 197
+  }
+}

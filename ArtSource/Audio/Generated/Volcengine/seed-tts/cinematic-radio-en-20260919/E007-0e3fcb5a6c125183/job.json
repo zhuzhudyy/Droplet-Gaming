@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E007",
+    "text": "The assembly has voted to receive a delegation. There is, as yet, no evidence that a delegation is coming."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The assembly has voted to receive a delegation. There is, as yet, no evidence that a delegation is coming.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "e21f36be-d63b-47e4-aa40-3e5f128fd4d2",
+  "sha256": "0632407b327d038e367369d91284fa713cbd1390e20fe2223ba1ca54202bb65d",
+  "duration_seconds": 7.575833333333334,
+  "usage": {
+    "text_words": 106
+  }
+}

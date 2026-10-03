@@ -1,0 +1,37 @@
+{
+  "id": "Explosion_06",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "bd53dd8fa913b04fc620f58aa51f9550a0b5005025d06b39667e97491e3eae4a",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Explosion_06/job.json",
+  "sourceSha256": "f937ad906d10e95ff7a5145aef33af9d7e72ed31db96dc4d04f1317a514c1390",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Layered structural collapse under a short violent bass impact and sparse long metal rings. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Explosion_06",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 240000,
+    "rate": 48000,
+    "targetSeconds": 5.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 240000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 240000,
+    "linearGain": 0.8821611240315301,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "bd53dd8fa913b04fc620f58aa51f9550a0b5005025d06b39667e97491e3eae4a",
+    "durationSeconds": 5.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -18.711155119511467,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "SE01",
+    "text": "Everyone off the bridge! Aft passage, move!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Everyone off the bridge! Aft passage, move!",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Decisive evacuation order with two distinct actionable phrases.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "e3e799da-b7b5-4228-8282-e48d38ca304a",
+  "sha256": "d9d2c590999f089b70b848219ea81e6d0c19ec4f3fdd51f0a6e3beb296ff0618",
+  "duration_seconds": 3.4113333333333333,
+  "usage": {
+    "text_words": 43
+  }
+}

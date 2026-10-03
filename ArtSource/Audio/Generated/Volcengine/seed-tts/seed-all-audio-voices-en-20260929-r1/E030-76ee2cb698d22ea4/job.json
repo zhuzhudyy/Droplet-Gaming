@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E030",
+    "text": "One more thing for the weapons crews. If a beam returns from that surface, do not expect it to retrace the shot. Follow the actual reflection. Clear the line it takes, and check the friendly hulls beyond it before firing again."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "One more thing for the weapons crews. If a beam returns from that surface, do not expect it to retrace the shot. Follow the actual reflection. Clear the line it takes, and check the friendly hulls beyond it before firing again.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Teach a crucial observation under time pressure; stress actual reflection without shouting.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "2a078083-be51-4bcf-8554-705257575755",
+  "sha256": "94fa9c488ae617ebf5a40057b695a871f639f273abc82a00c7fd7142f3dfe43f",
+  "duration_seconds": 12.99975,
+  "usage": {
+    "text_words": 227
+  }
+}

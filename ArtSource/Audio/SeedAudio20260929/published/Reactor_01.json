@@ -1,0 +1,36 @@
+{
+  "id": "Reactor_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "22755451ae67c0d9acfe7b9903a5588524462d3c1fced48a3236b9c7fe7f425e",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Reactor_01/job.json",
+  "sourceSha256": "54cd6bcf521ff6b88ae2937154adf464f1cb71138adbf5bdf4d8caaeebc543fa",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. Unstable reactor energy warning texture, continuous mechanical/electrical strain without explosion. Irregular low magnetic surges with sparse tiny arcing cracks. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Reactor_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 192000,
+    "rate": 48000,
+    "targetSeconds": 4.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 192000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 175200,
+    "linearGain": 3.409416186582064,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "22755451ae67c0d9acfe7b9903a5588524462d3c1fced48a3236b9c7fe7f425e",
+    "durationSeconds": 3.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.85960644383897,
+    "rmsDbFS": -26.002332511351007,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.035675048828125
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

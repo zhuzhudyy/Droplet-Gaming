@@ -1,0 +1,37 @@
+{
+  "id": "Transition_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "2345846c4bdac2aadef5922a91e510636c9e271cd52e3d6811ed8e2f9c5db592",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Transition_01/job.json",
+  "sourceSha256": "9c8d2e6876e5be1a85de58025439b38bab1657219e255394c7929c4069ce944c",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental transition ending with a clean decaying tail. Discovery: a delicate rising glass arpeggio resolving into a low chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "Transition_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 192000,
+    "rate": 48000,
+    "targetSeconds": 4.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 192000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 192000,
+    "linearGain": 0.4911555970471716,
+    "targetLevelDbFS": -7
+  },
+  "qa": {
+    "sha256": "2345846c4bdac2aadef5922a91e510636c9e271cd52e3d6811ed8e2f9c5db592",
+    "durationSeconds": 4.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.0005506829029605,
+    "rmsDbFS": -22.71308432211764,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

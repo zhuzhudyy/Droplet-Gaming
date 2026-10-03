@@ -1,0 +1,55 @@
+test_batch_cap_and_fixed_english_cast (test_enhancement_voice.EnhancementAudioTests.test_batch_cap_and_fixed_english_cast) ... ok
+test_no_complete_english_manifest_published_from_missing_audio (test_enhancement_voice.EnhancementAudioTests.test_no_complete_english_manifest_published_from_missing_audio) ... ok
+test_preview_never_reads_credentials_or_submits (test_enhancement_voice.EnhancementAudioTests.test_preview_never_reads_credentials_or_submits) ... ok
+test_script_is_unique_four_stage_bilingual_and_event_complete (test_enhancement_voice.EnhancementAudioTests.test_script_is_unique_four_stage_bilingual_and_event_complete) ... ok
+test_separate_local_signals_are_real_pcm_and_not_flat_silence (test_enhancement_voice.EnhancementAudioTests.test_separate_local_signals_are_real_pcm_and_not_flat_silence) ... ok
+test_all_existing_dialogue_ids_unique_and_selectable (test_volc_voice.VoiceTests.test_all_existing_dialogue_ids_unique_and_selectable) ... ok
+test_authenticated_requests_never_follow_redirect (test_volc_voice.VoiceTests.test_authenticated_requests_never_follow_redirect) ... ok
+test_cli_rejects_removed_video_options (test_volc_voice.VoiceTests.test_cli_rejects_removed_video_options) ... ok
+test_failed_truncated_empty_and_invalid_streams_rejected (test_volc_voice.VoiceTests.test_failed_truncated_empty_and_invalid_streams_rejected) ... ok
+test_preview_never_reads_key_calls_network_or_writes (test_volc_voice.VoiceTests.test_preview_never_reads_key_calls_network_or_writes) ... ok
+test_stream_reassembles_pcm_and_wav (test_volc_voice.VoiceTests.test_stream_reassembles_pcm_and_wav) ... ok
+test_success_cache_preserves_audio_without_second_request (test_volc_voice.VoiceTests.test_success_cache_preserves_audio_without_second_request) ... ok
+test_tts_request_uses_only_speech_service (test_volc_voice.VoiceTests.test_tts_request_uses_only_speech_service) ... ok
+test_uncertain_submission_is_not_automatically_repeated (test_volc_voice.VoiceTests.test_uncertain_submission_is_not_automatically_repeated) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.604s
+
+OK
+
+{
+  "execute": false,
+  "resource": "seed-tts-2.0",
+  "take": "enhancement-en-20260919",
+  "requests": 4,
+  "characters": 511,
+  "maxBatchCharacters": 14000,
+  "maxBatchRequests": 76,
+  "lines": [
+    {
+      "id": "E001",
+      "role": "anchor",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E011",
+      "role": "comms",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E012",
+      "role": "commander",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E021",
+      "role": "engineer",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "rate": 8
+    }
+  ]
+}

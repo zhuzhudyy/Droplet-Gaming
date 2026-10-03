@@ -1,0 +1,25 @@
+{
+  "id": "Recover_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "15d325f9-2448-47fe-8e8e-efb08763c11a",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet smoothly recovers forward motion after braking. A soft magnetic latch releases into a short smooth energy swell. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:34:32.563066+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "3f900d517edf2350ca27f4782daf36dc16768da32ce793d4b6c497bf13dcc3b8",
+  "originalDurationSeconds": 1.5,
+  "actualSeconds": 1.5,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:34:59.482315+00:00"
+}

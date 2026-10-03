@@ -1,0 +1,26 @@
+{
+  "id": "Disconnect_03",
+  "cueId": "Disconnect_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "a007f0ba-b1d2-427e-9fa7-9dcd0786d310",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.3 seconds. Very short radio link interruption ending abruptly in silence. A small static crackle burst rapidly collapsing to silence. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:53:07.315009+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+  "originalDurationSeconds": 0.3,
+  "actualSeconds": 0.3,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:53:41.878963+00:00"
+}

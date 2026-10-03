@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E037",
+    "text": "The civilian relay will stay with these crews while contact control can carry us. There is no victory announcement waiting here. There is a live channel, a clear picture, and people doing their work. We will listen with you."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The civilian relay will stay with these crews while contact control can carry us. There is no victory announcement waiting here. There is a live channel, a clear picture, and people doing their work. We will listen with you.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A grounded sign-off into continued listening; warmer without becoming sentimental.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "1a6ab637-1f88-4cdd-8279-d7c179e77076",
+  "sha256": "f03c3e9a4ceb07e3ff134da76865a02bdb2948131e789c539aa827bf872aa56d",
+  "duration_seconds": 12.753708333333334,
+  "usage": {
+    "text_words": 224
+  }
+}

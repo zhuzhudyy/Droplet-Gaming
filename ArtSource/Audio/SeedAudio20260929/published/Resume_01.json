@@ -1,0 +1,37 @@
+{
+  "id": "Resume_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "00bdea41451d8a3766ddc410cbf72970d1f8be224770ade255e6eb79c1a1b1c7",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Resume_01/job.json",
+  "sourceSha256": "38de29bb0cf516c83fdb70a373ccdc098744bf77f7caa7da8bec996b91f3c31d",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.35 seconds. Short resume interface cue, clean ending. A light latch click opens into two soft ascending crystalline pips. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Resume_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 19200,
+    "rate": 48000,
+    "targetSeconds": 0.35,
+    "representative": false,
+    "startFrame": 3360,
+    "usedSourceFrames": 15840,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 1344,
+    "outputFrames": 15840,
+    "linearGain": 3.2130702129735647,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "00bdea41451d8a3766ddc410cbf72970d1f8be224770ade255e6eb79c1a1b1c7",
+    "durationSeconds": 0.33,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -33.24077365284297,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

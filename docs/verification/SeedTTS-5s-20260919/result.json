@@ -1,0 +1,11 @@
+{
+  "time": "2026-09-19T20:32:29.398987",
+  "target_seconds": 5,
+  "duration_is_estimate": true,
+  "requests": 1,
+  "http_status": 403,
+  "provider_code": 45000030,
+  "provider_message": "[resource_id=volc.seedtts.default] requested resource not granted",
+  "error": "HTTP 403; check service activation, credentials and quota. No automatic retry.",
+  "audio_files": []
+}

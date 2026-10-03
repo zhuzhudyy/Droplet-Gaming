@@ -1,0 +1,36 @@
+{
+  "id": "Narrative_04",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "d76bce7c38bfc7afb379fa0d63a5abce00a6e60130c1f434f98314567d4c4679",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Narrative_04/job.json",
+  "sourceSha256": "7dc49e0e838d66ba005147fb5fa2a33a96b74c0736c01afd68de81d43e4be554",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 4: irreversible decision, descending synth ostinato and broad unresolved brass-like pads. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "Narrative_04",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 1.6805710146022736,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "d76bce7c38bfc7afb379fa0d63a5abce00a6e60130c1f434f98314567d4c4679",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -11.775977157416582,
+    "rmsDbFS": -26.002336386089535,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.00244140625
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

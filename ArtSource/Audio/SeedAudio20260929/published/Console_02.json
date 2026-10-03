@@ -1,0 +1,37 @@
+{
+  "id": "Console_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+  "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1 seconds. Brief spacecraft console interaction, tactile hardware and a small electronic response. A toggle lever clicks into place followed by a short relay chatter. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Console_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 48000,
+    "rate": 48000,
+    "targetSeconds": 1.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 48000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 48000,
+    "linearGain": 0.2839727258502878,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+    "durationSeconds": 1.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -41.3115405125916,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

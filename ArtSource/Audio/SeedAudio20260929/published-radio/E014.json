@@ -1,0 +1,75 @@
+{
+  "accepted": true,
+  "sha256": "e586d77d1307b892bbf189eff0a4c760b5c7adbfdd05151b19db508d207eccef",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E014/9681765ebd759fc7/mix_recipe.json",
+  "sourceSha256": "ccb151fb29cb1133bc80fe5593231c8d179d3ad6a52be5ff962182cdd343d910",
+  "durationSeconds": 14.098875,
+  "english": "The track is clean. Too clean for our first explanation. Ranging pulses should find seams or exposed machinery, something that scatters the return. I have checked the calibration twice. The instruments agree.",
+  "text": "轨迹很干净，干净得让最初的解释站不住脚。测距脉冲本应找到接缝或外露机械，找到某种散射回波。我已复核两次校准，各台仪器结果一致。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 13.598875,
+      "english": "The track is clean. Too clean for our first explanation. Ranging pulses should find seams or exposed machinery, something that scatters the return. I have checked the calibration twice. The instruments agree.",
+      "text": "轨迹很干净，干净得让最初的解释站不住脚。测距脉冲本应找到接缝或外露机械，找到某种散射回波。我已复核两次校准，各台仪器结果一致。",
+      "role": "engineer"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E014-6b0e3b82ac283a55/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json"
+  ],
+  "sourceHashes": [
+    "8dfd35c8bd1119bc74d017583611e0daacc446c3fd5d52621384fa7018194bb3",
+    "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+    "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+    "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+    "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E014-6b0e3b82ac283a55/job.json",
+      "sha256": "8dfd35c8bd1119bc74d017583611e0daacc446c3fd5d52621384fa7018194bb3",
+      "usedSha256": "8dfd35c8bd1119bc74d017583611e0daacc446c3fd5d52621384fa7018194bb3",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+      "sha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+      "usedSha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+      "sha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+      "usedSha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+      "sha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+      "usedSha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+      "sha256": "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+      "usedSha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json",
+      "sha256": "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7",
+      "usedSha256": "f6d909d5950e39e64773cafd4623de77069d1d02efd857bf9a1b3ae5aa84de31",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

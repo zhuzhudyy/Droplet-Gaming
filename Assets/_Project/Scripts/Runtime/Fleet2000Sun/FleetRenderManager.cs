@@ -17,6 +17,8 @@ namespace DropletPrototype
         public ShipTarget[] targets = Array.Empty<ShipTarget>();
         public Camera gameplayCamera;
         public Transform droplet;
+        [Tooltip("Optional stable chase/listener position. Editorial camera cuts never change the streaming neighbourhood.")]
+        public Transform normalStreamingReference;
         [Min(10)] public float nearDistance = 600;
         [Min(20)] public float middleDistance = 1800;
         [Min(100)] public float chunkSize = 1400;
@@ -88,6 +90,62 @@ namespace DropletPrototype
         bool rebuilding;
         bool countersDirty;
         int aliveCount, fullPrefabCount, instancedShipCount, interactionShipCount;
+        ShipTarget cinematicSubject;
+        string cinematicSubjectId;
+        LODGroup cinematicLod;
+        bool cinematicLodForced;
+        readonly Dictionary<ShipTarget, LODGroup> deferredCinematicLodReleases = new Dictionary<ShipTarget, LODGroup>();
+        Transform normalViewReference;
+        public ShipTarget CinematicSubject => cinematicSubject;
+
+        /// <summary>Only one authored hull is pinned. A distant shot does not move the normal streaming origin.</summary>
+        public void PinCinematicSubject(ShipTarget subject, Transform normalReference)
+        {
+            if (cinematicSubject == subject && normalViewReference == normalReference) return;
+            ClearCinematicSubject();
+            normalViewReference = normalReference;
+            if (subject == null || subject.IsResolved || !lookup.TryGetValue(subject, out var entry)) return;
+            cinematicSubject = subject; cinematicSubjectId = subject.targetId;
+            cinematicLod = subject.visualRoot != null ? subject.visualRoot.GetComponentInChildren<LODGroup>(true) : null;
+            // The distant prefab is normally inactive until our later render
+            // refresh. Activate this ONE hull before calling the native LOD API.
+            ApplyState(entry, true, true);
+        }
+
+        public void ClearCinematicSubject()
+        {
+            if (cinematicLodForced && cinematicLod != null)
+            {
+                if (cinematicLod.enabled && cinematicLod.gameObject.activeInHierarchy) cinematicLod.ForceLOD(-1);
+                else if (cinematicSubject != null)
+                {
+                    // A resolved ship must stay hidden. Its one-shot restoration
+                    // callback remains valid even if this optional renderer is
+                    // disabled before mission restart.
+                    deferredCinematicLodReleases[cinematicSubject] = cinematicLod;
+                    cinematicSubject.Restored -= ReleaseDeferredCinematicLod;
+                    cinematicSubject.Restored += ReleaseDeferredCinematicLod;
+                }
+            }
+            cinematicLodForced = false;
+            cinematicLod = null; cinematicSubject = null; cinematicSubjectId = null; normalViewReference = null;
+        }
+
+        void ReleaseDeferredCinematicLod(ShipTarget target)
+        {
+            if (target == null || !deferredCinematicLodReleases.TryGetValue(target, out var group)) return;
+            if (group != null && !(group.enabled && group.gameObject.activeInHierarchy)) return;
+            if (group != null) group.ForceLOD(-1);
+            deferredCinematicLodReleases.Remove(target);
+            target.Restored -= ReleaseDeferredCinematicLod;
+        }
+
+        public bool TryGetTargetBounds(ShipTarget target, out Bounds bounds)
+        {
+            if (target != null && lookup.TryGetValue(target, out var entry))
+            { bounds = TransformBounds(entry.localBounds, target.transform.localToWorldMatrix); return true; }
+            bounds = default; return false;
+        }
 
         public void Configure(ShipTarget[] fleet, Camera view, Transform player)
         {
@@ -105,6 +163,7 @@ namespace DropletPrototype
 
         void OnDisable()
         {
+            ClearCinematicSubject();
             RenderPipelineManager.beginCameraRendering -= RenderCamera;
             ReleaseTargets();
             entries = Array.Empty<Entry>();
@@ -119,6 +178,7 @@ namespace DropletPrototype
         public void RebuildCache()
         {
             if (rebuilding) return;
+            ClearCinematicSubject();
             rebuilding = true;
             try
             {
@@ -236,6 +296,7 @@ namespace DropletPrototype
                 if (!target.IsResolved)
                 {
                     if (target.visualRoot != null) target.visualRoot.SetActive(true);
+                    ReleaseDeferredCinematicLod(target);
                     if (target.hitVolumes != null) foreach (var collider in target.hitVolumes)
                         if (collider != null) collider.enabled = true;
                 }
@@ -293,12 +354,15 @@ namespace DropletPrototype
 
         bool WantsFull(Entry entry)
         {
+            if (cinematicSubject == entry.target && cinematicSubjectId == entry.target.targetId) return true;
             if (droplet == null && gameplayCamera == null) return true;
             float distance = Mathf.Max(10, nearDistance) + (entry.full ? Mathf.Max(0, transitionHysteresis) : 0);
             // Include the complete hull, so a close bow cannot remain streamed out.
             float sqr = distance * distance;
             return (droplet != null && entry.bounds.SqrDistance(droplet.position) <= sqr) ||
-                (gameplayCamera != null && entry.bounds.SqrDistance(gameplayCamera.transform.position) <= sqr);
+                (normalStreamingReference != null ? entry.bounds.SqrDistance(normalStreamingReference.position) <= sqr :
+                 normalViewReference != null ? entry.bounds.SqrDistance(normalViewReference.position) <= sqr :
+                    gameplayCamera != null && entry.bounds.SqrDistance(gameplayCamera.transform.position) <= sqr);
         }
 
         void ApplyState(Entry entry, bool full, bool interaction)
@@ -327,6 +391,10 @@ namespace DropletPrototype
                 entry.interaction = interaction;
             }
             entry.initialized = true;
+            ReleaseDeferredCinematicLod(target);
+            if (target == cinematicSubject && cinematicSubjectId == target.targetId &&
+                !cinematicLodForced && cinematicLod != null && cinematicLod.enabled && cinematicLod.gameObject.activeInHierarchy)
+            { cinematicLod.ForceLOD(0); cinematicLodForced = true; }
             countersDirty = true;
         }
 
@@ -370,6 +438,18 @@ namespace DropletPrototype
         public bool IsInteractionActive(ShipTarget target) => target != null && !target.IsResolved &&
             lookup.TryGetValue(target, out var entry) && entry.interaction;
 
+        /// <summary>The exact root matrix used for the full prefab or distant instance submission.</summary>
+        public bool TryGetPresentationPose(ShipTarget target, out Matrix4x4 matrix, out bool instanced)
+        {
+            if (target != null && lookup.TryGetValue(target, out var entry))
+            {
+                instanced = !entry.full && InstancingAvailable;
+                matrix = instanced ? entry.matrix : target.transform.localToWorldMatrix;
+                return true;
+            }
+            matrix = Matrix4x4.identity; instanced = false; return false;
+        }
+
         void OnDestroyed(ShipTarget target)
         {
             if (!lookup.TryGetValue(target, out var entry)) return;
@@ -381,6 +461,9 @@ namespace DropletPrototype
 
         void OnRestored(ShipTarget target)
         {
+            // ResetTarget has just reactivated VisualRoot. Release before the
+            // regular tier calculation can stream that root out again.
+            ReleaseDeferredCinematicLod(target);
             if (!lookup.TryGetValue(target, out var entry)) return;
             entry.initialized = false; entry.sweptFrame = -1; entry.full = false;
             bool full = !InstancingAvailable || WantsFull(entry);

@@ -1,0 +1,25 @@
+{
+  "id": "BattleLow_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "d49fcca9-e98e-4cab-8fad-078382c653d6",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Low-intensity battle score, controlled tension with little percussion. Soft irregular electronic pulses, bowed cymbal textures and long dark chords. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:15:52.857107+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "7b9001390af0735b9ea5436cb9e00159deed3abb81edbd867083ec4a6e43329f",
+  "originalDurationSeconds": 75,
+  "actualSeconds": 75.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:16:56.105829+00:00"
+}

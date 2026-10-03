@@ -1,0 +1,25 @@
+{
+  "id": "Transition_04",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "aa49c3f1-2f21-4fa8-8eea-a1db7046696f",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental transition ending with a clean decaying tail. Aftermath: a descending electronic phrase dissolving into a hollow dark chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:24:21.983314+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "fbc0131c7ce896d133fca0da1a47f6af65556a67d8c437875df82323df9a4164",
+  "originalDurationSeconds": 4,
+  "actualSeconds": 4.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:24:34.736653+00:00"
+}

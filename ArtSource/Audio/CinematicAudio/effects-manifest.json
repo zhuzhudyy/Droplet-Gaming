@@ -1,0 +1,477 @@
+[
+  {
+    "id": "DeckSteps_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\DeckSteps_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "heel/toe impulses exciting modal steel deck resonances",
+    "prompt": "DeckSteps, steel ship compartment, close mechanical onset and short room decay, 4.2 seconds, mono, no speech, no music, no narration; several irregular hurried foot contacts receding from microphone",
+    "qa": {
+      "duration": 4.2,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -5.224323046191433,
+      "rmsDb": -23.344381095623675,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "e631119cb6f090c6ad32c4d9ef5dc68f4726960c579dcddbbf43110e58af75d8"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "DeckSteps_2",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\DeckSteps_2.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "heel/toe impulses exciting modal steel deck resonances",
+    "prompt": "DeckSteps, steel ship compartment, close mechanical onset and short room decay, 4.2 seconds, mono, no speech, no music, no narration; several irregular hurried foot contacts receding from microphone",
+    "qa": {
+      "duration": 4.2,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -4.28101891572307,
+      "rmsDb": -23.612449044318495,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.2,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "ca24adecc428533bbfe9a7eb3f44376142f4b8498a6b291d7fcb1168b4b6e425"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "DeckSteps_3",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\DeckSteps_3.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "heel/toe impulses exciting modal steel deck resonances",
+    "prompt": "DeckSteps, steel ship compartment, close mechanical onset and short room decay, 4.2 seconds, mono, no speech, no music, no narration; several irregular hurried foot contacts receding from microphone",
+    "qa": {
+      "duration": 4.2,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -4.198532034969248,
+      "rmsDb": -23.661707421515583,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "a6db1e8ad68a7b236e7f8f064dddc20c9c1145fadfb72fde97f08534710cb15f"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Console_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Console_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Console, steel ship compartment, close mechanical onset and short room decay, 1.4 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.4,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -11.248309554187223,
+      "rmsDb": -31.732457711476847,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.2,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "f79b31f99a70b0a1cd15ac5a02def8a397fc40bb9f8453aa86f6ec063b196114"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Console_2",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Console_2.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Console, steel ship compartment, close mechanical onset and short room decay, 1.4 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.4,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -10.606759108407282,
+      "rmsDb": -31.732093331339595,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.2,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "f4533edbd8804259e2340bd77e9e1943ac97a20b9f3e4f08378c67f33f7a05d5"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Console_3",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Console_3.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Console, steel ship compartment, close mechanical onset and short room decay, 1.4 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.4,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -10.210539713263845,
+      "rmsDb": -31.731218300948644,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.2,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "e975f31e0ce71d1c645fd44e3c8f3a7c356376cd71757a3fb3a4f9456ace26bf"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Hatch_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Hatch_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Hatch, steel ship compartment, close mechanical onset and short room decay, 1.5 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.5,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -0.8048758460699976,
+      "rmsDb": -20.10061405938792,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "70bdcf3021e60ff4d095651b742912b84f836fdebcd83e2394f6f8c80063811e"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Hatch_2",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Hatch_2.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Hatch, steel ship compartment, close mechanical onset and short room decay, 1.5 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.5,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -2.6276679376754424,
+      "rmsDb": -19.83023049316795,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "320afad2f1feb0ae146a5bac573c0f349eb18056065a7828d8d1d2bd44a7b8dc"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Hatch_3",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Hatch_3.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Hatch, steel ship compartment, close mechanical onset and short room decay, 1.5 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.5,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -2.3700249648676035,
+      "rmsDb": -19.80583424552335,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "b9edce692b07f43d37a329cb4370bf69a3861547b4b940ff65c44f22e155e48c"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Impact_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Impact_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Impact, steel ship compartment, close mechanical onset and short room decay, 1.1 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.1,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -0.3549287761535266,
+      "rmsDb": -20.897245660097333,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.30000000000000004,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "f2e690de13e72c25f2ea7bcabe3cc6e469a24e3647b34b870f48491809c8f92e"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Impact_2",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Impact_2.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Impact, steel ship compartment, close mechanical onset and short room decay, 1.1 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.1,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -0.3549287761535266,
+      "rmsDb": -20.7514459875261,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.30000000000000004,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "2acc8fb7fcd88ffccad2c657d6414a6e0be08626c5e281757bcfde6f166c967c"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Impact_3",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Impact_3.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Impact, steel ship compartment, close mechanical onset and short room decay, 1.1 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 1.1,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -0.3549287761535266,
+      "rmsDb": -21.80771883387759,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.4,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "9da0036777c4ca0c2d60b4aadac018d5baf77bb34baf02965960a9de1d770e59"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Explosion_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Explosion_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Explosion, steel ship compartment, close mechanical onset and short room decay, 2.7 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 2.7,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -0.3549287761535266,
+      "rmsDb": -20.858189445116373,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.2,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "ffd42ef8cde7cb69bce3ed96d7bf030b95585a43ad6c963843ba3518086386e2"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Explosion_2",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Explosion_2.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Explosion, steel ship compartment, close mechanical onset and short room decay, 2.7 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 2.7,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -0.3549287761535266,
+      "rmsDb": -21.809315884065562,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.30000000000000004,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "72c59f789e612ab188b4d2296bea4d79211ee068109839a301365e609bcb7f69"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Explosion_3",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Explosion_3.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Explosion, steel ship compartment, close mechanical onset and short room decay, 2.7 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 2.7,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -0.3549287761535266,
+      "rmsDb": -21.279358371049952,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.30000000000000004,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "0feef47136c56622413cf1774c760590a8ecf3c1251f1cd6f7f2251e7ea61916"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Laser_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Laser_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Laser, steel ship compartment, close mechanical onset and short room decay, 0.24 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.24,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -7.068470050770818,
+      "rmsDb": -20.37134912019068,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "f611a96c255009edb9ad924134913c6218b6f552ceb6664229917a911c45952e"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Laser_2",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Laser_2.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Laser, steel ship compartment, close mechanical onset and short room decay, 0.24 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.24,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -7.177409983102885,
+      "rmsDb": -20.37132076556646,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "1c6c22c1af832021106c133211e381f33b96c8009eb08f855752497cf78d4d50"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Laser_3",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Laser_3.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Laser, steel ship compartment, close mechanical onset and short room decay, 0.24 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.24,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -7.288960539337732,
+      "rmsDb": -20.370949440067797,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "b97426f234f632907dbf0e15fe327ecb28bf8c3c869c4ed1463185cef9b1b800"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Reflect_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Reflect_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Reflect, steel ship compartment, close mechanical onset and short room decay, 0.32 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.32,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -7.242459469376225,
+      "rmsDb": -21.6171713165086,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "7a62f6ed0ce131538cd98219e9cb779cc4eaf581009e3daa0b159217cca80b2d"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Reflect_2",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Reflect_2.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Reflect, steel ship compartment, close mechanical onset and short room decay, 0.32 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.32,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -7.054724187532798,
+      "rmsDb": -21.617018772094617,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "4526f186fce659827ae914ffbd3289ed97419e844b9ca4e1ce2fd4d8a21cbcb5"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Reflect_3",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Reflect_3.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Reflect, steel ship compartment, close mechanical onset and short room decay, 0.32 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.32,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -7.05412703448605,
+      "rmsDb": -21.61694837996283,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "fc6b1f5091cfd9d0940dcc27f17193a2036aa06f675c6816c8eb7ed9cb300470"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Alarm_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Alarm_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Alarm, steel ship compartment, close mechanical onset and short room decay, 2.0 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 2.0,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -19.585408056449854,
+      "rmsDb": -29.055949341832154,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "4a8d20ce969c05cd36b1f6c7db6a09a7781dfe77c4938737818b4d4e85a7571a"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Equipment_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Equipment_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Equipment, steel ship compartment, close mechanical onset and short room decay, 4.0 seconds, mono, no speech, no music, no narration; seamless loop with zero-valued edges",
+    "qa": {
+      "duration": 4.0,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -28.398637852731344,
+      "rmsDb": -33.45196214792524,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "943687d097642839ec7570c002b6f885de7d339c4801c77ef24c06b550e77de6"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Connect_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Connect_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Connect, steel ship compartment, close mechanical onset and short room decay, 0.14 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.14,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -15.919058366982725,
+      "rmsDb": -19.575333810038497,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.000244140625,
+      "sha256": "294932c2a3b03341695577bcffc67b691a44133037c759e821f8bea3101e7400"
+    },
+    "listening": "待人工试听"
+  },
+  {
+    "id": "Disconnect_1",
+    "file": "ArtSource\\Audio\\CinematicAudio\\Effects\\Disconnect_1.wav",
+    "source": "Original procedural synthesis, deterministic seed; no third-party recording",
+    "model": "tonal/modal oscillator and shaped transient synthesis",
+    "prompt": "Disconnect, steel ship compartment, close mechanical onset and short room decay, 0.2 seconds, mono, no speech, no music, no narration; one-shot",
+    "qa": {
+      "duration": 0.2,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -16.3365501051524,
+      "rmsDb": -22.587902468891215,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "a6a005178ef1c0d12e39cf57c4086a0151038b8973761a4d03534732dbc397f8"
+    },
+    "listening": "待人工试听"
+  }
+]

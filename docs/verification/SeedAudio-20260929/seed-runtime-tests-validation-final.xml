@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.1336394">
+  <test-suite type="TestSuite" id="1169" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="127" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.133639" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1162" name="DropletPrototype.Tests.PlayMode.dll" fullname="C:/学习/玩/Unity/Trysolar Drip/Library/ScriptAssemblies/DropletPrototype.Tests.PlayMode.dll" runstate="Runnable" testcasecount="127" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.123227" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38928" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1163" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="127" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.119733" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1164" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="127" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.116803" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1165" name="PlayMode" fullname="DropletPrototype.Tests.PlayMode" runstate="Runnable" testcasecount="127" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.114106" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1149" name="SeedAudioRuntimeTests" fullname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests" classname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.109722" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1150" name="CatalogSkipsMissingRecordingsAndCyclesActualVariants" fullname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.CatalogSkipsMissingRecordingsAndCyclesActualVariants" methodname="CatalogSkipsMissingRecordingsAndCyclesActualVariants" classname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests" runstate="Runnable" seed="2052676559" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.021170" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1151" name="CruiseAndBoostHaveDifferentSpeedWeightsAndControlsUseCompletedSteps" fullname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.CruiseAndBoostHaveDifferentSpeedWeightsAndControlsUseCompletedSteps" methodname="CruiseAndBoostHaveDifferentSpeedWeightsAndControlsUseCompletedSteps" classname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests" runstate="Runnable" seed="477691382" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.025023" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1153" name="MotorReportsOnlyCompletedMovementAndResetDoesNotReplayAFlightStep" fullname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.MotorReportsOnlyCompletedMovementAndResetDoesNotReplayAFlightStep" methodname="MotorReportsOnlyCompletedMovementAndResetDoesNotReplayAFlightStep" classname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests" runstate="Runnable" seed="1723890816" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.005790" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1152" name="PauseKeepsSelectedMusicAndRestartClearsOldStage" fullname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.PauseKeepsSelectedMusicAndRestartClearsOldStage" methodname="PauseKeepsSelectedMusicAndRestartClearsOldStage" classname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests" runstate="Runnable" seed="1564889620" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.024738" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1154" name="VisualQualityOffRetainsTheLegacyFlightAudioBudget" fullname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.VisualQualityOffRetainsTheLegacyFlightAudioBudget" methodname="VisualQualityOffRetainsTheLegacyFlightAudioBudget" classname="DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests" runstate="Runnable" seed="480843388" result="Passed" start-time="2026-09-29 11:43:54Z" end-time="2026-09-29 11:43:54Z" duration="0.017534" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

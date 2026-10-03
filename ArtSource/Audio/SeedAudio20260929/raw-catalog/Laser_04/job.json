@@ -1,0 +1,26 @@
+{
+  "id": "Laser_04",
+  "cueId": "Laser_04",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "acc7a2a7-3e12-441f-b5a5-6c1968ad96c9",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Double-stage magnetic click then a broad hot energy sweep. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:39:35.258999+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "1d48e28725ef7ecf7e35d4a060ec7f754a306960158e7ba0e6fe6b2db6d4abab",
+  "originalDurationSeconds": 0.8,
+  "actualSeconds": 0.8,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:39:46.656969+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E018",
+    "text": "Commander, our instruments cannot establish that it has a power system to shut down. We are describing our ships, not necessarily theirs."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Commander, our instruments cannot establish that it has a power system to shut down. We are describing our ships, not necessarily theirs.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "8a50055a-8677-414c-ad7b-bedaa5e5cce2",
+  "sha256": "f7ac03dd7be8272f0320e449f8b0d48ebdbf41ed1ba0965b8800f79ba2fabad9",
+  "duration_seconds": 8.605,
+  "usage": {
+    "text_words": 137
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "PauseBed_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "8622ce9336fd989a35383c02d3923485537037146169db8b36f4f31ad6218f6b",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/PauseBed_01/job.json",
+  "sourceSha256": "a524b5ce13b19f21191781e7f242e51df3be44d333ea28e6ffb77e3743c0e2f7",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Very quiet pause-menu instrumental bed, suspended time and minimal movement. Soft sustained low fifth with occasional delicate crystalline chord changes, no beat. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "PauseBed_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 1.0544091926495,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "8622ce9336fd989a35383c02d3923485537037146169db8b36f4f31ad6218f6b",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.474253039361141,
+    "rmsDbFS": -26.002263412137513,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.002960205078125
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E034",
+    "text": "No acknowledgement. Carrier level is steady. This is not a lost connection; there is simply nobody answering on the frequencies we understand."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "No acknowledgement. Carrier level is steady. This is not a lost connection; there is simply nobody answering on the frequencies we understand.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "d27e705f-9bad-46ac-ad30-d3253bf2469e",
+  "sha256": "9ce3415527f39b11758a9d1f0c9abec8ebb4677c3da88d0d17762630dfa4237a",
+  "duration_seconds": 8.383,
+  "usage": {
+    "text_words": 142
+  }
+}

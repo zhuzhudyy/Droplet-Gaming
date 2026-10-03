@@ -1,0 +1,26 @@
+{
+  "id": "Return_01",
+  "cueId": "Return_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "d607cadc-5b66-44ec-9b4e-d5bede86b3cc",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 1 seconds. Safe-return feedback after arena recovery, reassuring but not celebratory. A smooth short magnetic sweep resolving into two soft electronic notes. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T12:00:23.427427+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "1fcb92897c4b073e78bd7424826db3f048fe808d9997b4d28a455f429d9ff4f6",
+  "originalDurationSeconds": 1,
+  "actualSeconds": 1.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T12:00:36.383946+00:00"
+}

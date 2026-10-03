@@ -1,0 +1,8 @@
+Scene=Assets/_Project/Scenes/FleetAssault_Enhanced.unity
+Identities=2000
+PhysicalSolarDiameter=0.2131618
+ArtMultiplier=2
+DisplayDiameter=0.4263237
+RadiusUU=62.71476
+FOV=65
+EnglishReady=False

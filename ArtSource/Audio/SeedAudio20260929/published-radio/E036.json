@@ -1,0 +1,75 @@
+{
+  "accepted": true,
+  "sha256": "5a351f7da698dd41177ffcae3ef9b317d14981480f288726cf204a0df458b17c",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E036/f1b9f96adf627da5/mix_recipe.json",
+  "sourceSha256": "94b30c8460fb7477f09bc61dd20d3d1d1b89c87e3880ca429541f1ec9e1fe982",
+  "durationSeconds": 13.258166666666666,
+  "english": "If a hull is pierced, stay clear of its reactor. The impact may end before the failure does. Do not approach a silent wreck because the light has faded. Keep its channel open and give it room.",
+  "text": "舰体若被贯穿，远离它的反应堆。撞击结束，不代表故障停止。不要因为闪光消退，就靠近沉默的残舰。保持它的频道畅通，留出安全距离。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 12.758167,
+      "english": "If a hull is pierced, stay clear of its reactor. The impact may end before the failure does. Do not approach a silent wreck because the light has faded. Keep its channel open and give it room.",
+      "text": "舰体若被贯穿，远离它的反应堆。撞击结束，不代表故障停止。不要因为闪光消退，就靠近沉默的残舰。保持它的频道畅通，留出安全距离。",
+      "role": "engineer"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E036-6f26fe5a29183b7a/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json"
+  ],
+  "sourceHashes": [
+    "48174cde319ee0475712818a6b14131dda145acd3380193fc0e1184c4e4086ae",
+    "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+    "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+    "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+    "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E036-6f26fe5a29183b7a/job.json",
+      "sha256": "48174cde319ee0475712818a6b14131dda145acd3380193fc0e1184c4e4086ae",
+      "usedSha256": "48174cde319ee0475712818a6b14131dda145acd3380193fc0e1184c4e4086ae",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+      "sha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+      "usedSha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+      "sha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+      "usedSha256": "6cbf56412bef92b9d50e91ee18b8ccb23936186a3acad333fc3aaf859d5b5599",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json",
+      "sha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+      "usedSha256": "8dc709afd428ace4d24e330c1e275c195aea83bf4768165fe698734a4f87f18c",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

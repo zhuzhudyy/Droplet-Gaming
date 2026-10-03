@@ -1,0 +1,37 @@
+{
+  "id": "DeckSteps_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "d78a187ce543d0a8e580219cdc9cebeb9479d8f0c195bcc4e7ce89a1b6efe720",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/DeckSteps_02/job.json",
+  "sourceSha256": "0d002780878499925605f9071f058218a5fcb9330bb6c4a5cfc9a3c51dfd6031",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. A few isolated human boot footfalls on a spacecraft deck; only footsteps, no speech or breathing. Hurried light boots over ribbed alloy flooring, six uneven steps and one heel scuff. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "DeckSteps_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 192000,
+    "rate": 48000,
+    "targetSeconds": 4.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 192000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 192000,
+    "linearGain": 8.0,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "d78a187ce543d0a8e580219cdc9cebeb9479d8f0c195bcc4e7ce89a1b6efe720",
+    "durationSeconds": 4.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -14.078839100287826,
+    "rmsDbFS": -34.31148958703689,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

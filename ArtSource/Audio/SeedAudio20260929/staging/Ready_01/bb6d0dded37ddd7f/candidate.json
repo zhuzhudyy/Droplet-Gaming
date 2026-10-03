@@ -1,0 +1,41 @@
+{
+  "id": "Ready_01",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "Ready_01",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Ready_01/job.json",
+    "sourceSha256": "8556e11d5ae5432f6eb8063723c751e6bbc79c3528776727229b9fac16c7eee7",
+    "targetSeconds": 60.0,
+    "loop": true,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Ready_01/job.json",
+  "sourceSha256": "8556e11d5ae5432f6eb8063723c751e6bbc79c3528776727229b9fac16c7eee7",
+  "sha256": "61a9e468c8f4af7af875e51e1bc234aa71a79ae4c681134711607116dc7800f3",
+  "recipe": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.787375851277611,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "61a9e468c8f4af7af875e51e1bc234aa71a79ae4c681134711607116dc7800f3",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.433222422820252,
+    "rmsDbFS": -26.002322178723382,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.001434326171875
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

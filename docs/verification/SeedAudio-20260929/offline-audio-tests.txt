@@ -1,0 +1,42 @@
+{
+  "execute": false,
+  "resource": "seed-tts-2.0",
+  "take": "enhancement-en-20260919",
+  "requests": 4,
+  "characters": 511,
+  "maxBatchCharacters": 14000,
+  "maxBatchRequests": 76,
+  "lines": [
+    {
+      "id": "E001",
+      "role": "anchor",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E011",
+      "role": "comms",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E012",
+      "role": "commander",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E021",
+      "role": "engineer",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "rate": 8
+    }
+  ]
+}
+{"submitting": "LASER_R1", "reservedCNY": "2"}
+{"submitting": "METAL_R1", "reservedCNY": "2"}
+{"submitting": "LASER_R1", "reservedCNY": "2"}
+----------------------------------------------------------------------
+Ran 50 tests in 1.687s
+
+OK

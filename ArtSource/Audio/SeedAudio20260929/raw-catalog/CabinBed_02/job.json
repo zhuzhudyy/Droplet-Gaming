@@ -1,0 +1,25 @@
+{
+  "id": "CabinBed_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "43b271d8-161a-49d3-8439-fff3d09349b9",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Interior spacecraft equipment ambience, enclosed steel room with quiet short reflections. Alert bridge: stronger cooling fans, intermittent data relays and low equipment vibration; no alarm beeps. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:27:44.596313+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "c5c67c07f655443a4275b4c9b23cc35017723b35d1710fe4b4ca71e48f3da48e",
+  "originalDurationSeconds": 75,
+  "actualSeconds": 75.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:28:53.859738+00:00"
+}

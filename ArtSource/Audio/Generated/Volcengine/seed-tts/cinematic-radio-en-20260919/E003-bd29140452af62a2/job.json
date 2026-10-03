@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E003",
+    "text": "We have learned to build cities between planets, and still we ask a stranger the oldest question: what can you give us?"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "We have learned to build cities between planets, and still we ask a stranger the oldest question: what can you give us?",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "20cf8653-539f-46b0-9cf6-6fd5cc244bc7",
+  "sha256": "5365ad8a9e0ba551dfeb0e3dabd5f1107f2f082268765d55421ffa1c2ef94a7a",
+  "duration_seconds": 8.389416666666667,
+  "usage": {
+    "text_words": 119
+  }
+}

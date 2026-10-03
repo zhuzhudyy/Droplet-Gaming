@@ -1,0 +1,37 @@
+{
+  "id": "Turn_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "0f733972e986c4fdb152285d14fb91713479b0eef0130214e1c354546d17e609",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Turn_01/job.json",
+  "sourceSha256": "2dfc80012ca7ea9778d5bcccc0f6a46e1a862fda579bb7312a49984a1bbdab32",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1 seconds. Very short executed sharp-turn energy cue, fast lateral motion then silence. Narrow silky energy whip with a crisp magnetic edge. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Turn_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 48000,
+    "rate": 48000,
+    "targetSeconds": 1.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 48000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 48000,
+    "linearGain": 4.095816566623861,
+    "targetLevelDbFS": -8
+  },
+  "qa": {
+    "sha256": "0f733972e986c4fdb152285d14fb91713479b0eef0130214e1c354546d17e609",
+    "durationSeconds": 1.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.000782896515972,
+    "rmsDbFS": -24.09879731546375,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

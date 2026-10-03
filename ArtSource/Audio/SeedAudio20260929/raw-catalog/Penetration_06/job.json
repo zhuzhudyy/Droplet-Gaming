@@ -1,0 +1,26 @@
+{
+  "id": "Penetration_06",
+  "cueId": "Penetration_06",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "bbd7d3dd-af3c-4867-909c-6e9686f3d733",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Machined metal deck ruptures with a compressed strike and long bent-panel groan. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:43:18.390870+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "3ecf527143281f824448553f2b9714acaecd7acdfe8dc0edc78961f41efd6b9b",
+  "originalDurationSeconds": 1.78,
+  "actualSeconds": 1.78,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:43:33.697497+00:00"
+}

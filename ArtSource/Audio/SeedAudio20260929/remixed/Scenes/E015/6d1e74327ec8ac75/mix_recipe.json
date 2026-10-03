@@ -1,0 +1,137 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E015",
+  "fingerprint": "6d1e74327ec8ac75b02b9e5c83959684a150d6c20cfdea92f2315c13ac0250b3",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E015",
+    "templateSha256": "dc065bde9974b269bbc44179fa481d9d472c08d63f45e0eba7b4fe95de5299a5",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 15.849792,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E015",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E015-b3b6e1ce30e79fc7/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E015-b3b6e1ce30e79fc7/job.json",
+        "sha256": "9384ee04f09d26fdad512d45741e6b0a9eddaac066065bf07517cea331a57b53",
+        "sourceSha256": "9384ee04f09d26fdad512d45741e6b0a9eddaac066065bf07517cea331a57b53",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 4.596486688277522,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "background_people",
+        "sourceId": "BG01",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/BG01-3f4ed9f88d513193/job.json",
+        "sha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+        "sourceSha256": "56dc2838194aedeb2e881afb1faf418cf6a078fa82df27443eaa0411de508159",
+        "model": "seed-tts-2.0",
+        "start": 13.750542,
+        "oldGain": 0.643852743225342,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+        "sha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+        "sourceSha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+        "model": "seed-audio-1.0",
+        "start": 0.05,
+        "oldGain": 0.27,
+        "perspective": "room",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+        "sha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+        "sourceSha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+        "model": "seed-audio-1.0",
+        "start": 7.530316,
+        "oldGain": 0.16,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "environment",
+        "sourceId": "CabinBed_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/CabinBed_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+        "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+        "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.65,
+        "perspective": "room",
+        "loop": true
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+        "sha256": "6cbf56412bef92b9d50e91ee18b8ccb23936186a3acad333fc3aaf859d5b5599",
+        "sourceSha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json",
+        "sha256": "8dc709afd428ace4d24e330c1e275c195aea83bf4768165fe698734a4f87f18c",
+        "sourceSha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+        "model": "seed-audio-1.0",
+        "start": 15.639792,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 13.450542,
+        "english": "Still no answer. Contact protocol, mathematical sequence, navigation lights. I repeated all three. The transmitter works; our ships can read it. I cannot solve this by turning up the volume.",
+        "text": "仍无回应。接触协议、数学序列、导航灯，我都重复发送过。发射机正常，己方舰船也能接收。这不是调高音量能解决的。",
+        "role": "comms"
+      },
+      {
+        "time": 13.750542,
+        "duration": 1.79925,
+        "english": "On it. Checking now.",
+        "text": "收到，正在检查。",
+        "role": "comms"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "29264fa2c40042c760a86b53ccfad55638043074bef866644186eb3573106b1d",
+      "seconds": 15.849791666666667,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -2.8283367882806063,
+      "rmsDbFS": -21.371697389016564,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

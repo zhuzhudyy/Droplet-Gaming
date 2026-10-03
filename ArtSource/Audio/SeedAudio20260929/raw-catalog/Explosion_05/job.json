@@ -1,0 +1,26 @@
+{
+  "id": "Explosion_05",
+  "cueId": "Explosion_05",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "389e74c0-e969-4581-96c4-39664cd0538b",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Large hollow hangar rupture with tumbling heavy plates and diminishing grit. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:45:54.274823+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "20758d667d8d1ff63859b56a7a151f6a6daa075068bd43e25b3da47ae23b2655",
+  "originalDurationSeconds": 5,
+  "actualSeconds": 5.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:46:08.763411+00:00"
+}

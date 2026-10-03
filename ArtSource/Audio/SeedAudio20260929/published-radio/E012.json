@@ -1,0 +1,75 @@
+{
+  "accepted": true,
+  "sha256": "4777e894333541ad7f69b885da66f6dbecf1a301661d9ae07e7a4bef750bdaa4",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E012/d8239a946e081bb6/mix_recipe.json",
+  "sourceSha256": "901da10a611966c8b1d9e896d5e5febcadb7da23d4f17b468bb5145bc29e4f89",
+  "durationSeconds": 12.2605,
+  "english": "Hold formation. Leave the approach corridor open. Give that object a way through without a collision. No captain is to turn a bright reflection into a reason to fire.",
+  "text": "保持阵型，接近走廊保持畅通。让那个目标能够通过，而不发生碰撞。任何舰长，都不得把明亮反光当作开火理由。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 11.7605,
+      "english": "Hold formation. Leave the approach corridor open. Give that object a way through without a collision. No captain is to turn a bright reflection into a reason to fire.",
+      "text": "保持阵型，接近走廊保持畅通。让那个目标能够通过，而不发生碰撞。任何舰长，都不得把明亮反光当作开火理由。",
+      "role": "commander"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E012-895f308624d78c65/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json"
+  ],
+  "sourceHashes": [
+    "2fce7a8a00adf93562c4f20793c198092fa6dec2bc2c58168a6f47fa71831376",
+    "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+    "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+    "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+    "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E012-895f308624d78c65/job.json",
+      "sha256": "2fce7a8a00adf93562c4f20793c198092fa6dec2bc2c58168a6f47fa71831376",
+      "usedSha256": "2fce7a8a00adf93562c4f20793c198092fa6dec2bc2c58168a6f47fa71831376",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_01/job.json",
+      "sha256": "9ac5a264da817fe66e91dedc7b1e78ed2a6b1fee040fa2f70dccad7736b3e7f0",
+      "usedSha256": "805878a0b5516c1fe99656b3656cf8598fa8fee3c4c4b3600483e69d09856bef",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+      "sha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+      "usedSha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_03/job.json",
+      "sha256": "240458eac51c32536144e9be908ab38b91bdfd8cae82cd6b554c8de81cfbc3ba",
+      "usedSha256": "6cbf56412bef92b9d50e91ee18b8ccb23936186a3acad333fc3aaf859d5b5599",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_03/job.json",
+      "sha256": "14fc3c4118319cd5ce4be48d7d645713e6f6ed246224646ab87e8d6e3ed3a20b",
+      "usedSha256": "8dc709afd428ace4d24e330c1e275c195aea83bf4768165fe698734a4f87f18c",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

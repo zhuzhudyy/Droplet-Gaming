@@ -1,0 +1,1932 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ccfff0b66a0c5498e8d6172313d464, type: 3}
+  m_Name: CinematicRadio
+  m_EditorClassIdentifier: DropletPrototype.Runtime::DropletPrototype.RadioLibrary
+  combat:
+  - id: B001
+    eventKind: AttackIneffective
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u6E29\u5EA6\u6CA1\u6709\u5347\u9AD8\u3002\u8FD9\u4E00\u51FB\u6BEB\u65E0\u4F5C\u7528\u3002"
+    english: No thermal rise. That shot did nothing.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: c63d2883663375541b904254319dab76, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: f9081fd189576b34ca5b52b0621ea001, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 12e2897afe52e2c44a52ccb247c0745d, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 2.7814167
+      text: "\u6E29\u5EA6\u6CA1\u6709\u5347\u9AD8\u3002\u8FD9\u4E00\u51FB\u6BEB\u65E0\u4F5C\u7528\u3002"
+      english: No thermal rise. That shot did nothing.
+      role: engineer
+    - time: 3.0814166
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B002
+    eventKind: AttackIneffective
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u505C\u6B62\u65E0\u6548\u5C04\u51FB\uFF0C\u68C0\u67E5\u53CD\u5C04\u8DEF\u5F84\u3002"
+    english: Cease wasteful fire. Check the return path.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 82f66b1c95ab9b84cab5514d39f69d0b, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 605acaadad9b02f4895c0bb646fd71a6, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 5569c22107aaed847a5d98259386e100, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.5850418
+      text: "\u505C\u6B62\u65E0\u6548\u5C04\u51FB\uFF0C\u68C0\u67E5\u53CD\u5C04\u8DEF\u5F84\u3002"
+      english: Cease wasteful fire. Check the return path.
+      role: commander
+    - time: 3.8850417
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B003
+    eventKind: AttackIneffective
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u8868\u9762\u5B8C\u597D\uFF0C\u627E\u4E0D\u5230\u4EFB\u4F55\u75D5\u8FF9\u3002"
+    english: Surface intact. I cannot find a mark.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: a096cbaaf00165644975abc46d47e36a, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 0f79597d073942e4ab41d0e91545223f, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 6d51460806128ce44b37653a3a20dcc5, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 2.7930417
+      text: "\u8868\u9762\u5B8C\u597D\uFF0C\u627E\u4E0D\u5230\u4EFB\u4F55\u75D5\u8FF9\u3002"
+      english: Surface intact. I cannot find a mark.
+      role: engineer
+    - time: 3.0930417
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B004
+    eventKind: AttackIneffective
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u5404\u70AE\u7EC4\uFF0C\u5149\u675F\u6B63\u5728\u6563\u5165\u6211\u65B9\u822A\u9053\u3002"
+    english: All batteries, your beams are scattering across our lanes.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: d96b674ccff31374793801113ceb9922, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 96de188fe3b5729448c479c6dab40613, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 987e18ce080c5c649bdda215a557c127, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.5742917
+      text: "\u5404\u70AE\u7EC4\uFF0C\u5149\u675F\u6B63\u5728\u6563\u5165\u6211\u65B9\u822A\u9053\u3002"
+      english: All batteries, your beams are scattering across our lanes.
+      role: comms
+    - time: 3.8742917
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B005
+    eventKind: LaserReflected
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u53CD\u5C04\u5149\u675F\uFF01\u7ACB\u5373\u8BA9\u5F00\u90A3\u6761\u7EBF\uFF01"
+    english: Reflected beam! Clear that line now!
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: fe1f1eaf564cea54bb17723e9e42e153, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 8cab9599eafc16840939badf88e28336, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: c43f403d74d3e484e91ce79448a7ea1b, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 2.5901666
+      text: "\u53CD\u5C04\u5149\u675F\uFF01\u7ACB\u5373\u8BA9\u5F00\u90A3\u6761\u7EBF\uFF01"
+      english: Reflected beam! Clear that line now!
+      role: comms
+  - id: B006
+    eventKind: LaserReflected
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u89D2\u5EA6\u53D8\u4E86\uFF0C\u53CD\u5C04\u675F\u6B63\u5728\u6A2A\u7A7F\u9635\u578B\uFF01"
+    english: The angle changed. The return is crossing the formation!
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: f499def28211e4841adcd520ab40df4d, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 28dbe311f25b7464aac7c733d025aac0, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 6d4c5bef5bba9014397efafb2eb267aa, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.8124166
+      text: "\u89D2\u5EA6\u53D8\u4E86\uFF0C\u53CD\u5C04\u675F\u6B63\u5728\u6A2A\u7A7F\u9635\u578B\uFF01"
+      english: The angle changed. The return is crossing the formation!
+      role: engineer
+    - time: 4.1124167
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B007
+    eventKind: LaserReflected
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u505C\u706B\uFF01\u53CD\u5C04\u65B9\u5411\u540E\u65B9\u6709\u53CB\u8230\uFF01"
+    english: Hold fire! Friendly hull behind the reflection!
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: 278804c6ced86354e8687840edecb031, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 54c7b2c7f38b78d418b8167c5e9d8f99, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 506a47d1bb718d74e93cd1bdfaae5aff, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.5685418
+      text: "\u505C\u706B\uFF01\u53CD\u5C04\u65B9\u5411\u540E\u65B9\u6709\u53CB\u8230\uFF01"
+      english: Hold fire! Friendly hull behind the reflection!
+      role: commander
+    - time: 3.8685417
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B008
+    eventKind: LaserReflected
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u786E\u8BA4\u63A5\u89E6\u3002\u80FD\u91CF\u79BB\u5F00\u4E86\u8868\u9762\uFF0C\u5E76\u672A\u8FDB\u5165\u3002"
+    english: Contact confirmed. Energy is leaving the surface, not entering it.
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: cdb139219062632488957bc51aeb7de1, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: b634a2ce76bce2842a48473e35f99810, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 5648b1cb26b7fce4c8e8bf3403f0edb7, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 5.0006666
+      text: "\u786E\u8BA4\u63A5\u89E6\u3002\u80FD\u91CF\u79BB\u5F00\u4E86\u8868\u9762\uFF0C\u5E76\u672A\u8FDB\u5165\u3002"
+      english: Contact confirmed. Energy is leaving the surface, not entering it.
+      role: engineer
+    - time: 5.300667
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B009
+    eventKind: HullPenetrated
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u4E24\u4FA7\u8D2F\u7A7F\u3002\u6B63\u5728\u9694\u79BB\u53CD\u5E94\u5806\uFF01"
+    english: Breach through both sides. Isolating the reactor!
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: d07030585ce9e094396b92fd47da76d3, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: b6132a4dd9ab520468498052877f614b, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: feda1316712343b46b039642a804ba65, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.182125
+      text: "\u4E24\u4FA7\u8D2F\u7A7F\u3002\u6B63\u5728\u9694\u79BB\u53CD\u5E94\u5806\uFF01"
+      english: Breach through both sides. Isolating the reactor!
+      role: engineer
+    - time: 3.482125
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B010
+    eventKind: HullPenetrated
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u4E2D\u592E\u7532\u677F\u5168\u9762\u5931\u538B\uFF01"
+    english: We have lost pressure across the central decks!
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: 075ffc1d474b59545be4642630c7be87, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 9393402715505a745b905b815dcd6d35, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: b96c07d9000d0a047bcbcf821c1839da, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 2.7668333
+      text: "\u4E2D\u592E\u7532\u677F\u5168\u9762\u5931\u538B\uFF01"
+      english: We have lost pressure across the central decks!
+      role: comms
+    - time: 3.0668333
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B011
+    eventKind: HullPenetrated
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u5B83\u76F4\u63A5\u7A7F\u8FC7\u4E86\u6211\u4EEC\uFF0C\u5173\u95ED\u5168\u90E8\u5185\u90E8\u8231\u95E8\uFF01"
+    english: It went straight through us. Close every internal door!
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: 12af414d500f664479548c81f7a9d467, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 213f6401b99c3674c83c4cc8793ff272, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: fe440b4b546f5f94eb202330e21bfaaa, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.1765416
+      text: "\u5B83\u76F4\u63A5\u7A7F\u8FC7\u4E86\u6211\u4EEC\uFF0C\u5173\u95ED\u5168\u90E8\u5185\u90E8\u8231\u95E8\uFF01"
+      english: It went straight through us. Close every internal door!
+      role: engineer
+    - time: 3.4765418
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B012
+    eventKind: HullPenetrated
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u8230\u4F53\u88AB\u8D2F\u7A7F\uFF0C\u5BFC\u822A\u5931\u6548\uFF0C\u6211\u4EEC\u6B63\u5728\u6F02\u79FB\uFF01"
+    english: Hull pierced. Navigation is gone. We are drifting!
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: dbe952553149c0e47896b784e4682f1d, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 48c4325c7464fa943839ad35b6f7b7be, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: a40cd36cf56224044a3ad27c8000e747, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.7884583
+      text: "\u8230\u4F53\u88AB\u8D2F\u7A7F\uFF0C\u5BFC\u822A\u5931\u6548\uFF0C\u6211\u4EEC\u6B63\u5728\u6F02\u79FB\uFF01"
+      english: Hull pierced. Navigation is gone. We are drifting!
+      role: comms
+    - time: 4.0884585
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B013
+    eventKind: ReactorUnstable
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u7EA6\u675F\u6B63\u5728\u5931\u6548\uFF0C\u6240\u6709\u4EBA\u8FDC\u79BB\u6838\u5FC3\uFF01"
+    english: Containment is failing. Everyone away from the core!
+    weight: 1
+    pendingOnly: 1
+    important: 1
+    voice: {fileID: 8300000, guid: 98fd229a2628a79419358c24ab2822fd, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 92153f6ba33588b41be5e82f8ac6ca46, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 71ccc9b3b9ef1434989c9bc908981d28, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.5835416
+      text: "\u7EA6\u675F\u6B63\u5728\u5931\u6548\uFF0C\u6240\u6709\u4EBA\u8FDC\u79BB\u6838\u5FC3\uFF01"
+      english: Containment is failing. Everyone away from the core!
+      role: engineer
+    - time: 3.8835416
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B014
+    eventKind: ReactorUnstable
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u505C\u5806\u6CA1\u6709\u751F\u6548\uFF0C\u53CD\u5E94\u5806\u6E29\u5EA6\u4ECD\u5728\u4E0A\u5347\uFF01"
+    english: The shutdown did not take. Reactor temperature is still climbing!
+    weight: 1
+    pendingOnly: 1
+    important: 1
+    voice: {fileID: 8300000, guid: eff6b3a55e276fe4d98417c7f9926676, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 19b18ade25807784ba90fe5cbee5b3a2, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 15d0838acb02c08478ae3a67cb4dd5af, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.1942916
+      text: "\u505C\u5806\u6CA1\u6709\u751F\u6548\uFF0C\u53CD\u5E94\u5806\u6E29\u5EA6\u4ECD\u5728\u4E0A\u5347\uFF01"
+      english: The shutdown did not take. Reactor temperature is still climbing!
+      role: engineer
+    - time: 4.494292
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B015
+    eventKind: ReactorUnstable
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u53CD\u5E94\u5806\u8B66\u62A5\uFF01\u6551\u63F4\u8230\u4E0D\u8981\u9760\u8FD1\u6211\u4EEC\uFF01"
+    english: Reactor warning. Do not bring a rescue ship alongside us!
+    weight: 1
+    pendingOnly: 1
+    important: 1
+    voice: {fileID: 8300000, guid: db5be6c066a78e94a8862c7ce27035a9, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: fba31b6e583e8834585b53c55103b61c, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 2e3c114a6678a7d42803bc35e2bffb16, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.7946668
+      text: "\u53CD\u5E94\u5806\u8B66\u62A5\uFF01\u6551\u63F4\u8230\u4E0D\u8981\u9760\u8FD1\u6211\u4EEC\uFF01"
+      english: Reactor warning. Do not bring a rescue ship alongside us!
+      role: comms
+    - time: 4.0946665
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B016
+    eventKind: ReactorUnstable
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u51B7\u5374\u5DF2\u7ECF\u8017\u5C3D\uFF0C\u518D\u4E5F\u65E0\u6CD5\u91CD\u542F\u4E86\uFF01"
+    english: We are out of cooling. There is no restart from this!
+    weight: 1
+    pendingOnly: 1
+    important: 1
+    voice: {fileID: 8300000, guid: 4349cbd16759e05438d63a73b8f3c4e2, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: ade0e4148bc736746ab30b9235c193f0, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: ad70ce54eb5e74e4986025d43447452c, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.9705
+      text: "\u51B7\u5374\u5DF2\u7ECF\u8017\u5C3D\uFF0C\u518D\u4E5F\u65E0\u6CD5\u91CD\u542F\u4E86\uFF01"
+      english: We are out of cooling. There is no restart from this!
+      role: engineer
+    - time: 4.2705
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B017
+    eventKind: RescueRequested
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u6C42\u6551\uFF01\u524D\u8231\u4ECD\u6709\u5E78\u5B58\u8005\uFF0C\u6709\u4EBA\u80FD\u542C\u5230\u5417\uFF1F"
+    english: Mayday. We have survivors in the forward section. Can anyone hear us?
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: 768242ab15387914fa777e51b32e7bd1, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: c5d57b3391c39674baba0d4f01d12a5f, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 44de0836bfb4320469770f07b4056a59, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.6212916
+      text: "\u6C42\u6551\uFF01\u524D\u8231\u4ECD\u6709\u5E78\u5B58\u8005\uFF0C\u6709\u4EBA\u80FD\u542C\u5230\u5417\uFF1F"
+      english: Mayday. We have survivors in the forward section. Can anyone hear
+        us?
+      role: comms
+    - time: 4.921292
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B018
+    eventKind: RescueRequested
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u6551\u63F4\u9891\u9053\uFF0C\u6211\u4EEC\u7684\u673A\u5E93\u5C01\u6B7B\u4E86\uFF0C\u9700\u8981\u5916\u90E8\u63A5\u5E94\uFF01"
+    english: Rescue channel, our launch bay is sealed. We need an external pickup!
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: ad1573c087694bf4ab4bfd55ae61e7fd, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 316f1af18e492c44a82d168597f217c4, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: eb4d67eb8e71f664691d82e9e6c47295, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.212125
+      text: "\u6551\u63F4\u9891\u9053\uFF0C\u6211\u4EEC\u7684\u673A\u5E93\u5C01\u6B7B\u4E86\uFF0C\u9700\u8981\u5916\u90E8\u63A5\u5E94\uFF01"
+      english: Rescue channel, our launch bay is sealed. We need an external pickup!
+      role: comms
+    - time: 4.512125
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B019
+    eventKind: RescueRequested
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u6B63\u5728\u5E2E\u4ED6\u4EEC\u7A7F\u4E0A\u5B87\u822A\u670D\uFF0C\u8BF7\u4FDD\u6301\u76D1\u542C\u3002"
+    english: We are getting them into suits. Please keep a receiver on us.
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: 6fc017b8f6329a44fb8558c8c475e17e, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 08756667ccb68f4418ec873a7b621675, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: d3a57fb3d6fe7b341a8b12ae90b4d198, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.5777082
+      text: "\u6B63\u5728\u5E2E\u4ED6\u4EEC\u7A7F\u4E0A\u5B87\u822A\u670D\uFF0C\u8BF7\u4FDD\u6301\u76D1\u542C\u3002"
+      english: We are getting them into suits. Please keep a receiver on us.
+      role: engineer
+    - time: 3.8777084
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B020
+    eventKind: RescueRequested
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u7D27\u6025\u4FE1\u6807\u5DF2\u542F\u52A8\uFF0C\u6F02\u79FB\u65E0\u6CD5\u63A7\u5236\uFF0C\u8BF7\u56DE\u5E94\uFF01"
+    english: Emergency beacon active. We cannot control our drift. Please respond!
+    weight: 1
+    pendingOnly: 1
+    important: 0
+    voice: {fileID: 8300000, guid: 0c9f3152db7d1fa4fb00a6f05522efc5, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: d71b9884d7c46644496e3bc520abf2da, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 5fb621eefbe90874a90a7ccdb5b0e7e1, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.606875
+      text: "\u7D27\u6025\u4FE1\u6807\u5DF2\u542F\u52A8\uFF0C\u6F02\u79FB\u65E0\u6CD5\u63A7\u5236\uFF0C\u8BF7\u56DE\u5E94\uFF01"
+      english: Emergency beacon active. We cannot control our drift. Please respond!
+      role: comms
+    - time: 4.906875
+      duration: 1.1782084
+      text: "\u9000\u540E\uFF01"
+      english: Get back!
+      role: background crew
+  - id: B021
+    eventKind: ShipExploded
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u90A3\u8258\u8230\u6D88\u5931\u4E86\u3002\u6551\u63F4\u8247\u8FDC\u79BB\u6B8B\u9AB8\u3002"
+    english: We lost that hull. Rescue craft, stand clear of the debris.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 17d4521bc001ba04180c0575fec9832f, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: bf852ad126b796046bb3f3cd21e0c878, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 9c2259f115312fa4482e79cfe1961eda, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.570625
+      text: "\u90A3\u8258\u8230\u6D88\u5931\u4E86\u3002\u6551\u63F4\u8247\u8FDC\u79BB\u6B8B\u9AB8\u3002"
+      english: We lost that hull. Rescue craft, stand clear of the debris.
+      role: comms
+    - time: 3.870625
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B022
+    eventKind: ShipExploded
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u786E\u8BA4\u7206\u70B8\uFF0C\u4E3A\u5E78\u5B58\u8005\u8BA9\u51FA\u901A\u9053\u3002"
+    english: Explosion confirmed. Open a lane for the survivors.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: ade7d0c1432bd144f9d15899758f5c6a, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: ebcde8756c52173449f33faa8ab4fa0c, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: de02b2552d1c7d24ab5fc9985a43a39d, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.8045416
+      text: "\u786E\u8BA4\u7206\u70B8\uFF0C\u4E3A\u5E78\u5B58\u8005\u8BA9\u51FA\u901A\u9053\u3002"
+      english: Explosion confirmed. Open a lane for the survivors.
+      role: commander
+    - time: 4.104542
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B023
+    eventKind: ShipExploded
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u51FA\u73B0\u6B21\u7EA7\u95EA\u5149\uFF0C\u8B66\u60D5\u9644\u8FD1\u518D\u6B21\u5931\u7A33\u3002"
+    english: Secondary flash. Watch for another reactor failure nearby.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 9d2aaf1caca11c64eb452e463fc1db91, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 3b298060c13b5f443bb0430a15427083, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 00d1383c66c9be543b2f683c9bc0f4a0, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.9857917
+      text: "\u51FA\u73B0\u6B21\u7EA7\u95EA\u5149\uFF0C\u8B66\u60D5\u9644\u8FD1\u518D\u6B21\u5931\u7A33\u3002"
+      english: Secondary flash. Watch for another reactor failure nearby.
+      role: engineer
+    - time: 4.285792
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B024
+    eventKind: ShipExploded
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u4ED6\u4EEC\u7684\u4FE1\u53F7\u65AD\u4E86\uFF0C\u6B63\u5728\u6807\u8BB0\u6700\u540E\u4F4D\u7F6E\u3002"
+    english: Their signal is gone. I am marking the last known position.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 07936fd49af2d3d418027cd0085f4454, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 07957d45d2158dd4cbc813e9874eef4a, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: a5f57772e846a464284c861061a1e966, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.5725417
+      text: "\u4ED6\u4EEC\u7684\u4FE1\u53F7\u65AD\u4E86\uFF0C\u6B63\u5728\u6807\u8BB0\u6700\u540E\u4F4D\u7F6E\u3002"
+      english: Their signal is gone. I am marking the last known position.
+      role: comms
+    - time: 3.8725417
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B025
+    eventKind: RetreatOrdered
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u8131\u79BB\u9635\u578B\uFF0C\u6CBF\u5206\u914D\u7684\u64A4\u79BB\u65B9\u5411\u52A0\u901F\uFF01"
+    english: Break formation. Accelerate along your assigned escape vector!
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: fcb3119c4be0bef4a974d934dccefd28, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: ca53b4c4c74ce9c4c9f0790c5cef2f91, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 9a1611220ef86ac44a03cf6c7fc551c0, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.2059584
+      text: "\u8131\u79BB\u9635\u578B\uFF0C\u6CBF\u5206\u914D\u7684\u64A4\u79BB\u65B9\u5411\u52A0\u901F\uFF01"
+      english: Break formation. Accelerate along your assigned escape vector!
+      role: commander
+    - time: 4.5059586
+      duration: 1.7995417
+      text: "\u8FD9\u8FB9\uFF01\u8DDF\u7D27\uFF01"
+      english: This way! Keep together!
+      role: background crew
+  - id: B026
+    eventKind: RetreatOrdered
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u786E\u8BA4\u672C\u5730\u64A4\u9000\uFF0C\u907F\u5F00\u53D7\u635F\u8230\u3002"
+    english: Local retreat confirmed. Keep clear of the damaged ships.
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: 74d3f2e15e0b8ab4a8b6be864b68043d, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 36ec3d0ae9ff148438639dbf4bb47292, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 6ce4e6b8ae0b48343b08601317e45fa7, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.407125
+      text: "\u786E\u8BA4\u672C\u5730\u64A4\u9000\uFF0C\u907F\u5F00\u53D7\u635F\u8230\u3002"
+      english: Local retreat confirmed. Keep clear of the damaged ships.
+      role: comms
+    - time: 3.707125
+      duration: 1.7995417
+      text: "\u8FD9\u8FB9\uFF01\u8DDF\u7D27\uFF01"
+      english: This way! Keep together!
+      role: background crew
+  - id: B027
+    eventKind: RetreatOrdered
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u522B\u518D\u7B49\u5F85\u5168\u8230\u961F\uFF0C\u73B0\u5728\u5C31\u79FB\u52A8\u672C\u8230\uFF01"
+    english: Do not wait for the whole fleet. Move your own ship now!
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: d80b31e0ce956be4ca7a0c11421a9e66, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 109cda651581f3849991bde89c7efb0b, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: b86a1d49f7fda3940b6269530265c2ba, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.8077917
+      text: "\u522B\u518D\u7B49\u5F85\u5168\u8230\u961F\uFF0C\u73B0\u5728\u5C31\u79FB\u52A8\u672C\u8230\uFF01"
+      english: Do not wait for the whole fleet. Move your own ship now!
+      role: commander
+    - time: 4.107792
+      duration: 1.7995417
+      text: "\u8FD9\u8FB9\uFF01\u8DDF\u7D27\uFF01"
+      english: This way! Keep together!
+      role: background crew
+  - id: B028
+    eventKind: RetreatOrdered
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u5F15\u64CE\u6709\u54CD\u5E94\uFF0C\u6211\u4EEC\u6B63\u5728\u62C9\u5F00\u8DDD\u79BB\u3002"
+    english: Engines responding. We are opening the distance.
+    weight: 1
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: 65963894e7fc4564f8b11f0d2d0d336d, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: e82e21a41d52a884b9c0353ac8601a41, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 4c7526851bb739d41a8801975f02d2e3, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.0117917
+      text: "\u5F15\u64CE\u6709\u54CD\u5E94\uFF0C\u6211\u4EEC\u6B63\u5728\u62C9\u5F00\u8DDD\u79BB\u3002"
+      english: Engines responding. We are opening the distance.
+      role: engineer
+    - time: 3.3117917
+      duration: 1.7995417
+      text: "\u8FD9\u8FB9\uFF01\u8DDF\u7D27\uFF01"
+      english: This way! Keep together!
+      role: background crew
+  - id: B029
+    eventKind: ShipEscaped
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u4E00\u8258\u8230\u5DF2\u79BB\u5F00\u6218\u6597\u8FB9\u754C\uFF0C\u4FE1\u6807\u4ECD\u7136\u5DE5\u4F5C\u3002"
+    english: One hull has cleared the combat boundary. Beacon still active.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 0f5591bfe43513c4f848382cdbd70108, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: fdd7efae96ce42b41929e1ed4486674c, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: a51fdae84b042e14ca0cee417fa9adf2, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.1899166
+      text: "\u4E00\u8258\u8230\u5DF2\u79BB\u5F00\u6218\u6597\u8FB9\u754C\uFF0C\u4FE1\u6807\u4ECD\u7136\u5DE5\u4F5C\u3002"
+      english: One hull has cleared the combat boundary. Beacon still active.
+      role: comms
+    - time: 4.489917
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B030
+    eventKind: ShipEscaped
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u786E\u8BA4\u9003\u8131\uFF0C\u7EE7\u7EED\u524D\u5F80\u96C6\u7ED3\u533A\u57DF\u3002"
+    english: Escape confirmed. Keep moving until you reach the assembly area.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: fedab7cf9641fd946a9b69a97d55d2b1, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 262ffdd63db7e3645bedd5e7beb3e61f, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: aace4c70ba2e5cd4cbf92b1f47fde337, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.3774166
+      text: "\u786E\u8BA4\u9003\u8131\uFF0C\u7EE7\u7EED\u524D\u5F80\u96C6\u7ED3\u533A\u57DF\u3002"
+      english: Escape confirmed. Keep moving until you reach the assembly area.
+      role: commander
+    - time: 4.677417
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B031
+    eventKind: ShipEscaped
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u90A3\u7FA4\u8239\u5458\u5DF2\u7ECF\u79BB\u5F00\u4EA4\u6218\u533A\uFF0C\u6B63\u5728\u53D1\u9001\u65B0\u5750\u6807\u3002"
+    english: That crew is outside the engagement zone. Sending their new coordinates.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: d77bfce96a4552c408354b3968e353fa, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 9369029067b8aef4a9fca543905c1149, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 3909e13de565f8a48b49f0cbaa04f4df, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.9925416
+      text: "\u90A3\u7FA4\u8239\u5458\u5DF2\u7ECF\u79BB\u5F00\u4EA4\u6218\u533A\uFF0C\u6B63\u5728\u53D1\u9001\u65B0\u5750\u6807\u3002"
+      english: That crew is outside the engagement zone. Sending their new coordinates.
+      role: comms
+    - time: 4.2925415
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B032
+    eventKind: ShipEscaped
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u8FB9\u754C\u5916\uFF0C\u4ED6\u4EEC\u7684\u63A8\u8FDB\u4FE1\u53F7\u5DF2\u7ECF\u7A33\u5B9A\u3002"
+    english: Their drive signature is stable beyond the perimeter.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 024df801ca4b0bb418f4dac5823f05d2, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: b0fc9e45b44da714c98e975bcb45f7c5, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 9052fa1f13d464742845a851f2ce7d64, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.0114167
+      text: "\u8FB9\u754C\u5916\uFF0C\u4ED6\u4EEC\u7684\u63A8\u8FDB\u4FE1\u53F7\u5DF2\u7ECF\u7A33\u5B9A\u3002"
+      english: Their drive signature is stable beyond the perimeter.
+      role: engineer
+    - time: 3.3114166
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B033
+    eventKind: CommunicationInterrupted
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u901A\u4FE1\u88AB\u5207\u65AD\uFF0C\u5207\u6362\u4E0B\u4E00\u4E2A\u6709\u6548\u4FE1\u6807\u3002"
+    english: Transmission cut off. Switching to the next live beacon.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 778f081c8cbfdce4eb73e2e50dff4b53, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: bdb6e68b458bbc54e844ead42562181d, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 13f62823ef158404e9ef416be2ab2488, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.4035
+      text: "\u901A\u4FE1\u88AB\u5207\u65AD\uFF0C\u5207\u6362\u4E0B\u4E00\u4E2A\u6709\u6548\u4FE1\u6807\u3002"
+      english: Transmission cut off. Switching to the next live beacon.
+      role: comms
+    - time: 3.7035
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B034
+    eventKind: CommunicationInterrupted
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u90A3\u8258\u8230\u7684\u8F7D\u6CE2\u6D88\u5931\u4E86\uFF0C\u4FDD\u6301\u7D27\u6025\u9891\u6BB5\u7545\u901A\u3002"
+    english: No carrier from that ship. Keep the emergency band clear.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 61374f8215a7885428547786ee48d45b, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: d0aab45eeb60dd647add73eafb00109e, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 02f9a8df7a9b19b4399f7f19fd8e10b2, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.5924582
+      text: "\u90A3\u8258\u8230\u7684\u8F7D\u6CE2\u6D88\u5931\u4E86\uFF0C\u4FDD\u6301\u7D27\u6025\u9891\u6BB5\u7545\u901A\u3002"
+      english: No carrier from that ship. Keep the emergency band clear.
+      role: comms
+    - time: 3.8924584
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B035
+    eventKind: CommunicationInterrupted
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u6211\u4EEC\u542C\u5230\u4E86\u6C42\u6551\uFF0C\u6807\u8BB0\u4F4D\u7F6E\uFF0C\u7EE7\u7EED\u64A4\u79BB\u3002"
+    english: We heard the distress call. Mark the position and continue withdrawal.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 64c2f35f6095a144f92eafef8c877c15, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: a0fc69dd0ff480441aa218dea94c2e3c, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: adb2dd23e7163944ea2b3fda9733e40a, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 4.388708
+      text: "\u6211\u4EEC\u542C\u5230\u4E86\u6C42\u6551\uFF0C\u6807\u8BB0\u4F4D\u7F6E\uFF0C\u7EE7\u7EED\u64A4\u79BB\u3002"
+      english: We heard the distress call. Mark the position and continue withdrawal.
+      role: commander
+    - time: 4.6887083
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: B036
+    eventKind: CommunicationInterrupted
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u95EA\u5149\u65F6\u9065\u6D4B\u4E5F\u505C\u6B62\u4E86\uFF0C\u6CA1\u6709\u540E\u7EED\u8BFB\u6570\u3002"
+    english: Their telemetry stopped with the flash. I have no further readings.
+    weight: 1
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: 8acc7498702da1e49b0de7f4fe31c029, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 91ae4de997192384f9e0ed3d146364e0, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 8dca0b747d2d08049851c8f9ea85f2ff, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.8124583
+      text: "\u95EA\u5149\u65F6\u9065\u6D4B\u4E5F\u505C\u6B62\u4E86\uFF0C\u6CA1\u6709\u540E\u7EED\u8BFB\u6570\u3002"
+      english: Their telemetry stopped with the flash. I have no further readings.
+      role: engineer
+    - time: 4.112458
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: SC01
+    eventKind: AttackIneffective
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u8235\u624B\uFF0C\u4FDD\u6301\u4F4D\u7F6E\u3002\u8BA9\u90A3\u6761\u901A\u9053\u4FDD\u6301\u7545\u901A\u3002"
+    english: Helm, hold our position. Keep that corridor open.
+    weight: 0.9
+    pendingOnly: 0
+    important: 0
+    voice: {fileID: 8300000, guid: ea8944fc3d7729943aa6f5f0c4076751, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: 73637a89460992d4bad53f6ed0d20a8f, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 3a90788ea44f1a544b573d6f5a762fb3, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 0.45
+    captions:
+    - time: 0.2
+      duration: 3.5779583
+      text: "\u8235\u624B\uFF0C\u4FDD\u6301\u4F4D\u7F6E\u3002\u8BA9\u90A3\u6761\u901A\u9053\u4FDD\u6301\u7545\u901A\u3002"
+      english: Helm, hold our position. Keep that corridor open.
+      role: commander
+    - time: 4.017958
+      duration: 3.0049584
+      text: "\u822A\u5411\u5DF2\u4FDD\u6301\u3002\u70AE\u7EC4\u5F85\u547D\u3002"
+      english: Course held. Batteries standing by.
+      role: background crew
+  - id: SA01
+    eventKind: HullPenetrated
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u8230\u6865\u906D\u5230\u649E\u51FB\uFF01\u5C01\u95ED\u524D\u8231\u95E8\u3002\u575A\u5B88\u5C97\u4F4D\u3002"
+    english: We have a hit on the bridge! Seal the forward doors. Stay at your stations.
+    weight: 0.9
+    pendingOnly: 1
+    important: 1
+    voice: {fileID: 8300000, guid: 72ef1f99e5fe10e4c8de24888d127ccf, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: eecc546fb1fa9f048bfde38e562e0515, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: ccf2bb471a0ea964aa4e39ce0cda7dc6, type: 3}
+    shortVoice: {fileID: 8300000, guid: a37b7119ccd752c41b66fafa24902131, type: 3}
+    premixed: 1
+    evacuationOnly: 0
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 5.4000416
+      text: "\u8230\u6865\u906D\u5230\u649E\u51FB\uFF01\u5C01\u95ED\u524D\u8231\u95E8\u3002\u575A\u5B88\u5C97\u4F4D\u3002"
+      english: We have a hit on the bridge! Seal the forward doors. Stay at your
+        stations.
+      role: commander
+    - time: 5.7500415
+      duration: 2.7877917
+      text: "\u63A7\u5236\u53F0\u4E0B\u9762\u8D77\u706B\u4E86\uFF01\u6B63\u5728\u5207\u65AD\u7535\u6E90\uFF01"
+      english: Fire under the console! Cutting power now!
+      role: background crew
+  - id: SE01
+    eventKind: RetreatOrdered
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u5168\u4F53\u4EBA\u5458\uFF0C\u64A4\u79BB\u8230\u6865\uFF01\u5FEB\uFF01"
+    english: All hands, abandon the bridge! Move!
+    weight: 0.9
+    pendingOnly: 0
+    important: 1
+    voice: {fileID: 8300000, guid: 269f3448c2746164fb61e8ef633a13cd, type: 3}
+    lowIntensityVoice: {fileID: 8300000, guid: df9bc281046d22c4e8dc7567047d0273, type: 3}
+    highIntensityVoice: {fileID: 8300000, guid: 1f399279b6ea4e049917ddd5cc4b1d0e, type: 3}
+    shortVoice: {fileID: 0}
+    premixed: 1
+    evacuationOnly: 1
+    minimumIntensity: 0
+    maximumIntensity: 1
+    captions:
+    - time: 0.2
+      duration: 3.1749167
+      text: "\u5168\u4F53\u4EBA\u5458\uFF0C\u64A4\u79BB\u8230\u6865\uFF01\u5FEB\uFF01"
+      english: All hands, abandon the bridge! Move!
+      role: commander
+    - time: 3.6249166
+      duration: 1.570625
+      text: "\u8231\u95E8\u5361\u4F4F\u4E86\uFF01"
+      english: The hatch is jammed!
+      role: background crew
+    - time: 5.4955416
+      duration: 2.7882082
+      text: "\u8D70\u540E\u65B9\u901A\u9053\uFF01\u4E0D\u8981\u505C\uFF01"
+      english: Use the aft passage! Keep moving!
+      role: commander
+  narrative:
+  - id: E001
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u4ECA\u591C\uFF0C\u6240\u6709\u516C\u5171\u5C4F\u5E55\u90FD\u663E\u793A\u7740\u540C\u4E00\u5E45\u753B\u9762\uFF1A\u4E00\u4E2A\u94F6\u8272\u5149\u70B9\uFF0C\u65E0\u58F0\u5730\u8D8A\u8FC7\u5916\u5C42\u8B66\u6212\u7EBF\u3002"
+    english: 'Tonight, every public screen carries the same picture: a silver point,
+      crossing the outer watch line without a sound.'
+    time: 0
+    duration: 8.707417
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: 477010b2ef11e604993c4874a4133e36, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.207417
+      text: "\u4ECA\u591C\uFF0C\u6240\u6709\u516C\u5171\u5C4F\u5E55\u90FD\u663E\u793A\u7740\u540C\u4E00\u5E45\u753B\u9762\uFF1A\u4E00\u4E2A\u94F6\u8272\u5149\u70B9\uFF0C\u65E0\u58F0\u5730\u8D8A\u8FC7\u5916\u5C42\u8B66\u6212\u7EBF\u3002"
+      english: 'Tonight, every public screen carries the same picture: a silver point,
+        crossing the outer watch line without a sound.'
+      role: anchor
+  - id: E002
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u5E02\u573A\u628A\u5B83\u79F0\u4F5C\u673A\u9047\uFF0C\u5404\u90E8\u79F0\u5B83\u4E3A\u4E8B\u4EF6\uFF1B\u5728\u591C\u534A\u7403\u89C2\u770B\u7684\u5B69\u5B50\u4EEC\uFF0C\u628A\u5B83\u53EB\u4F5C\u661F\u661F\u3002"
+    english: The markets have named it an opportunity. The ministries call it an
+      incident. Children watching from the night side call it a star.
+    time: 8.867416
+    duration: 10.330417
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: 686497eb26f589d4dbf6761aeffa42f3, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.830417
+      text: "\u5E02\u573A\u628A\u5B83\u79F0\u4F5C\u673A\u9047\uFF0C\u5404\u90E8\u79F0\u5B83\u4E3A\u4E8B\u4EF6\uFF1B\u5728\u591C\u534A\u7403\u89C2\u770B\u7684\u5B69\u5B50\u4EEC\uFF0C\u628A\u5B83\u53EB\u4F5C\u661F\u661F\u3002"
+      english: The markets have named it an opportunity. The ministries call it an
+        incident. Children watching from the night side call it a star.
+      role: anchor
+  - id: E003
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u6211\u4EEC\u5DF2\u5B66\u4F1A\u5728\u884C\u661F\u4E4B\u95F4\u5EFA\u9020\u57CE\u5E02\uFF0C\u5374\u4ECD\u5411\u964C\u751F\u8005\u63D0\u51FA\u6700\u53E4\u8001\u7684\u95EE\u9898\uFF1A\u4F60\u80FD\u7ED9\u6211\u4EEC\u4EC0\u4E48\uFF1F"
+    english: 'We have learned to build cities between planets, and still we ask a
+      stranger the oldest question: what can you give us?'
+    time: 19.357834
+    duration: 8.889417
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: 730653cf759c36f4c9be88ce4e64f4b3, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.389417
+      text: "\u6211\u4EEC\u5DF2\u5B66\u4F1A\u5728\u884C\u661F\u4E4B\u95F4\u5EFA\u9020\u57CE\u5E02\uFF0C\u5374\u4ECD\u5411\u964C\u751F\u8005\u63D0\u51FA\u6700\u53E4\u8001\u7684\u95EE\u9898\uFF1A\u4F60\u80FD\u7ED9\u6211\u4EEC\u4EC0\u4E48\uFF1F"
+      english: 'We have learned to build cities between planets, and still we ask
+        a stranger the oldest question: what can you give us?'
+      role: anchor
+  - id: E004
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u6C11\u7528\u9891\u9053\uFF0C\u8FD9\u91CC\u662F\u63A5\u89E6\u7BA1\u5236\u3002\u4F60\u4EEC\u7684\u753B\u9762\u5B58\u5728\u5EF6\u8FDF\u3002\u8BF7\u63D0\u9192\u89C2\u4F17\uFF1A\u76EE\u6807\u5C1A\u672A\u56DE\u5E94\u6211\u4EEC\u3002"
+    english: Civil network, this is contact control. Your picture is delayed. Please
+      remind your audience that the object has not acknowledged us.
+    time: 28.407251
+    duration: 8.864166
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: faa1ab0a0f4fb25489a62454cc739c36, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.364166
+      text: "\u6C11\u7528\u9891\u9053\uFF0C\u8FD9\u91CC\u662F\u63A5\u89E6\u7BA1\u5236\u3002\u4F60\u4EEC\u7684\u753B\u9762\u5B58\u5728\u5EF6\u8FDF\u3002\u8BF7\u63D0\u9192\u89C2\u4F17\uFF1A\u76EE\u6807\u5C1A\u672A\u56DE\u5E94\u6211\u4EEC\u3002"
+      english: Civil network, this is contact control. Your picture is delayed. Please
+        remind your audience that the object has not acknowledged us.
+      role: comms
+  - id: E005
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u4EBA\u4EEC\u628A\u90A3\u7247\u6C89\u9ED8\u89E3\u91CA\u6210\u81EA\u5DF1\u9700\u8981\u7684\u6A21\u6837\uFF1A\u627F\u8BFA\u3001\u5A01\u80C1\uFF0C\u6216\u662F\u5BF9\u624B\u72AF\u9519\u7684\u8BC1\u660E\u3002"
+    english: That silence has become whatever people need it to be. A promise, a
+      threat, a proof that their rivals were wrong.
+    time: 37.43142
+    duration: 7.5015416
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: c178bb26af844dc4488339b412c8177f, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.0015416
+      text: "\u4EBA\u4EEC\u628A\u90A3\u7247\u6C89\u9ED8\u89E3\u91CA\u6210\u81EA\u5DF1\u9700\u8981\u7684\u6A21\u6837\uFF1A\u627F\u8BFA\u3001\u5A01\u80C1\uFF0C\u6216\u662F\u5BF9\u624B\u72AF\u9519\u7684\u8BC1\u660E\u3002"
+      english: That silence has become whatever people need it to be. A promise,
+        a threat, a proof that their rivals were wrong.
+      role: anchor
+  - id: E006
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u8BB0\u5F55\u5728\u6848\uFF1A\u6C89\u9ED8\u53EA\u662F\u6C89\u9ED8\u3002\u6211\u4EEC\u6CA1\u6709\u5C3E\u6C14\u5149\u8C31\u3001\u53EF\u8FA8\u8BC6\u6807\u8BB0\uFF0C\u4E5F\u6CA1\u6709\u5185\u90E8\u7ED3\u6784\u6D4B\u91CF\u3002"
+    english: For the record, silence is only silence. We have no exhaust spectrum,
+      no readable markings, and no measurement of its interior.
+    time: 45.09296
+    duration: 9.290584
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: 9b85fc4b550edd6459e08e1f15e02bfb, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.790584
+      text: "\u8BB0\u5F55\u5728\u6848\uFF1A\u6C89\u9ED8\u53EA\u662F\u6C89\u9ED8\u3002\u6211\u4EEC\u6CA1\u6709\u5C3E\u6C14\u5149\u8C31\u3001\u53EF\u8FA8\u8BC6\u6807\u8BB0\uFF0C\u4E5F\u6CA1\u6709\u5185\u90E8\u7ED3\u6784\u6D4B\u91CF\u3002"
+      english: For the record, silence is only silence. We have no exhaust spectrum,
+        no readable markings, and no measurement of its interior.
+      role: engineer
+  - id: E007
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u8BAE\u4F1A\u5DF2\u8868\u51B3\u540C\u610F\u63A5\u5F85\u4EE3\u8868\u56E2\u3002\u4F46\u622A\u81F3\u76EE\u524D\uFF0C\u6CA1\u6709\u4EFB\u4F55\u8BC1\u636E\u8868\u660E\u4EE3\u8868\u56E2\u6B63\u5728\u5230\u6765\u3002"
+    english: The assembly has voted to receive a delegation. There is, as yet, no
+      evidence that a delegation is coming.
+    time: 54.543545
+    duration: 8.075833
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: adc1c0dbc5a65b547aee84664c5cee2a, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.5758333
+      text: "\u8BAE\u4F1A\u5DF2\u8868\u51B3\u540C\u610F\u63A5\u5F85\u4EE3\u8868\u56E2\u3002\u4F46\u622A\u81F3\u76EE\u524D\uFF0C\u6CA1\u6709\u4EFB\u4F55\u8BC1\u636E\u8868\u660E\u4EE3\u8868\u56E2\u6B63\u5728\u5230\u6765\u3002"
+      english: The assembly has voted to receive a delegation. There is, as yet,
+        no evidence that a delegation is coming.
+      role: anchor
+  - id: E008
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u6211\u4EEC\u7684\u8239\u5458\u5E76\u4E0D\u51B3\u5B9A\u65B0\u95FB\u6807\u9898\u3002\u4ED6\u4EEC\u63A5\u53D7\u8BAD\u7EC3\uFF0C\u4E3A\u7684\u662F\u5B88\u4F4F\u4E00\u6761\u901A\u9053\u3002\u4ED6\u4EEC\u4F1A\u5C65\u884C\u804C\u8D23\u3002"
+    english: Our crews did not choose the headlines. They trained to keep a corridor
+      open, and that is what they will do.
+    time: 62.779377
+    duration: 7.1175833
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: 7d0ab9cd352acba44ba0f6282edf4b8b, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 6.6175833
+      text: "\u6211\u4EEC\u7684\u8239\u5458\u5E76\u4E0D\u51B3\u5B9A\u65B0\u95FB\u6807\u9898\u3002\u4ED6\u4EEC\u63A5\u53D7\u8BAD\u7EC3\uFF0C\u4E3A\u7684\u662F\u5B88\u4F4F\u4E00\u6761\u901A\u9053\u3002\u4ED6\u4EEC\u4F1A\u5C65\u884C\u804C\u8D23\u3002"
+      english: Our crews did not choose the headlines. They trained to keep a corridor
+        open, and that is what they will do.
+      role: commander
+  - id: E009
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u4E24\u5343\u8258\u8230\u8239\u6B63\u5B88\u7740\u90A3\u6761\u901A\u9053\u3002\u6BCF\u53F0\u660E\u4EAE\u5F15\u64CE\u540E\uFF0C\u90FD\u6709\u4E00\u4E2A\u539F\u672C\u6253\u7B97\u4E0B\u73ED\u56DE\u5BB6\u7684\u4EBA\u3002"
+    english: Two thousand hulls are holding that corridor. Behind each bright engine
+      is a person who expected to come home after this shift.
+    time: 70.05696
+    duration: 7.500167
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: 227426a3791a64049b8efd6bb2257521, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.000167
+      text: "\u4E24\u5343\u8258\u8230\u8239\u6B63\u5B88\u7740\u90A3\u6761\u901A\u9053\u3002\u6BCF\u53F0\u660E\u4EAE\u5F15\u64CE\u540E\uFF0C\u90FD\u6709\u4E00\u4E2A\u539F\u672C\u6253\u7B97\u4E0B\u73ED\u56DE\u5BB6\u7684\u4EBA\u3002"
+      english: Two thousand hulls are holding that corridor. Behind each bright engine
+        is a person who expected to come home after this shift.
+      role: anchor
+  - id: E010
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u516C\u5171\u8F6C\u64AD\u8F6C\u63A5\u8230\u961F\u63A5\u8FD1\u9891\u9053\u3002\u7D27\u6025\u9891\u6BB5\u4FDD\u6301\u7545\u901A\u3002\u63A5\u89E6\u76EE\u6807\u4ECD\u5728\u5411\u5185\u98DE\u884C\u3002"
+    english: Transferring the public relay to the fleet approach channel. We are
+      keeping the emergency band clear. Contact continues inbound.
+    time: 77.717125
+    duration: 11.194417
+    cameraShot: 0
+    stage: 0
+    voice: {fileID: 8300000, guid: 0a3949adbe7d12841b9637ccebe3ae63, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.790833
+      text: "\u516C\u5171\u8F6C\u64AD\u8F6C\u63A5\u8230\u961F\u63A5\u8FD1\u9891\u9053\u3002\u7D27\u6025\u9891\u6BB5\u4FDD\u6301\u7545\u901A\u3002\u63A5\u89E6\u76EE\u6807\u4ECD\u5728\u5411\u5185\u98DE\u884C\u3002"
+      english: Transferring the public relay to the fleet approach channel. We are
+        keeping the emergency band clear. Contact continues inbound.
+      role: comms
+    - time: 9.090834
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: E011
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u4E0D\u660E\u98DE\u884C\u5668\uFF0C\u8FD9\u91CC\u662F\u8FB9\u754C\u8230\u961F\u3002\u4F60\u6B63\u5728\u8FDB\u5165\u53D7\u63A7\u822A\u9053\u3002\u8BF7\u51CF\u901F\u5E76\u62A5\u544A\u51FA\u53D1\u5730\u70B9\u3002"
+    english: Unidentified craft, this is the boundary fleet. You are entering a controlled
+      transit lane. Reduce speed and identify your point of origin.
+    time: 89.07154
+    duration: 10.081667
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: 81c5d9ab1306d5f4eb4fa3ebbf29c6a4, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.581667
+      text: "\u4E0D\u660E\u98DE\u884C\u5668\uFF0C\u8FD9\u91CC\u662F\u8FB9\u754C\u8230\u961F\u3002\u4F60\u6B63\u5728\u8FDB\u5165\u53D7\u63A7\u822A\u9053\u3002\u8BF7\u51CF\u901F\u5E76\u62A5\u544A\u51FA\u53D1\u5730\u70B9\u3002"
+      english: Unidentified craft, this is the boundary fleet. You are entering a
+        controlled transit lane. Reduce speed and identify your point of origin.
+      role: comms
+  - id: E012
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u4FDD\u6301\u9635\u578B\uFF0C\u7559\u51FA\u63A5\u8FD1\u8D70\u5ECA\u3002\u4EFB\u4F55\u8230\u957F\u90FD\u4E0D\u5F97\u628A\u660E\u4EAE\u53CD\u5149\u8BEF\u5224\u4E3A\u6B66\u5668\u53D1\u5C04\u3002"
+    english: Hold formation. Keep the approach corridor open. No captain is to mistake
+      a bright reflection for a weapon discharge.
+    time: 99.31321
+    duration: 8.301458
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: f2fdcddf81398c34bb8bac2aa34341be, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.8014584
+      text: "\u4FDD\u6301\u9635\u578B\uFF0C\u7559\u51FA\u63A5\u8FD1\u8D70\u5ECA\u3002\u4EFB\u4F55\u8230\u957F\u90FD\u4E0D\u5F97\u628A\u660E\u4EAE\u53CD\u5149\u8BEF\u5224\u4E3A\u6B66\u5668\u53D1\u5C04\u3002"
+      english: Hold formation. Keep the approach corridor open. No captain is to
+        mistake a bright reflection for a weapon discharge.
+      role: commander
+  - id: E013
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u6211\u4EEC\u53EF\u4EE5\u63D0\u4F9B\u5BFC\u822A\u53C2\u7167\u4E0E\u5B89\u5168\u505C\u6CCA\u70B9\u3002\u8BF7\u5728\u672C\u8F7D\u6CE2\u56DE\u5E94\uFF0C\u6216\u6539\u53D8\u822A\u5411\u4EE5\u786E\u8BA4\u6536\u5230\u4FE1\u606F\u3002"
+    english: We can provide navigation references and a protected holding position.
+      Acknowledge on this carrier, or change your course to confirm reception.
+    time: 107.774666
+    duration: 9.270416
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: f6d2118ae5012244c9487d08b2c1de5b, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.770416
+      text: "\u6211\u4EEC\u53EF\u4EE5\u63D0\u4F9B\u5BFC\u822A\u53C2\u7167\u4E0E\u5B89\u5168\u505C\u6CCA\u70B9\u3002\u8BF7\u5728\u672C\u8F7D\u6CE2\u56DE\u5E94\uFF0C\u6216\u6539\u53D8\u822A\u5411\u4EE5\u786E\u8BA4\u6536\u5230\u4FE1\u606F\u3002"
+      english: We can provide navigation references and a protected holding position.
+        Acknowledge on this carrier, or change your course to confirm reception.
+      role: comms
+  - id: E014
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u5B83\u7684\u8F68\u8FF9\u5F02\u5E38\u5E72\u51C0\u3002\u6D4B\u8DDD\u8109\u51B2\u7684\u56DE\u6CE2\u4E2D\uFF0C\u6CA1\u6709\u63A5\u7F1D\u3001\u5929\u7EBF\u6216\u5916\u9732\u673A\u68B0\u901A\u5E38\u4EA7\u751F\u7684\u6563\u5C04\u3002"
+    english: Its track is exceptionally clean. Our ranging pulses return without
+      the scattering we expect from seams, antennae, or exposed machinery.
+    time: 117.205086
+    duration: 9.126792
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: 7df7b01aadf0d4146a03345e1deca6a7, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.626792
+      text: "\u5B83\u7684\u8F68\u8FF9\u5F02\u5E38\u5E72\u51C0\u3002\u6D4B\u8DDD\u8109\u51B2\u7684\u56DE\u6CE2\u4E2D\uFF0C\u6CA1\u6709\u63A5\u7F1D\u3001\u5929\u7EBF\u6216\u5916\u9732\u673A\u68B0\u901A\u5E38\u4EA7\u751F\u7684\u6563\u5C04\u3002"
+      english: Its track is exceptionally clean. Our ranging pulses return without
+        the scattering we expect from seams, antennae, or exposed machinery.
+      role: engineer
+  - id: E015
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u4ECD\u65E0\u56DE\u5E94\u3002\u6211\u5DF2\u7528\u63A5\u89E6\u534F\u8BAE\u3001\u6570\u5B66\u7F16\u7801\u548C\u7B80\u5355\u5BFC\u822A\u706F\u5E8F\u5217\u53D1\u9001\u9080\u8BF7\u3002"
+    english: Still no reply. I have repeated the invitation in the contact protocol,
+      mathematics, and a plain sequence of navigation lights.
+    time: 126.491875
+    duration: 10.398125
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: 8d0a2db70969a424fbf094d4e297a5c3, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.9945416
+      text: "\u4ECD\u65E0\u56DE\u5E94\u3002\u6211\u5DF2\u7528\u63A5\u89E6\u534F\u8BAE\u3001\u6570\u5B66\u7F16\u7801\u548C\u7B80\u5355\u5BFC\u822A\u706F\u5E8F\u5217\u53D1\u9001\u9080\u8BF7\u3002"
+      english: Still no reply. I have repeated the invitation in the contact protocol,
+        mathematics, and a plain sequence of navigation lights.
+      role: comms
+    - time: 8.294541
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: E016
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u90A3\u5C31\u53D1\u9001\u6761\u4EF6\uFF1A\u505C\u5728\u5185\u4FA7\u8B66\u6212\u7EBF\u5916\uFF0C\u5173\u95ED\u6B66\u5668\u7CFB\u7EDF\uFF0C\u63A5\u53D7\u8FDC\u7A0B\u68C0\u67E5\u3002\u4E0D\u4F1A\u6709\u767B\u8230\u961F\u9760\u8FD1\u3002"
+    english: Then transmit the terms. Stop outside the inner line, power down any
+      weapon system, and accept remote inspection. No boarding party will approach.
+    time: 137.05
+    duration: 9.5075
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: f5955b6c5c2afe7468da5e5c909303c5, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.0075
+      text: "\u90A3\u5C31\u53D1\u9001\u6761\u4EF6\uFF1A\u505C\u5728\u5185\u4FA7\u8B66\u6212\u7EBF\u5916\uFF0C\u5173\u95ED\u6B66\u5668\u7CFB\u7EDF\uFF0C\u63A5\u53D7\u8FDC\u7A0B\u68C0\u67E5\u3002\u4E0D\u4F1A\u6709\u767B\u8230\u961F\u9760\u8FD1\u3002"
+      english: Then transmit the terms. Stop outside the inner line, power down any
+        weapon system, and accept remote inspection. No boarding party will approach.
+      role: commander
+  - id: E017
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u201C\u6295\u964D\u201D\u4E00\u8BCD\u5DF2\u5728\u516C\u5171\u4FE1\u606F\u6D41\u4E2D\u4F20\u64AD\u3002\u8230\u961F\u53F8\u4EE4\u90E8\u53D1\u51FA\u4E86\u6307\u4EE4\uFF0C\u6765\u5BA2\u5374\u6CA1\u6709\u4F5C\u51FA\u4EFB\u4F55\u627F\u8BFA\u3002"
+    english: The word surrender is already spreading through the public feeds. Fleet
+      command has issued instructions; the visitor has made no agreement.
+    time: 146.7175
+    duration: 9.265
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: 87255e517d12e004c9dfcecd23811ac3, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.765
+      text: "\u201C\u6295\u964D\u201D\u4E00\u8BCD\u5DF2\u5728\u516C\u5171\u4FE1\u606F\u6D41\u4E2D\u4F20\u64AD\u3002\u8230\u961F\u53F8\u4EE4\u90E8\u53D1\u51FA\u4E86\u6307\u4EE4\uFF0C\u6765\u5BA2\u5374\u6CA1\u6709\u4F5C\u51FA\u4EFB\u4F55\u627F\u8BFA\u3002"
+      english: The word surrender is already spreading through the public feeds.
+        Fleet command has issued instructions; the visitor has made no agreement.
+      role: anchor
+  - id: E018
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u6307\u6325\u5B98\uFF0C\u4EEA\u5668\u751A\u81F3\u65E0\u6CD5\u786E\u8BA4\u5B83\u662F\u5426\u6709\u53EF\u5173\u95ED\u7684\u52A8\u529B\u7CFB\u7EDF\u3002\u6211\u4EEC\u63CF\u8FF0\u7684\u662F\u81EA\u5DF1\u7684\u8230\u8239\uFF0C\u672A\u5FC5\u662F\u5B83\u3002"
+    english: Commander, our instruments cannot establish that it has a power system
+      to shut down. We are describing our ships, not necessarily theirs.
+    time: 156.1425
+    duration: 9.105
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: b07ec08e160b03043bbc5248254992b5, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.605
+      text: "\u6307\u6325\u5B98\uFF0C\u4EEA\u5668\u751A\u81F3\u65E0\u6CD5\u786E\u8BA4\u5B83\u662F\u5426\u6709\u53EF\u5173\u95ED\u7684\u52A8\u529B\u7CFB\u7EDF\u3002\u6211\u4EEC\u63CF\u8FF0\u7684\u662F\u81EA\u5DF1\u7684\u8230\u8239\uFF0C\u672A\u5FC5\u662F\u5B83\u3002"
+      english: Commander, our instruments cannot establish that it has a power system
+        to shut down. We are describing our ships, not necessarily theirs.
+      role: engineer
+  - id: E019
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u660E\u767D\uFF0C\u7EE7\u7EED\u8BB0\u5F55\u3002\u53EA\u8981\u5B83\u80FD\u63A5\u6536\u90E8\u5206\u4FE1\u606F\uFF0C\u5C31\u4F1A\u77E5\u9053\u8FD9\u91CC\u63D0\u4F9B\u4E86\u5B89\u5168\u505C\u4E0B\u7684\u65B9\u5F0F\u3002"
+    english: Understood. Keep recording. If it can receive any part of our message,
+      it will know there is a safe way to stop.
+    time: 165.4075
+    duration: 6.867542
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: 2f5242dea31752547b25ead3870984e8, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 6.367542
+      text: "\u660E\u767D\uFF0C\u7EE7\u7EED\u8BB0\u5F55\u3002\u53EA\u8981\u5B83\u80FD\u63A5\u6536\u90E8\u5206\u4FE1\u606F\uFF0C\u5C31\u4F1A\u77E5\u9053\u8FD9\u91CC\u63D0\u4F9B\u4E86\u5B89\u5168\u505C\u4E0B\u7684\u65B9\u5F0F\u3002"
+      english: Understood. Keep recording. If it can receive any part of our message,
+        it will know there is a safe way to stop.
+      role: commander
+  - id: E020
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u90A3\u4E2A\u5149\u70B9\u5F00\u59CB\u663E\u51FA\u8F6E\u5ED3\uFF1A\u5706\u5934\u3001\u7EC6\u5C3E\uFF0C\u6CA1\u6709\u53EF\u89C1\u59FF\u6001\u55B7\u53E3\u3002\u63A5\u8FD1\u901F\u5EA6\u6CA1\u6709\u6539\u53D8\u3002"
+    english: The point is becoming a shape now. Rounded nose, narrow tail. No visible
+      attitude jets. Approach speed has not changed.
+    time: 172.43504
+    duration: 11.183708
+    cameraShot: 1
+    stage: 1
+    voice: {fileID: 8300000, guid: 152423dd3f1df484d82eb0cc5ebbd4ed, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.780125
+      text: "\u90A3\u4E2A\u5149\u70B9\u5F00\u59CB\u663E\u51FA\u8F6E\u5ED3\uFF1A\u5706\u5934\u3001\u7EC6\u5C3E\uFF0C\u6CA1\u6709\u53EF\u89C1\u59FF\u6001\u55B7\u53E3\u3002\u63A5\u8FD1\u901F\u5EA6\u6CA1\u6709\u6539\u53D8\u3002"
+      english: The point is becoming a shape now. Rounded nose, narrow tail. No visible
+        attitude jets. Approach speed has not changed.
+      role: comms
+    - time: 9.080125
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: E021
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u6211\u9700\u8981\u6B66\u5668\u64CD\u4F5C\u5458\u542C\u6E05\u695A\uFF1A\u5149\u6ED1\u8868\u9762\u4E0D\u662F\u635F\u4F24\u8BC4\u4F30\uFF0C\u5C0F\u5C0F\u7684\u8F6E\u5ED3\u4E5F\u4E0D\u4EE3\u8868\u5F3A\u5EA6\u4F4E\u3002"
+    english: I need the weapons crews to hear this. A polished surface is not a damage
+      assessment, and a small silhouette is not a measure of strength.
+    time: 183.77875
+    duration: 8.317458
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: fd2e2f80a199a7247834e0dded5ec86c, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.817458
+      text: "\u6211\u9700\u8981\u6B66\u5668\u64CD\u4F5C\u5458\u542C\u6E05\u695A\uFF1A\u5149\u6ED1\u8868\u9762\u4E0D\u662F\u635F\u4F24\u8BC4\u4F30\uFF0C\u5C0F\u5C0F\u7684\u8F6E\u5ED3\u4E5F\u4E0D\u4EE3\u8868\u5F3A\u5EA6\u4F4E\u3002"
+      english: I need the weapons crews to hear this. A polished surface is not a
+        damage assessment, and a small silhouette is not a measure of strength.
+      role: engineer
+  - id: E022
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u6211\u4EEC\u4EE5\u4EA4\u53C9\u706B\u529B\u8986\u76D6\u8D70\u5ECA\uFF0C\u4F46\u6CA1\u6709\u5C01\u6B7B\u901A\u9053\u3002\u76EE\u6807\u65E0\u6CD5\u540C\u65F6\u5A01\u80C1\u6240\u6709\u8230\u4F53\uFF0C\u8FD9\u662F\u5F53\u524D\u5224\u65AD\u3002"
+    english: We have crossed weapons to cover the corridor without closing it. The
+      object cannot threaten every hull at once. That is our working assumption.
+    time: 192.25621
+    duration: 8.699458
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: 03c33029f02862241a867de2566efddb, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.199458
+      text: "\u6211\u4EEC\u4EE5\u4EA4\u53C9\u706B\u529B\u8986\u76D6\u8D70\u5ECA\uFF0C\u4F46\u6CA1\u6709\u5C01\u6B7B\u901A\u9053\u3002\u76EE\u6807\u65E0\u6CD5\u540C\u65F6\u5A01\u80C1\u6240\u6709\u8230\u4F53\uFF0C\u8FD9\u662F\u5F53\u524D\u5224\u65AD\u3002"
+      english: We have crossed weapons to cover the corridor without closing it.
+        The object cannot threaten every hull at once. That is our working assumption.
+      role: commander
+  - id: E023
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u90A3\u5C31\u8BF7\u628A\u5B83\u660E\u786E\u6807\u4E3A\u5047\u8BBE\u3002\u6D4B\u8DDD\u8109\u51B2\u7167\u5C04\u540E\uFF0C\u5B83\u7684\u8868\u9762\u6E29\u5EA6\u51E0\u4E4E\u672A\u53D8\u3002\u6211\u4EEC\u4E0D\u77E5\u9053\u80FD\u91CF\u53BB\u4E86\u54EA\u91CC\u3002"
+    english: Then mark that sentence as an assumption. Its surface temperature has
+      barely changed under our ranging pulses. We do not know where the energy goes.
+    time: 201.11566
+    duration: 10.353958
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: ad300c1e8ee464a4abc8be26905414f7, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.853958
+      text: "\u90A3\u5C31\u8BF7\u628A\u5B83\u660E\u786E\u6807\u4E3A\u5047\u8BBE\u3002\u6D4B\u8DDD\u8109\u51B2\u7167\u5C04\u540E\uFF0C\u5B83\u7684\u8868\u9762\u6E29\u5EA6\u51E0\u4E4E\u672A\u53D8\u3002\u6211\u4EEC\u4E0D\u77E5\u9053\u80FD\u91CF\u53BB\u4E86\u54EA\u91CC\u3002"
+      english: Then mark that sentence as an assumption. Its surface temperature
+        has barely changed under our ranging pulses. We do not know where the energy
+        goes.
+      role: engineer
+  - id: E024
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u79D1\u5B66\u9891\u9053\u8BF7\u6C42\u589E\u5927\u8230\u95F4\u8DDD\uFF1B\u6307\u6325\u9891\u9053\u8981\u6C42\u7F29\u7D27\u5C04\u51FB\u89E3\u7B97\u3002\u4E24\u6761\u6307\u4EE4\u90FD\u5728\u7B49\u5F85\u786E\u8BA4\u3002"
+    english: Science channel is requesting wider separation between ships. Command
+      channel is requesting a tighter firing solution. Both orders are waiting for
+      confirmation.
+    time: 211.62962
+    duration: 10.319708
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: 7006be0f277dc184ab83be3f53e56547, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.819708
+      text: "\u79D1\u5B66\u9891\u9053\u8BF7\u6C42\u589E\u5927\u8230\u95F4\u8DDD\uFF1B\u6307\u6325\u9891\u9053\u8981\u6C42\u7F29\u7D27\u5C04\u51FB\u89E3\u7B97\u3002\u4E24\u6761\u6307\u4EE4\u90FD\u5728\u7B49\u5F85\u786E\u8BA4\u3002"
+      english: Science channel is requesting wider separation between ships. Command
+        channel is requesting a tighter firing solution. Both orders are waiting
+        for confirmation.
+      role: comms
+  - id: E025
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u6682\u65F6\u4FDD\u6301\u95F4\u8DDD\u3002\u7A81\u7136\u540E\u64A4\u53EF\u80FD\u88AB\u7406\u89E3\u4E3A\u5F00\u706B\u51C6\u5907\u3002\u6211\u4E0D\u80FD\u56E0\u4E3A\u5C4F\u5E55\u4E0A\u7684\u4E00\u4E2A\u7B26\u53F7\u800C\u53D1\u52A8\u6218\u4E89\u3002"
+    english: Maintain spacing for now. A sudden withdrawal could look like preparation
+      to fire. I will not start a war by moving a symbol on a display.
+    time: 222.10933
+    duration: 10.3828335
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: 5bd184d10f87ccc4885a062de4627328, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.97925
+      text: "\u6682\u65F6\u4FDD\u6301\u95F4\u8DDD\u3002\u7A81\u7136\u540E\u64A4\u53EF\u80FD\u88AB\u7406\u89E3\u4E3A\u5F00\u706B\u51C6\u5907\u3002\u6211\u4E0D\u80FD\u56E0\u4E3A\u5C4F\u5E55\u4E0A\u7684\u4E00\u4E2A\u7B26\u53F7\u800C\u53D1\u52A8\u6218\u4E89\u3002"
+      english: Maintain spacing for now. A sudden withdrawal could look like preparation
+        to fire. I will not start a war by moving a symbol on a display.
+      role: commander
+    - time: 8.27925
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: E026
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u6211\u4E5F\u4E0D\u4F1A\u56E0\u4E3A\u7B26\u53F7\u6392\u5217\u6574\u9F50\uFF0C\u5C31\u8BF4\u9635\u578B\u5B89\u5168\u3002\u8BF7\u5728\u4E8B\u53D1\u524D\uFF0C\u7ED9\u5916\u5C42\u5404\u5217\u5206\u914D\u72EC\u7ACB\u64A4\u79BB\u65B9\u5411\u3002"
+    english: And I will not call a formation safe because its symbols are tidy. Give
+      the outer ranks independent escape vectors before anything happens.
+    time: 232.65216
+    duration: 8.892583
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: 1a1083371f415a244a01969a43124f9b, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.392583
+      text: "\u6211\u4E5F\u4E0D\u4F1A\u56E0\u4E3A\u7B26\u53F7\u6392\u5217\u6574\u9F50\uFF0C\u5C31\u8BF4\u9635\u578B\u5B89\u5168\u3002\u8BF7\u5728\u4E8B\u53D1\u524D\uFF0C\u7ED9\u5916\u5C42\u5404\u5217\u5206\u914D\u72EC\u7ACB\u64A4\u79BB\u65B9\u5411\u3002"
+      english: And I will not call a formation safe because its symbols are tidy.
+        Give the outer ranks independent escape vectors before anything happens.
+      role: engineer
+  - id: E027
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u6279\u51C6\u3002\u8F7D\u5165\u64A4\u79BB\u8DEF\u7EBF\uFF0C\u53D7\u5A01\u80C1\u524D\u4FDD\u6301\u4F4D\u7F6E\u3002\u53D7\u635F\u8230\u4F18\u5148\u4F7F\u7528\u6551\u63F4\u9891\u9053\uFF0C\u64A4\u79BB\u8DEF\u7EBF\u907F\u5F00\u5C04\u754C\u3002"
+    english: Approved. Load evacuation routes, but hold your position until threatened.
+      Damaged ships get priority on rescue traffic. Keep those routes out of the
+      firing lanes.
+    time: 241.70474
+    duration: 10.8885
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: d38f14375ea06be4aad8362acf004c51, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 10.3885
+      text: "\u6279\u51C6\u3002\u8F7D\u5165\u64A4\u79BB\u8DEF\u7EBF\uFF0C\u53D7\u5A01\u80C1\u524D\u4FDD\u6301\u4F4D\u7F6E\u3002\u53D7\u635F\u8230\u4F18\u5148\u4F7F\u7528\u6551\u63F4\u9891\u9053\uFF0C\u64A4\u79BB\u8DEF\u7EBF\u907F\u5F00\u5C04\u754C\u3002"
+      english: Approved. Load evacuation routes, but hold your position until threatened.
+        Damaged ships get priority on rescue traffic. Keep those routes out of the
+        firing lanes.
+      role: commander
+  - id: E028
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u8DEF\u7EBF\u5DF2\u5206\u53D1\u3002\u5404\u8230\u957F\u786E\u8BA4\u672C\u5730\u63A7\u5236\u4E0E\u72EC\u7ACB\u5F15\u64CE\u53EF\u7528\u3002\u5373\u4F7F\u9635\u578B\u89E3\u4F53\uFF0C\u7D27\u6025\u9891\u9053\u4ECD\u5C06\u8BC6\u522B\u6BCF\u8258\u8230\u3002"
+    english: Routes distributed. Captains confirm local control and independent engines.
+      The emergency channel will identify each hull, even if the formation breaks
+      apart.
+    time: 252.75325
+    duration: 11.077791
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: 95cfa6a3d3492eb44b35dcc2a4810909, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 10.577791
+      text: "\u8DEF\u7EBF\u5DF2\u5206\u53D1\u3002\u5404\u8230\u957F\u786E\u8BA4\u672C\u5730\u63A7\u5236\u4E0E\u72EC\u7ACB\u5F15\u64CE\u53EF\u7528\u3002\u5373\u4F7F\u9635\u578B\u89E3\u4F53\uFF0C\u7D27\u6025\u9891\u9053\u4ECD\u5C06\u8BC6\u522B\u6BCF\u8258\u8230\u3002"
+      english: Routes distributed. Captains confirm local control and independent
+        engines. The emergency channel will identify each hull, even if the formation
+        breaks apart.
+      role: comms
+  - id: E029
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u81F4\u5BB6\u4E2D\u7684\u542C\u4F17\uFF1A\u5206\u6B67\u5E76\u4E0D\u7B49\u4E8E\u6050\u614C\u3002\u753B\u9762\u6E05\u6670\u800C\u89E3\u91CA\u4E0D\u8DB3\u65F6\uFF0C\u8C28\u614E\u7684\u4EBA\u5C31\u5E94\u5F53\u8BA8\u8BBA\u3002"
+    english: For those listening at home, disagreement is not panic. It is what careful
+      people do when the picture is clearer than the explanation.
+    time: 263.99103
+    duration: 8.7109585
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: e3f1b4402debba647ae6a53541e67b47, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.2109585
+      text: "\u81F4\u5BB6\u4E2D\u7684\u542C\u4F17\uFF1A\u5206\u6B67\u5E76\u4E0D\u7B49\u4E8E\u6050\u614C\u3002\u753B\u9762\u6E05\u6670\u800C\u89E3\u91CA\u4E0D\u8DB3\u65F6\uFF0C\u8C28\u614E\u7684\u4EBA\u5C31\u5E94\u5F53\u8BA8\u8BBA\u3002"
+      english: For those listening at home, disagreement is not panic. It is what
+        careful people do when the picture is clearer than the explanation.
+      role: anchor
+  - id: E030
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u6700\u540E\u4E00\u6761\u5EFA\u8BAE\uFF1A\u4E00\u65E6\u770B\u5230\u5149\u675F\u6298\u8FD4\uFF0C\u7ACB\u5373\u907F\u5F00\u5176\u8DEF\u5F84\u3002\u4E0D\u8981\u5047\u5B9A\u53CD\u5C04\u5149\u4F1A\u6CBF\u539F\u8DEF\u56DE\u5230\u53D1\u5C04\u6E90\u3002"
+    english: 'One last recommendation: if you see a beam return, clear its path immediately.
+      Do not assume the return will follow the line back to its source.'
+    time: 272.862
+    duration: 11.615666
+    cameraShot: 2
+    stage: 2
+    voice: {fileID: 8300000, guid: a6c53e4be30f25749bf094725b9eed13, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.212083
+      text: "\u6700\u540E\u4E00\u6761\u5EFA\u8BAE\uFF1A\u4E00\u65E6\u770B\u5230\u5149\u675F\u6298\u8FD4\uFF0C\u7ACB\u5373\u907F\u5F00\u5176\u8DEF\u5F84\u3002\u4E0D\u8981\u5047\u5B9A\u53CD\u5C04\u5149\u4F1A\u6CBF\u539F\u8DEF\u56DE\u5230\u53D1\u5C04\u6E90\u3002"
+      english: 'One last recommendation: if you see a beam return, clear its path
+        immediately. Do not assume the return will follow the line back to its source.'
+      role: engineer
+    - time: 9.512083
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: E031
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u4E0D\u660E\u98DE\u884C\u5668\uFF0C\u8FD9\u662F\u6700\u540E\u8B66\u544A\u3002\u4F60\u5373\u5C06\u63A5\u8FD1\u5185\u4FA7\u5B89\u5168\u7EBF\u3002\u7ACB\u5373\u6539\u53D8\u822A\u5411\uFF1B\u4F60\u524D\u65B9\u7684\u901A\u9053\u4ECD\u7136\u5F00\u653E\u3002"
+    english: Unidentified craft, this is your final warning. You are approaching
+      the inner safety line. Alter course now. We are leaving the corridor ahead
+      of you open.
+    time: 284.63766
+    duration: 9.9123335
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: ee58098a4c5d90d46b48e16135ec428a, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.4123335
+      text: "\u4E0D\u660E\u98DE\u884C\u5668\uFF0C\u8FD9\u662F\u6700\u540E\u8B66\u544A\u3002\u4F60\u5373\u5C06\u63A5\u8FD1\u5185\u4FA7\u5B89\u5168\u7EBF\u3002\u7ACB\u5373\u6539\u53D8\u822A\u5411\uFF1B\u4F60\u524D\u65B9\u7684\u901A\u9053\u4ECD\u7136\u5F00\u653E\u3002"
+      english: Unidentified craft, this is your final warning. You are approaching
+        the inner safety line. Alter course now. We are leaving the corridor ahead
+        of you open.
+      role: comms
+  - id: E032
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u6240\u6709\u70AE\u7EC4\uFF0C\u4EC5\u8DDF\u8E2A\u3002\u542F\u52A8\u5149\u675F\u524D\u786E\u8BA4\u76EE\u6807\u540E\u65B9\u7684\u8230\u4F53\u3002\u5C4F\u5E55\u91CC\u7684\u80CC\u666F\uFF0C\u662F\u53E6\u4E00\u7FA4\u8239\u5458\u3002"
+    english: All batteries, track only. Confirm the hull behind your target before
+      enabling a beam. The background on your screen is another crew.
+    time: 294.71
+    duration: 8.494917
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: 9cc3bccfac1d81f45a3ebbafac75921b, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.9949164
+      text: "\u6240\u6709\u70AE\u7EC4\uFF0C\u4EC5\u8DDF\u8E2A\u3002\u542F\u52A8\u5149\u675F\u524D\u786E\u8BA4\u76EE\u6807\u540E\u65B9\u7684\u8230\u4F53\u3002\u5C4F\u5E55\u91CC\u7684\u80CC\u666F\uFF0C\u662F\u53E6\u4E00\u7FA4\u8239\u5458\u3002"
+      english: All batteries, track only. Confirm the hull behind your target before
+        enabling a beam. The background on your screen is another crew.
+      role: commander
+  - id: E033
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u6700\u65B0\u56DE\u6CE2\u663E\u793A\u8FDE\u7EED\u8868\u9762\uFF1A\u65E0\u5F00\u53E3\u3001\u65E0\u63A5\u7F1D\uFF0C\u4E5F\u65E0\u660E\u663E\u6563\u70ED\u3002\u8BF7\u8BA9\u6BCF\u53F0\u4F20\u611F\u5668\u6301\u7EED\u8BB0\u5F55\u9996\u6B21\u63A5\u89E6\u3002"
+    english: The latest return resolves a continuous surface. No opening, no joint,
+      no obvious heat rejection. Please keep every sensor recording through first
+      contact.
+    time: 303.3649
+    duration: 10.318334
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: d46bb0e86c3ac2843a0164b9c1d93919, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.818334
+      text: "\u6700\u65B0\u56DE\u6CE2\u663E\u793A\u8FDE\u7EED\u8868\u9762\uFF1A\u65E0\u5F00\u53E3\u3001\u65E0\u63A5\u7F1D\uFF0C\u4E5F\u65E0\u660E\u663E\u6563\u70ED\u3002\u8BF7\u8BA9\u6BCF\u53F0\u4F20\u611F\u5668\u6301\u7EED\u8BB0\u5F55\u9996\u6B21\u63A5\u89E6\u3002"
+      english: The latest return resolves a continuous surface. No opening, no joint,
+        no obvious heat rejection. Please keep every sensor recording through first
+        contact.
+      role: engineer
+  - id: E034
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u6CA1\u6709\u786E\u8BA4\u3002\u8F7D\u6CE2\u5F3A\u5EA6\u7A33\u5B9A\u3002\u8FD9\u5E76\u975E\u8FDE\u63A5\u4E22\u5931\uFF0C\u53EA\u662F\u5728\u6211\u4EEC\u7406\u89E3\u7684\u9891\u7387\u4E0A\uFF0C\u59CB\u7EC8\u65E0\u4EBA\u56DE\u5E94\u3002"
+    english: No acknowledgement. Carrier level is steady. This is not a lost connection;
+      there is simply nobody answering on the frequencies we understand.
+    time: 313.84323
+    duration: 8.883
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: 7b2ee7948750dc349a92d26ac4c97d96, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.383
+      text: "\u6CA1\u6709\u786E\u8BA4\u3002\u8F7D\u6CE2\u5F3A\u5EA6\u7A33\u5B9A\u3002\u8FD9\u5E76\u975E\u8FDE\u63A5\u4E22\u5931\uFF0C\u53EA\u662F\u5728\u6211\u4EEC\u7406\u89E3\u7684\u9891\u7387\u4E0A\uFF0C\u59CB\u7EC8\u65E0\u4EBA\u56DE\u5E94\u3002"
+      english: No acknowledgement. Carrier level is steady. This is not a lost connection;
+        there is simply nobody answering on the frequencies we understand.
+      role: comms
+  - id: E035
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u5982\u679C\u76EE\u6807\u8D8A\u7EBF\uFF0C\u6700\u8FD1\u7684\u70AE\u7EC4\u53EF\u4EE5\u77ED\u4FC3\u5C04\u51FB\u3002\u51FA\u73B0\u53CD\u5C04\u7ACB\u5373\u505C\u706B\uFF0C\u4E0D\u80FD\u8FFD\u7740\u9519\u8BEF\u7684\u5C04\u7EBF\u7EE7\u7EED\u6253\u3002"
+    english: If the object crosses the line, the nearest batteries may fire controlled
+      bursts. Break off if the beam is reflected. Do not chase a bad shot.
+    time: 322.88623
+    duration: 11.400541
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: d68cb2bf3eb378b4ba603f853762a5fd, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.996959
+      text: "\u5982\u679C\u76EE\u6807\u8D8A\u7EBF\uFF0C\u6700\u8FD1\u7684\u70AE\u7EC4\u53EF\u4EE5\u77ED\u4FC3\u5C04\u51FB\u3002\u51FA\u73B0\u53CD\u5C04\u7ACB\u5373\u505C\u706B\uFF0C\u4E0D\u80FD\u8FFD\u7740\u9519\u8BEF\u7684\u5C04\u7EBF\u7EE7\u7EED\u6253\u3002"
+      english: If the object crosses the line, the nearest batteries may fire controlled
+        bursts. Break off if the beam is reflected. Do not chase a bad shot.
+      role: commander
+    - time: 9.296958
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  - id: E036
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u8230\u4F53\u82E5\u88AB\u8D2F\u7A7F\uFF0C\u7ACB\u5373\u9694\u79BB\u53CD\u5E94\u5806\u5E76\u4FDD\u6301\u8DDD\u79BB\u3002\u5B89\u9759\u7684\u6B8B\u8230\u4ECD\u53EF\u80FD\u5728\u5012\u8BA1\u65F6\u3002\u6551\u63F4\u7EC4\u5FC5\u987B\u7B49\u5F85\u5B89\u5168\u63A5\u8FD1\u3002"
+    english: If a hull is pierced, isolate its reactor and keep clear. A quiet wreck
+      can still be counting down. Rescue crews must wait for a safe approach.
+    time: 334.44678
+    duration: 11.298625
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: 0d974a3727c601147b8e230dacec1fa0, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 10.798625
+      text: "\u8230\u4F53\u82E5\u88AB\u8D2F\u7A7F\uFF0C\u7ACB\u5373\u9694\u79BB\u53CD\u5E94\u5806\u5E76\u4FDD\u6301\u8DDD\u79BB\u3002\u5B89\u9759\u7684\u6B8B\u8230\u4ECD\u53EF\u80FD\u5728\u5012\u8BA1\u65F6\u3002\u6551\u63F4\u7EC4\u5FC5\u987B\u7B49\u5F85\u5B89\u5168\u63A5\u8FD1\u3002"
+      english: If a hull is pierced, isolate its reactor and keep clear. A quiet
+        wreck can still be counting down. Rescue crews must wait for a safe approach.
+      role: engineer
+  - id: E037
+    channel: "\u4E3B\u64AD / CIVIL NETWORK"
+    role: anchor
+    text: "\u53EA\u8981\u63A5\u89E6\u7BA1\u5236\u8FD8\u80FD\u7EF4\u6301\u8F6C\u64AD\uFF0C\u6C11\u7528\u9891\u9053\u5C31\u4F1A\u4FDD\u6301\u5F00\u653E\u3002\u4ECA\u591C\uFF0C\u4E0D\u4F1A\u6709\u63D0\u524D\u5199\u597D\u7684\u80DC\u5229\u516C\u544A\u3002"
+    english: The civilian relay will remain open as long as contact control can carry
+      it. There will be no victory announcement written in advance tonight.
+    time: 345.9054
+    duration: 8.722917
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: 8d9d9a774fd57494788b759d13a16ac1, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 8.222917
+      text: "\u53EA\u8981\u63A5\u89E6\u7BA1\u5236\u8FD8\u80FD\u7EF4\u6301\u8F6C\u64AD\uFF0C\u6C11\u7528\u9891\u9053\u5C31\u4F1A\u4FDD\u6301\u5F00\u653E\u3002\u4ECA\u591C\uFF0C\u4E0D\u4F1A\u6709\u63D0\u524D\u5199\u597D\u7684\u80DC\u5229\u516C\u544A\u3002"
+      english: The civilian relay will remain open as long as contact control can
+        carry it. There will be no victory announcement written in advance tonight.
+      role: anchor
+  - id: E038
+    channel: "\u901A\u4FE1\u519B\u5B98 / CONTACT CONTROL"
+    role: comms
+    text: "\u786E\u8BA4\u8D8A\u8FC7\u5185\u4FA7\u8B66\u6212\u7EBF\u3002\u4E24\u5343\u4E2A\u8BC6\u522B\u4FE1\u53F7\uFF0C\u5404\u81EA\u72EC\u7ACB\u3002\u7D27\u6025\u9891\u6BB5\u5DF2\u5F00\u653E\u3002\u5404\u8230\u957F\uFF0C\u8BF7\u7528\u672C\u8230\u547C\u53F7\u56DE\u5E94\u3002"
+    english: Inner line crossing confirmed. I have two thousand identification signals,
+      all distinct. Emergency band is live. Captains, answer with your own hull call
+      sign.
+    time: 354.7883
+    duration: 11.703875
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: b6499af8d06d9f348b04fce33af94c2a, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 11.203875
+      text: "\u786E\u8BA4\u8D8A\u8FC7\u5185\u4FA7\u8B66\u6212\u7EBF\u3002\u4E24\u5343\u4E2A\u8BC6\u522B\u4FE1\u53F7\uFF0C\u5404\u81EA\u72EC\u7ACB\u3002\u7D27\u6025\u9891\u6BB5\u5DF2\u5F00\u653E\u3002\u5404\u8230\u957F\uFF0C\u8BF7\u7528\u672C\u8230\u547C\u53F7\u56DE\u5E94\u3002"
+      english: Inner line crossing confirmed. I have two thousand identification
+        signals, all distinct. Emergency band is live. Captains, answer with your
+        own hull call sign.
+      role: comms
+  - id: E039
+    channel: "\u6307\u6325\u5B98 / FLEET COMMAND"
+    role: commander
+    text: "\u5141\u8BB8\u5728\u6307\u5B9A\u5C04\u754C\u5185\u5F00\u706B\u3002\u4FDD\u6301\u64A4\u79BB\u8DEF\u7EBF\u7545\u901A\u3002\u90BB\u8230\u4E2D\u5F39\u65F6\u5148\u79FB\u52A8\uFF0C\u80FD\u591F\u901A\u4FE1\u540E\u518D\u62A5\u544A\u3002"
+    english: Weapons free within your assigned lanes. Keep your escape route clear.
+      If your neighbor is hit, move first and report when you can.
+    time: 366.65216
+    duration: 8.466458
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: 9162e18362e7c5f409fef3f909c5b22d, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 7.9664583
+      text: "\u5141\u8BB8\u5728\u6307\u5B9A\u5C04\u754C\u5185\u5F00\u706B\u3002\u4FDD\u6301\u64A4\u79BB\u8DEF\u7EBF\u7545\u901A\u3002\u90BB\u8230\u4E2D\u5F39\u65F6\u5148\u79FB\u52A8\uFF0C\u80FD\u591F\u901A\u4FE1\u540E\u518D\u62A5\u544A\u3002"
+      english: Weapons free within your assigned lanes. Keep your escape route clear.
+        If your neighbor is hit, move first and report when you can.
+      role: commander
+  - id: E040
+    channel: "\u5DE5\u7A0B\u5E08 / SCIENCE CHANNEL"
+    role: engineer
+    text: "\u5B83\u4ECD\u5728\u524D\u8FDB\u3002\u770B\u63A5\u89E6\u70B9\uFF0C\u4E0D\u8981\u88AB\u7729\u5149\u8FF7\u60D1\u3002\u65E0\u8BBA\u63A5\u4E0B\u6765\u53D1\u751F\u4EC0\u4E48\uFF0C\u90FD\u8981\u76F8\u4FE1\u6D4B\u91CF\u3002\u6240\u6709\u5C97\u4F4D\uFF0C\u4FDD\u62A4\u597D\u4F60\u4EEC\u7684\u4EBA\u3002"
+    english: It is still coming. Watch the contact point, not the glare. Whatever
+      happens next, trust the measurements. All stations, protect your people.
+    time: 375.27863
+    duration: 12.232917
+    cameraShot: 3
+    stage: 3
+    voice: {fileID: 8300000, guid: bc8e6398597907e4eb6c13a6982ad368, type: 3}
+    premixed: 1
+    captions:
+    - time: 0.2
+      duration: 9.829333
+      text: "\u5B83\u4ECD\u5728\u524D\u8FDB\u3002\u770B\u63A5\u89E6\u70B9\uFF0C\u4E0D\u8981\u88AB\u7729\u5149\u8FF7\u60D1\u3002\u65E0\u8BBA\u63A5\u4E0B\u6765\u53D1\u751F\u4EC0\u4E48\uFF0C\u90FD\u8981\u76F8\u4FE1\u6D4B\u91CF\u3002\u6240\u6709\u5C97\u4F4D\uFF0C\u4FDD\u62A4\u597D\u4F60\u4EEC\u7684\u4EBA\u3002"
+      english: It is still coming. Watch the contact point, not the glare. Whatever
+        happens next, trust the measurements. All stations, protect your people.
+      role: engineer
+    - time: 10.1293335
+      duration: 1.8035834
+      text: "\u6536\u5230\uFF0C\u6B63\u5728\u68C0\u67E5\u9762\u677F\u3002"
+      english: Aye, checking the panel.
+      role: background crew
+  queueLimit: 4
+  globalCooldown: 1.6
+  eventExpiry: 3.5
+  recentLineLimit: 7
+  speakerEventCooldown: 14
+  historyLimit: 40
+  eventBudgetPerFrame: 24
+  connectTone: {fileID: 8300000, guid: da57f9e2674534f41b7426a27efaab93, type: 3}
+  interruptTone: {fileID: 8300000, guid: 8ef45c61abd7ec346943b593a35e2f3d, type: 3}
+  alarm: {fileID: 0}
+  equipmentBed: {fileID: 0}
+  premixedSceneAudio: 1
+  voiceProvenance: AI synthesized English / Seed-TTS 2.0 / original cabin scenes
+    / subjective listening pending

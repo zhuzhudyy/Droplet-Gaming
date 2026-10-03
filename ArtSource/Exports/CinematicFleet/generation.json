@@ -1,0 +1,51 @@
+{
+  "blender": "5.2.1 LTS",
+  "build": "9e2066aef7ef",
+  "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+  "blendPath": "ArtSource/Blender/CinematicFleet/FleetLayout_Cubic.blend",
+  "blendSha256": "df654d72ad1ab4a69770415cab0ef7705740965276a786627183cc6fadd54804",
+  "layoutPath": "ArtSource/Exports/CinematicFleet/FleetLayout_Cubic.json",
+  "layoutSha256": "cc1f8812c48bcececb4c8e1f3e89c4a83e5847bcf595f9d427f59c6a074a91c4",
+  "authorityPath": "Tools/Blender/CinematicFleet/layout_config.json",
+  "authoritySha256": "cc1f8812c48bcececb4c8e1f3e89c4a83e5847bcf595f9d427f59c6a074a91c4",
+  "preservedSources": {
+    "ArtSource/Blender/Ships/FusionFrigate/FusionFrigate.blend": "446ee1a13616635b8bc26c0197e7afb7bbad8be55afa08f7f9cbb2eadf2a93df",
+    "ArtSource/Exports/Ships/FusionFrigate/FusionFrigate.fbx": "aaa3a754c9f0adb1f45841c5c3e2955d26f8ab7a4a2a895ea45f261c33e6403a",
+    "Tools/Blender/Fleet2000Sun/layout_config.json": "b47d6be8ed3d2a9260beb432b076b1a4e5f446783d0db335bbf68f795004d627"
+  },
+  "instances": 2000,
+  "sharedCollections": 1,
+  "sharedPrototypeMeshCount": 12,
+  "sharedPrototypeTriangles": 1396,
+  "measurements": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "retainedOldIds": 2000,
+    "columns": 20,
+    "rows": 25,
+    "layers": 4,
+    "centerMin": [
+      -6750,
+      -7192,
+      1000
+    ],
+    "centerMax": [
+      7500,
+      7208,
+      15400
+    ],
+    "centerSpan": [
+      14250,
+      14400,
+      14400
+    ],
+    "spanAspectRatio": 1.0105263157894737,
+    "allShipPairsChecked": 1999000,
+    "rotatedVisualAabbOverlaps": 0,
+    "minimumRotatedVisualAabbClearance": 540.1900352919756,
+    "playerVisualAabbClearance": 971.218,
+    "nearestShipCenterDistance": 1000.0,
+    "minimumForwardDot": 0.9999999999999997,
+    "method": "Exhaustive all-pairs world AABBs of all eight rotated calibrated full-hull bounds corners. Conservative against interpenetration, not a substitute for Unity collider/runtime verification."
+  }
+}

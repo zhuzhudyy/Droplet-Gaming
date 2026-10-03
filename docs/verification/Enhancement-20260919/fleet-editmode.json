@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 0.1,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetNormalThreatTests.DiagnosticMovementSurvivesOriginShiftAndThreeResets",
+      "Status": "Passed",
+      "Duration": 0.0390005,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetNormalThreatTests.ExplosionThreatUsesEveryShipEndpointRegardlessOfArrayOrder(False)",
+      "Status": "Passed",
+      "Duration": 0.0032156,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetNormalThreatTests.ExplosionThreatUsesEveryShipEndpointRegardlessOfArrayOrder(True)",
+      "Status": "Passed",
+      "Duration": 0.0004294,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetNormalThreatTests.NormalPenetrationHasBoundedVariedReactionAndRealDeparture",
+      "Status": "Passed",
+      "Duration": 0.01406,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetNormalThreatTests.NormalThreatEvacuationCountsEscapeWithoutAwardingKill",
+      "Status": "Passed",
+      "Duration": 0.0015958,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.EditMode.FleetNormalThreatTests.PendingHullCannotResumeRetreatAndStillExplodesOnce",
+      "Status": "Passed",
+      "Duration": 0.0015363,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

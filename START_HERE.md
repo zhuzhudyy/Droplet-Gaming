@@ -6,10 +6,15 @@
 
 - 双击根目录 `Open-Project.cmd`，或在 Unity Hub 打开这个文件夹。
 - 使用已有的 Unity **6000.5.10f1**，URP **17.5.0**。
-- 最新正式场景：`Assets/_Project/Scenes/FleetAssault_NarrativeCombat.unity`，包含 2000 艘舰船。
+- 最新可玩副本：`Assets/_Project/Scenes/FleetAssault_SeedAudio.unity`，包含 2000 艘独立舰船、事件特写及完整 Seed 音频。旧 CinematicAudio / Enhanced / NarrativeCombat 场景保留。
+- 四幕剧情、战斗与界面已接入 131 条 Seed Audio 1.0 非语音音频、87 条新版 Seed-TTS 2.0 英语干声和 158 条通讯混音；玩家完全离线，只有开发期制作使用云端。新版 40 段剧情英语通讯保留中文字幕，按新版音频时长约 9 分钟。详见 `docs/SEED_AUDIO_ACCEPTANCE.md`。
 - Unity 中按 Play，再聚焦 Game 并按 Enter 开始剧情；Tab 跳过，R 直接战斗/重开，Esc 暂停。
-- 已有独立版：`Builds/Windows-NarrativeCombat/DropletPrototype.exe`。运行时保留整个相邻构建目录。
+- 最新独立版：`Builds/Windows-SeedAudio-20260929/DropletGaming.exe`；前版完整回退为 `Builds/Windows-CinematicAudio-20260919/DropletGaming.exe`。运行时保留整个相邻构建目录。Unity 默认 Build Settings 已启用新版 Seed 场景；也可用菜单 `DropletPrototype/Seed Audio/3 Build Windows` 重建。
+- 远端下载：[Windows Seed 音频版 ZIP](https://github.com/zhuzhudyy/Droplet-Gaming/releases/download/seed-audio-20260929/Droplet-Gaming-Windows-SeedAudio-20260929.zip)，完整解压后运行其中的 `DropletGaming.exe`；归档校验见 `Releases/README.md`。
 - 鼠标转向，W/S 调速，A/D 横移，Shift 冲刺，Space 刹车，H 广播历史。
+- Q 立即返回主视角，F8 循环特写关闭/低频/标准；Q可通过 ShotDirector 的独立键绑定修改，不占用刹车。镜头不改变速度、伤害或延爆时间。
+- 双击 `ArtSource/Audio/SeedAudio20260929/listening.html` 听六类已获用户认可的代表样音；`catalog-qa/delivery-listening.html` 可逐条对照 131 条正式音效，`voice-qa/listening.html` 是 87 条干声，`remixed/listening.html` 是 158 条通讯。每条正式成品已通过客观检查，但尚未逐项人工试听；自然走完四幕与 90 分钟、全局混音及循环接缝也仍待人工验收。
+- 舰阵采用20×25×4（20×25×2只有1000）；20×25正面朝向开战时水滴，三轴范围接近立方体。
 
 ## 目录用途
 
@@ -30,3 +35,7 @@
 恢复早期模板时，将该 ZIP 解压到一个新的空文件夹，再用同版本 Unity 打开；Library 会自动生成。不要将恢复包覆盖到当前工作工程。
 
 Codex 的 `unity` MCP 连接固定到本目录。当前会话的旧连接已断开，重新打开 Codex 后会按新配置建立连接。旧的 `127.0.0.1:8080/mcp` 配置已从 Codex 移除。
+
+## 版本保留与测试范围（2026-09-29）
+
+最新试玩以 `FleetAssault_SeedAudio.unity` 和 `Windows-SeedAudio-20260929` 为准；此玩家构建时显式只选新版场景，项目全局 Build Settings 也由 Unity Editor API 设为新版 Seed 场景。前版 CinematicAudio 仍列在设置中但已禁用；历史场景是制作/回归参考，不是每日验收目标。保留新版玩家、前一完整 CinematicAudio 回退版及 v0.2.2 精简 ZIP；其余旧生成构建按 `docs/TEST_PLAN.md` 的保留策略处理。完整 2000 舰玩家已完成 34 项自动检查，剩余 3 项人工长时/试听检查见 `docs/SEED_AUDIO_ACCEPTANCE.md`。

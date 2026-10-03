@@ -1,0 +1,1406 @@
+wall,simulation,phase,intensity,voiceCount,worldSources,outputPeak,destroyed,pending,shot
+3.723,0.000,Startup,0.0000,0,0,0.00000,0,0,Chase
+4.886,0.000,Narrative pause and skip,0.0000,1,0,0.09220,0,0,Chase
+4.991,0.000,Narrative pause and skip,0.0000,1,0,0.00024,0,0,Chase
+5.100,0.000,Narrative pause and skip,0.0000,1,0,0.01649,0,0,Chase
+5.203,0.000,Narrative pause and skip,0.0000,1,0,0.00344,0,0,Chase
+5.313,0.000,Narrative pause and skip,0.0000,1,0,0.00004,0,0,Chase
+5.421,0.000,Narrative pause and skip,0.0000,1,0,0.09702,0,0,Chase
+5.526,0.000,Narrative pause and skip,0.0000,1,0,0.08311,0,0,Chase
+5.631,0.000,Narrative pause and skip,0.0000,1,0,0.11038,0,0,Chase
+5.732,0.000,Narrative pause and skip,0.0000,1,0,0.09120,0,0,Chase
+5.834,0.000,Narrative pause and skip,0.0000,1,0,0.01526,0,0,Chase
+5.939,0.000,Narrative pause and skip,0.0000,1,0,0.13301,0,0,Chase
+6.046,0.000,Narrative pause and skip,0.0000,1,0,0.06662,0,0,Chase
+6.150,0.000,Narrative pause and skip,0.0000,1,0,0.02133,0,0,Chase
+6.252,0.000,Narrative pause and skip,0.0000,0,0,0.00000,0,0,Chase
+6.358,0.000,Narrative pause and skip,0.0000,0,0,0.00000,0,0,Chase
+6.458,0.000,Narrative pause and skip,0.0000,0,0,0.00000,0,0,Chase
+6.932,0.320,Normal input slower flight,0.0000,0,0,0.00000,0,0,Chase
+7.037,0.480,Normal input slower flight,0.0000,0,0,0.00173,0,0,Chase
+7.164,0.540,Normal input slower flight,0.0017,1,4,0.00172,0,0,Chase
+7.269,0.720,Normal input slower flight,0.0472,1,4,0.06437,0,0,Chase
+7.373,0.820,Normal input slower flight,0.0657,1,3,0.00763,0,0,Chase
+7.477,0.920,Normal input slower flight,0.0808,1,0,0.00208,0,0,Chase
+7.582,1.020,Normal input slower flight,0.0922,1,0,0.06062,0,0,Chase
+7.690,1.140,Normal input slower flight,0.1263,1,4,0.05904,0,0,Chase
+7.793,1.240,Normal input slower flight,0.1710,1,6,0.14549,0,0,Chase
+7.898,1.340,Normal input slower flight,0.2189,1,6,0.01597,0,0,Chase
+8.007,1.460,Normal input slower flight,0.2571,1,3,0.02543,0,0,Chase
+8.110,1.560,Normal input slower flight,0.2838,1,0,0.00196,0,0,Chase
+8.216,1.660,Normal input slower flight,0.3248,1,3,0.07601,0,0,Chase
+8.319,1.760,Normal input slower flight,0.3566,1,3,0.07113,0,0,Chase
+8.419,1.860,Normal input slower flight,0.3773,1,3,0.04764,0,0,Chase
+8.520,1.960,Normal input slower flight,0.4025,1,2,0.03651,0,0,Chase
+8.626,2.080,Normal input slower flight,0.4208,1,1,0.00437,0,0,Chase
+8.727,2.180,Normal input slower flight,0.4576,1,5,0.08931,0,0,Chase
+8.828,2.280,Normal input slower flight,0.4895,1,4,0.08278,0,0,Chase
+8.930,2.380,Normal input slower flight,0.5095,1,5,0.00944,0,0,Chase
+9.030,2.480,Normal input slower flight,0.5426,1,3,0.12970,0,0,Chase
+9.133,2.580,Normal input slower flight,0.5648,1,3,0.03527,0,0,Chase
+9.239,2.680,Normal input slower flight,0.6125,1,7,0.12526,0,0,Chase
+9.340,2.780,Normal input slower flight,0.6517,1,5,0.04648,0,0,Chase
+9.443,2.880,Normal input slower flight,0.6775,1,4,0.05340,0,0,Chase
+9.551,3.000,Normal input slower flight,0.6993,1,0,0.13297,0,0,Chase
+9.655,3.100,Normal input slower flight,0.7046,1,0,0.09828,0,0,Chase
+9.756,3.200,Normal input slower flight,0.7242,1,3,0.07243,0,0,Chase
+9.859,3.300,Normal input slower flight,0.7374,1,3,0.01197,0,0,Chase
+9.961,3.400,Normal input slower flight,0.7438,1,2,0.00350,0,0,Chase
+10.068,3.520,Normal input slower flight,0.7479,1,0,0.01608,0,0,Chase
+10.170,3.620,Normal input slower flight,0.7455,1,0,0.01396,0,0,Chase
+10.273,3.720,Normal input slower flight,0.7544,0,3,0.10180,0,0,Chase
+10.379,3.820,Normal input slower flight,0.7567,0,3,0.02225,0,0,Chase
+10.479,3.920,Normal input slower flight,0.7561,0,2,0.00343,0,0,Chase
+10.582,4.020,Normal input slower flight,0.7543,0,0,0.00167,0,0,Chase
+10.688,4.140,Normal input slower flight,0.7500,0,0,0.00168,0,0,Chase
+10.789,4.240,Normal input slower flight,0.7547,0,3,0.09405,0,0,Chase
+10.889,4.340,Normal input slower flight,0.7543,0,3,0.01421,0,0,Chase
+10.991,4.440,Normal input slower flight,0.7530,0,2,0.00418,0,0,Chase
+11.096,4.540,Normal input slower flight,0.7509,0,2,0.19230,0,0,Chase
+11.200,4.640,Normal input slower flight,0.7554,0,3,0.05100,0,0,Chase
+11.300,4.740,Normal input slower flight,0.7600,0,3,0.00643,0,0,Chase
+11.407,4.860,Normal input slower flight,0.7574,0,1,0.00267,0,0,Chase
+11.511,4.960,Normal input slower flight,0.7549,0,0,0.00169,0,0,Chase
+11.612,5.060,Normal input slower flight,0.7505,0,0,0.00171,0,0,Chase
+11.714,5.160,Normal input slower flight,0.7446,0,0,0.00171,0,0,Chase
+11.820,5.260,Normal input slower flight,0.7437,0,3,0.12081,0,0,Chase
+11.922,5.360,Normal input slower flight,0.7414,0,3,0.01918,0,0,Chase
+12.032,5.480,Normal input slower flight,0.7391,0,2,0.00387,0,0,Chase
+12.134,5.580,Normal input slower flight,0.7487,0,2,0.15367,0,1,Chase
+12.236,5.680,Normal input slower flight,0.7624,0,2,0.02997,0,1,Chase
+12.341,5.780,Normal input slower flight,0.7696,0,2,0.03969,0,1,Chase
+12.442,5.880,Normal input slower flight,0.7699,0,2,0.01243,0,1,Chase
+12.542,5.980,Normal input slower flight,0.7702,0,1,0.00288,0,1,Chase
+12.651,6.100,Normal input slower flight,0.7664,0,1,0.00188,0,1,Chase
+12.755,6.200,Normal input slower flight,0.7627,0,1,0.00176,0,1,Chase
+12.859,6.300,Normal input slower flight,0.7581,0,3,0.08264,0,1,Chase
+12.967,6.420,Normal input slower flight,0.7577,0,4,0.03508,0,1,Chase
+13.074,6.520,Normal input slower flight,0.7570,0,3,0.00924,0,1,Chase
+13.179,6.620,Normal input slower flight,0.7532,0,1,0.00304,0,1,Chase
+13.281,6.720,Normal input slower flight,0.7497,0,0,0.00172,0,1,Chase
+13.390,6.840,Normal input slower flight,0.7619,0,5,0.14561,0,1,Chase
+13.492,6.940,Normal input slower flight,0.7826,0,5,0.02889,0,1,Chase
+13.592,7.040,Normal input slower flight,0.7980,0,4,0.00823,0,1,Chase
+13.697,7.140,Normal input slower flight,0.8034,0,0,0.00168,0,1,Chase
+13.798,7.240,Normal input slower flight,0.8099,0,0,0.00166,0,1,Chase
+13.900,7.340,Normal input slower flight,0.8237,0,4,0.16623,0,1,Chase
+14.008,7.460,Normal input slower flight,0.8483,0,4,0.03494,0,1,Chase
+14.114,7.560,Normal input slower flight,0.8639,0,3,0.00507,0,1,Chase
+14.219,7.660,Normal input slower flight,0.8748,0,0,0.00167,0,1,Chase
+14.327,7.780,Normal input slower flight,0.8909,0,0,0.00170,0,1,Chase
+14.428,7.880,Normal input slower flight,0.9037,0,2,0.08509,0,1,Chase
+14.534,7.980,Normal input slower flight,0.9210,0,2,0.01217,0,1,Chase
+14.636,8.080,Normal input slower flight,0.9258,0,1,0.00265,0,1,Chase
+14.738,8.180,Normal input slower flight,0.9303,0,0,0.00172,0,1,Chase
+14.848,8.300,Normal input slower flight,0.9310,0,0,0.00173,0,1,Chase
+14.954,8.400,Normal input slower flight,0.9289,0,1,0.01757,0,1,Chase
+15.058,8.500,Normal input slower flight,0.9301,0,1,0.00534,0,1,Chase
+15.163,8.600,Normal input slower flight,0.9257,1,0,0.00167,0,1,Chase
+15.271,8.720,Normal input slower flight,0.9217,1,0,0.02182,0,1,Chase
+15.375,8.820,Normal input slower flight,0.9148,1,2,0.00226,0,1,Chase
+15.477,8.920,Normal input slower flight,0.9106,1,2,0.02291,0,1,Chase
+15.578,9.020,Normal input slower flight,0.9048,1,2,0.00669,0,1,Chase
+15.686,9.140,Normal input slower flight,0.8958,1,0,0.04683,0,1,Chase
+15.790,9.240,Normal input slower flight,0.8874,1,0,0.06483,0,1,Chase
+15.897,9.340,Normal input slower flight,0.8762,1,2,0.12635,0,1,Chase
+15.997,9.440,Normal input slower flight,0.8684,1,2,0.01152,0,1,Chase
+16.103,9.540,Normal input slower flight,0.8584,1,1,0.07649,0,1,Chase
+16.206,9.660,Normal input slower flight,0.8476,1,0,0.00775,0,1,Chase
+16.310,9.760,Normal input slower flight,0.8366,1,0,0.04099,0,1,Chase
+16.411,9.860,Normal input slower flight,0.8248,1,2,0.01516,0,1,Chase
+16.515,9.960,Normal input slower flight,0.8148,1,2,0.03847,0,1,Chase
+16.619,10.060,Normal input slower flight,0.8030,1,1,0.02312,0,1,Chase
+16.722,10.160,Normal input slower flight,0.7908,1,0,0.00709,0,1,Chase
+16.831,10.280,Normal input slower flight,0.7778,1,0,0.00938,0,1,Chase
+16.937,10.380,Normal input slower flight,0.7651,0,1,0.08262,1,0,Chase
+17.042,10.480,Normal input slower flight,0.7577,0,1,0.06971,1,0,Chase
+17.148,10.600,Normal input slower flight,0.7470,0,1,0.03925,1,0,Chase
+17.253,10.700,Normal input slower flight,0.7365,0,1,0.03913,1,0,Chase
+17.356,10.800,Normal input slower flight,0.7252,0,1,0.03407,1,0,Chase
+17.457,10.900,Normal input slower flight,0.7197,0,4,0.08648,1,0,Chase
+17.561,11.000,Normal input slower flight,0.7141,0,4,0.03266,1,0,Chase
+17.669,11.120,Normal input slower flight,0.7057,0,3,0.01183,1,0,Chase
+17.772,11.220,Normal input slower flight,0.6978,1,1,0.02641,1,0,Chase
+17.874,11.320,Normal input slower flight,0.6884,1,2,0.02615,1,0,Chase
+17.978,11.420,Normal input slower flight,0.6790,1,2,0.00836,1,0,Chase
+18.081,11.520,Normal input slower flight,0.6692,1,2,0.00636,1,0,Chase
+18.183,11.620,Normal input slower flight,0.6581,1,1,0.12245,1,0,Chase
+18.289,11.740,Normal input slower flight,0.6474,1,1,0.09143,1,0,Chase
+18.390,11.840,Normal input slower flight,0.6355,1,1,0.01625,1,0,Chase
+18.491,11.940,Normal input slower flight,0.6237,1,1,0.11191,1,0,Chase
+18.596,12.040,Normal input slower flight,0.6112,1,1,0.03095,1,0,Chase
+18.700,12.140,Normal input slower flight,0.5983,1,1,0.05639,1,0,Chase
+18.807,12.260,Normal input slower flight,0.5858,1,1,0.12827,1,0,Chase
+18.911,12.360,Normal input slower flight,0.5742,1,3,0.04473,1,0,Chase
+19.015,12.460,Normal input slower flight,0.5652,1,3,0.08471,1,0,Chase
+19.119,12.560,Normal input slower flight,0.5551,1,2,0.00735,1,0,Chase
+19.227,12.680,Normal input slower flight,0.5447,1,1,0.00476,1,0,Chase
+19.331,12.780,Normal input slower flight,0.5346,1,1,0.00248,1,0,Chase
+19.435,12.880,Normal input slower flight,0.5256,1,3,0.03809,1,0,Chase
+19.538,12.980,Normal input slower flight,0.5183,1,3,0.02733,1,0,Chase
+19.642,13.080,Normal input slower flight,0.5091,1,1,0.01294,1,0,Chase
+19.749,13.200,Normal input slower flight,0.5003,1,0,0.07591,1,0,Chase
+19.851,13.300,Normal input slower flight,0.4912,1,0,0.03596,1,0,Chase
+19.952,13.400,Normal input slower flight,0.4819,1,0,0.04054,1,0,Chase
+20.054,13.500,Normal input slower flight,0.4725,1,0,0.08286,1,0,Chase
+20.154,13.600,Normal input slower flight,0.4622,1,0,0.16288,1,0,Chase
+20.256,13.700,Normal input slower flight,0.4523,1,0,0.01107,1,0,Chase
+20.359,13.800,Normal input slower flight,0.4419,1,0,0.04567,1,0,Chase
+20.467,13.920,Normal input slower flight,0.4344,1,2,0.15335,1,0,Chase
+20.573,14.020,Normal input slower flight,0.4267,1,2,0.02796,1,0,Chase
+20.674,14.120,Normal input slower flight,0.4189,1,1,0.00162,1,0,Chase
+20.777,14.220,Normal input slower flight,0.4113,1,0,0.08015,1,0,Chase
+20.882,14.320,Normal input slower flight,0.4025,1,0,0.02756,1,0,Chase
+20.986,14.440,Normal input slower flight,0.3942,1,0,0.02633,1,0,Chase
+21.090,14.540,Normal input slower flight,0.3856,1,0,0.00571,1,0,Chase
+21.191,14.640,Normal input slower flight,0.3770,1,0,0.00244,1,0,Chase
+21.294,14.740,Normal input slower flight,0.3684,1,0,0.00187,1,0,Chase
+21.400,14.840,Normal input slower flight,0.3584,1,0,0.00163,1,0,Chase
+21.508,14.960,Normal input slower flight,0.3491,1,0,0.00172,1,0,Chase
+21.610,15.060,Normal input slower flight,0.3399,1,0,0.00228,1,0,Chase
+21.714,15.160,Normal input slower flight,0.3304,1,0,0.03925,1,0,Chase
+21.818,15.260,Normal input slower flight,0.3214,1,0,0.06742,1,0,Chase
+21.927,15.380,Normal input slower flight,0.3115,1,0,0.01717,1,0,Chase
+22.029,15.480,Normal input slower flight,0.3025,1,0,0.00179,1,0,Chase
+22.133,15.580,Normal input slower flight,0.2928,1,0,0.00240,1,0,Chase
+22.235,15.680,Normal input slower flight,0.2839,1,0,0.01476,1,0,Chase
+22.335,15.780,Normal input slower flight,0.2752,1,0,0.01520,1,0,Chase
+22.440,15.880,Normal input slower flight,0.2661,1,0,0.01964,1,0,Chase
+22.540,15.980,Normal input slower flight,0.2578,1,0,0.00313,1,0,Chase
+22.642,16.080,Normal input slower flight,0.2493,1,0,0.05488,1,0,Chase
+22.748,16.200,Normal input slower flight,0.2410,1,0,0.01366,1,0,Chase
+22.850,16.300,Normal input slower flight,0.2330,1,0,0.01281,1,0,Chase
+22.953,16.400,Normal input slower flight,0.2248,1,0,0.00252,1,0,Chase
+23.055,16.500,Normal input slower flight,0.2172,1,0,0.00178,1,0,Chase
+23.158,16.600,Normal input slower flight,0.2096,1,0,0.00241,1,0,Chase
+23.260,16.700,Normal input slower flight,0.2026,1,0,0.00221,1,0,Chase
+23.360,16.800,Normal input slower flight,0.1955,1,0,0.01553,1,0,Chase
+23.462,16.900,Normal input slower flight,0.1886,1,0,0.01358,1,0,Chase
+23.570,17.020,Normal input slower flight,0.1818,0,0,0.00131,1,0,Chase
+23.675,17.120,Normal input slower flight,0.1750,0,0,0.00152,1,0,Chase
+23.778,17.220,Normal input slower flight,0.1688,0,0,0.00171,1,0,Chase
+23.880,17.320,Normal input slower flight,0.1627,0,0,0.00173,1,0,Chase
+23.981,17.420,Normal input slower flight,0.1568,0,0,0.00167,1,0,Chase
+24.083,17.520,Normal input slower flight,0.1511,0,0,0.00172,1,0,Chase
+24.190,17.640,Normal input slower flight,0.1454,0,0,0.00169,1,0,Chase
+24.292,17.740,Normal input slower flight,0.1401,0,0,0.00168,1,0,Chase
+24.394,17.840,Normal input slower flight,0.1347,0,0,0.00165,1,0,Chase
+24.497,17.940,Normal input slower flight,0.1296,0,0,0.00166,1,0,Chase
+24.599,18.040,Normal input slower flight,0.1248,0,0,0.00168,1,0,Chase
+24.703,18.140,Normal input slower flight,0.1200,0,0,0.00166,1,0,Chase
+24.810,18.260,Normal input slower flight,0.1154,0,0,0.00167,1,0,Chase
+24.912,18.360,Normal input slower flight,0.1107,0,0,0.00168,1,0,Chase
+25.015,18.460,Normal input slower flight,0.1061,0,0,0.00169,1,0,Chase
+25.117,18.560,Normal input slower flight,0.1019,0,0,0.00170,1,0,Chase
+25.218,18.660,Normal input slower flight,0.0978,0,0,0.00170,1,0,Chase
+25.319,18.760,Normal input slower flight,0.0939,0,0,0.00171,1,0,Chase
+25.420,18.860,Normal input slower flight,0.0898,0,0,0.00170,1,0,Chase
+25.527,18.980,Normal input slower flight,0.0859,0,0,0.00172,1,0,Chase
+25.630,19.080,Normal input slower flight,0.0822,0,0,0.00173,1,0,Chase
+25.733,19.180,Normal input slower flight,0.0785,0,0,0.00169,1,0,Chase
+25.836,19.280,Normal input slower flight,0.0751,0,0,0.00169,1,0,Chase
+25.942,19.380,Normal input slower flight,0.0717,0,0,0.00165,1,0,Chase
+26.047,19.500,Normal input slower flight,0.0686,0,0,0.00167,1,0,Chase
+26.151,19.600,Normal input slower flight,0.0655,0,0,0.00168,1,0,Chase
+26.254,19.700,Normal input slower flight,0.0627,0,0,0.00169,1,0,Chase
+26.356,19.800,Normal input slower flight,0.0600,0,0,0.00167,1,0,Chase
+26.458,19.900,Normal input slower flight,0.0574,0,0,0.00168,1,0,Chase
+26.560,20.000,Normal input slower flight,0.0550,0,0,0.00169,1,0,Chase
+26.663,20.100,Normal input slower flight,0.0526,0,0,0.00169,1,0,Chase
+26.763,20.200,Normal input slower flight,0.0504,0,0,0.00170,1,0,Chase
+26.868,20.320,Normal input slower flight,0.0481,0,0,0.00169,1,0,Chase
+26.969,20.420,Normal input slower flight,0.0459,0,0,0.00174,1,0,Chase
+27.072,20.520,Normal input slower flight,0.0438,0,0,0.00172,1,0,Chase
+27.172,20.620,Normal input slower flight,0.0418,0,0,0.00172,1,0,Chase
+27.275,20.720,Normal input slower flight,0.0398,0,0,0.00169,1,0,Chase
+27.381,20.820,Normal input slower flight,0.0378,0,0,0.00167,1,0,Chase
+27.489,20.940,Normal input slower flight,0.0358,0,0,0.00168,1,0,Chase
+27.593,21.040,Normal input slower flight,0.0340,0,0,0.00168,1,0,Chase
+27.697,21.140,Normal input slower flight,0.0323,0,0,0.00168,1,0,Chase
+27.802,21.240,Normal input slower flight,0.0306,0,0,0.00169,1,0,Chase
+27.907,21.360,Normal input slower flight,0.0291,0,0,0.00167,1,0,Chase
+28.012,21.460,Normal input slower flight,0.0276,0,0,0.00168,1,0,Chase
+28.115,21.560,Normal input slower flight,0.0262,0,0,0.00169,1,0,Chase
+28.218,21.660,Normal input slower flight,0.0249,0,0,0.00169,1,0,Chase
+28.322,21.760,Normal input slower flight,0.0236,0,0,0.00170,1,0,Chase
+28.429,21.880,Normal input slower flight,0.0223,0,0,0.00167,1,0,Chase
+28.534,21.980,Normal input slower flight,0.0210,0,0,0.00171,1,0,Chase
+28.637,22.080,Normal input slower flight,0.0198,0,0,0.00172,1,0,Chase
+28.738,22.180,Normal input slower flight,0.0188,0,0,0.00174,1,0,Chase
+28.841,22.280,Normal input slower flight,0.0177,0,0,0.00169,1,0,Chase
+28.948,22.400,Normal input slower flight,0.0167,0,0,0.00168,1,0,Chase
+29.053,22.500,Normal input slower flight,0.0157,0,0,0.00168,1,0,Chase
+29.155,22.600,Normal input slower flight,0.0149,0,0,0.00166,1,0,Chase
+29.257,22.700,Normal input slower flight,0.0141,0,0,0.00168,1,0,Chase
+29.358,22.800,Normal input slower flight,0.0133,0,0,0.00166,1,0,Chase
+29.466,22.920,Normal input slower flight,0.0125,0,0,0.00167,1,0,Chase
+29.570,23.020,Normal input slower flight,0.0118,0,0,0.00168,1,0,Chase
+29.675,23.120,Normal input slower flight,0.0111,0,0,0.00170,1,0,Chase
+29.779,23.220,Normal input slower flight,0.0105,0,0,0.00167,1,0,Chase
+29.881,23.320,Normal input slower flight,0.0099,0,0,0.00169,1,0,Chase
+29.982,23.420,Normal input slower flight,0.0094,0,0,0.00171,1,0,Chase
+30.082,23.520,Normal input slower flight,0.0089,0,0,0.00171,1,0,Chase
+30.190,23.640,Normal input slower flight,0.0084,0,0,0.00171,1,0,Chase
+30.292,23.740,Normal input slower flight,0.0079,0,0,0.00169,1,0,Chase
+30.398,23.840,Normal input slower flight,0.0075,0,0,0.00170,1,0,Chase
+30.499,23.940,Normal input slower flight,0.0143,1,2,0.07916,1,0,DropletContact
+30.601,24.040,Normal input slower flight,0.0217,1,2,0.01025,1,0,DropletContact
+30.703,24.140,Normal input slower flight,0.0315,1,4,0.00230,1,0,DropletContact
+30.810,24.260,Normal input slower flight,0.0544,1,3,0.02228,1,0,DropletContact
+30.914,24.360,Normal input slower flight,0.0714,1,3,0.00340,1,0,DropletContact
+31.016,24.460,Normal input slower flight,0.0849,1,0,0.12834,1,0,DropletContact
+31.118,24.560,Normal input slower flight,0.0943,1,0,0.13862,1,0,Chase
+31.220,24.660,Normal input slower flight,0.1015,1,0,0.09427,1,0,Chase
+31.321,24.760,Normal input slower flight,0.1069,1,0,0.10768,1,0,Chase
+31.426,24.880,Normal input slower flight,0.1098,1,0,0.00213,1,0,Chase
+31.529,24.980,Normal input slower flight,0.1123,1,0,0.03417,1,0,Chase
+31.634,25.080,Normal input slower flight,0.1128,1,0,0.08428,1,0,Chase
+31.735,25.180,Normal input slower flight,0.1204,1,3,0.18896,1,0,Chase
+31.839,25.280,Normal input slower flight,0.1384,1,3,0.03288,1,0,Chase
+31.940,25.380,Normal input slower flight,0.1510,1,2,0.01375,1,0,Chase
+32.042,25.480,Normal input slower flight,0.1616,1,0,0.00168,1,0,Chase
+32.149,25.600,Normal input slower flight,0.1674,1,0,0.00166,1,0,Chase
+32.252,25.700,Normal input slower flight,0.1720,1,0,0.08673,1,0,Chase
+32.354,25.800,Normal input slower flight,0.1739,1,0,0.11527,1,0,Chase
+32.460,25.900,Normal input slower flight,0.1743,1,0,0.04845,1,0,Chase
+32.560,26.000,Normal input slower flight,0.1824,1,2,0.10246,1,0,Chase
+32.668,26.120,Normal input slower flight,0.1881,1,2,0.05161,1,0,Chase
+32.773,26.220,Normal input slower flight,0.1929,1,1,0.01060,1,0,Chase
+32.876,26.320,Normal input slower flight,0.1941,1,0,0.04615,1,0,Chase
+32.981,26.420,Normal input slower flight,0.1944,1,0,0.14328,1,0,Chase
+33.083,26.520,Normal input slower flight,0.1942,1,0,0.06490,1,0,Chase
+33.191,26.640,Normal input slower flight,0.1932,1,0,0.06868,1,0,Chase
+33.292,26.740,Normal input slower flight,0.1924,1,0,0.06200,1,0,Chase
+33.395,26.840,Normal input slower flight,0.1907,1,0,0.00277,1,0,Chase
+33.495,26.940,Normal input slower flight,0.1891,1,0,0.10718,1,0,Chase
+33.598,27.040,Normal input slower flight,0.1871,1,0,0.06725,1,0,Chase
+33.703,27.140,Normal input slower flight,0.1848,1,0,0.05029,1,0,Chase
+33.807,27.260,Normal input slower flight,0.1827,1,0,0.04636,1,0,Chase
+33.914,27.360,Normal input slower flight,0.1798,1,0,0.11079,1,0,Chase
+34.016,27.460,Normal input slower flight,0.1772,1,0,0.01821,1,0,Chase
+34.116,27.560,Normal input slower flight,0.1743,1,0,0.00149,1,0,Chase
+34.218,27.660,Normal input slower flight,0.1728,1,2,0.06007,1,0,Chase
+34.320,27.760,Normal input slower flight,0.1852,1,4,0.04220,1,0,Chase
+34.420,27.860,Normal input slower flight,0.1996,1,3,0.01153,1,0,Chase
+34.521,27.960,Normal input slower flight,0.2221,1,4,0.02810,1,0,Chase
+34.628,28.080,Normal input slower flight,0.2375,1,2,0.01112,1,0,Chase
+34.734,28.180,Normal input slower flight,0.2545,1,3,0.03040,1,0,Chase
+34.836,28.280,Normal input slower flight,0.2792,1,4,0.07949,1,0,Chase
+34.942,28.380,Normal input slower flight,0.3051,1,3,0.02613,1,0,Chase
+35.050,28.500,Normal input slower flight,0.3264,1,2,0.00302,1,0,Chase
+35.154,28.600,Normal input slower flight,0.3374,1,0,0.01679,1,0,Chase
+35.257,28.700,Normal input slower flight,0.3520,1,2,0.06236,1,0,Chase
+35.361,28.800,Normal input slower flight,0.3643,1,2,0.01178,1,0,Chase
+35.461,28.900,Normal input slower flight,0.3718,1,1,0.00355,1,0,Chase
+35.569,29.020,Normal input slower flight,0.3783,1,3,0.01091,1,0,Chase
+35.674,29.120,Normal input slower flight,0.3989,1,3,0.04235,1,0,Chase
+35.780,29.220,Normal input slower flight,0.4242,1,5,0.03364,1,0,Chase
+35.880,29.320,Normal input slower flight,0.4389,1,4,0.01548,1,0,Chase
+35.986,29.440,Normal input slower flight,0.4504,1,2,0.01405,1,0,Chase
+36.087,29.540,Normal input slower flight,0.4573,0,1,0.01009,1,0,Chase
+36.192,29.640,Normal input slower flight,0.4586,0,1,0.00347,1,0,Chase
+36.297,29.740,Normal input slower flight,0.4597,0,0,0.00173,1,0,Chase
+36.397,29.840,Normal input slower flight,0.4576,0,0,0.00172,1,0,Chase
+36.499,29.940,Normal input slower flight,0.4568,0,2,0.15225,1,0,Chase
+36.602,30.041,Normal input slower flight,0.4578,0,2,0.02963,1,0,Chase
+36.706,30.161,Normal input slower flight,0.4565,0,2,0.00492,1,0,Chase
+36.811,30.261,Normal input slower flight,0.4550,0,0,0.00167,1,0,Chase
+36.914,30.361,Normal input slower flight,0.4515,0,0,0.00168,1,0,Chase
+37.019,30.461,Normal input slower flight,0.4483,0,0,0.00166,1,0,Chase
+37.121,30.561,Normal input slower flight,0.4439,0,0,0.00167,1,0,Chase
+37.228,30.681,Normal input slower flight,0.4390,0,0,0.00168,1,0,Chase
+37.333,30.781,Normal input slower flight,0.4337,0,0,0.00170,1,0,Chase
+37.436,30.881,Normal input slower flight,0.4277,0,0,0.00170,1,0,Chase
+37.537,30.981,Normal input slower flight,0.4220,0,0,0.00170,1,0,Chase
+37.639,31.081,Normal input slower flight,0.4166,0,2,0.15229,1,0,Chase
+37.741,31.181,Normal input slower flight,0.4151,0,3,0.07720,1,0,Chase
+37.850,31.301,Normal input slower flight,0.4203,0,3,0.03886,1,0,Chase
+37.950,31.401,Normal input slower flight,0.4223,0,2,0.01042,1,0,Chase
+38.050,31.501,Normal input slower flight,0.4239,0,1,0.00253,1,0,Chase
+38.153,31.601,Normal input slower flight,0.4221,0,0,0.00169,1,0,Chase
+38.255,31.701,Normal input slower flight,0.4205,0,0,0.00165,1,0,Chase
+38.355,31.801,Normal input slower flight,0.4278,0,3,0.06923,1,0,Chase
+38.458,31.901,Normal input slower flight,0.4401,0,6,0.13208,1,0,Chase
+38.563,32.001,Normal input slower flight,0.4627,0,5,0.03387,1,0,Chase
+38.669,32.121,Normal input slower flight,0.4785,0,5,0.23023,1,0,Chase
+38.775,32.221,Normal input slower flight,0.5171,0,4,0.07773,1,0,Chase
+38.879,32.321,Normal input slower flight,0.5497,0,5,0.02706,1,0,Chase
+38.987,32.441,Normal input slower flight,0.5933,0,5,0.07033,1,0,Chase
+39.089,32.541,Normal input slower flight,0.6266,0,5,0.11591,1,0,Chase
+39.190,32.641,Normal input slower flight,0.6470,0,3,0.01515,1,0,Chase
+39.290,32.741,Normal input slower flight,0.6647,0,3,0.00171,1,0,Chase
+39.392,32.841,Normal input slower flight,0.6765,0,2,0.05692,1,0,Chase
+39.498,32.941,Normal input slower flight,0.6921,0,4,0.08139,1,0,Chase
+39.603,33.041,Normal input slower flight,0.7107,0,5,0.24390,1,0,Chase
+39.703,33.141,Normal input slower flight,0.7315,0,4,0.05479,1,0,Chase
+39.807,33.261,Normal input slower flight,0.7487,0,3,0.01160,1,0,Chase
+39.912,33.361,Normal input slower flight,0.7517,0,1,0.00368,1,0,Chase
+40.018,33.461,Normal input slower flight,0.7541,0,0,0.00168,1,0,Chase
+40.119,33.561,Normal input slower flight,0.7525,0,0,0.00167,1,0,Chase
+40.226,33.681,Normal input slower flight,0.7492,0,0,0.00168,1,0,Chase
+40.326,33.781,Normal input slower flight,0.7453,0,0,0.00168,1,0,Chase
+40.430,33.881,Normal input slower flight,0.7388,0,0,0.00170,1,0,Chase
+40.533,33.981,Normal input slower flight,0.7342,0,2,0.10258,1,0,Chase
+40.634,34.081,Normal input slower flight,0.7284,0,2,0.01970,1,0,Chase
+40.739,34.181,Normal input slower flight,0.7224,0,1,0.00305,1,0,Chase
+40.839,34.281,Normal input slower flight,0.7157,0,0,0.00171,1,0,Chase
+40.941,34.381,Normal input slower flight,0.7074,0,0,0.00172,1,0,Chase
+41.049,34.501,Normal input slower flight,0.6993,1,0,0.02225,1,0,Chase
+41.153,34.601,Normal input slower flight,0.6886,1,0,0.00292,1,0,Chase
+41.254,34.701,Normal input slower flight,0.6814,1,2,0.04950,1,0,Chase
+41.357,34.801,Normal input slower flight,0.6766,1,3,0.02213,1,0,Chase
+41.459,34.901,Normal input slower flight,0.6711,1,2,0.00424,1,0,Chase
+41.567,35.021,Normal input slower flight,0.6652,1,1,0.00376,1,0,Chase
+41.670,35.121,Normal input slower flight,0.6594,1,2,0.12687,1,0,Chase
+41.775,35.221,Normal input slower flight,0.6551,1,2,0.01900,1,0,Chase
+41.875,35.321,Normal input slower flight,0.6516,1,3,0.04476,1,0,Chase
+41.978,35.421,Normal input slower flight,0.6478,1,2,0.11707,1,0,Chase
+42.078,35.521,Normal input slower flight,0.6432,1,1,0.15473,1,0,Chase
+42.187,35.641,Normal input slower flight,0.6376,1,2,0.13691,1,0,Chase
+42.291,35.741,Normal input slower flight,0.6409,1,4,0.07208,1,0,Chase
+42.392,35.841,Normal input slower flight,0.6423,1,3,0.01490,1,0,Chase
+42.495,35.941,Normal input slower flight,0.6561,1,5,0.06488,1,0,Chase
+42.598,36.041,Normal input slower flight,0.6683,1,4,0.05721,1,0,Chase
+42.702,36.141,Normal input slower flight,0.6860,1,5,0.06053,1,0,Chase
+42.803,36.241,Normal input slower flight,0.7079,1,4,0.08797,1,0,Attacker
+42.912,36.361,Normal input slower flight,0.7230,1,5,0.08809,1,0,Attacker
+43.016,36.461,Normal input slower flight,0.7370,1,3,0.10715,1,0,Attacker
+43.119,36.561,Normal input slower flight,0.7401,1,1,0.08988,1,0,Attacker
+43.227,36.681,Normal input slower flight,0.7400,1,2,0.14500,1,0,Attacker
+43.329,36.781,Normal input slower flight,0.7526,1,3,0.13905,1,0,Attacker
+43.430,36.881,Normal input slower flight,0.7577,1,5,0.00813,1,0,Attacker
+43.534,36.981,Normal input slower flight,0.7703,1,4,0.06826,1,0,Attacker
+43.636,37.081,Normal input slower flight,0.7838,1,5,0.14768,1,0,Attacker
+43.741,37.181,Normal input slower flight,0.7981,1,3,0.01872,1,0,Chase
+43.849,37.301,Normal input slower flight,0.8042,1,2,0.08136,1,0,Chase
+43.953,37.401,Normal input slower flight,0.8182,1,1,0.08593,1,1,Chase
+44.053,37.501,Normal input slower flight,0.8414,1,1,0.14969,1,1,Chase
+44.157,37.601,Normal input slower flight,0.8471,1,1,0.03925,1,1,Chase
+44.259,37.701,Normal input slower flight,0.8517,1,1,0.02459,1,1,Chase
+44.361,37.801,Normal input slower flight,0.8509,1,1,0.07601,1,1,Chase
+44.470,37.921,Normal input slower flight,0.8475,1,1,0.00244,1,1,Chase
+44.575,38.021,Normal input slower flight,0.8434,1,2,0.01692,1,1,Chase
+44.683,38.121,Normal input slower flight,0.8373,1,4,0.00359,1,1,Chase
+44.789,38.241,Normal input slower flight,0.8356,1,5,0.10969,1,1,Chase
+44.892,38.341,Normal input slower flight,0.8348,1,5,0.03421,1,1,Chase
+44.992,38.441,Normal input slower flight,0.8340,1,3,0.01018,1,1,Chase
+45.097,38.541,Normal input slower flight,0.8330,1,0,0.00504,1,1,Chase
+45.199,38.641,Normal input slower flight,0.8311,1,0,0.02642,1,1,Chase
+45.302,38.741,Normal input slower flight,0.8292,1,0,0.00786,1,1,Chase
+45.408,38.861,Normal input slower flight,0.8241,1,0,0.03002,1,1,Chase
+45.510,38.961,Normal input slower flight,0.8198,1,0,0.04471,1,1,Chase
+45.611,39.061,Normal input slower flight,0.8139,1,2,0.05482,1,1,Chase
+45.713,39.161,Normal input slower flight,0.8151,1,3,0.03491,1,1,Chase
+45.817,39.261,Normal input slower flight,0.8180,1,3,0.00481,1,1,Chase
+45.918,39.361,Normal input slower flight,0.8164,1,4,0.09859,1,1,Chase
+46.022,39.461,Normal input slower flight,0.8448,1,4,0.11465,2,0,Chase
+46.128,39.581,Normal input slower flight,0.8693,1,4,0.06537,2,0,Chase
+46.229,39.681,Normal input slower flight,0.8912,1,2,0.04731,2,0,Chase
+46.335,39.781,Normal input slower flight,0.9083,0,1,0.02882,2,0,Chase
+46.438,39.881,Normal input slower flight,0.9182,0,1,0.01778,2,0,Chase
+46.546,40.001,Normal input slower flight,0.9290,0,1,0.02354,2,0,Chase
+46.647,40.101,Normal input slower flight,0.9279,0,4,0.01417,2,0,Chase
+46.747,40.201,Normal input slower flight,0.9399,0,4,0.08251,2,0,Chase
+46.849,40.301,Normal input slower flight,0.9446,0,4,0.01503,2,0,Chase
+46.951,40.401,Normal input slower flight,0.9432,0,4,0.03869,2,0,Chase
+47.053,40.501,Normal input slower flight,0.9417,0,2,0.01066,2,0,Chase
+47.154,40.601,Normal input slower flight,0.9360,0,1,0.00441,2,0,Chase
+47.256,40.701,Normal input slower flight,0.9303,0,1,0.00388,2,0,Chase
+47.360,40.801,Normal input slower flight,0.9223,0,1,0.00305,2,0,Chase
+47.462,40.901,Normal input slower flight,0.9132,0,1,0.00278,2,0,Chase
+47.567,41.021,Normal input slower flight,0.9037,0,1,0.00236,2,0,Chase
+47.670,41.121,Normal input slower flight,0.8914,0,1,0.00252,2,0,Chase
+47.772,41.221,Normal input slower flight,0.8795,0,1,0.00179,2,0,Chase
+47.874,41.321,Normal input slower flight,0.8660,0,1,0.00189,2,0,Chase
+47.978,41.421,Normal input slower flight,0.8544,0,3,0.04403,2,0,Chase
+48.080,41.521,Normal input slower flight,0.8434,0,3,0.00902,2,0,Chase
+48.181,41.621,Normal input slower flight,0.8308,0,2,0.00266,2,0,Chase
+48.281,41.721,Normal input slower flight,0.8190,0,1,0.00173,2,0,Chase
+48.386,41.841,Normal input slower flight,0.8047,0,1,0.00172,2,0,Chase
+48.491,41.941,Normal input slower flight,0.7902,0,1,0.00173,2,0,Chase
+48.594,42.041,Normal input slower flight,0.7756,0,1,0.00172,2,0,Chase
+48.700,42.141,Normal input slower flight,0.7601,1,0,0.02261,2,0,Chase
+48.801,42.241,Normal input slower flight,0.7459,1,0,0.02511,2,0,Chase
+48.901,42.341,Normal input slower flight,0.7302,1,0,0.00239,2,0,Chase
+49.002,42.441,Normal input slower flight,0.7154,1,0,0.02069,2,0,Chase
+49.108,42.561,Normal input slower flight,0.6993,1,0,0.00559,2,0,Chase
+49.211,42.661,Normal input slower flight,0.6832,1,0,0.02116,2,0,Chase
+49.316,42.761,Normal input slower flight,0.6669,1,0,0.16136,2,0,Chase
+49.417,42.861,Normal input slower flight,0.6512,1,2,0.06230,2,0,Chase
+49.521,42.961,Normal input slower flight,0.6390,1,2,0.02306,2,0,Chase
+49.629,43.081,Normal input slower flight,0.6262,1,4,0.11759,2,0,Chase
+49.732,43.181,Normal input slower flight,0.6165,1,2,0.04604,2,0,Chase
+49.836,43.281,Normal input slower flight,0.6059,1,2,0.12323,2,0,Chase
+49.941,43.381,Normal input slower flight,0.5946,1,0,0.04571,2,0,Chase
+50.049,43.501,Normal input slower flight,0.5840,1,0,0.09352,2,0,Chase
+50.155,43.601,Normal input slower flight,0.5710,1,0,0.00499,2,0,Chase
+50.256,43.701,Normal input slower flight,0.5597,1,0,0.00216,2,0,Chase
+50.360,43.801,Normal input slower flight,0.5472,1,0,0.00277,2,0,Chase
+50.467,43.921,Normal input slower flight,0.5346,1,0,0.00823,2,0,Chase
+50.570,44.021,Normal input slower flight,0.5223,1,0,0.02151,2,0,Chase
+50.675,44.121,Normal input slower flight,0.5107,1,3,0.13621,2,0,Chase
+50.780,44.221,Normal input slower flight,0.5048,1,3,0.14874,2,0,Chase
+50.887,44.341,Normal input slower flight,0.4974,1,2,0.10170,2,0,Chase
+50.988,44.441,Normal input slower flight,0.4907,1,1,0.13736,2,0,Chase
+51.091,44.541,Normal input slower flight,0.4833,1,1,0.15276,2,0,Chase
+51.191,44.641,Normal input slower flight,0.4750,1,0,0.09789,2,0,Chase
+51.298,44.741,Normal input slower flight,0.4669,1,0,0.11592,2,0,Chase
+51.400,44.841,Normal input slower flight,0.4577,1,0,0.09659,2,0,Chase
+51.501,44.941,Normal input slower flight,0.4492,1,0,0.09674,2,0,Chase
+51.601,45.041,Normal input slower flight,0.4403,1,0,0.01903,2,0,Chase
+51.709,45.161,Normal input slower flight,0.4305,1,0,0.01790,2,0,Chase
+51.813,45.261,Normal input slower flight,0.4212,1,0,0.11126,2,0,Chase
+51.915,45.361,Normal input slower flight,0.4105,1,0,0.03081,2,0,Chase
+52.018,45.461,Normal input slower flight,0.4008,1,0,0.03567,2,0,Chase
+52.121,45.561,Normal input slower flight,0.3906,1,0,0.01490,2,0,Chase
+52.233,45.681,Normal input slower flight,0.3803,1,0,0.11492,2,0,Chase
+52.335,45.781,Normal input slower flight,0.3704,1,0,0.00221,2,0,Chase
+52.439,45.881,Normal input slower flight,0.3605,1,0,0.13932,2,0,Chase
+52.541,45.981,Normal input slower flight,0.3513,1,0,0.00411,2,0,Chase
+52.642,46.081,Normal input slower flight,0.3415,1,0,0.09470,2,0,Chase
+52.742,46.181,Normal input slower flight,0.3322,1,0,0.00304,2,0,Chase
+52.850,46.301,Normal input slower flight,0.3225,1,0,0.01442,2,0,Chase
+52.951,46.401,Normal input slower flight,0.3129,1,0,0.00580,2,0,Chase
+53.056,46.501,Normal input slower flight,0.3036,1,0,0.00445,2,0,Chase
+53.157,46.601,Normal input slower flight,0.2945,1,0,0.00260,2,0,Chase
+53.258,46.701,Normal input slower flight,0.2858,1,0,0.01740,2,0,Chase
+53.358,46.801,Normal input slower flight,0.2773,1,0,0.01440,2,0,Chase
+53.460,46.901,Normal input slower flight,0.2687,1,0,0.00994,2,0,Chase
+53.568,47.021,Normal input slower flight,0.2601,1,0,0.00928,2,0,Chase
+53.671,47.121,Normal input slower flight,0.2512,1,0,0.01937,2,0,Chase
+53.773,47.221,Normal input slower flight,0.2431,1,0,0.01147,2,0,Chase
+53.875,47.321,Normal input slower flight,0.2344,1,0,0.00941,2,0,Chase
+53.975,47.421,Normal input slower flight,0.2260,1,0,0.00574,2,0,Chase
+54.078,47.521,Normal input slower flight,0.2178,1,0,0.01037,2,0,Chase
+54.178,47.621,Normal input slower flight,0.2096,1,0,0.03533,2,0,Chase
+54.281,47.721,Normal input slower flight,0.2018,1,0,0.03887,2,0,Chase
+54.386,47.841,Normal input slower flight,0.1940,1,0,0.01544,2,0,Chase
+54.490,47.941,Normal input slower flight,0.1865,1,0,0.03891,2,0,Chase
+54.591,48.041,Normal input slower flight,0.1794,1,0,0.03379,2,0,Chase
+54.693,48.141,Normal input slower flight,0.1720,1,0,0.01109,2,0,Chase
+54.799,48.241,Normal input slower flight,0.1650,1,0,0.01496,2,0,Chase
+54.899,48.341,Normal input slower flight,0.1585,1,0,0.00598,2,0,Chase
+55.007,48.441,Normal input slower flight,0.1521,1,0,0.00235,2,0,Chase
+55.112,48.561,Normal input slower flight,0.1458,1,0,0.01729,2,0,Chase
+55.215,48.661,Normal input slower flight,0.1397,1,0,0.01563,2,0,Chase
+55.316,48.761,Normal input slower flight,0.1343,0,0,0.00121,2,0,Chase
+55.420,48.861,Normal input slower flight,0.1288,0,0,0.00144,2,0,Chase
+55.523,48.961,Normal input slower flight,0.1237,0,0,0.00166,2,0,Chase
+55.628,49.081,Normal input slower flight,0.1187,0,0,0.00166,2,0,Chase
+55.729,49.181,Normal input slower flight,0.1140,0,0,0.00168,2,0,Chase
+55.829,49.281,Normal input slower flight,0.1096,0,0,0.00170,2,0,Chase
+55.932,49.381,Normal input slower flight,0.1049,0,0,0.00170,2,0,Chase
+56.033,49.481,Normal input slower flight,0.1006,0,0,0.00169,2,0,Chase
+56.138,49.581,Normal input slower flight,0.0964,0,0,0.00173,2,0,Chase
+56.239,49.681,Normal input slower flight,0.0925,0,0,0.00170,2,0,Chase
+56.339,49.781,Normal input slower flight,0.0888,0,0,0.00168,2,0,Chase
+56.448,49.901,Normal input slower flight,0.0850,0,0,0.00169,2,0,Chase
+56.551,50.001,Normal input slower flight,0.0815,0,0,0.00170,2,0,Chase
+56.653,50.101,Normal input slower flight,0.0781,0,0,0.00167,2,0,Chase
+56.757,50.201,Normal input slower flight,0.0749,0,0,0.00168,2,0,Chase
+56.860,50.301,Normal input slower flight,0.0718,0,0,0.00166,2,0,Chase
+56.961,50.401,Normal input slower flight,0.0689,0,0,0.00167,2,0,Chase
+57.062,50.501,Normal input slower flight,0.0662,0,0,0.00164,2,0,Chase
+57.162,50.601,Normal input slower flight,0.0635,0,0,0.00167,2,0,Chase
+57.270,50.721,Normal input slower flight,0.0609,0,0,0.00170,2,0,Chase
+57.376,50.821,Normal input slower flight,0.0581,0,0,0.00168,2,0,Chase
+57.478,50.921,Normal input slower flight,0.0556,0,0,0.00170,2,0,Chase
+57.578,51.021,Normal input slower flight,0.0532,0,0,0.00171,2,0,Chase
+57.679,51.121,Normal input slower flight,0.0508,0,0,0.00172,2,0,Chase
+57.779,51.221,Normal input slower flight,0.0485,0,0,0.00170,2,0,Chase
+57.882,51.321,Normal input slower flight,0.0462,0,0,0.00169,2,0,Chase
+57.987,51.441,Normal input slower flight,0.0441,0,0,0.00174,2,0,Chase
+58.093,51.541,Normal input slower flight,0.0420,0,0,0.00170,2,0,Chase
+58.196,51.641,Normal input slower flight,0.0400,0,0,0.00167,2,0,Chase
+58.298,51.741,Normal input slower flight,0.0382,0,0,0.00168,2,0,Chase
+58.398,51.841,Normal input slower flight,0.0365,0,0,0.00166,2,0,Chase
+58.503,51.941,Normal input slower flight,0.0348,0,0,0.00170,2,0,Chase
+58.607,52.061,Normal input slower flight,0.0331,0,0,0.00166,2,0,Chase
+58.708,52.161,Normal input slower flight,0.0313,0,0,0.00169,2,0,Chase
+58.811,52.261,Normal input slower flight,0.0295,0,0,0.00167,2,0,Chase
+58.916,52.361,Normal input slower flight,0.0278,0,0,0.00168,2,0,Chase
+59.022,52.461,Normal input slower flight,0.0263,0,0,0.00171,2,0,Chase
+59.122,52.561,Normal input slower flight,0.0248,0,0,0.00171,2,0,Chase
+59.230,52.681,Normal input slower flight,0.0234,0,0,0.00175,2,0,Chase
+59.331,52.781,Normal input slower flight,0.0222,0,0,0.00170,2,0,Chase
+59.434,52.881,Normal input slower flight,0.0209,0,0,0.00171,2,0,Chase
+59.536,52.981,Normal input slower flight,0.0197,0,0,0.00170,2,0,Chase
+59.639,53.081,Normal input slower flight,0.0186,0,0,0.00170,2,0,Chase
+59.740,53.181,Normal input slower flight,0.0176,0,0,0.00166,2,0,Chase
+59.848,53.301,Normal input slower flight,0.0166,0,0,0.00169,2,0,Chase
+59.949,53.401,Normal input slower flight,0.0157,0,0,0.00167,2,0,Chase
+60.052,53.501,Normal input slower flight,0.0148,0,0,0.00166,2,0,Chase
+60.153,53.601,Normal input slower flight,0.0140,0,0,0.00168,2,0,Chase
+60.257,53.701,Normal input slower flight,0.0132,0,0,0.00169,2,0,Chase
+60.361,53.801,Normal input slower flight,0.0125,0,0,0.00167,2,0,Chase
+60.462,53.901,Normal input slower flight,0.0118,0,0,0.00168,2,0,Chase
+60.562,54.001,Normal input slower flight,0.0112,0,0,0.00170,2,0,Chase
+60.663,54.101,Normal input slower flight,0.0105,0,0,0.00173,2,0,Chase
+60.766,54.221,Normal input slower flight,0.0100,0,0,0.00172,2,0,Chase
+60.866,54.321,Normal input slower flight,0.0094,0,0,0.00170,2,0,Chase
+60.971,54.421,Normal input slower flight,0.0089,0,0,0.00170,2,0,Chase
+61.074,54.521,Normal input slower flight,0.0084,0,0,0.00170,2,0,Chase
+61.175,54.621,Normal input slower flight,0.0079,0,0,0.00168,2,0,Chase
+61.277,54.721,Normal input slower flight,0.0075,0,0,0.00169,2,0,Chase
+61.381,54.821,Normal input slower flight,0.0071,0,0,0.00167,2,0,Chase
+61.482,54.921,Normal input slower flight,0.0067,0,0,0.00167,2,0,Chase
+61.587,55.041,Normal input slower flight,0.0063,0,0,0.00166,2,0,Chase
+61.689,55.141,Normal input slower flight,0.0060,0,0,0.00168,2,0,Chase
+61.792,55.241,Normal input slower flight,0.0056,0,0,0.00167,2,0,Chase
+61.898,55.341,Normal input slower flight,0.0053,0,0,0.00169,2,0,Chase
+62.001,55.441,Normal input slower flight,0.0050,0,0,0.00171,2,0,Chase
+62.106,55.561,Normal input slower flight,0.0047,0,0,0.00170,2,0,Chase
+62.211,55.661,Normal input slower flight,0.0045,0,0,0.00173,2,0,Chase
+62.316,55.761,Normal input slower flight,0.0042,0,0,0.00171,2,0,Chase
+62.429,55.881,Normal input slower flight,0.0064,1,2,0.00173,2,0,Chase
+62.533,55.981,Normal input slower flight,0.0161,1,2,0.05901,2,0,Chase
+62.636,56.081,Normal input slower flight,0.0229,1,2,0.00557,2,0,Chase
+62.738,56.181,Normal input slower flight,0.0284,1,0,0.00228,2,0,Chase
+62.841,56.281,Normal input slower flight,0.0326,1,0,0.00204,2,0,Chase
+62.949,56.401,Normal input slower flight,0.0356,1,0,0.00918,2,0,Chase
+63.049,56.501,Normal input slower flight,0.0381,1,0,0.00356,2,0,Chase
+63.151,56.601,Normal input slower flight,0.0394,1,0,0.04308,2,0,Chase
+63.254,56.701,Normal input slower flight,0.0576,1,3,0.11856,2,0,DropletContact
+63.358,56.801,Normal input slower flight,0.0732,1,3,0.01890,2,0,DropletContact
+63.460,56.901,Normal input slower flight,0.0848,1,2,0.07235,2,0,DropletContact
+63.562,57.001,Normal input slower flight,0.0942,1,0,0.03440,2,0,DropletContact
+63.667,57.121,Normal input slower flight,0.1001,1,0,0.06567,2,0,DropletContact
+63.769,57.221,Normal input slower flight,0.1226,1,3,0.05129,2,0,DropletContact
+63.871,57.321,Normal input slower flight,0.1419,1,3,0.14819,2,0,Chase
+63.978,57.421,Normal input slower flight,0.1571,1,2,0.07551,2,0,Chase
+64.081,57.521,Normal input slower flight,0.1680,1,0,0.01040,2,0,Chase
+64.188,57.641,Normal input slower flight,0.1748,1,0,0.00389,2,0,Chase
+64.292,57.741,Normal input slower flight,0.1804,1,0,0.00581,2,0,Chase
+64.393,57.841,Normal input slower flight,0.1819,1,0,0.00303,2,0,Chase
+64.496,57.941,Normal input slower flight,0.1829,1,0,0.00147,2,0,Chase
+64.597,58.041,Normal input slower flight,0.1830,1,0,0.06981,2,0,Chase
+64.698,58.141,Normal input slower flight,0.1824,1,0,0.04143,2,0,Chase
+64.801,58.241,Normal input slower flight,0.1817,1,0,0.06001,2,0,Chase
+64.902,58.341,Normal input slower flight,0.1803,1,0,0.06624,2,0,Chase
+65.006,58.461,Normal input slower flight,0.1824,1,2,0.06099,2,0,Chase
+65.111,58.561,Normal input slower flight,0.1861,1,2,0.02069,2,0,Chase
+65.211,58.661,Normal input slower flight,0.1879,1,1,0.01084,2,0,Chase
+65.312,58.761,Normal input slower flight,0.1891,1,0,0.05136,2,0,Chase
+65.414,58.861,Normal input slower flight,0.1885,1,0,0.03608,2,0,Chase
+65.514,58.961,Normal input slower flight,0.1880,1,0,0.03997,2,0,Chase
+65.619,59.061,Normal input slower flight,0.1868,1,0,0.04428,2,0,Chase
+65.720,59.161,Normal input slower flight,0.1854,1,0,0.01319,2,0,Chase
+65.821,59.261,Normal input slower flight,0.1840,1,0,0.08877,2,0,Chase
+65.927,59.381,Normal input slower flight,0.1835,1,2,0.00201,2,0,Chase
+66.027,59.481,Normal input slower flight,0.1928,1,4,0.07666,2,0,Chase
+66.129,59.581,Normal input slower flight,0.2125,1,4,0.01592,2,0,Chase
+66.232,59.681,Normal input slower flight,0.2276,1,2,0.00389,2,0,Chase
+66.337,59.781,Normal input slower flight,0.2388,1,0,0.05971,2,0,Chase
+66.439,59.881,Normal input slower flight,0.2447,1,0,0.08661,2,0,Chase
+66.540,59.981,Normal input slower flight,0.2496,1,0,0.05653,2,0,Chase
+66.648,60.101,Normal input slower flight,0.2497,1,0,0.00216,2,0,Chase
+66.752,60.201,Normal input slower flight,0.2671,1,3,0.06130,2,0,Chase
+66.853,60.301,Normal input slower flight,0.2960,1,5,0.09921,2,0,Chase
+66.957,60.401,Normal input slower flight,0.3187,1,4,0.06539,2,0,Chase
+67.061,60.501,Normal input slower flight,0.3365,1,2,0.02854,2,0,Chase
+67.168,60.621,Normal input slower flight,0.3456,1,0,0.03938,2,0,Chase
+67.271,60.721,Normal input slower flight,0.3717,1,3,0.04392,2,0,Chase
+67.372,60.821,Normal input slower flight,0.3896,1,3,0.01149,2,0,Chase
+67.475,60.921,Normal input slower flight,0.4028,1,2,0.00190,2,0,Chase
+67.577,61.021,Normal input slower flight,0.4114,1,0,0.00170,2,0,Chase
+67.679,61.121,Normal input slower flight,0.4135,1,0,0.00160,2,0,Chase
+67.787,61.241,Normal input slower flight,0.4153,1,0,0.00755,2,0,Chase
+67.892,61.341,Normal input slower flight,0.4139,1,0,0.00261,2,0,Chase
+67.995,61.441,Normal input slower flight,0.4123,1,0,0.00193,2,0,Chase
+68.096,61.541,Normal input slower flight,0.4165,1,3,0.09352,2,0,Chase
+68.200,61.641,Normal input slower flight,0.4242,1,3,0.02221,2,0,Chase
+68.301,61.741,Normal input slower flight,0.4301,1,2,0.00909,2,0,Chase
+68.402,61.841,Normal input slower flight,0.4295,1,0,0.01343,2,0,Chase
+68.507,61.961,Normal input slower flight,0.4327,1,2,0.06447,2,0,Chase
+68.608,62.061,Normal input slower flight,0.4354,1,2,0.01545,2,0,Chase
+68.714,62.161,Normal input slower flight,0.4352,1,1,0.00270,2,0,Chase
+68.817,62.261,Normal input slower flight,0.4345,1,0,0.00364,2,0,Chase
+68.921,62.361,Normal input slower flight,0.4321,1,0,0.00198,2,0,Chase
+69.021,62.461,Normal input slower flight,0.4301,1,1,0.03084,2,0,Chase
+69.127,62.581,Normal input slower flight,0.4268,1,1,0.01559,2,0,Chase
+69.231,62.681,Normal input slower flight,0.4231,0,0,0.00124,2,0,Chase
+69.335,62.781,Normal input slower flight,0.4189,0,0,0.00146,2,0,Chase
+69.435,62.881,Normal input slower flight,0.4152,0,2,0.15787,2,0,Chase
+69.536,62.981,Normal input slower flight,0.4207,0,4,0.10594,2,0,Chase
+69.637,63.081,Normal input slower flight,0.4353,0,5,0.06856,2,0,Chase
+69.738,63.181,Normal input slower flight,0.4513,0,3,0.01666,2,0,Chase
+69.839,63.281,Normal input slower flight,0.4608,0,1,0.00291,2,0,Chase
+69.939,63.381,Normal input slower flight,0.4642,0,0,0.00167,2,0,Chase
+70.040,63.481,Normal input slower flight,0.4672,0,0,0.00171,2,0,Chase
+70.147,63.601,Normal input slower flight,0.4657,0,0,0.00170,2,0,Chase
+70.251,63.701,Normal input slower flight,0.4784,0,3,0.05709,2,0,Chase
+70.352,63.801,Normal input slower flight,0.4855,0,3,0.01630,2,0,Chase
+70.452,63.901,Normal input slower flight,0.4876,0,2,0.00235,2,0,Chase
+70.553,64.001,Normal input slower flight,0.4890,0,0,0.00168,2,0,Chase
+70.656,64.101,Normal input slower flight,0.4870,0,0,0.00167,2,0,Chase
+70.757,64.201,Normal input slower flight,0.4951,0,3,0.17222,2,0,Chase
+70.858,64.301,Normal input slower flight,0.5179,0,5,0.09174,2,0,Chase
+70.960,64.401,Normal input slower flight,0.5366,0,4,0.02352,2,0,Chase
+71.061,64.501,Normal input slower flight,0.5501,0,2,0.00472,2,0,Chase
+71.162,64.601,Normal input slower flight,0.5527,0,0,0.00169,2,0,Chase
+71.267,64.721,Normal input slower flight,0.5756,0,3,0.05747,2,0,Chase
+71.368,64.821,Normal input slower flight,0.5892,0,5,0.15425,2,0,Chase
+71.471,64.921,Normal input slower flight,0.6160,0,6,0.12260,2,0,Chase
+71.574,65.021,Normal input slower flight,0.6447,0,4,0.03549,2,0,Chase
+71.674,65.121,Normal input slower flight,0.6582,0,2,0.00443,2,0,Chase
+71.776,65.221,Normal input slower flight,0.6696,0,0,0.00171,2,0,Chase
+71.877,65.321,Normal input slower flight,0.6709,0,0,0.00169,2,0,Chase
+71.979,65.421,Normal input slower flight,0.6703,0,0,0.00168,2,0,Chase
+72.081,65.521,Normal input slower flight,0.6715,0,2,0.07717,2,0,Chase
+72.183,65.621,Normal input slower flight,0.6852,0,4,0.08049,2,0,Chase
+72.286,65.741,Normal input slower flight,0.7001,0,3,0.02167,2,0,Chase
+72.386,65.841,Normal input slower flight,0.7019,0,2,0.00488,2,0,Chase
+72.487,65.941,Normal input slower flight,0.7021,0,0,0.00169,2,0,Chase
+72.590,66.041,Normal input slower flight,0.7009,0,2,0.00168,2,0,Chase
+72.694,66.141,Normal input slower flight,0.7010,0,2,0.04226,2,0,Chase
+72.794,66.241,Normal input slower flight,0.7011,0,2,0.00860,2,0,Chase
+72.895,66.341,Normal input slower flight,0.6986,0,3,0.16078,2,0,Chase
+72.996,66.441,Normal input slower flight,0.6986,0,2,0.03783,2,0,Chase
+73.098,66.541,Normal input slower flight,0.6970,0,3,0.07052,2,0,Chase
+73.202,66.641,Normal input slower flight,0.7006,0,3,0.03543,2,0,Chase
+73.306,66.761,Normal input slower flight,0.7162,0,3,0.06266,2,0,Chase
+73.409,66.861,Normal input slower flight,0.7209,0,3,0.01371,2,0,Chase
+73.510,66.961,Normal input slower flight,0.7275,0,3,0.09352,2,0,Chase
+73.612,67.061,Normal input slower flight,0.7325,0,2,0.01586,2,0,Chase
+73.715,67.161,Normal input slower flight,0.7323,0,3,0.00414,2,0,Chase
+73.816,67.261,Normal input slower flight,0.7348,0,2,0.10899,2,0,Chase
+73.916,67.361,Normal input slower flight,0.7338,0,2,0.01953,2,0,Chase
+74.018,67.461,Normal input slower flight,0.7330,0,2,0.02576,2,0,Chase
+74.120,67.561,Normal input slower flight,0.7341,0,2,0.02944,2,0,Chase
+74.223,67.661,Normal input slower flight,0.7327,1,1,0.02448,2,0,Chase
+74.329,67.781,Normal input slower flight,0.7304,1,1,0.00322,2,0,Chase
+74.433,67.881,Normal input slower flight,0.7258,1,2,0.00249,2,0,Chase
+74.534,67.981,Normal input slower flight,0.7245,1,2,0.01269,2,0,Chase
+74.636,68.081,Normal input slower flight,0.7226,1,4,0.02054,2,0,Chase
+74.738,68.181,Normal input slower flight,0.7204,1,3,0.01799,2,0,Chase
+74.839,68.281,Normal input slower flight,0.7183,1,3,0.09690,2,0,Chase
+74.942,68.381,Normal input slower flight,0.7218,1,3,0.08996,2,0,Chase
+75.049,68.501,Normal input slower flight,0.7357,1,3,0.02040,2,0,Chase
+75.149,68.601,Normal input slower flight,0.7427,1,4,0.02645,2,0,Chase
+75.251,68.700,Normal input slower flight,0.7501,1,3,0.15319,2,0,Chase
+75.353,68.800,Normal input slower flight,0.7532,1,3,0.06748,2,0,Chase
+75.457,68.900,Normal input slower flight,0.7559,1,2,0.12189,2,0,Chase
+75.557,69.000,Normal input slower flight,0.7659,1,4,0.02687,2,0,Chase
+75.658,69.100,Normal input slower flight,0.7650,1,2,0.15742,2,0,Chase
+75.760,69.200,Normal input slower flight,0.7718,1,4,0.16547,2,0,Chase
+75.863,69.300,Normal input slower flight,0.7799,1,3,0.11885,2,0,Chase
+75.973,69.420,Normal input slower flight,0.8075,1,3,0.03631,2,1,Chase
+76.075,69.520,Normal input slower flight,0.8304,1,1,0.01133,2,1,Chase
+76.177,69.620,Normal input slower flight,0.8382,1,1,0.00481,2,1,Chase
+76.280,69.720,Normal input slower flight,0.8453,1,2,0.00908,2,1,Chase
+76.382,69.820,Normal input slower flight,0.8576,1,4,0.04789,2,1,Chase
+76.488,69.940,Normal input slower flight,0.8680,1,5,0.17788,2,1,Chase
+76.590,70.040,Normal input slower flight,0.8732,1,4,0.00860,2,1,Chase
+76.693,70.140,Normal input slower flight,0.8713,1,2,0.14433,2,1,Chase
+76.796,70.240,Normal input slower flight,0.8774,1,4,0.19986,2,1,Chase
+76.896,70.340,Normal input slower flight,0.8924,1,6,0.06576,2,1,Chase
+76.998,70.440,Normal input slower flight,0.9097,1,4,0.02981,2,1,Chase
+77.100,70.540,Normal input slower flight,0.9225,1,3,0.03289,2,1,Chase
+77.202,70.640,Normal input slower flight,0.9348,1,1,0.00585,2,1,Chase
+77.308,70.760,Normal input slower flight,0.9451,1,2,0.01996,2,1,Chase
+77.410,70.860,Normal input slower flight,0.9548,1,2,0.02044,2,1,Chase
+77.513,70.960,Normal input slower flight,0.9624,1,1,0.04867,2,1,Chase
+77.613,71.060,Normal input slower flight,0.9651,1,1,0.09671,2,1,Chase
+77.717,71.160,Normal input slower flight,0.9698,1,2,0.10341,2,1,Chase
+77.820,71.260,Normal input slower flight,0.9741,1,2,0.01328,2,1,Chase
+77.921,71.360,Normal input slower flight,0.9767,1,2,0.07965,2,1,Chase
+78.023,71.460,Normal input slower flight,0.9806,1,1,0.00448,2,1,Chase
+78.126,71.580,Normal input slower flight,0.9799,1,0,0.04098,2,1,Chase
+78.228,71.680,Normal input slower flight,0.9787,1,0,0.01448,2,1,Chase
+78.329,71.780,Normal input slower flight,0.9765,1,0,0.04992,2,1,Chase
+78.432,71.880,Normal input slower flight,0.9707,1,0,0.00928,2,1,Chase
+78.535,71.980,Normal input slower flight,0.9689,1,2,0.04561,2,1,Chase
+78.639,72.080,Normal input slower flight,0.9630,1,2,0.01378,2,1,Chase
+78.747,72.200,Normal input slower flight,0.9588,1,3,0.04458,2,1,Chase
+78.849,72.300,Normal input slower flight,0.9545,1,2,0.01233,2,1,Chase
+78.951,72.400,Normal input slower flight,0.9486,1,1,0.08126,2,1,Chase
+79.057,72.500,Normal input slower flight,0.9477,0,1,0.13436,3,0,Chase
+79.158,72.600,Normal input slower flight,0.9439,0,1,0.06131,3,0,Chase
+79.259,72.700,Normal input slower flight,0.9403,0,1,0.04048,3,0,Chase
+79.366,72.820,Normal input slower flight,0.9334,0,1,0.03917,3,0,Chase
+79.468,72.920,Normal input slower flight,0.9255,0,1,0.03282,3,0,Chase
+79.568,73.020,Normal input slower flight,0.9197,0,3,0.06200,3,0,Chase
+79.671,73.120,Normal input slower flight,0.9110,0,3,0.03095,3,0,Chase
+79.773,73.220,Normal input slower flight,0.9031,0,2,0.01533,3,0,Chase
+79.876,73.320,Normal input slower flight,0.8924,1,1,0.03173,3,0,Chase
+79.978,73.420,Normal input slower flight,0.8814,1,1,0.00647,3,0,Chase
+80.080,73.520,Normal input slower flight,0.8697,1,1,0.00368,3,0,Chase
+80.187,73.640,Normal input slower flight,0.8560,1,1,0.00406,3,0,Chase
+80.290,73.740,Normal input slower flight,0.8432,1,1,0.00434,3,0,Chase
+80.393,73.840,Normal input slower flight,0.8276,1,1,0.04383,3,0,Chase
+80.496,73.940,Normal input slower flight,0.8141,1,3,0.10646,3,0,Chase
+80.596,74.040,Normal input slower flight,0.8020,1,3,0.16815,3,0,Chase
+80.699,74.140,Normal input slower flight,0.7888,1,3,0.01810,3,0,Chase
+80.802,74.240,Normal input slower flight,0.7769,1,3,0.04736,3,0,Chase
+80.906,74.360,Normal input slower flight,0.7651,1,3,0.03527,3,0,Chase
+81.009,74.460,Normal input slower flight,0.7540,1,3,0.00852,3,0,Chase
+81.111,74.560,Normal input slower flight,0.7410,1,1,0.02494,3,0,Chase
+81.213,74.659,Normal input slower flight,0.7280,1,1,0.01647,3,0,Chase
+81.314,74.759,Normal input slower flight,0.7153,1,1,0.10691,3,0,Chase
+81.415,74.859,Normal input slower flight,0.7012,1,1,0.00570,3,0,Chase
+81.515,74.959,Normal input slower flight,0.6878,1,1,0.02569,3,0,Chase
+81.617,75.059,Normal input slower flight,0.6732,1,1,0.07617,3,0,Chase
+81.718,75.159,Normal input slower flight,0.6589,1,0,0.00254,3,0,Chase
+81.820,75.259,Normal input slower flight,0.6447,1,0,0.00273,3,0,Chase
+81.922,75.359,Normal input slower flight,0.6295,1,0,0.00271,3,0,Chase
+82.027,75.479,Normal input slower flight,0.6151,1,1,0.01853,3,0,Chase
+82.130,75.579,Normal input slower flight,0.6019,1,2,0.11908,3,0,Chase
+82.233,75.679,Normal input slower flight,0.5908,1,2,0.06968,3,0,Chase
+82.333,75.779,Normal input slower flight,0.5801,1,1,0.09426,3,0,Chase
+82.436,75.879,Normal input slower flight,0.5714,1,2,0.10843,3,0,Chase
+82.537,75.979,Normal input slower flight,0.5634,1,2,0.14085,3,0,Chase
+82.639,76.079,Normal input slower flight,0.5538,1,1,0.05556,3,0,Chase
+82.740,76.179,Normal input slower flight,0.5447,1,0,0.05911,3,0,Chase
+82.846,76.299,Normal input slower flight,0.5348,1,0,0.17273,3,0,Chase
+82.949,76.399,Normal input slower flight,0.5241,1,0,0.00724,3,0,Chase
+83.051,76.499,Normal input slower flight,0.5137,1,0,0.04293,3,0,Chase
+83.154,76.599,Normal input slower flight,0.5023,1,0,0.16691,3,0,Chase
+83.256,76.699,Normal input slower flight,0.4916,1,0,0.09438,3,0,Chase
+83.359,76.799,Normal input slower flight,0.4804,1,0,0.01526,3,0,Chase
+83.461,76.899,Normal input slower flight,0.4690,1,0,0.00272,3,0,Chase
+83.567,77.019,Normal input slower flight,0.4579,1,0,0.00660,3,0,Chase
+83.671,77.119,Normal input slower flight,0.4456,1,0,0.01521,3,0,Chase
+83.771,77.219,Normal input slower flight,0.4347,1,0,0.00277,3,0,Chase
+83.874,77.319,Normal input slower flight,0.4227,1,0,0.00941,3,0,Chase
+83.975,77.419,Normal input slower flight,0.4114,1,0,0.01851,3,0,Chase
+84.078,77.519,Normal input slower flight,0.4000,1,0,0.00481,3,0,Chase
+84.179,77.619,Normal input slower flight,0.3909,1,2,0.05549,3,0,Chase
+84.283,77.719,Normal input slower flight,0.3828,1,2,0.01080,3,0,Chase
+84.390,77.839,Normal input slower flight,0.3738,1,1,0.03215,3,0,Chase
+84.492,77.939,Normal input slower flight,0.3651,1,0,0.01061,3,0,Chase
+84.595,78.039,Normal input slower flight,0.3564,1,0,0.01061,3,0,Chase
+84.697,78.139,Normal input slower flight,0.3475,1,0,0.00624,3,0,Chase
+84.797,78.239,Normal input slower flight,0.3392,1,0,0.00975,3,0,Chase
+84.899,78.339,Normal input slower flight,0.3298,1,0,0.01930,3,0,Chase
+85.011,78.459,Normal input slower flight,0.3204,1,0,0.03128,3,0,Chase
+85.112,78.559,Normal input slower flight,0.3110,1,0,0.01179,3,0,Chase
+85.212,78.659,Normal input slower flight,0.3021,1,0,0.01336,3,0,Chase
+85.315,78.759,Normal input slower flight,0.2934,1,0,0.04033,3,0,Chase
+85.418,78.859,Normal input slower flight,0.2843,1,0,0.02801,3,0,Chase
+85.522,78.959,Normal input slower flight,0.2757,1,0,0.02068,3,0,Chase
+85.626,79.079,Normal input slower flight,0.2670,1,0,0.00242,3,0,Chase
+85.727,79.179,Normal input slower flight,0.2585,1,0,0.00669,3,0,Chase
+85.829,79.279,Normal input slower flight,0.2503,1,0,0.02061,3,0,Chase
+85.930,79.379,Normal input slower flight,0.2420,1,0,0.01397,3,0,Chase
+86.032,79.479,Normal input slower flight,0.2340,0,0,0.00119,3,0,Chase
+86.132,79.579,Normal input slower flight,0.2263,0,0,0.00140,3,0,Chase
+86.236,79.679,Normal input slower flight,0.2186,0,0,0.00168,3,0,Chase
+86.339,79.779,Normal input slower flight,0.2111,0,0,0.00166,3,0,Chase
+86.441,79.879,Normal input slower flight,0.2037,0,0,0.00168,3,0,Chase
+86.542,79.979,Normal input slower flight,0.1969,0,0,0.00170,3,0,Chase
+86.647,80.099,Normal input slower flight,0.1897,0,0,0.00172,3,0,Chase
+86.750,80.199,Normal input slower flight,0.1829,0,0,0.00169,3,0,Chase
+86.854,80.299,Normal input slower flight,0.1759,0,0,0.00171,3,0,Chase
+86.957,80.399,Normal input slower flight,0.1691,0,0,0.00174,3,0,Chase
+87.058,80.499,Normal input slower flight,0.1629,0,0,0.00173,3,0,Chase
+87.161,80.598,Normal input slower flight,0.1565,0,0,0.00172,3,0,Chase
+87.266,80.718,Normal input slower flight,0.1507,0,0,0.00169,3,0,Chase
+87.373,80.818,Normal input slower flight,0.1445,0,0,0.00168,3,0,Chase
+87.478,80.918,Normal input slower flight,0.1386,0,0,0.00168,3,0,Chase
+87.579,81.018,Normal input slower flight,0.1333,0,0,0.00167,3,0,Chase
+87.681,81.118,Normal input slower flight,0.1281,0,0,0.00168,3,0,Chase
+87.787,81.238,Normal input slower flight,0.1231,0,0,0.00168,3,0,Chase
+87.890,81.338,Normal input slower flight,0.1183,0,0,0.00166,3,0,Chase
+87.992,81.438,Normal input slower flight,0.1137,0,0,0.00167,3,0,Chase
+88.094,81.538,Normal input slower flight,0.1092,0,0,0.00169,3,0,Chase
+88.194,81.638,Normal input slower flight,0.1050,0,0,0.00172,3,0,Chase
+88.298,81.738,Normal input slower flight,0.1009,0,0,0.00173,3,0,Chase
+88.398,81.838,Normal input slower flight,0.0968,0,0,0.00171,3,0,Chase
+88.498,81.938,Normal input slower flight,0.0930,0,0,0.00174,3,0,Chase
+88.601,82.038,Normal input slower flight,0.0892,0,0,0.00173,3,0,Chase
+88.702,82.138,Normal input slower flight,0.0855,0,0,0.00172,3,0,Chase
+88.803,82.238,Normal input slower flight,0.0820,0,0,0.00167,3,0,Chase
+88.908,82.358,Normal input slower flight,0.0785,0,0,0.00168,3,0,Chase
+89.008,82.458,Normal input slower flight,0.0753,0,0,0.00167,3,0,Chase
+89.108,82.558,Normal input slower flight,0.0722,0,0,0.00167,3,0,Chase
+89.215,82.658,Normal input slower flight,0.0690,0,0,0.00168,3,0,Chase
+89.318,82.758,Normal input slower flight,0.0661,0,0,0.00168,3,0,Chase
+89.420,82.858,Normal input slower flight,0.0633,0,0,0.00167,3,0,Chase
+89.521,82.958,Normal input slower flight,0.0607,0,0,0.00166,3,0,Chase
+89.626,83.078,Normal input slower flight,0.0582,0,0,0.00169,3,0,Chase
+89.727,83.178,Normal input slower flight,0.0558,0,0,0.00172,3,0,Chase
+89.830,83.278,Normal input slower flight,0.0534,0,0,0.00168,3,0,Chase
+89.932,83.378,Normal input slower flight,0.0512,0,0,0.00171,3,0,Chase
+90.034,83.478,Normal input slower flight,0.0491,0,0,0.00170,3,0,Chase
+90.134,83.578,Normal input slower flight,0.0469,0,0,0.00173,3,0,Chase
+90.238,83.678,Normal input slower flight,0.0448,0,0,0.00173,3,0,Chase
+90.340,83.778,Normal input slower flight,0.0427,0,0,0.00169,3,0,Chase
+90.448,83.898,Normal input slower flight,0.0406,0,0,0.00168,3,0,Chase
+90.552,83.998,Normal input slower flight,0.0385,0,0,0.00165,3,0,Chase
+90.656,84.098,Normal input slower flight,0.0366,0,0,0.00167,3,0,Chase
+90.756,84.198,Normal input slower flight,0.0349,0,0,0.00168,3,0,Chase
+90.857,84.298,Normal input slower flight,0.0332,0,0,0.00165,3,0,Chase
+90.958,84.398,Normal input slower flight,0.0316,0,0,0.00167,3,0,Chase
+91.062,84.498,Normal input slower flight,0.0301,0,0,0.00168,3,0,Chase
+91.163,84.598,Normal input slower flight,0.0286,0,0,0.00170,3,0,Chase
+91.269,84.718,Normal input slower flight,0.0272,0,0,0.00170,3,0,Chase
+91.374,84.818,Normal input slower flight,0.0259,0,0,0.00170,3,0,Chase
+91.474,84.918,Normal input slower flight,0.0246,0,0,0.00171,3,0,Chase
+91.575,85.018,Normal input slower flight,0.0235,0,0,0.00170,3,0,Chase
+91.678,85.118,Normal input slower flight,0.0223,0,0,0.00172,3,0,Chase
+91.780,85.218,Normal input slower flight,0.0213,0,0,0.00173,3,0,Chase
+91.882,85.318,Normal input slower flight,0.0203,0,0,0.00169,3,0,Chase
+91.986,85.438,Normal input slower flight,0.0193,0,0,0.00170,3,0,Chase
+92.088,85.538,Normal input slower flight,0.0183,0,0,0.00165,3,0,Chase
+92.189,85.638,Normal input slower flight,0.0173,0,0,0.00167,3,0,Chase
+92.291,85.738,Normal input slower flight,0.0164,0,0,0.00166,3,0,Chase
+92.391,85.838,Normal input slower flight,0.0155,0,0,0.00165,3,0,Chase
+92.492,85.938,Normal input slower flight,0.0146,0,0,0.00167,3,0,Chase
+92.595,86.038,Normal input slower flight,0.0138,0,0,0.00168,3,0,Chase
+92.697,86.138,Normal input slower flight,0.0131,0,0,0.00170,3,0,Chase
+92.797,86.238,Normal input slower flight,0.0124,0,0,0.00170,3,0,Chase
+92.898,86.338,Normal input slower flight,0.0117,0,0,0.00170,3,0,Chase
+93.001,86.438,Normal input slower flight,0.0110,0,0,0.00171,3,0,Chase
+93.103,86.537,Normal input slower flight,0.0104,0,0,0.00170,3,0,Chase
+93.207,86.657,Normal input slower flight,0.0099,0,0,0.00172,3,0,Chase
+93.307,86.757,Normal input slower flight,0.0093,0,0,0.00173,3,0,Chase
+93.411,86.857,Normal input slower flight,0.0088,0,0,0.00169,3,0,Chase
+93.515,86.957,Normal input slower flight,0.0083,0,0,0.00170,3,0,Chase
+93.618,87.057,Normal input slower flight,0.0078,0,0,0.00165,3,0,Chase
+93.719,87.157,Normal input slower flight,0.0074,0,0,0.00166,3,0,Chase
+93.819,87.257,Normal input slower flight,0.0070,0,0,0.00166,3,0,Chase
+93.921,87.357,Normal input slower flight,0.0066,0,0,0.00165,3,0,Chase
+94.022,87.457,Normal input slower flight,0.0063,0,0,0.00169,3,0,Chase
+94.127,87.577,Normal input slower flight,0.0059,0,0,0.00168,3,0,Chase
+94.228,87.677,Normal input slower flight,0.0056,0,0,0.00167,3,0,Chase
+94.329,87.777,Normal input slower flight,0.0053,0,0,0.00170,3,0,Chase
+94.432,87.877,Normal input slower flight,0.0050,0,0,0.00171,3,0,Chase
+94.535,87.977,Normal input slower flight,0.0047,0,0,0.00173,3,0,Chase
+94.639,88.077,Normal input slower flight,0.0044,0,0,0.00171,3,0,Chase
+94.741,88.177,Normal input slower flight,0.0042,0,0,0.00172,3,0,Chase
+94.843,88.277,Normal input slower flight,0.0040,0,0,0.00173,3,0,Chase
+94.950,88.397,Normal input slower flight,0.0037,0,0,0.00169,3,0,Chase
+95.050,88.497,Normal input slower flight,0.0121,1,2,0.05865,3,0,Attacker
+95.156,88.597,Normal input slower flight,0.0199,1,2,0.00736,3,0,Attacker
+95.256,88.697,Normal input slower flight,0.0325,1,4,0.08175,3,0,Attacker
+95.357,88.797,Normal input slower flight,0.0534,1,3,0.02172,3,0,Attacker
+95.458,88.897,Normal input slower flight,0.0697,1,3,0.00379,3,0,Attacker
+95.560,88.997,Normal input slower flight,0.0831,1,0,0.12125,3,0,Attacker
+95.661,89.097,Normal input slower flight,0.0922,1,0,0.00270,3,0,Attacker
+95.768,89.217,Normal input slower flight,0.1054,1,3,0.16208,3,0,Attacker
+95.872,89.317,Normal input slower flight,0.1297,1,3,0.02139,3,0,Chase
+95.976,89.417,Normal input slower flight,0.1479,1,3,0.07294,3,0,Chase
+96.078,89.517,Normal input slower flight,0.1615,1,0,0.08020,3,0,Chase
+96.180,89.617,Normal input slower flight,0.1704,1,0,0.03147,3,0,Chase
+96.283,89.717,Normal input slower flight,0.1778,1,0,0.00244,3,0,Chase
+96.386,89.837,Normal input slower flight,0.1810,1,0,0.00195,3,0,Chase
+96.491,89.937,Normal input slower flight,0.1833,1,0,0.05179,3,0,Chase
+96.592,90.037,Normal input slower flight,0.1842,1,0,0.09334,3,0,Chase
+96.693,90.137,Normal input slower flight,0.1838,1,0,0.09049,3,0,Chase
+96.796,90.237,Normal input slower flight,0.1834,1,0,0.17104,3,0,Chase
+96.897,90.337,Normal input slower flight,0.1821,1,0,0.01222,3,0,Chase
+97.003,90.437,Normal input slower flight,0.1809,1,0,0.10798,3,0,Chase
+97.107,90.557,Normal input slower flight,0.1828,1,2,0.13790,3,0,Chase
+97.210,90.657,Normal input slower flight,0.1859,1,2,0.05838,3,0,Chase
+97.311,90.757,Normal input slower flight,0.1882,1,1,0.16381,3,0,Chase
+97.412,90.857,Normal input slower flight,0.1879,1,0,0.12784,3,0,Chase
+97.516,90.957,Normal input slower flight,0.1876,1,0,0.07406,3,0,Chase
+97.619,91.057,Normal input slower flight,0.1866,1,0,0.00626,3,0,Chase
+97.720,91.157,Normal input slower flight,0.1855,1,0,0.00493,3,0,Chase
+97.827,91.277,Normal input slower flight,0.1842,1,0,0.00189,3,0,Chase
+97.927,91.377,Normal input slower flight,0.1824,1,0,0.01517,3,0,Chase
+98.029,91.477,Normal input slower flight,0.1806,1,0,0.01313,3,0,Chase
+98.129,91.577,Normal input slower flight,0.1860,0,3,0.08330,3,0,Chase
+98.231,91.677,Normal input slower flight,0.1987,0,3,0.02469,3,0,Chase
+98.331,91.777,Normal input slower flight,0.2074,0,2,0.00479,3,0,Chase
+98.435,91.877,Normal input slower flight,0.2122,0,0,0.00168,3,0,Chase
+98.536,91.977,Normal input slower flight,0.2161,0,0,0.00168,3,0,Chase
+98.638,92.077,Normal input slower flight,0.2162,0,0,0.00169,3,0,Chase
+98.738,92.177,Normal input slower flight,0.2161,0,0,0.00169,3,0,Chase
+98.841,92.277,Normal input slower flight,0.2155,0,0,0.00167,3,0,Chase
+98.947,92.397,Normal input slower flight,0.2279,0,3,0.07223,3,0,Chase
+99.049,92.496,Normal input slower flight,0.2412,0,3,0.02034,3,0,Chase
+99.151,92.596,Normal input slower flight,0.2510,0,4,0.15646,3,0,Chase
+99.253,92.696,Normal input slower flight,0.2662,0,2,0.02737,3,0,Chase
+99.357,92.796,Normal input slower flight,0.2758,0,2,0.00512,3,0,Chase
+99.458,92.896,Normal input slower flight,0.3046,0,4,0.11714,3,0,Chase
+99.562,92.996,Normal input slower flight,0.3341,0,4,0.01892,3,0,Chase
+99.667,93.116,Normal input slower flight,0.3520,0,3,0.00430,3,0,Chase
+99.767,93.216,Normal input slower flight,0.3666,0,0,0.00170,3,0,Chase
+99.871,93.316,Normal input slower flight,0.3743,0,0,0.00169,3,0,Chase
+99.971,93.416,Normal input slower flight,0.3856,0,2,0.05954,3,0,Chase
+100.073,93.516,Normal input slower flight,0.3964,0,2,0.00821,3,0,Chase
+100.175,93.616,Normal input slower flight,0.4034,0,4,0.00281,3,0,Chase
+100.278,93.716,Normal input slower flight,0.4271,0,3,0.05787,3,0,Chase
+100.381,93.816,Normal input slower flight,0.4394,0,3,0.01123,3,0,Chase
+100.487,93.936,Normal input slower flight,0.4483,0,0,0.00186,3,0,Chase
+100.591,94.036,Normal input slower flight,0.4528,0,0,0.00168,3,0,Chase
+100.694,94.136,Normal input slower flight,0.4525,0,1,0.00171,3,0,Chase
+100.797,94.236,Normal input slower flight,0.4526,0,1,0.02596,3,0,Chase
+100.898,94.336,Normal input slower flight,0.4503,0,1,0.00555,3,0,Chase
+100.998,94.436,Normal input slower flight,0.4482,0,0,0.00170,3,0,Chase
+101.106,94.556,Normal input slower flight,0.4450,0,0,0.00169,3,0,Chase
+101.208,94.656,Normal input slower flight,0.4412,0,2,0.00168,3,0,Chase
+101.311,94.756,Normal input slower flight,0.4402,0,2,0.05548,3,0,Chase
+101.411,94.856,Normal input slower flight,0.4376,0,2,0.00994,3,0,Chase
+101.512,94.956,Normal input slower flight,0.4349,0,1,0.00232,3,0,Chase
+101.614,95.056,Normal input slower flight,0.4311,0,0,0.00168,3,0,Chase
+101.716,95.156,Normal input slower flight,0.4269,0,0,0.00170,3,0,Chase
+101.819,95.256,Normal input slower flight,0.4335,0,3,0.05751,3,0,Chase
+101.920,95.356,Normal input slower flight,0.4337,0,3,0.01067,3,0,Chase
+102.021,95.456,Normal input slower flight,0.4339,0,2,0.00226,3,0,Chase
+102.122,95.556,Normal input slower flight,0.4323,0,0,0.00170,3,0,Chase
+102.228,95.676,Normal input slower flight,0.4348,0,2,0.03848,3,0,Chase
+102.331,95.776,Normal input slower flight,0.4467,0,4,0.07595,3,0,Chase
+102.431,95.876,Normal input slower flight,0.4598,0,3,0.01941,3,0,Chase
+102.532,95.976,Normal input slower flight,0.4704,0,2,0.00472,3,0,Chase
+102.633,96.076,Normal input slower flight,0.4720,0,0,0.00167,3,0,Chase
+102.737,96.176,Normal input slower flight,0.4726,0,0,0.00167,3,0,Chase
+102.840,96.276,Normal input slower flight,0.4718,0,0,0.00167,3,0,Chase
+102.942,96.376,Normal input slower flight,0.4723,0,2,0.10150,3,0,Chase
+103.046,96.496,Normal input slower flight,0.4821,1,6,0.18107,3,0,Chase
+103.148,96.596,Normal input slower flight,0.5026,1,5,0.02913,3,0,Chase
+103.248,96.696,Normal input slower flight,0.5193,1,4,0.00760,3,0,Chase
+103.350,96.796,Normal input slower flight,0.5478,1,4,0.10290,3,0,Chase
+103.451,96.896,Normal input slower flight,0.5745,1,4,0.01765,3,0,Chase
+103.553,96.996,Normal input slower flight,0.5983,1,6,0.00414,3,0,Chase
+103.653,97.096,Normal input slower flight,0.6234,1,3,0.03069,3,0,Chase
+103.754,97.196,Normal input slower flight,0.6443,1,3,0.00780,3,0,Chase
+103.857,97.296,Normal input slower flight,0.6671,1,5,0.18445,3,0,Chase
+103.959,97.396,Normal input slower flight,0.6902,1,3,0.13189,3,0,Chase
+104.062,97.496,Normal input slower flight,0.7077,1,2,0.09713,3,0,Chase
+104.167,97.616,Normal input slower flight,0.7221,1,2,0.10664,3,0,Chase
+104.270,97.716,Normal input slower flight,0.7340,1,2,0.01882,3,0,Chase
+104.374,97.816,Normal input slower flight,0.7366,1,2,0.04799,3,0,Chase
+104.474,97.916,Normal input slower flight,0.7364,1,1,0.08596,3,0,Chase
+104.575,98.016,Normal input slower flight,0.7351,1,0,0.08760,3,0,Chase
+104.678,98.116,Normal input slower flight,0.7312,1,0,0.02879,3,0,Chase
+104.780,98.216,Normal input slower flight,0.7275,1,0,0.00218,3,0,Chase
+104.880,98.316,Normal input slower flight,0.7213,1,0,0.00179,3,0,Chase
+104.981,98.416,Normal input slower flight,0.7147,1,0,0.00221,3,0,Chase
+105.082,98.515,Normal input slower flight,0.7075,1,0,0.02947,3,0,Chase
+105.182,98.615,Normal input slower flight,0.6987,1,0,0.03531,3,0,Chase
+105.283,98.715,Normal input slower flight,0.6904,1,0,0.01687,3,0,Chase
+105.389,98.835,Normal input slower flight,0.6824,1,4,0.19056,3,0,Chase
+105.492,98.935,Normal input slower flight,0.6878,1,5,0.07237,3,0,Chase
+105.593,99.035,Normal input slower flight,0.6909,1,5,0.05729,3,0,Chase
+105.696,99.135,Normal input slower flight,0.6893,1,1,0.00308,3,0,Chase
+105.798,99.235,Normal input slower flight,0.6919,1,2,0.06922,3,0,Chase
+105.899,99.335,Normal input slower flight,0.6899,1,3,0.11976,3,0,Chase
+106.000,99.435,Normal input slower flight,0.6883,1,2,0.00973,3,0,Chase
+106.103,99.535,Normal input slower flight,0.6847,1,1,0.06284,3,0,Chase
+106.209,99.655,Normal input slower flight,0.6796,1,0,0.02194,3,0,Chase
+106.312,99.755,Normal input slower flight,0.6759,1,2,0.14218,3,0,Chase
+106.415,99.855,Normal input slower flight,0.6717,1,4,0.08331,3,0,Chase
+106.516,99.955,Normal input slower flight,0.6725,1,5,0.08575,3,0,Chase
+106.616,100.055,Normal input slower flight,0.6739,1,4,0.04411,3,0,Chase
+106.719,100.155,Normal input slower flight,0.6840,1,6,0.12954,3,0,Chase
+106.821,100.255,Normal input slower flight,0.6963,1,4,0.06555,3,0,Chase
+106.921,100.355,Normal input slower flight,0.6981,1,3,0.02227,3,0,Chase
+107.028,100.475,Normal input slower flight,0.7197,1,4,0.03060,3,0,Chase
+107.130,100.575,Normal input slower flight,0.7277,1,5,0.08585,3,0,Chase
+107.230,100.675,Normal input slower flight,0.7508,1,6,0.04411,3,0,Chase
+107.333,100.775,Normal input slower flight,0.7743,1,4,0.01025,3,0,Chase
+107.434,100.875,Normal input slower flight,0.7836,1,3,0.01509,3,0,Chase
+107.534,100.975,Normal input slower flight,0.8108,1,3,0.06120,3,0,Chase
+107.637,101.075,Normal input slower flight,0.8218,1,3,0.01422,3,0,Chase
+107.740,101.175,Normal input slower flight,0.8337,1,4,0.06823,3,0,Chase
+107.843,101.275,Normal input slower flight,0.8433,1,2,0.02238,3,0,Chase
+107.943,101.375,Normal input slower flight,0.8600,1,2,0.08071,3,1,Chase
+108.049,101.495,Normal input slower flight,0.8838,1,2,0.05079,3,1,Chase
+108.151,101.595,Normal input slower flight,0.8919,1,2,0.04033,3,1,Chase
+108.252,101.695,Normal input slower flight,0.8982,1,1,0.00636,3,1,Chase
+108.354,101.795,Normal input slower flight,0.8990,1,1,0.00266,3,1,Chase
+108.455,101.895,Normal input slower flight,0.8960,1,1,0.01670,3,1,Chase
+108.557,101.995,Normal input slower flight,0.8926,1,1,0.00603,3,1,Chase
+108.658,102.095,Normal input slower flight,0.8857,1,1,0.00216,3,1,Chase
+108.760,102.195,Normal input slower flight,0.8811,1,3,0.03128,3,1,Chase
+108.861,102.295,Normal input slower flight,0.8753,1,3,0.00934,3,1,Chase
+108.967,102.415,Normal input slower flight,0.8683,0,2,0.00226,3,1,Chase
+109.069,102.515,Normal input slower flight,0.8655,0,3,0.10975,3,1,Chase
+109.170,102.615,Normal input slower flight,0.8625,0,3,0.03109,3,1,Chase
+109.274,102.715,Normal input slower flight,0.8837,0,5,0.09403,3,2,Chase
+109.374,102.815,Normal input slower flight,0.8979,0,3,0.03030,3,2,Chase
+109.477,102.915,Normal input slower flight,0.9136,0,4,0.08620,3,2,Chase
+109.581,103.015,Normal input slower flight,0.9285,0,6,0.12346,3,3,Chase
+109.687,103.135,Normal input slower flight,0.9407,0,5,0.02852,3,3,Chase
+109.788,103.235,Normal input slower flight,0.9506,0,3,0.00697,3,3,Chase
+109.889,103.335,Normal input slower flight,0.9589,0,3,0.10499,3,3,Chase
+109.990,103.435,Normal input slower flight,0.9658,0,5,0.13465,3,3,Chase
+110.091,103.535,Normal input slower flight,0.9717,0,5,0.03280,3,3,Chase
+110.192,103.635,Normal input slower flight,0.9765,0,3,0.00615,3,3,Chase
+110.293,103.735,Normal input slower flight,0.9804,0,1,0.00175,3,3,Chase
+110.396,103.835,Normal input slower flight,0.9838,0,1,0.00170,3,3,Chase
+110.499,103.935,Normal input slower flight,0.9865,0,1,0.00167,3,3,Chase
+110.599,104.035,Normal input slower flight,0.9884,0,4,0.16711,3,3,Chase
+110.701,104.135,Normal input slower flight,0.9904,0,3,0.03201,3,3,Chase
+110.806,104.255,Normal input slower flight,0.9920,0,2,0.00514,3,3,Chase
+110.908,104.355,Normal input slower flight,0.9934,0,2,0.08250,3,3,Chase
+111.008,104.455,Normal input slower flight,0.9945,0,2,0.01438,3,3,Chase
+111.111,104.555,Normal input slower flight,0.9954,0,2,0.02117,3,3,Chase
+111.214,104.654,Normal input slower flight,0.9962,0,1,0.00384,3,3,Chase
+111.317,104.754,Normal input slower flight,0.9969,0,1,0.00191,3,3,Chase
+111.419,104.854,Normal input slower flight,0.9974,0,1,0.01859,3,3,Chase
+111.521,104.954,Normal input slower flight,0.9978,0,3,0.43840,5,1,Chase
+111.621,105.054,Normal input slower flight,0.9982,0,2,0.22221,5,1,Chase
+111.727,105.174,Normal input slower flight,0.9985,0,2,0.16246,5,1,Chase
+111.830,105.274,Normal input slower flight,0.9988,0,2,0.07817,5,1,Chase
+111.934,105.374,Normal input slower flight,0.9990,1,2,0.07202,5,1,Chase
+112.035,105.474,Normal input slower flight,0.9992,1,2,0.06316,5,1,Chase
+112.136,105.574,Normal input slower flight,0.9963,1,2,0.01814,5,1,Chase
+112.237,105.674,Normal input slower flight,0.9933,1,2,0.02174,5,1,Chase
+112.337,105.774,Normal input slower flight,0.9886,1,2,0.01483,5,1,Chase
+112.441,105.874,Normal input slower flight,0.9812,1,2,0.03498,5,1,Chase
+112.548,105.994,Normal input slower flight,0.9742,1,2,0.05446,5,1,Chase
+112.649,106.094,Normal input slower flight,0.9632,1,2,0.07807,5,1,Chase
+112.752,106.194,Normal input slower flight,0.9527,1,2,0.00469,5,1,Chase
+112.853,106.294,Normal input slower flight,0.9414,1,2,0.02183,5,1,Chase
+112.955,106.394,Normal input slower flight,0.9278,1,2,0.01458,5,1,Chase
+113.056,106.494,Normal input slower flight,0.9154,1,2,0.05392,5,1,Chase
+113.157,106.594,Normal input slower flight,0.9004,1,2,0.01601,5,1,Chase
+113.261,106.694,Normal input slower flight,0.8858,1,2,0.00208,5,1,Chase
+113.362,106.794,Normal input slower flight,0.8720,0,3,0.06073,6,0,Chase
+113.463,106.894,Normal input slower flight,0.8607,0,3,0.03053,6,0,Chase
+113.568,107.014,Normal input slower flight,0.8491,0,3,0.02089,6,0,Chase
+113.672,107.114,Normal input slower flight,0.8348,0,3,0.01836,6,0,Chase
+113.775,107.214,Normal input slower flight,0.8218,0,3,0.01334,6,0,Chase
+113.878,107.314,Normal input slower flight,0.8071,0,3,0.01368,6,0,Chase
+113.979,107.414,Normal input slower flight,0.7928,0,3,0.00985,6,0,Chase
+114.080,107.514,Normal input slower flight,0.7783,0,3,0.00604,6,0,Chase
+114.182,107.614,Normal input slower flight,0.7625,1,1,0.02483,6,0,Chase
+114.287,107.734,Normal input slower flight,0.7479,1,2,0.02824,6,0,Chase
+114.391,107.834,Normal input slower flight,0.7310,1,2,0.00331,6,0,Chase
+114.492,107.934,Normal input slower flight,0.7165,1,3,0.08264,6,0,Chase
+114.592,108.034,Normal input slower flight,0.7039,1,3,0.01730,6,0,Chase
+114.695,108.134,Normal input slower flight,0.6901,1,3,0.11657,6,0,Chase
+114.796,108.234,Normal input slower flight,0.6775,1,2,0.03148,6,0,Chase
+114.899,108.334,Normal input slower flight,0.6628,1,2,0.04128,6,0,Chase
+115.007,108.454,Normal input slower flight,0.6488,1,1,0.05691,6,0,Chase
+115.110,108.554,Normal input slower flight,0.6340,1,1,0.00959,6,0,Chase
+115.210,108.654,Normal input slower flight,0.6196,1,1,0.14154,6,0,Chase
+115.313,108.754,Normal input slower flight,0.6048,1,1,0.09762,6,0,Chase
+115.416,108.854,Normal input slower flight,0.5893,1,1,0.10489,6,0,Chase
+115.518,108.954,Normal input slower flight,0.5749,1,1,0.02378,6,0,Chase
+115.619,109.054,Normal input slower flight,0.5600,1,1,0.01471,6,0,Chase
+115.720,109.154,Normal input slower flight,0.5456,1,1,0.00358,6,0,Chase
+115.822,109.254,Normal input slower flight,0.5312,1,1,0.10532,6,0,Chase
+115.929,109.374,Normal input slower flight,0.5160,1,1,0.14354,6,0,Chase
+116.030,109.474,Normal input slower flight,0.5022,1,0,0.01559,6,0,Chase
+116.132,109.574,Normal input slower flight,0.4871,1,0,0.01749,6,0,Chase
+116.234,109.674,Normal input slower flight,0.4732,1,0,0.05992,6,0,Chase
+116.336,109.774,Normal input slower flight,0.4597,1,0,0.06697,6,0,Chase
+116.438,109.874,Normal input slower flight,0.4462,1,0,0.09925,6,0,Chase
+116.540,109.974,Normal input slower flight,0.4333,1,0,0.08695,6,0,Chase
+116.641,110.074,Normal input slower flight,0.4201,1,0,0.00641,6,0,Chase
+116.746,110.194,Normal input slower flight,0.4075,1,0,0.05014,6,0,Chase
+116.849,110.294,Normal input slower flight,0.3945,1,0,0.00988,6,0,Chase
+116.951,110.374,Normal input slower flight,0.3832,0,0,0.00637,6,0,Chase
+117.052,110.374,Normal input slower flight,0.3832,0,0,0.00000,6,0,Chase
+117.152,110.374,Normal input slower flight,0.3832,0,0,0.00000,6,0,Chase
+117.253,110.374,Normal input slower flight,0.3832,0,0,0.00000,6,0,Chase
+117.813,0.340,Live event stress and interrupted transmission,0.0097,1,0,0.00000,0,1,Chase
+117.920,0.500,Live event stress and interrupted transmission,0.0124,1,0,0.02223,0,1,Chase
+118.024,0.600,Live event stress and interrupted transmission,0.0137,1,0,0.00213,0,1,Chase
+118.131,0.700,Live event stress and interrupted transmission,0.0147,1,0,0.00290,0,1,Chase
+118.241,0.820,Live event stress and interrupted transmission,0.0153,1,0,0.00236,0,1,Chase
+118.346,0.920,Live event stress and interrupted transmission,0.0157,1,0,0.00187,0,1,Chase
+118.454,1.020,Live event stress and interrupted transmission,0.0160,1,0,0.02430,0,1,Chase
+118.556,1.040,Live event stress and interrupted transmission,0.0160,0,0,0.00000,0,1,Chase
+118.660,1.040,Live event stress and interrupted transmission,0.0160,0,0,0.00000,0,1,Chase
+118.765,1.040,Live event stress and interrupted transmission,0.0160,0,0,0.00000,0,1,Chase
+118.868,1.140,Live event stress and interrupted transmission,0.0160,1,0,0.00201,0,1,Chase
+118.972,1.240,Live event stress and interrupted transmission,0.0160,1,0,0.04274,0,1,Chase
+119.074,1.340,Live event stress and interrupted transmission,0.0191,1,0,0.10082,0,1,Chase
+119.175,1.440,Live event stress and interrupted transmission,0.0240,1,0,0.10537,0,1,Chase
+119.280,1.540,Live event stress and interrupted transmission,0.0316,1,0,0.03465,0,1,Chase
+119.387,1.660,Live event stress and interrupted transmission,0.0373,1,0,0.10915,0,1,Chase
+119.492,1.760,Live event stress and interrupted transmission,0.0443,1,0,0.17401,0,1,Chase
+119.594,1.860,Live event stress and interrupted transmission,0.0491,1,0,0.01520,0,1,Chase
+119.700,1.960,Live event stress and interrupted transmission,0.0561,1,0,0.00199,0,1,Chase
+119.800,2.060,Live event stress and interrupted transmission,0.0645,1,0,0.10281,0,1,Chase
+119.909,2.180,Live event stress and interrupted transmission,0.0753,1,0,0.13909,0,1,Chase
+120.012,2.280,Live event stress and interrupted transmission,0.0934,1,0,0.00765,0,1,Chase
+120.117,2.380,Live event stress and interrupted transmission,0.1081,1,0,0.02256,0,1,Chase
+120.220,2.480,Live event stress and interrupted transmission,0.1224,1,0,0.00192,0,1,Chase
+120.327,2.600,Live event stress and interrupted transmission,0.1357,1,0,0.00334,0,1,Chase
+120.430,2.700,Live event stress and interrupted transmission,0.1478,1,0,0.00320,0,1,Chase
+120.536,2.800,Live event stress and interrupted transmission,0.1579,1,0,0.00476,0,1,Chase
+120.638,2.900,Live event stress and interrupted transmission,0.1672,1,0,0.01508,0,1,Chase
+120.739,3.000,Live event stress and interrupted transmission,0.1808,1,0,0.12554,0,1,Chase
+120.844,3.120,Live event stress and interrupted transmission,0.1897,1,0,0.08790,0,1,Chase
+120.947,3.220,Live event stress and interrupted transmission,0.1972,1,0,0.11873,0,1,Chase
+121.055,3.320,Live event stress and interrupted transmission,0.2012,1,0,0.00594,0,1,Chase
+121.160,3.420,Live event stress and interrupted transmission,0.2031,1,0,0.12134,0,1,Chase
+121.264,3.540,Live event stress and interrupted transmission,0.2042,1,0,0.04411,0,1,Chase
+121.365,3.640,Live event stress and interrupted transmission,0.2036,1,0,0.00653,0,1,Chase
+121.467,3.740,Live event stress and interrupted transmission,0.2030,1,0,0.12984,0,1,Chase
+121.574,3.840,Live event stress and interrupted transmission,0.2015,1,0,0.11682,0,1,Chase
+121.675,3.940,Live event stress and interrupted transmission,0.2001,1,0,0.13086,0,1,Chase
+121.776,4.040,Live event stress and interrupted transmission,0.1983,1,0,0.04728,0,1,Chase
+121.877,4.140,Live event stress and interrupted transmission,0.1962,1,0,0.00566,0,1,Chase
+121.978,4.240,Live event stress and interrupted transmission,0.1942,1,0,0.00184,0,1,Chase
+122.085,4.360,Live event stress and interrupted transmission,0.1915,1,0,0.00280,0,1,Chase
+122.193,4.460,Live event stress and interrupted transmission,0.1886,1,0,0.00585,0,1,Chase
+122.297,4.560,Live event stress and interrupted transmission,0.1857,1,0,0.00611,0,1,Chase
+122.404,4.680,Live event stress and interrupted transmission,0.1826,1,0,0.11510,0,1,Chase
+122.510,4.780,Live event stress and interrupted transmission,0.1796,1,0,0.14181,0,1,Chase
+122.618,4.880,Live event stress and interrupted transmission,0.1799,0,1,0.09135,1,0,Chase
+122.725,5.000,Live event stress and interrupted transmission,0.1866,0,1,0.05941,1,0,Chase
+122.831,5.100,Live event stress and interrupted transmission,0.1891,0,1,0.03732,1,0,Chase
+122.936,5.200,Live event stress and interrupted transmission,0.1907,0,1,0.04280,1,0,Chase
+123.036,5.300,Live event stress and interrupted transmission,0.1911,0,1,0.03010,1,0,Chase
+123.144,5.420,Live event stress and interrupted transmission,0.1905,0,1,0.03502,1,0,Chase
+123.245,5.520,Live event stress and interrupted transmission,0.1898,0,1,0.02104,1,0,Chase
+123.346,5.620,Live event stress and interrupted transmission,0.1884,0,1,0.01503,1,0,Chase
+123.448,5.720,Live event stress and interrupted transmission,0.1871,0,1,0.00817,1,0,Chase
+123.554,5.820,Live event stress and interrupted transmission,0.1851,0,1,0.00879,1,0,Chase
+123.664,5.940,Live event stress and interrupted transmission,0.1830,0,1,0.00596,1,0,Chase
+123.764,6.040,Live event stress and interrupted transmission,0.1810,0,1,0.00494,1,0,Chase
+123.868,6.140,Live event stress and interrupted transmission,0.1784,0,1,0.00407,1,0,Chase
+123.969,6.240,Live event stress and interrupted transmission,0.1760,0,1,0.00368,1,0,Chase
+124.071,6.340,Live event stress and interrupted transmission,0.1731,0,1,0.00274,1,0,Chase
+124.199,6.460,Live event stress and interrupted transmission,0.1987,1,6,0.55437,1,200,Penetration
+124.300,6.560,Live event stress and interrupted transmission,0.3232,1,6,0.13040,1,200,Penetration
+124.400,6.660,Live event stress and interrupted transmission,0.4124,1,6,0.02757,1,200,Penetration
+124.505,6.780,Live event stress and interrupted transmission,0.4854,1,6,0.01208,1,200,Penetration
+124.608,6.880,Live event stress and interrupted transmission,0.5359,1,6,0.00549,1,200,Penetration
+124.711,6.980,Live event stress and interrupted transmission,0.5778,1,6,0.00221,1,200,Penetration
+124.816,7.080,Live event stress and interrupted transmission,0.6044,1,6,0.01952,1,200,Penetration
+124.920,7.180,Live event stress and interrupted transmission,0.6224,1,6,0.00301,1,200,Penetration
+125.021,7.280,Live event stress and interrupted transmission,0.6330,1,6,0.04233,1,200,Chase
+125.128,7.400,Live event stress and interrupted transmission,0.6418,1,6,0.10640,1,200,Chase
+125.233,7.500,Live event stress and interrupted transmission,0.7019,1,6,0.13453,1,200,Chase
+125.336,7.600,Live event stress and interrupted transmission,0.7526,1,0,0.04086,1,200,Chase
+125.438,7.700,Live event stress and interrupted transmission,0.7948,1,0,0.11878,1,200,Chase
+125.546,7.820,Live event stress and interrupted transmission,0.8299,1,0,0.12829,1,200,Chase
+125.648,7.920,Live event stress and interrupted transmission,0.8587,1,0,0.03055,1,200,Chase
+125.750,8.020,Live event stress and interrupted transmission,0.8828,1,0,0.00140,1,200,Chase
+125.856,8.120,Live event stress and interrupted transmission,0.9041,1,0,0.10471,1,200,Chase
+125.966,8.240,Live event stress and interrupted transmission,0.9208,1,0,0.13696,1,200,Chase
+126.067,8.340,Live event stress and interrupted transmission,0.9341,1,0,0.00721,1,200,Chase
+126.170,8.440,Live event stress and interrupted transmission,0.9454,1,0,0.03187,1,200,Chase
+126.272,8.540,Live event stress and interrupted transmission,0.9550,1,5,0.22930,6,195,Chase
+126.374,8.640,Live event stress and interrupted transmission,0.9622,1,12,0.37067,20,181,Chase
+126.479,8.740,Live event stress and interrupted transmission,0.9690,1,12,0.19128,26,175,Chase
+126.587,8.860,Live event stress and interrupted transmission,0.9744,1,12,0.12767,35,166,Chase
+126.688,8.960,Live event stress and interrupted transmission,0.9787,1,12,0.19063,42,159,Chase
+126.794,9.060,Live event stress and interrupted transmission,0.9826,1,12,0.20603,48,153,Chase
+126.895,9.160,Live event stress and interrupted transmission,0.9855,1,12,0.14097,53,148,Chase
+126.996,9.260,Live event stress and interrupted transmission,0.9879,1,12,0.19849,56,145,Chase
+127.100,9.360,Live event stress and interrupted transmission,0.9900,1,12,0.12535,63,138,Chase
+127.208,9.480,Live event stress and interrupted transmission,0.9917,1,12,0.18734,70,131,Chase
+127.315,9.580,Live event stress and interrupted transmission,0.9932,1,12,0.06659,74,127,Chase
+127.417,9.680,Live event stress and interrupted transmission,0.9944,1,12,0.07438,81,120,Chase
+127.528,9.800,Live event stress and interrupted transmission,0.9954,1,12,0.15080,87,114,Chase
+127.634,9.900,Live event stress and interrupted transmission,0.9962,1,12,0.17358,95,106,Chase
+127.735,10.000,Live event stress and interrupted transmission,0.9968,1,12,0.18719,101,100,Chase
+127.837,10.100,Live event stress and interrupted transmission,0.9974,1,12,0.14434,113,88,Chase
+127.946,10.220,Live event stress and interrupted transmission,0.9978,1,12,0.04813,122,79,Chase
+128.049,10.320,Live event stress and interrupted transmission,0.9982,1,12,0.04873,130,71,Chase
+128.149,10.420,Live event stress and interrupted transmission,0.9985,1,12,0.02873,135,66,Chase
+128.252,10.520,Live event stress and interrupted transmission,0.9988,1,12,0.01976,139,62,Chase
+128.359,10.620,Live event stress and interrupted transmission,0.9990,1,12,0.01591,145,56,Chase
+128.467,10.740,Live event stress and interrupted transmission,0.9992,1,12,0.30888,153,48,Chase
+128.572,10.840,Live event stress and interrupted transmission,0.9993,1,12,0.16958,161,40,Chase
+128.678,10.940,Live event stress and interrupted transmission,0.9994,1,12,0.14007,167,34,Chase
+128.791,11.060,Live event stress and interrupted transmission,0.9995,1,12,0.10286,174,27,Chase
+128.892,11.160,Live event stress and interrupted transmission,0.9996,1,12,0.17612,183,18,Chase
+128.997,11.260,Live event stress and interrupted transmission,0.9997,1,12,0.23159,193,8,Chase
+129.099,11.360,Live event stress and interrupted transmission,0.9997,0,12,0.08268,198,3,Chase
+129.214,11.480,Live event stress and interrupted transmission,0.9998,0,12,0.06245,201,0,Chase
+129.319,11.580,Live event stress and interrupted transmission,0.9998,0,10,0.03275,201,0,Chase
+129.427,11.700,Live event stress and interrupted transmission,0.9999,0,10,0.04391,201,0,Chase
+129.534,11.800,Live event stress and interrupted transmission,0.9999,0,10,0.03466,201,0,Chase
+129.640,11.900,Live event stress and interrupted transmission,0.9999,0,10,0.03187,201,0,Chase
+129.749,12.020,Live event stress and interrupted transmission,0.9999,0,10,0.01521,201,0,Chase
+129.853,12.120,Live event stress and interrupted transmission,0.9999,1,8,0.03036,201,0,Chase
+129.958,12.220,Live event stress and interrupted transmission,0.9999,1,8,0.02360,201,0,Chase
+130.059,12.320,Live event stress and interrupted transmission,1.0000,1,8,0.00551,201,0,Chase
+130.159,12.420,Live event stress and interrupted transmission,1.0000,1,8,0.02297,201,0,Chase
+130.271,12.540,Aftermath decay,1.0000,1,8,0.07226,201,0,Chase
+130.376,12.640,Aftermath decay,1.0000,1,8,0.00542,201,0,Chase
+130.487,12.760,Aftermath decay,1.0000,1,7,0.04032,201,0,Chase
+130.595,12.860,Aftermath decay,1.0000,1,7,0.05736,201,0,Chase
+130.700,12.960,Aftermath decay,1.0000,1,7,0.03710,201,0,Chase
+130.810,13.080,Aftermath decay,1.0000,1,7,0.00374,201,0,Chase
+130.915,13.180,Aftermath decay,1.0000,1,7,0.04150,201,0,Chase
+131.019,13.280,Aftermath decay,1.0000,1,7,0.06409,201,0,Chase
+131.126,13.400,Aftermath decay,1.0000,1,6,0.01427,201,0,Chase
+131.230,13.500,Aftermath decay,1.0000,1,6,0.00284,201,0,Chase
+131.334,13.600,Aftermath decay,1.0000,1,6,0.00260,201,0,Chase
+131.435,13.700,Aftermath decay,1.0000,1,5,0.00195,201,0,Chase
+131.540,13.800,Aftermath decay,1.0000,1,3,0.14564,201,0,Chase
+131.652,13.920,Aftermath decay,1.0000,1,1,0.13645,201,0,Chase
+131.753,14.020,Aftermath decay,1.0000,1,0,0.08323,201,0,Chase
+131.856,14.120,Aftermath decay,1.0000,1,0,0.14174,201,0,Chase
+131.959,14.220,Aftermath decay,1.0000,1,0,0.00269,201,0,Chase
+132.065,14.340,Aftermath decay,1.0000,1,0,0.06123,201,0,Chase
+132.167,14.440,Aftermath decay,1.0000,1,0,0.05859,201,0,Chase
+132.268,14.540,Aftermath decay,1.0000,1,0,0.06284,201,0,Chase
+132.373,14.640,Aftermath decay,1.0000,1,0,0.12066,201,0,Chase
+132.478,14.740,Aftermath decay,1.0000,1,0,0.07718,201,0,Chase
+132.586,14.860,Aftermath decay,1.0000,1,0,0.01069,201,0,Chase
+132.686,14.960,Aftermath decay,1.0000,1,0,0.06447,201,0,Chase
+132.787,15.060,Aftermath decay,1.0000,1,0,0.08698,201,0,Chase
+132.891,15.160,Aftermath decay,1.0000,1,0,0.00760,201,0,Chase
+132.995,15.260,Aftermath decay,1.0000,1,0,0.05829,201,0,Chase
+133.098,15.360,Aftermath decay,1.0000,1,0,0.07003,201,0,Chase
+133.207,15.480,Aftermath decay,1.0000,1,0,0.02443,201,0,Chase
+133.309,15.580,Aftermath decay,1.0000,1,0,0.04908,201,0,Chase
+133.415,15.680,Aftermath decay,1.0000,1,0,0.00789,201,0,Chase
+133.517,15.780,Aftermath decay,1.0000,1,0,0.00161,201,0,Chase
+133.618,15.880,Aftermath decay,1.0000,1,0,0.00225,201,0,Chase
+133.719,15.980,Aftermath decay,1.0000,1,0,0.00191,201,0,Chase
+133.819,16.080,Aftermath decay,0.9984,1,0,0.00110,201,0,Chase
+133.930,16.200,Aftermath decay,0.9964,1,0,0.02481,201,0,Chase
+134.032,16.300,Aftermath decay,0.9910,1,0,0.05934,201,0,Chase
+134.133,16.400,Aftermath decay,0.9827,1,0,0.03204,201,0,Chase
+134.234,16.500,Aftermath decay,0.9748,1,0,0.00811,201,0,Chase
+134.338,16.600,Aftermath decay,0.9611,1,0,0.00328,201,0,Chase
+134.439,16.700,Aftermath decay,0.9481,1,0,0.04614,201,0,Chase
+134.550,16.820,Aftermath decay,0.9313,1,0,0.00371,201,0,Chase
+134.652,16.920,Aftermath decay,0.9138,1,0,0.01106,201,0,Chase
+134.755,17.020,Aftermath decay,0.8961,1,0,0.00660,201,0,Chase
+134.856,17.120,Aftermath decay,0.8761,1,0,0.01076,201,0,Chase
+134.961,17.220,Aftermath decay,0.8560,1,0,0.03080,201,0,Chase
+135.062,17.320,Aftermath decay,0.8345,1,0,0.01324,201,0,Chase
+135.169,17.440,Aftermath decay,0.8119,1,0,0.00661,201,0,Chase
+135.271,17.540,Aftermath decay,0.7899,1,0,0.00228,201,0,Chase
+135.374,17.640,Aftermath decay,0.7649,1,0,0.00149,201,0,Chase
+135.478,17.740,Aftermath decay,0.7423,1,0,0.00191,201,0,Chase
+135.579,17.840,Aftermath decay,0.7178,1,0,0.01605,201,0,Chase
+135.686,17.960,Aftermath decay,0.6940,1,0,0.01388,201,0,Chase
+135.788,18.060,Aftermath decay,0.6694,0,0,0.00117,201,0,Chase
+135.894,18.160,Aftermath decay,0.6436,0,0,0.00136,201,0,Chase
+135.998,18.260,Aftermath decay,0.6197,0,0,0.00162,201,0,Chase
+136.101,18.360,Aftermath decay,0.5946,0,0,0.00166,201,0,Chase
+136.206,18.480,Aftermath decay,0.5711,0,0,0.00170,201,0,Chase
+136.310,18.580,Aftermath decay,0.5465,0,0,0.00172,201,0,Chase
+136.411,18.680,Aftermath decay,0.5222,0,0,0.00171,201,0,Chase
+136.515,18.780,Aftermath decay,0.4986,0,0,0.00173,201,0,Chase
+136.619,18.880,Aftermath decay,0.4746,0,0,0.00170,201,0,Chase
+136.719,18.980,Aftermath decay,0.4524,0,0,0.00172,201,0,Chase
+136.828,19.100,Aftermath decay,0.4285,0,0,0.00173,201,0,Chase
+136.930,19.200,Aftermath decay,0.4062,0,0,0.00169,201,0,Chase
+137.035,19.300,Aftermath decay,0.3832,0,0,0.00170,201,0,Chase
+137.146,19.420,Aftermath decay,0.3610,0,0,0.00165,201,0,Chase
+137.250,19.520,Aftermath decay,0.3407,0,0,0.00166,201,0,Chase
+137.351,19.620,Aftermath decay,0.3214,0,0,0.00168,201,0,Chase
+137.454,19.720,Aftermath decay,0.3036,0,0,0.00169,201,0,Chase
+137.554,19.820,Aftermath decay,0.2871,0,0,0.00167,201,0,Chase
+137.660,19.920,Aftermath decay,0.2707,0,0,0.00168,201,0,Chase
+137.769,20.040,Aftermath decay,0.2553,0,0,0.00169,201,0,Chase
+137.875,20.140,Aftermath decay,0.2402,0,0,0.00170,201,0,Chase
+137.984,20.260,Aftermath decay,0.2265,0,0,0.00170,201,0,Chase
+138.085,20.360,Aftermath decay,0.2143,0,0,0.00169,201,0,Chase
+138.189,20.460,Aftermath decay,0.2022,0,0,0.00174,201,0,Chase
+138.294,20.560,Aftermath decay,0.1904,0,0,0.00171,201,0,Chase
+138.398,20.660,Aftermath decay,0.1797,0,0,0.00168,201,0,Chase
+138.504,20.780,Aftermath decay,0.1697,0,0,0.00169,201,0,Chase
+138.610,20.880,Aftermath decay,0.1600,0,0,0.00169,201,0,Chase
+138.713,20.980,Aftermath decay,0.1508,0,0,0.00168,201,0,Chase
+138.825,21.100,Aftermath decay,0.1420,0,0,0.00164,201,0,Chase
+138.930,21.200,Aftermath decay,0.1340,0,0,0.00168,201,0,Chase
+139.035,21.300,Aftermath decay,0.1262,0,0,0.00166,201,0,Chase
+139.136,21.400,Aftermath decay,0.1193,0,0,0.00169,201,0,Chase
+139.236,21.500,Aftermath decay,0.1128,0,0,0.00168,201,0,Chase
+139.340,21.600,Aftermath decay,0.1064,0,0,0.00170,201,0,Chase
+139.446,21.720,Aftermath decay,0.1005,0,0,0.00170,201,0,Chase
+139.551,21.820,Aftermath decay,0.0947,0,0,0.00169,201,0,Chase
+139.654,21.920,Aftermath decay,0.0894,0,0,0.00167,201,0,Chase
+139.756,22.020,Aftermath decay,0.0845,0,0,0.00171,201,0,Chase
+139.868,22.140,Aftermath decay,0.0796,0,0,0.00171,201,0,Chase
+139.968,22.240,Aftermath decay,0.0753,0,0,0.00174,201,0,Chase
+140.073,22.340,Aftermath decay,0.0709,0,0,0.00170,201,0,Chase
+140.179,22.440,Aftermath decay,0.0668,0,0,0.00167,201,0,Chase
+140.287,22.560,Aftermath decay,0.0630,0,0,0.00168,201,0,Chase
+140.390,22.660,Aftermath decay,0.0594,0,0,0.00168,201,0,Chase
+140.496,22.760,Aftermath decay,0.0560,0,0,0.00170,201,0,Chase
+140.606,22.880,Aftermath decay,0.0528,0,0,0.00164,201,0,Chase
+140.710,22.980,Aftermath decay,0.0498,0,0,0.00169,201,0,Chase
+140.811,23.080,Aftermath decay,0.0471,0,0,0.00170,201,0,Chase
+140.912,23.180,Aftermath decay,0.0445,0,0,0.00170,201,0,Chase
+141.017,23.280,Aftermath decay,0.0419,0,0,0.00171,201,0,Chase
+141.118,23.380,Aftermath decay,0.0397,0,0,0.00171,201,0,Chase
+141.226,23.500,Aftermath decay,0.0374,0,0,0.00175,201,0,Chase
+141.330,23.600,Aftermath decay,0.0352,0,0,0.00170,201,0,Chase
+141.431,23.700,Aftermath decay,0.0334,0,0,0.00173,201,0,Chase
+141.534,23.800,Aftermath decay,0.0315,0,0,0.00167,201,0,Chase
+141.639,23.900,Aftermath decay,0.0297,0,0,0.00170,201,0,Chase
+141.739,24.000,Aftermath decay,0.0281,0,0,0.00166,201,0,Chase
+141.845,24.120,Aftermath decay,0.0265,0,0,0.00165,201,0,Chase
+141.947,24.220,Aftermath decay,0.0251,0,0,0.00167,201,0,Chase
+142.048,24.320,Aftermath decay,0.0237,0,0,0.00167,201,0,Chase
+142.150,24.420,Aftermath decay,0.0224,0,0,0.00169,201,0,Chase
+142.254,24.520,Aftermath decay,0.0211,0,0,0.00169,201,0,Chase
+142.358,24.620,Aftermath decay,0.0199,0,0,0.00169,201,0,Chase
+142.466,24.740,Aftermath decay,0.0188,0,0,0.00171,201,0,Chase
+142.567,24.840,Aftermath decay,0.0178,0,0,0.00171,201,0,Chase
+142.672,24.940,Aftermath decay,0.0168,0,0,0.00169,201,0,Chase
+142.774,25.040,Aftermath decay,0.0158,0,0,0.00171,201,0,Chase
+142.878,25.140,Aftermath decay,0.0149,0,0,0.00173,201,0,Chase
+142.986,25.260,Aftermath decay,0.0141,0,0,0.00171,201,0,Chase
+143.088,25.360,Aftermath decay,0.0133,0,0,0.00169,201,0,Chase
+143.189,25.460,Aftermath decay,0.0126,0,0,0.00168,201,0,Chase
+143.293,25.560,Aftermath decay,0.0118,0,0,0.00170,201,0,Chase
+143.397,25.660,Aftermath decay,0.0112,0,0,0.00166,201,0,Chase
+143.498,25.760,Aftermath decay,0.0106,0,0,0.00167,201,0,Chase
+143.605,25.880,Aftermath decay,0.0100,0,0,0.00169,201,0,Chase
+143.710,25.980,Aftermath decay,0.0094,0,0,0.00165,201,0,Chase
+143.815,26.080,Aftermath decay,0.0089,0,0,0.00168,201,0,Chase
+143.927,26.200,Aftermath decay,0.0083,0,0,0.00168,201,0,Chase
+144.031,26.300,Aftermath decay,0.0079,0,0,0.00169,201,0,Chase
+144.137,26.400,Aftermath decay,0.0074,0,0,0.00170,201,0,Chase
+144.237,26.500,Aftermath decay,0.0070,0,0,0.00171,201,0,Chase
+144.345,26.620,Aftermath decay,0.0066,0,0,0.00174,201,0,Chase
+144.450,26.720,Aftermath decay,0.0062,0,0,0.00173,201,0,Chase
+144.550,26.820,Aftermath decay,0.0059,0,0,0.00169,201,0,Chase
+144.652,26.920,Aftermath decay,0.0056,0,0,0.00167,201,0,Chase
+144.760,27.020,Aftermath decay,0.0052,0,0,0.00169,201,0,Chase
+144.864,27.140,Aftermath decay,0.0050,0,0,0.00168,201,0,Chase
+144.965,27.240,Aftermath decay,0.0047,0,0,0.00167,201,0,Chase
+145.065,27.340,Aftermath decay,0.0044,0,0,0.00168,201,0,Chase
+145.168,27.440,Aftermath decay,0.0042,0,0,0.00167,201,0,Chase
+145.271,27.540,Aftermath decay,0.0039,0,0,0.00168,201,0,Chase
+145.378,27.640,Aftermath decay,0.0037,0,0,0.00168,201,0,Chase
+145.486,27.760,Aftermath decay,0.0035,0,0,0.00170,201,0,Chase
+145.594,27.860,Aftermath decay,0.0033,0,0,0.00171,201,0,Chase
+145.695,27.960,Aftermath decay,0.0031,0,0,0.00170,201,0,Chase
+145.796,28.060,Aftermath decay,0.0029,0,0,0.00171,201,0,Chase
+145.905,28.180,Aftermath decay,0.0028,0,0,0.00170,201,0,Chase
+146.006,28.280,Aftermath decay,0.0026,0,0,0.00171,201,0,Chase
+146.107,28.380,Aftermath decay,0.0025,0,0,0.00170,201,0,Chase
+146.210,28.480,Aftermath decay,0.0023,0,0,0.00167,201,0,Chase
+146.314,28.580,Aftermath decay,0.0022,0,0,0.00169,201,0,Chase
+146.419,28.680,Aftermath decay,0.0021,0,0,0.00167,201,0,Chase
+146.524,28.800,Aftermath decay,0.0020,0,0,0.00168,201,0,Chase
+146.631,28.900,Aftermath decay,0.0019,0,0,0.00165,201,0,Chase
+146.733,29.000,Aftermath decay,0.0018,0,0,0.00168,201,0,Chase
+146.834,29.100,Aftermath decay,0.0017,0,0,0.00168,201,0,Chase
+146.944,29.220,Aftermath decay,0.0016,0,0,0.00164,201,0,Chase
+147.047,29.320,Aftermath decay,0.0015,0,0,0.00168,201,0,Chase
+147.152,29.420,Aftermath decay,0.0014,0,0,0.00170,201,0,Chase
+147.253,29.520,Aftermath decay,0.0013,0,0,0.00173,201,0,Chase
+147.357,29.620,Aftermath decay,0.0012,0,0,0.00172,201,0,Chase
+147.465,29.740,Aftermath decay,0.0012,0,0,0.00170,201,0,Chase
+147.565,29.840,Aftermath decay,0.0011,0,0,0.00172,201,0,Chase
+147.671,29.940,Aftermath decay,0.0010,0,0,0.00170,201,0,Chase
+147.771,30.041,Aftermath decay,0.0010,0,0,0.00168,201,0,Chase
+147.877,30.141,Aftermath decay,0.0009,0,0,0.00168,201,0,Chase
+147.980,30.241,Aftermath decay,0.0009,0,0,0.00168,201,0,Chase
+148.081,30.341,Aftermath decay,0.0008,0,0,0.00168,201,0,Chase
+148.191,30.461,Aftermath decay,0.0008,0,0,0.00168,201,0,Chase
+148.294,30.561,Aftermath decay,0.0007,0,0,0.00168,201,0,Chase
+148.398,30.661,Aftermath decay,0.0007,0,0,0.00166,201,0,Chase
+148.498,30.761,Aftermath decay,0.0007,0,0,0.00167,201,0,Chase
+148.599,30.861,Aftermath decay,0.0006,0,0,0.00170,201,0,Chase
+148.708,30.981,Aftermath decay,0.0006,0,0,0.00170,201,0,Chase
+148.814,31.081,Aftermath decay,0.0006,0,0,0.00173,201,0,Chase
+148.917,31.181,Aftermath decay,0.0005,0,0,0.00173,201,0,Chase
+149.027,31.301,Aftermath decay,0.0005,0,0,0.00172,201,0,Chase
+149.129,31.401,Aftermath decay,0.0005,0,0,0.00173,201,0,Chase
+149.234,31.501,Aftermath decay,0.0004,0,0,0.00169,201,0,Chase
+149.335,31.601,Aftermath decay,0.0004,0,0,0.00166,201,0,Chase
+149.435,31.701,Aftermath decay,0.0004,0,0,0.00167,201,0,Chase
+149.537,31.801,Aftermath decay,0.0004,0,0,0.00166,201,0,Chase
+149.645,31.921,Aftermath decay,0.0003,0,0,0.00166,201,0,Chase
+149.749,32.021,Aftermath decay,0.0003,0,0,0.00165,201,0,Chase
+149.851,32.121,Aftermath decay,0.0003,0,0,0.00167,201,0,Chase
+149.952,32.221,Aftermath decay,0.0003,0,0,0.00166,201,0,Chase
+150.060,32.321,Aftermath decay,0.0003,0,0,0.00169,201,0,Chase
+150.165,32.441,Aftermath decay,0.0003,0,0,0.00170,201,0,Chase
+150.655,0.000,Full-fleet origin shift,0.0000,0,0,0.00000,0,0,Chase
+151.180,0.340,Three continuous restarts,0.0000,0,0,0.00000,0,0,Chase
+151.665,0.340,Three continuous restarts,0.0000,0,0,0.00000,0,0,Chase
+152.150,0.320,Three continuous restarts,0.0000,0,0,0.00000,0,0,Chase
+152.597,0.020,Results transition,0.0000,0,0,0.00000,0,0,Chase

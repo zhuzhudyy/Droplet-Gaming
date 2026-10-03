@@ -1,0 +1,92 @@
+{"execute": true, "count": 131, "targetSeconds": 1699.64, "maximumCNYPerRequest": "2", "ids": ["Ready_01", "Narrative_01", "Narrative_02", "Narrative_03", "Narrative_04", "BattleLow_01", "BattleLow_02", "BattleMedium_01", "BattleMedium_02", "BattleHigh_01", "BattleHigh_02", "Aftermath_01", "PauseBed_01", "ResultBed_01", "ResultBed_02", "Transition_01", "Transition_02", "Transition_03", "Transition_04", "SpaceTexture_01", "SpaceTexture_02", "SpaceTexture_03", "CabinBed_01", "CabinBed_02", "CabinBed_03", "Cruise_01", "Cruise_02", "BoostLoop_01", "BoostLoop_02", "BoostEnter_01", "BoostEnter_02", "BoostEnter_03", "BoostRelease_01", "BoostRelease_02", "BoostRelease_03", "Brake_01", "Brake_02", "Brake_03", "Turn_01", "Turn_02", "Turn_03", "Recover_01", "Recover_02", "Laser_01", "Laser_02", "Laser_03", "Laser_04", "Laser_05", "Laser_06", "Reflect_01", "Reflect_02", "Reflect_03", "Reflect_04", "Reflect_05", "Reflect_06", "Penetration_01", "Penetration_02", "Penetration_03", "Penetration_04", "Penetration_05", "Penetration_06", "LaserBreach_01", "LaserBreach_02", "LaserBreach_03", "Explosion_01", "Explosion_02", "Explosion_03", "Explosion_04", "Explosion_05", "Explosion_06", "Reactor_01", "Reactor_02", "Reactor_03", "RetreatEngine_01", "RetreatEngine_02", "RetreatEngine_03", "Escape_01", "Escape_02", "DeckSteps_01", "DeckSteps_02", "DeckSteps_03", "Console_01", "Console_02", "Console_03", "Hatch_01", "Hatch_02", "Hatch_03", "Alarm_01", "Alarm_02", "Alarm_03", "Connect_01", "Connect_02", "Connect_03", "Disconnect_01", "Disconnect_02", "Disconnect_03", "Interference_01", "Interference_02", "Interference_03", "Interference_04", "Focus_01", "Focus_02", "Confirm_01", "Confirm_02", "Back_01", "Back_02", "Toggle_01", "Toggle_02", "Slider_01", "Slider_02", "Pause_01", "Resume_01", "Skip_01", "Restart_01", "History_01", "History_02", "Boundary_01", "Boundary_02", "Return_01", "Return_02", "TimeWarning_01", "TimeWarning_02", "Countdown_01", "Countdown_02", "Combo_01", "Combo_02", "Combo_03", "ComboCap_01", "ResultSting_01", "ResultSting_02", "ResultSting_03"]}
+{"generating": "Ready_01", "targetSeconds": 60}
+{"complete": "Ready_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Narrative_01", "targetSeconds": 60}
+{"complete": "Narrative_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Narrative_02", "targetSeconds": 75}
+{"complete": "Narrative_02", "seconds": 75.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Narrative_03", "targetSeconds": 90}
+{"complete": "Narrative_03", "seconds": 90.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Narrative_04", "targetSeconds": 60}
+{"complete": "Narrative_04", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BattleLow_01", "targetSeconds": 60}
+{"complete": "BattleLow_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BattleLow_02", "targetSeconds": 75}
+{"complete": "BattleLow_02", "seconds": 75.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BattleMedium_01", "targetSeconds": 60}
+{"complete": "BattleMedium_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BattleMedium_02", "targetSeconds": 75}
+{"complete": "BattleMedium_02", "seconds": 75.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BattleHigh_01", "targetSeconds": 60}
+{"complete": "BattleHigh_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BattleHigh_02", "targetSeconds": 75}
+{"complete": "BattleHigh_02", "seconds": 75.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Aftermath_01", "targetSeconds": 60}
+{"complete": "Aftermath_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "PauseBed_01", "targetSeconds": 60}
+{"complete": "PauseBed_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "ResultBed_01", "targetSeconds": 60}
+{"complete": "ResultBed_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "ResultBed_02", "targetSeconds": 75}
+{"complete": "ResultBed_02", "seconds": 75.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Transition_01", "targetSeconds": 4}
+{"complete": "Transition_01", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Transition_02", "targetSeconds": 4}
+{"complete": "Transition_02", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Transition_03", "targetSeconds": 4}
+{"complete": "Transition_03", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Transition_04", "targetSeconds": 4}
+{"complete": "Transition_04", "seconds": 4.0, "channels": 2, "clippedSamples": 0}
+{"generating": "SpaceTexture_01", "targetSeconds": 60}
+{"complete": "SpaceTexture_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "SpaceTexture_02", "targetSeconds": 75}
+{"complete": "SpaceTexture_02", "seconds": 75.0, "channels": 2, "clippedSamples": 0}
+{"generating": "SpaceTexture_03", "targetSeconds": 90}
+{"complete": "SpaceTexture_03", "seconds": 90.0, "channels": 2, "clippedSamples": 0}
+{"generating": "CabinBed_01", "targetSeconds": 60}
+{"complete": "CabinBed_01", "seconds": 60.0, "channels": 2, "clippedSamples": 0}
+{"generating": "CabinBed_02", "targetSeconds": 75}
+{"complete": "CabinBed_02", "seconds": 75.0, "channels": 2, "clippedSamples": 0}
+{"generating": "CabinBed_03", "targetSeconds": 90}
+{"complete": "CabinBed_03", "seconds": 90.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Cruise_01", "targetSeconds": 12}
+{"complete": "Cruise_01", "seconds": 12.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Cruise_02", "targetSeconds": 12}
+{"complete": "Cruise_02", "seconds": 12.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostLoop_01", "targetSeconds": 12}
+{"complete": "BoostLoop_01", "seconds": 12.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostLoop_02", "targetSeconds": 12}
+{"complete": "BoostLoop_02", "seconds": 12.0, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostEnter_01", "targetSeconds": 1.5}
+{"complete": "BoostEnter_01", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostEnter_02", "targetSeconds": 1.5}
+{"complete": "BoostEnter_02", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostEnter_03", "targetSeconds": 1.5}
+{"complete": "BoostEnter_03", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostRelease_01", "targetSeconds": 1.5}
+{"complete": "BoostRelease_01", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostRelease_02", "targetSeconds": 1.5}
+{"complete": "BoostRelease_02", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "BoostRelease_03", "targetSeconds": 1.5}
+{"complete": "BoostRelease_03", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "Brake_01", "targetSeconds": 2}
+{"complete": "Brake_01", "seconds": 2.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Brake_02", "targetSeconds": 2}
+{"complete": "Brake_02", "seconds": 2.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Brake_03", "targetSeconds": 2}
+{"complete": "Brake_03", "seconds": 2.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Turn_01", "targetSeconds": 1}
+{"complete": "Turn_01", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Turn_02", "targetSeconds": 1}
+{"complete": "Turn_02", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Turn_03", "targetSeconds": 1}
+{"complete": "Turn_03", "seconds": 1.0, "channels": 2, "clippedSamples": 0}
+{"generating": "Recover_01", "targetSeconds": 1.5}
+{"complete": "Recover_01", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "Recover_02", "targetSeconds": 1.5}
+{"complete": "Recover_02", "seconds": 1.5, "channels": 2, "clippedSamples": 0}
+{"generating": "Laser_01", "targetSeconds": 0.8}
+{"complete": "Laser_01", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Laser_02", "targetSeconds": 0.8}
+{"complete": "Laser_02", "seconds": 0.8, "channels": 2, "clippedSamples": 0}
+{"generating": "Laser_03", "targetSeconds": 0.8}

@@ -1,0 +1,37 @@
+{
+  "id": "ResultSting_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "8ceeb6c8d9d03d918da21d1fd0eaa827b988b63134daf7bd7b7c1463e35d2af2",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/ResultSting_01/job.json",
+  "sourceSha256": "b211e8183045cc13635198ea41478877e0eac7efc7e02ff91ee659343814a4d8",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental mission-result landing with a fully decaying tail. Cleared: restrained resolved brass-like synth chord and one deep dignified impact. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "ResultSting_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 192000,
+    "rate": 48000,
+    "targetSeconds": 4.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 192000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 192000,
+    "linearGain": 0.5764158605758579,
+    "targetLevelDbFS": -7
+  },
+  "qa": {
+    "sha256": "8ceeb6c8d9d03d918da21d1fd0eaa827b988b63134daf7bd7b7c1463e35d2af2",
+    "durationSeconds": 4.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.0005506829029605,
+    "rmsDbFS": -22.85940969533323,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="18" result="Passed" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.1020143">
+  <test-suite type="TestSuite" id="1163" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="122" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.102014" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1156" name="DropletPrototype.Tests.PlayMode.dll" fullname="C:/学习/玩/Unity/Trysolar Drip/Library/ScriptAssemblies/DropletPrototype.Tests.PlayMode.dll" runstate="Runnable" testcasecount="122" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.093510" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="9236" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1157" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="122" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.092007" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1158" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="122" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.090725" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1159" name="PlayMode" fullname="DropletPrototype.Tests.PlayMode" runstate="Runnable" testcasecount="122" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.089508" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1013" name="CinematicShotTests" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.087055" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1024" name="ActualDelayedExplosionSelectsARebasedShotWithoutReplayingDamage" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.ActualDelayedExplosionSelectsARebasedShotWithoutReplayingDamage" methodname="ActualDelayedExplosionSelectsARebasedShotWithoutReplayingDamage" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="347582717" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.051268" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1021" name="AttackerChoosesLitSideWithOcclusionFallback" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.AttackerChoosesLitSideWithOcclusionFallback" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.007013" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1019" name="AttackerChoosesLitSideWithOcclusionFallback(False)" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.AttackerChoosesLitSideWithOcclusionFallback(False)" methodname="AttackerChoosesLitSideWithOcclusionFallback" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="1264263765" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.002980" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1020" name="AttackerChoosesLitSideWithOcclusionFallback(True)" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.AttackerChoosesLitSideWithOcclusionFallback(True)" methodname="AttackerChoosesLitSideWithOcclusionFallback" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="1039353882" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.001182" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1018" name="AuthoritativeHullOcclusionRejectsShotEvenWhenColliderIsStreamedOut" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.AuthoritativeHullOcclusionRejectsShotEvenWhenColliderIsStreamedOut" methodname="AuthoritativeHullOcclusionRejectsShotEvenWhenColliderIsStreamedOut" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="715964801" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.002532" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="DistantPendingExplosionDoesNotSuppressNearbyDropletContact" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.DistantPendingExplosionDoesNotSuppressNearbyDropletContact" methodname="DistantPendingExplosionDoesNotSuppressNearbyDropletContact" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="1154173503" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000552" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="ExpiredAndPreviousGenerationEventsAreDroppedAndNeverQueued" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.ExpiredAndPreviousGenerationEventsAreDroppedAndNeverQueued" methodname="ExpiredAndPreviousGenerationEventsAreDroppedAndNeverQueued" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="2134371933" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000567" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1032" name="HighRenderRateDoesNotMisclassifyModerateFixedStepSteering" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.HighRenderRateDoesNotMisclassifyModerateFixedStepSteering" methodname="HighRenderRateDoesNotMisclassifyModerateFixedStepSteering" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="114931849" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.001486" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1029" name="ListenerStaysAtNormalChasePoseAndPauseDropsTheShot" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.ListenerStaysAtNormalChasePoseAndPauseDropsTheShot" methodname="ListenerStaysAtNormalChasePoseAndPauseDropsTheShot" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="720409062" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.001523" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1030" name="NarrativeListenerFollowsDropletWhenChaseCameraIsDisabled" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.NarrativeListenerFollowsDropletWhenChaseCameraIsDisabled" methodname="NarrativeListenerFollowsDropletWhenChaseCameraIsDisabled" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="650293606" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000712" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="NearbyPendingExplosionReducesCommonEventOpportunityWithoutChangingDeadline" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.NearbyPendingExplosionReducesCommonEventOpportunityWithoutChangingDeadline" methodname="NearbyPendingExplosionReducesCommonEventOpportunityWithoutChangingDeadline" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="2061465486" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.001733" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1028" name="OriginShiftKeepsTheSameSubjectAndRebasesTheCamera" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.OriginShiftKeepsTheSameSubjectAndRebasesTheCamera" methodname="OriginShiftKeepsTheSameSubjectAndRebasesTheCamera" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="1863347084" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000574" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="PenetrationCloseupCannotChangeExplosionDeadlineOrResolveDamage" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.PenetrationCloseupCannotChangeExplosionDeadlineOrResolveDamage" methodname="PenetrationCloseupCannotChangeExplosionDeadlineOrResolveDamage" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="329861395" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000581" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1014" name="RealNotificationPolicyStartsShotWithoutChangingMotorOrDamageAndEnforcesCooldown" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.RealNotificationPolicyStartsShotWithoutChangingMotorOrDamageAndEnforcesCooldown" methodname="RealNotificationPolicyStartsShotWithoutChangingMotorOrDamageAndEnforcesCooldown" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="130051942" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.001238" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="ReflectedLaserHullDamageCannotMasqueradeAsDropletPenetration" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.ReflectedLaserHullDamageCannotMasqueradeAsDropletPenetration" methodname="ReflectedLaserHullDamageCannotMasqueradeAsDropletPenetration" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="208691981" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000450" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1026" name="SameFrameContactCanCompeteWithItsWeaponFiredNotification" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.SameFrameContactCanCompeteWithItsWeaponFiredNotification" methodname="SameFrameContactCanCompeteWithItsWeaponFiredNotification" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="328845224" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000570" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1025" name="SharedOrdinaryOpportunityDoesNotBlockTheActualMajorEvent" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.SharedOrdinaryOpportunityDoesNotBlockTheActualMajorEvent" methodname="SharedOrdinaryOpportunityDoesNotBlockTheActualMajorEvent" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="163241757" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.001256" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1031" name="StrongPlayerTurnAndOffModeDoNotStealControl" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.StrongPlayerTurnAndOffModeDoNotStealControl" methodname="StrongPlayerTurnAndOffModeDoNotStealControl" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="901385596" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000751" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1027" name="SubjectRestoreAndGenerationResetCancelWithoutFollowingReusedObject" fullname="DropletPrototype.Tests.PlayMode.CinematicShotTests.SubjectRestoreAndGenerationResetCancelWithoutFollowingReusedObject" methodname="SubjectRestoreAndGenerationResetCancelWithoutFollowingReusedObject" classname="DropletPrototype.Tests.PlayMode.CinematicShotTests" runstate="Runnable" seed="514981952" result="Passed" start-time="2026-09-29 11:26:30Z" end-time="2026-09-29 11:26:30Z" duration="0.000545" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Skipped:Ignored" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.0479059">
+  <test-suite type="TestSuite" id="1169" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="127" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.047906" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <reason>
+      <message><![CDATA[One or more child tests were ignored]]></message>
+    </reason>
+    <test-suite type="Assembly" id="1162" name="DropletPrototype.Tests.PlayMode.dll" fullname="C:/学习/玩/Unity/Trysolar Drip/Library/ScriptAssemblies/DropletPrototype.Tests.PlayMode.dll" runstate="Runnable" testcasecount="127" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.036733" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
+      <properties>
+        <property name="_PID" value="46700" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <reason>
+        <message><![CDATA[One or more child tests were ignored]]></message>
+      </reason>
+      <test-suite type="TestSuite" id="1163" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="127" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.033520" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
+        <properties />
+        <reason>
+          <message><![CDATA[One or more child tests were ignored]]></message>
+        </reason>
+        <test-suite type="TestSuite" id="1164" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="127" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.031079" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
+          <properties />
+          <reason>
+            <message><![CDATA[One or more child tests were ignored]]></message>
+          </reason>
+          <test-suite type="TestSuite" id="1165" name="PlayMode" fullname="DropletPrototype.Tests.PlayMode" runstate="Runnable" testcasecount="127" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.028535" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
+            <properties />
+            <reason>
+              <message><![CDATA[One or more child tests were ignored]]></message>
+            </reason>
+            <test-suite type="TestFixture" id="1146" name="SeedAudioIntegratedSceneTests" fullname="DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests" classname="DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests" runstate="Runnable" testcasecount="2" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.024619" total="2" passed="0" failed="0" inconclusive="0" skipped="2" asserts="0">
+              <properties>
+                <property name="Category" value="SeedAudioFullScene" />
+              </properties>
+              <reason>
+                <message><![CDATA[One or more child tests were ignored]]></message>
+              </reason>
+              <test-case id="1148" name="NarrativePauseSkipAndThreeRestartsRetainAudioAndGameplayState" fullname="DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests.NarrativePauseSkipAndThreeRestartsRetainAudioAndGameplayState" methodname="NarrativePauseSkipAndThreeRestartsRetainAudioAndGameplayState" classname="DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests" runstate="Runnable" seed="1409331293" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.009779" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <reason>
+                  <message><![CDATA[SetUp : The accepted Seed scene has not yet been authored; run this opt-in suite after integration.]]></message>
+                </reason>
+              </test-case>
+              <test-case id="1147" name="SavedFleetAndSeedCatalogContainAllIndependentRecordedCues" fullname="DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests.SavedFleetAndSeedCatalogContainAllIndependentRecordedCues" methodname="SavedFleetAndSeedCatalogContainAllIndependentRecordedCues" classname="DropletPrototype.Tests.PlayMode.SeedAudioIntegratedSceneTests" runstate="Runnable" seed="323846113" result="Skipped" label="Ignored" start-time="2026-09-29 11:42:46Z" end-time="2026-09-29 11:42:46Z" duration="0.000948" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <reason>
+                  <message><![CDATA[SetUp : The accepted Seed scene has not yet been authored; run this opt-in suite after integration.]]></message>
+                </reason>
+                <output><![CDATA[Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

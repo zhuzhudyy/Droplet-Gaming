@@ -1,0 +1,26 @@
+{
+  "id": "ComboCap_01",
+  "cueId": "ComboCap_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "2c9d8972-8281-45a8-afe8-326fe291d3bc",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Short maximum-multiplier feedback, controlled energy without a victory fanfare. A compact four-note crystalline flourish ending in one firm electronic chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T12:02:38.119058+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "c48923abbce5e6a9c1f925c2405c61311b7e6ff37c49b42c3249eb81ed11391e",
+  "originalDurationSeconds": 0.8,
+  "actualSeconds": 0.8,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T12:02:50.385758+00:00"
+}

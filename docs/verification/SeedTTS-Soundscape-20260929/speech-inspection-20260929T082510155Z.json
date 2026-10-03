@@ -1,0 +1,168 @@
+{
+    "engine":  "Microsoft Speech Recognizer 8.0 for Windows (Chinese Simplified - PRC)",
+    "culture":  "zh-CN",
+    "mode":  "offline_first_utterance_free_dictation_no_prompt_grammar",
+    "generatedAt":  "2026-09-29T08:25:10.1555509Z",
+    "checks":  [
+                   {
+                       "id":  "METAL_R2",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\METAL_R2-56c32663ffa7fb78\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "铿！刺啦——当啷。",
+                       "sha256":  "15c704f7e60496a959021185d17f560471e3cbfc5d0f402ab3adeebc5d66ae60",
+                       "transcript":  "当派当啷",
+                       "segments":  [
+                                        {
+                                            "text":  "当派当啷",
+                                            "confidence":  0.127860576,
+                                            "positionSeconds":  0.21,
+                                            "durationSeconds":  2.04
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "LASER_R3",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\LASER_R3-552948e6390dc0fe\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "咻——滋！",
+                       "sha256":  "6e116888415d2fc87e4581b0e6123fe3a19cf48bbd38a515291603d80e4deebc",
+                       "transcript":  "",
+                       "segments":  [
+
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "EXPLOSION_R1",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R1-23a01abde1cb6edd\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "一次沉重的科幻舰船爆炸，瞬间冲击后低频轰鸣扩散，金属碎片尾音逐渐消失。",
+                       "sha256":  "13b1dc7451af4f1c32df8297846702d24b0b284a6dc9e52ef4905b14586fd806",
+                       "transcript":  "一次沉重的科幻纤尘爆炸春天冲击后低频轰鸣扩散",
+                       "segments":  [
+                                        {
+                                            "text":  "一次沉重的科幻纤尘爆炸春天冲击后低频轰鸣扩散",
+                                            "confidence":  0.200974643,
+                                            "positionSeconds":  0.27999999999999997,
+                                            "durationSeconds":  4.8599999999999994
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "FLIGHT_R1",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R1-bc0f2b05ba2f9122\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "持续稳定的低频电子共振，柔和高频谐波缓慢变化，冷峻、平滑、适合高速飞行循环。",
+                       "sha256":  "4a173347c6cc75120cd3c523a733aac9048dba3328c744a3daea59510f6ce8bd",
+                       "transcript":  "有稳定的低频电子共振州和高频谐波缓慢变化冷峻平滑适合高速飞行循环",
+                       "segments":  [
+                                        {
+                                            "text":  "有稳定的低频电子共振州和高频谐波缓慢变化冷峻平滑适合高速飞行循环",
+                                            "confidence":  0.4001029,
+                                            "positionSeconds":  0.26999999999999996,
+                                            "durationSeconds":  8.52
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "CABIN_R1",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R1-976c460a2b3b5eb0\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "安静舰桥的设备低鸣，远处通风与偶尔细小继电器咔嗒声，稳定且稀疏。",
+                       "sha256":  "a7a287fe82ce4092a423198f287b53d43a315d6d26cf3977630699b5df32828a",
+                       "transcript":  "安庆纤长的设备提名远处通风友爱细小继电器他大声稳定且喜叔",
+                       "segments":  [
+                                        {
+                                            "text":  "安庆纤长的设备提名远处通风友爱细小继电器他大声稳定且喜叔",
+                                            "confidence":  0.206401959,
+                                            "positionSeconds":  0.27999999999999997,
+                                            "durationSeconds":  6.6899999999999995
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "MUSIC_R1",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R1-891f13d2e724c5b0\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "冷峻科幻纯器乐背景，缓慢低音合成器脉冲与稀疏暗色和弦，克制紧张，没有人声。",
+                       "sha256":  "29fd8b6b3954671f5f16fe4f148095441d36a71d23ea859cb74ea8e735f9cbe1",
+                       "transcript":  "冷清科幻纯七月背景缓慢低音合成器脉冲比稀疏暗自和弦克制紧张没有人声",
+                       "segments":  [
+                                        {
+                                            "text":  "冷清科幻纯七月背景缓慢低音合成器脉冲比稀疏暗自和弦克制紧张没有人声",
+                                            "confidence":  0.2993734,
+                                            "positionSeconds":  0.26,
+                                            "durationSeconds":  8.1
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "EXPLOSION_R2",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\EXPLOSION_R2-40f6c43732e32881\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "轰——轰隆隆……",
+                       "sha256":  "0f5f759dc6fbb8331cf40f3c57e42aebf57a700fc05eb1e428e2e7dadef53487",
+                       "transcript":  "阿",
+                       "segments":  [
+                                        {
+                                            "text":  "阿",
+                                            "confidence":  0.5525003,
+                                            "positionSeconds":  0.26,
+                                            "durationSeconds":  1.88
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "FLIGHT_R2",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\FLIGHT_R2-74dcdeff785d681b\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "嗡————————",
+                       "sha256":  "6754ca6842f5db641e670e993e74742a7129107ec1e4ab5776b7b30a5a90fedd",
+                       "transcript":  "",
+                       "segments":  [
+
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "CABIN_R2",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\CABIN_R2-1b1c23abd95f5186\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "嘶————嗒、嗒……",
+                       "sha256":  "0fe44681dd2032572e5349952039822072a88d2b2f0bc0c5488545c0b3bb50f2",
+                       "transcript":  "罢罢",
+                       "segments":  [
+                                        {
+                                            "text":  "罢罢",
+                                            "confidence":  0.5017516,
+                                            "positionSeconds":  2.4699999999999998,
+                                            "durationSeconds":  2.11
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   },
+                   {
+                       "id":  "MUSIC_R2",
+                       "audio":  "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\soundscape-capability-20260929\\MUSIC_R2-a6da6877c0178d23\\voice.wav",
+                       "expectedNonSpeech":  true,
+                       "inputText":  "噔——咚——叮——咚——",
+                       "sha256":  "8c40155623d3a08c7a7f33904b84f3d46ad31d54c87cb53958fd5ff035887c40",
+                       "transcript":  "蹬蹬冰崩",
+                       "segments":  [
+                                        {
+                                            "text":  "蹬蹬冰崩",
+                                            "confidence":  0.640836,
+                                            "positionSeconds":  0.25,
+                                            "durationSeconds":  3.6799999999999997
+                                        }
+                                    ],
+                       "inference":  "Speech recognition is supporting evidence only; empty transcript does not prove non-speech or acceptable quality."
+                   }
+               ]
+}

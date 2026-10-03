@@ -1,0 +1,41 @@
+{
+  "id": "CABIN",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "CABIN",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/CABIN_SERVICE_ACTIVE_397e1ed9/job.json",
+    "sourceSha256": "7fe568913de90abe68e76809006ab3756d77d531091ab46933358d533bfa07c4",
+    "targetSeconds": 20.0,
+    "loop": true,
+    "kind": "representative"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/CABIN_SERVICE_ACTIVE_397e1ed9/job.json",
+  "sourceSha256": "7fe568913de90abe68e76809006ab3756d77d531091ab46933358d533bfa07c4",
+  "sha256": "65836cf04d7372f4d22f19c4f0366c0b0a21e83934cd0deca8800961bb8d3c03",
+  "recipe": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 960000,
+    "rate": 48000,
+    "targetSeconds": 20.0,
+    "representative": true,
+    "startFrame": 0,
+    "usedSourceFrames": 960000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 943200,
+    "linearGain": 3.790651768349051,
+    "targetLevelDbFS": -36
+  },
+  "qa": {
+    "sha256": "65836cf04d7372f4d22f19c4f0366c0b0a21e83934cd0deca8800961bb8d3c03",
+    "durationSeconds": 19.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -22.65425338396775,
+    "rmsDbFS": -36.006923369565,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.000457763671875
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

@@ -1,0 +1,2301 @@
+{
+  "title": "The Open Corridor",
+  "voiceProvenance": "AI synthesized English / Seed-TTS 2.0; original fictional dialogue",
+  "roles": [
+    {
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "speaker": "en_female_dacey_uranus_bigtts"
+    },
+    {
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "speaker": "en_male_tim_uranus_bigtts"
+    },
+    {
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "speaker": "en_female_jane_uranus_bigtts"
+    },
+    {
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "speaker": "en_female_stokie_uranus_bigtts"
+    }
+  ],
+  "narrative": [
+    {
+      "id": "E001",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "今夜，所有公共屏幕都显示着同一幅画面：一个银色光点，无声地越过外层警戒线。",
+      "english": "Tonight, every public screen carries the same picture: a silver point, crossing the outer watch line without a sound.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 8.707416666666667,
+      "time": 0,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.207416666666667,
+          "text": "今夜，所有公共屏幕都显示着同一幅画面：一个银色光点，无声地越过外层警戒线。",
+          "english": "Tonight, every public screen carries the same picture: a silver point, crossing the outer watch line without a sound.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E002",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "市场把它称作机遇，各部称它为事件；在夜半球观看的孩子们，把它叫作星星。",
+      "english": "The markets have named it an opportunity. The ministries call it an incident. Children watching from the night side call it a star.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 10.330416666666666,
+      "time": 8.867416666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.830416666666666,
+          "text": "市场把它称作机遇，各部称它为事件；在夜半球观看的孩子们，把它叫作星星。",
+          "english": "The markets have named it an opportunity. The ministries call it an incident. Children watching from the night side call it a star.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E003",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "我们已学会在行星之间建造城市，却仍向陌生者提出最古老的问题：你能给我们什么？",
+      "english": "We have learned to build cities between planets, and still we ask a stranger the oldest question: what can you give us?",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 8.889416666666667,
+      "time": 19.357833333333332,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.389416666666667,
+          "text": "我们已学会在行星之间建造城市，却仍向陌生者提出最古老的问题：你能给我们什么？",
+          "english": "We have learned to build cities between planets, and still we ask a stranger the oldest question: what can you give us?",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E004",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "民用频道，这里是接触管制。你们的画面存在延迟。请提醒观众：目标尚未回应我们。",
+      "english": "Civil network, this is contact control. Your picture is delayed. Please remind your audience that the object has not acknowledged us.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 8.864166666666666,
+      "time": 28.407249999999998,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.364166666666666,
+          "text": "民用频道，这里是接触管制。你们的画面存在延迟。请提醒观众：目标尚未回应我们。",
+          "english": "Civil network, this is contact control. Your picture is delayed. Please remind your audience that the object has not acknowledged us.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E005",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "人们把那片沉默解释成自己需要的模样：承诺、威胁，或是对手犯错的证明。",
+      "english": "That silence has become whatever people need it to be. A promise, a threat, a proof that their rivals were wrong.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 7.501541666666666,
+      "time": 37.431416666666664,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.001541666666666,
+          "text": "人们把那片沉默解释成自己需要的模样：承诺、威胁，或是对手犯错的证明。",
+          "english": "That silence has become whatever people need it to be. A promise, a threat, a proof that their rivals were wrong.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E006",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "记录在案：沉默只是沉默。我们没有尾气光谱、可辨识标记，也没有内部结构测量。",
+      "english": "For the record, silence is only silence. We have no exhaust spectrum, no readable markings, and no measurement of its interior.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 9.290583333333334,
+      "time": 45.09295833333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.790583333333334,
+          "text": "记录在案：沉默只是沉默。我们没有尾气光谱、可辨识标记，也没有内部结构测量。",
+          "english": "For the record, silence is only silence. We have no exhaust spectrum, no readable markings, and no measurement of its interior.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E007",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "议会已表决同意接待代表团。但截至目前，没有任何证据表明代表团正在到来。",
+      "english": "The assembly has voted to receive a delegation. There is, as yet, no evidence that a delegation is coming.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 8.075833333333334,
+      "time": 54.54354166666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.575833333333334,
+          "text": "议会已表决同意接待代表团。但截至目前，没有任何证据表明代表团正在到来。",
+          "english": "The assembly has voted to receive a delegation. There is, as yet, no evidence that a delegation is coming.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E008",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "我们的船员并不决定新闻标题。他们接受训练，为的是守住一条通道。他们会履行职责。",
+      "english": "Our crews did not choose the headlines. They trained to keep a corridor open, and that is what they will do.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 7.117583333333333,
+      "time": 62.779374999999995,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 6.617583333333333,
+          "text": "我们的船员并不决定新闻标题。他们接受训练，为的是守住一条通道。他们会履行职责。",
+          "english": "Our crews did not choose the headlines. They trained to keep a corridor open, and that is what they will do.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E009",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "两千艘舰船正守着那条通道。每台明亮引擎后，都有一个原本打算下班回家的人。",
+      "english": "Two thousand hulls are holding that corridor. Behind each bright engine is a person who expected to come home after this shift.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 7.500166666666667,
+      "time": 70.05695833333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.000166666666667,
+          "text": "两千艘舰船正守着那条通道。每台明亮引擎后，都有一个原本打算下班回家的人。",
+          "english": "Two thousand hulls are holding that corridor. Behind each bright engine is a person who expected to come home after this shift.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E010",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "公共转播转接舰队接近频道。紧急频段保持畅通。接触目标仍在向内飞行。",
+      "english": "Transferring the public relay to the fleet approach channel. We are keeping the emergency band clear. Contact continues inbound.",
+      "stage": 0,
+      "cameraShot": 0,
+      "direction": "calm",
+      "duration": 11.194416666666667,
+      "time": 77.717125,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.790833333333333,
+          "text": "公共转播转接舰队接近频道。紧急频段保持畅通。接触目标仍在向内飞行。",
+          "english": "Transferring the public relay to the fleet approach channel. We are keeping the emergency band clear. Contact continues inbound.",
+          "role": "comms"
+        },
+        {
+          "time": 9.090833333333332,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E011",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "不明飞行器，这里是边界舰队。你正在进入受控航道。请减速并报告出发地点。",
+      "english": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 10.081666666666667,
+      "time": 89.07154166666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.581666666666667,
+          "text": "不明飞行器，这里是边界舰队。你正在进入受控航道。请减速并报告出发地点。",
+          "english": "Unidentified craft, this is the boundary fleet. You are entering a controlled transit lane. Reduce speed and identify your point of origin.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E012",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "保持阵型，留出接近走廊。任何舰长都不得把明亮反光误判为武器发射。",
+      "english": "Hold formation. Keep the approach corridor open. No captain is to mistake a bright reflection for a weapon discharge.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 8.301458333333333,
+      "time": 99.31320833333334,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.801458333333334,
+          "text": "保持阵型，留出接近走廊。任何舰长都不得把明亮反光误判为武器发射。",
+          "english": "Hold formation. Keep the approach corridor open. No captain is to mistake a bright reflection for a weapon discharge.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E013",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "我们可以提供导航参照与安全停泊点。请在本载波回应，或改变航向以确认收到信息。",
+      "english": "We can provide navigation references and a protected holding position. Acknowledge on this carrier, or change your course to confirm reception.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 9.270416666666666,
+      "time": 107.77466666666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.770416666666666,
+          "text": "我们可以提供导航参照与安全停泊点。请在本载波回应，或改变航向以确认收到信息。",
+          "english": "We can provide navigation references and a protected holding position. Acknowledge on this carrier, or change your course to confirm reception.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E014",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "它的轨迹异常干净。测距脉冲的回波中，没有接缝、天线或外露机械通常产生的散射。",
+      "english": "Its track is exceptionally clean. Our ranging pulses return without the scattering we expect from seams, antennae, or exposed machinery.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 9.126791666666668,
+      "time": 117.20508333333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.626791666666668,
+          "text": "它的轨迹异常干净。测距脉冲的回波中，没有接缝、天线或外露机械通常产生的散射。",
+          "english": "Its track is exceptionally clean. Our ranging pulses return without the scattering we expect from seams, antennae, or exposed machinery.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E015",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "仍无回应。我已用接触协议、数学编码和简单导航灯序列发送邀请。",
+      "english": "Still no reply. I have repeated the invitation in the contact protocol, mathematics, and a plain sequence of navigation lights.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 10.398125,
+      "time": 126.49187500000001,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.994541666666667,
+          "text": "仍无回应。我已用接触协议、数学编码和简单导航灯序列发送邀请。",
+          "english": "Still no reply. I have repeated the invitation in the contact protocol, mathematics, and a plain sequence of navigation lights.",
+          "role": "comms"
+        },
+        {
+          "time": 8.294541666666666,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E016",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "那就发送条件：停在内侧警戒线外，关闭武器系统，接受远程检查。不会有登舰队靠近。",
+      "english": "Then transmit the terms. Stop outside the inner line, power down any weapon system, and accept remote inspection. No boarding party will approach.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 9.5075,
+      "time": 137.05,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.0075,
+          "text": "那就发送条件：停在内侧警戒线外，关闭武器系统，接受远程检查。不会有登舰队靠近。",
+          "english": "Then transmit the terms. Stop outside the inner line, power down any weapon system, and accept remote inspection. No boarding party will approach.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E017",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "“投降”一词已在公共信息流中传播。舰队司令部发出了指令，来客却没有作出任何承诺。",
+      "english": "The word surrender is already spreading through the public feeds. Fleet command has issued instructions; the visitor has made no agreement.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 9.265,
+      "time": 146.7175,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.765,
+          "text": "“投降”一词已在公共信息流中传播。舰队司令部发出了指令，来客却没有作出任何承诺。",
+          "english": "The word surrender is already spreading through the public feeds. Fleet command has issued instructions; the visitor has made no agreement.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E018",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "指挥官，仪器甚至无法确认它是否有可关闭的动力系统。我们描述的是自己的舰船，未必是它。",
+      "english": "Commander, our instruments cannot establish that it has a power system to shut down. We are describing our ships, not necessarily theirs.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 9.105,
+      "time": 156.1425,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.605,
+          "text": "指挥官，仪器甚至无法确认它是否有可关闭的动力系统。我们描述的是自己的舰船，未必是它。",
+          "english": "Commander, our instruments cannot establish that it has a power system to shut down. We are describing our ships, not necessarily theirs.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E019",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "明白，继续记录。只要它能接收部分信息，就会知道这里提供了安全停下的方式。",
+      "english": "Understood. Keep recording. If it can receive any part of our message, it will know there is a safe way to stop.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 6.867541666666667,
+      "time": 165.40750000000003,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 6.367541666666667,
+          "text": "明白，继续记录。只要它能接收部分信息，就会知道这里提供了安全停下的方式。",
+          "english": "Understood. Keep recording. If it can receive any part of our message, it will know there is a safe way to stop.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E020",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "那个光点开始显出轮廓：圆头、细尾，没有可见姿态喷口。接近速度没有改变。",
+      "english": "The point is becoming a shape now. Rounded nose, narrow tail. No visible attitude jets. Approach speed has not changed.",
+      "stage": 1,
+      "cameraShot": 1,
+      "direction": "calm",
+      "duration": 11.183708333333334,
+      "time": 172.4350416666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.780125,
+          "text": "那个光点开始显出轮廓：圆头、细尾，没有可见姿态喷口。接近速度没有改变。",
+          "english": "The point is becoming a shape now. Rounded nose, narrow tail. No visible attitude jets. Approach speed has not changed.",
+          "role": "comms"
+        },
+        {
+          "time": 9.080124999999999,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E021",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "我需要武器操作员听清楚：光滑表面不是损伤评估，小小的轮廓也不代表强度低。",
+      "english": "I need the weapons crews to hear this. A polished surface is not a damage assessment, and a small silhouette is not a measure of strength.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 8.317458333333335,
+      "time": 183.77875000000003,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.817458333333334,
+          "text": "我需要武器操作员听清楚：光滑表面不是损伤评估，小小的轮廓也不代表强度低。",
+          "english": "I need the weapons crews to hear this. A polished surface is not a damage assessment, and a small silhouette is not a measure of strength.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E022",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "我们以交叉火力覆盖走廊，但没有封死通道。目标无法同时威胁所有舰体，这是当前判断。",
+      "english": "We have crossed weapons to cover the corridor without closing it. The object cannot threaten every hull at once. That is our working assumption.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 8.699458333333334,
+      "time": 192.25620833333338,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.199458333333334,
+          "text": "我们以交叉火力覆盖走廊，但没有封死通道。目标无法同时威胁所有舰体，这是当前判断。",
+          "english": "We have crossed weapons to cover the corridor without closing it. The object cannot threaten every hull at once. That is our working assumption.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E023",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "那就请把它明确标为假设。测距脉冲照射后，它的表面温度几乎未变。我们不知道能量去了哪里。",
+      "english": "Then mark that sentence as an assumption. Its surface temperature has barely changed under our ranging pulses. We do not know where the energy goes.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 10.353958333333333,
+      "time": 201.1156666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.853958333333333,
+          "text": "那就请把它明确标为假设。测距脉冲照射后，它的表面温度几乎未变。我们不知道能量去了哪里。",
+          "english": "Then mark that sentence as an assumption. Its surface temperature has barely changed under our ranging pulses. We do not know where the energy goes.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E024",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "科学频道请求增大舰间距；指挥频道要求缩紧射击解算。两条指令都在等待确认。",
+      "english": "Science channel is requesting wider separation between ships. Command channel is requesting a tighter firing solution. Both orders are waiting for confirmation.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 10.319708333333333,
+      "time": 211.62962500000003,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.819708333333333,
+          "text": "科学频道请求增大舰间距；指挥频道要求缩紧射击解算。两条指令都在等待确认。",
+          "english": "Science channel is requesting wider separation between ships. Command channel is requesting a tighter firing solution. Both orders are waiting for confirmation.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E025",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "暂时保持间距。突然后撤可能被理解为开火准备。我不能因为屏幕上的一个符号而发动战争。",
+      "english": "Maintain spacing for now. A sudden withdrawal could look like preparation to fire. I will not start a war by moving a symbol on a display.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 10.382833333333334,
+      "time": 222.10933333333335,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.97925,
+          "text": "暂时保持间距。突然后撤可能被理解为开火准备。我不能因为屏幕上的一个符号而发动战争。",
+          "english": "Maintain spacing for now. A sudden withdrawal could look like preparation to fire. I will not start a war by moving a symbol on a display.",
+          "role": "commander"
+        },
+        {
+          "time": 8.27925,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E026",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "我也不会因为符号排列整齐，就说阵型安全。请在事发前，给外层各列分配独立撤离方向。",
+      "english": "And I will not call a formation safe because its symbols are tidy. Give the outer ranks independent escape vectors before anything happens.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 8.892583333333333,
+      "time": 232.6521666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.392583333333333,
+          "text": "我也不会因为符号排列整齐，就说阵型安全。请在事发前，给外层各列分配独立撤离方向。",
+          "english": "And I will not call a formation safe because its symbols are tidy. Give the outer ranks independent escape vectors before anything happens.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E027",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "批准。载入撤离路线，受威胁前保持位置。受损舰优先使用救援频道，撤离路线避开射界。",
+      "english": "Approved. Load evacuation routes, but hold your position until threatened. Damaged ships get priority on rescue traffic. Keep those routes out of the firing lanes.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 10.8885,
+      "time": 241.70475000000002,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 10.3885,
+          "text": "批准。载入撤离路线，受威胁前保持位置。受损舰优先使用救援频道，撤离路线避开射界。",
+          "english": "Approved. Load evacuation routes, but hold your position until threatened. Damaged ships get priority on rescue traffic. Keep those routes out of the firing lanes.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E028",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "路线已分发。各舰长确认本地控制与独立引擎可用。即使阵型解体，紧急频道仍将识别每艘舰。",
+      "english": "Routes distributed. Captains confirm local control and independent engines. The emergency channel will identify each hull, even if the formation breaks apart.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 11.077791666666666,
+      "time": 252.75325,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 10.577791666666666,
+          "text": "路线已分发。各舰长确认本地控制与独立引擎可用。即使阵型解体，紧急频道仍将识别每艘舰。",
+          "english": "Routes distributed. Captains confirm local control and independent engines. The emergency channel will identify each hull, even if the formation breaks apart.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E029",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "致家中的听众：分歧并不等于恐慌。画面清晰而解释不足时，谨慎的人就应当讨论。",
+      "english": "For those listening at home, disagreement is not panic. It is what careful people do when the picture is clearer than the explanation.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 8.710958333333334,
+      "time": 263.99104166666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.210958333333334,
+          "text": "致家中的听众：分歧并不等于恐慌。画面清晰而解释不足时，谨慎的人就应当讨论。",
+          "english": "For those listening at home, disagreement is not panic. It is what careful people do when the picture is clearer than the explanation.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E030",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "最后一条建议：一旦看到光束折返，立即避开其路径。不要假定反射光会沿原路回到发射源。",
+      "english": "One last recommendation: if you see a beam return, clear its path immediately. Do not assume the return will follow the line back to its source.",
+      "stage": 2,
+      "cameraShot": 2,
+      "direction": "tense",
+      "duration": 11.615666666666668,
+      "time": 272.86199999999997,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.212083333333334,
+          "text": "最后一条建议：一旦看到光束折返，立即避开其路径。不要假定反射光会沿原路回到发射源。",
+          "english": "One last recommendation: if you see a beam return, clear its path immediately. Do not assume the return will follow the line back to its source.",
+          "role": "engineer"
+        },
+        {
+          "time": 9.512083333333333,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E031",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "不明飞行器，这是最后警告。你即将接近内侧安全线。立即改变航向；你前方的通道仍然开放。",
+      "english": "Unidentified craft, this is your final warning. You are approaching the inner safety line. Alter course now. We are leaving the corridor ahead of you open.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 9.912333333333333,
+      "time": 284.63766666666663,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.412333333333333,
+          "text": "不明飞行器，这是最后警告。你即将接近内侧安全线。立即改变航向；你前方的通道仍然开放。",
+          "english": "Unidentified craft, this is your final warning. You are approaching the inner safety line. Alter course now. We are leaving the corridor ahead of you open.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E032",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "所有炮组，仅跟踪。启动光束前确认目标后方的舰体。屏幕里的背景，是另一群船员。",
+      "english": "All batteries, track only. Confirm the hull behind your target before enabling a beam. The background on your screen is another crew.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 8.494916666666667,
+      "time": 294.71,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.994916666666667,
+          "text": "所有炮组，仅跟踪。启动光束前确认目标后方的舰体。屏幕里的背景，是另一群船员。",
+          "english": "All batteries, track only. Confirm the hull behind your target before enabling a beam. The background on your screen is another crew.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E033",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "最新回波显示连续表面：无开口、无接缝，也无明显散热。请让每台传感器持续记录首次接触。",
+      "english": "The latest return resolves a continuous surface. No opening, no joint, no obvious heat rejection. Please keep every sensor recording through first contact.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 10.318333333333333,
+      "time": 303.36491666666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.818333333333333,
+          "text": "最新回波显示连续表面：无开口、无接缝，也无明显散热。请让每台传感器持续记录首次接触。",
+          "english": "The latest return resolves a continuous surface. No opening, no joint, no obvious heat rejection. Please keep every sensor recording through first contact.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E034",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "没有确认。载波强度稳定。这并非连接丢失，只是在我们理解的频率上，始终无人回应。",
+      "english": "No acknowledgement. Carrier level is steady. This is not a lost connection; there is simply nobody answering on the frequencies we understand.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 8.883,
+      "time": 313.84325,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.383,
+          "text": "没有确认。载波强度稳定。这并非连接丢失，只是在我们理解的频率上，始终无人回应。",
+          "english": "No acknowledgement. Carrier level is steady. This is not a lost connection; there is simply nobody answering on the frequencies we understand.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E035",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "如果目标越线，最近的炮组可以短促射击。出现反射立即停火，不能追着错误的射线继续打。",
+      "english": "If the object crosses the line, the nearest batteries may fire controlled bursts. Break off if the beam is reflected. Do not chase a bad shot.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 11.400541666666667,
+      "time": 322.88625,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.996958333333334,
+          "text": "如果目标越线，最近的炮组可以短促射击。出现反射立即停火，不能追着错误的射线继续打。",
+          "english": "If the object crosses the line, the nearest batteries may fire controlled bursts. Break off if the beam is reflected. Do not chase a bad shot.",
+          "role": "commander"
+        },
+        {
+          "time": 9.296958333333333,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E036",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "舰体若被贯穿，立即隔离反应堆并保持距离。安静的残舰仍可能在倒计时。救援组必须等待安全接近。",
+      "english": "If a hull is pierced, isolate its reactor and keep clear. A quiet wreck can still be counting down. Rescue crews must wait for a safe approach.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 11.298625,
+      "time": 334.4467916666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 10.798625,
+          "text": "舰体若被贯穿，立即隔离反应堆并保持距离。安静的残舰仍可能在倒计时。救援组必须等待安全接近。",
+          "english": "If a hull is pierced, isolate its reactor and keep clear. A quiet wreck can still be counting down. Rescue crews must wait for a safe approach.",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E037",
+      "role": "anchor",
+      "channel": "主播 / CIVIL NETWORK",
+      "text": "只要接触管制还能维持转播，民用频道就会保持开放。今夜，不会有提前写好的胜利公告。",
+      "english": "The civilian relay will remain open as long as contact control can carry it. There will be no victory announcement written in advance tonight.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 8.722916666666666,
+      "time": 345.90541666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 8.222916666666666,
+          "text": "只要接触管制还能维持转播，民用频道就会保持开放。今夜，不会有提前写好的胜利公告。",
+          "english": "The civilian relay will remain open as long as contact control can carry it. There will be no victory announcement written in advance tonight.",
+          "role": "anchor"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E038",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "text": "确认越过内侧警戒线。两千个识别信号，各自独立。紧急频段已开放。各舰长，请用本舰呼号回应。",
+      "english": "Inner line crossing confirmed. I have two thousand identification signals, all distinct. Emergency band is live. Captains, answer with your own hull call sign.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 11.703875,
+      "time": 354.78833333333336,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 11.203875,
+          "text": "确认越过内侧警戒线。两千个识别信号，各自独立。紧急频段已开放。各舰长，请用本舰呼号回应。",
+          "english": "Inner line crossing confirmed. I have two thousand identification signals, all distinct. Emergency band is live. Captains, answer with your own hull call sign.",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E039",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "text": "允许在指定射界内开火。保持撤离路线畅通。邻舰中弹时先移动，能够通信后再报告。",
+      "english": "Weapons free within your assigned lanes. Keep your escape route clear. If your neighbor is hit, move first and report when you can.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 8.466458333333334,
+      "time": 366.65220833333336,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 7.966458333333334,
+          "text": "允许在指定射界内开火。保持撤离路线畅通。邻舰中弹时先移动，能够通信后再报告。",
+          "english": "Weapons free within your assigned lanes. Keep your escape route clear. If your neighbor is hit, move first and report when you can.",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "E040",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "text": "它仍在前进。看接触点，不要被眩光迷惑。无论接下来发生什么，都要相信测量。所有岗位，保护好你们的人。",
+      "english": "It is still coming. Watch the contact point, not the glare. Whatever happens next, trust the measurements. All stations, protect your people.",
+      "stage": 3,
+      "cameraShot": 3,
+      "direction": "tense",
+      "duration": 12.232916666666666,
+      "time": 375.2786666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 9.829333333333333,
+          "text": "它仍在前进。看接触点，不要被眩光迷惑。无论接下来发生什么，都要相信测量。所有岗位，保护好你们的人。",
+          "english": "It is still coming. Watch the contact point, not the glare. Whatever happens next, trust the measurements. All stations, protect your people.",
+          "role": "engineer"
+        },
+        {
+          "time": 10.129333333333332,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    }
+  ],
+  "combat": [
+    {
+      "id": "B001",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "AttackIneffective",
+      "text": "温度没有升高。这一击毫无作用。",
+      "english": "No thermal rise. That shot did nothing.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.1850000000000005,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 2.781416666666667,
+          "text": "温度没有升高。这一击毫无作用。",
+          "english": "No thermal rise. That shot did nothing.",
+          "role": "engineer"
+        },
+        {
+          "time": 3.081416666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B002",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "AttackIneffective",
+      "text": "停止无效射击，检查反射路径。",
+      "english": "Cease wasteful fire. Check the return path.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.988625,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.5850416666666667,
+          "text": "停止无效射击，检查反射路径。",
+          "english": "Cease wasteful fire. Check the return path.",
+          "role": "commander"
+        },
+        {
+          "time": 3.885041666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B003",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "AttackIneffective",
+      "text": "表面完好，找不到任何痕迹。",
+      "english": "Surface intact. I cannot find a mark.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.196625,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 2.793041666666667,
+          "text": "表面完好，找不到任何痕迹。",
+          "english": "Surface intact. I cannot find a mark.",
+          "role": "engineer"
+        },
+        {
+          "time": 3.093041666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B004",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "AttackIneffective",
+      "text": "各炮组，光束正在散入我方航道。",
+      "english": "All batteries, your beams are scattering across our lanes.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.977875,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.574291666666667,
+          "text": "各炮组，光束正在散入我方航道。",
+          "english": "All batteries, your beams are scattering across our lanes.",
+          "role": "comms"
+        },
+        {
+          "time": 3.874291666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B005",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "LaserReflected",
+      "text": "反射光束！立即让开那条线！",
+      "english": "Reflected beam! Clear that line now!",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 3.0901666666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 2.5901666666666667,
+          "text": "反射光束！立即让开那条线！",
+          "english": "Reflected beam! Clear that line now!",
+          "role": "comms"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B006",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "LaserReflected",
+      "text": "角度变了，反射束正在横穿阵型！",
+      "english": "The angle changed. The return is crossing the formation!",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 5.590624999999999,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.8124166666666666,
+          "text": "角度变了，反射束正在横穿阵型！",
+          "english": "The angle changed. The return is crossing the formation!",
+          "role": "engineer"
+        },
+        {
+          "time": 4.112416666666666,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B007",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "LaserReflected",
+      "text": "停火！反射方向后方有友舰！",
+      "english": "Hold fire! Friendly hull behind the reflection!",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 5.34675,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.5685416666666665,
+          "text": "停火！反射方向后方有友舰！",
+          "english": "Hold fire! Friendly hull behind the reflection!",
+          "role": "commander"
+        },
+        {
+          "time": 3.8685416666666668,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B008",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "LaserReflected",
+      "text": "确认接触。能量离开了表面，并未进入。",
+      "english": "Contact confirmed. Energy is leaving the surface, not entering it.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 6.778874999999999,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 5.000666666666667,
+          "text": "确认接触。能量离开了表面，并未进入。",
+          "english": "Contact confirmed. Energy is leaving the surface, not entering it.",
+          "role": "engineer"
+        },
+        {
+          "time": 5.300666666666666,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B009",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "HullPenetrated",
+      "text": "两侧贯穿。正在隔离反应堆！",
+      "english": "Breach through both sides. Isolating the reactor!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 4.960333333333334,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.182125,
+          "text": "两侧贯穿。正在隔离反应堆！",
+          "english": "Breach through both sides. Isolating the reactor!",
+          "role": "engineer"
+        },
+        {
+          "time": 3.4821250000000004,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B010",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "HullPenetrated",
+      "text": "中央甲板全面失压！",
+      "english": "We have lost pressure across the central decks!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 4.545041666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 2.7668333333333335,
+          "text": "中央甲板全面失压！",
+          "english": "We have lost pressure across the central decks!",
+          "role": "comms"
+        },
+        {
+          "time": 3.0668333333333337,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B011",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "HullPenetrated",
+      "text": "它直接穿过了我们，关闭全部内部舱门！",
+      "english": "It went straight through us. Close every internal door!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 4.95475,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.1765416666666666,
+          "text": "它直接穿过了我们，关闭全部内部舱门！",
+          "english": "It went straight through us. Close every internal door!",
+          "role": "engineer"
+        },
+        {
+          "time": 3.476541666666667,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B012",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "HullPenetrated",
+      "text": "舰体被贯穿，导航失效，我们正在漂移！",
+      "english": "Hull pierced. Navigation is gone. We are drifting!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 5.566666666666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.7884583333333333,
+          "text": "舰体被贯穿，导航失效，我们正在漂移！",
+          "english": "Hull pierced. Navigation is gone. We are drifting!",
+          "role": "comms"
+        },
+        {
+          "time": 4.0884583333333335,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B013",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ReactorUnstable",
+      "text": "约束正在失效，所有人远离核心！",
+      "english": "Containment is failing. Everyone away from the core!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "duration": 5.36175,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.5835416666666666,
+          "text": "约束正在失效，所有人远离核心！",
+          "english": "Containment is failing. Everyone away from the core!",
+          "role": "engineer"
+        },
+        {
+          "time": 3.883541666666667,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B014",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ReactorUnstable",
+      "text": "停堆没有生效，反应堆温度仍在上升！",
+      "english": "The shutdown did not take. Reactor temperature is still climbing!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "duration": 5.972499999999999,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.1942916666666665,
+          "text": "停堆没有生效，反应堆温度仍在上升！",
+          "english": "The shutdown did not take. Reactor temperature is still climbing!",
+          "role": "engineer"
+        },
+        {
+          "time": 4.494291666666666,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B015",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ReactorUnstable",
+      "text": "反应堆警报！救援舰不要靠近我们！",
+      "english": "Reactor warning. Do not bring a rescue ship alongside us!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "duration": 5.572875,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.7946666666666666,
+          "text": "反应堆警报！救援舰不要靠近我们！",
+          "english": "Reactor warning. Do not bring a rescue ship alongside us!",
+          "role": "comms"
+        },
+        {
+          "time": 4.094666666666667,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B016",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ReactorUnstable",
+      "text": "冷却已经耗尽，再也无法重启了！",
+      "english": "We are out of cooling. There is no restart from this!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": true,
+      "duration": 5.748708333333332,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.9705,
+          "text": "冷却已经耗尽，再也无法重启了！",
+          "english": "We are out of cooling. There is no restart from this!",
+          "role": "engineer"
+        },
+        {
+          "time": 4.270499999999999,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B017",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RescueRequested",
+      "text": "求救！前舱仍有幸存者，有人能听到吗？",
+      "english": "Mayday. We have survivors in the forward section. Can anyone hear us?",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 6.3995,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.621291666666667,
+          "text": "求救！前舱仍有幸存者，有人能听到吗？",
+          "english": "Mayday. We have survivors in the forward section. Can anyone hear us?",
+          "role": "comms"
+        },
+        {
+          "time": 4.921291666666667,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B018",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RescueRequested",
+      "text": "救援频道，我们的机库封死了，需要外部接应！",
+      "english": "Rescue channel, our launch bay is sealed. We need an external pickup!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 5.990333333333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.212125,
+          "text": "救援频道，我们的机库封死了，需要外部接应！",
+          "english": "Rescue channel, our launch bay is sealed. We need an external pickup!",
+          "role": "comms"
+        },
+        {
+          "time": 4.512125,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B019",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "RescueRequested",
+      "text": "正在帮他们穿上宇航服，请保持监听。",
+      "english": "We are getting them into suits. Please keep a receiver on us.",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 5.355916666666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.5777083333333333,
+          "text": "正在帮他们穿上宇航服，请保持监听。",
+          "english": "We are getting them into suits. Please keep a receiver on us.",
+          "role": "engineer"
+        },
+        {
+          "time": 3.8777083333333335,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B020",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RescueRequested",
+      "text": "紧急信标已启动，漂移无法控制，请回应！",
+      "english": "Emergency beacon active. We cannot control our drift. Please respond!",
+      "direction": "urgent",
+      "pendingOnly": true,
+      "weight": 1,
+      "important": false,
+      "duration": 6.385083333333332,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.606875,
+          "text": "紧急信标已启动，漂移无法控制，请回应！",
+          "english": "Emergency beacon active. We cannot control our drift. Please respond!",
+          "role": "comms"
+        },
+        {
+          "time": 4.906874999999999,
+          "duration": 1.1782083333333333,
+          "text": "退后！",
+          "english": "Get back!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B021",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipExploded",
+      "text": "那艘舰消失了。救援艇远离残骸。",
+      "english": "We lost that hull. Rescue craft, stand clear of the debris.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.974208333333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.570625,
+          "text": "那艘舰消失了。救援艇远离残骸。",
+          "english": "We lost that hull. Rescue craft, stand clear of the debris.",
+          "role": "comms"
+        },
+        {
+          "time": 3.8706250000000004,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B022",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "ShipExploded",
+      "text": "确认爆炸，为幸存者让出通道。",
+      "english": "Explosion confirmed. Open a lane for the survivors.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 6.208124999999999,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.8045416666666667,
+          "text": "确认爆炸，为幸存者让出通道。",
+          "english": "Explosion confirmed. Open a lane for the survivors.",
+          "role": "commander"
+        },
+        {
+          "time": 4.104541666666666,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B023",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ShipExploded",
+      "text": "出现次级闪光，警惕附近再次失稳。",
+      "english": "Secondary flash. Watch for another reactor failure nearby.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 6.389374999999999,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.9857916666666666,
+          "text": "出现次级闪光，警惕附近再次失稳。",
+          "english": "Secondary flash. Watch for another reactor failure nearby.",
+          "role": "engineer"
+        },
+        {
+          "time": 4.285791666666666,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B024",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipExploded",
+      "text": "他们的信号断了，正在标记最后位置。",
+      "english": "Their signal is gone. I am marking the last known position.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.976125,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.5725416666666665,
+          "text": "他们的信号断了，正在标记最后位置。",
+          "english": "Their signal is gone. I am marking the last known position.",
+          "role": "comms"
+        },
+        {
+          "time": 3.8725416666666668,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B025",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "RetreatOrdered",
+      "text": "脱离阵型，沿分配的撤离方向加速！",
+      "english": "Break formation. Accelerate along your assigned escape vector!",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 6.605499999999999,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.205958333333333,
+          "text": "脱离阵型，沿分配的撤离方向加速！",
+          "english": "Break formation. Accelerate along your assigned escape vector!",
+          "role": "commander"
+        },
+        {
+          "time": 4.505958333333333,
+          "duration": 1.7995416666666666,
+          "text": "这边！跟紧！",
+          "english": "This way! Keep together!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B026",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "RetreatOrdered",
+      "text": "确认本地撤退，避开受损舰。",
+      "english": "Local retreat confirmed. Keep clear of the damaged ships.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 5.806666666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.407125,
+          "text": "确认本地撤退，避开受损舰。",
+          "english": "Local retreat confirmed. Keep clear of the damaged ships.",
+          "role": "comms"
+        },
+        {
+          "time": 3.7071250000000004,
+          "duration": 1.7995416666666666,
+          "text": "这边！跟紧！",
+          "english": "This way! Keep together!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B027",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "RetreatOrdered",
+      "text": "别再等待全舰队，现在就移动本舰！",
+      "english": "Do not wait for the whole fleet. Move your own ship now!",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 6.207333333333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.8077916666666667,
+          "text": "别再等待全舰队，现在就移动本舰！",
+          "english": "Do not wait for the whole fleet. Move your own ship now!",
+          "role": "commander"
+        },
+        {
+          "time": 4.1077916666666665,
+          "duration": 1.7995416666666666,
+          "text": "这边！跟紧！",
+          "english": "This way! Keep together!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B028",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "RetreatOrdered",
+      "text": "引擎有响应，我们正在拉开距离。",
+      "english": "Engines responding. We are opening the distance.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": true,
+      "duration": 5.411333333333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.011791666666667,
+          "text": "引擎有响应，我们正在拉开距离。",
+          "english": "Engines responding. We are opening the distance.",
+          "role": "engineer"
+        },
+        {
+          "time": 3.311791666666667,
+          "duration": 1.7995416666666666,
+          "text": "这边！跟紧！",
+          "english": "This way! Keep together!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B029",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipEscaped",
+      "text": "一艘舰已离开战斗边界，信标仍然工作。",
+      "english": "One hull has cleared the combat boundary. Beacon still active.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 6.5935,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.189916666666667,
+          "text": "一艘舰已离开战斗边界，信标仍然工作。",
+          "english": "One hull has cleared the combat boundary. Beacon still active.",
+          "role": "comms"
+        },
+        {
+          "time": 4.489916666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B030",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "ShipEscaped",
+      "text": "确认逃脱，继续前往集结区域。",
+      "english": "Escape confirmed. Keep moving until you reach the assembly area.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 6.781,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.377416666666667,
+          "text": "确认逃脱，继续前往集结区域。",
+          "english": "Escape confirmed. Keep moving until you reach the assembly area.",
+          "role": "commander"
+        },
+        {
+          "time": 4.677416666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B031",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "ShipEscaped",
+      "text": "那群船员已经离开交战区，正在发送新坐标。",
+      "english": "That crew is outside the engagement zone. Sending their new coordinates.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 6.396125,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.992541666666667,
+          "text": "那群船员已经离开交战区，正在发送新坐标。",
+          "english": "That crew is outside the engagement zone. Sending their new coordinates.",
+          "role": "comms"
+        },
+        {
+          "time": 4.292541666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B032",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "ShipEscaped",
+      "text": "边界外，他们的推进信号已经稳定。",
+      "english": "Their drive signature is stable beyond the perimeter.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.415,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.011416666666667,
+          "text": "边界外，他们的推进信号已经稳定。",
+          "english": "Their drive signature is stable beyond the perimeter.",
+          "role": "engineer"
+        },
+        {
+          "time": 3.311416666666667,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B033",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "CommunicationInterrupted",
+      "text": "通信被切断，切换下一个有效信标。",
+      "english": "Transmission cut off. Switching to the next live beacon.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.807083333333334,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.4035,
+          "text": "通信被切断，切换下一个有效信标。",
+          "english": "Transmission cut off. Switching to the next live beacon.",
+          "role": "comms"
+        },
+        {
+          "time": 3.7035000000000005,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B034",
+      "role": "comms",
+      "channel": "通信军官 / CONTACT CONTROL",
+      "eventKind": "CommunicationInterrupted",
+      "text": "那艘舰的载波消失了，保持紧急频段畅通。",
+      "english": "No carrier from that ship. Keep the emergency band clear.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 5.996041666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.5924583333333335,
+          "text": "那艘舰的载波消失了，保持紧急频段畅通。",
+          "english": "No carrier from that ship. Keep the emergency band clear.",
+          "role": "comms"
+        },
+        {
+          "time": 3.892458333333334,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B035",
+      "role": "commander",
+      "channel": "指挥官 / FLEET COMMAND",
+      "eventKind": "CommunicationInterrupted",
+      "text": "我们听到了求救，标记位置，继续撤离。",
+      "english": "We heard the distress call. Mark the position and continue withdrawal.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 6.792291666666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 4.388708333333334,
+          "text": "我们听到了求救，标记位置，继续撤离。",
+          "english": "We heard the distress call. Mark the position and continue withdrawal.",
+          "role": "commander"
+        },
+        {
+          "time": 4.6887083333333335,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "B036",
+      "role": "engineer",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "eventKind": "CommunicationInterrupted",
+      "text": "闪光时遥测也停止了，没有后续读数。",
+      "english": "Their telemetry stopped with the flash. I have no further readings.",
+      "direction": "urgent",
+      "pendingOnly": false,
+      "weight": 1,
+      "important": false,
+      "duration": 6.216041666666666,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.8124583333333333,
+          "text": "闪光时遥测也停止了，没有后续读数。",
+          "english": "Their telemetry stopped with the flash. I have no further readings.",
+          "role": "engineer"
+        },
+        {
+          "time": 4.112458333333333,
+          "duration": 1.8035833333333333,
+          "text": "收到，正在检查面板。",
+          "english": "Aye, checking the panel.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    }
+  ],
+  "extra": [
+    {
+      "id": "SC01",
+      "role": "commander",
+      "english": "Helm, hold our position. Keep that corridor open.",
+      "text": "舵手，保持位置。让那条通道保持畅通。",
+      "direction": "calm",
+      "channel": "指挥官 / FLEET COMMAND",
+      "duration": 7.772916666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.577958333333333,
+          "text": "舵手，保持位置。让那条通道保持畅通。",
+          "english": "Helm, hold our position. Keep that corridor open.",
+          "role": "commander"
+        },
+        {
+          "time": 4.0179583333333335,
+          "duration": 3.004958333333333,
+          "text": "航向已保持。炮组待命。",
+          "english": "Course held. Batteries standing by.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "SC02",
+      "role": "comms",
+      "english": "Course held. Batteries standing by.",
+      "text": "航向已保持。炮组待命。",
+      "direction": "calm",
+      "channel": "通信军官 / CONTACT CONTROL"
+    },
+    {
+      "id": "SA01",
+      "role": "commander",
+      "english": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+      "text": "舰桥遭到撞击！封闭前舱门。坚守岗位。",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND",
+      "duration": 9.287833333333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 5.400041666666667,
+          "text": "舰桥遭到撞击！封闭前舱门。坚守岗位。",
+          "english": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+          "role": "commander"
+        },
+        {
+          "time": 5.750041666666667,
+          "duration": 2.7877916666666667,
+          "text": "控制台下面起火了！正在切断电源！",
+          "english": "Fire under the console! Cutting power now!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "SA02",
+      "role": "engineer",
+      "english": "Fire under the console! Cutting power now!",
+      "text": "控制台下面起火了！正在切断电源！",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL"
+    },
+    {
+      "id": "SE01",
+      "role": "commander",
+      "english": "All hands, abandon the bridge! Move!",
+      "text": "全体人员，撤离舰桥！快！",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND",
+      "duration": 9.783750000000001,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.174916666666667,
+          "text": "全体人员，撤离舰桥！快！",
+          "english": "All hands, abandon the bridge! Move!",
+          "role": "commander"
+        },
+        {
+          "time": 3.624916666666667,
+          "duration": 1.570625,
+          "text": "舱门卡住了！",
+          "english": "The hatch is jammed!",
+          "role": "background crew"
+        },
+        {
+          "time": 5.495541666666667,
+          "duration": 2.7882083333333334,
+          "text": "走后方通道！不要停！",
+          "english": "Use the aft passage! Keep moving!",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "SE02",
+      "role": "engineer",
+      "english": "The hatch is jammed!",
+      "text": "舱门卡住了！",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL"
+    },
+    {
+      "id": "SE03",
+      "role": "commander",
+      "english": "Use the aft passage! Keep moving!",
+      "text": "走后方通道！不要停！",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND"
+    },
+    {
+      "id": "BG01",
+      "role": "comms",
+      "english": "Aye, checking the panel.",
+      "text": "收到，正在检查面板。",
+      "direction": "calm",
+      "channel": "通信军官 / CONTACT CONTROL"
+    },
+    {
+      "id": "BG02",
+      "role": "engineer",
+      "english": "Get back!",
+      "text": "退后！",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL"
+    },
+    {
+      "id": "BG03",
+      "role": "comms",
+      "english": "This way! Keep together!",
+      "text": "这边！跟紧！",
+      "direction": "urgent",
+      "channel": "通信军官 / CONTACT CONTROL"
+    },
+    {
+      "id": "HELP",
+      "role": "engineer",
+      "english": "Reactor breach! Get clear!",
+      "text": "反应堆破损！快离开！",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "duration": 3.28025,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 2.78025,
+          "text": "反应堆破损！快离开！",
+          "english": "Reactor breach! Get clear!",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    }
+  ],
+  "duration": 387.9215833333334,
+  "sceneExtras": [
+    {
+      "id": "SC01",
+      "role": "commander",
+      "english": "Helm, hold our position. Keep that corridor open.",
+      "text": "舵手，保持位置。让那条通道保持畅通。",
+      "direction": "calm",
+      "channel": "指挥官 / FLEET COMMAND",
+      "duration": 7.772916666666667,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.577958333333333,
+          "text": "舵手，保持位置。让那条通道保持畅通。",
+          "english": "Helm, hold our position. Keep that corridor open.",
+          "role": "commander"
+        },
+        {
+          "time": 4.0179583333333335,
+          "duration": 3.004958333333333,
+          "text": "航向已保持。炮组待命。",
+          "english": "Course held. Batteries standing by.",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "SA01",
+      "role": "commander",
+      "english": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+      "text": "舰桥遭到撞击！封闭前舱门。坚守岗位。",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND",
+      "duration": 9.287833333333333,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 5.400041666666667,
+          "text": "舰桥遭到撞击！封闭前舱门。坚守岗位。",
+          "english": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+          "role": "commander"
+        },
+        {
+          "time": 5.750041666666667,
+          "duration": 2.7877916666666667,
+          "text": "控制台下面起火了！正在切断电源！",
+          "english": "Fire under the console! Cutting power now!",
+          "role": "background crew"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "SE01",
+      "role": "commander",
+      "english": "All hands, abandon the bridge! Move!",
+      "text": "全体人员，撤离舰桥！快！",
+      "direction": "urgent",
+      "channel": "指挥官 / FLEET COMMAND",
+      "duration": 9.783750000000001,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 3.174916666666667,
+          "text": "全体人员，撤离舰桥！快！",
+          "english": "All hands, abandon the bridge! Move!",
+          "role": "commander"
+        },
+        {
+          "time": 3.624916666666667,
+          "duration": 1.570625,
+          "text": "舱门卡住了！",
+          "english": "The hatch is jammed!",
+          "role": "background crew"
+        },
+        {
+          "time": 5.495541666666667,
+          "duration": 2.7882083333333334,
+          "text": "走后方通道！不要停！",
+          "english": "Use the aft passage! Keep moving!",
+          "role": "commander"
+        }
+      ],
+      "premixed": true
+    },
+    {
+      "id": "HELP",
+      "role": "engineer",
+      "english": "Reactor breach! Get clear!",
+      "text": "反应堆破损！快离开！",
+      "direction": "urgent",
+      "channel": "工程师 / SCIENCE CHANNEL",
+      "duration": 3.28025,
+      "captions": [
+        {
+          "time": 0.2,
+          "duration": 2.78025,
+          "text": "反应堆破损！快离开！",
+          "english": "Reactor breach! Get clear!",
+          "role": "engineer"
+        }
+      ],
+      "premixed": true
+    }
+  ]
+}

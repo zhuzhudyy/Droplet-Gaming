@@ -1,0 +1,37 @@
+{
+  "id": "Brake_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "81138453d6d4b559b1c2fabf2f9f1439333c0a9169ab49965d7dfc0f8f198087",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Brake_03/job.json",
+  "sourceSha256": "374395cf54f4b24fedeb48b69927586b830017f49fabf54aa3dbcffc5c1f87cf",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 2 seconds. Controlled hard braking of an indestructible droplet; energetic deceleration, no damage. Broad resonant pressure wash closing sharply with fine crystal flickers. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Brake_03",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 96000,
+    "rate": 48000,
+    "targetSeconds": 2.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 96000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 96000,
+    "linearGain": 0.7594117921001861,
+    "targetLevelDbFS": -8
+  },
+  "qa": {
+    "sha256": "81138453d6d4b559b1c2fabf2f9f1439333c0a9169ab49965d7dfc0f8f198087",
+    "durationSeconds": 2.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.000782896515972,
+    "rmsDbFS": -25.019804448597284,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

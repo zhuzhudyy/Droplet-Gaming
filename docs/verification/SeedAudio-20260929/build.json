@@ -1,0 +1,9 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_SeedAudio.unity",
+    "player": "Builds/Windows-SeedAudio-20260929/DropletGaming.exe",
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 1,
+    "bytes": 353197031,
+    "seconds": 26.065984699999999
+}

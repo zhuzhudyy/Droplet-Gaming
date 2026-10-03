@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E040",
+    "text": "It is still coming. Watch the contact point, not the glare. Whatever happens next, trust the measurements. All stations, protect your people."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "It is still coming. Watch the contact point, not the glare. Whatever happens next, trust the measurements. All stations, protect your people.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "03d1189a-60be-4216-bf52-6bfc3ce0bd94",
+  "sha256": "199cf58977fd46f5372d7412edf30d54936b17e4b7a25d267ccf9782ca0f6e66",
+  "duration_seconds": 9.829333333333333,
+  "usage": {
+    "text_words": 141
+  }
+}

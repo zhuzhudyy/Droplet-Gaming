@@ -1,0 +1,25 @@
+{
+  "id": "Laser_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "c16d5d16-9793-40e2-aed7-52c6a890c707",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Fine crystalline chirr with a brief granular trailing spray. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "submission_unknown",
+  "submittedAt": "2026-09-29T11:36:07.184558+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "error": "HTTP 502; no automatic retry.",
+  "diagnostic": {
+    "httpStatus": 502,
+    "serviceMessage": "Non-JSON error body omitted."
+  },
+  "completedAt": "2026-09-29T11:36:07.448603+00:00"
+}

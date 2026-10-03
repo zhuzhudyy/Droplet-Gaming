@@ -1,0 +1,26 @@
+{
+  "id": "Reflect_03",
+  "cueId": "Reflect_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "5b4aaaab-ce42-4f14-9fbc-4261c3d25c09",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Glassy skimming impact with a brief liquid-metal resonant tail. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:41:07.545046+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "29a2bbafc31dd0f21b1ba4697a497a328850b2ac03668fb00862fdbe5ec8beab",
+  "originalDurationSeconds": 0.8,
+  "actualSeconds": 0.8,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:41:19.440934+00:00"
+}

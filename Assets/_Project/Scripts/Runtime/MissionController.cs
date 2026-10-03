@@ -87,7 +87,11 @@ namespace DropletPrototype
             else motor.HoldSimulationPose();
             combat?.EndStep(dt);
             if (hadCombatTime) lasers?.Step(dt);
-            else if (lasers != null && lasers.beamPool != null) lasers.beamPool.Step(dt);
+            else if (lasers != null)
+            {
+                lasers.beamPool?.Step(dt);
+                lasers.dropletSurface?.contactResponse?.Step(dt);
+            }
             if (DestroyedCount + EscapedCount == TotalCount && PendingCount == 0) Finish(EscapedCount == 0);
             else if (Remaining <= .00001f && PendingCount == 0) Finish(false);
             else RecoverIfOutside();
@@ -136,7 +140,10 @@ namespace DropletPrototype
         {
             State = state; Time.timeScale = state == MissionState.Paused ? 0 : 1;
             if (state == MissionState.Ready || state == MissionState.Results || state == MissionState.Narrative)
-                if (lasers != null && lasers.beamPool != null) lasers.beamPool.ResetEffects();
+            {
+                lasers?.beamPool?.ResetEffects();
+                lasers?.dropletSurface?.contactResponse?.ResetResponse();
+            }
             motor.SimulationEnabled = state == MissionState.Playing || state == MissionState.Narrative;
             if (input != null) input.SetGameplay(state == MissionState.Playing);
             StateChanged?.Invoke(state);

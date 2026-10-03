@@ -1,0 +1,73 @@
+{
+  "METAL_R3": {
+    "reason": "R2 free dictation recovered syllables including the exact cue 当啷; this is evidence of vocalized cues, not verified metal. Final trial replaces pronounceable onomatopoeia with a bracketed sound-event label. Brackets are plain text, not claimed API syntax.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "[厚钢板贯穿声]",
+    "direction": "Render the event named in brackets as an actual non-vocal Foley sound, not spoken text. A hard metallic transient breaks into a sharp tearing scrape, followed by irregular heavy steel resonances and several small falling fragments. One event lasting three seconds. The bracketed text is a stage direction, not dialogue. No narrator, speech, imitation by a human voice, or music."
+  },
+  "EXPLOSION_R3": {
+    "reason": "R2 returned 3.572 seconds and free dictation detected a vocal syllable; acceptable explosion timbre is not established. Final trial changes acoustic syllables to a bracketed event label and English acoustic direction.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "[舰船爆炸声]",
+    "direction": "Generate the physical sound event in brackets, not a reading of the label. One heavy science-fiction reactor explosion: instantaneous sub-bass impact, a dense broadband blast, and irregular metallic debris decaying for five seconds. It must sound like an explosion recording, without a human vocal tract, narration, speech, or musical notes."
+  },
+  "FLIGHT_R3": {
+    "reason": "R2 has no first-utterance dictation result; that cannot distinguish electronic flight sound from humming. A 10.630-second duration alone does not validate timbre or looping. Final distinct trial removes the pronounceable humming syllable and requests a mechanical event via a bracketed label.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "[持续电子飞行声]",
+    "direction": "Produce eight seconds of uninterrupted synthetic spacecraft propulsion texture. Continuous sub-bass machinery resonance, soft moving electronic overtones, no syllabic rhythm or breaths, consistent level and tone at both ends for a loop. Execute the bracketed stage direction as a non-vocal sound event; do not read it. No human humming, narration, music, or voice imitation."
+  },
+  "CABIN_R3": {
+    "reason": "R2 free dictation detected repeated syllables and duration was 5.418 seconds against an eight-second bed target. Final trial removes pronounceable hiss/click cues and uses an environmental stage label.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "[安静舰桥环境声]",
+    "direction": "Execute the bracketed scene direction as an eight-second non-vocal environmental recording. A quiet spaceship bridge: continuous low ventilation, soft machinery resonance, two distant tiny relay clicks. Sparse enclosed-room depth, steady seamless ambience. Do not say the bracketed words. No person making the sounds, breathing, speech, narration, or music."
+  },
+  "MUSIC_R3": {
+    "reason": "R2 is only 3.972 seconds against twelve seconds; dictation recovered four syllables corresponding to the text cues (confidence 0.641), supporting vocalization rather than verified instruments. Final trial removes onomatopoeia and uses a bracketed instrumental direction.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "[低音合成器与暗色和弦，纯器乐]",
+    "direction": "Perform the bracketed musical direction using instruments alone. Twelve seconds of original cold cinematic science-fiction underscore: a slow bass synthesizer pulse, restrained minor-key pad chords and sparse metallic keyboard notes. No lead voice, humming, singing, spoken syllables or narration. The label is a performance instruction, not lyrics or dialogue. Keep the ending suitable for a repeating music bed."
+  },
+  "EXPLOSION_R2": {
+    "reason": "Offline free dictation recovered the descriptive sentence from R1, including the explosion and low-frequency spreading phrases. Move all prose to context_texts and use only a short acoustic cue in synthesis text.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "轰——轰隆隆……",
+    "direction": "为科幻游戏生成一声舰船爆炸。输入仅表示声音动作，不是台词。输出瞬时低沉冲击、扩散的宽频爆炸轰鸣和逐渐衰减的碎片尾声，约五秒。声音应来自物体和爆炸，不来自人的喉咙。不要念字、旁白、说话、口技或配乐。"
+  },
+  "FLIGHT_R2": {
+    "reason": "R1 free-dictation transcript recovered nearly the entire flight description; prose was spoken. Test a sustained nonlexical cue with the actual acoustic requirements in context_texts.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "嗡————————",
+    "direction": "输出连续八秒的科幻飞行电子共振，平稳的低频底音与轻微移动的高频泛音，没有音节和节奏，首尾强度一致，可循环。合成文本只是延音标记，不能被朗读。不要人的嗓音、呼吸、口技、对白或音乐。只呈现持续的电子机械声音。"
+  },
+  "CABIN_R2": {
+    "reason": "R1 free dictation recovered the cabin-description sentence. Remove descriptive words from synthesis text and request the environment solely through context_texts.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "嘶————嗒、嗒……",
+    "direction": "生成八秒安静舰桥的真实环境声音：持续的轻微通风、低沉设备底噪，远处两声很轻的继电器开关。文本是声音节奏谱，不是要说的字。只输出环境声，保持空间感和稳定尾部，禁止人声、口技、旁白、说话和音乐。"
+  },
+  "MUSIC_R2": {
+    "reason": "R1 dictation recovered the instrumental-background prompt as a spoken sentence. Move musical description to context_texts and test a short nonlexical musical score cue.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "噔——咚——叮——咚——",
+    "direction": "演奏十二秒原创纯器乐科幻电影配乐。声音由低音合成器脉冲、缓慢小调和弦和稀疏金属键盘高音组成，冷峻克制，适合循环。输入文字是器乐动作谱，只用乐器声音实现，不能朗读或演唱这些字。无任何人声、哼唱、歌词、口技或旁白。"
+  },
+  "LASER_R3": {
+    "reason": "R1 Chinese input with the English Tim speaker had no PCM. R2 yielded 3.969s against a sub-2s target but acoustic suitability is unverified. Final distinct trial uses the Chinese speaker documented by the official TTS2 HTTP example, a shorter cue, and a pure electronic effect instruction.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "咻——滋！",
+    "direction": "只生成一道短促的科幻电子激光音效。把文本当作声音动作谱，直接产生尖锐电子起音和快速下降的啸声，以很短的金属共振结尾。总长约一秒。不要念字、不要说话、不要人声口技、不要喘气、不要配乐。"
+  },
+  "METAL_R2": {
+    "reason": "R1 reached the service completion event but returned zero PCM bytes with Chinese text and English Tim. Preserve that failed job; test the same acoustic intent with the officially documented Chinese TTS2 speaker and a short sound cue.",
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "text": "铿！刺啦——当啷。",
+    "direction": "你正在生成游戏金属贯穿音效，文本是动作声音谱，不是台词。直接呈现厚钢板被高速刺穿：硬金属起音、尖锐撕裂、短暂低频共振和碎片落下，约三秒。不得说出文本，不要人声口技，不要旁白或音乐。"
+  },
+  "LASER_R2": {
+    "reason": "R1 returned no valid complete PCM; preserve its unknown billing reservation. This is a separately authored English cue using the same verified English speaker, not a retry of the Chinese request.",
+    "text": "Pshhheew!",
+    "direction": "Create one original science-fiction laser pulse as a non-speech sound effect. Treat the supplied syllables as an acoustic score, not words: an extremely sharp electronic attack, a rapidly descending bright pitch sweep and a short metallic resonance tail. Render an electronic effect, not a person saying the syllables. One pulse, under two seconds. No narration, no spoken words, no music, no breathing, no room noise."
+  }
+}

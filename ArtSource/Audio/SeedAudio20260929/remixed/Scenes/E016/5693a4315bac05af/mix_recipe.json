@@ -1,0 +1,117 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E016",
+  "fingerprint": "5693a4315bac05afa2c0a463220384ed50718cc1a559115baa512028be64fdf0",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E016",
+    "templateSha256": "43eeea9a21afb160a1c4e8a67195512e197f1ab7b5195b5f570c82fcb9079a2f",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 13.909,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E016",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E016-af3cbe834f96b43c/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E016-af3cbe834f96b43c/job.json",
+        "sha256": "30951554d2e33c47480e1a1293e7ddf8d5dcadb2912942dd07b0128a280a11e9",
+        "sourceSha256": "30951554d2e33c47480e1a1293e7ddf8d5dcadb2912942dd07b0128a280a11e9",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 3.425075850643274,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+        "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+        "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+        "model": "seed-audio-1.0",
+        "start": 0.05,
+        "oldGain": 0.27,
+        "perspective": "room",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+        "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+        "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+        "model": "seed-audio-1.0",
+        "start": 7.5454,
+        "oldGain": 0.16,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "environment",
+        "sourceId": "CabinBed_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/CabinBed_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+        "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+        "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.65,
+        "perspective": "room",
+        "loop": true
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+        "sha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+        "sourceSha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+        "sha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+        "sourceSha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+        "model": "seed-audio-1.0",
+        "start": 13.699,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 13.409,
+        "english": "Send the terms plainly. Stop outside the inner line and accept remote inspection. No boarding party will approach. If there are weapons, leave them inactive. Give them understandable conditions, not a threat.",
+        "text": "把条件说清楚：停在内侧警戒线外，接受远程检查，不会有登舰队靠近。如果存在武器，请保持关闭。给对方能够理解的条件，而不是威胁。",
+        "role": "commander"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "55fac1fc53b901e16af97434981bcdb547b152a764f32e5922dc1b0dd30a1a75",
+      "seconds": 13.909,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -2.633768209511041,
+      "rmsDbFS": -20.714168525754353,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

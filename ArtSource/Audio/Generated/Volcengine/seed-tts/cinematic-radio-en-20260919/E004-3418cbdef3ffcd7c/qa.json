@@ -1,0 +1,11 @@
+{
+  "duration": 8.364166666666666,
+  "sampleRate": 24000,
+  "channels": 1,
+  "peakDb": -13.03065116003715,
+  "rmsDb": -31.87634413450967,
+  "clippedSamples": 0,
+  "maxSilenceSeconds": 0.0,
+  "edgeDiscontinuity": 0.0006103515625,
+  "sha256": "8c40361c2d0b933c57921ed802c9abcd737e07b70b98af944371db7eb99d0e26"
+}

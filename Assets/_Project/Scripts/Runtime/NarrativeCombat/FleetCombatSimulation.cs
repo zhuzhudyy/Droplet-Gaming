@@ -5,28 +5,6 @@ using UnityEngine;
 
 namespace DropletPrototype
 {
-    public enum CombatEventKind
-    {
-        AttackIneffective, LaserReflected, HullPenetrated, ReactorUnstable, ShipExploded,
-        RescueRequested, RetreatOrdered, ShipEscaped, CommunicationInterrupted
-    }
-
-    public readonly struct CombatEvent
-    {
-        public readonly CombatEventKind kind;
-        public readonly ShipTarget speaker, subject;
-        public readonly Vector3 position;
-        public readonly DamageSource source;
-        public readonly float simulationTime;
-        public readonly int generation;
-        public CombatEvent(CombatEventKind kind, ShipTarget speaker, ShipTarget subject,
-            Vector3 position, DamageSource source, float simulationTime, int generation)
-        {
-            this.kind = kind; this.speaker = speaker; this.subject = subject; this.position = position;
-            this.source = source; this.simulationTime = simulationTime; this.generation = generation;
-        }
-    }
-
     public readonly struct FleetRayHit
     {
         public readonly ShipTarget ship;
@@ -66,6 +44,9 @@ namespace DropletPrototype
         public double EndStepCpuMilliseconds { get; private set; }
         public event Action<CombatEvent> EventRaised;
         public event Action SimulationReset;
+        public event Action<FleetThreatNotice> ThreatScheduled;
+        public event Action StepCompleted;
+        public Vector3 AccumulatedOriginOffset { get; private set; }
 
         sealed class Shape
         {
@@ -81,6 +62,7 @@ namespace DropletPrototype
             public Shape[] shapes;
             public float radius, panicAt, breakUntil, decisionAt, maximumSpeed, unstableAt;
             public bool unstableRaised;
+            public string lastAttackerId;
             public uint seed;
             public int queryStamp;
         }
@@ -98,10 +80,11 @@ namespace DropletPrototype
         readonly List<List<Entry>> cellPool = new List<List<Entry>>();
         readonly List<Entry> sweepCandidates = new List<Entry>(64), rayCandidates = new List<Entry>(64), neighborCandidates = new List<Entry>(64);
         readonly List<Contact> contacts = new List<Contact>(32);
-        bool stepOpen, fleetRetreatIssued;
+        bool stepOpen, posesCommitted, fleetRetreatIssued;
         float stepDuration;
         int queryStamp, usedCells;
         long penetrationSequence;
+        uint eventSequence;
         static readonly ProfilerMarker StepMarker = new ProfilerMarker("NarrativeCombat.FleetStep");
         static readonly ProfilerMarker SweepMarker = new ProfilerMarker("NarrativeCombat.RelativeSweep");
 
@@ -109,6 +92,7 @@ namespace DropletPrototype
         {
             foreach (var old in entries) if (old.ship != null && old.ship.CombatSimulation == this) old.ship.CombatSimulation = null;
             targets = fleet ?? Array.Empty<ShipTarget>(); threat = player; scale = settings;
+            AccumulatedOriginOffset = Vector3.zero;
             lookup.Clear();
             var created = new List<Entry>(targets.Length);
             var ids = new HashSet<string>(StringComparer.Ordinal);
@@ -132,7 +116,8 @@ namespace DropletPrototype
         public void ResetSimulation()
         {
             Generation++; SimulatedTime = 0; PendingCount = EscapedCount = ExplodedCount = 0;
-            IntactCount = entries.Length; stepOpen = false; fleetRetreatIssued = false; penetrationSequence = 0;
+            eventSequence = 0;
+            IntactCount = entries.Length; stepOpen = posesCommitted = false; fleetRetreatIssued = false; penetrationSequence = 0;
             foreach (var e in entries)
             {
                 if (e.ship == null) continue;
@@ -141,6 +126,7 @@ namespace DropletPrototype
                 e.velocity = Vector3.zero; e.escapeDirection = Vector3.zero;
                 e.panicAt = float.PositiveInfinity; e.breakUntil = 0;
                 e.decisionAt = Unit(e.seed, 2) * .5f; e.unstableRaised = false;
+                e.lastAttackerId = string.Empty;
                 e.maximumSpeed = Units(Mathf.Lerp(scale != null ? scale.fleeMinMetersPerSecond : 2000,
                     scale != null ? scale.fleeMaxMetersPerSecond : 8000, Unit(e.seed, 3)));
             }
@@ -160,7 +146,7 @@ namespace DropletPrototype
             if (stepOpen) throw new InvalidOperationException("EndStep must close the preceding fleet step.");
             using (StepMarker.Auto())
             {
-                stepOpen = true; stepDuration = dt;
+                stepOpen = true; posesCommitted = false; stepDuration = dt;
                 Vector3 threatPosition = threat != null ? threat.position : evacuationCenter;
                 foreach (var e in entries)
                 {
@@ -221,10 +207,19 @@ namespace DropletPrototype
             if (!stepOpen) return;
             float elapsed = stepDuration;
             SimulatedTime += elapsed;
+            // Publish every pose before emitting explosions or nearby-threat
+            // queries. Previously observers later in the array still had their
+            // previous-frame Transform while earlier ships used their endpoint.
             foreach (var e in entries)
             {
                 var ship = e.ship; if (ship == null || ship.IsResolved) continue;
                 ship.transform.SetPositionAndRotation(e.end, e.endRotation);
+            }
+            posesCommitted = true;
+            if (fleetRenderer != null) fleetRenderer.RefreshAuthoritativePoses();
+            foreach (var e in entries)
+            {
+                var ship = e.ship; if (ship == null || ship.IsResolved) continue;
                 if (ship.DamageState == ShipDamageState.FatalPending)
                 {
                     if (!e.unstableRaised && SimulatedTime >= e.unstableAt)
@@ -236,7 +231,7 @@ namespace DropletPrototype
                             PendingCount--; ExplodedCount++;
                             EmitEvent(CombatEventKind.CommunicationInterrupted, ship, ship, e.end, ship.LastHit.source);
                             EmitEvent(CombatEventKind.ShipExploded, FindWitness(e), ship, e.end, ship.LastHit.source);
-                            PanicNearby(e.end);
+                            PanicNearby(e.end, ship, FleetThreatCause.NearbyExplosion);
                         }
                     }
                 }
@@ -248,7 +243,9 @@ namespace DropletPrototype
                 }
             }
             stepOpen = false;
-            if (fleetRenderer != null) fleetRenderer.RefreshAuthoritativePoses();
+            var completedHandlers = StepCompleted;
+            if (completedHandlers != null) foreach (Action callback in completedHandlers.GetInvocationList())
+                try { callback(); } catch (Exception exception) { Debug.LogException(exception, this); }
             }
             finally
             {
@@ -283,7 +280,7 @@ namespace DropletPrototype
             e.escapeDirection = (direction + Vector3.ClampMagnitude(separation, .5f)).normalized;
         }
 
-        public bool ApplyDamage(ShipTarget ship, ShipHitContext hit, DamageSource source, long attackId)
+        public bool ApplyDamage(ShipTarget ship, ShipHitContext hit, DamageSource source, long attackId, string attackerId = null)
         {
             if (!CombatActive || ship == null || !lookup.TryGetValue(ship, out var e) || ship.DamageState != ShipDamageState.Intact || ship.IsResolved) return false;
             float min = scale != null ? Mathf.Max(.01f, scale.explosionDelaySeconds.x) : 2;
@@ -291,40 +288,67 @@ namespace DropletPrototype
             float delay = Mathf.Lerp(min, max, Unit(e.seed, 19));
             var sourced = new ShipHitContext(hit.point, hit.direction.normalized, hit.speed, source, attackId);
             if (!ship.MarkFatal(sourced, SimulatedTime + delay)) return false;
+            e.lastAttackerId = attackerId ?? (source == DamageSource.Penetration ? "Droplet" : string.Empty);
             e.unstableAt = SimulatedTime + delay * .45f; e.unstableRaised = false;
             // A ship at rest gets a small physical impact impulse; a fleeing ship retains its inertia.
             e.velocity += sourced.direction * Units(120); ship.Velocity = e.velocity;
             IntactCount--; PendingCount++;
-            EmitEvent(CombatEventKind.HullPenetrated, ship, ship, hit.point, source);
+            EmitEvent(CombatEventKind.HullPenetrated, ship, ship, hit.point, source, hit.direction,
+                attackerId: attackerId ?? (source == DamageSource.Penetration ? "Droplet" : string.Empty));
             EmitEvent(CombatEventKind.RescueRequested, ship, ship, hit.point, source);
-            PanicNearby(ship.transform.position);
+            PanicNearby(ship.transform.position, ship, FleetThreatCause.NearbyPenetration);
             float threshold = scale != null ? scale.fleetLossRetreatFraction : .08f;
             if (!fleetRetreatIssued && (PendingCount + ExplodedCount) >= Mathf.Max(1, entries.Length * threshold))
             {
                 fleetRetreatIssued = true;
-                foreach (var other in entries) SchedulePanic(other, .4f + Unit(other.seed, 29) * 2);
+                // The reaction window already spreads departures. Adding another
+                // random delay here previously stretched a normal response to 7.9s.
+                foreach (var other in entries) SchedulePanic(other, ship, FleetThreatCause.FleetLoss);
             }
             return true;
         }
 
         public void RequestRetreat(ShipTarget ship, float delay = 0)
-        { if (ship != null && lookup.TryGetValue(ship, out var e)) e.panicAt = Mathf.Min(e.panicAt, SimulatedTime + Mathf.Max(0, delay)); }
+        {
+            if (ship != null && lookup.TryGetValue(ship, out var e))
+                SetPanicDeadline(e, SimulatedTime + Mathf.Max(0, delay), null, FleetThreatCause.ExplicitRetreat);
+        }
 
         public void SetShipVelocity(ShipTarget ship, Vector3 velocity)
         { if (ship != null && lookup.TryGetValue(ship, out var e)) { e.velocity = velocity; ship.Velocity = velocity; } }
 
-        void PanicNearby(Vector3 position)
+        void PanicNearby(Vector3 position, ShipTarget source, FleetThreatCause cause)
         {
             float radius = Units(scale != null ? scale.nearbyPanicRadiusMeters : 175000);
             Query(new Bounds(position, Vector3.one * radius * 2), neighborCandidates);
             foreach (var e in neighborCandidates)
-                if ((e.start - position).sqrMagnitude <= radius * radius) SchedulePanic(e, 0);
+                if ((e.ship.transform.position - position).sqrMagnitude <= radius * radius) SchedulePanic(e, source, cause);
         }
-        void SchedulePanic(Entry e, float extra)
+        void SchedulePanic(Entry e, ShipTarget source, FleetThreatCause cause)
         {
-            if (e.ship == null || e.ship.IsResolved || e.ship.DamageState != ShipDamageState.Intact) return;
-            Vector2 reaction = scale != null ? scale.reactionDelaySeconds : new Vector2(.7f, 5.5f);
-            e.panicAt = Mathf.Min(e.panicAt, SimulatedTime + Mathf.Lerp(reaction.x, reaction.y, Unit(e.seed, 23)) + extra);
+            Vector2 reaction = scale != null ? scale.NormalReactionDelay : new Vector2(1, 3);
+            SetPanicDeadline(e, SimulatedTime + Mathf.Lerp(reaction.x, reaction.y, Unit(e.seed, 23)), source, cause);
+        }
+        void SetPanicDeadline(Entry e, float deadline, ShipTarget source, FleetThreatCause cause)
+        {
+            if (e.ship == null || e.ship.IsResolved || e.ship.DamageState != ShipDamageState.Intact ||
+                e.ship.BehaviorState == ShipBehaviorState.BreakingFormation || e.ship.BehaviorState == ShipBehaviorState.Fleeing ||
+                deadline >= e.panicAt) return;
+            e.panicAt = deadline;
+            var handlers = ThreatScheduled;
+            if (handlers == null) return;
+            var notice = new FleetThreatNotice(e.ship, source, cause, SimulatedTime, deadline, Generation);
+            foreach (Action<FleetThreatNotice> callback in handlers.GetInvocationList())
+                try { callback(notice); } catch (Exception exception) { Debug.LogException(exception, this); }
+        }
+        public bool TryGetAuthoritativePose(ShipTarget ship, out Vector3 position, out Quaternion rotation)
+        {
+            if (ship != null && lookup.TryGetValue(ship, out var e))
+            {
+                bool proposed = stepOpen && !posesCommitted;
+                position = proposed ? e.start : e.end; rotation = proposed ? e.startRotation : e.endRotation; return true;
+            }
+            position = default; rotation = Quaternion.identity; return false;
         }
         ShipTarget FindWitness(Entry victim)
         {
@@ -339,9 +363,21 @@ namespace DropletPrototype
             }
             return selected;
         }
-        public void EmitEvent(CombatEventKind kind, ShipTarget speaker, ShipTarget subject, Vector3 position, DamageSource source = DamageSource.Penetration)
+        public void EmitEvent(CombatEventKind kind, ShipTarget speaker, ShipTarget subject, Vector3 position,
+            DamageSource source = DamageSource.Penetration, Vector3 direction = default, Vector3 normal = default,
+            string attackerId = null, string targetId = null)
         {
-            var value = new CombatEvent(kind, speaker, subject, position, source, SimulatedTime, Generation);
+            var stateOwner = subject != null ? subject : speaker;
+            if (attackerId == null && stateOwner != null && lookup.TryGetValue(stateOwner, out var stateEntry) &&
+                (kind == CombatEventKind.HullPenetrated || kind == CombatEventKind.ReactorUnstable ||
+                 kind == CombatEventKind.RescueRequested || kind == CombatEventKind.ShipExploded ||
+                 kind == CombatEventKind.CommunicationInterrupted)) attackerId = stateEntry.lastAttackerId;
+            if (direction.sqrMagnitude < .000001f && stateOwner != null)
+                direction = stateOwner.DamageState == ShipDamageState.Intact ? stateOwner.transform.forward : stateOwner.LastHit.direction;
+            long id = ((long)Generation << 32) | ++eventSequence;
+            var value = new CombatEvent(kind, speaker, subject, position, source, SimulatedTime, Generation, id,
+                attackerId ?? (speaker != null ? speaker.targetId : string.Empty),
+                targetId ?? (subject != null ? subject.targetId : string.Empty), direction, normal, AccumulatedOriginOffset);
             var handlers = EventRaised;
             if (handlers == null) return;
             foreach (Action<CombatEvent> callback in handlers.GetInvocationList())
@@ -433,6 +469,7 @@ namespace DropletPrototype
         }
         public void ShiftOrigin(Vector3 offset)
         {
+            AccumulatedOriginOffset += offset;
             evacuationCenter -= offset;
             foreach (var e in entries)
             {

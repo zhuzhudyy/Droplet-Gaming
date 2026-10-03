@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E002",
+    "text": "The markets opened early for it. The ministries found a careful name for it. On the night side, children are watching the windows, trying to find a star that nobody can see."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The markets opened early for it. The ministries found a careful name for it. On the night side, children are watching the windows, trying to find a star that nobody can see.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Concrete and intimate, with a faint trace of sadness rather than a grand announcement.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "1b78bdcb-9061-4e82-a433-6f4a9443c76a",
+  "sha256": "8ba8972e9c74ad9d66a75c44d8901f457aee53859299e47b3046949d2a6b6201",
+  "duration_seconds": 12.179875,
+  "usage": {
+    "text_words": 173
+  }
+}

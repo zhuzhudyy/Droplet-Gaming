@@ -1,0 +1,36 @@
+{
+  "id": "Narrative_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "39e4522be9980b4681b404383e8f59f8bdb5ac427f0c26bca51fcb7f19bbbd2f",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Narrative_01/job.json",
+  "sourceSha256": "9594e6a75fba554aadf7b181f684f349fa53c54357cfdb6724a9942069a3d94a",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 1: quiet wonder, slow bowed-metal harmonics and widely spaced low synth pulses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "Narrative_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.7672117333715829,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "39e4522be9980b4681b404383e8f59f8bdb5ac427f0c26bca51fcb7f19bbbd2f",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.680829414161876,
+    "rmsDbFS": -26.00233574029966,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.00244140625
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

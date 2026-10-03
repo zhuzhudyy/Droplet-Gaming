@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-29T08:29:23.723108+00:00",
+  "status": "stopped_at_capability_gate",
+  "gatePassed": false,
+  "acceptedNonSpeech": 0,
+  "subjectiveListening": "not_performed",
+  "limitation": "This session cannot perceive audio input. Offline zh-CN first-utterance free dictation is supporting evidence only; low-confidence text and empty transcripts cannot establish sound identity or quality.",
+  "categories": [
+    {
+      "id": "LASER",
+      "label": "激光",
+      "submitted": 3,
+      "accepted": 0,
+      "maxPromptRevisionsUsed": 2,
+      "next": "Listen to retained candidates; no fourth paid trial in this authorized scope."
+    },
+    {
+      "id": "METAL",
+      "label": "金属贯穿",
+      "submitted": 3,
+      "accepted": 0,
+      "maxPromptRevisionsUsed": 2,
+      "next": "Listen to retained candidates; no fourth paid trial in this authorized scope."
+    },
+    {
+      "id": "EXPLOSION",
+      "label": "爆炸",
+      "submitted": 3,
+      "accepted": 0,
+      "maxPromptRevisionsUsed": 2,
+      "next": "Listen to retained candidates; no fourth paid trial in this authorized scope."
+    },
+    {
+      "id": "FLIGHT",
+      "label": "飞行持续声",
+      "submitted": 3,
+      "accepted": 0,
+      "maxPromptRevisionsUsed": 2,
+      "next": "Listen to retained candidates; no fourth paid trial in this authorized scope."
+    },
+    {
+      "id": "CABIN",
+      "label": "舰内环境",
+      "submitted": 3,
+      "accepted": 0,
+      "maxPromptRevisionsUsed": 2,
+      "next": "Listen to retained candidates; no fourth paid trial in this authorized scope."
+    },
+    {
+      "id": "MUSIC",
+      "label": "无歌词背景",
+      "submitted": 3,
+      "accepted": 0,
+      "maxPromptRevisionsUsed": 2,
+      "next": "Listen to retained candidates; no fourth paid trial in this authorized scope."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "CONTROL_R1",
+      "category": "voice_control",
+      "sha256": "65704aa2f9432ebfdec22cbee3f3693c9224a0dc9e60a817f9a66b7eb275c91c",
+      "decision": "technical_pass_listening_pending",
+      "label": "英语控制：技术通过，主观试听未执行",
+      "evidence": [
+        "实际输出 5.396 秒；鉴权、完整 PCM、WAV 封装和服务用量返回成立。",
+        "自然度、实际措辞与演出质量未由自动信号检测认证。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "",
+      "speechSegments": [],
+      "speechInspectionSource": null,
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "LASER_R1",
+      "category": "LASER",
+      "sha256": null,
+      "decision": "rejected_no_audio",
+      "label": "不通过：没有完整有效音频",
+      "evidence": [
+        "Incomplete/invalid PCM stream; no audio file published.",
+        "原请求保持不确定状态；用量未返回，保留预算预留，不重复提交。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "",
+      "speechSegments": [],
+      "speechInspectionSource": null,
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "LASER_R2",
+      "category": "LASER",
+      "sha256": "b4184ab8555352413a8317e50eddf2b5ecf154d876bfb15d6ba85b6e812b7cde",
+      "decision": "unaccepted_acoustic_identity_unverified",
+      "label": "未验收：声音身份与听感待确认",
+      "evidence": [
+        "未取得足以确认声源身份的内容证据；有 WAV 或空转写都不满足验收。",
+        "需要实际试听判断电子音效、持续机械声或人声拟声；本会话不具备音频感知输入。",
+        "参考目标 1.5 秒；实际 3.969 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "",
+      "speechSegments": [],
+      "speechInspectionSource": null,
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "METAL_R1",
+      "category": "METAL",
+      "sha256": null,
+      "decision": "rejected_no_audio",
+      "label": "不通过：没有完整有效音频",
+      "evidence": [
+        "Incomplete/invalid PCM stream; no audio file published.",
+        "原请求保持不确定状态；用量未返回，保留预算预留，不重复提交。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "",
+      "speechSegments": [],
+      "speechInspectionSource": null,
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "METAL_R2",
+      "category": "METAL",
+      "sha256": "15c704f7e60496a959021185d17f560471e3cbfc5d0f402ab3adeebc5d66ae60",
+      "decision": "unaccepted_suspected_vocal_cue",
+      "label": "未验收：疑似拟声音节，音效身份未证实",
+      "evidence": [
+        "自由听写识别到短音节，与拟声文本存在对应或疑似人声线索。",
+        "短音频的识别结果可能误报，不能据此声称已听见口技；尚未证实为所需的真实物体／器乐声音。",
+        "参考目标 3 秒；实际 2.377 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "当派当啷",
+      "speechSegments": [
+        {
+          "text": "当派当啷",
+          "confidence": 0.127860576,
+          "positionSeconds": 0.21,
+          "durationSeconds": 2.04
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "LASER_R3",
+      "category": "LASER",
+      "sha256": "6e116888415d2fc87e4581b0e6123fe3a19cf48bbd38a515291603d80e4deebc",
+      "decision": "unaccepted_acoustic_identity_unverified",
+      "label": "未验收：声音身份与听感待确认",
+      "evidence": [
+        "未取得足以确认声源身份的内容证据；有 WAV 或空转写都不满足验收。",
+        "需要实际试听判断电子音效、持续机械声或人声拟声；本会话不具备音频感知输入。",
+        "参考目标 1.5 秒；实际 1.798 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "",
+      "speechSegments": [],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "EXPLOSION_R1",
+      "category": "EXPLOSION",
+      "sha256": "13b1dc7451af4f1c32df8297846702d24b0b284a6dc9e52ef4905b14586fd806",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 5 秒；实际 7.587 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "一次沉重的科幻纤尘爆炸春天冲击后低频轰鸣扩散",
+      "speechSegments": [
+        {
+          "text": "一次沉重的科幻纤尘爆炸春天冲击后低频轰鸣扩散",
+          "confidence": 0.200974643,
+          "positionSeconds": 0.27999999999999997,
+          "durationSeconds": 4.859999999999999
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "FLIGHT_R1",
+      "category": "FLIGHT",
+      "sha256": "4a173347c6cc75120cd3c523a733aac9048dba3328c744a3daea59510f6ce8bd",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 8 秒；实际 9.009 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "有稳定的低频电子共振州和高频谐波缓慢变化冷峻平滑适合高速飞行循环",
+      "speechSegments": [
+        {
+          "text": "有稳定的低频电子共振州和高频谐波缓慢变化冷峻平滑适合高速飞行循环",
+          "confidence": 0.4001029,
+          "positionSeconds": 0.26999999999999996,
+          "durationSeconds": 8.52
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "CABIN_R1",
+      "category": "CABIN",
+      "sha256": "a7a287fe82ce4092a423198f287b53d43a315d6d26cf3977630699b5df32828a",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 8 秒；实际 7.189 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "安庆纤长的设备提名远处通风友爱细小继电器他大声稳定且喜叔",
+      "speechSegments": [
+        {
+          "text": "安庆纤长的设备提名远处通风友爱细小继电器他大声稳定且喜叔",
+          "confidence": 0.206401959,
+          "positionSeconds": 0.27999999999999997,
+          "durationSeconds": 6.6899999999999995
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "MUSIC_R1",
+      "category": "MUSIC",
+      "sha256": "29fd8b6b3954671f5f16fe4f148095441d36a71d23ea859cb74ea8e735f9cbe1",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 12 秒；实际 8.616 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "冷清科幻纯七月背景缓慢低音合成器脉冲比稀疏暗自和弦克制紧张没有人声",
+      "speechSegments": [
+        {
+          "text": "冷清科幻纯七月背景缓慢低音合成器脉冲比稀疏暗自和弦克制紧张没有人声",
+          "confidence": 0.2993734,
+          "positionSeconds": 0.26,
+          "durationSeconds": 8.1
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "EXPLOSION_R2",
+      "category": "EXPLOSION",
+      "sha256": "0f5f759dc6fbb8331cf40f3c57e42aebf57a700fc05eb1e428e2e7dadef53487",
+      "decision": "unaccepted_suspected_vocal_cue",
+      "label": "未验收：疑似拟声音节，音效身份未证实",
+      "evidence": [
+        "自由听写识别到短音节，与拟声文本存在对应或疑似人声线索。",
+        "短音频的识别结果可能误报，不能据此声称已听见口技；尚未证实为所需的真实物体／器乐声音。",
+        "参考目标 5 秒；实际 3.572 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "阿",
+      "speechSegments": [
+        {
+          "text": "阿",
+          "confidence": 0.5525003,
+          "positionSeconds": 0.26,
+          "durationSeconds": 1.88
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "FLIGHT_R2",
+      "category": "FLIGHT",
+      "sha256": "6754ca6842f5db641e670e993e74742a7129107ec1e4ab5776b7b30a5a90fedd",
+      "decision": "unaccepted_acoustic_identity_unverified",
+      "label": "未验收：声音身份与听感待确认",
+      "evidence": [
+        "未取得足以确认声源身份的内容证据；有 WAV 或空转写都不满足验收。",
+        "需要实际试听判断电子音效、持续机械声或人声拟声；本会话不具备音频感知输入。",
+        "参考目标 8 秒；实际 10.630 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "",
+      "speechSegments": [],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "CABIN_R2",
+      "category": "CABIN",
+      "sha256": "0fe44681dd2032572e5349952039822072a88d2b2f0bc0c5488545c0b3bb50f2",
+      "decision": "unaccepted_suspected_vocal_cue",
+      "label": "未验收：疑似拟声音节，音效身份未证实",
+      "evidence": [
+        "自由听写识别到短音节，与拟声文本存在对应或疑似人声线索。",
+        "短音频的识别结果可能误报，不能据此声称已听见口技；尚未证实为所需的真实物体／器乐声音。",
+        "参考目标 8 秒；实际 5.418 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "罢罢",
+      "speechSegments": [
+        {
+          "text": "罢罢",
+          "confidence": 0.5017516,
+          "positionSeconds": 2.4699999999999998,
+          "durationSeconds": 2.11
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "MUSIC_R2",
+      "category": "MUSIC",
+      "sha256": "8c40155623d3a08c7a7f33904b84f3d46ad31d54c87cb53958fd5ff035887c40",
+      "decision": "unaccepted_suspected_vocal_cue",
+      "label": "未验收：疑似拟声音节，音效身份未证实",
+      "evidence": [
+        "自由听写识别到短音节，与拟声文本存在对应或疑似人声线索。",
+        "短音频的识别结果可能误报，不能据此声称已听见口技；尚未证实为所需的真实物体／器乐声音。",
+        "参考目标 12 秒；实际 3.972 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "蹬蹬冰崩",
+      "speechSegments": [
+        {
+          "text": "蹬蹬冰崩",
+          "confidence": 0.640836,
+          "positionSeconds": 0.25,
+          "durationSeconds": 3.6799999999999997
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "METAL_R3",
+      "category": "METAL",
+      "sha256": "9a626e5b611c26980612d19fec6b60d8654fda443b85d3fda3ade5431ccba2d8",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 3 秒；实际 2.197 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "厚钢板贯穿生",
+      "speechSegments": [
+        {
+          "text": "厚钢板贯穿生",
+          "confidence": 0.2672041,
+          "positionSeconds": 0.26,
+          "durationSeconds": 1.64
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "EXPLOSION_R3",
+      "category": "EXPLOSION",
+      "sha256": "081e9b242a55d009cbb2eeca67ca0cc8b774bd324278d9827d1da3ac52fab087",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 5 秒；实际 1.802 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "舰船爆炸声",
+      "speechSegments": [
+        {
+          "text": "舰船爆炸声",
+          "confidence": 0.0442378037,
+          "positionSeconds": 0.29,
+          "durationSeconds": 1.3399999999999999
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "FLIGHT_R3",
+      "category": "FLIGHT",
+      "sha256": "ca1255b6f94949467866834ddb8ef0602362bc7565150d386c0b2104f1ccb227",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 8 秒；实际 2.206 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "持续电子飞行生",
+      "speechSegments": [
+        {
+          "text": "持续电子飞行生",
+          "confidence": 0.125310779,
+          "positionSeconds": 0.26999999999999996,
+          "durationSeconds": 1.7999999999999998
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "CABIN_R3",
+      "category": "CABIN",
+      "sha256": "be322add922441960a3abc8cde7648e2c3ef22dba0557d1c47fb280d42ef75a6",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 8 秒；实际 1.806 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "安庆正常环境生",
+      "speechSegments": [
+        {
+          "text": "安庆正常环境生",
+          "confidence": 0.0212240536,
+          "positionSeconds": 0.24,
+          "durationSeconds": 1.47
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    },
+    {
+      "id": "MUSIC_R3",
+      "category": "MUSIC",
+      "sha256": "d945bf2883f33514cbfd74f5541beb4bafadea47432d1ceadde03ba8d1cb00b3",
+      "decision": "rejected_prompt_reading_evidence",
+      "label": "不通过：自动转写发现描述／标签朗读证据",
+      "evidence": [
+        "自由听写得到与输入描述或标签相近的语句，支持语音污染判断。",
+        "没有向识别器注入原文或强制词法；置信度与识别错误原样记录。这是拒绝导入的辅助证据，不是主观听感报告。",
+        "参考目标 12 秒；实际 3.571 秒。时长差异本身不作为声源身份判断。"
+      ],
+      "subjectiveListening": "not_performed",
+      "transcript": "第一合成器的暗色和咸淳器乐",
+      "speechSegments": [
+        {
+          "text": "第一合成器的暗色和咸淳器乐",
+          "confidence": 0.276378542,
+          "positionSeconds": 0.24,
+          "durationSeconds": 3.17
+        }
+      ],
+      "speechInspectionSource": "docs\\verification\\SeedTTS-Soundscape-20260929\\offline-speech-inspection.json",
+      "processingRecipe": "Native PCM from Seed-TTS 2.0 wrapped losslessly in WAV; no trimming, tuning, looping, mixing or alternative source synthesis.",
+      "intendedUse": "Capability evidence only; not accepted for Unity import."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "BattleHigh_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "e913914e4203dca219dda20e86a78a1ac494e3d036ef0d2c4da57fee7836a0ee",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BattleHigh_01/job.json",
+  "sourceSha256": "d467e697bd4617c5451b8cbeee12d1c1fab07581bb0245ef0ca4ac76844b1dcb",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Intense cold science-fiction battle score, forceful but intelligible without excessive treble. Driving polyrhythmic industrial drums, low brass-like synth stabs and fast string figures. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "BattleHigh_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.3488275504657398,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "e913914e4203dca219dda20e86a78a1ac494e3d036ef0d2c4da57fee7836a0ee",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.012709717453296,
+    "rmsDbFS": -26.00230474244213,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.003692626953125
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

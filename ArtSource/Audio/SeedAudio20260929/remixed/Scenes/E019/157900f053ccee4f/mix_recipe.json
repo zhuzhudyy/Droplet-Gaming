@@ -1,0 +1,117 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E019",
+  "fingerprint": "157900f053ccee4f03fe27b843eaab680f95a48f3548eb3d683b56a474ff46d4",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E019",
+    "templateSha256": "589b50f2a03fdbe39a9b761762422935be2d1681d37151d94f5c6251e8c9668b",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 11.932708,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E019",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E019-843f65b19f2ec1ab/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E019-843f65b19f2ec1ab/job.json",
+        "sha256": "831d1357771a75f37ccd0a43b571392316d5575808cfcf429492b6fca5d754c1",
+        "sourceSha256": "831d1357771a75f37ccd0a43b571392316d5575808cfcf429492b6fca5d754c1",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 7.791291079534908,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+        "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+        "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+        "model": "seed-audio-1.0",
+        "start": 0.05,
+        "oldGain": 0.27,
+        "perspective": "room",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+        "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+        "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+        "model": "seed-audio-1.0",
+        "start": 6.357551,
+        "oldGain": 0.16,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "environment",
+        "sourceId": "CabinBed_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/CabinBed_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+        "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+        "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.65,
+        "perspective": "room",
+        "loop": true
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+        "sha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+        "sourceSha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+        "sha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+        "sourceSha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+        "model": "seed-audio-1.0",
+        "start": 11.722709,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 11.432708,
+        "english": "Understood. Keep that distinction in the record. We still need to make the offer. If anyone can receive it, they should know we left a safe way to stop. Repeat it slowly.",
+        "text": "明白，把这个区别写入记录。但提议仍要发出。如果有人能够接收，就应该知道，我们留下了安全停下的办法。慢慢再发一次。",
+        "role": "commander"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "7d783f696a284692b4d0fa4cbd904797887c1ea958bf295421fa9d579c42da70",
+      "seconds": 11.932708333333334,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -2.653533787460312,
+      "rmsDbFS": -21.10777897787106,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

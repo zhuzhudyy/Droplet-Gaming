@@ -1,0 +1,37 @@
+{
+  "id": "Slider_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "fde7683c33dd447ac1d46ccc67fecf3b9d8845ee5e6c125e051e77de5797e69e",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Slider_02/job.json",
+  "sourceSha256": "cc0c89b78966943a204e72a87afc8ed43bb6695e7f77b79e27d5ce9719f49234",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.12 seconds. Extremely short quiet interface slider increment, safe for repeated interaction. A single muted ceramic contact with a tiny electrical glint. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Slider_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 9600,
+    "rate": 48000,
+    "targetSeconds": 0.12,
+    "representative": false,
+    "startFrame": 5280,
+    "usedSourceFrames": 4320,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 576,
+    "outputFrames": 4320,
+    "linearGain": 1.5929517965933506,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "fde7683c33dd447ac1d46ccc67fecf3b9d8845ee5e6c125e051e77de5797e69e",
+    "durationSeconds": 0.09,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -28.926937001989987,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

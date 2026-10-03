@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="1" failed="4" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:24Z" duration="21.3024904">
+  <test-suite type="TestSuite" id="1163" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:24Z" duration="21.302490" total="5" passed="1" failed="4" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1156" name="DropletPrototype.Tests.PlayMode.dll" fullname="C:/学习/玩/Unity/Trysolar Drip/Library/ScriptAssemblies/DropletPrototype.Tests.PlayMode.dll" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:24Z" duration="21.295135" total="5" passed="1" failed="4" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="34060" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1157" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:24Z" duration="21.293991" total="5" passed="1" failed="4" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1158" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:24Z" duration="21.293043" total="5" passed="1" failed="4" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1159" name="PlayMode" fullname="DropletPrototype.Tests.PlayMode" runstate="Runnable" testcasecount="122" result="Failed" site="Child" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:24Z" duration="21.292092" total="5" passed="1" failed="4" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1005" name="CinematicFullSceneTests" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:24Z" duration="21.289436" total="5" passed="1" failed="4" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1006" name="FullFleetHasUniqueIdsCubicDepthAndBowsTowardFixedCombatStart" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.FullFleetHasUniqueIdsCubicDepthAndBowsTowardFixedCombatStart" methodname="FullFleetHasUniqueIdsCubicDepthAndBowsTowardFixedCombatStart" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="222065201" result="Passed" start-time="2026-09-29 11:21:02Z" end-time="2026-09-29 11:21:07Z" duration="4.604338" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="FullFleetOriginShiftRetainsAuthoritativeIdentityOrientationAndReset" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.FullFleetOriginShiftRetainsAuthoritativeIdentityOrientationAndReset" methodname="FullFleetOriginShiftRetainsAuthoritativeIdentityOrientationAndReset" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="1653565967" result="Failed" start-time="2026-09-29 11:21:07Z" end-time="2026-09-29 11:21:12Z" duration="4.528872" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : Unhandled log message: '[Error] RenderTexture.Create failed'. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper:Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes (bool&)
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[RenderTexture.Create failed
+RenderTexture.Create failed
+Failed to set the active render target, ensure that it is a valid render target.
+RenderTexture.Create failed
+RenderTexture.Create failed
+SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawDepthNormalPrepass: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawOpaqueObjects/DrawSkybox: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawTransparentObjects: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1008" name="OrdinaryMotorPenetrationStartsRealEscapeAndBothRenderPosesAgree" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.OrdinaryMotorPenetrationStartsRealEscapeAndBothRenderPosesAgree" methodname="OrdinaryMotorPenetrationStartsRealEscapeAndBothRenderPosesAgree" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="865149315" result="Failed" start-time="2026-09-29 11:21:12Z" end-time="2026-09-29 11:21:16Z" duration="4.037299" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : Unhandled log message: '[Error] RenderTexture.Create failed'. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper:Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes (bool&)
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawDepthNormalPrepass: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawOpaqueObjects/DrawSkybox: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawTransparentObjects: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1009" name="PenetrationUnstableExplosionInterruptionKeepOriginalDeadlineAndScore" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.PenetrationUnstableExplosionInterruptionKeepOriginalDeadlineAndScore" methodname="PenetrationUnstableExplosionInterruptionKeepOriginalDeadlineAndScore" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="1052953067" result="Failed" start-time="2026-09-29 11:21:16Z" end-time="2026-09-29 11:21:20Z" duration="4.091777" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : Unhandled log message: '[Error] RenderTexture.Create failed'. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper:Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes (bool&)
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawDepthNormalPrepass: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawOpaqueObjects/DrawSkybox: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawTransparentObjects: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+]]></output>
+              </test-case>
+              <test-case id="1007" name="SkipNaturalCompletionAndThreeRestartsShareSavedFormation" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.SkipNaturalCompletionAndThreeRestartsShareSavedFormation" methodname="SkipNaturalCompletionAndThreeRestartsShareSavedFormation" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="1359793262" result="Failed" start-time="2026-09-29 11:21:20Z" end-time="2026-09-29 11:21:24Z" duration="4.015178" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[SetUp : Unhandled log message: '[Error] RenderTexture.Create failed'. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper:Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes (bool&)
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+SetConstantBuffer: The current renderer does not support constant buffers. This call will have no effect.
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawDepthNormalPrepass: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawOpaqueObjects/DrawSkybox: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+RenderTexture.Create failed
+RenderTexture.Create failed
+RenderTexture.Create failed
+DrawTransparentObjects: Unable to find surface for attachment 0
+EndRenderPass: Not inside a Renderpass
+Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

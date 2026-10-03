@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-19",
+  "scope": "Development-time voice tool setup; no live generation",
+  "python": "3.14.3",
+  "unittest_command": "python -B -m unittest discover -s Tools/Audio -p test_volc_voice.py -v",
+  "tests_run": 10,
+  "tests_passed": 10,
+  "checks": {
+    "seedance_cli_preview": "passed; no network or files",
+    "seed_tts_cli_preview": "passed; placeholder voice used only for offline preview",
+    "existing_dialogue_ids": "48 unique IDs",
+    "powershell_credential_helper": "syntax parsed; not executed",
+    "git_diff_check": "passed; only normal LF/CRLF warnings",
+    "ark_api_key_present_process_or_user": false,
+    "volc_speech_api_key_present_process_or_user": false,
+    "ffmpeg_on_path": false
+  },
+  "live_calls": 0,
+  "audio_assets_generated": 0,
+  "not_run": ["Live cloud authentication/synthesis", "Listening QA", "Real FFmpeg extraction", "Credential persistence helper", "Unity compilation", "Unity EditMode/PlayMode tests", "Standalone build/playback"],
+  "preservation": "No changes to Assets, Packages, ProjectSettings, old builds or existing voice files. Unrelated pre-existing untracked PNG preserved."
+}

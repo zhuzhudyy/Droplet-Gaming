@@ -8,6 +8,7 @@ namespace DropletPrototype
         public DropletReflectionGeometry geometry;
         public Transform authoritativePose;
         public Transform presentedMesh;
+        public LaserContactResponse contactResponse;
         [SerializeField] Matrix4x4 meshToPose = Matrix4x4.identity;
         public Matrix4x4 SurfaceMatrix => authoritativePose != null ? authoritativePose.localToWorldMatrix * meshToPose : transform.localToWorldMatrix;
         public Vector3 AimPoint => SurfaceMatrix.MultiplyPoint3x4(geometry != null ? geometry.localBounds.center : Vector3.zero);

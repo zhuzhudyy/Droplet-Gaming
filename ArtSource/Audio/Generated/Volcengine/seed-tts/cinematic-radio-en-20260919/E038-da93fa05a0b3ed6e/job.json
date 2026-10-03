@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E038",
+    "text": "Inner line crossing confirmed. I have two thousand identification signals, all distinct. Emergency band is live. Captains, answer with your own hull call sign."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Inner line crossing confirmed. I have two thousand identification signals, all distinct. Emergency band is live. Captains, answer with your own hull call sign.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "e7238999-82b4-48b1-a4ea-5cd98c0336e4",
+  "sha256": "4a41c79cc0265f8dd36a449f5f8977677dc9266f673d9687168ea575d6ba1149",
+  "duration_seconds": 11.203875,
+  "usage": {
+    "text_words": 159
+  }
+}

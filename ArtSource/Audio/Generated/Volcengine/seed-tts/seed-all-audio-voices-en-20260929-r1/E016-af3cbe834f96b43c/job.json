@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E016",
+    "text": "Send the terms plainly. Stop outside the inner line and accept remote inspection. No boarding party will approach. If there are weapons, leave them inactive. Give them understandable conditions, not a threat."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Send the terms plainly. Stop outside the inner line and accept remote inspection. No boarding party will approach. If there are weapons, leave them inactive. Give them understandable conditions, not a threat.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A commander choosing words in real time; emphasize plainly and no boarding party.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "958d54ca-5068-437c-8d4a-1d86cbd53c69",
+  "sha256": "30951554d2e33c47480e1a1293e7ddf8d5dcadb2912942dd07b0128a280a11e9",
+  "duration_seconds": 13.409,
+  "usage": {
+    "text_words": 208
+  }
+}

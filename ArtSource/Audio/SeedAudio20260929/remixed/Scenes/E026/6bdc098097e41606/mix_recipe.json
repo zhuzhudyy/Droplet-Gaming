@@ -1,0 +1,117 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E026",
+  "fingerprint": "6bdc098097e416066eb640cdd8f59dfea4df3760b5b5b9bb839a68a1033dc917",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E026",
+    "templateSha256": "d7dcfd1a17a3b36f65b23b4fe82cf18921194a6843b141add40ed52e804e0a64",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 12.900375,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E026",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E026-edcfcb2077c7fe86/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E026-edcfcb2077c7fe86/job.json",
+        "sha256": "742417e710294591784c245b73da391b6b6611485ba61edee9b2decbe6974c27",
+        "sourceSha256": "742417e710294591784c245b73da391b6b6611485ba61edee9b2decbe6974c27",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 5.612736895258877,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+        "sha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+        "sourceSha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+        "model": "seed-audio-1.0",
+        "start": 0.05,
+        "oldGain": 0.27,
+        "perspective": "room",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_03",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_03.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+        "sha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+        "sourceSha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+        "model": "seed-audio-1.0",
+        "start": 6.972705,
+        "oldGain": 0.16,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "environment",
+        "sourceId": "CabinBed_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/CabinBed_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+        "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+        "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.65,
+        "perspective": "room",
+        "loop": true
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+        "sha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+        "sourceSha256": "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json",
+        "sha256": "f6d909d5950e39e64773cafd4623de77069d1d02efd857bf9a1b3ae5aa84de31",
+        "sourceSha256": "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7",
+        "model": "seed-audio-1.0",
+        "start": 12.690375,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 12.400375,
+        "english": "Thank you. Give the outer ranks independent vectors, clear of neighboring hulls. Each captain needs somewhere to go without waiting for the formation. A route is useful only if somebody has time to take it.",
+        "text": "谢谢。为外层各列分配独立方向，避开邻舰。每位舰长都需要一条不必等待全阵行动的去路。路线只有让人来得及使用，才有意义。",
+        "role": "engineer"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "509b4d8b81019337145bd3473ba85d79e61fa92ff83438559cb116ae8f9b2907",
+      "seconds": 12.900375,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -2.772351713378218,
+      "rmsDbFS": -21.086879463508495,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

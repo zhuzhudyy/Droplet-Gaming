@@ -1,0 +1,4100 @@
+{
+    "coordinateSpace": "Absolute meters including accumulated origin shifts",
+    "samples": [
+        {
+            "shipId": "SPAWN_Small_FS1C23R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.1020824909210207,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 100729.9921875
+            },
+            "transformPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 100729.9921875
+            },
+            "renderedPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 100729.9921875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.3217499256134034,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 113200.828125
+            },
+            "transformPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 113200.828125
+            },
+            "renderedPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 113200.828125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.1147968769073488,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 100680.0078125
+            },
+            "transformPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 100680.0078125
+            },
+            "renderedPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 100680.0078125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.9626710414886475,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 200750.875
+            },
+            "transformPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 200750.875
+            },
+            "renderedPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 200750.875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.0188701152801514,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 200775.90625
+            },
+            "transformPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 200775.90625
+            },
+            "renderedPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 200775.90625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.2596523761749269,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 113210.84375
+            },
+            "transformPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 113210.84375
+            },
+            "renderedPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 113210.84375
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.1297385692596437,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 213215.890625
+            },
+            "transformPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 213215.890625
+            },
+            "renderedPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 213215.890625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.306527853012085,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 100695.0
+            },
+            "transformPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 100695.0
+            },
+            "renderedPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 100695.0
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.7556211948394777,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 200775.90625
+            },
+            "transformPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 200775.90625
+            },
+            "renderedPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 200775.90625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.48189377784729,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 113170.796875
+            },
+            "transformPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 113170.796875
+            },
+            "renderedPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 113170.796875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.0915720462799073,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 113225.8515625
+            },
+            "transformPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 113225.8515625
+            },
+            "renderedPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 113225.8515625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.138530969619751,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 213235.90625
+            },
+            "transformPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 213235.90625
+            },
+            "renderedPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 213235.90625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.622865915298462,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 213285.96875
+            },
+            "transformPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 213285.96875
+            },
+            "renderedPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 213285.96875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.1284716129302979,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 100734.9921875
+            },
+            "transformPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 100734.9921875
+            },
+            "renderedPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 100734.9921875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 3.2599971294403078,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.4769394397735597,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 113180.8125
+            },
+            "transformPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 113180.8125
+            },
+            "renderedPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 113180.8125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 2.1020824909210207,
+            "speedMetersPerSecond": 1472.77587890625,
+            "authoritativePositionMeters": {
+                "x": -150058.75,
+                "y": 799.815673828125,
+                "z": 102029.3671875
+            },
+            "transformPositionMeters": {
+                "x": -150058.75,
+                "y": 799.815673828125,
+                "z": 102029.3671875
+            },
+            "renderedPositionMeters": {
+                "x": -150058.75,
+                "y": 799.815673828125,
+                "z": 102029.3671875
+            },
+            "displacementMeters": {
+                "x": -58.75244140625,
+                "y": -0.1842975616455078,
+                "z": 1299.37744140625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.3217499256134034,
+            "speedMetersPerSecond": 2484.463623046875,
+            "authoritativePositionMeters": {
+                "x": -144419.046875,
+                "y": 50816.1796875,
+                "z": 115824.234375
+            },
+            "transformPositionMeters": {
+                "x": -144419.046875,
+                "y": 50816.1796875,
+                "z": 115824.234375
+            },
+            "renderedPositionMeters": {
+                "x": -144419.046875,
+                "y": 50816.1796875,
+                "z": 115824.234375
+            },
+            "displacementMeters": {
+                "x": -419.04296875,
+                "y": 16.180419921875,
+                "z": 2623.40087890625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 2.1147968769073488,
+            "speedMetersPerSecond": 1473.7176513671875,
+            "authoritativePositionMeters": {
+                "x": -75056.8515625,
+                "y": 799.8696899414063,
+                "z": 101979.7421875
+            },
+            "transformPositionMeters": {
+                "x": -75056.8515625,
+                "y": 799.8696899414063,
+                "z": 101979.7421875
+            },
+            "renderedPositionMeters": {
+                "x": -75056.8515625,
+                "y": 799.8696899414063,
+                "z": 101979.7421875
+            },
+            "displacementMeters": {
+                "x": -56.854248046875,
+                "y": -0.13031959533691407,
+                "z": 1299.737548828125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.9626710414886475,
+            "speedMetersPerSecond": 1668.9185791015625,
+            "authoritativePositionMeters": {
+                "x": -75079.2578125,
+                "y": 799.4236450195313,
+                "z": 202237.53125
+            },
+            "transformPositionMeters": {
+                "x": -75079.2578125,
+                "y": 799.4236450195313,
+                "z": 202237.53125
+            },
+            "renderedPositionMeters": {
+                "x": -75079.2578125,
+                "y": 799.4236450195313,
+                "z": 202237.53125
+            },
+            "displacementMeters": {
+                "x": -79.26025390625,
+                "y": -0.5763530731201172,
+                "z": 1486.6455078125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.0188701152801514,
+            "speedMetersPerSecond": 2893.903076171875,
+            "authoritativePositionMeters": {
+                "x": -677.3521728515625,
+                "y": 793.0785522460938,
+                "z": 204153.375
+            },
+            "transformPositionMeters": {
+                "x": -677.3521728515625,
+                "y": 793.0785522460938,
+                "z": 204153.375
+            },
+            "renderedPositionMeters": {
+                "x": -677.3521728515625,
+                "y": 793.0785522460938,
+                "z": 204153.375
+            },
+            "displacementMeters": {
+                "x": -677.3521728515625,
+                "y": -6.92143440246582,
+                "z": 3377.4658203125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": false,
+            "renderPoseAvailable": true,
+            "colliderEnabled": true,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 2.2596523761749269,
+            "speedMetersPerSecond": 1282.12060546875,
+            "authoritativePositionMeters": {
+                "x": -69031.2109375,
+                "y": 50800.94140625,
+                "z": 114353.2109375
+            },
+            "transformPositionMeters": {
+                "x": -69031.2109375,
+                "y": 50800.94140625,
+                "z": 114353.2109375
+            },
+            "renderedPositionMeters": {
+                "x": -69031.2109375,
+                "y": 50800.94140625,
+                "z": 114353.2109375
+            },
+            "displacementMeters": {
+                "x": -31.21337890625,
+                "y": 0.9429931640625,
+                "z": 1142.37060546875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 2.1297385692596437,
+            "speedMetersPerSecond": 1447.5640869140625,
+            "authoritativePositionMeters": {
+                "x": -69049.5390625,
+                "y": 50804.3828125,
+                "z": 214492.671875
+            },
+            "transformPositionMeters": {
+                "x": -69049.5390625,
+                "y": 50804.3828125,
+                "z": 214492.671875
+            },
+            "renderedPositionMeters": {
+                "x": -69049.5390625,
+                "y": 50804.3828125,
+                "z": 214492.671875
+            },
+            "displacementMeters": {
+                "x": -49.5361328125,
+                "y": 4.38232421875,
+                "z": 1276.7822265625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.306527853012085,
+            "speedMetersPerSecond": 2515.289306640625,
+            "authoritativePositionMeters": {
+                "x": 75428.6484375,
+                "y": 798.6852416992188,
+                "z": 103364.21875
+            },
+            "transformPositionMeters": {
+                "x": 75428.6484375,
+                "y": 798.6852416992188,
+                "z": 103364.21875
+            },
+            "renderedPositionMeters": {
+                "x": 75428.6484375,
+                "y": 798.6852416992188,
+                "z": 103364.21875
+            },
+            "displacementMeters": {
+                "x": 428.64990234375,
+                "y": -1.3147830963134766,
+                "z": 2669.219970703125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 2.7556211948394777,
+            "speedMetersPerSecond": 585.787353515625,
+            "authoritativePositionMeters": {
+                "x": 75001.296875,
+                "y": 799.9932861328125,
+                "z": 201570.21875
+            },
+            "transformPositionMeters": {
+                "x": 75001.296875,
+                "y": 799.9932861328125,
+                "z": 201570.21875
+            },
+            "renderedPositionMeters": {
+                "x": 75001.296875,
+                "y": 799.9932861328125,
+                "z": 201570.21875
+            },
+            "displacementMeters": {
+                "x": 1.300048828125,
+                "y": -0.0067234039306640629,
+                "z": 794.3115234375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 2.48189377784729,
+            "speedMetersPerSecond": 948.435791015625,
+            "authoritativePositionMeters": {
+                "x": 6010.56005859375,
+                "y": 50800.0625,
+                "z": 114102.953125
+            },
+            "transformPositionMeters": {
+                "x": 6010.56005859375,
+                "y": 50800.0625,
+                "z": 114102.953125
+            },
+            "renderedPositionMeters": {
+                "x": 6010.56005859375,
+                "y": 50800.0625,
+                "z": 114102.953125
+            },
+            "displacementMeters": {
+                "x": 10.559844970703125,
+                "y": 0.06103515625,
+                "z": 932.1533203125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.0915720462799073,
+            "speedMetersPerSecond": 2599.241455078125,
+            "authoritativePositionMeters": {
+                "x": 81718.75,
+                "y": 50837.375,
+                "z": 116313.78125
+            },
+            "transformPositionMeters": {
+                "x": 81718.75,
+                "y": 50837.375,
+                "z": 116313.78125
+            },
+            "renderedPositionMeters": {
+                "x": 81718.75,
+                "y": 50837.375,
+                "z": 116313.78125
+            },
+            "displacementMeters": {
+                "x": 718.75,
+                "y": 37.3748779296875,
+                "z": 3087.92724609375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.138530969619751,
+            "speedMetersPerSecond": 2793.272705078125,
+            "authoritativePositionMeters": {
+                "x": 6476.10400390625,
+                "y": 50826.09375,
+                "z": 216358.515625
+            },
+            "transformPositionMeters": {
+                "x": 6476.10400390625,
+                "y": 50826.09375,
+                "z": 216358.515625
+            },
+            "renderedPositionMeters": {
+                "x": 6476.10400390625,
+                "y": 50826.09375,
+                "z": 216358.515625
+            },
+            "displacementMeters": {
+                "x": 476.1039733886719,
+                "y": 26.092529296875,
+                "z": 3122.607421875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.622865915298462,
+            "speedMetersPerSecond": 2127.0302734375,
+            "authoritativePositionMeters": {
+                "x": 81198.375,
+                "y": 50817.09375,
+                "z": 215326.171875
+            },
+            "transformPositionMeters": {
+                "x": 81198.375,
+                "y": 50817.09375,
+                "z": 215326.171875
+            },
+            "renderedPositionMeters": {
+                "x": 81198.375,
+                "y": 50817.09375,
+                "z": 215326.171875
+            },
+            "displacementMeters": {
+                "x": 198.37646484375,
+                "y": 17.0928955078125,
+                "z": 2040.2099609375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 1.1284716129302979,
+            "speedMetersPerSecond": 2783.125244140625,
+            "authoritativePositionMeters": {
+                "x": 150511.78125,
+                "y": 797.9313354492188,
+                "z": 103845.25
+            },
+            "transformPositionMeters": {
+                "x": 150511.78125,
+                "y": 797.9313354492188,
+                "z": 103845.25
+            },
+            "renderedPositionMeters": {
+                "x": 150511.78125,
+                "y": 797.9313354492188,
+                "z": 103845.25
+            },
+            "displacementMeters": {
+                "x": 511.77978515625,
+                "y": -2.068662643432617,
+                "z": 3110.260009765625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 6.2599945068359379,
+            "secondsSinceThreat": 2.99999737739563,
+            "reactionDelay": 2.4769394397735597,
+            "speedMetersPerSecond": 976.4976806640625,
+            "authoritativePositionMeters": {
+                "x": 156011.234375,
+                "y": 50800.265625,
+                "z": 114127.515625
+            },
+            "transformPositionMeters": {
+                "x": 156011.234375,
+                "y": 50800.265625,
+                "z": 114127.515625
+            },
+            "renderedPositionMeters": {
+                "x": 156011.234375,
+                "y": 50800.265625,
+                "z": 114127.515625
+            },
+            "displacementMeters": {
+                "x": 11.23046875,
+                "y": 0.2655029296875,
+                "z": 946.7041015625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.9038920402526857,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 201586.6875
+            },
+            "transformPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 201586.6875
+            },
+            "renderedPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 201586.6875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.4887490272521973,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 213991.65625
+            },
+            "transformPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 213991.65625
+            },
+            "renderedPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 213991.65625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.5291132926940919,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 301021.1875
+            },
+            "transformPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 301021.1875
+            },
+            "renderedPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 301021.1875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.38328218460083,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 301181.34375
+            },
+            "transformPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 301181.34375
+            },
+            "renderedPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 301181.34375
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.2847771644592286,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 313456.125
+            },
+            "transformPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 313456.125
+            },
+            "renderedPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 313456.125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.1646146774291993,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 301026.1875
+            },
+            "transformPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 301026.1875
+            },
+            "renderedPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 301026.1875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.1778922080993653,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 313591.25
+            },
+            "transformPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 313591.25
+            },
+            "renderedPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 313591.25
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.121375560760498,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 313436.09375
+            },
+            "transformPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 313436.09375
+            },
+            "renderedPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 313436.09375
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.4679207801818849,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 201566.671875
+            },
+            "transformPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 201566.671875
+            },
+            "renderedPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 201566.671875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 6.759994029998779,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.1577324867248537,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 213966.625
+            },
+            "transformPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 213966.625
+            },
+            "renderedPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 213966.625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 2.9038920402526857,
+            "speedMetersPerSecond": 361.98919677734377,
+            "authoritativePositionMeters": {
+                "x": -150000.078125,
+                "y": 799.9998168945313,
+                "z": 202343.0
+            },
+            "transformPositionMeters": {
+                "x": -150000.078125,
+                "y": 799.9998168945313,
+                "z": 202343.0
+            },
+            "renderedPositionMeters": {
+                "x": -150000.078125,
+                "y": 799.9998168945313,
+                "z": 202343.0
+            },
+            "displacementMeters": {
+                "x": -0.0732421875,
+                "y": -0.00019073486328125,
+                "z": 756.298828125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 1.4887490272521973,
+            "speedMetersPerSecond": 2320.041015625,
+            "authoritativePositionMeters": {
+                "x": -144254.125,
+                "y": 50809.11328125,
+                "z": 216306.421875
+            },
+            "transformPositionMeters": {
+                "x": -144254.125,
+                "y": 50809.11328125,
+                "z": 216306.421875
+            },
+            "renderedPositionMeters": {
+                "x": -144254.125,
+                "y": 50809.11328125,
+                "z": 216306.421875
+            },
+            "displacementMeters": {
+                "x": -254.1259765625,
+                "y": 9.112548828125,
+                "z": 2314.7705078125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 1.5291132926940919,
+            "speedMetersPerSecond": 2255.14306640625,
+            "authoritativePositionMeters": {
+                "x": -75258.1640625,
+                "y": 797.6202392578125,
+                "z": 303248.4375
+            },
+            "transformPositionMeters": {
+                "x": -75258.1640625,
+                "y": 797.6202392578125,
+                "z": 303248.4375
+            },
+            "renderedPositionMeters": {
+                "x": -75258.1640625,
+                "y": 797.6202392578125,
+                "z": 303248.4375
+            },
+            "displacementMeters": {
+                "x": -258.160400390625,
+                "y": -2.379751205444336,
+                "z": 2227.24609375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 1.38328218460083,
+            "speedMetersPerSecond": 2447.855224609375,
+            "authoritativePositionMeters": {
+                "x": -321.48321533203127,
+                "y": 796.7911987304688,
+                "z": 303700.625
+            },
+            "transformPositionMeters": {
+                "x": -321.48321533203127,
+                "y": 796.7911987304688,
+                "z": 303700.625
+            },
+            "renderedPositionMeters": {
+                "x": -321.48321533203127,
+                "y": 796.7911987304688,
+                "z": 303700.625
+            },
+            "displacementMeters": {
+                "x": -321.48321533203127,
+                "y": -3.208780288696289,
+                "z": 2519.287109375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": false,
+            "renderPoseAvailable": true,
+            "colliderEnabled": true,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 1.2847771644592286,
+            "speedMetersPerSecond": 2548.116943359375,
+            "authoritativePositionMeters": {
+                "x": -69427.5234375,
+                "y": 50846.3046875,
+                "z": 316175.28125
+            },
+            "transformPositionMeters": {
+                "x": -69427.5234375,
+                "y": 50846.3046875,
+                "z": 316175.28125
+            },
+            "renderedPositionMeters": {
+                "x": -69427.5234375,
+                "y": 50846.3046875,
+                "z": 316175.28125
+            },
+            "displacementMeters": {
+                "x": -427.52685546875,
+                "y": 46.3043212890625,
+                "z": 2719.1650390625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 1.1646146774291993,
+            "speedMetersPerSecond": 2343.695068359375,
+            "authoritativePositionMeters": {
+                "x": 75676.46875,
+                "y": 792.8176879882813,
+                "z": 303883.3125
+            },
+            "transformPositionMeters": {
+                "x": 75676.46875,
+                "y": 792.8176879882813,
+                "z": 303883.3125
+            },
+            "renderedPositionMeters": {
+                "x": 75676.46875,
+                "y": 792.8176879882813,
+                "z": 303883.3125
+            },
+            "displacementMeters": {
+                "x": 676.470947265625,
+                "y": -7.18231201171875,
+                "z": 2857.1044921875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 1.1778922080993653,
+            "speedMetersPerSecond": 2752.033203125,
+            "authoritativePositionMeters": {
+                "x": 5578.71337890625,
+                "y": 50820.61328125,
+                "z": 316625.8125
+            },
+            "transformPositionMeters": {
+                "x": 5578.71337890625,
+                "y": 50820.61328125,
+                "z": 316625.8125
+            },
+            "renderedPositionMeters": {
+                "x": 5578.71337890625,
+                "y": 50820.61328125,
+                "z": 316625.8125
+            },
+            "displacementMeters": {
+                "x": -421.2867736816406,
+                "y": 20.6146240234375,
+                "z": 3034.5458984375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R03",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 1.121375560760498,
+            "speedMetersPerSecond": 2797.992431640625,
+            "authoritativePositionMeters": {
+                "x": 81474.84375,
+                "y": 50845.2578125,
+                "z": 316560.21875
+            },
+            "transformPositionMeters": {
+                "x": 81474.84375,
+                "y": 50845.2578125,
+                "z": 316560.21875
+            },
+            "renderedPositionMeters": {
+                "x": 81474.84375,
+                "y": 50845.2578125,
+                "z": 316560.21875
+            },
+            "displacementMeters": {
+                "x": 474.84130859375,
+                "y": 45.257568359375,
+                "z": 3124.0966796875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 2.4679207801818849,
+            "speedMetersPerSecond": 975.709228515625,
+            "authoritativePositionMeters": {
+                "x": 150013.046875,
+                "y": 799.9617919921875,
+                "z": 202513.140625
+            },
+            "transformPositionMeters": {
+                "x": 150013.046875,
+                "y": 799.9617919921875,
+                "z": 202513.140625
+            },
+            "renderedPositionMeters": {
+                "x": 150013.046875,
+                "y": 799.9617919921875,
+                "z": 202513.140625
+            },
+            "displacementMeters": {
+                "x": 13.04931640625,
+                "y": -0.03819465637207031,
+                "z": 946.47216796875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R02",
+            "sourceId": "SPAWN_Small_FS1C25R02",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 9.760032653808594,
+            "secondsSinceThreat": 3.0000386238098146,
+            "reactionDelay": 2.1577324867248537,
+            "speedMetersPerSecond": 1417.6142578125,
+            "authoritativePositionMeters": {
+                "x": 156051.71875,
+                "y": 50801.375,
+                "z": 215218.703125
+            },
+            "transformPositionMeters": {
+                "x": 156051.71875,
+                "y": 50801.375,
+                "z": 215218.703125
+            },
+            "renderedPositionMeters": {
+                "x": 156051.71875,
+                "y": 50801.375,
+                "z": 215218.703125
+            },
+            "displacementMeters": {
+                "x": 51.72119140625,
+                "y": 1.3763427734375,
+                "z": 1252.0751953125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.771225929260254,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 301516.6875
+            },
+            "transformPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 301516.6875
+            },
+            "renderedPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 301516.6875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.0033502578735352,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 313886.5625
+            },
+            "transformPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 313886.5625
+            },
+            "renderedPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 313886.5625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.5192832946777345,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 400996.15625
+            },
+            "transformPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 400996.15625
+            },
+            "renderedPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 400996.15625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.5639114379882814,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 401126.28125
+            },
+            "transformPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 401126.28125
+            },
+            "renderedPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 401126.28125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.2779464721679688,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 413476.375
+            },
+            "transformPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 413476.375
+            },
+            "renderedPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 413476.375
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.7836294174194338,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 401041.21875
+            },
+            "transformPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 401041.21875
+            },
+            "renderedPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 401041.21875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.4439773559570314,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 413521.1875
+            },
+            "transformPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 413521.1875
+            },
+            "renderedPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 413521.1875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.0269336700439455,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 413366.8125
+            },
+            "transformPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 413366.8125
+            },
+            "renderedPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 413366.8125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.0994749069213869,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 301556.71875
+            },
+            "transformPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 301556.71875
+            },
+            "renderedPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 301556.71875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 10.0400390625,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.0962133407592774,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 313871.53125
+            },
+            "transformPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 313871.53125
+            },
+            "renderedPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 313871.53125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.771225929260254,
+            "speedMetersPerSecond": 557.8511962890625,
+            "authoritativePositionMeters": {
+                "x": -150000.96875,
+                "y": 799.9969482421875,
+                "z": 302304.3125
+            },
+            "transformPositionMeters": {
+                "x": -150000.96875,
+                "y": 799.9969482421875,
+                "z": 302304.3125
+            },
+            "renderedPositionMeters": {
+                "x": -150000.96875,
+                "y": 799.9969482421875,
+                "z": 302304.3125
+            },
+            "displacementMeters": {
+                "x": -0.96435546875,
+                "y": -0.0030517578125,
+                "z": 787.6220703125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 1.0033502578735352,
+            "speedMetersPerSecond": 2941.33251953125,
+            "authoritativePositionMeters": {
+                "x": -144604.84375,
+                "y": 50826.078125,
+                "z": 317300.90625
+            },
+            "transformPositionMeters": {
+                "x": -144604.84375,
+                "y": 50826.078125,
+                "z": 317300.90625
+            },
+            "renderedPositionMeters": {
+                "x": -144604.84375,
+                "y": 50826.078125,
+                "z": 317300.90625
+            },
+            "displacementMeters": {
+                "x": -604.84619140625,
+                "y": 26.0772705078125,
+                "z": 3414.35546875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.5192832946777345,
+            "speedMetersPerSecond": 920.872314453125,
+            "authoritativePositionMeters": {
+                "x": -75008.6796875,
+                "y": 799.9342651367188,
+                "z": 401914.46875
+            },
+            "transformPositionMeters": {
+                "x": -75008.6796875,
+                "y": 799.9342651367188,
+                "z": 401914.46875
+            },
+            "renderedPositionMeters": {
+                "x": -75008.6796875,
+                "y": 799.9342651367188,
+                "z": 401914.46875
+            },
+            "displacementMeters": {
+                "x": -8.67919921875,
+                "y": -0.06575584411621094,
+                "z": 918.310546875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.5639114379882814,
+            "speedMetersPerSecond": 836.8382568359375,
+            "authoritativePositionMeters": {
+                "x": -6.834705829620361,
+                "y": 799.9517211914063,
+                "z": 402006.03125
+            },
+            "transformPositionMeters": {
+                "x": -6.834705829620361,
+                "y": 799.9517211914063,
+                "z": 402006.03125
+            },
+            "renderedPositionMeters": {
+                "x": -6.834705829620361,
+                "y": 799.9517211914063,
+                "z": 402006.03125
+            },
+            "displacementMeters": {
+                "x": -6.834705829620361,
+                "y": -0.04825592041015625,
+                "z": 879.736328125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": false,
+            "renderPoseAvailable": true,
+            "colliderEnabled": true,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 1.2779464721679688,
+            "speedMetersPerSecond": 2582.66650390625,
+            "authoritativePositionMeters": {
+                "x": -69430.3359375,
+                "y": 50847.84375,
+                "z": 416244.125
+            },
+            "transformPositionMeters": {
+                "x": -69430.3359375,
+                "y": 50847.84375,
+                "z": 416244.125
+            },
+            "renderedPositionMeters": {
+                "x": -69430.3359375,
+                "y": 50847.84375,
+                "z": 416244.125
+            },
+            "displacementMeters": {
+                "x": -430.33447265625,
+                "y": 47.8424072265625,
+                "z": 2767.7734375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.7836294174194338,
+            "speedMetersPerSecond": 529.89208984375,
+            "authoritativePositionMeters": {
+                "x": 75000.7109375,
+                "y": 799.9954833984375,
+                "z": 401822.6875
+            },
+            "transformPositionMeters": {
+                "x": 75000.7109375,
+                "y": 799.9954833984375,
+                "z": 401822.6875
+            },
+            "renderedPositionMeters": {
+                "x": 75000.7109375,
+                "y": 799.9954833984375,
+                "z": 401822.6875
+            },
+            "displacementMeters": {
+                "x": 0.714111328125,
+                "y": -0.0045299530029296879,
+                "z": 781.4697265625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.4439773559570314,
+            "speedMetersPerSecond": 1004.482177734375,
+            "authoritativePositionMeters": {
+                "x": 6011.888671875,
+                "y": 50800.21875,
+                "z": 414479.96875
+            },
+            "transformPositionMeters": {
+                "x": 6011.888671875,
+                "y": 50800.21875,
+                "z": 414479.96875
+            },
+            "renderedPositionMeters": {
+                "x": 6011.888671875,
+                "y": 50800.21875,
+                "z": 414479.96875
+            },
+            "displacementMeters": {
+                "x": 11.888504028320313,
+                "y": 0.2197265625,
+                "z": 958.7890625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R04",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.0269336700439455,
+            "speedMetersPerSecond": 1584.10205078125,
+            "authoritativePositionMeters": {
+                "x": 81071.1328125,
+                "y": 50805.671875,
+                "z": 414767.1875
+            },
+            "transformPositionMeters": {
+                "x": 81071.1328125,
+                "y": 50805.671875,
+                "z": 414767.1875
+            },
+            "renderedPositionMeters": {
+                "x": 81071.1328125,
+                "y": 50805.671875,
+                "z": 414767.1875
+            },
+            "displacementMeters": {
+                "x": 71.136474609375,
+                "y": 5.670166015625,
+                "z": 1400.390625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.0994749069213869,
+            "speedMetersPerSecond": 1502.1112060546875,
+            "authoritativePositionMeters": {
+                "x": 150058.671875,
+                "y": 799.7756958007813,
+                "z": 302882.28125
+            },
+            "transformPositionMeters": {
+                "x": 150058.671875,
+                "y": 799.7756958007813,
+                "z": 302882.28125
+            },
+            "renderedPositionMeters": {
+                "x": 150058.671875,
+                "y": 799.7756958007813,
+                "z": 302882.28125
+            },
+            "displacementMeters": {
+                "x": 58.6669921875,
+                "y": -0.22430419921875,
+                "z": 1325.5615234375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R03",
+            "sourceId": "SPAWN_Small_FS1C25R03",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 13.040107727050782,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 1.0962133407592774,
+            "speedMetersPerSecond": 2785.330078125,
+            "authoritativePositionMeters": {
+                "x": 156612.015625,
+                "y": 50824.12890625,
+                "z": 317045.5
+            },
+            "transformPositionMeters": {
+                "x": 156612.015625,
+                "y": 50824.12890625,
+                "z": 317045.5
+            },
+            "renderedPositionMeters": {
+                "x": 156612.015625,
+                "y": 50824.12890625,
+                "z": 317045.5
+            },
+            "displacementMeters": {
+                "x": 612.01171875,
+                "y": 24.1302490234375,
+                "z": 3173.974609375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 2.1020824909210207,
+            "speedMetersPerSecond": 2933.5556640625,
+            "authoritativePositionMeters": {
+                "x": -165853.234375,
+                "y": 651.0441284179688,
+                "z": 107252.8046875
+            },
+            "transformPositionMeters": {
+                "x": -165853.234375,
+                "y": 651.0441284179688,
+                "z": 107252.8046875
+            },
+            "renderedPositionMeters": {
+                "x": -165853.234375,
+                "y": 651.0441284179688,
+                "z": 107252.8046875
+            },
+            "displacementMeters": {
+                "x": -15853.234375,
+                "y": -148.95587158203126,
+                "z": 6522.81494140625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.3217499256134034,
+            "speedMetersPerSecond": 3168.044921875,
+            "authoritativePositionMeters": {
+                "x": -162683.234375,
+                "y": 52325.4765625,
+                "z": 118210.2265625
+            },
+            "transformPositionMeters": {
+                "x": -162683.234375,
+                "y": 52325.4765625,
+                "z": 118210.2265625
+            },
+            "renderedPositionMeters": {
+                "x": -162683.234375,
+                "y": 52325.4765625,
+                "z": 118210.2265625
+            },
+            "displacementMeters": {
+                "x": -18683.240234375,
+                "y": 1525.47607421875,
+                "z": 5009.3994140625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 2.1147968769073488,
+            "speedMetersPerSecond": 3377.93115234375,
+            "authoritativePositionMeters": {
+                "x": -92822.1796875,
+                "y": 645.9320068359375,
+                "z": 107697.28125
+            },
+            "transformPositionMeters": {
+                "x": -92822.1796875,
+                "y": 645.9320068359375,
+                "z": 107697.28125
+            },
+            "renderedPositionMeters": {
+                "x": -92822.1796875,
+                "y": 645.9320068359375,
+                "z": 107697.28125
+            },
+            "displacementMeters": {
+                "x": -17822.1796875,
+                "y": -154.0679931640625,
+                "z": 7017.27294921875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.9626710414886475,
+            "speedMetersPerSecond": 6274.052734375,
+            "authoritativePositionMeters": {
+                "x": -101367.3828125,
+                "y": 498.150390625,
+                "z": 219771.0625
+            },
+            "transformPositionMeters": {
+                "x": -101367.3828125,
+                "y": 498.150390625,
+                "z": 219771.0625
+            },
+            "renderedPositionMeters": {
+                "x": -101367.3828125,
+                "y": 498.150390625,
+                "z": 219771.0625
+            },
+            "displacementMeters": {
+                "x": -26367.3828125,
+                "y": -301.849609375,
+                "z": 19020.19140625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Exploded",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.0188701152801514,
+            "speedMetersPerSecond": 3213.05859375,
+            "authoritativePositionMeters": {
+                "x": -7419.72119140625,
+                "y": 681.6914672851563,
+                "z": 216133.984375
+            },
+            "transformPositionMeters": {
+                "x": -7419.72119140625,
+                "y": 681.6914672851563,
+                "z": 216133.984375
+            },
+            "renderedPositionMeters": {
+                "x": -7419.72119140625,
+                "y": 681.6914672851563,
+                "z": 216133.984375
+            },
+            "displacementMeters": {
+                "x": -7419.72119140625,
+                "y": -118.30854797363281,
+                "z": 15358.0810546875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": true
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 2.2596523761749269,
+            "speedMetersPerSecond": 5221.03662109375,
+            "authoritativePositionMeters": {
+                "x": -91977.640625,
+                "y": 52483.08203125,
+                "z": 127211.7421875
+            },
+            "transformPositionMeters": {
+                "x": -91977.640625,
+                "y": 52483.08203125,
+                "z": 127211.7421875
+            },
+            "renderedPositionMeters": {
+                "x": -91977.640625,
+                "y": 52483.08203125,
+                "z": 127211.7421875
+            },
+            "displacementMeters": {
+                "x": -22977.642578125,
+                "y": 1683.0810546875,
+                "z": 14000.9033203125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 2.1297385692596437,
+            "speedMetersPerSecond": 4347.2890625,
+            "authoritativePositionMeters": {
+                "x": -89773.765625,
+                "y": 54130.9453125,
+                "z": 222326.515625
+            },
+            "transformPositionMeters": {
+                "x": -89773.765625,
+                "y": 54130.9453125,
+                "z": 222326.515625
+            },
+            "renderedPositionMeters": {
+                "x": -89773.765625,
+                "y": 54130.9453125,
+                "z": 222326.515625
+            },
+            "displacementMeters": {
+                "x": -20773.767578125,
+                "y": 3330.94482421875,
+                "z": 9110.6201171875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.306527853012085,
+            "speedMetersPerSecond": 3323.387451171875,
+            "authoritativePositionMeters": {
+                "x": 94545.078125,
+                "y": 605.90576171875,
+                "z": 105656.2109375
+            },
+            "transformPositionMeters": {
+                "x": 94545.078125,
+                "y": 605.90576171875,
+                "z": 105656.2109375
+            },
+            "renderedPositionMeters": {
+                "x": 94545.078125,
+                "y": 605.90576171875,
+                "z": 105656.2109375
+            },
+            "displacementMeters": {
+                "x": 19545.080078125,
+                "y": -194.09422302246095,
+                "z": 4961.2119140625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 2.7556211948394777,
+            "speedMetersPerSecond": 2709.539306640625,
+            "authoritativePositionMeters": {
+                "x": 88302.5390625,
+                "y": 657.4766845703125,
+                "z": 208083.59375
+            },
+            "transformPositionMeters": {
+                "x": 88302.5390625,
+                "y": 657.4766845703125,
+                "z": 208083.59375
+            },
+            "renderedPositionMeters": {
+                "x": 88302.5390625,
+                "y": 657.4766845703125,
+                "z": 208083.59375
+            },
+            "displacementMeters": {
+                "x": 13302.5390625,
+                "y": -142.52333068847657,
+                "z": 7307.6904296875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 2.48189377784729,
+            "speedMetersPerSecond": 2958.44287109375,
+            "authoritativePositionMeters": {
+                "x": 20970.37109375,
+                "y": 51853.77734375,
+                "z": 120528.2734375
+            },
+            "transformPositionMeters": {
+                "x": 20970.37109375,
+                "y": 51853.77734375,
+                "z": 120528.2734375
+            },
+            "renderedPositionMeters": {
+                "x": 20970.37109375,
+                "y": 51853.77734375,
+                "z": 120528.2734375
+            },
+            "displacementMeters": {
+                "x": 14970.3720703125,
+                "y": 1053.778076171875,
+                "z": 7357.470703125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.0915720462799073,
+            "speedMetersPerSecond": 2627.90478515625,
+            "authoritativePositionMeters": {
+                "x": 97212.65625,
+                "y": 52449.859375,
+                "z": 117377.8046875
+            },
+            "transformPositionMeters": {
+                "x": 97212.65625,
+                "y": 52449.859375,
+                "z": 117377.8046875
+            },
+            "renderedPositionMeters": {
+                "x": 97212.65625,
+                "y": 52449.859375,
+                "z": 117377.8046875
+            },
+            "displacementMeters": {
+                "x": 16212.658203125,
+                "y": 1649.859619140625,
+                "z": 4151.953125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.138530969619751,
+            "speedMetersPerSecond": 5273.66845703125,
+            "authoritativePositionMeters": {
+                "x": 33487.453125,
+                "y": 57492.4921875,
+                "z": 226125.265625
+            },
+            "transformPositionMeters": {
+                "x": 33487.453125,
+                "y": 57492.4921875,
+                "z": 226125.265625
+            },
+            "renderedPositionMeters": {
+                "x": 33487.453125,
+                "y": 57492.4921875,
+                "z": 226125.265625
+            },
+            "displacementMeters": {
+                "x": 27487.455078125,
+                "y": 6692.49267578125,
+                "z": 12889.35546875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R02",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.622865915298462,
+            "speedMetersPerSecond": 4556.57861328125,
+            "authoritativePositionMeters": {
+                "x": 104190.4453125,
+                "y": 54605.96875,
+                "z": 221895.484375
+            },
+            "transformPositionMeters": {
+                "x": 104190.4453125,
+                "y": 54605.96875,
+                "z": 221895.484375
+            },
+            "renderedPositionMeters": {
+                "x": 104190.4453125,
+                "y": 54605.96875,
+                "z": 221895.484375
+            },
+            "displacementMeters": {
+                "x": 23190.44140625,
+                "y": 3805.96923828125,
+                "z": 8609.521484375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 1.1284716129302979,
+            "speedMetersPerSecond": 5176.27392578125,
+            "authoritativePositionMeters": {
+                "x": 178143.609375,
+                "y": 514.0103149414063,
+                "z": 111579.7734375
+            },
+            "transformPositionMeters": {
+                "x": 178143.609375,
+                "y": 514.0103149414063,
+                "z": 111579.7734375
+            },
+            "renderedPositionMeters": {
+                "x": 178143.609375,
+                "y": 514.0103149414063,
+                "z": 111579.7734375
+            },
+            "displacementMeters": {
+                "x": 28143.615234375,
+                "y": -285.9896545410156,
+                "z": 10844.78125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R01",
+            "sourceId": "SPAWN_Small_FS1C25R01",
+            "cause": "NearbyPenetration",
+            "behavior": "Fleeing",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 10,
+            "simulationTime": 13.260112762451172,
+            "secondsSinceThreat": 10.000115394592286,
+            "reactionDelay": 2.4769394397735597,
+            "speedMetersPerSecond": 4628.216796875,
+            "authoritativePositionMeters": {
+                "x": 176556.09375,
+                "y": 52069.5546875,
+                "z": 124363.4375
+            },
+            "transformPositionMeters": {
+                "x": 176556.09375,
+                "y": 52069.5546875,
+                "z": 124363.4375
+            },
+            "renderedPositionMeters": {
+                "x": 176556.09375,
+                "y": 52069.5546875,
+                "z": 124363.4375
+            },
+            "displacementMeters": {
+                "x": 20556.091796875,
+                "y": 1269.5556640625,
+                "z": 11182.62890625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.9919500350952149,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 401551.71875
+            },
+            "transformPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 401551.71875
+            },
+            "renderedPositionMeters": {
+                "x": -150000.0,
+                "y": 800.0,
+                "z": 401551.71875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.5372467041015627,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 413929.59375
+            },
+            "transformPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 413929.59375
+            },
+            "renderedPositionMeters": {
+                "x": -144000.0,
+                "y": 50800.0,
+                "z": 413929.59375
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.9492111206054689,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 501075.96875
+            },
+            "transformPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 501075.96875
+            },
+            "renderedPositionMeters": {
+                "x": -75000.0,
+                "y": 800.0,
+                "z": 501075.96875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.5069732666015627,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 501090.90625
+            },
+            "transformPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 501090.90625
+            },
+            "renderedPositionMeters": {
+                "x": 0.0,
+                "y": 800.0,
+                "z": 501090.90625
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.011943817138672,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 513366.8125
+            },
+            "transformPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 513366.8125
+            },
+            "renderedPositionMeters": {
+                "x": -69000.0,
+                "y": 50800.0,
+                "z": 513366.8125
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.4253482818603517,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 501080.96875
+            },
+            "transformPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 501080.96875
+            },
+            "renderedPositionMeters": {
+                "x": 75000.0,
+                "y": 800.0,
+                "z": 501080.96875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.6954259872436525,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 513451.46875
+            },
+            "transformPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 513451.46875
+            },
+            "renderedPositionMeters": {
+                "x": 6000.0,
+                "y": 50800.0,
+                "z": 513451.46875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.5915603637695314,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 513386.71875
+            },
+            "transformPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 513386.71875
+            },
+            "renderedPositionMeters": {
+                "x": 81000.0,
+                "y": 50800.0,
+                "z": 513386.71875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 1.6848344802856446,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 401516.6875
+            },
+            "transformPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 401516.6875
+            },
+            "renderedPositionMeters": {
+                "x": 150000.0,
+                "y": 800.0,
+                "z": 401516.6875
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "Engaging",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 0,
+            "simulationTime": 13.300113677978516,
+            "secondsSinceThreat": 0.0,
+            "reactionDelay": 2.3154306411743166,
+            "speedMetersPerSecond": 250.0,
+            "authoritativePositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 413825.0
+            },
+            "transformPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 413825.0
+            },
+            "renderedPositionMeters": {
+                "x": 156000.0,
+                "y": 50800.0,
+                "z": 413825.0
+            },
+            "displacementMeters": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C23R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 1.9919500350952149,
+            "speedMetersPerSecond": 1640.8192138671875,
+            "authoritativePositionMeters": {
+                "x": -150076.390625,
+                "y": 799.6276245117188,
+                "z": 403010.03125
+            },
+            "transformPositionMeters": {
+                "x": -150076.390625,
+                "y": 799.6276245117188,
+                "z": 403010.03125
+            },
+            "renderedPositionMeters": {
+                "x": -150076.390625,
+                "y": 799.6276245117188,
+                "z": 403010.03125
+            },
+            "displacementMeters": {
+                "x": -76.3916015625,
+                "y": -0.3723621368408203,
+                "z": 1458.3251953125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C23R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.5372467041015627,
+            "speedMetersPerSecond": 892.9617919921875,
+            "authoritativePositionMeters": {
+                "x": -144007.78125,
+                "y": 50800.21484375,
+                "z": 414831.40625
+            },
+            "transformPositionMeters": {
+                "x": -144007.78125,
+                "y": 50800.21484375,
+                "z": 414831.40625
+            },
+            "renderedPositionMeters": {
+                "x": -144007.78125,
+                "y": 50800.21484375,
+                "z": 414831.40625
+            },
+            "displacementMeters": {
+                "x": -7.77587890625,
+                "y": 0.2166748046875,
+                "z": 901.806640625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C24R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.9492111206054689,
+            "speedMetersPerSecond": 305.997802734375,
+            "authoritativePositionMeters": {
+                "x": -75000.015625,
+                "y": 799.9998779296875,
+                "z": 501824.75
+            },
+            "transformPositionMeters": {
+                "x": -75000.015625,
+                "y": 799.9998779296875,
+                "z": 501824.75
+            },
+            "renderedPositionMeters": {
+                "x": -75000.015625,
+                "y": 799.9998779296875,
+                "z": 501824.75
+            },
+            "displacementMeters": {
+                "x": -0.018310546875,
+                "y": -0.0001430511474609375,
+                "z": 748.779296875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C25R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.5069732666015627,
+            "speedMetersPerSecond": 920.6709594726563,
+            "authoritativePositionMeters": {
+                "x": -9.23188591003418,
+                "y": 799.9111938476563,
+                "z": 502006.0625
+            },
+            "transformPositionMeters": {
+                "x": -9.23188591003418,
+                "y": 799.9111938476563,
+                "z": 502006.0625
+            },
+            "renderedPositionMeters": {
+                "x": -9.23188591003418,
+                "y": 799.9111938476563,
+                "z": 502006.0625
+            },
+            "displacementMeters": {
+                "x": -9.23188591003418,
+                "y": -0.08883476257324219,
+                "z": 915.13671875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": false,
+            "renderPoseAvailable": true,
+            "colliderEnabled": true,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C24R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.011943817138672,
+            "speedMetersPerSecond": 1612.237548828125,
+            "authoritativePositionMeters": {
+                "x": -69073.7578125,
+                "y": 50807.21875,
+                "z": 514794.71875
+            },
+            "transformPositionMeters": {
+                "x": -69073.7578125,
+                "y": 50807.21875,
+                "z": 514794.71875
+            },
+            "renderedPositionMeters": {
+                "x": -69073.7578125,
+                "y": 50807.21875,
+                "z": 514794.71875
+            },
+            "displacementMeters": {
+                "x": -73.760986328125,
+                "y": 7.220458984375,
+                "z": 1427.9296875
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C26R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.4253482818603517,
+            "speedMetersPerSecond": 1032.3153076171875,
+            "authoritativePositionMeters": {
+                "x": 75013.515625,
+                "y": 799.8761596679688,
+                "z": 502055.375
+            },
+            "transformPositionMeters": {
+                "x": 75013.515625,
+                "y": 799.8761596679688,
+                "z": 502055.375
+            },
+            "renderedPositionMeters": {
+                "x": 75013.515625,
+                "y": 799.8761596679688,
+                "z": 502055.375
+            },
+            "displacementMeters": {
+                "x": 13.519287109375,
+                "y": -0.12383460998535156,
+                "z": 974.4140625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C25R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.6954259872436525,
+            "speedMetersPerSecond": 669.72216796875,
+            "authoritativePositionMeters": {
+                "x": 6002.095703125,
+                "y": 50800.015625,
+                "z": 514265.96875
+            },
+            "transformPositionMeters": {
+                "x": 6002.095703125,
+                "y": 50800.015625,
+                "z": 514265.96875
+            },
+            "renderedPositionMeters": {
+                "x": 6002.095703125,
+                "y": 50800.015625,
+                "z": 514265.96875
+            },
+            "displacementMeters": {
+                "x": 2.095794677734375,
+                "y": 0.0152587890625,
+                "z": 814.501953125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C26R05",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.5915603637695314,
+            "speedMetersPerSecond": 809.1602172851563,
+            "authoritativePositionMeters": {
+                "x": 81005.5,
+                "y": 50800.3828125,
+                "z": 514251.625
+            },
+            "transformPositionMeters": {
+                "x": 81005.5,
+                "y": 50800.3828125,
+                "z": 514251.625
+            },
+            "renderedPositionMeters": {
+                "x": 81005.5,
+                "y": 50800.3828125,
+                "z": 514251.625
+            },
+            "displacementMeters": {
+                "x": 5.499267578125,
+                "y": 0.384521484375,
+                "z": 864.892578125
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS1C27R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 1.6848344802856446,
+            "speedMetersPerSecond": 2033.398681640625,
+            "authoritativePositionMeters": {
+                "x": 150197.34375,
+                "y": 798.9802856445313,
+                "z": 403441.25
+            },
+            "transformPositionMeters": {
+                "x": 150197.34375,
+                "y": 798.9802856445313,
+                "z": 403441.25
+            },
+            "renderedPositionMeters": {
+                "x": 150197.34375,
+                "y": 798.9802856445313,
+                "z": 403441.25
+            },
+            "displacementMeters": {
+                "x": 197.35107421875,
+                "y": -1.0197162628173829,
+                "z": 1924.5849609375
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        },
+        {
+            "shipId": "SPAWN_Small_FS2C27R04",
+            "sourceId": "SPAWN_Small_FS1C25R04",
+            "cause": "NearbyPenetration",
+            "behavior": "BreakingFormation",
+            "damage": "Intact",
+            "generation": 8,
+            "checkpointSeconds": 3,
+            "simulationTime": 16.300182342529298,
+            "secondsSinceThreat": 3.0000686645507814,
+            "reactionDelay": 2.3154306411743166,
+            "speedMetersPerSecond": 1198.658935546875,
+            "authoritativePositionMeters": {
+                "x": 156025.09375,
+                "y": 50800.69140625,
+                "z": 414904.53125
+            },
+            "transformPositionMeters": {
+                "x": 156025.09375,
+                "y": 50800.69140625,
+                "z": 414904.53125
+            },
+            "renderedPositionMeters": {
+                "x": 156025.09375,
+                "y": 50800.69140625,
+                "z": 414904.53125
+            },
+            "displacementMeters": {
+                "x": 25.09765625,
+                "y": 0.689697265625,
+                "z": 1079.541015625
+            },
+            "transformErrorMeters": 0.0,
+            "renderedErrorMeters": 0.0,
+            "instanced": true,
+            "renderPoseAvailable": true,
+            "colliderEnabled": false,
+            "resolved": false
+        }
+    ]
+}

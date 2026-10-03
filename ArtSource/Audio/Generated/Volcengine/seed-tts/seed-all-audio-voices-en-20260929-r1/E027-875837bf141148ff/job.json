@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E027",
+    "text": "Approved. Routes loaded, engines ready, positions held until threatened. If your neighbor is struck, clear the lane before reporting. Damaged ships get priority on rescue traffic. Nobody needs permission to call for help."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Approved. Routes loaded, engines ready, positions held until threatened. If your neighbor is struck, clear the lane before reporting. Damaged ships get priority on rescue traffic. Nobody needs permission to call for help.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A sequence of clear operational commitments, firm and protective rather than heroic.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "90096709-13e9-4c2e-a9f7-d29a0cd4a4b2",
+  "sha256": "c5bed2a6c447cfa5169ce5006ac305671b1b3ac38061ee65df3e443add876fc2",
+  "duration_seconds": 13.827208333333333,
+  "usage": {
+    "text_words": 221
+  }
+}

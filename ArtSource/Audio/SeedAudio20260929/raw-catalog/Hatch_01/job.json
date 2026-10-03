@@ -1,0 +1,26 @@
+{
+  "id": "Hatch_01",
+  "cueId": "Hatch_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "584e1e53-ba25-4c1a-bd1b-f1a35bdeb53a",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 2 seconds. Motorised spacecraft hatch action in a steel interior, clear mechanism and seal detail. Heavy sliding hatch opens: latch release, short motor travel and cushioned stop. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:49:58.631041+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "d2dc2f651973ce94233986e679412339df977a0574a59b80928f35bbe8ad691c",
+  "originalDurationSeconds": 2,
+  "actualSeconds": 2.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:50:11.535416+00:00"
+}

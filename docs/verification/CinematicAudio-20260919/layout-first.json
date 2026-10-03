@@ -1,0 +1,49 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_CinematicAudio_Cubic.unity",
+    "unity": "6000.5.10f1",
+    "layout": "Assets/_Project/Data/CinematicFleet/FleetLayout_Cubic.json",
+    "targets": 2000,
+    "uniqueIds": 2000,
+    "colliderCount": 18000,
+    "unchangedIds": 2000,
+    "created": 0,
+    "updated": 2000,
+    "columns": 20,
+    "rows": 25,
+    "layers": 4,
+    "checkedPairs": 1999000,
+    "intersectingHullAabbs": 0,
+    "unitRootScales": true,
+    "rendererMembershipMatches": true,
+    "simulationMembershipMatches": true,
+    "bowAndExhaustCorrect": true,
+    "minimumForwardDot": 0.9999998211860657,
+    "minimumHullGap": 541.7294921875,
+    "spawnHullGap": 971.218017578125,
+    "spanAspectRatio": 1.0105262994766236,
+    "centerMin": {
+        "x": -6750.0,
+        "y": -7192.0,
+        "z": 1000.0
+    },
+    "centerMax": {
+        "x": 7500.0,
+        "y": 7208.0,
+        "z": 15400.0
+    },
+    "centerSpan": {
+        "x": 14250.0,
+        "y": 14400.0,
+        "z": 14400.0
+    },
+    "spawn": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 0.0
+    },
+    "firstHullSize": {
+        "x": 47.55078125,
+        "y": 48.044921875,
+        "z": 23.6016845703125
+    }
+}

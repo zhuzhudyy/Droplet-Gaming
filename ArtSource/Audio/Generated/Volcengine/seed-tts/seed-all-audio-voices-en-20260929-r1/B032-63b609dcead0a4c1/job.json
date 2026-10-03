@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B032",
+    "text": "Drive signal steady beyond the perimeter."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Drive signal steady beyond the perimeter.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A short checked measurement with a calmer ending.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "c1bb2d92-f85c-46d4-bcee-b1c38b655411",
+  "sha256": "10669c8c1ab78bfeb7736b1f0830bbfb31ec463a4a67bd032dbfc849fb51c6ec",
+  "duration_seconds": 2.3706666666666667,
+  "usage": {
+    "text_words": 41
+  }
+}

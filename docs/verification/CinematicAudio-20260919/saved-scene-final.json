@@ -1,0 +1,14 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_CinematicAudio_Cubic.unity",
+    "mixer": "Assets/_Project/Data/CinematicAudio/CinematicAudio.mixer",
+    "timeline": "Assets/_Project/Data/CinematicAudio/TheOpenCorridor.playable",
+    "buildScenes": [
+        "Assets/_Project/Scenes/FleetAssault_CinematicAudio_Cubic.unity"
+    ],
+    "targets": 2000,
+    "identities": 2000,
+    "listeners": 1,
+    "listenerVolume": 1.0,
+    "dirty": false,
+    "stopped": true
+}

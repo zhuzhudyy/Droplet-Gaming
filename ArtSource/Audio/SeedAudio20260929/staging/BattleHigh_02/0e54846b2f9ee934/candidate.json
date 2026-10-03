@@ -1,0 +1,41 @@
+{
+  "id": "BattleHigh_02",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "BattleHigh_02",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BattleHigh_02/job.json",
+    "sourceSha256": "75235324ccf806bc32115c2c999fe7d6d7d5e2b73deed60b8bfdc481a9a8b77d",
+    "targetSeconds": 75.0,
+    "loop": true,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BattleHigh_02/job.json",
+  "sourceSha256": "75235324ccf806bc32115c2c999fe7d6d7d5e2b73deed60b8bfdc481a9a8b77d",
+  "sha256": "752d08f4bc26e968fc160f323e609970c8f38209c55e18bdcd3de75c53694f77",
+  "recipe": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 3600000,
+    "rate": 48000,
+    "targetSeconds": 75.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 3600000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 3528000,
+    "linearGain": 0.3189140637684729,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "752d08f4bc26e968fc160f323e609970c8f38209c55e18bdcd3de75c53694f77",
+    "durationSeconds": 73.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.47827519319373,
+    "rmsDbFS": -26.0023053882297,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 3.0517578125e-05
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Alarm_03",
+  "cueId": "Alarm_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "123c585f-305f-4fe3-b9cd-50c289845696",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 6 seconds. Restrained instrumental electronic ship alarm pattern, clear pauses between calls; no spoken warning. Alternating hollow mechanical tones with a soft relay click before each pair. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:51:11.872556+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b",
+  "originalDurationSeconds": 6,
+  "actualSeconds": 6.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:52:04.779317+00:00"
+}

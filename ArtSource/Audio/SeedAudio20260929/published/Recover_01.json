@@ -1,0 +1,37 @@
+{
+  "id": "Recover_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "c7d55b4a15f96575630b44c19e766608aa48cba6b3b6d69f2d345c3546d9792a",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Recover_01/job.json",
+  "sourceSha256": "3f900d517edf2350ca27f4782daf36dc16768da32ce793d4b6c497bf13dcc3b8",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet smoothly recovers forward motion after braking. A soft magnetic latch releases into a short smooth energy swell. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Recover_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 72000,
+    "rate": 48000,
+    "targetSeconds": 1.5,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 72000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 72000,
+    "linearGain": 5.701562834220715,
+    "targetLevelDbFS": -8
+  },
+  "qa": {
+    "sha256": "c7d55b4a15f96575630b44c19e766608aa48cba6b3b6d69f2d345c3546d9792a",
+    "durationSeconds": 1.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.000782896515972,
+    "rmsDbFS": -24.02306299320607,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Focus_01",
+  "cueId": "Focus_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "881f428c-8192-4577-8784-8763e14a55f1",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.15 seconds. Tiny restrained interface focus sound, precise attack and no ringing tail. One soft ceramic-like tick with a faint electronic glint. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:55:12.956952+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "846a7cc1c5fe57b9ad51bea18fc972e8ebf741c988c7cde2bbd658bbc82507ac",
+  "originalDurationSeconds": 0.2,
+  "actualSeconds": 0.2,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:55:24.552313+00:00"
+}

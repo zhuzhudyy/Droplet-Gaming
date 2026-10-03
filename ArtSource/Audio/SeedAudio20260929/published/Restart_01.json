@@ -1,0 +1,37 @@
+{
+  "id": "Restart_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "dfd394b0e20b2387b03066df2dfd482de014683660cbebc3a0ec31946d1ca45d",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Restart_01/job.json",
+  "sourceSha256": "a4128d51edfcc7a697c50d1c041774340ba5425170e15a5d1292cec428171a53",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.6 seconds. Brief restart interface cue, resetting and beginning anew. A small descending digital ripple followed by a clear low confirmation pulse. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Restart_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 28800,
+    "rate": 48000,
+    "targetSeconds": 0.6,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 28800,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 2304,
+    "outputFrames": 28800,
+    "linearGain": 4.799514329244903,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "dfd394b0e20b2387b03066df2dfd482de014683660cbebc3a0ec31946d1ca45d",
+    "durationSeconds": 0.6,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -23.502759297034153,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Penetration_04",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "768e32bc759b82a411cdaef8c4aaf90a73fd3b099da3e915db47b2027526f66a",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Penetration_04/job.json",
+  "sourceSha256": "41e7b4f6a07a2921116dd9aaacf13ba96710a92b66e392958c2b5365e40da0c7",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Dense armoured hull bursts with a short low impact and gritty metallic spray. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Penetration_04",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 85440,
+    "rate": 48000,
+    "targetSeconds": 1.8,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 85440,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 85440,
+    "linearGain": 0.7082977137350795,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "768e32bc759b82a411cdaef8c4aaf90a73fd3b099da3e915db47b2027526f66a",
+    "durationSeconds": 1.78,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -18.990556319146425,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

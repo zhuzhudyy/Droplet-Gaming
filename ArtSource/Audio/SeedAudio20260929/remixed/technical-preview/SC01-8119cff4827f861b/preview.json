@@ -1,0 +1,49 @@
+{
+  "accepted": false,
+  "subjectiveListening": "not_performed",
+  "technicalOnly": true,
+  "notForUnity": true,
+  "omitted": [
+    "console",
+    "connect",
+    "disconnect"
+  ],
+  "identity": {
+    "scene": "SC01",
+    "kind": "unaccepted technical audition",
+    "sourceHashes": [
+      "c9108491ecc308572856b8da4b42f9b8ce72494451f7b5f11df803d8dda8199c",
+      "66cdc4247fd83f2fc0c88275458aafb77387c35aa2d91a51de12848d6f75a962",
+      "7fe568913de90abe68e76809006ab3756d77d531091ab46933358d533bfa07c4"
+    ],
+    "duration": 10.348708
+  },
+  "sha256": "513499e00ff8957ec21c80251b191893eaae30dfe91f8fd21f25e8a9928c15f9",
+  "qa": {
+    "sha256": "513499e00ff8957ec21c80251b191893eaae30dfe91f8fd21f25e8a9928c15f9",
+    "seconds": 10.348708333333333,
+    "sampleRate": 24000,
+    "channels": 1,
+    "peakDbFS": -2.3724629138186897,
+    "rmsDbFS": -22.388217062275032,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.009185791015625
+  },
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SC01-670cb6a14e5d7a28/job.json",
+      "sha256": "c9108491ecc308572856b8da4b42f9b8ce72494451f7b5f11df803d8dda8199c",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/SC02-1b9bfcc7a99bb31c/job.json",
+      "sha256": "66cdc4247fd83f2fc0c88275458aafb77387c35aa2d91a51de12848d6f75a962",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw/CABIN_SERVICE_ACTIVE_397e1ed9/job.json",
+      "sha256": "7fe568913de90abe68e76809006ab3756d77d531091ab46933358d533bfa07c4",
+      "model": "seed-audio-1.0"
+    }
+  ]
+}

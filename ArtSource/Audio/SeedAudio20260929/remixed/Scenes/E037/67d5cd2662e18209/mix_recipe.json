@@ -1,0 +1,91 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E037",
+  "fingerprint": "67d5cd2662e18209865bbe0ae8cf80f4ce0da03a805124c0976818968af842b6",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E037",
+    "templateSha256": "9a8d4dd660df394340e77dd59408c223d25cb218045dbae438d3b847f3d41a73",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 13.253708,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E037",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E037-7d6eae2f90719207/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E037-7d6eae2f90719207/job.json",
+        "sha256": "f03c3e9a4ceb07e3ff134da76865a02bdb2948131e789c539aa827bf872aa56d",
+        "sourceSha256": "f03c3e9a4ceb07e3ff134da76865a02bdb2948131e789c539aa827bf872aa56d",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 1.5304038482533133,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+        "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+        "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+        "model": "seed-audio-1.0",
+        "start": 8.179712,
+        "oldGain": 0.1,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+        "sha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+        "sourceSha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+        "sha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+        "sourceSha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+        "model": "seed-audio-1.0",
+        "start": 13.043709,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 12.753708,
+        "english": "The civilian relay will stay with these crews while contact control can carry us. There is no victory announcement waiting here. There is a live channel, a clear picture, and people doing their work. We will listen with you.",
+        "text": "只要接触管制还能承载信号，民用转播就会陪伴这些船员。这里没有预先写好的胜利公告，只有直播频道、清晰画面，以及正在履行职责的人。我们会与你们一起倾听。",
+        "role": "anchor"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "bf900af876a30c4f4a105101ab4791d6b5524e0c51be07fd3700052356978677",
+      "seconds": 13.253708333333334,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -5.296208020962383,
+      "rmsDbFS": -21.06514559072412,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

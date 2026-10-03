@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E029",
+    "text": "For those listening at home, disagreement is not panic. It is what careful people do when the picture is clearer than the explanation."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "For those listening at home, disagreement is not panic. It is what careful people do when the picture is clearer than the explanation.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "4c12bbfb-04a1-4fdd-a000-3a3d17457d3c",
+  "sha256": "9fb531b9d1fecdfd812db35885c844f588784125375cacc3488deb593d0ed9f6",
+  "duration_seconds": 8.210958333333334,
+  "usage": {
+    "text_words": 134
+  }
+}

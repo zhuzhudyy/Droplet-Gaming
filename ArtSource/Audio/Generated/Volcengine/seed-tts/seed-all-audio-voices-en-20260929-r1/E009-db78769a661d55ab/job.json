@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E009",
+    "text": "Two thousand ships hold that corridor. Behind every engine is a watch changing over, an unfinished meal, somebody counting the hours until the journey home. Keep them in mind when you hear that number."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Two thousand ships hold that corridor. Behind every engine is a watch changing over, an unfinished meal, somebody counting the hours until the journey home. Keep them in mind when you hear that number.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Close, grounded delivery; the human details should sound observed, not like a speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "6b4944d4-3f57-4321-a4af-4dec9e8253c0",
+  "sha256": "aca23defbad8c4b476dd35ef6f1eb97e83108d33d28ac5589213b53f553d4944",
+  "duration_seconds": 13.169291666666666,
+  "usage": {
+    "text_words": 201
+  }
+}

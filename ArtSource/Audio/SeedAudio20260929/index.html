@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DropletPrototype · Seed 音频试听</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, "Microsoft YaHei", sans-serif; background:#101824; color:#eef4fb; }
+    body { max-width: 950px; margin: 0 auto; padding: 36px 20px 70px; line-height: 1.65; }
+    h1 { font-size: 2rem; margin-bottom: .3rem; }
+    h2 { margin-top: 2.2rem; }
+    p, li { color: #c5d1dd; }
+    a { color: #84c9ff; }
+    .card { background:#1b2939; border:1px solid #39516b; border-radius:12px; margin:14px 0; padding:18px 22px; }
+    .count { font-size: 1.5rem; font-weight:700; color:#fff; }
+    audio { width: min(100%, 540px); display:block; margin:8px 0 20px; }
+    small { color:#a8b8c8; }
+  </style>
+</head>
+<body>
+  <h1>Seed 音频试听目录</h1>
+  <p>2026-09-29 制作批次。六类代表样音已获用户确认。其余单条素材、87 条对白和完整通讯混音已通过文件与来源检查，仍需逐条听感验收。</p>
+  <div class="card"><span class="count">131</span> 条非语音成品：<a href="catalog-qa/delivery-listening.html">逐条对照原声与成品</a> · <a href="catalog-qa/listening.html">原声目录</a></div>
+  <div class="card"><span class="count">87</span> 条 Seed-TTS 2.0 英语对白：<a href="voice-qa/listening.html">按台词试听</a></div>
+  <div class="card"><span class="count">158</span> 条完整通讯及强度变体：<a href="remixed/listening.html">按场景试听</a></div>
+  <div class="card">已认可的六类代表：<a href="listening.html">激光、贯穿、爆炸、飞行、舱室、配乐</a></div>
+  <h2>玩家实际输出节选</h2>
+  <p>下列 WAV 来自 1920 × 1080 Windows 玩家运行时的监听器输出，包含真实 Unity 混音；每段仅是短时抽样，不代替完整流程试听。</p>
+  <div class="card">
+    <small>菜单和开场</small>
+    <audio controls src="../../../docs/verification/SeedAudio-20260929/player-validation-release/ready-listener-output.wav"></audio>
+    <audio controls src="../../../docs/verification/SeedAudio-20260929/player-validation-release/narrative-listener-output.wav"></audio>
+    <small>巡航与冲刺</small>
+    <audio controls src="../../../docs/verification/SeedAudio-20260929/player-validation-release/cruise-listener-output.wav"></audio>
+    <audio controls src="../../../docs/verification/SeedAudio-20260929/player-validation-release/sprint-listener-output.wav"></audio>
+    <small>贯穿与延迟爆炸</small>
+    <audio controls src="../../../docs/verification/SeedAudio-20260929/player-validation-release/penetration-listener-output.wav"></audio>
+    <audio controls src="../../../docs/verification/SeedAudio-20260929/player-validation-release/delayed-blast-listener-output.wav"></audio>
+  </div>
+  <p><a href="../../../docs/SEED_AUDIO_ACCEPTANCE.md">验收记录</a> · <a href="../../../docs/verification/SeedAudio-20260929/player-validation-release/report.json">玩家检查数据</a></p>
+</body>
+</html>

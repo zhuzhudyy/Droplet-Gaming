@@ -8,6 +8,10 @@ Blender owns mesh creation and authored formation layout. Unity owns runtime beh
 
 ## Work method
 
+### Volcengine voice authoring (2026-09-19)
+
+For future game voice generation, read docs/VOLCENGINE_VOICE.md and use Tools/Audio/volc_voice.py. Use only Seed-TTS 2.0 for voice generation, as explicitly requested by the user. Do not add video generation providers. Keep cloud calls in development tools, never in the offline Unity player. Preview without --execute first; execute generation within the user's requested scope. Credentials belong in the documented local environment variables, never chat, Assets, source or logs. Preserve existing voices and .meta GUIDs; importing/replacing accepted audio is a separate Unity authoring step. Do not count mocked tests as live API verification.
+
 ### Authorized G05–G09 batch exception (2026-09-07)
 
 The user authorizes consecutive G05–G09 implementation, validation and repairs without per-stage confirmation. Agents create and execute Blender model/layout scripts in this batch; the user reviews the final art and handling together. Preserve TestRange, existing gameplay, old builds and all safety/quality constraints. Root coordinates all Unity state and final asset writes. Stop after G09.
@@ -44,3 +48,7 @@ Retain individually addressable ships. Do not join the fleet into one mesh. Keep
 Follow docs/TEST_PLAN.md. Unity compilation, EditMode/PlayMode tests, and a standalone build are distinct checks. A successful dotnet build is not proof that the scene or player works. Use the actual Editor/test runner when available. If a required executable, license, or Editor session is unavailable, report the limitation and exact manual steps; never report an unrun check as passed.
 
 After every milestone, report: changed files; executed checks and evidence; unrun checks; manual verification steps; known issues; and next milestone. Update docs/STATUS.md. Fix regressions before moving on. Stop at the requested milestone gate. Do not install unapproved third-party tools or use unrelated personal services.
+
+## Version retention and validation override (2026-09-19)
+
+The user now authorizes removal of obsolete versions with no remaining value; this supersedes blanket old-build preservation above. Keep one current player, one preceding full rollback and the compact v0.2.2 release ZIP. Consult docs/TEST_PLAN.md current-version policy before testing. Historical scene/authoring suites are opt-in for relevant changes, not mandatory on every task. Preserve referenced source assets and unrelated uncommitted work. Deletion remains subject to actual tool permissions; do not report blocked deletions as completed.

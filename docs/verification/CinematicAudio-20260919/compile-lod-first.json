@@ -1,0 +1,17 @@
+﻿{
+  "success": true,
+  "command": "command recompile_status",
+  "data": {
+    "command": "recompile_status",
+    "parameters": {},
+    "result": "{\"status\":\"completed\",\"failed\":true,\"errors\":[\"Assets\\\\_Project\\\\Scripts\\\\Runtime\\\\Fleet2000Sun\\\\FleetRenderManager.cs(119,34): error CS1061: 'LODGroup' does not contain a definition for 'isActiveAndEnabled' and no accessible extension method 'isActiveAndEnabled' accepting a first argument of type 'LODGroup' could be found (are you missing a using directive or an assembly reference?)\",\"Assets\\\\_Project\\\\Scripts\\\\Runtime\\\\Fleet2000Sun\\\\FleetRenderManager.cs(137,41): error CS1061: 'LODGroup' does not contain a definition for 'isActiveAndEnabled' and no accessible extension method 'isActiveAndEnabled' accepting a first argument of type 'LODGroup' could be found (are you missing a using directive or an assembly reference?)\",\"Assets\\\\_Project\\\\Scripts\\\\Runtime\\\\Fleet2000Sun\\\\FleetRenderManager.cs(396,77): error CS1061: 'LODGroup' does not contain a definition for 'isActiveAndEnabled' and no accessible extension method 'isActiveAndEnabled' accepting a first argument of type 'LODGroup' could be found (are you missing a using directive or an assembly reference?)\"]}",
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\学习\\玩\\Unity\\Trysolar Drip"
+    },
+    "success": true
+  },
+  "errors": [],
+  "warnings": []
+}

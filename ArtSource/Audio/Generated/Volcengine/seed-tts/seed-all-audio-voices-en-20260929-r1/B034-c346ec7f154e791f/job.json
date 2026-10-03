@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B034",
+    "text": "Their carrier is gone. Keep this band clear."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Their carrier is gone. Keep this band clear.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Do not impersonate the destroyed ship; report as a surviving network operator.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "7e35827c-54ae-450f-8d6a-a3e30081a763",
+  "sha256": "441edb25c5bb53ee78f1d1f72de5e2a8adc44db56f317231c6c9d4c2046b7d8a",
+  "duration_seconds": 3.0045,
+  "usage": {
+    "text_words": 44
+  }
+}

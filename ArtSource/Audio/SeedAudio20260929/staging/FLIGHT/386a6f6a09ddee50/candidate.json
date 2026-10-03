@@ -1,0 +1,41 @@
+{
+  "id": "FLIGHT",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "FLIGHT",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/FLIGHT_SERVICE_ACTIVE_31547ac3/job.json",
+    "sourceSha256": "e5faf2c992d29a172706215d2e66f2c9d05b452c45ce8614747cf7d6d75dad72",
+    "targetSeconds": 16.0,
+    "loop": true,
+    "kind": "representative"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/FLIGHT_SERVICE_ACTIVE_31547ac3/job.json",
+  "sourceSha256": "e5faf2c992d29a172706215d2e66f2c9d05b452c45ce8614747cf7d6d75dad72",
+  "sha256": "6210f3715d248d8f2bb2a3bf788372baa8cf7d736797ba978310d3eb2d44ffbe",
+  "recipe": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 768000,
+    "rate": 48000,
+    "targetSeconds": 16.0,
+    "representative": true,
+    "startFrame": 0,
+    "usedSourceFrames": 768000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 751200,
+    "linearGain": 0.4141231252305442,
+    "targetLevelDbFS": -24
+  },
+  "qa": {
+    "sha256": "6210f3715d248d8f2bb2a3bf788372baa8cf7d736797ba978310d3eb2d44ffbe",
+    "durationSeconds": 15.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -11.943148444087248,
+    "rmsDbFS": -24.001913198307374,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.000213623046875
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

@@ -1,0 +1,51 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_CinematicAudio_Cubic.unity",
+    "unity": "6000.5.10f1",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "graphicsApi": "Direct3D12",
+    "error": "",
+    "listening": "Pending human listening. Runtime output and automatic signal checks do not establish acting or mix quality.",
+    "ships": 2000,
+    "identities": 2000,
+    "width": 1920,
+    "height": 1080,
+    "maximumVoices": 1,
+    "maximumWorldSources": 0,
+    "nonzeroOutputSamples": 3612,
+    "quietIntensity": 0.0,
+    "peakIntensity": 0.0,
+    "aftermathIntensity": 0.0,
+    "peakOutput": 0.18980199098587037,
+    "completed": true,
+    "allChecksPassed": true,
+    "checks": [
+        {
+            "name": "Full authored fleet",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "One stable listener",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "All forty natural narrative cues",
+            "detail": "Actual wall seconds=388.6954",
+            "passed": true
+        },
+        {
+            "name": "Natural Timeline completes once",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Actual English opening output",
+            "detail": "",
+            "passed": true
+        }
+    ],
+    "events": [],
+    "shots": []
+}

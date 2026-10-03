@@ -1,0 +1,25 @@
+{
+  "id": "BattleMedium_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "3c666486-6851-46a5-8e31-61cfe9d7b656",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Moderate battle score, firm propulsion while leaving the midrange open. Measured tom pattern with plucked synth cells and evolving minor chords. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:18:12.436042+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "17b6ad7622de37e6bd75678d3efded3b403b3630b484c19fd64932e3e3aeddfb",
+  "originalDurationSeconds": 75,
+  "actualSeconds": 75.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:18:57.918337+00:00"
+}

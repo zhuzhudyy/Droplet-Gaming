@@ -1,0 +1,57 @@
+﻿[
+    {
+        "path":  "Builds/Windows",
+        "bytes":  115698960,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-Droplet-Rebuilt-20260908",
+        "bytes":  129184130,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-Enhanced-20260919",
+        "bytes":  214490528,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-Fleet2000Sun-20260908",
+        "bytes":  207463848,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-Lighting-20260908",
+        "bytes":  129388570,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-NarrativeCombat",
+        "bytes":  214419208,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-SolarLayout-Validation-20260908",
+        "bytes":  122722404,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-v0.2.0-G09",
+        "bytes":  119064160,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-v0.2.1-G09",
+        "bytes":  119064672,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-v0.2.2-G09",
+        "bytes":  119068406,
+        "exists":  true
+    },
+    {
+        "path":  "Builds/Windows-VisualUpgrade-20260908",
+        "bytes":  138874805,
+        "exists":  true
+    }
+]

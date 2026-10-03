@@ -1,0 +1,37 @@
+{
+  "id": "Countdown_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "66f6af371b8cd77f564bbd0bfd9295abf3966c706ae0ae0b841495ee651545cc",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Countdown_01/job.json",
+  "sourceSha256": "0c489d35635e745d80e6c97686a9fbfc6b8ed6b8439b7b311bf0c63edfb3a77f",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.2 seconds. Very short final-countdown tick, clear rhythm when repeated once per second. A single dry rounded electronic tick with a faint low body. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Countdown_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 9600,
+    "rate": 48000,
+    "targetSeconds": 0.2,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 9600,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 768,
+    "outputFrames": 9600,
+    "linearGain": 3.5201846915831556,
+    "targetLevelDbFS": -7
+  },
+  "qa": {
+    "sha256": "66f6af371b8cd77f564bbd0bfd9295abf3966c706ae0ae0b841495ee651545cc",
+    "durationSeconds": 0.2,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.0005506829029605,
+    "rmsDbFS": -24.254275285094295,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

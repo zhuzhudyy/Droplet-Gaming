@@ -1,0 +1,25 @@
+{
+  "id": "Cruise_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "038b0e8c-4f17-490d-9996-b50c97326162",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady droplet cruise energy sound, smooth dense hum, no engine rev sequence. Stable low crystalline resonance with faint layered electrical shimmers. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:30:19.923741+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "22e1f4760a1967f9f77afd31f72f7db4ee0a0dbe7dde467418e2f33b5acee38a",
+  "originalDurationSeconds": 12,
+  "actualSeconds": 12.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:30:36.581941+00:00"
+}

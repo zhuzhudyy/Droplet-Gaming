@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E035",
+    "text": "If the object crosses the line, the nearest batteries may fire controlled bursts. Break off if the beam is reflected. Do not chase a bad shot."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "If the object crosses the line, the nearest batteries may fire controlled bursts. Break off if the beam is reflected. Do not chase a bad shot.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "4e23ba15-d5d0-4e7a-83e8-8356bfc75e84",
+  "sha256": "8eb26d40c5aa5f7536948f1e8b4bb4be70265e5824bc19dac04665df7ca0bc70",
+  "duration_seconds": 8.996958333333334,
+  "usage": {
+    "text_words": 142
+  }
+}

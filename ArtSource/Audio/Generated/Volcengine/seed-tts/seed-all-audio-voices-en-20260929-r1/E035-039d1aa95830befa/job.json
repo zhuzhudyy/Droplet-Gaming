@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E035",
+    "text": "If it crosses the line, the nearest batteries may fire within their assigned lanes. Controlled bursts. Break off if the beam reflects across friendly positions. A shot that misses safely is better than a correction that strikes one of our own."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "If it crosses the line, the nearest batteries may fire within their assigned lanes. Controlled bursts. Break off if the beam reflects across friendly positions. A shot that misses safely is better than a correction that strikes one of our own.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Terse commands inside a longer instruction; measured authority, never a battle cry.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "84b96b90-ac4f-4219-95de-57c5d08140a9",
+  "sha256": "989296ba7c7dc0fa0ee3410188121499ed391e50460507b7c9a82462f1ea3e65",
+  "duration_seconds": 15.404041666666666,
+  "usage": {
+    "text_words": 243
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B015",
+    "text": "Reactor critical! Nobody come alongside!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Reactor critical! Nobody come alongside!",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Warn others away decisively, speaking through controlled fear.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "ddf97a68-e229-48d4-a179-36a23dc8fd40",
+  "sha256": "fe0c9d9007afcd014b1b99cce144e804e414f752762ffc857464ef7cf7e70138",
+  "duration_seconds": 3.1719583333333334,
+  "usage": {
+    "text_words": 40
+  }
+}

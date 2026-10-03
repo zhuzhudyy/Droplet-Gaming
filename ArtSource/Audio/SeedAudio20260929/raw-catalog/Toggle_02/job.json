@@ -1,0 +1,26 @@
+{
+  "id": "Toggle_02",
+  "cueId": "Toggle_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "53726898-cc21-46bb-84eb-53876688eb04",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.2 seconds. Tiny interface toggle acknowledgement with distinct switch action. A soft snap switch followed by a delicate double electronic tick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:57:19.412697+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "2b4f401ad4549c5aeb7cacd6523316ee72c80b8e79c768059f25cd7c4b462afb",
+  "originalDurationSeconds": 0.2,
+  "actualSeconds": 0.2,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:57:53.307497+00:00"
+}

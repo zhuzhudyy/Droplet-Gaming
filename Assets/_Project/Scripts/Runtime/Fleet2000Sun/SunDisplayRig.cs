@@ -19,6 +19,11 @@ namespace DropletPrototype
         public Renderer dropletRenderer;
         [Tooltip("Independent art direction; does not change radiusKm, AU positions or other bodies.")]
         [Range(1f, 55f)] public float displayAngularDiameter = 34f;
+        [Tooltip("New calibrated scenes use physical radius/distance. Legacy scenes retain their saved art diameter.")]
+        public bool usePhysicalAngularSize;
+        [Min(.1f)] public float artisticSizeMultiplier = 2;
+        [Min(1)] public float haloRadiusMultiplier = 6;
+        public float EffectiveAngularDiameter { get; private set; }
         [Range(0f, 1f)] public float flareIntensity = .24f;
         [Tooltip("A compact photosphere sample makes a ship crossing the solar center suppress the optical flare.")]
         [Range(.01f, .5f)] public float flareOcclusionAngularRadius = .06f;
@@ -29,7 +34,7 @@ namespace DropletPrototype
         public float DisplayRadiusUnits { get; private set; }
         public float PhysicalAngularDiameter { get; private set; }
         public float DisplayMultiplier => PhysicalAngularDiameter > 0f
-            ? displayAngularDiameter / PhysicalAngularDiameter : 0f;
+            ? EffectiveAngularDiameter / PhysicalAngularDiameter : 0f;
 
         static readonly int SunRadiusId = Shader.PropertyToID("_SunAngularRadius");
         MaterialPropertyBlock properties;
@@ -80,8 +85,14 @@ namespace DropletPrototype
             }
 
             SunDirection = projection.direction;
-            PhysicalAngularDiameter = (float)(projection.angularDiameterRadians * Mathf.Rad2Deg);
-            float angularRadius = Mathf.Clamp(displayAngularDiameter, 1f, 55f) * .5f * Mathf.Deg2Rad;
+            // Projection also supports an authored readability multiplier. Compute physical
+            // angle directly in km so it is not accidentally applied twice.
+            double ratio = layout.FindBody("sun").radiusKm / (projection.distanceAu * layout.auKm);
+            PhysicalAngularDiameter = (float)(2 * System.Math.Asin(System.Math.Clamp(ratio, 0d, 1d)) * Mathf.Rad2Deg);
+            EffectiveAngularDiameter = usePhysicalAngularSize
+                ? Mathf.Clamp(PhysicalAngularDiameter * artisticSizeMultiplier, .001f, 55f)
+                : Mathf.Clamp(displayAngularDiameter, 1f, 55f);
+            float angularRadius = EffectiveAngularDiameter * .5f * Mathf.Deg2Rad;
             // The reused mesh has radius one. A sphere subtends asin(radius/d),
             // not atan(radius/d); this keeps the inspector angle meaningful.
             DisplayRadiusUnits = projection.proxyDistance * Mathf.Sin(angularRadius);
@@ -109,7 +120,7 @@ namespace DropletPrototype
                     lensFlare.intensity = flareIntensity;
                     lensFlare.occlusionRadius = nearSurfaceDistance * Mathf.Tan(flareOcclusionAngularRadius * Mathf.Deg2Rad);
                     lensFlare.occlusionOffset = 1f;
-                    lensFlare.scale = Mathf.Tan(angularRadius) / Mathf.Tan(camera.fieldOfView * .5f * Mathf.Deg2Rad) / .5f;
+                    lensFlare.scale = (usePhysicalAngularSize ? haloRadiusMultiplier / 6f : 1f) * Mathf.Tan(angularRadius) / Mathf.Tan(camera.fieldOfView * .5f * Mathf.Deg2Rad) / .5f;
                 }
             }
 

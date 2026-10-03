@@ -1,0 +1,26 @@
+{
+  "id": "Combo_03",
+  "cueId": "Combo_03",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "d77769a8-6d68-4372-be2a-765b6bb87268",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Short score-multiplier increase cue; distinct rhythmic pattern and clean tail. Third tier: three tightly grouped plucked synth notes resolving together. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T12:02:23.931900+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "30e96308e5e05426a85818cc3e25e395fb75d23f0374695dd3f0ade5e5830f50",
+  "originalDurationSeconds": 0.5,
+  "actualSeconds": 0.5,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T12:02:38.081746+00:00"
+}

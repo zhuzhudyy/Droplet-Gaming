@@ -1,0 +1,91 @@
+{
+  "schema": "droplet.seed-radio-remix.v1",
+  "id": "E007",
+  "fingerprint": "0516c743c4deeec963449e6418c641a72924d59c58e7e5988c4501b8283ee51d",
+  "identity": {
+    "schema": "droplet.seed-radio-remix.v1",
+    "scene": "E007",
+    "templateSha256": "0d24c65f129447e6fd7cd6553d2f9ef08a89b915d6bf96934d4b4d10b11b3448",
+    "revisionSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+    "duration": 12.492667,
+    "tracks": [
+      {
+        "stem": "lead",
+        "sourceId": "E007",
+        "sourceFile": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E007-fef1a0d25baf189c/voice.wav",
+        "sourceJob": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E007-fef1a0d25baf189c/job.json",
+        "sha256": "60698cafef08ecee4797810410ac9ad20362aed2cf0d9ddd9998282088d505f5",
+        "sourceSha256": "60698cafef08ecee4797810410ac9ad20362aed2cf0d9ddd9998282088d505f5",
+        "model": "seed-tts-2.0",
+        "start": 0.2,
+        "oldGain": 1.8101156260524938,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "actions",
+        "sourceId": "Console_02",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Console_02.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+        "sha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+        "sourceSha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+        "model": "seed-audio-1.0",
+        "start": 7.678631,
+        "oldGain": 0.1,
+        "perspective": "far",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Connect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Connect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+        "sha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+        "sourceSha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+        "model": "seed-audio-1.0",
+        "start": 0.0,
+        "oldGain": 0.4,
+        "perspective": "near",
+        "loop": false
+      },
+      {
+        "stem": "link",
+        "sourceId": "Disconnect_01",
+        "sourceFile": "ArtSource/Audio/SeedAudio20260929/published/Disconnect_01.wav",
+        "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+        "sha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+        "sourceSha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+        "model": "seed-audio-1.0",
+        "start": 12.282666,
+        "oldGain": 0.35,
+        "perspective": "near",
+        "loop": false
+      }
+    ],
+    "captions": [
+      {
+        "time": 0.2,
+        "duration": 11.992667,
+        "english": "The assembly has approved a reception. There are names on the guest list and empty places at a table. Nobody has accepted the invitation. We do not even know whether there is anyone aboard.",
+        "text": "议会已批准接待安排。宾客名单已经拟好，席位却仍然空着。还没有谁接受邀请，我们甚至不知道，那里面是否有人。",
+        "role": "anchor"
+      }
+    ],
+    "recipeVersion": "seed-source-only-radio-2"
+  },
+  "outputs": {
+    "radio_mix.wav": {
+      "sha256": "d63870ab9ab1f84fb31c0747b3a517c675bb74f78f3b7f3c1f06e310ea48d904",
+      "seconds": 12.492666666666667,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDbFS": -4.643426526990083,
+      "rmsDbFS": -20.786695029504724,
+      "clippedSamples": 0,
+      "edgeDiscontinuity": 0.0
+    }
+  },
+  "subjectiveListening": "not_performed",
+  "accepted": false,
+  "oldProgramSourcesUsed": 0
+}

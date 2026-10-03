@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "requests": 19,
+  "completeRawWavs": 17,
+  "uniqueSha256": 17,
+  "plannedCatalogCues": 131,
+  "importedNewGameClips": 0,
+  "acceptedNonSpeech": 0,
+  "clippedSamples": 0,
+  "offlineTests": 24,
+  "listeningPageAudioElements": 17,
+  "localLinksChecked": 38,
+  "gatePassed": false,
+  "unityChecks": "not_run",
+  "budgetLimitAFP": "20000",
+  "knownUsageConvertedAFP": "42.255",
+  "unknownUsageReserveAFP": "495.720",
+  "accountedAFP": "537.975"
+}

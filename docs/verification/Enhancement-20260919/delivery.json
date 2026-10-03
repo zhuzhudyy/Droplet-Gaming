@@ -1,0 +1,15 @@
+{
+  "scene": "Assets/_Project/Scenes/FleetAssault_Enhanced.unity",
+  "build": "Builds\\Windows-Enhanced-20260919\\DropletGaming.exe",
+  "exeSha256": "6cd16edfbe85284eb69cd2efe1170aa1cffdf0dbdb309c3269e2f8454811adab",
+  "unity": "6000.5.10f1",
+  "standaloneChecks": 22,
+  "standalonePassed": true,
+  "audio": "English blocked HTTP403 resource permission; 4 local procedural clips saved",
+  "protected": {
+    "protectedBaselineCount": 136,
+    "unchanged": 136,
+    "changed": []
+  },
+  "evidence": "PlayerAccepted; final-editor-state.json; normal-flight-final-sampled.mp4"
+}

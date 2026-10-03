@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E012",
+    "text": "Hold formation. Leave the approach corridor open. Give that object a way through without a collision. No captain is to turn a bright reflection into a reason to fire."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Hold formation. Leave the approach corridor open. Give that object a way through without a collision. No captain is to turn a bright reflection into a reason to fire.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Firm, almost reassuring; the final instruction is precise rather than threatening.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "dfa279c2-bc61-4149-9016-78609a1d93c2",
+  "sha256": "2fce7a8a00adf93562c4f20793c198092fa6dec2bc2c58168a6f47fa71831376",
+  "duration_seconds": 11.7605,
+  "usage": {
+    "text_words": 166
+  }
+}

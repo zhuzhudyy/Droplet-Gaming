@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E028",
+    "text": "Routes distributed. Captains confirm local control and independent engines. The emergency channel will identify each hull, even if the formation breaks apart."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Routes distributed. Captains confirm local control and independent engines. The emergency channel will identify each hull, even if the formation breaks apart.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "f7228587-5089-4a42-b46b-8bb883966482",
+  "sha256": "2fef41d0a01fc58315544a4146be87eaf8568ab0610d4880cfae5fb220c41009",
+  "duration_seconds": 10.577791666666666,
+  "usage": {
+    "text_words": 158
+  }
+}

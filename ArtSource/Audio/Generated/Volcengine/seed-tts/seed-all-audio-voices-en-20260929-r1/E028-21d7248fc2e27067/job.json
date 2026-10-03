@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E028",
+    "text": "Routes distributed. Captains confirm local control. Every hull has a separate identity; the emergency network will keep those identities if formation breaks. Checking the return list now. We still have everyone."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Routes distributed. Captains confirm local control. Every hull has a separate identity; the emergency network will keep those identities if formation breaks. Checking the return list now. We still have everyone.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Efficient checklist delivery softening slightly on everyone; no premature grief.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "2f1884fc-91f3-411d-be0b-354484b5dab9",
+  "sha256": "2b544dbc49aaba994fdee65638b4a068e9853c50587c3e9aecbc6d4355e5c5b7",
+  "duration_seconds": 14.38825,
+  "usage": {
+    "text_words": 211
+  }
+}

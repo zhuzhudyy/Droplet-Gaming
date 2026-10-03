@@ -1,0 +1,64 @@
+{
+  "execute": false,
+  "resource": "seed-tts-2.0",
+  "take": "enhancement-en-20260919",
+  "requests": 4,
+  "characters": 511,
+  "maxBatchCharacters": 14000,
+  "maxBatchRequests": 76,
+  "lines": [
+    {
+      "id": "E001",
+      "role": "anchor",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E011",
+      "role": "comms",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E012",
+      "role": "commander",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "rate": 5
+    },
+    {
+      "id": "E021",
+      "role": "engineer",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "rate": 8
+    }
+  ]
+}
+test_batch_cap_and_fixed_english_cast (test_enhancement_voice.EnhancementAudioTests.test_batch_cap_and_fixed_english_cast) ... ok
+test_no_complete_english_manifest_published_from_missing_audio (test_enhancement_voice.EnhancementAudioTests.test_no_complete_english_manifest_published_from_missing_audio) ... ok
+test_preview_never_reads_credentials_or_submits (test_enhancement_voice.EnhancementAudioTests.test_preview_never_reads_credentials_or_submits) ... ok
+test_script_is_unique_four_stage_bilingual_and_event_complete (test_enhancement_voice.EnhancementAudioTests.test_script_is_unique_four_stage_bilingual_and_event_complete) ... ok
+test_separate_local_signals_are_real_pcm_and_not_flat_silence (test_enhancement_voice.EnhancementAudioTests.test_separate_local_signals_are_real_pcm_and_not_flat_silence) ... ok
+test_budget_is_checked_before_credential_or_transport (test_seed_soundscape.SoundscapeTests.test_budget_is_checked_before_credential_or_transport) ... ok
+test_corrupted_success_is_never_replaced_by_paid_regeneration (test_seed_soundscape.SoundscapeTests.test_corrupted_success_is_never_replaced_by_paid_regeneration) ... ok
+test_durable_success_cache_does_not_submit_or_charge_twice (test_seed_soundscape.SoundscapeTests.test_durable_success_cache_does_not_submit_or_charge_twice) ... ok
+test_preview_and_catalog_do_not_read_secrets_call_network_or_write (test_seed_soundscape.SoundscapeTests.test_preview_and_catalog_do_not_read_secrets_call_network_or_write) ... ok
+test_reviewed_empty_stream_still_reserves_cost_and_cannot_be_resent (test_seed_soundscape.SoundscapeTests.test_reviewed_empty_stream_still_reserves_cost_and_cannot_be_resent) ... ok
+test_revisions_require_an_observed_reason_and_explicit_input (test_seed_soundscape.SoundscapeTests.test_revisions_require_an_observed_reason_and_explicit_input) ... ok
+test_round_four_and_disguised_additional_trials_are_rejected (test_seed_soundscape.SoundscapeTests.test_round_four_and_disguised_additional_trials_are_rejected) ... ok
+test_uncertain_submission_stops_same_and_other_requests (test_seed_soundscape.SoundscapeTests.test_uncertain_submission_stops_same_and_other_requests) ... ok
+test_wav_success_and_empty_transcript_cannot_pass_content_gate (test_seed_soundscape.SoundscapeTests.test_wav_success_and_empty_transcript_cannot_pass_content_gate) ... ok
+test_all_existing_dialogue_ids_unique_and_selectable (test_volc_voice.VoiceTests.test_all_existing_dialogue_ids_unique_and_selectable) ... ok
+test_authenticated_requests_never_follow_redirect (test_volc_voice.VoiceTests.test_authenticated_requests_never_follow_redirect) ... ok
+test_cli_rejects_removed_video_options (test_volc_voice.VoiceTests.test_cli_rejects_removed_video_options) ... ok
+test_completed_empty_pcm_records_metadata_without_remote_text_or_key (test_volc_voice.VoiceTests.test_completed_empty_pcm_records_metadata_without_remote_text_or_key) ... ok
+test_failed_truncated_empty_and_invalid_streams_rejected (test_volc_voice.VoiceTests.test_failed_truncated_empty_and_invalid_streams_rejected) ... ok
+test_preview_never_reads_key_calls_network_or_writes (test_volc_voice.VoiceTests.test_preview_never_reads_key_calls_network_or_writes) ... ok
+test_stream_reassembles_pcm_and_wav (test_volc_voice.VoiceTests.test_stream_reassembles_pcm_and_wav) ... ok
+test_success_cache_preserves_audio_without_second_request (test_volc_voice.VoiceTests.test_success_cache_preserves_audio_without_second_request) ... ok
+test_tts_request_uses_only_speech_service (test_volc_voice.VoiceTests.test_tts_request_uses_only_speech_service) ... ok
+test_uncertain_submission_is_not_automatically_repeated (test_volc_voice.VoiceTests.test_uncertain_submission_is_not_automatically_repeated) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 1.266s
+
+OK

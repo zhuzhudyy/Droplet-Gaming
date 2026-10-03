@@ -1,0 +1,37 @@
+{
+  "id": "Interference_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "dae7dcb1f9c1e7bb1d08de5e009ffde02873a33ec42555d0ec4e52c1eb3564ac",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Interference_02/job.json",
+  "sourceSha256": "debc476bfbddc66a8fd36684147b7cb286ef4c415abd2dce9429ac05b68ae921",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.7 seconds. Brief isolated communications interference detail; no intelligible voices, music or speech. A broken digital packet stutter with small silent gaps. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Interference_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 32640,
+    "rate": 48000,
+    "targetSeconds": 0.7,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 32640,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 2688,
+    "outputFrames": 32640,
+    "linearGain": 0.9107047420635751,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "dae7dcb1f9c1e7bb1d08de5e009ffde02873a33ec42555d0ec4e52c1eb3564ac",
+    "durationSeconds": 0.68,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -32.84306288350131,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

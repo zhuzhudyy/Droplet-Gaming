@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:30:15Z" duration="33.2291342">
+  <test-suite type="TestSuite" id="1149" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:30:15Z" duration="33.229134" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1142" name="DropletPrototype.Tests.PlayMode.dll" fullname="C:/学习/玩/Unity/Trysolar Drip/Library/ScriptAssemblies/DropletPrototype.Tests.PlayMode.dll" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:30:15Z" duration="33.220593" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20508" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1143" name="DropletPrototype" fullname="DropletPrototype" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:30:15Z" duration="33.218313" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1144" name="Tests" fullname="DropletPrototype.Tests" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:30:15Z" duration="33.216651" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1145" name="PlayMode" fullname="DropletPrototype.Tests.PlayMode" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:30:15Z" duration="33.215042" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1005" name="CinematicFullSceneTests" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:30:15Z" duration="33.212812" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1006" name="FullFleetHasUniqueIdsCubicDepthAndBowsTowardFixedCombatStart" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.FullFleetHasUniqueIdsCubicDepthAndBowsTowardFixedCombatStart" methodname="FullFleetHasUniqueIdsCubicDepthAndBowsTowardFixedCombatStart" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="325265811" result="Passed" start-time="2026-09-19 14:29:42Z" end-time="2026-09-19 14:29:46Z" duration="4.281019" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="FullFleetOriginShiftRetainsAuthoritativeIdentityOrientationAndReset" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.FullFleetOriginShiftRetainsAuthoritativeIdentityOrientationAndReset" methodname="FullFleetOriginShiftRetainsAuthoritativeIdentityOrientationAndReset" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="967906435" result="Passed" start-time="2026-09-19 14:29:46Z" end-time="2026-09-19 14:29:53Z" duration="6.652799" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="OrdinaryMotorPenetrationStartsRealEscapeAndBothRenderPosesAgree" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.OrdinaryMotorPenetrationStartsRealEscapeAndBothRenderPosesAgree" methodname="OrdinaryMotorPenetrationStartsRealEscapeAndBothRenderPosesAgree" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="690267915" result="Passed" start-time="2026-09-19 14:29:53Z" end-time="2026-09-19 14:30:00Z" duration="7.712715" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="PenetrationUnstableExplosionInterruptionKeepOriginalDeadlineAndScore" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.PenetrationUnstableExplosionInterruptionKeepOriginalDeadlineAndScore" methodname="PenetrationUnstableExplosionInterruptionKeepOriginalDeadlineAndScore" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="339856847" result="Passed" start-time="2026-09-19 14:30:00Z" end-time="2026-09-19 14:30:07Z" duration="6.384074" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="SkipNaturalCompletionAndThreeRestartsShareSavedFormation" fullname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests.SkipNaturalCompletionAndThreeRestartsShareSavedFormation" methodname="SkipNaturalCompletionAndThreeRestartsShareSavedFormation" classname="DropletPrototype.Tests.PlayMode.CinematicFullSceneTests" runstate="Runnable" seed="183502721" result="Passed" start-time="2026-09-19 14:30:07Z" end-time="2026-09-19 14:30:15Z" duration="8.168408" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/蒋雨辰/AppData/LocalLow/DefaultCompany/DropletPrototype\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

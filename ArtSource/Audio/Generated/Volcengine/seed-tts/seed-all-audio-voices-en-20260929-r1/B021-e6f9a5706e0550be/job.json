@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B021",
+    "text": "Hull lost. Stay clear of the debris."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Hull lost. Stay clear of the debris.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A different surviving observer, low and controlled after the flash.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "805a7e88-8aa8-4ff7-8aa3-034aef583afb",
+  "sha256": "8d0a5d5ef37fca98db322c3cc775cd2f22bf4d9ecc7b4be67b9c55256a82e56d",
+  "duration_seconds": 2.7950833333333334,
+  "usage": {
+    "text_words": 36
+  }
+}

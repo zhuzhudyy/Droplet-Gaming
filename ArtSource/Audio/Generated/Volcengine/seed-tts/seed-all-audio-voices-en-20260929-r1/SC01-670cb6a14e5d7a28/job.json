@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "SC01",
+    "text": "Helm, hold here. Leave the corridor open. Tell me the moment that track changes."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Helm, hold here. Leave the corridor open. Tell me the moment that track changes.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A nearby bridge conversation; unhurried command with a natural connective rhythm.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "4bcfacb7-af44-4a73-9940-892f4e555533",
+  "sha256": "c9108491ecc308572856b8da4b42f9b8ce72494451f7b5f11df803d8dda8199c",
+  "duration_seconds": 6.786666666666667,
+  "usage": {
+    "text_words": 80
+  }
+}

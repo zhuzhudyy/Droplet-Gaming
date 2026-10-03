@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E013",
+    "text": "We can transmit navigation references and a safe holding position. You need not match our language. A reply on this carrier, a change of course, any clear acknowledgement will do. The channel will stay open."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "We can transmit navigation references and a safe holding position. You need not match our language. A reply on this carrier, a change of course, any clear acknowledgement will do. The channel will stay open.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Soften the protocol into a practical invitation; no excessive sentiment.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "a1d12acb-9ec0-4f5a-a851-01d0af45488d",
+  "sha256": "e5278fc5ae5c710d4c077afff41aa6e864973fff7fe3de9320c4d94afe5c9fab",
+  "duration_seconds": 13.416583333333334,
+  "usage": {
+    "text_words": 207
+  }
+}

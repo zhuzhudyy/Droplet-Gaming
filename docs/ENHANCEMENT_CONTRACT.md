@@ -1,0 +1,10 @@
+# 2026-09-19 batch ownership and integration contract
+
+Root owns CombatEvents.cs, MissionController/DropletMotor/ShipTarget shared behavior, Editor execution, all saved scenes/prefabs/materials/Timeline/AudioMixer/Renderer assets, integration tests, reports and STATUS. Existing CombatEventKind and CombatEvent payload fields remain source compatible; FleetCombatSimulation.EventRaised and SimulationReset remain the shared source. Damage and destruction are emitted once by simulation. Narrative Completed/Skip use existing one-shot MissionController entry. Pause uses simulation time. All audio remains local.
+
+A owns NarrativeApproachController, NarrativeBroadcastClip/Track, RadioController/Library/Presenter, Tools/Audio (preserve existing work), new English source content and new generated audio paths; only A submits Seed-TTS. A may author but never execute an isolated Editor asset builder for root. Existing 48 voices and GUIDs retained.
+B owns LaserBeamPool, FleetLaserDirector, LaserWeaponSettings, DropletReflectionGeometry, DropletReflectiveSurface, LaserGeometryMath; new reflection shader/component files and laser tests. No changes to simulation/shared events.
+C is root (only 3 child slots available): SunDisplayRig, new solar renderer feature/HLSL/settings and solar tests. Physical angular diameter, art multiplier, corona range configured separately. Legacy half-screen requirement revoked for new scene.
+D owns FleetCombatSimulation (event types extracted by root), CombatScaleSettings, FleetRenderManager, new fleet diagnostics and fleet tests. Request any MissionController/Motor/ShipTarget changes from root. No asset/Editor state writes.
+
+Integration: preserve baseline; verify normal attack baseline; D first and small saved scene check, then B, C and A local clips/real-duration Timeline; finally saved 2000 scene, compile, relevant tests, rendered Windows functional/performance validation and report. No agent runs Unity tools or changes scenes while root integrates. All changes remain uncommitted.

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E007",
+    "text": "The assembly has approved a reception. There are names on the guest list and empty places at a table. Nobody has accepted the invitation. We do not even know whether there is anyone aboard."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The assembly has approved a reception. There are names on the guest list and empty places at a table. Nobody has accepted the invitation. We do not even know whether there is anyone aboard.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Measured and humane; pause briefly before the uncertainty in the last sentence.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "79d086df-630e-4d1e-9061-12b4befc70bb",
+  "sha256": "60698cafef08ecee4797810410ac9ad20362aed2cf0d9ddd9998282088d505f5",
+  "duration_seconds": 11.992666666666667,
+  "usage": {
+    "text_words": 189
+  }
+}

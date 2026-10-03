@@ -1,0 +1,26 @@
+{
+  "id": "Connect_01",
+  "cueId": "Connect_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "9e253deb-1e6d-4d03-91ce-2983849a0dde",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.4 seconds. Very short radio link connection sound, isolated and dry. A soft relay click followed by a short rising electronic pair. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:52:04.820610+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+  "originalDurationSeconds": 0.4,
+  "actualSeconds": 0.4,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:52:16.506867+00:00"
+}

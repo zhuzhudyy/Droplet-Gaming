@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E008",
+    "text": "My crews hear this broadcast too. They did not choose the headlines or the argument. They have a corridor to hold. Let us give them clear instructions while we still can."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "My crews hear this broadcast too. They did not choose the headlines or the argument. They have a corridor to hold. Let us give them clear instructions while we still can.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Protective authority without anger; stress clear instructions, not military rank.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "51c61abc-ab1e-42fc-9196-2b8e40cc1c50",
+  "sha256": "208fa201b8dd3813a8b30c1268b1cb28a920ed68dbb488744eba31b4f7198ee9",
+  "duration_seconds": 12.595875,
+  "usage": {
+    "text_words": 170
+  }
+}

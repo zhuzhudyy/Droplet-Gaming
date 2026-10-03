@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E032",
+    "text": "All batteries, track only. Confirm the hull behind your target before enabling a beam. The background on your screen is another crew."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "All batteries, track only. Confirm the hull behind your target before enabling a beam. The background on your screen is another crew.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "7583653b-cd68-4073-9546-2d7264326590",
+  "sha256": "4212cb520a83c64c40c10a5845e2058068e32da8749d1de5316a0352cd24d07d",
+  "duration_seconds": 7.994916666666667,
+  "usage": {
+    "text_words": 133
+  }
+}

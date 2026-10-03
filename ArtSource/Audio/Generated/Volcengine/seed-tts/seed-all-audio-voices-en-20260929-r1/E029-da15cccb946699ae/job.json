@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E029",
+    "text": "For everyone listening at home, those voices are disagreeing because the answer matters. The picture is sharp. The explanation is not. We will carry the discussion as it happens, without replacing their uncertainty with a more comfortable story."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "For everyone listening at home, those voices are disagreeing because the answer matters. The picture is sharp. The explanation is not. We will carry the discussion as it happens, without replacing their uncertainty with a more comfortable story.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Quiet steadiness; the broadcaster is keeping a promise to the audience.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "bd59b730-d59d-44c6-a2e9-dc2a9f7b7cae",
+  "sha256": "5a5e365913f95e70696b509df1bc3c9e0bb563e12f98af346119cf92fd7b6524",
+  "duration_seconds": 15.38725,
+  "usage": {
+    "text_words": 245
+  }
+}

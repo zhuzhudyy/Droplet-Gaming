@@ -1,0 +1,41 @@
+{
+  "id": "SpaceTexture_01",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "SpaceTexture_01",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/SpaceTexture_01/job.json",
+    "sourceSha256": "734de4cc137c4b0a644f49abc9d24d930e12c240fa58edb9da1e7bb373d1fe95",
+    "targetSeconds": 60.0,
+    "loop": true,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/SpaceTexture_01/job.json",
+  "sourceSha256": "734de4cc137c4b0a644f49abc9d24d930e12c240fa58edb9da1e7bb373d1fe95",
+  "sha256": "3f8b5885c756185c7856391af59ca45bde0ca50c57e970bf2eff2adbd8c56ca0",
+  "recipe": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.7241552973063419,
+    "targetLevelDbFS": -36
+  },
+  "qa": {
+    "sha256": "3f8b5885c756185c7856391af59ca45bde0ca50c57e970bf2eff2adbd8c56ca0",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -22.832375797717752,
+    "rmsDbFS": -36.00713076148101,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.00018310546875
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E001",
+    "text": "Every public screen is showing the same small light tonight. A silver point has crossed the outer watch line. We have enlarged the picture and waited. It is still coming toward us."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Every public screen is showing the same small light tonight. A silver point has crossed the outer watch line. We have enlarged the picture and waited. It is still coming toward us.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Begin quietly, as if returning to a live conversation; leave a small pause after waited. Wonder is present but restrained.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "272c182c-86ac-4e6f-83d3-9d62cc712430",
+  "sha256": "4175b4381bbc20d9cf9a588a09132e538e030c203fd799c91ab5f1f0e2299a4d",
+  "duration_seconds": 11.982666666666667,
+  "usage": {
+    "text_words": 180
+  }
+}

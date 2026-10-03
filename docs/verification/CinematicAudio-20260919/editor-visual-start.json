@@ -1,0 +1,27 @@
+﻿{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "file": "Tools/Verification/CaptureCinematicVisual.cs",
+      "entry": "CaptureCinematicVisual.Main"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 1746,
+      "executeMs": 1132,
+      "assemblyName": "PipelineRunScript_CaptureCinematicVisual_5ea2b1bc3c97465e8525cff3c5710c56",
+      "success": true,
+      "result": "Observing full-fleet normal 300 UU/s flight for 100 seconds; Editor audio temporarily muted to avoid overlapping the standalone opening."
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\学习\\玩\\Unity\\Trysolar Drip"
+    },
+    "success": true
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E014",
+    "text": "The track is clean. Too clean for our first explanation. Ranging pulses should find seams or exposed machinery, something that scatters the return. I have checked the calibration twice. The instruments agree."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The track is clean. Too clean for our first explanation. Ranging pulses should find seams or exposed machinery, something that scatters the return. I have checked the calibration twice. The instruments agree.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Professional curiosity beginning to tighten; give calibration a natural technical cadence.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "a27767d2-3678-4198-b954-f6861038a935",
+  "sha256": "8dfd35c8bd1119bc74d017583611e0daacc446c3fd5d52621384fa7018194bb3",
+  "duration_seconds": 13.598875,
+  "usage": {
+    "text_words": 208
+  }
+}

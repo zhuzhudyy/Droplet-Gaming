@@ -1,0 +1,2005 @@
+{
+    "scene": "Assets/_Project/Scenes/FleetAssault_SeedAudio.unity",
+    "unity": "6000.5.10f1",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "graphicsApi": "Direct3D12",
+    "error": "",
+    "method": "Opt-in rendered player. Uses saved Seed media, MissionController.Step and real FleetCombatSimulation events. No model requests or tuning-asset changes.",
+    "listening": "Human audition and the 90-minute natural result route remain separate acceptance checks.",
+    "completed": true,
+    "automatedChecksPassed": true,
+    "allAcceptancePassed": false,
+    "ships": 2000,
+    "identities": 2000,
+    "catalogCues": 131,
+    "missingClips": 0,
+    "maximumWorldSources": 12,
+    "nonzeroOutputSamples": 160,
+    "peakOutput": 0.3679879605770111,
+    "userMusicVolume": 0.75,
+    "musicGainDuringBroadcast": 0.3149999976158142,
+    "userAmbienceVolume": 0.550000011920929,
+    "ambienceGainDuringBroadcast": 0.2750000059604645,
+    "checks": [
+        {
+            "name": "Saved Seed scene",
+            "status": "passed",
+            "detail": "Assets/_Project/Scenes/FleetAssault_SeedAudio.unity"
+        },
+        {
+            "name": "Required audio and mission components",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Full authored 2000-ship fleet",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "One enabled listener",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "All 131 imported Seed cues",
+            "status": "passed",
+            "detail": "cues=131; missing clips=0"
+        },
+        {
+            "name": "World pool fixed at 12",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Menu bed and sparse space ambience",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Recorded listener WAV: ready-listener-output",
+            "status": "passed",
+            "detail": "frames=72000; channels=2; rate=48000; peak=0.09553"
+        },
+        {
+            "name": "Opening stage and Seed radio",
+            "status": "passed",
+            "detail": "stage=Narrative_01; line=E001"
+        },
+        {
+            "name": "Radio ducks music and ambience",
+            "status": "passed",
+            "detail": "music 0.75000 -> 0.31500; ambience 0.55000 -> 0.27500"
+        },
+        {
+            "name": "Recorded listener WAV: narrative-listener-output",
+            "status": "passed",
+            "detail": "frames=72000; channels=2; rate=48000; peak=0.17731"
+        },
+        {
+            "name": "Narrative act 1 music and cabin",
+            "status": "passed",
+            "detail": "cue=0; music=Narrative_01; cabin=CabinBed_01"
+        },
+        {
+            "name": "Narrative act 2 music and cabin",
+            "status": "passed",
+            "detail": "cue=10; music=Narrative_02; cabin=CabinBed_02"
+        },
+        {
+            "name": "Narrative act 3 music and cabin",
+            "status": "passed",
+            "detail": "cue=20; music=Narrative_03; cabin=CabinBed_02"
+        },
+        {
+            "name": "Narrative act 4 music and cabin",
+            "status": "passed",
+            "detail": "cue=30; music=Narrative_04; cabin=CabinBed_03"
+        },
+        {
+            "name": "Pause preserves background playback position",
+            "status": "passed",
+            "detail": "paused samples=7168 -> 7168"
+        },
+        {
+            "name": "Resume continues same background source",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Skip enters battle once",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Recorded listener WAV: cruise-listener-output",
+            "status": "passed",
+            "detail": "frames=72000; channels=2; rate=48000; peak=0.31920"
+        },
+        {
+            "name": "Recorded listener WAV: sprint-listener-output",
+            "status": "passed",
+            "detail": "frames=120000; channels=2; rate=48000; peak=0.66516"
+        },
+        {
+            "name": "Cruise and sprint audible weights differ",
+            "status": "passed",
+            "detail": "cruise=0.49049; boost 0.00000 -> 0.72000"
+        },
+        {
+            "name": "Direct combat beds",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Recorded listener WAV: penetration-listener-output",
+            "status": "passed",
+            "detail": "frames=48000; channels=2; rate=48000; peak=0.23418"
+        },
+        {
+            "name": "Recorded listener WAV: delayed-blast-listener-output",
+            "status": "passed",
+            "detail": "frames=39936; channels=2; rate=48000; peak=0.37323"
+        },
+        {
+            "name": "Delayed blast event falls inside listener capture",
+            "status": "passed",
+            "detail": "target=SPAWN_Small_FS1C12R18; simulated deadline=4.85410; captured event=True"
+        },
+        {
+            "name": "Live blast routes a Seed world clip",
+            "status": "passed",
+            "detail": "world plays 27 -> 28"
+        },
+        {
+            "name": "Penetration, reactor, interruption, delayed blast",
+            "status": "passed",
+            "detail": "events=HullPenetrated/RescueRequested/ReactorUnstable/CommunicationInterrupted/ShipExploded; deadline=4.85410"
+        },
+        {
+            "name": "Fatal speaker stops all old cabin layers",
+            "status": "passed",
+            "detail": "transmission=True; interruptions=1"
+        },
+        {
+            "name": "World sources stay within 12",
+            "status": "passed",
+            "detail": "observed=12"
+        },
+        {
+            "name": "Actual nonzero listener output",
+            "status": "passed",
+            "detail": "nonzero sample windows=159; peak=0.36799"
+        },
+        {
+            "name": "Clean restart 1",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Clean restart 2",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Clean restart 3",
+            "status": "passed",
+            "detail": ""
+        },
+        {
+            "name": "Real results transition clears old audio",
+            "status": "passed",
+            "detail": "outcome=incomplete; music=ResultBed_02"
+        },
+        {
+            "name": "Natural 90-minute result and victory",
+            "status": "manual",
+            "detail": "The technical result check uses one accelerated MissionController.Step without changing missionSeconds, targets or settings. Run the full timed and victory routes in the shipping player."
+        },
+        {
+            "name": "Human mix and loop audition",
+            "status": "manual",
+            "detail": "Listen through every stage, flight layer, communication and long loop seam on speakers or headphones; signal checks cannot judge artistic quality."
+        },
+        {
+            "name": "All four narrative stages and real-input attack",
+            "status": "manual",
+            "detail": "The player route proves opening and skip. Play the full four-stage Timeline and collide using controls to assess timing and event audio."
+        }
+    ],
+    "events": [
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869185,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869186,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869187,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869188,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869189,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869190,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869191,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869192,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869193,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869194,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869195,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869196,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869197,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869198,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869199,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869200,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869201,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869202,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869203,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869204,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869205,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869206,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869207,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869208,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869209,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869210,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869211,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869212,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869213,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869214,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869215,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869216,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869217,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869218,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869219,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869220,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869221,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869222,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869223,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869224,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869225,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869226,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869227,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869228,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869229,
+            "simulationTime": 1.839998483657837
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869230,
+            "simulationTime": 1.9199984073638917
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869231,
+            "simulationTime": 1.9199984073638917
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869232,
+            "simulationTime": 1.9199984073638917
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869233,
+            "simulationTime": 1.9199984073638917
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869234,
+            "simulationTime": 2.079998254776001
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869235,
+            "simulationTime": 2.079998254776001
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869236,
+            "simulationTime": 2.079998254776001
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869237,
+            "simulationTime": 2.079998254776001
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869238,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869239,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869240,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869241,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869242,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869243,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869244,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869245,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869246,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869247,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869248,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869249,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869250,
+            "simulationTime": 2.379997968673706
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869251,
+            "simulationTime": 2.379997968673706
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869252,
+            "simulationTime": 2.379997968673706
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869253,
+            "simulationTime": 2.379997968673706
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869254,
+            "simulationTime": 2.4199979305267336
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869255,
+            "simulationTime": 2.4199979305267336
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869256,
+            "simulationTime": 2.4199979305267336
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869257,
+            "simulationTime": 2.4199979305267336
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869258,
+            "simulationTime": 2.4199979305267336
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869259,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869260,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869261,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869262,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869263,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869264,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869265,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869266,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869267,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869268,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "HullPenetrated",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 17179869269,
+            "simulationTime": 2.919997453689575
+        },
+        {
+            "kind": "RescueRequested",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 17179869270,
+            "simulationTime": 2.919997453689575
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869271,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869272,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869273,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869274,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869275,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869276,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869277,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869278,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869279,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869280,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869281,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869282,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869283,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869284,
+            "simulationTime": 3.659996747970581
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R12",
+            "id": 17179869285,
+            "simulationTime": 4.179996490478516
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R15",
+            "id": 17179869286,
+            "simulationTime": 4.199996471405029
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R16",
+            "id": 17179869287,
+            "simulationTime": 4.339996337890625
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C15R09",
+            "id": 17179869288,
+            "simulationTime": 4.339996337890625
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C10R07",
+            "id": 17179869289,
+            "simulationTime": 4.559996128082275
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R17",
+            "id": 17179869290,
+            "simulationTime": 4.759995937347412
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C10R08",
+            "id": 17179869291,
+            "simulationTime": 4.8599958419799809
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R14",
+            "id": 17179869292,
+            "simulationTime": 4.879995822906494
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R02",
+            "id": 17179869293,
+            "simulationTime": 4.9799957275390629
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R20",
+            "id": 17179869294,
+            "simulationTime": 5.059995651245117
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R03",
+            "id": 17179869295,
+            "simulationTime": 5.059995651245117
+        },
+        {
+            "kind": "ReactorUnstable",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 17179869296,
+            "simulationTime": 5.119995594024658
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869297,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869298,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869299,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869300,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869301,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869302,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869303,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869304,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869305,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869306,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869307,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869308,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869309,
+            "simulationTime": 5.219995498657227
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R13",
+            "id": 17179869310,
+            "simulationTime": 5.23999547958374
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C10R09",
+            "id": 17179869311,
+            "simulationTime": 5.339995384216309
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R11",
+            "id": 17179869312,
+            "simulationTime": 5.439995288848877
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R05",
+            "id": 17179869313,
+            "simulationTime": 5.439995288848877
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869314,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869315,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869316,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869317,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869318,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869319,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869320,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869321,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869322,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869323,
+            "simulationTime": 5.479995250701904
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C15R08",
+            "id": 17179869324,
+            "simulationTime": 5.659995079040527
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869325,
+            "simulationTime": 5.739995002746582
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869326,
+            "simulationTime": 5.739995002746582
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869327,
+            "simulationTime": 5.739995002746582
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869328,
+            "simulationTime": 5.739995002746582
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869329,
+            "simulationTime": 5.739995002746582
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R01",
+            "id": 17179869330,
+            "simulationTime": 5.759994983673096
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C15R07",
+            "id": 17179869331,
+            "simulationTime": 5.779994964599609
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R19",
+            "id": 17179869332,
+            "simulationTime": 5.83999490737915
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R04",
+            "id": 17179869333,
+            "simulationTime": 5.859994888305664
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869334,
+            "simulationTime": 6.2599945068359379
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869335,
+            "simulationTime": 6.2599945068359379
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869336,
+            "simulationTime": 6.2599945068359379
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869337,
+            "simulationTime": 6.2599945068359379
+        },
+        {
+            "kind": "HullPenetrated",
+            "target": "SPAWN_Small_FS1C37R18",
+            "id": 17179869338,
+            "simulationTime": 6.559994220733643
+        },
+        {
+            "kind": "RescueRequested",
+            "target": "SPAWN_Small_FS1C37R18",
+            "id": 17179869339,
+            "simulationTime": 6.559994220733643
+        },
+        {
+            "kind": "ReactorUnstable",
+            "target": "SPAWN_Small_FS1C37R18",
+            "id": 17179869340,
+            "simulationTime": 7.4799933433532719
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C35R08",
+            "id": 17179869341,
+            "simulationTime": 7.679993152618408
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C40R08",
+            "id": 17179869342,
+            "simulationTime": 7.679993152618408
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C39R05",
+            "id": 17179869343,
+            "simulationTime": 7.7199931144714359
+        },
+        {
+            "kind": "CommunicationInterrupted",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 17179869344,
+            "simulationTime": 7.779993057250977
+        },
+        {
+            "kind": "ShipExploded",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 17179869345,
+            "simulationTime": 7.779993057250977
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C39R02",
+            "id": 17179869346,
+            "simulationTime": 7.779993057250977
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C39R04",
+            "id": 17179869347,
+            "simulationTime": 8.01999282836914
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C37R16",
+            "id": 17179869348,
+            "simulationTime": 8.199996948242188
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C37R20",
+            "id": 17179869349,
+            "simulationTime": 8.279998779296875
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C35R09",
+            "id": 17179869350,
+            "simulationTime": 8.380001068115235
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C36R11",
+            "id": 17179869351,
+            "simulationTime": 8.520004272460938
+        },
+        {
+            "kind": "CommunicationInterrupted",
+            "target": "SPAWN_Small_FS1C37R18",
+            "id": 17179869352,
+            "simulationTime": 8.600006103515625
+        },
+        {
+            "kind": "ShipExploded",
+            "target": "SPAWN_Small_FS1C37R18",
+            "id": 17179869353,
+            "simulationTime": 8.600006103515625
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869354,
+            "simulationTime": 8.600006103515625
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869355,
+            "simulationTime": 8.600006103515625
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869356,
+            "simulationTime": 8.600006103515625
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869357,
+            "simulationTime": 8.600006103515625
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869358,
+            "simulationTime": 8.600006103515625
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C36R12",
+            "id": 17179869359,
+            "simulationTime": 8.700008392333985
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C36R13",
+            "id": 17179869360,
+            "simulationTime": 8.700008392333985
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C40R07",
+            "id": 17179869361,
+            "simulationTime": 8.720008850097657
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C36R14",
+            "id": 17179869362,
+            "simulationTime": 8.740009307861329
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C37R19",
+            "id": 17179869363,
+            "simulationTime": 8.740009307861329
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C36R15",
+            "id": 17179869364,
+            "simulationTime": 8.840011596679688
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C37R17",
+            "id": 17179869365,
+            "simulationTime": 8.880012512207032
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C39R01",
+            "id": 17179869366,
+            "simulationTime": 8.920013427734375
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C35R07",
+            "id": 17179869367,
+            "simulationTime": 8.940013885498047
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C39R03",
+            "id": 17179869368,
+            "simulationTime": 9.08001708984375
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C40R09",
+            "id": 17179869369,
+            "simulationTime": 9.220020294189454
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 17179869370,
+            "simulationTime": 9.340023040771485
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 17179869371,
+            "simulationTime": 9.340023040771485
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 17179869372,
+            "simulationTime": 9.340023040771485
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 17179869373,
+            "simulationTime": 9.340023040771485
+        },
+        {
+            "kind": "HullPenetrated",
+            "target": "SPAWN_Small_FS2C12R18",
+            "id": 17179869374,
+            "simulationTime": 9.760032653808594
+        },
+        {
+            "kind": "RescueRequested",
+            "target": "SPAWN_Small_FS2C12R18",
+            "id": 17179869375,
+            "simulationTime": 9.760032653808594
+        },
+        {
+            "kind": "HullPenetrated",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 21474836481,
+            "simulationTime": 0.0
+        },
+        {
+            "kind": "RescueRequested",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 21474836482,
+            "simulationTime": 0.0
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836483,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836484,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836485,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836486,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836487,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836488,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836489,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836490,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836491,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836492,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836493,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836494,
+            "simulationTime": 0.5399996638298035
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836495,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836496,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836497,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836498,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836499,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836500,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836501,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836502,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836503,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836504,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836505,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836506,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836507,
+            "simulationTime": 1.0599992275238038
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836508,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836509,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836510,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836511,
+            "simulationTime": 1.1799991130828858
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836512,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836513,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836514,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836515,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836516,
+            "simulationTime": 1.219999074935913
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R12",
+            "id": 21474836517,
+            "simulationTime": 1.2599990367889405
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R15",
+            "id": 21474836518,
+            "simulationTime": 1.279999017715454
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R16",
+            "id": 21474836519,
+            "simulationTime": 1.4199988842010499
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C15R09",
+            "id": 21474836520,
+            "simulationTime": 1.4199988842010499
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836521,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836522,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836523,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836524,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836525,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836526,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836527,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836528,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836529,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836530,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836531,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836532,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836533,
+            "simulationTime": 1.5799987316131592
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C10R07",
+            "id": 21474836534,
+            "simulationTime": 1.6399986743927003
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836535,
+            "simulationTime": 1.839998483657837
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R17",
+            "id": 21474836536,
+            "simulationTime": 1.839998483657837
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C10R08",
+            "id": 21474836537,
+            "simulationTime": 1.9399983882904053
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R14",
+            "id": 21474836538,
+            "simulationTime": 1.959998369216919
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R02",
+            "id": 21474836539,
+            "simulationTime": 2.0599982738494875
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836540,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836541,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836542,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836543,
+            "simulationTime": 2.0999982357025148
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R20",
+            "id": 21474836544,
+            "simulationTime": 2.139998197555542
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R03",
+            "id": 21474836545,
+            "simulationTime": 2.139998197555542
+        },
+        {
+            "kind": "ReactorUnstable",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 21474836546,
+            "simulationTime": 2.199998140335083
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R13",
+            "id": 21474836547,
+            "simulationTime": 2.319998025894165
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836548,
+            "simulationTime": 2.4199979305267336
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C10R09",
+            "id": 21474836549,
+            "simulationTime": 2.4199979305267336
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C11R11",
+            "id": 21474836550,
+            "simulationTime": 2.5199978351593019
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R05",
+            "id": 21474836551,
+            "simulationTime": 2.5199978351593019
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836552,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836553,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836554,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836555,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836556,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836557,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836558,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836559,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836560,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836561,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836562,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "AttackIneffective",
+            "target": "",
+            "id": 21474836563,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "LaserReflected",
+            "target": "",
+            "id": 21474836564,
+            "simulationTime": 2.61999773979187
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C15R08",
+            "id": 21474836565,
+            "simulationTime": 2.739997625350952
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R01",
+            "id": 21474836566,
+            "simulationTime": 2.8399975299835207
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C15R07",
+            "id": 21474836567,
+            "simulationTime": 2.859997510910034
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C12R19",
+            "id": 21474836568,
+            "simulationTime": 2.919997453689575
+        },
+        {
+            "kind": "RetreatOrdered",
+            "target": "SPAWN_Small_FS1C14R04",
+            "id": 21474836569,
+            "simulationTime": 2.939997434616089
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836570,
+            "simulationTime": 3.1399972438812258
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836571,
+            "simulationTime": 3.659996747970581
+        },
+        {
+            "kind": "DropletContact",
+            "target": "Droplet",
+            "id": 21474836572,
+            "simulationTime": 3.659996747970581
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836573,
+            "simulationTime": 3.659996747970581
+        },
+        {
+            "kind": "WeaponFired",
+            "target": "Droplet",
+            "id": 21474836574,
+            "simulationTime": 4.179996490478516
+        },
+        {
+            "kind": "CommunicationInterrupted",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 21474836575,
+            "simulationTime": 4.8641037940979
+        },
+        {
+            "kind": "ShipExploded",
+            "target": "SPAWN_Small_FS1C12R18",
+            "id": 21474836576,
+            "simulationTime": 4.8641037940979
+        }
+    ],
+    "waveCaptures": [
+        {
+            "phase": "ready-listener-output",
+            "file": "ready-listener-output.wav",
+            "limitation": "",
+            "sampleRate": 48000,
+            "channels": 2,
+            "frames": 72000,
+            "peak": 0.09553024172782898,
+            "saved": true
+        },
+        {
+            "phase": "narrative-listener-output",
+            "file": "narrative-listener-output.wav",
+            "limitation": "",
+            "sampleRate": 48000,
+            "channels": 2,
+            "frames": 72000,
+            "peak": 0.1773104965686798,
+            "saved": true
+        },
+        {
+            "phase": "cruise-listener-output",
+            "file": "cruise-listener-output.wav",
+            "limitation": "",
+            "sampleRate": 48000,
+            "channels": 2,
+            "frames": 72000,
+            "peak": 0.31920021772384646,
+            "saved": true
+        },
+        {
+            "phase": "sprint-listener-output",
+            "file": "sprint-listener-output.wav",
+            "limitation": "",
+            "sampleRate": 48000,
+            "channels": 2,
+            "frames": 120000,
+            "peak": 0.665159285068512,
+            "saved": true
+        },
+        {
+            "phase": "penetration-listener-output",
+            "file": "penetration-listener-output.wav",
+            "limitation": "",
+            "sampleRate": 48000,
+            "channels": 2,
+            "frames": 48000,
+            "peak": 0.23418493568897248,
+            "saved": true
+        },
+        {
+            "phase": "delayed-blast-listener-output",
+            "file": "delayed-blast-listener-output.wav",
+            "limitation": "",
+            "sampleRate": 48000,
+            "channels": 2,
+            "frames": 39936,
+            "peak": 0.3732280135154724,
+            "saved": true
+        }
+    ],
+    "screenshots": [
+        "01-ready.png",
+        "02-narrative.png",
+        "03-battle-flight.png",
+        "04-after-delayed-blast.png",
+        "05-restarted-three-times.png",
+        "06-accelerated-results.png"
+    ]
+}

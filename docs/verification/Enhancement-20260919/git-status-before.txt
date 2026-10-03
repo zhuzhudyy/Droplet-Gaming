@@ -1,0 +1,12 @@
+ M .gitignore
+ M AGENTS.md
+ M docs/ENVIRONMENT.md
+ M docs/STATUS.md
+?? 72c11648cf98ef25e10ffaf2e60656ca.png
+?? Tools/Audio/Set-VolcVoiceCredential.ps1
+?? Tools/Audio/test_volc_voice.py
+?? Tools/Audio/volc_voice.py
+?? docs/VOLCENGINE_VOICE.md
+?? docs/verification/Enhancement-20260919/
+?? docs/verification/SeedTTSOnly-20260919.json
+?? docs/verification/VolcVoice-20260919.json

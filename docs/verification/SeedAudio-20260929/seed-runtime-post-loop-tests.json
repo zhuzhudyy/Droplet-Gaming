@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 0.39,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.CatalogSkipsMissingRecordingsAndCyclesActualVariants",
+      "Status": "Passed",
+      "Duration": 0.0170466,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.CruiseAndBoostHaveDifferentSpeedWeightsAndControlsUseCompletedSteps",
+      "Status": "Passed",
+      "Duration": 0.0191143,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.LongFlightCrossfadesToSecondSeedLoopAndRestartClearsIt",
+      "Status": "Passed",
+      "Duration": 0.2847919,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.MotorReportsOnlyCompletedMovementAndResetDoesNotReplayAFlightStep",
+      "Status": "Passed",
+      "Duration": 0.0060531,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.PauseKeepsSelectedMusicAndRestartClearsOldStage",
+      "Status": "Passed",
+      "Duration": 0.0137005,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "DropletPrototype.Tests.PlayMode.SeedAudioRuntimeTests.VisualQualityOffRetainsTheLegacyFlightAudioBudget",
+      "Status": "Passed",
+      "Duration": 0.0067485,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

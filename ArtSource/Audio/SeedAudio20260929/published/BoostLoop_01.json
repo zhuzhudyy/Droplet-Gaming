@@ -1,0 +1,36 @@
+{
+  "id": "BoostLoop_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "fc8a409a40e325d98165610f6e44aba16c118653d0a1ded3f11f477b23d5dd1c",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BoostLoop_01/job.json",
+  "sourceSha256": "02a2df0a3ac7bb798651758ab12a599dc63f8ad5d53d6438593ede327ee816df",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady high-speed droplet boost energy, clearly denser and more urgent than cruise. Focused electrical roar with tightly textured upper harmonics and stable low body. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "BoostLoop_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 576000,
+    "rate": 48000,
+    "targetSeconds": 12.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 576000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 559200,
+    "linearGain": 1.2547590942253215,
+    "targetLevelDbFS": -24
+  },
+  "qa": {
+    "sha256": "fc8a409a40e325d98165610f6e44aba16c118653d0a1ded3f11f477b23d5dd1c",
+    "durationSeconds": 11.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.56729810671192,
+    "rmsDbFS": -24.00192961253595,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0130615234375
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Cruise_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "76e8b81261b81f4ad45bb9a1556199af626441ce70889b3a9220716f046f40ad",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Cruise_01/job.json",
+  "sourceSha256": "6c7d2969f7b9cada991782621dae33ed3f08c1827cc34ac331103cc1b54a1c0d",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady droplet cruise energy sound, smooth dense hum, no engine rev sequence. Silky magnetic resonance with a soft granular fringe and slow harmonic breathing. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Cruise_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 576000,
+    "rate": 48000,
+    "targetSeconds": 12.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 576000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 559200,
+    "linearGain": 0.28450838249536037,
+    "targetLevelDbFS": -24
+  },
+  "qa": {
+    "sha256": "76e8b81261b81f4ad45bb9a1556199af626441ce70889b3a9220716f046f40ad",
+    "durationSeconds": 11.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.324630342166902,
+    "rmsDbFS": -24.00193063842627,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.00091552734375
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

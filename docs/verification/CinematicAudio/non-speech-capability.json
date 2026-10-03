@@ -1,0 +1,26 @@
+{
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000
+      },
+      "additions": "{\"context_texts\": [\"Produce three metallic relay clicks, no speech, no music, no narration.\"]}"
+    }
+  },
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "execute": true,
+  "documentation": [
+    "https://www.volcengine.com/docs/6561/1598757",
+    "https://www.volcengine.com/docs/6561/1871062"
+  ],
+  "finding": "Installed connector exposes text-to-speech only. No configured supported Seed non-speech endpoint found. Do not use community invented endpoints.",
+  "status": "no_non_speech_audio",
+  "error": "TTS service error 45002001; check voice/resource permissions. No automatic retry.",
+  "accepted": false
+}

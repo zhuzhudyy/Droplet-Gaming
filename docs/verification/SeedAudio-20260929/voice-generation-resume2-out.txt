@@ -1,0 +1,1699 @@
+{
+  "execute": false,
+  "take": "seed-all-audio-voices-en-20260929-r1",
+  "manifestSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+  "budgetAFP": "20000",
+  "inheritedLedger": {
+    "path": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedTTS20260929\\ledger.json",
+    "sha256": "e9b28f443383739bcd328ecdd1819e3cf40420687352e6f82165cd28dea762e0",
+    "accountedAFP": "537.975"
+  },
+  "revisionAccountedAFP": "1455.165",
+  "remainingAFP": "18006.860",
+  "blockedByUnknownSubmission": false,
+  "reservationRule": "4 * UTF-8 bytes of English text plus context direction * 0.135 AFP, per request; settle only service usage.text_words.",
+  "lines": [
+    {
+      "id": "B007",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Hold fire! Friendly hull behind it!",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Sharp command, then essential reason; do not scream.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "34f5dfc960000c1a0462c86c1677bdf68ab77ea5684755e0e95b39edad629b50",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B007-34f5dfc960000c1a",
+      "reservedAFP": "262.980"
+    },
+    {
+      "id": "B008",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "It reflected. Track the outgoing beam!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. An engineer making an observation useful immediately.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "1b716e251bcff32de6b6dcacee14984230e3cbce2f7ea78f501569e8ad5a89d8",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B008-1b716e251bcff32d",
+      "reservedAFP": "260.820"
+    },
+    {
+      "id": "B009",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Through both sides! Isolate the reactor!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Close microphone, controlled alarm, urgent second clause.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "ab1a5d18c1c29d980a252be9df782a6d1725158c9bcf1212913177067abc681c",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B009-ab1a5d18c1c29d98",
+      "reservedAFP": "264.060"
+    },
+    {
+      "id": "B010",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Central decks breached! Seal the doors!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A report turning directly into a shouted instruction, still intelligible.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "c7786f0ab4ee8b0f529fd07fcbec3ac5c782fd030d901e4a560b2bc711bd2ad7",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B010-c7786f0ab4ee8b0f",
+      "reservedAFP": "260.280"
+    },
+    {
+      "id": "B011",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Straight through us. Close every door!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. One shocked beat before taking action; keep the beat short.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "fb18c9f84555b19e5c45b31f98a3131defe88c533d01a41d11607ec8279c6e0c",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B011-fb18c9f84555b19e",
+      "reservedAFP": "264.060"
+    },
+    {
+      "id": "B012",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Hull pierced. We are drifting!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Compressed emergency report with rising concern only at the end.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "76d9eeb25dba0363a1bc6f4c5922391afec7461391919afe7093a52534ffecb8",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B012-76d9eeb25dba0363",
+      "reservedAFP": "250.560"
+    },
+    {
+      "id": "B013",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Containment failing! Clear the core!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Clear the core is the urgent command; no decorative vocal sounds.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "5b82aec33ef9bb31be7b6b1dcc672793fc1b9c272c1a279e8dd439fc7de8ded2",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B013-5b82aec33ef9bb31",
+      "reservedAFP": "266.220"
+    },
+    {
+      "id": "B014",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Shutdown failed. Temperature still rising!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Fast technical realization, clipped and increasingly strained.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "9e38c32d8dbc8e9786a6cd7c164afda481a6b73a304616e540742096492614e3",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B014-9e38c32d8dbc8e97",
+      "reservedAFP": "267.840"
+    },
+    {
+      "id": "B015",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Reactor critical! Nobody come alongside!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Warn others away decisively, speaking through controlled fear.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "45d481b067e1186de7c366db7eb88a6552b3dfcf1352e0a60cedd9ae6cba17a5",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B015-45d481b067e1186d",
+      "reservedAFP": "254.880"
+    },
+    {
+      "id": "B016",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Cooling gone. Get everyone clear!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Matter-of-fact first clause, immediate order second.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "1222bc3e8b4542810228b5f566cb3c697f56ad92800b9b40833e3db508e391da",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B016-1222bc3e8b454281",
+      "reservedAFP": "257.580"
+    },
+    {
+      "id": "B017",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Mayday. Forward section still answering!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A trained distress call with urgency, without crying or added words.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "96724fb0e977d9be48d6e467de9a75deb1aa23b2e38aa1f757f13addea720e00",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B017-96724fb0e977d9be",
+      "reservedAFP": "258.120"
+    },
+    {
+      "id": "B018",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Rescue channel, we are trapped forward!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Speak into a handheld receiver; quick, direct, frightened but understandable.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "670d1d0e08d5b43bd161c2e7162d98156f96ca3efc1cbf5f47bff43625d59644",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B018-670d1d0e08d5b43b",
+      "reservedAFP": "262.440"
+    },
+    {
+      "id": "B019",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Suits on. Keep listening for us!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. First to nearby crew, then to the remote listener; a tiny natural transition.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "0d9f5427019d7bd9902ad1fcd7b22ce989113b6daf08bbcf804b7ec23506f3bc",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B019-0d9f5427019d7bd9",
+      "reservedAFP": "270.540"
+    },
+    {
+      "id": "B020",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Beacon live. We cannot stop the drift!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Urgent status report; emphasize cannot without drawn-out delivery.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "e87ae5c4c03072783d107d2066d4bd874e33562ef069c187eb14501093654fe7",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B020-e87ae5c4c0307278",
+      "reservedAFP": "255.960"
+    },
+    {
+      "id": "B021",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Hull lost. Stay clear of the debris.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A different surviving observer, low and controlled after the flash.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "e6f9a5706e0550be250e295110944dfd7b4cfcfbc683337fc2cec7662240fd1f",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B021-e6f9a5706e0550be",
+      "reservedAFP": "255.420"
+    },
+    {
+      "id": "B022",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Explosion confirmed. Keep that lane clear.",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Command through the shock, no triumphant tone.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "4caa60138a271d2cbcc40b115fbdac31e6a22680d647387709c2deb828e83841",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B022-4caa60138a271d2c",
+      "reservedAFP": "263.520"
+    },
+    {
+      "id": "B023",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Reactor gone. Debris is still moving.",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Observe the aftermath without inventing a second explosion.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "f8db5c80bc4454d3d7983eb2ac30d75376971903b952b83184dd8c712695220c",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B023-f8db5c80bc4454d3",
+      "reservedAFP": "263.520"
+    },
+    {
+      "id": "B024",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Signal gone. Marking the last position.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A small pause after signal gone; keep working, no weeping.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "16525bded19e9d111290a4f8fd4acc671f239a544412250cfdc919f01d2bb4f3",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B024-16525bded19e9d11",
+      "reservedAFP": "252.180"
+    },
+    {
+      "id": "B025",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Break formation. Take your escape vector!",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Immediate directional command, concise and authoritative.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "01728b289b71d6553e306a50179ee7e00b129349efe28ef9b69805c07b0b9e0c",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B025-01728b289b71d655",
+      "reservedAFP": "268.920"
+    },
+    {
+      "id": "B026",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Retreat confirmed. Clear the damaged hulls!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Relay an active order quickly; crisp consonants.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "073c7e473cdf6d2530222b186f49b6ccc88afc2a81bb7e6e82fbe979e214369f",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B026-073c7e473cdf6d25",
+      "reservedAFP": "248.940"
+    },
+    {
+      "id": "B027",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Do not wait for us. Move your ship!",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Urgent permission to act, not anger at a subordinate.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "1f3ca4848c93796cba60c5c9d9695cd81bf8f9fd55992f399d6bf366c41a2672",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B027-1f3ca4848c93796c",
+      "reservedAFP": "263.520"
+    },
+    {
+      "id": "B028",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Escape route loaded. Bringing engines up!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Working engineer acknowledging the retreat command before movement is complete.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "a3c057febc949b8298a1cd5213e8e513c26abe3f6d8cc024897ed9d76522f74a",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B028-a3c057febc949b82",
+      "reservedAFP": "276.480"
+    },
+    {
+      "id": "B029",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "One hull clear. Beacon still answering.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A brief touch of relief in an otherwise focused report.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "61ea2e109f1e0ef03ebea9d9dc6cad9669b900f50893e4a96889560d5848e3c5",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B029-61ea2e109f1e0ef0",
+      "reservedAFP": "250.560"
+    },
+    {
+      "id": "B030",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "You are clear. Keep moving outward.",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Reassuring instruction, less force than the retreat order.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "58a26bf4ef7a9116ca82fd82cfa3e385c8d71a0dce71b04ff071d79de85642f4",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B030-58a26bf4ef7a9116",
+      "reservedAFP": "266.220"
+    },
+    {
+      "id": "B031",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "That crew is out. Updating their position.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Relief is audible but restrained; return to work immediately.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "df4b3996b829eaeda320b211bd7b99843e1114a9a9973969dc0bc1cdc50cd344",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B031-df4b3996b829eaed",
+      "reservedAFP": "255.420"
+    },
+    {
+      "id": "B032",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Drive signal steady beyond the perimeter.",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A short checked measurement with a calmer ending.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "63b609dcead0a4c1112d482d073fc4890e4cd30cc20ba03f442d4c95fc341e59",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B032-63b609dcead0a4c1",
+      "reservedAFP": "260.280"
+    },
+    {
+      "id": "B033",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Transmission lost. Finding another live channel.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Receiver-side officer after a cutoff, composed and efficient.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "f6a9a3514c483389d80d1ae39c06e17d8919667d398e22fdbedbd77dacbd39c8",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B033-f6a9a3514c483389",
+      "reservedAFP": "258.660"
+    },
+    {
+      "id": "B034",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Their carrier is gone. Keep this band clear.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Do not impersonate the destroyed ship; report as a surviving network operator.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "c346ec7f154e791f7dab47c769709fd41a95f553dcc42840ffd2c676625c69b6",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B034-c346ec7f154e791f",
+      "reservedAFP": "265.680"
+    },
+    {
+      "id": "B035",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "We heard you. Position marked. Keep withdrawing.",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Address the fleet after a lost distress call; steady, without implying a successful rescue.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "06775e9851c4ccb9f7be1453fbb6778efd0001cb37e1f34b367ca04deb188881",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B035-06775e9851c4ccb9",
+      "reservedAFP": "291.060"
+    },
+    {
+      "id": "B036",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Telemetry stopped. No readings after the flash.",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Quiet technical finality, no flourish.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "a5dc846a072dce66ebf94c3ef229a6dc16ef91558716390f29a785f5bfcbbd21",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B036-a5dc846a072dce66",
+      "reservedAFP": "257.580"
+    },
+    {
+      "id": "SC01",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Helm, hold here. Leave the corridor open. Tell me the moment that track changes.",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A nearby bridge conversation; unhurried command with a natural connective rhythm.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "670cb6a14e5d7a28a83163c08514202208f44c4908399e5d63c02d8b098e6c37",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SC01-670cb6a14e5d7a28",
+      "reservedAFP": "309.420"
+    },
+    {
+      "id": "SC02",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Holding here. Track is steady.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A simple acknowledgment to a colleague, no radio-announcer cadence.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "1b9bfcc7a99bb31c605e70cbcd622533ce52b3fb8c67981f11f10e4cb1751224",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SC02-1b9bfcc7a99bb31c",
+      "reservedAFP": "258.660"
+    },
+    {
+      "id": "SA01",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Bridge hit! Seal the forward doors. Stay with me, keep reporting!",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Brief shock, then take control; no long shout or spoken stage directions.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "dcdc2203338f4659dbd3903d4565e3942eedb02711522c67e6c8b4c328c87c0e",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SA01-dcdc2203338f4659",
+      "reservedAFP": "290.520"
+    },
+    {
+      "id": "SA02",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Panel is burning! Cutting power!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A hurried technical response from nearby, crisp enough to mix behind the commander.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "6bf823b2dd3fb0f26d755fd4d11fbb3575504b5525af27c90877ca4c21668c1b",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SA02-6bf823b2dd3fb0f2",
+      "reservedAFP": "273.780"
+    },
+    {
+      "id": "SE01",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Everyone off the bridge! Aft passage, move!",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Decisive evacuation order with two distinct actionable phrases.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "a04690ef89cdfd4a5ab8bf11d146d989a885db178fe2a801c3f8da77ec6e2ac0",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SE01-a04690ef89cdfd4a",
+      "reservedAFP": "273.240"
+    },
+    {
+      "id": "SE02",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Hatch will not open!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. One urgent obstruction report; do not add effort sounds.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "d3be68b55b6c51f17738985ce8b9080f7227cbd8e1e1d59cf7f91b89a1df463e",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SE02-d3be68b55b6c51f1",
+      "reservedAFP": "252.720"
+    },
+    {
+      "id": "SE03",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Leave it! Aft passage, keep together!",
+            "speaker": "en_male_tim_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. React immediately to the jammed hatch, redirect people with controlled force.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "d3c558410b5058abc08f429e94d026d56625609f6b21226b9a132914fb3d0076",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SE03-d3c558410b5058ab",
+      "reservedAFP": "277.560"
+    },
+    {
+      "id": "BG01",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "On it. Checking now.",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Low-key, matter-of-fact background acknowledgment; close dry recording, no added distance effect.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "3f4ed9f88d513193f912f66d668c351b6b7dba6e499d0f8d291038cc0b99359b",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\BG01-3f4ed9f88d513193",
+      "reservedAFP": "269.460"
+    },
+    {
+      "id": "BG02",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Stand clear!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. One useful urgent warning, short and intelligible.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "babe80f4093076325e8facefa67e285efe717db0104cf130fd6cdb93214c5725",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\BG02-babe80f409307632",
+      "reservedAFP": "245.160"
+    },
+    {
+      "id": "BG03",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "This way! Stay together!",
+            "speaker": "en_female_stokie_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Calling to nearby crew while evacuating; no footsteps or breathing effects.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "177dcd3fb38784395d0e65c46a556e086ab5240d57280044d16e3822631dffd5",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\BG03-177dcd3fb3878439",
+      "reservedAFP": "253.260"
+    },
+    {
+      "id": "HELP",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Core breached! Everybody back!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Very short emergency interruption, emphasize back, stop cleanly.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "c94101469555e5a972b2833ff53fba3a7d665f41bdf87b5bee688887e84226eb",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\HELP-c94101469555e5a9",
+      "reservedAFP": "262.440"
+    }
+  ]
+}
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B007",
+      "text": "Hold fire! Friendly hull behind it!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B007-34f5dfc960000c1a"
+    }
+  ],
+  "characters": 35
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B007-34f5dfc960000c1a\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B008",
+      "text": "It reflected. Track the outgoing beam!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B008-1b716e251bcff32d"
+    }
+  ],
+  "characters": 38
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B008-1b716e251bcff32d\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B009",
+      "text": "Through both sides! Isolate the reactor!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B009-ab1a5d18c1c29d98"
+    }
+  ],
+  "characters": 40
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B009-ab1a5d18c1c29d98\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B010",
+      "text": "Central decks breached! Seal the doors!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B010-c7786f0ab4ee8b0f"
+    }
+  ],
+  "characters": 39
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B010-c7786f0ab4ee8b0f\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B011",
+      "text": "Straight through us. Close every door!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B011-fb18c9f84555b19e"
+    }
+  ],
+  "characters": 38
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B011-fb18c9f84555b19e\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B012",
+      "text": "Hull pierced. We are drifting!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B012-76d9eeb25dba0363"
+    }
+  ],
+  "characters": 30
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B012-76d9eeb25dba0363\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B013",
+      "text": "Containment failing! Clear the core!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B013-5b82aec33ef9bb31"
+    }
+  ],
+  "characters": 36
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B013-5b82aec33ef9bb31\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B014",
+      "text": "Shutdown failed. Temperature still rising!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B014-9e38c32d8dbc8e97"
+    }
+  ],
+  "characters": 42
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B014-9e38c32d8dbc8e97\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B015",
+      "text": "Reactor critical! Nobody come alongside!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B015-45d481b067e1186d"
+    }
+  ],
+  "characters": 40
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B015-45d481b067e1186d\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B016",
+      "text": "Cooling gone. Get everyone clear!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B016-1222bc3e8b454281"
+    }
+  ],
+  "characters": 33
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B016-1222bc3e8b454281\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B017",
+      "text": "Mayday. Forward section still answering!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B017-96724fb0e977d9be"
+    }
+  ],
+  "characters": 40
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B017-96724fb0e977d9be\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B018",
+      "text": "Rescue channel, we are trapped forward!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B018-670d1d0e08d5b43b"
+    }
+  ],
+  "characters": 39
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B018-670d1d0e08d5b43b\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B019",
+      "text": "Suits on. Keep listening for us!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B019-0d9f5427019d7bd9"
+    }
+  ],
+  "characters": 32
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B019-0d9f5427019d7bd9\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B020",
+      "text": "Beacon live. We cannot stop the drift!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B020-e87ae5c4c0307278"
+    }
+  ],
+  "characters": 38
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B020-e87ae5c4c0307278\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B021",
+      "text": "Hull lost. Stay clear of the debris.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B021-e6f9a5706e0550be"
+    }
+  ],
+  "characters": 36
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B021-e6f9a5706e0550be\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B022",
+      "text": "Explosion confirmed. Keep that lane clear.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B022-4caa60138a271d2c"
+    }
+  ],
+  "characters": 42
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B022-4caa60138a271d2c\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B023",
+      "text": "Reactor gone. Debris is still moving.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B023-f8db5c80bc4454d3"
+    }
+  ],
+  "characters": 37
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B023-f8db5c80bc4454d3\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B024",
+      "text": "Signal gone. Marking the last position.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B024-16525bded19e9d11"
+    }
+  ],
+  "characters": 39
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B024-16525bded19e9d11\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B025",
+      "text": "Break formation. Take your escape vector!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B025-01728b289b71d655"
+    }
+  ],
+  "characters": 41
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B025-01728b289b71d655\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B026",
+      "text": "Retreat confirmed. Clear the damaged hulls!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B026-073c7e473cdf6d25"
+    }
+  ],
+  "characters": 43
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B026-073c7e473cdf6d25\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B027",
+      "text": "Do not wait for us. Move your ship!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B027-1f3ca4848c93796c"
+    }
+  ],
+  "characters": 35
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B027-1f3ca4848c93796c\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B028",
+      "text": "Escape route loaded. Bringing engines up!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B028-a3c057febc949b82"
+    }
+  ],
+  "characters": 41
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B028-a3c057febc949b82\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B029",
+      "text": "One hull clear. Beacon still answering.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B029-61ea2e109f1e0ef0"
+    }
+  ],
+  "characters": 39
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B029-61ea2e109f1e0ef0\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B030",
+      "text": "You are clear. Keep moving outward.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B030-58a26bf4ef7a9116"
+    }
+  ],
+  "characters": 35
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B030-58a26bf4ef7a9116\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B031",
+      "text": "That crew is out. Updating their position.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B031-df4b3996b829eaed"
+    }
+  ],
+  "characters": 42
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B031-df4b3996b829eaed\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B032",
+      "text": "Drive signal steady beyond the perimeter.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B032-63b609dcead0a4c1"
+    }
+  ],
+  "characters": 41
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B032-63b609dcead0a4c1\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B033",
+      "text": "Transmission lost. Finding another live channel.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B033-f6a9a3514c483389"
+    }
+  ],
+  "characters": 48
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B033-f6a9a3514c483389\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B034",
+      "text": "Their carrier is gone. Keep this band clear.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B034-c346ec7f154e791f"
+    }
+  ],
+  "characters": 44
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B034-c346ec7f154e791f\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B035",
+      "text": "We heard you. Position marked. Keep withdrawing.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B035-06775e9851c4ccb9"
+    }
+  ],
+  "characters": 48
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B035-06775e9851c4ccb9\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B036",
+      "text": "Telemetry stopped. No readings after the flash.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B036-a5dc846a072dce66"
+    }
+  ],
+  "characters": 47
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B036-a5dc846a072dce66\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "SC01",
+      "text": "Helm, hold here. Leave the corridor open. Tell me the moment that track changes.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SC01-670cb6a14e5d7a28"
+    }
+  ],
+  "characters": 80
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\SC01-670cb6a14e5d7a28\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "SC02",
+      "text": "Holding here. Track is steady.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SC02-1b9bfcc7a99bb31c"
+    }
+  ],
+  "characters": 30
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\SC02-1b9bfcc7a99bb31c\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "SA01",
+      "text": "Bridge hit! Seal the forward doors. Stay with me, keep reporting!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SA01-dcdc2203338f4659"
+    }
+  ],
+  "characters": 65
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\SA01-dcdc2203338f4659\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "SA02",
+      "text": "Panel is burning! Cutting power!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SA02-6bf823b2dd3fb0f2"
+    }
+  ],
+  "characters": 32
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\SA02-6bf823b2dd3fb0f2\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "SE01",
+      "text": "Everyone off the bridge! Aft passage, move!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SE01-a04690ef89cdfd4a"
+    }
+  ],
+  "characters": 43
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\SE01-a04690ef89cdfd4a\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "SE02",
+      "text": "Hatch will not open!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SE02-d3be68b55b6c51f1"
+    }
+  ],
+  "characters": 20
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\SE02-d3be68b55b6c51f1\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "SE03",
+      "text": "Leave it! Aft passage, keep together!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\SE03-d3c558410b5058ab"
+    }
+  ],
+  "characters": 37
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\SE03-d3c558410b5058ab\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "BG01",
+      "text": "On it. Checking now.",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\BG01-3f4ed9f88d513193"
+    }
+  ],
+  "characters": 20
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\BG01-3f4ed9f88d513193\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "BG02",
+      "text": "Stand clear!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\BG02-babe80f409307632"
+    }
+  ],
+  "characters": 12
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\BG02-babe80f409307632\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "BG03",
+      "text": "This way! Stay together!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\BG03-177dcd3fb3878439"
+    }
+  ],
+  "characters": 24
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\BG03-177dcd3fb3878439\job.json
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "HELP",
+      "text": "Core breached! Everybody back!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\HELP-c94101469555e5a9"
+    }
+  ],
+  "characters": 30
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\HELP-c94101469555e5a9\job.json
+{"completed": 41, "ledger": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\voice-ledger.json"}

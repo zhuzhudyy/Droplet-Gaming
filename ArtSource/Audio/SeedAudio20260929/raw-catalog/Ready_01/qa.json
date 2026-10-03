@@ -1,0 +1,14 @@
+{
+  "channels": 2,
+  "sampleRate": 48000,
+  "sampleWidth": 2,
+  "frames": 2880000,
+  "durationSeconds": 60.0,
+  "peakDbFS": -8.356218388257583,
+  "rmsDbFS": -23.886145382640148,
+  "clippedSamples": 0,
+  "silenceFraction": 0.0015336805555555555,
+  "sha256": "8556e11d5ae5432f6eb8063723c751e6bbc79c3528776727229b9fac16c7eee7",
+  "subjectiveListening": "not_performed",
+  "contentAccepted": false
+}

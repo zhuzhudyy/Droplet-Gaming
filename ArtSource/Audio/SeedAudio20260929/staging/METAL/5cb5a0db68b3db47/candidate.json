@@ -1,0 +1,42 @@
+{
+  "id": "METAL",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "METAL",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/METAL_SERVICE_ACTIVE_729b8857/job.json",
+    "sourceSha256": "68f8c23164ca85ce655b3b1380af35727a4dead00f3079d616fa6855fc5032ef",
+    "targetSeconds": 6.0,
+    "loop": false,
+    "kind": "representative"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/METAL_SERVICE_ACTIVE_729b8857/job.json",
+  "sourceSha256": "68f8c23164ca85ce655b3b1380af35727a4dead00f3079d616fa6855fc5032ef",
+  "sha256": "744f097da60d75af276f3db1eb028805bcf899bafb29fe28e810898c0990cb42",
+  "recipe": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 288000,
+    "rate": 48000,
+    "targetSeconds": 6.0,
+    "representative": true,
+    "startFrame": 0,
+    "usedSourceFrames": 288000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 288000,
+    "linearGain": 0.8575011515045818,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "744f097da60d75af276f3db1eb028805bcf899bafb29fe28e810898c0990cb42",
+    "durationSeconds": 6.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -24.115854308153818,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

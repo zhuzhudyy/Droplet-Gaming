@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B018",
+    "text": "Rescue channel, we are trapped forward!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Rescue channel, we are trapped forward!",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Speak into a handheld receiver; quick, direct, frightened but understandable.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "2f858522-32f2-414b-b229-7918f6be0b61",
+  "sha256": "7f3fa0cdd73b69f728e2dcf9e6f57f82d883796d6a10affda58325cd056ddc3c",
+  "duration_seconds": 2.5922916666666667,
+  "usage": {
+    "text_words": 39
+  }
+}

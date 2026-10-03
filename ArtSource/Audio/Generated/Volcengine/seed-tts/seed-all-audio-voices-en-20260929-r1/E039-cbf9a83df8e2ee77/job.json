@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E039",
+    "text": "Weapons free in your assigned lanes. Keep escape routes clear. If your neighbor is hit, move first; report when you can. You know your ship and crew. Do not wait for my voice to protect them."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Weapons free in your assigned lanes. Keep escape routes clear. If your neighbor is hit, move first; report when you can. You know your ship and crew. Do not wait for my voice to protect them.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Decisive order followed by trust in the captains; restrained strain at the end.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "5fe9e9e7-0b4f-457e-b6a4-2278debbd0cc",
+  "sha256": "34ae85745053997c1ffa1679e7b2cbebc16fd52fefdcc3647191fba8cec1ed9b",
+  "duration_seconds": 12.37425,
+  "usage": {
+    "text_words": 191
+  }
+}

@@ -1,0 +1,1 @@
+{"statusCounts": {"ready_for_listening": 24, "in_flight_or_unresolved": 1, "not_generated": 106}, "technicalIssues": 0, "possibleDuplicates": 0, "listening": "C:\\ѧϰ\\��\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\catalog-qa\\listening.html"}

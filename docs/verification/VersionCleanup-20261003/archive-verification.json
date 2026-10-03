@@ -1,0 +1,997 @@
+{
+  "source": "Builds/Windows-SeedAudio-20260929",
+  "archive": "Releases/Droplet-Gaming-Windows-SeedAudio-20260929.zip",
+  "method": "Archive existing verified player; no recompilation or gameplay rerun",
+  "files": 197,
+  "uncompressedBytes": 353405270,
+  "archiveBytes": 176407481,
+  "archiveSha256": "1e5333009322b1f4472a47ce654081c060804261d0899b39ab363cbc20a11b74",
+  "allEntriesMatchSource": true,
+  "entries": [
+    {
+      "path": "Windows-SeedAudio-20260929/D3D12/D3D12Core.dll",
+      "bytes": 4725304,
+      "sha256": "625bd40005b1c3708695d5256ecf230d278e6b8edba5a88af70f3d91324f3052"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming.exe",
+      "bytes": 667648,
+      "sha256": "6cd16edfbe85284eb69cd2efe1170aa1cffdf0dbdb309c3269e2f8454811adab"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/app.info",
+      "bytes": 31,
+      "sha256": "502d02b04a5cf8f7460cf0e48162e49698f6385eed4d1f1803ecfe6a845cb250"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/boot.config",
+      "bytes": 156,
+      "sha256": "1944abf6e5c6b3e1a494956482669a76cdb5e85891746c82d7fff049908da1e0"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/globalgamemanagers",
+      "bytes": 127796,
+      "sha256": "9c3201a25876bd00886520e20e79cc955518df0302134e23b4e13e3f467d68ab"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/globalgamemanagers.assets",
+      "bytes": 1040616,
+      "sha256": "c1afaeceb1b4a32bbc94738b8afc70ce77b55ef06093b55103666d09ed1c28c9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/globalgamemanagers.assets.resS",
+      "bytes": 6174944,
+      "sha256": "26b24bbd0bdb7017ecbac3b829c0ed7c4848bc343af5702e96ebdb75a7258b04"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/level0",
+      "bytes": 83239660,
+      "sha256": "fb62ae54c57e98b025bb8edbff793e7e53fbcc8d4be3f9f189a55793a2639fc9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Assembly-CSharp.dll",
+      "bytes": 3584,
+      "sha256": "c7446fb7558d874bd704748c5e35e4b9ebd5f27f5e8055ffd13a93ce08bfb234"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/DropletPrototype.Runtime.dll",
+      "bytes": 460288,
+      "sha256": "baebb902d3c372142f8f11d517d097ac11c3529f1230f2ab57b5f8d11e1a482c"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Microsoft.CodeAnalysis.CSharp.dll",
+      "bytes": 6098320,
+      "sha256": "e822156145e1add437b1d893c0315257c12e3d5b1b89d83494db6d88d37fe20a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Microsoft.CodeAnalysis.dll",
+      "bytes": 2903440,
+      "sha256": "159f595e313f8cc09bac14588e2466c312f512a4778d9fa2352fcccf2a53aa3d"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Mono.Security.dll",
+      "bytes": 241152,
+      "sha256": "0faa3284472f68bd58c47c8b9114410ae72861124cff960e207953796346a0ce"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/mscorlib.dll",
+      "bytes": 4632064,
+      "sha256": "cf957d332f0a6d91c397dcc630887f04ee67ef54a054b609360abd31ae4b53a9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/netstandard.dll",
+      "bytes": 90112,
+      "sha256": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Newtonsoft.Json.dll",
+      "bytes": 691712,
+      "sha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Buffers.dll",
+      "bytes": 4608,
+      "sha256": "762f8fdbe975e05b76be5fe996c53ce7c75e4a2830f2f50b02a5948ef6ba0aeb"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Collections.Immutable.dll",
+      "bytes": 252680,
+      "sha256": "5b1b1c83ba3d135c2fdfe425842fbe9c7432878b7e468623acb554c69b4c130f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.ComponentModel.Composition.dll",
+      "bytes": 257024,
+      "sha256": "b682d2befbade74422ff27650329682ee5673d3e35649f148a52badf1ed107f1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Configuration.dll",
+      "bytes": 124928,
+      "sha256": "e78fb1597fe0da100a118da53dbfd0b865b3517ed67bfdbe76ee6f57820af0b7"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Core.dll",
+      "bytes": 1113088,
+      "sha256": "6068ccfc08ea3d50ee849a390e81e6019e40a7328323e39fee8b6fe84b9c8818"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Data.DataSetExtensions.dll",
+      "bytes": 29696,
+      "sha256": "e84f64489ac182181caee46d090d701076a94e1eb608de2b00583e29a66aae19"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Data.dll",
+      "bytes": 2125312,
+      "sha256": "c1dc1e3ba1b6ace16d8e539931f49a968dfc710a11071ebd1de664a2979606ae"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.dll",
+      "bytes": 2641920,
+      "sha256": "937c84b714227ae3f58670c9c448933b99500609c6de6d96fe88f1f241b09122"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Drawing.dll",
+      "bytes": 489984,
+      "sha256": "bf5d1915623514f4990e9d5d12f8f87393bd20fa410cd78c3f16167b59f67458"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.EnterpriseServices.dll",
+      "bytes": 44544,
+      "sha256": "12c3c7bf6545fbc8dee20934d1aecfc129d8ffceba4e1708471ec62437833993"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.IO.Compression.dll",
+      "bytes": 114688,
+      "sha256": "c7fdcf07e7053d0698eb61e5f4a5a23df2faa89041d757a8e9712dc9781f3781"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "bytes": 18432,
+      "sha256": "653dd0d3b284543f227d6cb7eca6aca65fa0b3fb9e5a63a8ba68468349778f89"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Memory.dll",
+      "bytes": 4608,
+      "sha256": "c4f030a2cba7da7cdcf493257c24560e203d355904aee490d645a935842f834a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Net.Http.dll",
+      "bytes": 122880,
+      "sha256": "9e220588542a00ee3af52cff347ef0ddb8ec679adaf5bb06f66b3220f6d132f5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Numerics.dll",
+      "bytes": 119296,
+      "sha256": "e9745bcb81e183ba0d1f1116a59b7598167a9ff85aa652f032c42cf12224e7d1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Reflection.Metadata.dll",
+      "bytes": 487584,
+      "sha256": "afcfd6c166fe0d59f45cc6363082806f6a7ea8ceed9dc6c75eec9fd79ccb5717"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll",
+      "bytes": 19256,
+      "sha256": "fd67abc4c4af10affbcd42fd68a2a7bc361b26714afe6965d4d0d139459d8297"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Runtime.dll",
+      "bytes": 12288,
+      "sha256": "e0a7334b7ba419aaab6bd3bb6992d693e689341a9178172c9bf99c2aa6a085bd"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Runtime.Serialization.dll",
+      "bytes": 934400,
+      "sha256": "808d545a339f174b204907e85c67a713dc9257f51a581f1ea227bb410f8580d7"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Security.dll",
+      "bytes": 320000,
+      "sha256": "b55ad49e8ba399c3f7ae41c6fd27cc024280b72e459ce09f376922354f38b17a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.ServiceModel.Internals.dll",
+      "bytes": 215040,
+      "sha256": "771524d6406ac76de18c715b71c196be1a97b833388c67f6b6c5a1d04dbd8fe2"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Text.Encoding.CodePages.dll",
+      "bytes": 5120,
+      "sha256": "aaea4e6d16f43604fed59e56c06cd44f2d59f92357989aefbdd2041817c212f7"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Threading.Tasks.Extensions.dll",
+      "bytes": 5120,
+      "sha256": "96150abdca5df4446b376560e069d59b3550212deda8cbdd316272f6b834f597"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Transactions.dll",
+      "bytes": 35328,
+      "sha256": "035dc66a5ca874446c55d4e6e0c0cab7d367dc2c6872ae1965ad9ac356f460ed"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Xml.dll",
+      "bytes": 3160064,
+      "sha256": "5b9f29bbcf896a091a83da47d9c741ea502a543066a6e9680cfcaeb93ac4ad36"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/System.Xml.Linq.dll",
+      "bytes": 136704,
+      "sha256": "29e23c25f5821eaf9e3a4e1981b2dc691591eb34c4411a1fd7791dcc6f3ea9c7"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.AI.Navigation.dll",
+      "bytes": 23040,
+      "sha256": "81bb8be4fe67f818a307263923199a7f9fbad44e7ca58bf56ce57a3b5ad5cda1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Burst.dll",
+      "bytes": 296960,
+      "sha256": "5fbcd037150b65d7ecc6d0c5bf22ce44389b9186b9796977b7bccbc33c3aa2f0"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Burst.Unsafe.dll",
+      "bytes": 5632,
+      "sha256": "9d9c1ff52411decbee5d9f0d1cd61ebeaa222077aa77a52101ea3debafae98e2"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Collections.dll",
+      "bytes": 439808,
+      "sha256": "43c3e3f863f13e7a6e8e0fb267af7f73fec50ba82df528ceea17719d890f55d2"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
+      "bytes": 5120,
+      "sha256": "ff50383f807f9692e4913b97e47d86fefcb8faa33d6d48cd3e3fd6fc7ffb448d"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.InputSystem.dll",
+      "bytes": 1094656,
+      "sha256": "c63626a840bb55e34040f8c20a51b6179df2aaeb3648f046990180b8ac140217"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.InputSystem.ForUI.dll",
+      "bytes": 15360,
+      "sha256": "7ada5559a2b7355a29a8fdd20e1f1259e212be06ac515c3d90a2f22c21415c4f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.InternalAPIEngineBridge.004.dll",
+      "bytes": 4096,
+      "sha256": "1373df49de1f30417950d84b2c5c8810c72ef3860ff3565c03f018ff638d88b5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll",
+      "bytes": 3584,
+      "sha256": "c8aa7f45932186092ae24eb59a84915432b55d163433033244fff0fbe4f8df27"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Mathematics.dll",
+      "bytes": 5632,
+      "sha256": "3bbbab1a8fffff6a388e732a4ccfc4d3f70177301723f67bc2d6bf116d75f6d6"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Multiplayer.Center.Common.dll",
+      "bytes": 8704,
+      "sha256": "877f2a6a2c0fa80bb94e5197e1ed6f011658e83c9b4b94f5d8d3e20a11218aa1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.PathTracing.Runtime.dll",
+      "bytes": 142848,
+      "sha256": "bede58223fa0ef4bf57dbc9a4f0e35b705a8c3205123272667830d9fb4798560"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Pipeline.dll",
+      "bytes": 284672,
+      "sha256": "6e86bc4f7b065e3a0143262e09a33983d2ee3d5b2b024d75a1d6c6db174b4852"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Pipeline.IlInterpreter.dll",
+      "bytes": 332800,
+      "sha256": "413de0627b33ab867a7c6b1950b7222cf3b7b9119c37e80830eee13b134155b6"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "bytes": 7680,
+      "sha256": "188e4bb3d4e552005f5c4cce88623f8ea7472ef619a187b652ca62f3dedf65a9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "bytes": 1092096,
+      "sha256": "cbe303d3e0b98a6880d53d50c41bfeb58b01dc27485015eda54817db8fc179f8"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+      "bytes": 11264,
+      "sha256": "f66b85c12c4b6935c0f1979f69910ffc559c89f6bae68db63671585b2b3384b9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "bytes": 3584,
+      "sha256": "4d495d67bee352c0aed3c3cd59bc323c30b5ad5f13c2d747ea13b38e672b79a9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+      "bytes": 263168,
+      "sha256": "faa4e7909288ec6ee23e23bd2992b59aa51aa2f14754eea9bf92938e3c9c8654"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "bytes": 3584,
+      "sha256": "634804216c6319a19080cef32a60a5c54bf83035e3dab14888c2d0d841bb334a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+      "bytes": 198656,
+      "sha256": "1a4d4cfd675eda11f3aa561f47e34e5579eb21864abb8b2ecce11fa1c41f407b"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+      "bytes": 4096,
+      "sha256": "ad166ce690e788cfa106a38c5b75c836b46c2b187534b665ba7adcbbbcb87b9a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
+      "bytes": 722432,
+      "sha256": "eb02163c2991ebb36e250d85e870146275a8dcb876c04017608267e46ef44842"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
+      "bytes": 3584,
+      "sha256": "d545b7c1e836e80d5210eb2616846fcacdd41cafb4b867ca60305e34de4742b9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Scripting.dll",
+      "bytes": 68528,
+      "sha256": "804731c026f2fbf5868d8d7495a2c80833422ae2227e304af97cd7959dc562b8"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.SurfaceCache.Runtime.dll",
+      "bytes": 3584,
+      "sha256": "f9fe6b12861e837695d28d3ae2ad3f8c8e2319b82762cea4a3512614246fe671"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.TextMeshPro.dll",
+      "bytes": 439296,
+      "sha256": "b04daeff547775643c69c0b02a5c9dbc459be0f674433de329dc09fc38db5eaf"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.Timeline.dll",
+      "bytes": 121856,
+      "sha256": "92cc2ec8bf0e615f459d4d0241c6e6ad6a9a2c0c8c8ad17dcaa616b90b8f4178"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll",
+      "bytes": 91648,
+      "sha256": "65001df54f5c389a926135f30f12af4626cc23fe4b510211a5f31fc5af854edb"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "bytes": 86016,
+      "sha256": "ed7ce205f66eafe39bbb5d084d42e7fe11cb4b386ff208e5d5110891be0b7b37"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.VisualScripting.Core.dll",
+      "bytes": 550400,
+      "sha256": "66476f9d0c31442db18b2f4e1e594b687279885958a65859cff95a97316cf5fe"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.VisualScripting.DocCodeExamples.dll",
+      "bytes": 6144,
+      "sha256": "56a49c96a10d41167070386fc468b4678e3817024da60c967ee031fe8b71eda0"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "bytes": 335872,
+      "sha256": "ab591ba731f8b89809c55df0444efdb0496abd0962e8317aef5f7cbf045ec070"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/Unity.VisualScripting.State.dll",
+      "bytes": 27136,
+      "sha256": "c33d6c9186e18513a49aa4f92bc06b97b358fb6899fc2d708aef88a0659ead26"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "bytes": 49072,
+      "sha256": "ce62feb43f579376e93e3c8dca347fc2a0bae219e23846a903e09f596988acac"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll",
+      "bytes": 118184,
+      "sha256": "803f9197fe6f9c932369a39c7ab16c1b5a2eb636353b5655f3f6b56ae0f61651"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AIModule.dll",
+      "bytes": 86448,
+      "sha256": "11f19817ed2558a54e3605bbfcd9e67c2af586eb5e15c3a0585754e0a68be0c5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AMDModule.dll",
+      "bytes": 21928,
+      "sha256": "7c0c0ce62868702d78c7aef9a4a56dbfa20b1a8955c8ca6a501daeac1cec9c2b"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "bytes": 120744,
+      "sha256": "4ca688a41525d86d7bd6bfc55a9be5abe90becf5cfb134e5e22eddd03f1811fa"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AnimationModule.dll",
+      "bytes": 218536,
+      "sha256": "2c4025e59ebf3dad7c8553366b2a4afe7cccafa521a0d636753d652ddac811fe"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ARModule.dll",
+      "bytes": 27048,
+      "sha256": "86baa6bd4e8cbd721af444520a3778b13f019316d9ab53ac24c6da95c7f42534"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "bytes": 42408,
+      "sha256": "718d06383281d8694f206fd24e898e2a75f73f4f4e34ff389405f8d59acc2fc5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.AudioModule.dll",
+      "bytes": 142768,
+      "sha256": "32c4351fdfd67a4d530d6e01a5b4a55c35e635734c29e97c347d447eb922f53f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ClothModule.dll",
+      "bytes": 37288,
+      "sha256": "da85c0d9dcacdfef61857b51491c3a5ef84385a15504c331244ef9f642191058"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "bytes": 29096,
+      "sha256": "954b99d968e8e5c8d50d0448b6be142ea2975561ced5f59c51b0c02a6b87e74a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "bytes": 28072,
+      "sha256": "f0f9522c50296729481c0a9f517d1046d3b396edc867c8e601e88e026d754551"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "bytes": 46504,
+      "sha256": "d24f9382c7d92b259114c4b5bffcdd3538f64c01b95f3a0f5c3fb239ecd0fd98"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.CoreModule.dll",
+      "bytes": 1974192,
+      "sha256": "278fb8c3deb81847acf6d294f258c36b8461d35aa8c0b8465d1c967cc15d7e1f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "bytes": 28080,
+      "sha256": "7cbedc124243e47ec3f6dd3514987559779611776a51dd3068d237377fd2e1d3"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.DirectorModule.dll",
+      "bytes": 41896,
+      "sha256": "1b4b6591c6adaec7dbf0588a0e91d7c27e1cd237f032791b67f0d6d3f63d769f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.dll",
+      "bytes": 210344,
+      "sha256": "53705e12baf854d75b96cc9e4490cbed5539836ee10b58188f74b89a56a2731b"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "bytes": 32680,
+      "sha256": "af76116e329e91ae9149f39c20a2b751a8e45865e06092ef8326db465bb33701"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "bytes": 45480,
+      "sha256": "1b9c3bc604352a820fb7cec87ddfc7f925929e6ad54ebec1a4ab91cbbc97d291"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.GIModule.dll",
+      "bytes": 25520,
+      "sha256": "4d5ff892f97ed0785b40b2de02dab8c974f0244b83f3c4ba473b0d08d8ddf07b"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+      "bytes": 14256,
+      "sha256": "d9184eb61eac507a473cb2bcce3d11c5adb216ab7763355ba9612e91889e1ea9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.GridModule.dll",
+      "bytes": 32176,
+      "sha256": "aec4fcf30d7f0721813cd2561f3485412222a0b80bd1ca9553cf550df7e30ee6"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
+      "bytes": 105392,
+      "sha256": "8732501359a315329ec34c2b066f267a47a1dc41cccb5b82f76655d776adc946"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.HierarchyModule.dll",
+      "bytes": 100264,
+      "sha256": "cfe5ef0cb03a1739d4e0a87118ccda2af92a2fe7972219cb474dbb093518aa98"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "bytes": 25520,
+      "sha256": "14b4f620aced137408c412bb10fe473076aebb46d10dce4dfc6610fa4114970d"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.IdentifiersModule.dll",
+      "bytes": 16816,
+      "sha256": "b05d97282350259c62edd83da48b713eb81f354546272e19e1e238ef928eb18c"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "bytes": 33704,
+      "sha256": "4c06e96c572c314d6a46d739ae017c2be07934af0d6fc68ac07f51250f8898e4"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "bytes": 189360,
+      "sha256": "7d414c54efb32572e8d84d9bb08e6e215b2d1e15f75ad4feed311f18f00a7d5c"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.InputForUIModule.dll",
+      "bytes": 55720,
+      "sha256": "c007016ce771c5fd56185a1850976d64f0fc33d030363b943650f624d694c53b"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "bytes": 41896,
+      "sha256": "df3ace8bfa1a5d82d0c23aebfb5ecda96908d31db5fb7f4f8b6ed99d6f08959b"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.InputModule.dll",
+      "bytes": 30632,
+      "sha256": "7275571bb3fdc2af2ec28a44dcbebb0f04a88161d4a56671bd0e23f3bf9d3566"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.InsightsModule.dll",
+      "bytes": 15784,
+      "sha256": "515c8555d11b79ce2755d95ca3733e55168b86f5e9841c95ae1eb78dbbc57eac"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "bytes": 28080,
+      "sha256": "333bbb6cabe5eaec80dd5ff2524394bde0181710fe79137a942c310777a747db"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "bytes": 28080,
+      "sha256": "8a4669d91d646f92cb33bb16449f556334dbb7110941d48ce99ce556f6a9083f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.MarshallingModule.dll",
+      "bytes": 97200,
+      "sha256": "a1629075b99bb61d1510a87dd39a3e71206ae168d962a3538ea8c66aa5aa2936"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.MathematicsModule.dll",
+      "bytes": 740784,
+      "sha256": "ce95ac9dc451e84759cf107b6f431629cdfdc1940744eb6fb45d1d913506a2b3"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.MultiplayerModule.dll",
+      "bytes": 17840,
+      "sha256": "d6cf0cefbf868b22036a2e13008971e9e0be6c507e9a0f5033b540f1dda223fd"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "bytes": 40360,
+      "sha256": "c5c9ed6806f390cebdd1cfc16b4bbb012387d1170dbfa439cdf1d97535cb1458"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "bytes": 168872,
+      "sha256": "e3f350a1d81bce2da71e945ffa8aae7c1f379420742175ab9cc0ca52383afd99"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "bytes": 26544,
+      "sha256": "72d765ca1c7cff4ab10c16bb0f1f9ae5b5204a08be352f845f082147351182e3"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "bytes": 222120,
+      "sha256": "cbba6028683778fa448627b21c4a1cbe945bcada9ad1243f0f0ef1bf1692054d"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll",
+      "bytes": 14256,
+      "sha256": "8e04c9233cd21b0e4db6da5517a905f8798d62b8ddb031fa1c2575a0ffb07ff5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.PhysicsCore2DModule.dll",
+      "bytes": 450472,
+      "sha256": "bbf1166dd5fca778e5e332f75da7149d5221128a4f419495e376b046aa36e0c1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "bytes": 180136,
+      "sha256": "3ef8dc36c182798c1c8cd58af861740e18ec7e4f390dedc12ee170a878ef94ea"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "bytes": 124840,
+      "sha256": "704efaed7f645143338df680cb686f3e2973440a053bfff8f8f7590125ce08a3"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.RenderAs2DModule.dll",
+      "bytes": 27056,
+      "sha256": "459dec8f5203a366a1ed6a8a897aa5d6e47278d691d4756359d1f4117a6bd484"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "bytes": 25512,
+      "sha256": "964cb284d908202cb0a82ba75a0642bae6be10d50b532d2c481a0bcb8b42aa4f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "bytes": 27560,
+      "sha256": "b1ccfab55139aed45b752aab30f010d413c32482ebf5e1e7875f132dc09a0f1d"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ScriptingModule.dll",
+      "bytes": 27568,
+      "sha256": "82160685aa7e02fb965863adfe1eefad961d454e131443a19c746ab03a98c955"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
+      "bytes": 25520,
+      "sha256": "62ab671112e414501c68ad20eb8fb8d2736e7d08bd068d0c6cf3234398ba5de3"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "bytes": 36776,
+      "sha256": "860fef926966b8207ca1f1a9762d2f35251d79d308c048b2197f1f89a4ac0868"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "bytes": 29608,
+      "sha256": "0407e423aad6946b7b379e51d349fed90fd3ed9f047f907901f1b6af3dc2bb9f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "bytes": 33712,
+      "sha256": "6a47778f6008a6dcc2c15e3f84e2c0c31db700f79c694497b4c639e6561361c1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.StreamingModule.dll",
+      "bytes": 27048,
+      "sha256": "a7a6f2eacecf9f56b33e7495a0ddd657bdc722fcf4a4522cb95e32f1696d3251"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "bytes": 30632,
+      "sha256": "c91d870c8aae2409d245de11d6a37bc00f6c87bd47bd5d57ed4679def47eba0e"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "bytes": 42416,
+      "sha256": "8063432c2da218b82c66755f3ddfbaace264497f1f08cf80142739450974fe76"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.TerrainModule.dll",
+      "bytes": 131496,
+      "sha256": "db10728a1dd8369daf0fd8723c077815746e07b1c7b42144e392103857492338"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "bytes": 27048,
+      "sha256": "258ffad0b790a995c52eeca600a641427a3f442a682d9a58ecc5dedfd48f6272"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "bytes": 77736,
+      "sha256": "0c05c0c7fb0e01992ff3b4cf752bd291d76ae584255e5f15f41659855dc6cfe8"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "bytes": 332712,
+      "sha256": "91b67c3787660b1c91da530134034b117170be98691408feb5e5f7f261331be2"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "bytes": 39344,
+      "sha256": "fcfb3417c5656bc77333a00969fea1a7f530b72a4f8657c6676a7b1231469741"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.TilemapModule.dll",
+      "bytes": 75176,
+      "sha256": "ee0e7e68bc9b0f73c9304175449842c609768b274daaaea0e14476b790c13aa1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.TLSModule.dll",
+      "bytes": 33200,
+      "sha256": "7a835d1fb59b8e7743691640db27fcb83e9a16adef29951aa223527c8b753e81"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.U2DRuntimeModule.dll",
+      "bytes": 26536,
+      "sha256": "5383c4ed8e22ad02979dcd8c4dc67c087061c7cad2b4d2d3b18625ee6e34fffc"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UI.dll",
+      "bytes": 262144,
+      "sha256": "b5b3c12774ced1afb316947b63c9b7d2fd37a7d865f456b23fe8eb19a156c91f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "bytes": 2351024,
+      "sha256": "4e6bbaba80f90773e2595854298cd2fe011dd17f0338703bfd515012b06ffc87"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UIModule.dll",
+      "bytes": 54184,
+      "sha256": "1d4baf5bde173d19a082599fff2881ad371fea3bce1b75486bf889f6f77ffeec"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UmbraModule.dll",
+      "bytes": 25512,
+      "sha256": "3d7dcb2c549621db61aa7800a07be3c4f23cc2fc949e280b9a4abd8d0b5b0617"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "bytes": 35752,
+      "sha256": "37317cf2dde8066a0a2feb18e4242675dd3b3ec71b78d76436c8ddbb2a576b83"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "bytes": 60336,
+      "sha256": "6c95a6268836e108e697ecfba9597796d46c4cc67515cd7d4c751a05d1198a01"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "bytes": 29096,
+      "sha256": "b4734117286834baee2fa97abc9efb249e4f520a3f2775599407391ea83f0bd9"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityConsentModule.dll",
+      "bytes": 16296,
+      "sha256": "3428164fbb8d2c5a1b29c8bb72ca276375ae8cc6e01ea764c6de9fe2055baae8"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "bytes": 27560,
+      "sha256": "7f023d96948c6b505a77078ad658fd3916c31435cf03ee20f39a29068a93ee14"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "bytes": 30128,
+      "sha256": "e1e009d7e6be2e10f5449f2df6e09c1157cb7776493192403eb5424b9fe41c95"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "bytes": 29608,
+      "sha256": "ef79abdf196542eed599d54b9d9415f33ac43c8b5df349ce8107479c188e8cbf"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "bytes": 79280,
+      "sha256": "a8e76d0995b7ad982fb871a90d67a04f066304be9664cfae12c4c35dcb6a76b1"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "bytes": 28584,
+      "sha256": "3e5543f7340288fb06fcae22b093f82eec5c37b36a41a3ec6c01dd184fe2347a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "bytes": 36776,
+      "sha256": "ec49572e9f2c22ee6090c0d64b783dc75bcbf9d8b66578c59485b2156d2cf26c"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.VectorGraphicsModule.dll",
+      "bytes": 227752,
+      "sha256": "c55881c7e3bea5d7e8fa638ba5c87d9e79a3a8501ae034b3c1f16dc48307b1dc"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "bytes": 32680,
+      "sha256": "6825eb676fc3d3313a0428a811f5a28c90737ae5f74d20a3700ce2ada844345f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.VFXModule.dll",
+      "bytes": 81832,
+      "sha256": "0157d9302ddddb07a10914ed402fdbfcb6902d24e73b953819cb5cd0b510124b"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.VideoModule.dll",
+      "bytes": 48552,
+      "sha256": "7ef3365205304a424dcc683d61e2a4d8ce3139d230a2d17a8e242242ce83781a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "bytes": 43440,
+      "sha256": "cf18fb90508cfe34e265f75ce47e16f032d9ec2c2f1b1848eae0de9d409825a0"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.WindModule.dll",
+      "bytes": 28080,
+      "sha256": "9824ffca6eb8bb266d2d23eff6eebf9071c26355add646360c739deabb39a004"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Managed/UnityEngine.XRModule.dll",
+      "bytes": 95664,
+      "sha256": "d42f2352a210757e0af252452a9f8d957e6ed0f09679129661f13107080dafed"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "bytes": 446976,
+      "sha256": "5f30e3cd7b655096b7d22e938949542649a8690e8229fa4e802dead94ec39f01"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Plugins/x86_64/libonigwrap.dll",
+      "bytes": 551336,
+      "sha256": "c22db1e7be04c50eb47e67362bf705830bb95df30c02c22dd7add835ee777583"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Resources/unity default resources",
+      "bytes": 5881648,
+      "sha256": "1fbaff511bdec6cf276529de02215fee9fdcf7298ea9d7c49dc6b984ee73a7f5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/Resources/unity_builtin_extra",
+      "bytes": 403656,
+      "sha256": "471ee4c26adeaee8d2191f490d0f89eec21ec48be0264fe25dd75a351b23e581"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/resources.assets",
+      "bytes": 396460,
+      "sha256": "038eed023435031242ae71a73d109d29a056058f5742672dfda1bcf5c8cf3032"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/resources.assets.resS",
+      "bytes": 1048576,
+      "sha256": "340051f4f506bff5616e93d52c58f37ca04c1495c3b6a057018bac1ae1d0b232"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/RuntimeInitializeOnLoads.json",
+      "bytes": 6423,
+      "sha256": "f6eb53aad561f438dc23d5c43495ff8ef01304a3f7e5e8e4158332b714662bef"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/ScriptingAssemblies.json",
+      "bytes": 4763,
+      "sha256": "3d6c7e203adda0212514df40f9874b9b5c1013158f26fc56eaeb741774f45481"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/sharedassets0.assets",
+      "bytes": 9719712,
+      "sha256": "4cc734992ab0c389b77b73f33aad2f2b59d5d1c6f56f08449819ff660ff58a80"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/sharedassets0.assets.resS",
+      "bytes": 4416816,
+      "sha256": "657dd9062a5cc89c772437816d992cd74b2a62cc41bb9be0bc914d68e8c6b42f"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletGaming_Data/sharedassets0.resource",
+      "bytes": 139058016,
+      "sha256": "011bb944f5b1bcac6ada6b5eb6668df6b516f863fb9337ed110f969f5afb6a25"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/DropletPrototype_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt",
+      "bytes": 208239,
+      "sha256": "b202d92c3d055a2a0920143ca4bf8f7ec08c6fcb9aee6008c3d1172a78430662"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/dstorage.dll",
+      "bytes": 206904,
+      "sha256": "cae65787f61514bec6f012f44546e68b19e39d8854a9ab52af813370d44b272a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/dstoragecore.dll",
+      "bytes": 1482784,
+      "sha256": "cf85b19a92a8276f8baca0db9bbcd60735bad50768deb303d310e84d5f4fdd11"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "bytes": 7831464,
+      "sha256": "82b40f2de1280f3a13a242e42005414bee270b22b75b96ec34ecfc453fbcfb4e"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "bytes": 611240,
+      "sha256": "5b59f02c0695400a17c828f1e3a61ebd4a84a1286dfc829e7784130e4c4bfe09"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "bytes": 29066,
+      "sha256": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "bytes": 2622,
+      "sha256": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "bytes": 11635,
+      "sha256": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "bytes": 33598,
+      "sha256": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "bytes": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "bytes": 18802,
+      "sha256": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "bytes": 1605,
+      "sha256": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "bytes": 60575,
+      "sha256": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "bytes": 34056,
+      "sha256": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "bytes": 2622,
+      "sha256": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "bytes": 18811,
+      "sha256": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/browscap.ini",
+      "bytes": 311984,
+      "sha256": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/config",
+      "bytes": 3815,
+      "sha256": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "bytes": 25817,
+      "sha256": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/UnityCrashHandler64.exe",
+      "bytes": 1736616,
+      "sha256": "8c319c48b9947d85e2f6ee4ced10afaf80e03ca30c6686482f40ebd026114df5"
+    },
+    {
+      "path": "Windows-SeedAudio-20260929/UnityPlayer.dll",
+      "bytes": 37288368,
+      "sha256": "e5506b748f33c8d8337ae6e6994adf04dd666be71c9cd6b9590e22b25b495819"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "budgetCNY": "60",
+  "rateCNYPerMinute": "1",
+  "maximumSecondsPerRequest": 120,
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "model": "seed-audio-1.0",
+  "rateSource": "https://docs.volcengine.com/docs/DoubaoVoice/Billinginstructions-21?lang=zh",
+  "apiSource": "https://docs.volcengine.com/docs/DoubaoVoice/audio-generation-http?lang=zh",
+  "billingNote": "Budget from user; no balance query. Costs computed from returned original_duration, not an invoice. Unknown usage retains full reservation.",
+  "entries": [
+    {
+      "id": "LASER_R1",
+      "category": "LASER",
+      "label": "激光",
+      "targetSeconds": 4,
+      "revision": 1,
+      "prompt": "生成约4秒音频。一束科幻舰炮激光独立发射音效。0.2秒静音后，锐利的电子放电起音，极短的能量扫频向下收束，细小金属共振尾音在2秒内自然衰减，末尾留干净静音。近距离、干燥、清晰，不含爆炸或其他事件。 直接输出所描述的声音。不要读出提示词，不要旁白、对白、说话、口技、呼吸或人群。不要音乐。",
+      "request": {
+        "model": "seed-audio-1.0",
+        "text_prompt": "生成约4秒音频。一束科幻舰炮激光独立发射音效。0.2秒静音后，锐利的电子放电起音，极短的能量扫频向下收束，细小金属共振尾音在2秒内自然衰减，末尾留干净静音。近距离、干燥、清晰，不含爆炸或其他事件。 直接输出所描述的声音。不要读出提示词，不要旁白、对白、说话、口技、呼吸或人群。不要音乐。",
+        "audio_config": {
+          "format": "wav",
+          "sample_rate": 48000
+        }
+      },
+      "requestSha256": "4d43ac1d11080a50a7ea1602935d69ca0e66550fc1ef3b0b40dc7f7a8bb7caf0",
+      "requestId": "0726e9e4-f7a2-4969-8e5b-9d3b22d5c336",
+      "submittedAt": "2026-09-29T09:00:20.079146+00:00",
+      "reservedCNY": "2",
+      "status": "submission_unknown",
+      "originalDurationSeconds": null,
+      "credentialVariable": "ARK_API_KEY",
+      "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+      "error": "HTTP 401; no automatic retry.",
+      "diagnostic": {
+        "httpStatus": 401,
+        "serviceCode": 45000010,
+        "serviceMessage": "Invalid X-Api-Key"
+      },
+      "completedAt": "2026-09-29T09:00:20.357088+00:00"
+    }
+  ],
+  "serviceDurationCostCNY": "0",
+  "unknownReservedCNY": "2",
+  "accountedCNY": "2",
+  "updatedAt": "2026-09-29T09:00:20.359563+00:00"
+}

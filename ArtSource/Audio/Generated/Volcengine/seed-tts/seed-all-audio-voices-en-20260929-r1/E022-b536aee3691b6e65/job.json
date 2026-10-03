@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E022",
+    "text": "Our firing lanes cross the corridor without closing it. No single approach should expose every hull. That is our working assumption. I hear your warning, but I need a reason to move two thousand ships."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Our firing lanes cross the corridor without closing it. No single approach should expose every hull. That is our working assumption. I hear your warning, but I need a reason to move two thousand ships.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Reasoned command under pressure, not arrogance; acknowledge the warning genuinely.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "050a9580-166d-43c9-a0ba-aa732f04621d",
+  "sha256": "1305c6773495452bb0fbfc2f0cc4183a6e345937f383ae63bd71a617041e98b7",
+  "duration_seconds": 13.159583333333334,
+  "usage": {
+    "text_words": 201
+  }
+}

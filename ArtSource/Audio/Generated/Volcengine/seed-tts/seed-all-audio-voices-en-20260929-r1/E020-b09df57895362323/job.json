@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E020",
+    "text": "The point is resolving. Rounded nose, tapering tail. No jets, no change in speed. It looks almost still in the center of my display. The distance readout tells a different story."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The point is resolving. Rounded nose, tapering tail. No jets, no change in speed. It looks almost still in the center of my display. The distance readout tells a different story.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Visual concentration with growing concern; a short pause before the distance readout.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "663b8f6a-79ba-4c9c-9125-783711568081",
+  "sha256": "f649ecef97de648f969a06a74db53ff096c806e30a8b762e44d5ca7ea44687ef",
+  "duration_seconds": 13.212916666666667,
+  "usage": {
+    "text_words": 178
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "accepted": true,
+  "sha256": "6f219d5ec89722bb2a0df294e0ee1ea0c30158e5136bc5a32385eaac84214be5",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E001/fefa18c3d4ed5856/mix_recipe.json",
+  "sourceSha256": "6f6e734e39939f34b11c9985fd76b9089976765fa31baf1f60df285e6b968dc0",
+  "durationSeconds": 12.482666666666667,
+  "english": "Every public screen is showing the same small light tonight. A silver point has crossed the outer watch line. We have enlarged the picture and waited. It is still coming toward us.",
+  "text": "今夜，所有公共屏幕都显示着同一个小光点。一个银色目标越过了外层警戒线。我们放大画面，然后等待。它仍在向我们飞来。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 11.982667,
+      "english": "Every public screen is showing the same small light tonight. A silver point has crossed the outer watch line. We have enlarged the picture and waited. It is still coming toward us.",
+      "text": "今夜，所有公共屏幕都显示着同一个小光点。一个银色目标越过了外层警戒线。我们放大画面，然后等待。它仍在向我们飞来。",
+      "role": "anchor"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E001-f8711a5287b75c58/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json"
+  ],
+  "sourceHashes": [
+    "4175b4381bbc20d9cf9a588a09132e538e030c203fd799c91ab5f1f0e2299a4d",
+    "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+    "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+    "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E001-f8711a5287b75c58/job.json",
+      "sha256": "4175b4381bbc20d9cf9a588a09132e538e030c203fd799c91ab5f1f0e2299a4d",
+      "usedSha256": "4175b4381bbc20d9cf9a588a09132e538e030c203fd799c91ab5f1f0e2299a4d",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_02/job.json",
+      "sha256": "1cb36f69966d31b67aaf617fa6ec420afb4aa15dd4d2e5ffd8a63d7670529f97",
+      "usedSha256": "307d072359f2e63b82793e4fb171471ec3280f41cf5a94236412746dc282c584",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+      "sha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+      "usedSha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_01/job.json",
+      "sha256": "069c90998823506fd2f8e80800a7767a28dc0eb8a16c1432f1db601fc0a29b99",
+      "usedSha256": "3e4e5b01dea79c632dd6b51d6beb50beeb2399c9a1958ab028b35eb9aa90dceb",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

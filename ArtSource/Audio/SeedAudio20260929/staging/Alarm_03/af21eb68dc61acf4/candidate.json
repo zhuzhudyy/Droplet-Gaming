@@ -1,0 +1,41 @@
+{
+  "id": "Alarm_03",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "Alarm_03",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_03/job.json",
+    "sourceSha256": "407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b",
+    "targetSeconds": 6.0,
+    "loop": true,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Alarm_03/job.json",
+  "sourceSha256": "407bd152b4c0477ef0399220edf1c55a0a0f7a293afdf766ce56fac05aada00b",
+  "sha256": "baedbd6cf4d4797a5c136de160d36bb46668a0f79084a30adcfa7717ad35969b",
+  "recipe": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 288000,
+    "rate": 48000,
+    "targetSeconds": 6.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 288000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 271200,
+    "linearGain": 1.7887712241526754,
+    "targetLevelDbFS": -36
+  },
+  "qa": {
+    "sha256": "baedbd6cf4d4797a5c136de160d36bb46668a0f79084a30adcfa7717ad35969b",
+    "durationSeconds": 5.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -18.26128689709226,
+    "rmsDbFS": -36.006625060813214,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.000335693359375
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

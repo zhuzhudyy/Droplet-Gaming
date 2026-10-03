@@ -1,0 +1,61 @@
+{
+  "accepted": true,
+  "sha256": "522a4ec327e9b9c6c82e8ea201a9678825bb3c0a1c1ddf3f21c20ed85952e171",
+  "model": "seed-tts-2.0+seed-audio-1.0",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/remixed/Scenes/E002/42d16ce5bdcb170b/mix_recipe.json",
+  "sourceSha256": "a5ff95270ef5ecaa4b118a1e473ab60f6cc54c3637e0727fc3d063d60f46b6a3",
+  "durationSeconds": 12.679875,
+  "english": "The markets opened early for it. The ministries found a careful name for it. On the night side, children are watching the windows, trying to find a star that nobody can see.",
+  "text": "市场为它提前开盘，各部为它选好了谨慎的称谓。在夜半球，孩子们望着窗外，寻找那颗其实谁也看不见的星星。",
+  "captions": [
+    {
+      "time": 0.2,
+      "duration": 12.179875,
+      "english": "The markets opened early for it. The ministries found a careful name for it. On the night side, children are watching the windows, trying to find a star that nobody can see.",
+      "text": "市场为它提前开盘，各部为它选好了谨慎的称谓。在夜半球，孩子们望着窗外，寻找那颗其实谁也看不见的星星。",
+      "role": "anchor"
+    }
+  ],
+  "sourceJobs": [
+    "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E002-24f342c6698b583c/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+    "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json"
+  ],
+  "sourceHashes": [
+    "8ba8972e9c74ad9d66a75c44d8901f457aee53859299e47b3046949d2a6b6201",
+    "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+    "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+    "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7"
+  ],
+  "sources": [
+    {
+      "job": "ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/E002-24f342c6698b583c/job.json",
+      "sha256": "8ba8972e9c74ad9d66a75c44d8901f457aee53859299e47b3046949d2a6b6201",
+      "usedSha256": "8ba8972e9c74ad9d66a75c44d8901f457aee53859299e47b3046949d2a6b6201",
+      "model": "seed-tts-2.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Console_03/job.json",
+      "sha256": "444aeb1e595256a147043c4179c1b8efe2eae049209311706207ad3c39fa1edb",
+      "usedSha256": "e09f01f324ce20521ce0d988822f270e12fab08184188da31dd2d8230dc86dfa",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_02/job.json",
+      "sha256": "dcc6dbd7727e405cd6c33da4be1eeab6a7a65425dd8f37d91c7dada72bcfbf3a",
+      "usedSha256": "8e08e696054f68c397b13df05ecefbe26f71274bebaf2bfca92e5be76b5da49f",
+      "model": "seed-audio-1.0"
+    },
+    {
+      "job": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Disconnect_02/job.json",
+      "sha256": "a0f3e7f1a7e38d2914e34da5f0b7adf4b5b995bf901ddca5eaed31d5643eabc7",
+      "usedSha256": "f6d909d5950e39e64773cafd4623de77069d1d02efd857bf9a1b3ae5aa84de31",
+      "model": "seed-audio-1.0"
+    }
+  ],
+  "review": "Six representative categories accepted by user; Seed source, timing and waveform QA passed; individual radio scene listening remains pending.",
+  "sourceOnly": "Seed-TTS 2.0 and Seed Audio 1.0",
+  "acceptanceBasis": "technical_provisional",
+  "subjectiveListening": "not_individually_performed"
+}

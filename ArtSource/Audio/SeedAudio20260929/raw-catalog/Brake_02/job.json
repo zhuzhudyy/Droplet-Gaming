@@ -1,0 +1,25 @@
+{
+  "id": "Brake_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "98d3d074-504f-4211-8eca-dbb25bf04fb9",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 2 seconds. Controlled hard braking of an indestructible droplet; energetic deceleration, no damage. Tight magnetic shudder followed by a brief dry electrical release. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:33:27.687929+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "fef89043d9b5c18b2ab4152c7bc8b091f6b6468ef3ed48add09753a36c1862e9",
+  "originalDurationSeconds": 2,
+  "actualSeconds": 2.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:33:39.599245+00:00"
+}

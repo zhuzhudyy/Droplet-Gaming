@@ -1,0 +1,36 @@
+{
+  "id": "Reactor_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "9cc75ce8ec86f083c0d84501d9b8a818b48e807fc30c7ddea2fed26f8e7ab3b7",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Reactor_03/job.json",
+  "sourceSha256": "92ebfbafbc98f258c69b72a4f6f9771e21b6078d9eb71a7b751ee3bc769a7155",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 4 seconds. Unstable reactor energy warning texture, continuous mechanical/electrical strain without explosion. Tense dense electrical buzz with intermittent hollow pressure knocks. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Reactor_03",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 192000,
+    "rate": 48000,
+    "targetSeconds": 4.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 192000,
+    "crossfadeFrames": 16800,
+    "outputFrames": 175200,
+    "linearGain": 0.46563538734776583,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "9cc75ce8ec86f083c0d84501d9b8a818b48e807fc30c7ddea2fed26f8e7ab3b7",
+    "durationSeconds": 3.65,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -14.23849078766371,
+    "rmsDbFS": -26.002355759808108,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.001983642578125
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

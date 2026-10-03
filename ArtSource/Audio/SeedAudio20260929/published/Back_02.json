@@ -1,0 +1,37 @@
+{
+  "id": "Back_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "5c97bb1a15c57f3829283a8d6a1c621117e8f4ed0ed33fa7d5726bebd1a564b5",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Back_02/job.json",
+  "sourceSha256": "49ad78436030834c8d5a7b1fa9bbacb2059a9d19494d76a14880771ecbe66a10",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short interface return cue, calm and understated. Two brief descending electronic notes with no sustained tail. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Back_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 14400,
+    "rate": 48000,
+    "targetSeconds": 0.25,
+    "representative": false,
+    "startFrame": 3600,
+    "usedSourceFrames": 10800,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 960,
+    "outputFrames": 10800,
+    "linearGain": 5.349587731977153,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "5c97bb1a15c57f3829283a8d6a1c621117e8f4ed0ed33fa7d5726bebd1a564b5",
+    "durationSeconds": 0.225,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -24.663173462913974,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

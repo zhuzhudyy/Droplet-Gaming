@@ -1,0 +1,37 @@
+{
+  "id": "Confirm_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "4606dd281ea00ea74c137297481b4312e4efc5d9848fb177ca01900f9d05e364",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Confirm_02/job.json",
+  "sourceSha256": "cdeb1badc63524630e9585ebc18eb23398bc13a51a95bb445cc46050003aa7b7",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short clear interface confirmation, soft and restrained. A tactile click followed by a brief resolved electronic chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Confirm_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 14400,
+    "rate": 48000,
+    "targetSeconds": 0.25,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 12000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 960,
+    "outputFrames": 12000,
+    "linearGain": 1.796489500145587,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "4606dd281ea00ea74c137297481b4312e4efc5d9848fb177ca01900f9d05e364",
+    "durationSeconds": 0.25,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -23.643496018476768,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

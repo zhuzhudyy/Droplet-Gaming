@@ -63,7 +63,7 @@ namespace DropletPrototype
             }
             tactical.Clear(); nextSelection = 0; cursor = 0; nextAttackId = 0;
             ShotsFired = ReflectionCount = ReflectedDamageCount = LastRayQueries = PeakRayQueries = 0;
-            LastShot = default; beamPool?.ResetEffects();
+            LastShot = default; beamPool?.ResetEffects(); dropletSurface?.contactResponse?.ResetResponse();
         }
         static float StablePhase(string id)
         { uint hash = 2166136261; if (id != null) foreach (char c in id) hash = (hash ^ c) * 16777619; return (hash & 65535) / 65535f; }
@@ -71,7 +71,7 @@ namespace DropletPrototype
         public void Step(float dt)
         {
             if (dt <= 0 || simulation == null || simulation.scale == null || settings == null || dropletSurface == null) return;
-            beamPool?.Step(dt); LastRayQueries = 0;
+            beamPool?.Step(dt); dropletSurface.contactResponse?.Step(dt); LastRayQueries = 0;
             if (weapons.Length != (simulation.targets?.Length ?? 0)) ResetWeapons();
             double now = simulation.SimulatedTime;
             if (now >= nextSelection)
@@ -123,6 +123,8 @@ namespace DropletPrototype
             direction.Normalize(); float range = simulation.scale.MetersToUnits(settings.rangeMeters);
             float offset = simulation.scale.MetersToUnits(settings.reflectionOffsetMeters);
             origin += direction * offset;
+            simulation.EmitEvent(CombatEventKind.WeaponFired, source, null, origin, DamageSource.DirectLaser,
+                direction, attackerId: source != null ? source.targetId : string.Empty, targetId: "Droplet");
             LastRayQueries++;
             bool surfaceHit = dropletSurface.Raycast(new Ray(origin, direction), range, out var contact);
             LastRayQueries++;
@@ -144,22 +146,36 @@ namespace DropletPrototype
                 {
                     result.hitShip = secondary.ship;
                     if (settings.reflectedLaserIsLethal)
-                        result.damageApplied = simulation.ApplyDamage(secondary.ship, new ShipHitContext(secondary.point, result.reflectedDirection, 0), DamageSource.ReflectedLaser, attackId);
+                        result.damageApplied = simulation.ApplyDamage(secondary.ship, new ShipHitContext(secondary.point, result.reflectedDirection, 0), DamageSource.ReflectedLaser, attackId,
+                            source != null ? source.targetId : string.Empty);
                 }
                 if ((origin - dropletSurface.AimPoint).sqrMagnitude <= Mathf.Pow(simulation.scale.MetersToUnits(settings.visualDistanceMeters), 2))
-                    beamPool?.Show(origin, contact.point, result.endPoint, true, dropletSurface.presentedMesh, contact.localPoint);
+                {
+                    // Pulses retain the COMPLETE world-space optical path at impact.
+                    // The independent local afterglow is not a new ray or damage tick.
+                    if (beamPool != null && beamPool.Show(origin, contact.point, result.endPoint, true,
+                        dropletSurface.presentedMesh, contact.localPoint, contact.normal))
+                        dropletSurface.contactResponse?.RegisterHit(contact, direction, dropletSurface.SurfaceMatrix,
+                            settings.reflectedColor, simulation.scale.MetersToUnits(settings.surfaceHighlightRadiusMeters),
+                            settings.surfaceHighlightSeconds);
+                }
+                simulation.EmitEvent(CombatEventKind.DropletContact, source, result.hitShip, contact.point,
+                    DamageSource.ReflectedLaser, result.reflectedDirection, contact.normal,
+                    source != null ? source.targetId : string.Empty, "Droplet");
             }
             else
             {
                 result.contactPoint = hullHit ? hull.point : result.endPoint; result.hitShip = hullHit ? hull.ship : null;
                 result.endPoint = result.contactPoint;
                 if (hullHit && settings.directLaserIsLethal)
-                    result.damageApplied = simulation.ApplyDamage(hull.ship, new ShipHitContext(hull.point, direction, 0), DamageSource.DirectLaser, attackId);
+                    result.damageApplied = simulation.ApplyDamage(hull.ship, new ShipHitContext(hull.point, direction, 0), DamageSource.DirectLaser, attackId,
+                        source != null ? source.targetId : string.Empty);
                 if ((origin - dropletSurface.AimPoint).sqrMagnitude <= Mathf.Pow(simulation.scale.MetersToUnits(settings.visualDistanceMeters), 2))
                     beamPool?.Show(origin, result.contactPoint, result.contactPoint, false);
             }
             return result;
         }
-        void OnDisable() => beamPool?.ResetEffects();
+        void OnDisable()
+        { beamPool?.ResetEffects(); dropletSurface?.contactResponse?.ResetResponse(); }
     }
 }

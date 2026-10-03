@@ -1,0 +1,36 @@
+{
+  "id": "BattleLow_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "b13d4310e9f6a841315047b59426eae9991cfd469050ba504321c51dea3b1ddf",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BattleLow_01/job.json",
+  "sourceSha256": "bfa5917faa0ff0dd8da0a8e1d194cf44ef06db2d6a7db62742c80af4a1552cee",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Low-intensity battle score, controlled tension with little percussion. Slow two-note bass pattern, airy granular pads and isolated metal taps. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "BattleLow_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.5044523531828601,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "b13d4310e9f6a841315047b59426eae9991cfd469050ba504321c51dea3b1ddf",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.456701007423863,
+    "rmsDbFS": -26.00234090662,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.000518798828125
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

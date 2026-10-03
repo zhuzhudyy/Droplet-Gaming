@@ -1,0 +1,18 @@
+{
+  "method": "original deterministic procedural synthesis, no TTS/cloud calls",
+  "duration_seconds": 3.5,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "peak_dbfs": -3,
+  "sha256": "0c9a88c63e56ba0a82496e21f2febf68d8d79f937ca3aa4bfae1059ec3fc73fa",
+  "ffmpeg_decode_exit": 0,
+  "listening": "pending human listening",
+  "layers": [
+    "transient shock",
+    "descending bass boom",
+    "filtered noise body",
+    "staggered debris cracks",
+    "diffuse decay"
+  ]
+}

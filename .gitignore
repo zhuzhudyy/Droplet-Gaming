@@ -45,3 +45,16 @@ Desktop.ini
 /docs/verification/**/*.log
 /ArtSource/Deliveries/
 *.log
+
+# Local cloud voice experiments; retain source takes referenced by shipped audio.
+/ArtSource/Audio/Generated/Volcengine/*
+!/ArtSource/Audio/Generated/Volcengine/seed-tts/
+/ArtSource/Audio/Generated/Volcengine/seed-tts/*
+!/ArtSource/Audio/Generated/Volcengine/seed-tts/cinematic-radio-en-20260919/
+!/ArtSource/Audio/Generated/Volcengine/seed-tts/enhancement-en-20260919/
+!/ArtSource/Audio/Generated/Volcengine/seed-tts/seed-all-audio-voices-en-20260929-r1/
+/Tools/Audio/__pycache__/
+
+# Full current player is distributed through GitHub Releases.
+/Releases/Droplet-Gaming-Windows-SeedAudio-20260929.zip
+/Tools/Verification/__pycache__/

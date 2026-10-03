@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E009",
+    "text": "Two thousand hulls are holding that corridor. Behind each bright engine is a person who expected to come home after this shift."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Two thousand hulls are holding that corridor. Behind each bright engine is a person who expected to come home after this shift.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "8030b45f-7dc7-4889-bc88-b3ddef6fbfee",
+  "sha256": "68c79d4e0f5799120fdf68a2ea70db3ed3366a4a310bc91066b738056dc12b48",
+  "duration_seconds": 7.000166666666667,
+  "usage": {
+    "text_words": 127
+  }
+}

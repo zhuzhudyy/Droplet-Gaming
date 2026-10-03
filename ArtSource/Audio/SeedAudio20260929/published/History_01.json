@@ -1,0 +1,37 @@
+{
+  "id": "History_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "50a54f9f2c265e0e12396b16ddf18b55f2efe58a8b16c31dcd310c68b5410662",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/History_01/job.json",
+  "sourceSha256": "3e9539d88fc74277cd81474c180a44ac44065c8b6d7bc1b6e3026fb501653457",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Quiet communications-history panel interface feedback. Opening: a soft paperless electronic flutter followed by one glass tick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "History_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 14400,
+    "rate": 48000,
+    "targetSeconds": 0.25,
+    "representative": false,
+    "startFrame": 3600,
+    "usedSourceFrames": 10800,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 960,
+    "outputFrames": 10800,
+    "linearGain": 2.77211113880143,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "50a54f9f2c265e0e12396b16ddf18b55f2efe58a8b16c31dcd310c68b5410662",
+    "durationSeconds": 0.225,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.000965225135376,
+    "rmsDbFS": -24.667540724246166,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

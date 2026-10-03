@@ -1,0 +1,273 @@
+{
+  "execute": true,
+  "requestLimit": 88,
+  "charLimit": 16000,
+  "plannedRequests": 12,
+  "characters": 490,
+  "lines": [
+    {
+      "id": "SC01",
+      "role": "commander",
+      "text": "Helm, hold our position. Keep that corridor open.",
+      "caption": "舵手，保持位置。让那条通道保持畅通。",
+      "prompt": "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Helm, hold our position. Keep that corridor open.",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "SC02",
+      "role": "comms",
+      "text": "Course held. Batteries standing by.",
+      "caption": "航向已保持。炮组待命。",
+      "prompt": "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Course held. Batteries standing by.",
+          "speaker": "en_female_stokie_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "SA01",
+      "role": "commander",
+      "text": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+      "caption": "舰桥遭到撞击！封闭前舱门。坚守岗位。",
+      "prompt": "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "We have a hit on the bridge! Seal the forward doors. Stay at your stations.",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "SA02",
+      "role": "engineer",
+      "text": "Fire under the console! Cutting power now!",
+      "caption": "控制台下面起火了！正在切断电源！",
+      "prompt": "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Fire under the console! Cutting power now!",
+          "speaker": "en_female_jane_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "SE01",
+      "role": "commander",
+      "text": "All hands, abandon the bridge! Move!",
+      "caption": "全体人员，撤离舰桥！快！",
+      "prompt": "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "All hands, abandon the bridge! Move!",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "SE02",
+      "role": "engineer",
+      "text": "The hatch is jammed!",
+      "caption": "舱门卡住了！",
+      "prompt": "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "The hatch is jammed!",
+          "speaker": "en_female_jane_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "SE03",
+      "role": "commander",
+      "text": "Use the aft passage! Keep moving!",
+      "caption": "走后方通道！不要停！",
+      "prompt": "You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Use the aft passage! Keep moving!",
+          "speaker": "en_male_tim_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "BG01",
+      "role": "comms",
+      "text": "Aye, checking the panel.",
+      "caption": "收到，正在检查面板。",
+      "prompt": "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Aye, checking the panel.",
+          "speaker": "en_female_stokie_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "BG02",
+      "role": "engineer",
+      "text": "Get back!",
+      "caption": "退后！",
+      "prompt": "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Get back!",
+          "speaker": "en_female_jane_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "BG03",
+      "role": "comms",
+      "text": "This way! Keep together!",
+      "caption": "这边！跟紧！",
+      "prompt": "You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "This way! Keep together!",
+          "speaker": "en_female_stokie_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "HELP",
+      "role": "engineer",
+      "text": "Reactor breach! Get clear!",
+      "caption": "反应堆破损！快离开！",
+      "prompt": "You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Reactor breach! Get clear!",
+          "speaker": "en_female_jane_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    },
+    {
+      "id": "E001",
+      "role": "anchor",
+      "text": "Tonight, every public screen carries the same picture: a silver point, crossing the outer watch line without a sound.",
+      "caption": "今夜，所有公共屏幕都显示着同一幅画面：一个银色光点，无声地越过外层警戒线。",
+      "prompt": "You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.",
+      "request": {
+        "user": {
+          "uid": "droplet-offline-authoring"
+        },
+        "req_params": {
+          "text": "Tonight, every public screen carries the same picture: a silver point, crossing the outer watch line without a sound.",
+          "speaker": "en_female_dacey_uranus_bigtts",
+          "audio_params": {
+            "format": "pcm",
+            "sample_rate": 24000,
+            "speech_rate": 0
+          },
+          "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+        }
+      }
+    }
+  ]
+}

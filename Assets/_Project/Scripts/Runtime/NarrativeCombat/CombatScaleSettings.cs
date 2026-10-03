@@ -26,7 +26,8 @@ namespace DropletPrototype
         public float avoidanceDistanceMeters = 16000;
         public float nearbyPanicRadiusMeters = 175000;
         [Range(0, 1)] public float fleetLossRetreatFraction = .08f;
-        public Vector2 reactionDelaySeconds = new Vector2(.7f, 5.5f);
+        [Tooltip("Normal threat response in simulation seconds. Runtime bounds this to 1–3 seconds; explicit diagnostic retreat requests remain separate.")]
+        public Vector2 reactionDelaySeconds = new Vector2(1, 3);
         public Vector2 explosionDelaySeconds = new Vector2(2, 5);
         public float escapeRadiusMeters = 2600000;
         public float arenaBoundaryMeters = 3200000;
@@ -36,5 +37,13 @@ namespace DropletPrototype
         public float UnitsToMeters(float units) => units * Mathf.Max(.001f, metersPerUnityUnit);
         public Vector3 MetersToUnits(Vector3 meters) => meters / Mathf.Max(.001f, metersPerUnityUnit);
         public Vector3 UnitsToMeters(Vector3 units) => units * Mathf.Max(.001f, metersPerUnityUnit);
+        public Vector2 NormalReactionDelay
+        {
+            get
+            {
+                float minimum = Mathf.Clamp(reactionDelaySeconds.x, 1, 3);
+                return new Vector2(minimum, Mathf.Clamp(reactionDelaySeconds.y, minimum, 3));
+            }
+        }
     }
 }

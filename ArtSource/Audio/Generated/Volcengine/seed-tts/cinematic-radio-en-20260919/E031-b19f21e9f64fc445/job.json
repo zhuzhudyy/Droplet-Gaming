@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E031",
+    "text": "Unidentified craft, this is your final warning. You are approaching the inner safety line. Alter course now. We are leaving the corridor ahead of you open."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Unidentified craft, this is your final warning. You are approaching the inner safety line. Alter course now. We are leaving the corridor ahead of you open.",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "d0bccc3b-495e-4095-9cd6-7c0d4d1c0757",
+  "sha256": "4dfe5e52a66d778eac55c0c77a1e17192f2327ff606834f91ca64db5640fb114",
+  "duration_seconds": 9.412333333333333,
+  "usage": {
+    "text_words": 155
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "BoostRelease_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "5ad77349fa3f2b043c815ee06f0a563c3db555272c1c470874311604ee88530e",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/BoostRelease_03/job.json",
+  "sourceSha256": "49602465c3e8a45f84612926f36be560cfaf7eb100774e4a40fce7a95f94bae7",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Boost disengages: energy rapidly unwinds without an impact or explosion. Dense low energy whoosh breaks into a brief granular afterglow. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "BoostRelease_03",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 72000,
+    "rate": 48000,
+    "targetSeconds": 1.5,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 72000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 72000,
+    "linearGain": 0.8347309805923341,
+    "targetLevelDbFS": -8
+  },
+  "qa": {
+    "sha256": "5ad77349fa3f2b043c815ee06f0a563c3db555272c1c470874311604ee88530e",
+    "durationSeconds": 1.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.000782896515972,
+    "rmsDbFS": -23.755849516887597,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

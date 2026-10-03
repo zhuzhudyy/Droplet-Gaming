@@ -1,0 +1,41 @@
+{
+  "id": "EXPLOSION",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 2,
+    "id": "EXPLOSION",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/EXPLOSION_SERVICE_ACTIVE_e9e847f3/job.json",
+    "sourceSha256": "9e156ccee9ff958efca481616896699cb92f9e3e19c328be68233bfdd73d6294",
+    "targetSeconds": 8.0,
+    "loop": false,
+    "kind": "representative"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw/EXPLOSION_SERVICE_ACTIVE_e9e847f3/job.json",
+  "sourceSha256": "9e156ccee9ff958efca481616896699cb92f9e3e19c328be68233bfdd73d6294",
+  "sha256": "b84c84dcf4ffb0ac25466403abc50d19a45d15c3c99fb101b60f30bc2ad4ce50",
+  "recipe": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 384000,
+    "rate": 48000,
+    "targetSeconds": 8.0,
+    "representative": true,
+    "startFrame": 0,
+    "usedSourceFrames": 384000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 384000,
+    "gainReduction": 0.92730874445807
+  },
+  "qa": {
+    "sha256": "b84c84dcf4ffb0ac25466403abc50d19a45d15c3c99fb101b60f30bc2ad4ce50",
+    "durationSeconds": 8.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -0.9155032481583973,
+    "rmsDbFS": -15.310452413314895,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

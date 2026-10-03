@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E017",
+    "text": "The word surrender has reached the public feeds. That is not what we heard here. We heard an offer, and a set of instructions. The visitor has agreed to neither."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The word surrender has reached the public feeds. That is not what we heard here. We heard an offer, and a set of instructions. The visitor has agreed to neither.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Careful correction with journalistic clarity; avoid a declarative newsreader melody.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "b534b3eb-1177-4548-9d63-9967c3e5defe",
+  "sha256": "5f04e6c89e9d1f0b9417b9dba60ca58db259d1942090e754b82e1de0fe9d5d89",
+  "duration_seconds": 11.020375,
+  "usage": {
+    "text_words": 161
+  }
+}

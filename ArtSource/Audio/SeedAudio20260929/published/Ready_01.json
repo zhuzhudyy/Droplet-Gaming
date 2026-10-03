@@ -1,0 +1,36 @@
+{
+  "id": "Ready_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "61a9e468c8f4af7af875e51e1bc234aa71a79ae4c681134711607116dc7800f3",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Ready_01/job.json",
+  "sourceSha256": "8556e11d5ae5432f6eb8063723c751e6bbc79c3528776727229b9fac16c7eee7",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Sparse menu score, glassy synth chords over a restrained sub-bass bed; no climax. Suspended fifths, distant metallic harmonic accents and spacious pauses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.",
+  "sourceCueId": "Ready_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.787375851277611,
+    "targetLevelDbFS": -26
+  },
+  "qa": {
+    "sha256": "61a9e468c8f4af7af875e51e1bc234aa71a79ae4c681134711607116dc7800f3",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -10.433222422820252,
+    "rmsDbFS": -26.002322178723382,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.001434326171875
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

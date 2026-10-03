@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "blender": "5.2.1 LTS",
+  "savedInstances": 2000,
+  "sharedCollections": 1,
+  "maxPositionError": 0,
+  "minActualBlenderBowDot": 0.9999998500570655,
+  "sourceHashesUnchanged": true,
+  "measurements": {
+    "count": 2000,
+    "uniqueIds": 2000,
+    "retainedOldIds": 2000,
+    "columns": 20,
+    "rows": 25,
+    "layers": 4,
+    "centerMin": [
+      -6750,
+      -7192,
+      1000
+    ],
+    "centerMax": [
+      7500,
+      7208,
+      15400
+    ],
+    "centerSpan": [
+      14250,
+      14400,
+      14400
+    ],
+    "spanAspectRatio": 1.0105263157894737,
+    "allShipPairsChecked": 1999000,
+    "rotatedVisualAabbOverlaps": 0,
+    "minimumRotatedVisualAabbClearance": 540.1900352919756,
+    "playerVisualAabbClearance": 971.218,
+    "nearestShipCenterDistance": 1000.0,
+    "minimumForwardDot": 0.9999999999999997,
+    "method": "Exhaustive all-pairs world AABBs of all eight rotated calibrated full-hull bounds corners. Conservative against interpenetration, not a substitute for Unity collider/runtime verification."
+  }
+}

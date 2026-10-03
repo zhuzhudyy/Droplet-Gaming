@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "name": "ConnectTone",
+      "seconds": 0.14,
+      "sha256": "e8cb199591c10ad132f91f11ff004ea78db8d242d4aa314bed7ccee705f240d9",
+      "peakDb": -16.47852825583127,
+      "status": "real PCM procedural sound; pending human listening"
+    },
+    {
+      "name": "InterruptTone",
+      "seconds": 0.19,
+      "sha256": "ea0e7497bd8161352b71c407ab99ec15b22a6e86298931edf42726b96c14f1b2",
+      "peakDb": -18.416728515992396,
+      "status": "real PCM procedural sound; pending human listening"
+    },
+    {
+      "name": "Alarm",
+      "seconds": 1.2,
+      "sha256": "2bceecff6760119715476b2e0bdc740d1f2aee030003f87efa7c43412c1d666a",
+      "peakDb": -16.47852825583127,
+      "status": "real PCM procedural sound; pending human listening"
+    },
+    {
+      "name": "EquipmentBed",
+      "seconds": 4.0,
+      "sha256": "77f72047ec56f7a51d31858c8667966789438e2a0033d91b038e3c4af92c9a32",
+      "peakDb": -37.32230152495152,
+      "status": "real PCM procedural sound; pending human listening"
+    }
+  ],
+  "ffmpegVersion": "ffmpeg version 9.0.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Countdown_01",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "Countdown_01",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Countdown_01/job.json",
+    "sourceSha256": "0c489d35635e745d80e6c97686a9fbfc6b8ed6b8439b7b311bf0c63edfb3a77f",
+    "targetSeconds": 0.2,
+    "loop": false,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Countdown_01/job.json",
+  "sourceSha256": "0c489d35635e745d80e6c97686a9fbfc6b8ed6b8439b7b311bf0c63edfb3a77f",
+  "sha256": "66f6af371b8cd77f564bbd0bfd9295abf3966c706ae0ae0b841495ee651545cc",
+  "recipe": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 9600,
+    "rate": 48000,
+    "targetSeconds": 0.2,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 9600,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 768,
+    "outputFrames": 9600,
+    "linearGain": 3.5201846915831556,
+    "targetLevelDbFS": -7
+  },
+  "qa": {
+    "sha256": "66f6af371b8cd77f564bbd0bfd9295abf3966c706ae0ae0b841495ee651545cc",
+    "durationSeconds": 0.2,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.0005506829029605,
+    "rmsDbFS": -24.254275285094295,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

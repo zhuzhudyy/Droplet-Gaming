@@ -1,0 +1,59 @@
+{
+  "execute": false,
+  "take": "seed-all-audio-voices-en-20260929-r1",
+  "manifestSha256": "6453b55185c514e4b3387e6e48f54aa1eabc613bf5b023d8624a8baea2c88d76",
+  "budgetAFP": "20000",
+  "inheritedLedger": {
+    "path": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedTTS20260929\\ledger.json",
+    "sha256": "e9b28f443383739bcd328ecdd1819e3cf40420687352e6f82165cd28dea762e0",
+    "accountedAFP": "537.975"
+  },
+  "revisionAccountedAFP": "1450.575",
+  "remainingAFP": "18011.450",
+  "blockedByUnknownSubmission": false,
+  "reservationRule": "4 * UTF-8 bytes of English text plus context direction * 0.135 AFP, per request; settle only service usage.text_words.",
+  "lines": [
+    {
+      "id": "B006",
+      "state": "new",
+      "request": {
+        "provider": "seed-tts",
+        "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+        "resource_id": "seed-tts-2.0",
+        "payload": {
+          "user": {
+            "uid": "droplet-offline-authoring"
+          },
+          "req_params": {
+            "text": "Reflection crossing the formation!",
+            "speaker": "en_female_jane_uranus_bigtts",
+            "audio_params": {
+              "format": "pcm",
+              "sample_rate": 24000,
+              "speech_rate": 0
+            },
+            "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Pointing out an immediate hazard; no long lead breath.\"]}"
+          }
+        },
+        "usageTokensReturn": "*"
+      },
+      "requestSha256": "8f490273a75396652e299eb05a48ece716998edd48bddaacc9b59679a66c17dd",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B006-8f490273a7539665",
+      "reservedAFP": "259.200"
+    }
+  ]
+}
+{
+  "execute": true,
+  "provider": "seed-tts",
+  "lines": [
+    {
+      "id": "B006",
+      "text": "Reflection crossing the formation!",
+      "output": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\Generated\\Volcengine\\seed-tts\\seed-all-audio-voices-en-20260929-r1\\B006-8f490273a7539665"
+    }
+  ],
+  "characters": 34
+}
+complete: C:\学习\玩\Unity\Trysolar Drip\ArtSource\Audio\Generated\Volcengine\seed-tts\seed-all-audio-voices-en-20260929-r1\B006-8f490273a7539665\job.json
+{"completed": 1, "ledger": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\voice-ledger.json"}

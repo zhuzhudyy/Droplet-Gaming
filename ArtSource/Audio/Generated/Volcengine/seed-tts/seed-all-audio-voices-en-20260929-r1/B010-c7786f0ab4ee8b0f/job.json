@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "B010",
+    "text": "Central decks breached! Seal the doors!"
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Central decks breached! Seal the doors!",
+      "speaker": "en_female_stokie_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a communications officer adjusting a receiver, reporting to the commander in an original fictional space drama. An immediate emergency. A quick intake of breath, decisive short clauses and controlled fear; do not shout every word. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. A report turning directly into a shouted instruction, still intelligible.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "aa33b009-15ab-4a11-af22-453faeacb16c",
+  "sha256": "7048ca9b1f5673b2a6c5bd8602ba7f53b74f82bebbafa1dc58dd01179695fbcd",
+  "duration_seconds": 2.99675,
+  "usage": {
+    "text_words": 39
+  }
+}

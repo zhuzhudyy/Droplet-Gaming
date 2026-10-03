@@ -1,0 +1,26 @@
+{
+  "id": "RetreatEngine_02",
+  "cueId": "RetreatEngine_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "c50a8f13-8beb-4696-a681-88fdeb0213bb",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 8 seconds. A retreating spacecraft engine under steady heavy thrust, sustained mechanical energy. Electric drive whine layered with soft repeating power-converter pulses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:47:34.638251+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "f26a393df4cadd3df33b68dce00b6ce37dce82bc07907e903819a98d66f8dd7f",
+  "originalDurationSeconds": 8,
+  "actualSeconds": 8.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:47:55.555237+00:00"
+}

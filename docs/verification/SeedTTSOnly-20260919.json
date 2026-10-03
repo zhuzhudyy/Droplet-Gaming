@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-19",
+  "scope": "Seed-TTS 2.0 only",
+  "python": "3.14.3",
+  "tests_run": 9,
+  "tests_passed": 9,
+  "cli_preview": "passed; no network/files",
+  "removed_video_options": "rejected, exit 2",
+  "credential_helper": "syntax passed; not executed",
+  "live_calls": 0,
+  "not_run": [
+    "Cloud synthesis/authentication",
+    "Listening QA",
+    "Unity compilation/tests/build"
+  ]
+}

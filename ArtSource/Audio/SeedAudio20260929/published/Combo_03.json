@@ -1,0 +1,37 @@
+{
+  "id": "Combo_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "07853a6400b663c5734674b8aef6fd356c116e4eab40e9f17d83d22582f1f0bf",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Combo_03/job.json",
+  "sourceSha256": "30e96308e5e05426a85818cc3e25e395fb75d23f0374695dd3f0ade5e5830f50",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Short score-multiplier increase cue; distinct rhythmic pattern and clean tail. Third tier: three tightly grouped plucked synth notes resolving together. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Combo_03",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 24000,
+    "rate": 48000,
+    "targetSeconds": 0.5,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 24000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 1920,
+    "outputFrames": 24000,
+    "linearGain": 0.5088627432764136,
+    "targetLevelDbFS": -7
+  },
+  "qa": {
+    "sha256": "07853a6400b663c5734674b8aef6fd356c116e4eab40e9f17d83d22582f1f0bf",
+    "durationSeconds": 0.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -7.0005506829029605,
+    "rmsDbFS": -21.2140578600089,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

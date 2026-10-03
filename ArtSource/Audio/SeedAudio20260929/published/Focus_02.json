@@ -1,0 +1,37 @@
+{
+  "id": "Focus_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "22fb38c2d5b8ebe9bf414998ae7467a17c6c130138c0041a59c03e453f50378a",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Focus_02/job.json",
+  "sourceSha256": "b127bc009a2a6349ed09a9a1bed35801a1fb3b4ed6cea3519fbcf636bf34d56a",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.15 seconds. Tiny restrained interface focus sound, precise attack and no ringing tail. One muted tactile switch tap with a very short glass accent. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Focus_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 9600,
+    "rate": 48000,
+    "targetSeconds": 0.15,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 7200,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 576,
+    "outputFrames": 7200,
+    "linearGain": 8.0,
+    "targetLevelDbFS": -10
+  },
+  "qa": {
+    "sha256": "22fb38c2d5b8ebe9bf414998ae7467a17c6c130138c0041a59c03e453f50378a",
+    "durationSeconds": 0.15,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -17.055730507713605,
+    "rmsDbFS": -33.84624462431413,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E003",
+    "text": "We have put cities between the planets and sent our voices farther than their builders could travel. Now something has come the other way, and our first question is what it might give us."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "We have put cities between the planets and sent our voices farther than their builders could travel. Now something has come the other way, and our first question is what it might give us.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Let the final observation land gently; do not sound judgmental or theatrical.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "d3f5d17f-5364-4a9d-80b8-a78e97e19ebc",
+  "sha256": "5122cbb194c8790a1388dde67f13ab89bcb5b73f8718df02414cdbdee1075a8f",
+  "duration_seconds": 10.621833333333333,
+  "usage": {
+    "text_words": 187
+  }
+}

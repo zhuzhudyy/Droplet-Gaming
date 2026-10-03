@@ -1,0 +1,45 @@
+{
+  "generated": 12,
+  "mixed": 3,
+  "openingDuration": 0.25,
+  "ffmpeg": "ffmpeg version 9.0.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "clips": [
+    {
+      "id": "SC01",
+      "duration": 7.772916666666666,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -5.997833556371117,
+      "rmsDb": -30.231612832761936,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.001373291015625,
+      "sha256": "0ae14b76593e9e0b2fb0d19e2afcc927abd9f5981cc6c759dbb5053f617811a3"
+    },
+    {
+      "id": "SA01",
+      "duration": 9.287833333333333,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -5.762579048217466,
+      "rmsDb": -25.52323061186295,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.0,
+      "sha256": "34a63f4dace526f1a650d9fb7bc4751121833c4a5147059e0d150be24529c2d8"
+    },
+    {
+      "id": "SE01",
+      "duration": 9.78375,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peakDb": -5.606513418805127,
+      "rmsDb": -29.73146314419064,
+      "clippedSamples": 0,
+      "maxSilenceSeconds": 0.0,
+      "edgeDiscontinuity": 0.002227783203125,
+      "sha256": "9e46695049268f162d28657baddcd7f0eb909bb3fb9820a169da8d766549967c"
+    }
+  ],
+  "listening": "待人工试听"
+}

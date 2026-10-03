@@ -1,0 +1,25 @@
+{
+  "id": "BoostLoop_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "7e418809-a2ee-4e87-8977-d7c3d64a210f",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady high-speed droplet boost energy, clearly denser and more urgent than cruise. Broad resonant plasma rush with a subtle rapid mechanical tremolo; no discrete starts. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:30:53.602741+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "462613efb7c58ed5e3b139c777e9ae485c667ac88f39aefe3e1a12a0341442c3",
+  "originalDurationSeconds": 12,
+  "actualSeconds": 12.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:31:10.513509+00:00"
+}

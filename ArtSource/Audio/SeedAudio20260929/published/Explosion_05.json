@@ -1,0 +1,37 @@
+{
+  "id": "Explosion_05",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "e39baa4a8dd8e8b96d61cc7d4478b8b8da9e1b5cd4a3b012385e85a7d6aa6e8f",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Explosion_05/job.json",
+  "sourceSha256": "20758d667d8d1ff63859b56a7a151f6a6daa075068bd43e25b3da47ae23b2655",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Large hollow hangar rupture with tumbling heavy plates and diminishing grit. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Explosion_05",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 240000,
+    "rate": 48000,
+    "targetSeconds": 5.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 240000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 240000,
+    "linearGain": 1.6363443026455855,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "e39baa4a8dd8e8b96d61cc7d4478b8b8da9e1b5cd4a3b012385e85a7d6aa6e8f",
+    "durationSeconds": 5.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -19.218184550995264,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

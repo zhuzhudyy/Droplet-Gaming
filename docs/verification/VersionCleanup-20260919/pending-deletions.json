@@ -1,0 +1,47 @@
+[
+  {
+    "path": "Builds/Windows",
+    "bytes": 115698960,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-Droplet-Rebuilt-20260908",
+    "bytes": 129184130,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-Fleet2000Sun-20260908",
+    "bytes": 207463848,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-Lighting-20260908",
+    "bytes": 129388570,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-SolarLayout-Validation-20260908",
+    "bytes": 122722404,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-v0.2.0-G09",
+    "bytes": 119064160,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-v0.2.1-G09",
+    "bytes": 119064672,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-v0.2.2-G09",
+    "bytes": 119068406,
+    "status": "pending: deletion rejected by automatic policy"
+  },
+  {
+    "path": "Builds/Windows-VisualUpgrade-20260908",
+    "bytes": 138874805,
+    "status": "pending: deletion rejected by automatic policy"
+  }
+]

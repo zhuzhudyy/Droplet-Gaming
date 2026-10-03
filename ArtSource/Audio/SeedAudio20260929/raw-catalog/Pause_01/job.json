@@ -1,0 +1,26 @@
+{
+  "id": "Pause_01",
+  "cueId": "Pause_01",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "b4ba3a91-b299-4669-b5e7-ad7c54b5cd9f",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 0.35 seconds. Short pause interface cue, clean ending. A compact two-note electronic phrase gently closes into a muted click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:58:34.863908+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "37c19656ba14f42b257341c16f61b10fad7787247153443a57fb86955ffd514c",
+  "originalDurationSeconds": 0.4,
+  "actualSeconds": 0.4,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:58:47.365246+00:00"
+}

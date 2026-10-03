@@ -1,0 +1,25 @@
+{
+  "id": "SpaceTexture_02",
+  "model": "seed-audio-1.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "3d01e7e9-1a20-410c-a753-50e5a2479522",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "Create original cold cinematic science-fiction game audio, approximately 75 seconds. Abstract cinematic space ambience, not literal wind in vacuum; sparse non-musical energy texture. Slow pressure-like resonances with faint granular upper harmonics; no rhythmic beat. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T11:25:11.837302+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "sha256": "5412ae496477716cd535cda8bf565de5c44e3eb0435be3f8bec2bf228aa75e51",
+  "originalDurationSeconds": 75,
+  "actualSeconds": 75.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "completedAt": "2026-09-29T11:26:11.591611+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CabinBed_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/CabinBed_01/job.json",
+  "sourceSha256": "f4679f3e6857e93e26379987230e74dbf93c435db1bc1e72642cc7ac2858c7c6",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 60 seconds. Interior spacecraft equipment ambience, enclosed steel room with quiet short reflections. Calm bridge: stable ventilation, faint instrument fan whirr and sparse relay clicks. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "CabinBed_01",
+  "processing": {
+    "operation": "trim/circular tail crossfade",
+    "sourceFrames": 2880000,
+    "rate": 48000,
+    "targetSeconds": 60.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 2880000,
+    "crossfadeFrames": 72000,
+    "outputFrames": 2808000,
+    "linearGain": 0.22272067681086052,
+    "targetLevelDbFS": -36
+  },
+  "qa": {
+    "sha256": "3e211015db0c1a6fcce7d5dc28afbcccaccb3cfcd1aa2af860e0286ad7331d01",
+    "durationSeconds": 58.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -22.130638282258765,
+    "rmsDbFS": -36.00690089389121,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.000213623046875
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

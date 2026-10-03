@@ -1,0 +1,37 @@
+{
+  "id": "Reflect_06",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "24fb36ec93fd0ce618964dedca1e28dfa10962256c3ec8c43c55e0c9e536ee86",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Reflect_06/job.json",
+  "sourceSha256": "5dd0f040926d39ba96afb2463abfb5550adff704d41ddca124f113b90dca6f2c",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Sharp energy crack with a smooth resonant rebound and no debris. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Reflect_06",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 38400,
+    "rate": 48000,
+    "targetSeconds": 0.8,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 38400,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3072,
+    "outputFrames": 38400,
+    "linearGain": 1.2303743313453328,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "24fb36ec93fd0ce618964dedca1e28dfa10962256c3ec8c43c55e0c9e536ee86",
+    "durationSeconds": 0.8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -16.160323251711848,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

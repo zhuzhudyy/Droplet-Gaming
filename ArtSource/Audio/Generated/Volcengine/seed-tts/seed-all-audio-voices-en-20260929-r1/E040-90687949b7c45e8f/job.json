@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E040",
+    "text": "It has not slowed. Watch the contact point, not the glare. Record what happens, even if it contradicts our expectations. Keep your people clear of damaged sections. Stay on the channel. We are here."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "It has not slowed. Watch the contact point, not the glare. Record what happens, even if it contradicts our expectations. Keep your people clear of damaged sections. Stay on the channel. We are here.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Concern grows into controlled urgency. Short breath at a clause boundary, stress the actionable words; remain conversational. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Immediate focus gives way to a small human reassurance; never stretch the final words unnaturally.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "2b3ed826-aa12-4141-af4f-ab9fdba09a61",
+  "sha256": "0b29cc66a24e2e6ff25e43e16c79fa90440d622e4219d27b2cdf75689ee7d534",
+  "duration_seconds": 14.225958333333333,
+  "usage": {
+    "text_words": 198
+  }
+}

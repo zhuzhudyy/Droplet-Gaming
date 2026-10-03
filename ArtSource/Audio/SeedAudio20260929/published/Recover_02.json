@@ -1,0 +1,37 @@
+{
+  "id": "Recover_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "ace373db79e4b4e10a7ae12c8b8250ff9835019b2e6a8ef6ed42f9049f69a44e",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Recover_02/job.json",
+  "sourceSha256": "bbcd8246ed27ad9eb4a6cce2d5e2649a14c8e4a2a21df762709eea77e728b573",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet smoothly recovers forward motion after braking. Two delicate crystalline ripples merge into a stable low resonance. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Recover_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 72000,
+    "rate": 48000,
+    "targetSeconds": 1.5,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 72000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 72000,
+    "linearGain": 3.667465775849591,
+    "targetLevelDbFS": -8
+  },
+  "qa": {
+    "sha256": "ace373db79e4b4e10a7ae12c8b8250ff9835019b2e6a8ef6ed42f9049f69a44e",
+    "durationSeconds": 1.5,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -8.000782896515972,
+    "rmsDbFS": -22.739592774076527,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

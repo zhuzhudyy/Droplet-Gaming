@@ -1,0 +1,215 @@
+{
+    "unity": "6000.5.10f1",
+    "cpu": "AMD Ryzen 9 7940HX with Radeon Graphics ",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsApi": "Direct3D12",
+    "scene": "Assets/_Project/Scenes/FleetAssault_Enhanced.unity",
+    "error": "",
+    "voiceStatus": "English Seed-TTS request blocked by resource permission; retained playable legacy audio. Expanded English duration/listening acceptance NOT PASSED.",
+    "completed": true,
+    "allChecksPassed": true,
+    "editor": false,
+    "identities": 2000,
+    "width": 1920,
+    "height": 1080,
+    "renderScale": 1.0,
+    "narrativeSeconds": 60.0,
+    "physicalSunDegrees": 0.21316182613372804,
+    "displaySunDegrees": 0.42632365226745608,
+    "frameGeneration": "None",
+    "vram": "See separate PID-scoped WDDM CSV; graphicsMemorySize is capacity, not measured usage.",
+    "checks": [
+        {
+            "name": "Saved identities",
+            "detail": "No ships removed; all remain interactive.",
+            "passed": true
+        },
+        {
+            "name": "Narrative pause 0",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "One-shot skip 0",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Narrative pause 1",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "One-shot skip 1",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Narrative pause 2",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "One-shot skip 2",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Narrative pause 3",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "One-shot skip 3",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Retained narrative natural completion",
+            "detail": "Actual wall=59.6920186s; does not satisfy requested new 4–6 minute English delivery.",
+            "passed": true
+        },
+        {
+            "name": "Normal fixed-step attack triggered intact movement",
+            "detail": "destroyed=3 pending=1 intact moved=32; no ForceFlee/RequestRetreat or direct damage setup in this phase.",
+            "passed": true
+        },
+        {
+            "name": "Authority and render agree",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pause freezes delayed explosions and fleet",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Calibrated solar size",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Corona exits with sun",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Delay retains pending hulls",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Pending resolved once",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Continuous restart 0",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Continuous restart 1",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Continuous restart 2",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "Timeout results once",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "No duplicate results",
+            "detail": "",
+            "passed": true
+        }
+    ],
+    "phases": [
+        {
+            "name": "Concentrated reflections",
+            "workload": "Stationary droplet for repeatable optical stress; normal fleet simulation enabled, real ray queries each frame.",
+            "frames": 480,
+            "focusedFrames": 480,
+            "width": 1920,
+            "height": 1080,
+            "ships": 2000,
+            "pending": 0,
+            "escaped": 0,
+            "fleeing": 0,
+            "meanMs": 14.402206874999998,
+            "p95Ms": 19.23739999999441,
+            "maxMs": 25.15440000000524,
+            "volume": true
+        },
+        {
+            "name": "Corona off",
+            "workload": "Fixed camera to sun; 2000 target simulation, same exposure/FOV.",
+            "frames": 572,
+            "focusedFrames": 572,
+            "width": 1920,
+            "height": 1080,
+            "ships": 2000,
+            "pending": 0,
+            "escaped": 0,
+            "fleeing": 0,
+            "meanMs": 10.494365734265758,
+            "p95Ms": 14.655300000001148,
+            "maxMs": 19.626899999991566,
+            "volume": false
+        },
+        {
+            "name": "Corona on",
+            "workload": "Half-resolution16 sample depth-clipped local corona; same camera/exposure/FOV.",
+            "frames": 613,
+            "focusedFrames": 613,
+            "width": 1920,
+            "height": 1080,
+            "ships": 2000,
+            "pending": 0,
+            "escaped": 0,
+            "fleeing": 0,
+            "meanMs": 9.791357748776516,
+            "p95Ms": 13.435599999993997,
+            "maxMs": 34.475200000002818,
+            "volume": true
+        },
+        {
+            "name": "Delayed explosion and retreat",
+            "workload": "Controlled 200 hull damage stress; 2000 identities retained. Natural threat logic triggers remaining intact ships.",
+            "frames": 502,
+            "focusedFrames": 502,
+            "width": 1920,
+            "height": 1080,
+            "ships": 2000,
+            "pending": 0,
+            "escaped": 0,
+            "fleeing": 1800,
+            "meanMs": 11.957218326693237,
+            "p95Ms": 15.393500000001837,
+            "maxMs": 18.805499999999144,
+            "volume": true
+        },
+        {
+            "name": "Fleet retreat",
+            "workload": "1800 intact ships after fleet-loss threshold; no RequestRetreat or disabled far decisions.",
+            "frames": 585,
+            "focusedFrames": 585,
+            "width": 1920,
+            "height": 1080,
+            "ships": 2000,
+            "pending": 0,
+            "escaped": 0,
+            "fleeing": 1800,
+            "meanMs": 10.268900683760667,
+            "p95Ms": 14.049400000004653,
+            "maxMs": 16.967100000002234,
+            "volume": true
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Laser_03",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "56f85f6a4e80c9b299b4e978659913c794b716a6ebc0c63bf2b5b82f1a73c511",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Laser_03_R2/job.json",
+  "sourceSha256": "aa656128db59b81cfc5ab7275d7753c32307929f970f2e656df2fb0855c23399",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Fine crystalline chirr with a brief granular trailing spray. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Laser_03_R2",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 38400,
+    "rate": 48000,
+    "targetSeconds": 0.8,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 38400,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3072,
+    "outputFrames": 38400,
+    "linearGain": 8.0,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "56f85f6a4e80c9b299b4e978659913c794b716a6ebc0c63bf2b5b82f1a73c511",
+    "durationSeconds": 0.8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.705173741751517,
+    "rmsDbFS": -22.689953951857348,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

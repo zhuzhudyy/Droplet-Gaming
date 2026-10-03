@@ -1,0 +1,42 @@
+{
+  "id": "Escape_02",
+  "identity": {
+    "schema": "droplet.seed-audio-publish.v1",
+    "version": 3,
+    "id": "Escape_02",
+    "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Escape_02/job.json",
+    "sourceSha256": "b42158cf27e32657b75b3bb704d2fb2843c8b3da7ca2f582d0f0998557e8ad7e",
+    "targetSeconds": 0.6,
+    "loop": false,
+    "kind": "catalog"
+  },
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Escape_02/job.json",
+  "sourceSha256": "b42158cf27e32657b75b3bb704d2fb2843c8b3da7ca2f582d0f0998557e8ad7e",
+  "sha256": "66b705819fdb88e45ec44944ec8a6457b07bdb8375016e00d70ea738f00110ac",
+  "recipe": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 28800,
+    "rate": 48000,
+    "targetSeconds": 0.6,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 28800,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 2304,
+    "outputFrames": 28800,
+    "linearGain": 8.0,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "66b705819fdb88e45ec44944ec8a6457b07bdb8375016e00d70ea738f00110ac",
+    "durationSeconds": 0.6,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -9.20219670831073,
+    "rmsDbFS": -23.109137462961478,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "accepted": false,
+  "subjectiveListening": "not_performed"
+}

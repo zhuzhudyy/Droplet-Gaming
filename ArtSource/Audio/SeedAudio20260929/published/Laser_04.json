@@ -1,0 +1,37 @@
+{
+  "id": "Laser_04",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "c8e4c047cba13c95a8fb8887ada3de4f85feb4f90d65ec191dfe7b403e1bc917",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Laser_04/job.json",
+  "sourceSha256": "1d48e28725ef7ecf7e35d4a060ec7f754a306960158e7ba0e6fe6b2db6d4abab",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Double-stage magnetic click then a broad hot energy sweep. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Laser_04",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 38400,
+    "rate": 48000,
+    "targetSeconds": 0.8,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 38400,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3072,
+    "outputFrames": 38400,
+    "linearGain": 2.1816197387281813,
+    "targetLevelDbFS": -4
+  },
+  "qa": {
+    "sha256": "c8e4c047cba13c95a8fb8887ada3de4f85feb4f90d65ec191dfe7b403e1bc917",
+    "durationSeconds": 0.8,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -4.000508460444033,
+    "rmsDbFS": -17.995929095389172,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

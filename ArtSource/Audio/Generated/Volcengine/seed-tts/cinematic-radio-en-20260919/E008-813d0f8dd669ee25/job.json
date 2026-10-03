@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E008",
+    "text": "Our crews did not choose the headlines. They trained to keep a corridor open, and that is what they will do."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "Our crews did not choose the headlines. They trained to keep a corridor open, and that is what they will do.",
+      "speaker": "en_male_tim_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a fleet commander at a bridge microphone, operating the tactical console and addressing nearby officers in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "b53e8334-8cd1-425a-912a-fd518f1fe5a9",
+  "sha256": "191c09621022f5d6f5205959401c1716a2213e4f6ac92c1e08e603c0e55c55ff",
+  "duration_seconds": 6.617583333333333,
+  "usage": {
+    "text_words": 108
+  }
+}

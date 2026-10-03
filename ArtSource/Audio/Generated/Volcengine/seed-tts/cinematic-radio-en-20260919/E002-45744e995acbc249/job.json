@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E002",
+    "text": "The markets have named it an opportunity. The ministries call it an incident. Children watching from the night side call it a star."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "The markets have named it an opportunity. The ministries call it an incident. Children watching from the night side call it a star.",
+      "speaker": "en_female_dacey_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are a public broadcaster talking quietly to people watching at home in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "a0da04d9-257e-471b-b07e-b07f5a12a0bd",
+  "sha256": "be75bdbffbce929459bc8d96e31c9a08ada1da634545f70f887577e69f61b650",
+  "duration_seconds": 9.830416666666666,
+  "usage": {
+    "text_words": 131
+  }
+}

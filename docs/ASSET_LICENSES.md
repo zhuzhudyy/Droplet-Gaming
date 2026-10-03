@@ -1,5 +1,23 @@
 # 试玩版资产来源
 
+## Seed 全音频新增来源 — 2026-09-29
+
+由本项目自写提示词通过火山引擎语音服务 `seed-audio-1.0` 实际生成 **131 条独立非语音音效/音乐**；由 Seed-TTS 2.0 生成 **87 条新版英语角色干声**。本地仅对 Seed 产物做裁切、均衡、循环和混音，形成 **80 条完整通讯及 78 条强度变体**；新版没有下载音效库或用程序合成新声音源。六类代表样音获用户试听认可；131 条正式变体、87 条干声与 158 条通讯各项只有技术层的暂定通过，尚未逐项人工试听。
+
+原始请求、模型、提示词、原声及成品 SHA-256 保存在 `ArtSource/Audio/SeedAudio20260929/` 与 `ArtSource/Audio/Generated/Volcengine/`。经 Unity Editor 导入的新版资源位于 `Assets/_Project/Audio/SeedAudio/`，并由默认启用的安全副本 `Assets/_Project/Scenes/FleetAssault_SeedAudio.unity` 使用；旧来源、旧场景和 GUID 仍保留。`Laser_03` 与 E033 原请求状态不明，各自以明确新 ID 的成功产物替代，原始记录未删除。本节只记录技术来源，不额外推定服务条款授予的分发权；发行前按当前服务协议复核。
+
+## Seed-TTS 全音频能力试验 — 2026-09-29（未导入）
+
+本轮 17 个原始 WAV 均由现有 Agent Plan 的 **Seed-TTS 2.0** 真实返回：1 条英语控制与 16 个非语音意图的测试候选；另有 2 次请求无有效音频。使用官方服务音色 `en_male_tim_uranus_bigtts` 与 `zh_female_vv_uranus_bigtts`，没有上传第三方人物录音、克隆人物声音或使用外部音效库。原始请求、用途、变体、用量和文件 SHA-256 见 [source-manifest.json](../ArtSource/Audio/SeedTTS20260929/source-manifest.json)。提示词由本项目编写。
+
+本地仅将返回 PCM 无损封装成 WAV，没有另行合成游戏声源，也没有裁切、调音、循环或混合候选。非语音意图不代表生成结果已成为可用非语音素材；本轮内容门槛未通过，全部留在 Assets 外，未替换既有音频。使用继续依照现有账户适用的火山引擎服务条款，本记录不推断独占权或额外权利授予。下方旧程序声效来源仍然有效；没有将其重标为 Seed 生成。
+
+## Enhancement 批次 — 2026-09-19
+
+四角色英语对白、对应中文字幕（40 条开场与 36 条战斗广播）为本批原创文本，源文件 `Tools/Audio/EnhancementEnglish.json`。`Assets/_Project/Audio/EnhancementEnglish/` 中的 ConnectTone、InterruptTone、Alarm、EquipmentBed 为本项目数学合成 PCM 音效，没有第三方录音素材；生成方法保留在 `Tools/Audio/enhancement_voice.py`。新激光与局部日冕 Shader 为本项目源码，没有下载第三方效果包。
+
+Seed-TTS 2.0 实际请求因资源授权返回 403，未产出新英语人声音频，不能将文本或预定音色声明为已取得的语音素材。现有中文合成语音及原 GUID 保留；游戏明确标识 AI 合成。详见 `ENHANCEMENT_AUDIO_REPORT.md` 和试听清单，新增音效待人工试听。此次未购买新资产或安装第三方工具。
+
 ## FusionFrigate 模型批次 — 2026-09-08
 
 | 资产 | 制作与源文件 | 来源 / 使用说明 |
@@ -55,3 +73,11 @@ NASA 原始图来自 [官方图像归档](https://eoimages.gsfc.nasa.gov/images/
 ## PerfectDroplet 水滴几何 — 2026-09-08
 
 模型和 UV 为本项目原创数学构造，源脚本 `Tools/Blender/PerfectDroplet/pipeline.py`，可编辑源 `ArtSource/Blender/Droplet/PerfectDroplet/PerfectDroplet.blend`。没有第三方模型、图片参考、贴图、字体、音乐或生成式美术内容。检查图是实际 Blender Workbench 渲染；额外法线诊断使用已安装 Blender 内置 `check_reflection_horizontal.exr` / `fullmetal.exr` MatCap，其资源文件未复制、嵌入源或打包到 FBX。导出只有几何、UV、平滑法线和一个中性材质槽，没有装饰资产。没有外部下载、购买、上传、发布或新增工具安装。
+
+## CinematicAudio 通讯与战斗音频批次 — 2026-09-19
+
+本批通过用户已接入的 Agent Plan 专属接口，实际生成 **87 条 Seed-TTS 2.0 英语人声**：40 条剧情、36 条战斗广播及 11 条代表场景/背景回应/短求救。台词、中文字幕和表演指令由本项目编写；四个角色固定使用服务官方音色 `en_female_dacey_uranus_bigtts`（主播）、`en_male_tim_uranus_bigtts`（指挥官）、`en_female_jane_uranus_bigtts`（工程师）、`en_female_stokie_uranus_bigtts`（通信军官），未上传第三方人物录音或进行声音克隆。实际请求、选用文件及来源哈希见 [generation-manifest.json](../ArtSource/Audio/CinematicAudio/generation-manifest.json) 和其中关联的生成日志。其使用依照现有账户适用的火山引擎服务条款；本记录不推断生成音频、服务音色或角色声线的独占权，也不把成功调用等同于额外权利授予。
+
+非语音素材为本项目原创程序合成：脚跟/脚尖脉冲激励钢甲板模态形成脚步，另有门机构、控制台、设备振动、警报、通讯接通/断线、激光、反射、撞击及爆炸效果。脚步、舱门和爆炸各保留 3 个实际不同的变体；源参数、种子、文件和 SHA-256 记录在 [effects-manifest.json](../ArtSource/Audio/CinematicAudio/effects-manifest.json)，生成工具为 `Tools/Audio/cinematic_audio.py`。未采用外部录音、音效库或音乐，也未把程序声效描述为真实人物/船舱录音。
+
+上述人声与程序声效经 FFmpeg 形成 80 个完整通讯场景及其必要强度变体，原始人声、分轨、母版和混音配方保存在 `ArtSource/Audio/CinematicAudio/` 及原生成目录，实际使用的成品导入 `Assets/_Project/Audio/CinematicAudio/`。混音制作不改变源素材的适用权利条件。原音频、美术及其 GUID 保留；本节不覆盖此前批次的来源记录。主观声音与表演验收仍标记“待人工试听”，不将信号检查当作听感验收；详情见 [CINEMATIC_AUDIO_REPORT.md](CINEMATIC_AUDIO_REPORT.md)。

@@ -1,0 +1,37 @@
+{
+  "id": "Hatch_02",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "7ba94cd33fcf58d64298886ff6c809bb5dda2a091cf2fdf7bb0e6ca0e3e50f47",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Hatch_02/job.json",
+  "sourceSha256": "644772d622e8fe89731cd9e24e33e5fc40d1f032a5dd3fd32253a01306678888",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 2 seconds. Motorised spacecraft hatch action in a steel interior, clear mechanism and seal detail. Bulkhead door closes: brief hydraulic movement, rubber seal compression and locking clunk. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Hatch_02",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 96000,
+    "rate": 48000,
+    "targetSeconds": 2.0,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 96000,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 3840,
+    "outputFrames": 96000,
+    "linearGain": 3.164532663887194,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "7ba94cd33fcf58d64298886ff6c809bb5dda2a091cf2fdf7bb0e6ca0e3e50f47",
+    "durationSeconds": 2.0,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -12.001001994948961,
+    "rmsDbFS": -33.8631544097528,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

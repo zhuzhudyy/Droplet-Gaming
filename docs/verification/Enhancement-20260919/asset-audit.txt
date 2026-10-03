@@ -1,0 +1,8 @@
+scene=Assets/_Project/Scenes/FleetAssault_Enhanced.unity
+ships=2000
+mixerGroups=Master,Voice,Signal,Alarm,Background,Combat
+voiceGroup=Voice
+alarmGroup=Alarm
+backgroundGroup=Background
+beamGroup=Combat
+AudioProvenance=Microsoft Huihui Desktop / installed offline zh-CN synthesis

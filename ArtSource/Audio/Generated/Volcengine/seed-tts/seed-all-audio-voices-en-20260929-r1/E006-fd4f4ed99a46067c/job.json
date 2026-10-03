@@ -1,0 +1,31 @@
+{
+  "provider": "seed-tts",
+  "line": {
+    "id": "E006",
+    "text": "For the record, silence is all we have measured. No exhaust spectrum, no readable markings, no view beneath the surface. I know the shape invites comparisons. Please keep them out of the instrument log."
+  },
+  "request": {
+    "user": {
+      "uid": "droplet-offline-authoring"
+    },
+    "req_params": {
+      "text": "For the record, silence is all we have measured. No exhaust spectrum, no readable markings, no view beneath the surface. I know the shape invites comparisons. Please keep them out of the instrument log.",
+      "speaker": "en_female_jane_uranus_bigtts",
+      "audio_params": {
+        "format": "pcm",
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "additions": "{\"context_texts\": [\"You are an engineer checking reactor instruments and talking to the bridge over a handheld communicator in an original fictional space drama. Measured, curious but cautious. Connected conversational phrasing, small natural breaths; a gentle pause before the final thought. Speak the exact English dialogue naturally, never as a newsreader. No added words, music, sound effects or stage-direction speech. Patient technical precision; an understated personal edge on the final sentence.\"]}"
+    }
+  },
+  "resource_id": "seed-tts-2.0",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/plan/tts/unidirectional",
+  "status": "complete",
+  "request_id": "ba078418-ce30-48d5-9d9c-b89b2c49b2ab",
+  "sha256": "9632e2ebbac2fd5040c8d973b10f2f11b30e4feaa750f30da4917d43bffd5132",
+  "duration_seconds": 13.590875,
+  "usage": {
+    "text_words": 202
+  }
+}

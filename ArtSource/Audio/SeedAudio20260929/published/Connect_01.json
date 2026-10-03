@@ -1,0 +1,37 @@
+{
+  "id": "Connect_01",
+  "accepted": true,
+  "model": "seed-audio-1.0",
+  "sha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+  "sourceJob": "ArtSource/Audio/SeedAudio20260929/raw-catalog/Connect_01/job.json",
+  "sourceSha256": "fa505b94bc8c25930ea1fff0482630500041b1d61cdf37d3d01370687867e3b5",
+  "sourcePrompt": "Create original cold cinematic science-fiction game audio, approximately 0.4 seconds. Very short radio link connection sound, isolated and dry. A soft relay click followed by a short rising electronic pair. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.",
+  "sourceCueId": "Connect_01",
+  "processing": {
+    "operation": "trim/edge fades",
+    "sourceFrames": 19200,
+    "rate": 48000,
+    "targetSeconds": 0.4,
+    "representative": false,
+    "startFrame": 0,
+    "usedSourceFrames": 19200,
+    "fadeInFrames": 240,
+    "fadeOutFrames": 1536,
+    "outputFrames": 19200,
+    "linearGain": 8.0,
+    "targetLevelDbFS": -12
+  },
+  "qa": {
+    "sha256": "82c4c15167728cd5d2f629b3b1943f090c69ae46f9328ff688594b4929c2f041",
+    "durationSeconds": 0.4,
+    "sampleRate": 48000,
+    "channels": 2,
+    "peakDbFS": -17.829548458854433,
+    "rmsDbFS": -34.900394557050596,
+    "clippedSamples": 0,
+    "edgeDiscontinuity": 0.0
+  },
+  "review": "User accepted six representative categories; technical QA passed; individual cue listening remains pending.",
+  "acceptanceBasis": "user_accepted_six_categories_and_technical_qa",
+  "subjectiveListening": "not_individually_performed"
+}

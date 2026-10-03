@@ -1,0 +1,854 @@
+<!doctype html><html lang='zh-CN'><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Seed 音频成品试听与 QA</title>
+<style>body{font:16px system-ui,sans-serif;background:#101724;color:#eff5fc;max-width:1080px;margin:2em auto;padding:0 1em}article{border:1px solid #3d5269;border-radius:10px;padding:1em;margin:1em 0;background:#172336}audio{width:100%}small{color:#b7c8d7}input,select{font:inherit;padding:.5em;background:#26384b;color:white;border:1px solid #678}li.error{color:#ffaea7}li.warning{color:#ffda94}</style>
+<h1>Seed 音频成品试听</h1>
+<p>可对照原始模型音频与处理后暂存/发布音频。技术通过不等于内容或游戏内混音通过；六类代表已有用户听感认可，目录内每条声音未逐一试听验收。</p>
+<p>已发布 131；已暂存 0；技术问题 0。通讯遮蔽栏是未经 Unity 音量/压低处理的文件级代理值。</p>
+<label>搜索 <input id='search' placeholder='编号、类别、触发事件'></label> <label>状态 <select id='status'><option value=''>全部</option><option value='published_ready'>已发布</option><option value='staged_ready'>已暂存</option><option value='technical_issue'>技术问题</option><option value='not_staged'>未暂存</option></select></label>
+<article data-search='ready_01 music mission.ready' data-status='published_ready'>
+<h3>Ready_01 <small>published_ready · music · Mission.Ready</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Ready_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Ready_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -10.433 dBFS · RMS -26.002 dBFS · 接缝跳变 0.001434</small></p>
+<p><small>未混音对白/背景中频余量 -0.429 dB；达到 12 dB 文件级余量的示意压低量 12.429 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Sparse menu score, glassy synth chords over a restrained sub-bass bed; no climax. Suspended fifths, distant metallic harmonic accents and spacious pauses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='narrative_01 music narrative.stage0..3' data-status='published_ready'>
+<h3>Narrative_01 <small>published_ready · music · Narrative.Stage0..3</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Narrative_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Narrative_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -9.681 dBFS · RMS -26.002 dBFS · 接缝跳变 0.002441</small></p>
+<p><small>未混音对白/背景中频余量 -4.98 dB；达到 12 dB 文件级余量的示意压低量 16.98 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 1: quiet wonder, slow bowed-metal harmonics and widely spaced low synth pulses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='narrative_02 music narrative.stage0..3' data-status='published_ready'>
+<h3>Narrative_02 <small>published_ready · music · Narrative.Stage0..3</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Narrative_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Narrative_02.wav'></audio></p>
+<p><small>73.5 秒（目标 75 秒）· 峰值 -8.634 dBFS · RMS -26.002 dBFS · 接缝跳变 0.002045</small></p>
+<p><small>未混音对白/背景中频余量 3.22 dB；达到 12 dB 文件级余量的示意压低量 8.78 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 75 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 2: uneasy recognition, alternating bass notes with delicate mechanical percussion. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='narrative_03 music narrative.stage0..3' data-status='published_ready'>
+<h3>Narrative_03 <small>published_ready · music · Narrative.Stage0..3</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Narrative_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Narrative_03.wav'></audio></p>
+<p><small>88.5 秒（目标 90 秒）· 峰值 -8.69 dBFS · RMS -26.002 dBFS · 接缝跳变 0.00647</small></p>
+<p><small>未混音对白/背景中频余量 -4.899 dB；达到 12 dB 文件级余量的示意压低量 16.899 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 90 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 3: mounting alarm, asymmetrical muted drum patterns and dark restrained string clusters. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='narrative_04 music narrative.stage0..3' data-status='published_ready'>
+<h3>Narrative_04 <small>published_ready · music · Narrative.Stage0..3</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Narrative_04/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Narrative_04.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -11.776 dBFS · RMS -26.002 dBFS · 接缝跳变 0.002441</small></p>
+<p><small>未混音对白/背景中频余量 -4.614 dB；达到 12 dB 文件级余量的示意压低量 16.614 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Cinematic instrumental underscore with clear space for dialogue. Act 4: irreversible decision, descending synth ostinato and broad unresolved brass-like pads. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='battlelow_01 music battle.intensitylow' data-status='published_ready'>
+<h3>BattleLow_01 <small>published_ready · music · Battle.IntensityLow</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BattleLow_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BattleLow_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -9.457 dBFS · RMS -26.002 dBFS · 接缝跳变 0.000519</small></p>
+<p><small>未混音对白/背景中频余量 6.062 dB；达到 12 dB 文件级余量的示意压低量 5.938 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Low-intensity battle score, controlled tension with little percussion. Slow two-note bass pattern, airy granular pads and isolated metal taps. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='battlelow_02 music battle.intensitylow' data-status='published_ready'>
+<h3>BattleLow_02 <small>published_ready · music · Battle.IntensityLow</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BattleLow_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BattleLow_02.wav'></audio></p>
+<p><small>73.5 秒（目标 75 秒）· 峰值 -9.852 dBFS · RMS -26.002 dBFS · 接缝跳变 0.003143</small></p>
+<p><small>未混音对白/背景中频余量 0.885 dB；达到 12 dB 文件级余量的示意压低量 11.115 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 75 seconds. Low-intensity battle score, controlled tension with little percussion. Soft irregular electronic pulses, bowed cymbal textures and long dark chords. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='battlemedium_01 music battle.intensitymedium' data-status='published_ready'>
+<h3>BattleMedium_01 <small>published_ready · music · Battle.IntensityMedium</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BattleMedium_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BattleMedium_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -8.686 dBFS · RMS -26.002 dBFS · 接缝跳变 0.004272</small></p>
+<p><small>未混音对白/背景中频余量 0.405 dB；达到 12 dB 文件级余量的示意压低量 11.595 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Moderate battle score, firm propulsion while leaving the midrange open. Tight syncopated electronic drums under short low-string ostinati. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='battlemedium_02 music battle.intensitymedium' data-status='published_ready'>
+<h3>BattleMedium_02 <small>published_ready · music · Battle.IntensityMedium</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BattleMedium_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BattleMedium_02.wav'></audio></p>
+<p><small>73.5 秒（目标 75 秒）· 峰值 -9.413 dBFS · RMS -26.002 dBFS · 接缝跳变 0.006378</small></p>
+<p><small>未混音对白/背景中频余量 1.548 dB；达到 12 dB 文件级余量的示意压低量 10.452 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 75 seconds. Moderate battle score, firm propulsion while leaving the midrange open. Measured tom pattern with plucked synth cells and evolving minor chords. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='battlehigh_01 music battle.intensityhigh' data-status='published_ready'>
+<h3>BattleHigh_01 <small>published_ready · music · Battle.IntensityHigh</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BattleHigh_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BattleHigh_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -10.013 dBFS · RMS -26.002 dBFS · 接缝跳变 0.003693</small></p>
+<p><small>未混音对白/背景中频余量 -0.743 dB；达到 12 dB 文件级余量的示意压低量 12.743 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Intense cold science-fiction battle score, forceful but intelligible without excessive treble. Driving polyrhythmic industrial drums, low brass-like synth stabs and fast string figures. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='battlehigh_02 music battle.intensityhigh' data-status='published_ready'>
+<h3>BattleHigh_02 <small>published_ready · music · Battle.IntensityHigh</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BattleHigh_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BattleHigh_02.wav'></audio></p>
+<p><small>73.5 秒（目标 75 秒）· 峰值 -10.478 dBFS · RMS -26.002 dBFS · 接缝跳变 3.1e-05</small></p>
+<p><small>未混音对白/背景中频余量 4.467 dB；达到 12 dB 文件级余量的示意压低量 7.533 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 75 seconds. Intense cold science-fiction battle score, forceful but intelligible without excessive treble. Heavy half-time impacts, urgent gated bass and rising dissonant orchestral textures. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='aftermath_01 music battle.activitydecay' data-status='published_ready'>
+<h3>Aftermath_01 <small>published_ready · music · Battle.ActivityDecay</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Aftermath_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Aftermath_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -9.789 dBFS · RMS -26.002 dBFS · 接缝跳变 0.004791</small></p>
+<p><small>未混音对白/背景中频余量 -7.007 dB；达到 12 dB 文件级余量的示意压低量 19.007 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Restrained aftermath score, energy gently settling into empty space. Long decaying piano-like metallic notes over a thinning low synth chord; sombre, no triumphant fanfare. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='pausebed_01 music mission.paused' data-status='published_ready'>
+<h3>PauseBed_01 <small>published_ready · music · Mission.Paused</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/PauseBed_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/PauseBed_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -8.474 dBFS · RMS -26.002 dBFS · 接缝跳变 0.00296</small></p>
+<p><small>未混音对白/背景中频余量 -8.796 dB；达到 12 dB 文件级余量的示意压低量 20.796 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Very quiet pause-menu instrumental bed, suspended time and minimal movement. Soft sustained low fifth with occasional delicate crystalline chord changes, no beat. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='resultbed_01 music mission.resultssuccessorincomplete' data-status='published_ready'>
+<h3>ResultBed_01 <small>published_ready · music · Mission.ResultsSuccessOrIncomplete</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/ResultBed_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/ResultBed_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -10.272 dBFS · RMS -26.002 dBFS · 接缝跳变 0.001953</small></p>
+<p><small>未混音对白/背景中频余量 -1.627 dB；达到 12 dB 文件级余量的示意压低量 13.627 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Restrained result-screen instrumental score with a calm sustained ending. Success: resolved dark major harmony, sparse warm brass-like chords and a slow dignified pulse. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='resultbed_02 music mission.resultssuccessorincomplete' data-status='published_ready'>
+<h3>ResultBed_02 <small>published_ready · music · Mission.ResultsSuccessOrIncomplete</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/ResultBed_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/ResultBed_02.wav'></audio></p>
+<p><small>73.5 秒（目标 75 秒）· 峰值 -9.574 dBFS · RMS -26.002 dBFS · 接缝跳变 0.001251</small></p>
+<p><small>未混音对白/背景中频余量 1.834 dB；达到 12 dB 文件级余量的示意压低量 10.166 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 75 seconds. Restrained result-screen instrumental score with a calm sustained ending. Incomplete: unresolved descending minor harmony, isolated muted piano notes and a distant low drone. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='transition_01 music narrativeormission.phaseedge' data-status='published_ready'>
+<h3>Transition_01 <small>published_ready · music · NarrativeOrMission.PhaseEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Transition_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Transition_01.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -7.001 dBFS · RMS -22.713 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental transition ending with a clean decaying tail. Discovery: a delicate rising glass arpeggio resolving into a low chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='transition_02 music narrativeormission.phaseedge' data-status='published_ready'>
+<h3>Transition_02 <small>published_ready · music · NarrativeOrMission.PhaseEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Transition_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Transition_02.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -7.001 dBFS · RMS -22.176 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental transition ending with a clean decaying tail. Warning: two muted industrial impacts and a tight dissonant synth swell. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='transition_03 music narrativeormission.phaseedge' data-status='published_ready'>
+<h3>Transition_03 <small>published_ready · music · NarrativeOrMission.PhaseEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Transition_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Transition_03.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -7.001 dBFS · RMS -22.965 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental transition ending with a clean decaying tail. Commitment: a short bowed-metal crescendo into a single controlled bass impact. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='transition_04 music narrativeormission.phaseedge' data-status='published_ready'>
+<h3>Transition_04 <small>published_ready · music · NarrativeOrMission.PhaseEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Transition_04/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Transition_04.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -7.001 dBFS · RMS -21.755 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental transition ending with a clean decaying tail. Aftermath: a descending electronic phrase dissolving into a hollow dark chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds.</p></details></article>
+<article data-search='spacetexture_01 ambience listener.abstractcinematicbed' data-status='published_ready'>
+<h3>SpaceTexture_01 <small>published_ready · ambience · Listener.AbstractCinematicBed</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/SpaceTexture_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/SpaceTexture_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -22.832 dBFS · RMS -36.007 dBFS · 接缝跳变 0.000183</small></p>
+<p><small>未混音对白/背景中频余量 17.823 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Abstract cinematic space ambience, not literal wind in vacuum; sparse non-musical energy texture. Distant low electromagnetic hum with isolated crystalline flecks and long quiet gaps. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='spacetexture_02 ambience listener.abstractcinematicbed' data-status='published_ready'>
+<h3>SpaceTexture_02 <small>published_ready · ambience · Listener.AbstractCinematicBed</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/SpaceTexture_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/SpaceTexture_02.wav'></audio></p>
+<p><small>73.5 秒（目标 75 秒）· 峰值 -20.984 dBFS · RMS -36.007 dBFS · 接缝跳变 0.00061</small></p>
+<p><small>未混音对白/背景中频余量 9.672 dB；达到 12 dB 文件级余量的示意压低量 2.328 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 75 seconds. Abstract cinematic space ambience, not literal wind in vacuum; sparse non-musical energy texture. Slow pressure-like resonances with faint granular upper harmonics; no rhythmic beat. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='spacetexture_03 ambience listener.abstractcinematicbed' data-status='published_ready'>
+<h3>SpaceTexture_03 <small>published_ready · ambience · Listener.AbstractCinematicBed</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/SpaceTexture_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/SpaceTexture_03.wav'></audio></p>
+<p><small>88.5 秒（目标 90 秒）· 峰值 -21.614 dBFS · RMS -36.007 dBFS · 接缝跳变 0.001404</small></p>
+<p><small>未混音对白/背景中频余量 13.456 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 90 seconds. Abstract cinematic space ambience, not literal wind in vacuum; sparse non-musical energy texture. Very soft broad spectral shimmer with occasional distant metallic groans. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='cabinbed_01 ambience radio.calmalertevacuationscene' data-status='published_ready'>
+<h3>CabinBed_01 <small>published_ready · ambience · Radio.CalmAlertEvacuationScene</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/CabinBed_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/CabinBed_01.wav'></audio></p>
+<p><small>58.5 秒（目标 60 秒）· 峰值 -22.131 dBFS · RMS -36.007 dBFS · 接缝跳变 0.000214</small></p>
+<p><small>未混音对白/背景中频余量 22.588 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 60 seconds. Interior spacecraft equipment ambience, enclosed steel room with quiet short reflections. Calm bridge: stable ventilation, faint instrument fan whirr and sparse relay clicks. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='cabinbed_02 ambience radio.calmalertevacuationscene' data-status='published_ready'>
+<h3>CabinBed_02 <small>published_ready · ambience · Radio.CalmAlertEvacuationScene</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/CabinBed_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/CabinBed_02.wav'></audio></p>
+<p><small>73.5 秒（目标 75 秒）· 峰值 -19.891 dBFS · RMS -36.007 dBFS · 接缝跳变 6.1e-05</small></p>
+<p><small>未混音对白/背景中频余量 21.547 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 75 seconds. Interior spacecraft equipment ambience, enclosed steel room with quiet short reflections. Alert bridge: stronger cooling fans, intermittent data relays and low equipment vibration; no alarm beeps. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='cabinbed_03 ambience radio.calmalertevacuationscene' data-status='published_ready'>
+<h3>CabinBed_03 <small>published_ready · ambience · Radio.CalmAlertEvacuationScene</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/CabinBed_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/CabinBed_03.wav'></audio></p>
+<p><small>88.5 秒（目标 90 秒）· 峰值 -20.157 dBFS · RMS -36.007 dBFS · 接缝跳变 9.2e-05</small></p>
+<p><small>未混音对白/背景中频余量 15.537 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 90 seconds. Interior spacecraft equipment ambience, enclosed steel room with quiet short reflections. Evacuation compartment: stressed ventilation, loose panel rattles and distant mechanical activity; no voices or footsteps. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='cruise_01 flight motor.executedspeed' data-status='published_ready'>
+<h3>Cruise_01 <small>published_ready · flight · Motor.ExecutedSpeed</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Cruise_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Cruise_01.wav'></audio></p>
+<p><small>11.65 秒（目标 12 秒）· 峰值 -12.325 dBFS · RMS -24.002 dBFS · 接缝跳变 0.000916</small></p>
+<p><small>未混音对白/背景中频余量 5.514 dB；达到 12 dB 文件级余量的示意压低量 6.486 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady droplet cruise energy sound, smooth dense hum, no engine rev sequence. Silky magnetic resonance with a soft granular fringe and slow harmonic breathing. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='cruise_02 flight motor.executedspeed' data-status='published_ready'>
+<h3>Cruise_02 <small>published_ready · flight · Motor.ExecutedSpeed</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Cruise_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Cruise_02.wav'></audio></p>
+<p><small>11.65 秒（目标 12 秒）· 峰值 -7.636 dBFS · RMS -24.002 dBFS · 接缝跳变 0.001434</small></p>
+<p><small>未混音对白/背景中频余量 -0.3 dB；达到 12 dB 文件级余量的示意压低量 12.3 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady droplet cruise energy sound, smooth dense hum, no engine rev sequence. Stable low crystalline resonance with faint layered electrical shimmers. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostloop_01 flight motor.executedboost' data-status='published_ready'>
+<h3>BoostLoop_01 <small>published_ready · flight · Motor.ExecutedBoost</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostLoop_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostLoop_01.wav'></audio></p>
+<p><small>11.65 秒（目标 12 秒）· 峰值 -10.567 dBFS · RMS -24.002 dBFS · 接缝跳变 0.013062</small></p>
+<p><small>未混音对白/背景中频余量 4.865 dB；达到 12 dB 文件级余量的示意压低量 7.135 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady high-speed droplet boost energy, clearly denser and more urgent than cruise. Focused electrical roar with tightly textured upper harmonics and stable low body. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostloop_02 flight motor.executedboost' data-status='published_ready'>
+<h3>BoostLoop_02 <small>published_ready · flight · Motor.ExecutedBoost</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostLoop_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostLoop_02.wav'></audio></p>
+<p><small>11.65 秒（目标 12 秒）· 峰值 -10.591 dBFS · RMS -24.002 dBFS · 接缝跳变 0.002716</small></p>
+<p><small>未混音对白/背景中频余量 -1.777 dB；达到 12 dB 文件级余量的示意压低量 13.777 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 12 seconds. Steady high-speed droplet boost energy, clearly denser and more urgent than cruise. Broad resonant plasma rush with a subtle rapid mechanical tremolo; no discrete starts. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostenter_01 flight motor.boostrisingedge' data-status='published_ready'>
+<h3>BoostEnter_01 <small>published_ready · flight · Motor.BoostRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostEnter_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostEnter_01.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -22.102 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet boost engages: immediate clean onset, energy gathers then settles into a short tail. Compact magnetic snap followed by a thick accelerating energy rush. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostenter_02 flight motor.boostrisingedge' data-status='published_ready'>
+<h3>BoostEnter_02 <small>published_ready · flight · Motor.BoostRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostEnter_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostEnter_02.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -32.723 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet boost engages: immediate clean onset, energy gathers then settles into a short tail. Crystalline spark followed by several converging resonant streams. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostenter_03 flight motor.boostrisingedge' data-status='published_ready'>
+<h3>BoostEnter_03 <small>published_ready · flight · Motor.BoostRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostEnter_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostEnter_03.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -20.628 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet boost engages: immediate clean onset, energy gathers then settles into a short tail. Low pressure punch opening into a textured plasma sweep. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostrelease_01 flight motor.boostfallingedge' data-status='published_ready'>
+<h3>BoostRelease_01 <small>published_ready · flight · Motor.BoostFallingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostRelease_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostRelease_01.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -24.922 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Boost disengages: energy rapidly unwinds without an impact or explosion. Narrow electrical hiss collapsing into a small resonant click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostrelease_02 flight motor.boostfallingedge' data-status='published_ready'>
+<h3>BoostRelease_02 <small>published_ready · flight · Motor.BoostFallingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostRelease_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostRelease_02.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -27.183 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Boost disengages: energy rapidly unwinds without an impact or explosion. Layered crystalline resonance gently separates and fades. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boostrelease_03 flight motor.boostfallingedge' data-status='published_ready'>
+<h3>BoostRelease_03 <small>published_ready · flight · Motor.BoostFallingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/BoostRelease_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/BoostRelease_03.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -23.756 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Boost disengages: energy rapidly unwinds without an impact or explosion. Dense low energy whoosh breaks into a brief granular afterglow. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='brake_01 flight motor.brakingrisingedge' data-status='published_ready'>
+<h3>Brake_01 <small>published_ready · flight · Motor.BrakingRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Brake_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Brake_01.wav'></audio></p>
+<p><small>2.0 秒（目标 2 秒）· 峰值 -8.001 dBFS · RMS -21.835 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 2 seconds. Controlled hard braking of an indestructible droplet; energetic deceleration, no damage. Smooth reverse energy sweep with a compressed low-end thump. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='brake_02 flight motor.brakingrisingedge' data-status='published_ready'>
+<h3>Brake_02 <small>published_ready · flight · Motor.BrakingRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Brake_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Brake_02.wav'></audio></p>
+<p><small>2.0 秒（目标 2 秒）· 峰值 -8.001 dBFS · RMS -25.994 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 2 seconds. Controlled hard braking of an indestructible droplet; energetic deceleration, no damage. Tight magnetic shudder followed by a brief dry electrical release. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='brake_03 flight motor.brakingrisingedge' data-status='published_ready'>
+<h3>Brake_03 <small>published_ready · flight · Motor.BrakingRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Brake_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Brake_03.wav'></audio></p>
+<p><small>2.0 秒（目标 2 秒）· 峰值 -8.001 dBFS · RMS -25.02 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 2 seconds. Controlled hard braking of an indestructible droplet; energetic deceleration, no damage. Broad resonant pressure wash closing sharply with fine crystal flickers. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='turn_01 flight motor.executedturnthreshold' data-status='published_ready'>
+<h3>Turn_01 <small>published_ready · flight · Motor.ExecutedTurnThreshold</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Turn_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Turn_01.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -8.001 dBFS · RMS -24.099 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Very short executed sharp-turn energy cue, fast lateral motion then silence. Narrow silky energy whip with a crisp magnetic edge. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='turn_02 flight motor.executedturnthreshold' data-status='published_ready'>
+<h3>Turn_02 <small>published_ready · flight · Motor.ExecutedTurnThreshold</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Turn_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Turn_02.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -8.001 dBFS · RMS -22.607 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Very short executed sharp-turn energy cue, fast lateral motion then silence. Granular crystalline swish with a double resonant flick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='turn_03 flight motor.executedturnthreshold' data-status='published_ready'>
+<h3>Turn_03 <small>published_ready · flight · Motor.ExecutedTurnThreshold</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Turn_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Turn_03.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -8.001 dBFS · RMS -22.619 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Very short executed sharp-turn energy cue, fast lateral motion then silence. Compact low pressure flick with a fine electrical trailing spray. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='recover_01 flight motor.brakingfallingedge' data-status='published_ready'>
+<h3>Recover_01 <small>published_ready · flight · Motor.BrakingFallingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Recover_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Recover_01.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -24.023 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet smoothly recovers forward motion after braking. A soft magnetic latch releases into a short smooth energy swell. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='recover_02 flight motor.brakingfallingedge' data-status='published_ready'>
+<h3>Recover_02 <small>published_ready · flight · Motor.BrakingFallingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Recover_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Recover_02.wav'></audio></p>
+<p><small>1.5 秒（目标 1.5 秒）· 峰值 -8.001 dBFS · RMS -22.74 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.5 seconds. Droplet smoothly recovers forward motion after braking. Two delicate crystalline ripples merge into a stable low resonance. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laser_01 combat combat.weaponfired' data-status='published_ready'>
+<h3>Laser_01 <small>published_ready · combat · Combat.WeaponFired</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Laser_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Laser_01.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -23.59 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Needle-like electrical crack and a dry narrow beam hiss. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laser_02 combat combat.weaponfired' data-status='published_ready'>
+<h3>Laser_02 <small>published_ready · combat · Combat.WeaponFired</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Laser_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Laser_02.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -19.199 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Heavy capacitor snap with a compact resonant plasma burst. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laser_03 combat combat.weaponfired' data-status='published_ready'>
+<h3>Laser_03 ← Laser_03_R2 <small>published_ready · combat · Combat.WeaponFired</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Laser_03_R2/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Laser_03.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.705 dBFS · RMS -22.69 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Fine crystalline chirr with a brief granular trailing spray. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laser_04 combat combat.weaponfired' data-status='published_ready'>
+<h3>Laser_04 <small>published_ready · combat · Combat.WeaponFired</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Laser_04/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Laser_04.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -17.996 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Double-stage magnetic click then a broad hot energy sweep. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laser_05 combat combat.weaponfired' data-status='published_ready'>
+<h3>Laser_05 <small>published_ready · combat · Combat.WeaponFired</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Laser_05/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Laser_05.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -20.474 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Tight metallic ignition and a short textured beam buzz. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laser_06 combat combat.weaponfired' data-status='published_ready'>
+<h3>Laser_06 <small>published_ready · combat · Combat.WeaponFired</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Laser_06/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Laser_06.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -20.239 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Single ship-mounted science-fiction laser discharge; sharp attack, short energy body, clean decay. Bass-supported discharge with tiny electrical arcs in the tail. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reflect_01 combat combat.dropletcontact' data-status='published_ready'>
+<h3>Reflect_01 <small>published_ready · combat · Combat.DropletContact</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reflect_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reflect_01.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -17.402 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Bright crystalline contact ping and a narrow departing energy streak. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reflect_02 combat combat.dropletcontact' data-status='published_ready'>
+<h3>Reflect_02 <small>published_ready · combat · Combat.DropletContact</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reflect_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reflect_02.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -27.619 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Dense magnetic snap followed by two delicate splinter-like glints. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reflect_03 combat combat.dropletcontact' data-status='published_ready'>
+<h3>Reflect_03 <small>published_ready · combat · Combat.DropletContact</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reflect_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reflect_03.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -22.862 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Glassy skimming impact with a brief liquid-metal resonant tail. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reflect_04 combat combat.dropletcontact' data-status='published_ready'>
+<h3>Reflect_04 <small>published_ready · combat · Combat.DropletContact</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reflect_04/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reflect_04.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -20.977 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Hard chrome tick opening into a short electrical scatter. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reflect_05 combat combat.dropletcontact' data-status='published_ready'>
+<h3>Reflect_05 <small>published_ready · combat · Combat.DropletContact</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reflect_05/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reflect_05.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -18.298 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Compact bell-like impact immediately followed by a dry sideways beam hiss. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reflect_06 combat combat.dropletcontact' data-status='published_ready'>
+<h3>Reflect_06 <small>published_ready · combat · Combat.DropletContact</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reflect_06/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reflect_06.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -4.001 dBFS · RMS -16.16 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Laser contacts the indestructible droplet and ricochets; no hurt sound or voice. Sharp energy crack with a smooth resonant rebound and no debris. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='penetration_01 combat combat.hullpenetrateddroplet' data-status='published_ready'>
+<h3>Penetration_01 <small>published_ready · combat · Combat.HullPenetratedDroplet</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Penetration_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Penetration_01.wav'></audio></p>
+<p><small>1.78 秒（目标 1.8 秒）· 峰值 -4.001 dBFS · RMS -22.623 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Thick steel plate tears inward, deep panel resonance and scattered heavy fragments. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='penetration_02 combat combat.hullpenetrateddroplet' data-status='published_ready'>
+<h3>Penetration_02 <small>published_ready · combat · Combat.HullPenetratedDroplet</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Penetration_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Penetration_02.wav'></audio></p>
+<p><small>1.78 秒（目标 1.8 秒）· 峰值 -4.001 dBFS · RMS -18.912 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Layered alloy plating shears successively with several crisp jagged snaps. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='penetration_03 combat combat.hullpenetrateddroplet' data-status='published_ready'>
+<h3>Penetration_03 <small>published_ready · combat · Combat.HullPenetratedDroplet</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Penetration_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Penetration_03.wav'></audio></p>
+<p><small>1.78 秒（目标 1.8 秒）· 峰值 -4.001 dBFS · RMS -18.787 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Ribbed bulkhead bends, breaks and rings with a few light tumbling shards. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='penetration_04 combat combat.hullpenetrateddroplet' data-status='published_ready'>
+<h3>Penetration_04 <small>published_ready · combat · Combat.HullPenetratedDroplet</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Penetration_04/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Penetration_04.wav'></audio></p>
+<p><small>1.78 秒（目标 1.8 秒）· 峰值 -4.001 dBFS · RMS -18.991 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Dense armoured hull bursts with a short low impact and gritty metallic spray. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='penetration_05 combat combat.hullpenetrateddroplet' data-status='published_ready'>
+<h3>Penetration_05 <small>published_ready · combat · Combat.HullPenetratedDroplet</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Penetration_05/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Penetration_05.wav'></audio></p>
+<p><small>1.78 秒（目标 1.8 秒）· 峰值 -4.001 dBFS · RMS -21.606 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Thin outer skin rips into a hollow structural beam fracture and falling scrap. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='penetration_06 combat combat.hullpenetrateddroplet' data-status='published_ready'>
+<h3>Penetration_06 <small>published_ready · combat · Combat.HullPenetratedDroplet</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Penetration_06/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Penetration_06.wav'></audio></p>
+<p><small>1.78 秒（目标 1.8 秒）· 峰值 -4.001 dBFS · RMS -20.258 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.8 seconds. Droplet punches through a ship hull: forceful metal rupture with clear attack and debris decay. Machined metal deck ruptures with a compressed strike and long bent-panel groan. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laserbreach_01 combat combat.hullpenetratedlaser' data-status='published_ready'>
+<h3>LaserBreach_01 <small>published_ready · combat · Combat.HullPenetratedLaser</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/LaserBreach_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/LaserBreach_01.wav'></audio></p>
+<p><small>1.2 秒（目标 1.2 秒）· 峰值 -4.001 dBFS · RMS -21.983 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.2 seconds. A laser penetrates a ship hull: hot energy contact, sizzling metal rupture and short decay. Fine piercing crack, molten steel sizzle and one small ringing fragment. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laserbreach_02 combat combat.hullpenetratedlaser' data-status='published_ready'>
+<h3>LaserBreach_02 <small>published_ready · combat · Combat.HullPenetratedLaser</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/LaserBreach_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/LaserBreach_02.wav'></audio></p>
+<p><small>1.2 秒（目标 1.2 秒）· 峰值 -4.001 dBFS · RMS -20.525 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.2 seconds. A laser penetrates a ship hull: hot energy contact, sizzling metal rupture and short decay. Heavy energy punch through thick alloy with a granular scorched tail. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='laserbreach_03 combat combat.hullpenetratedlaser' data-status='published_ready'>
+<h3>LaserBreach_03 <small>published_ready · combat · Combat.HullPenetratedLaser</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/LaserBreach_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/LaserBreach_03.wav'></audio></p>
+<p><small>1.2 秒（目标 1.2 秒）· 峰值 -4.001 dBFS · RMS -19.449 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1.2 seconds. A laser penetrates a ship hull: hot energy contact, sizzling metal rupture and short decay. Rapid heated panel fracture, several sharp shards and a brief electrical arc. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='explosion_01 combat combat.shipexploded' data-status='published_ready'>
+<h3>Explosion_01 <small>published_ready · combat · Combat.ShipExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Explosion_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Explosion_01.wav'></audio></p>
+<p><small>5.0 秒（目标 5 秒）· 峰值 -4.001 dBFS · RMS -20.309 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Tight reactor punch followed by two overlapping rolling low-frequency booms. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='explosion_02 combat combat.shipexploded' data-status='published_ready'>
+<h3>Explosion_02 <small>published_ready · combat · Combat.ShipExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Explosion_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Explosion_02.wav'></audio></p>
+<p><small>5.0 秒（目标 5 秒）· 峰值 -4.001 dBFS · RMS -18.713 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Broad hull detonation with a rough tearing middle and scattered steel fragments. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='explosion_03 combat combat.shipexploded' data-status='published_ready'>
+<h3>Explosion_03 <small>published_ready · combat · Combat.ShipExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Explosion_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Explosion_03.wav'></audio></p>
+<p><small>5.0 秒（目标 5 秒）· 峰值 -4.001 dBFS · RMS -17.315 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Dense muffled core burst opening into a wide resonant pressure decay. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='explosion_04 combat combat.shipexploded' data-status='published_ready'>
+<h3>Explosion_04 <small>published_ready · combat · Combat.ShipExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Explosion_04/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Explosion_04.wav'></audio></p>
+<p><small>5.0 秒（目标 5 秒）· 峰值 -4.001 dBFS · RMS -17.669 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Sharp initial electrical crack, a heavy low boom and smaller delayed metal snaps. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='explosion_05 combat combat.shipexploded' data-status='published_ready'>
+<h3>Explosion_05 <small>published_ready · combat · Combat.ShipExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Explosion_05/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Explosion_05.wav'></audio></p>
+<p><small>5.0 秒（目标 5 秒）· 峰值 -4.001 dBFS · RMS -19.218 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Large hollow hangar rupture with tumbling heavy plates and diminishing grit. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='explosion_06 combat combat.shipexploded' data-status='published_ready'>
+<h3>Explosion_06 <small>published_ready · combat · Combat.ShipExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Explosion_06/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Explosion_06.wav'></audio></p>
+<p><small>5.0 秒（目标 5 秒）· 峰值 -4.001 dBFS · RMS -18.711 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 5 seconds. Single large spacecraft explosion: immediate impact, deep expanding body, varied metal debris fading fully. Layered structural collapse under a short violent bass impact and sparse long metal rings. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reactor_01 combat combat.reactorunstableuntilexploded' data-status='published_ready'>
+<h3>Reactor_01 <small>published_ready · combat · Combat.ReactorUnstableUntilExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reactor_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reactor_01.wav'></audio></p>
+<p><small>3.65 秒（目标 4 秒）· 峰值 -9.86 dBFS · RMS -26.002 dBFS · 接缝跳变 0.035675</small></p>
+<p><small>未混音对白/背景中频余量 2.294 dB；达到 12 dB 文件级余量的示意压低量 9.706 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Unstable reactor energy warning texture, continuous mechanical/electrical strain without explosion. Irregular low magnetic surges with sparse tiny arcing cracks. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reactor_02 combat combat.reactorunstableuntilexploded' data-status='published_ready'>
+<h3>Reactor_02 <small>published_ready · combat · Combat.ReactorUnstableUntilExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reactor_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reactor_02.wav'></audio></p>
+<p><small>3.65 秒（目标 4 秒）· 峰值 -11.976 dBFS · RMS -26.002 dBFS · 接缝跳变 0.004242</small></p>
+<p><small>未混音对白/背景中频余量 3.18 dB；达到 12 dB 文件级余量的示意压低量 8.82 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Unstable reactor energy warning texture, continuous mechanical/electrical strain without explosion. Uneven resonant turbine shudder and dry capacitor rattles. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='reactor_03 combat combat.reactorunstableuntilexploded' data-status='published_ready'>
+<h3>Reactor_03 <small>published_ready · combat · Combat.ReactorUnstableUntilExploded</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Reactor_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Reactor_03.wav'></audio></p>
+<p><small>3.65 秒（目标 4 秒）· 峰值 -14.238 dBFS · RMS -26.002 dBFS · 接缝跳变 0.001984</small></p>
+<p><small>未混音对白/背景中频余量 7.462 dB；达到 12 dB 文件级余量的示意压低量 4.538 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Unstable reactor energy warning texture, continuous mechanical/electrical strain without explosion. Tense dense electrical buzz with intermittent hollow pressure knocks. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='retreatengine_01 combat combat.retreatordereduntilescaped' data-status='published_ready'>
+<h3>RetreatEngine_01 <small>published_ready · combat · Combat.RetreatOrderedUntilEscaped</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/RetreatEngine_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/RetreatEngine_01.wav'></audio></p>
+<p><small>7.65 秒（目标 8 秒）· 峰值 -14.114 dBFS · RMS -26.002 dBFS · 接缝跳变 0.001862</small></p>
+<p><small>未混音对白/背景中频余量 8.231 dB；达到 12 dB 文件级余量的示意压低量 3.769 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 8 seconds. A retreating spacecraft engine under steady heavy thrust, sustained mechanical energy. Large turbine rumble with slow metallic vibration and stable exhaust body. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='retreatengine_02 combat combat.retreatordereduntilescaped' data-status='published_ready'>
+<h3>RetreatEngine_02 <small>published_ready · combat · Combat.RetreatOrderedUntilEscaped</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/RetreatEngine_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/RetreatEngine_02.wav'></audio></p>
+<p><small>7.65 秒（目标 8 秒）· 峰值 -14.543 dBFS · RMS -26.002 dBFS · 接缝跳变 0.001404</small></p>
+<p><small>未混音对白/背景中频余量 4.18 dB；达到 12 dB 文件级余量的示意压低量 7.82 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 8 seconds. A retreating spacecraft engine under steady heavy thrust, sustained mechanical energy. Electric drive whine layered with soft repeating power-converter pulses. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='retreatengine_03 combat combat.retreatordereduntilescaped' data-status='published_ready'>
+<h3>RetreatEngine_03 <small>published_ready · combat · Combat.RetreatOrderedUntilEscaped</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/RetreatEngine_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/RetreatEngine_03.wav'></audio></p>
+<p><small>7.65 秒（目标 8 秒）· 峰值 -13.207 dBFS · RMS -26.002 dBFS · 接缝跳变 0.000977</small></p>
+<p><small>未混音对白/背景中频余量 0.033 dB；达到 12 dB 文件级余量的示意压低量 11.967 dB。须在 Unity 中实测。</small></p>
+<ul><li class='warning'>File-level midband separation under 6 dB; verify comms ducking in Unity</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 8 seconds. A retreating spacecraft engine under steady heavy thrust, sustained mechanical energy. Broad plasma propulsion roar with rattling nozzle plates and a low resonant core. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='escape_01 combat combat.shipescaped' data-status='published_ready'>
+<h3>Escape_01 <small>published_ready · combat · Combat.ShipEscaped</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Escape_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Escape_01.wav'></audio></p>
+<p><small>0.6 秒（目标 0.6 秒）· 峰值 -4.001 dBFS · RMS -19.639 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.6 seconds. Brief distant spacecraft departure cue ending cleanly; no explosion. Compact receding propulsion flare with a fine electrical wake. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='escape_02 combat combat.shipescaped' data-status='published_ready'>
+<h3>Escape_02 <small>published_ready · combat · Combat.ShipEscaped</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Escape_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Escape_02.wav'></audio></p>
+<p><small>0.6 秒（目标 0.6 秒）· 峰值 -9.202 dBFS · RMS -23.109 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.6 seconds. Brief distant spacecraft departure cue ending cleanly; no explosion. Soft vacuum-like pressure release and one fading metallic resonance. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='decksteps_01 cabin radio.authoredaction' data-status='published_ready'>
+<h3>DeckSteps_01 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/DeckSteps_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/DeckSteps_01.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -12.001 dBFS · RMS -31.777 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. A few isolated human boot footfalls on a spacecraft deck; only footsteps, no speech or breathing. Measured heavy boots on thick steel grating, four distinct steps with short room reflections. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='decksteps_02 cabin radio.authoredaction' data-status='published_ready'>
+<h3>DeckSteps_02 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/DeckSteps_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/DeckSteps_02.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -14.079 dBFS · RMS -34.311 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. A few isolated human boot footfalls on a spacecraft deck; only footsteps, no speech or breathing. Hurried light boots over ribbed alloy flooring, six uneven steps and one heel scuff. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='decksteps_03 cabin radio.authoredaction' data-status='published_ready'>
+<h3>DeckSteps_03 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/DeckSteps_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/DeckSteps_03.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -21.724 dBFS · RMS -33.344 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. A few isolated human boot footfalls on a spacecraft deck; only footsteps, no speech or breathing. Careful rubber-soled boots across a smooth metal deck, three quieter steps and a soft pivot. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='console_01 cabin radio.authoredaction' data-status='published_ready'>
+<h3>Console_01 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Console_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Console_01.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -12.001 dBFS · RMS -36.731 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Brief spacecraft console interaction, tactile hardware and a small electronic response. Two firm mechanical key presses with a tiny dry confirmation chirp. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='console_02 cabin radio.authoredaction' data-status='published_ready'>
+<h3>Console_02 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Console_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Console_02.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -12.001 dBFS · RMS -41.312 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Brief spacecraft console interaction, tactile hardware and a small electronic response. A toggle lever clicks into place followed by a short relay chatter. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='console_03 cabin radio.authoredaction' data-status='published_ready'>
+<h3>Console_03 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Console_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Console_03.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -17.813 dBFS · RMS -31.562 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Brief spacecraft console interaction, tactile hardware and a small electronic response. Several soft membrane key taps followed by a low clean status tone. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='hatch_01 cabin radio.authoredaction' data-status='published_ready'>
+<h3>Hatch_01 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Hatch_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Hatch_01.wav'></audio></p>
+<p><small>2.0 秒（目标 2 秒）· 峰值 -12.001 dBFS · RMS -31.601 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 2 seconds. Motorised spacecraft hatch action in a steel interior, clear mechanism and seal detail. Heavy sliding hatch opens: latch release, short motor travel and cushioned stop. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='hatch_02 cabin radio.authoredaction' data-status='published_ready'>
+<h3>Hatch_02 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Hatch_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Hatch_02.wav'></audio></p>
+<p><small>2.0 秒（目标 2 秒）· 峰值 -12.001 dBFS · RMS -33.863 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 2 seconds. Motorised spacecraft hatch action in a steel interior, clear mechanism and seal detail. Bulkhead door closes: brief hydraulic movement, rubber seal compression and locking clunk. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='hatch_03 cabin radio.authoredaction' data-status='published_ready'>
+<h3>Hatch_03 <small>published_ready · cabin · Radio.AuthoredAction</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Hatch_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Hatch_03.wav'></audio></p>
+<p><small>2.0 秒（目标 2 秒）· 峰值 -12.001 dBFS · RMS -33.5 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 2 seconds. Motorised spacecraft hatch action in a steel interior, clear mechanism and seal detail. Light maintenance hatch unlocks and folds back with two hinge clicks. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='alarm_01 cabin radio.authoredalarm' data-status='published_ready'>
+<h3>Alarm_01 <small>published_ready · cabin · Radio.AuthoredAlarm</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Alarm_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Alarm_01.wav'></audio></p>
+<p><small>5.65 秒（目标 6 秒）· 峰值 -25.829 dBFS · RMS -36.006 dBFS · 接缝跳变 0.001312</small></p>
+<p><small>未混音对白/背景中频余量 24.054 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 6 seconds. Restrained instrumental electronic ship alarm pattern, clear pauses between calls; no spoken warning. Two separated low resonant pulses, regular slow repetition. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='alarm_02 cabin radio.authoredalarm' data-status='published_ready'>
+<h3>Alarm_02 <small>published_ready · cabin · Radio.AuthoredAlarm</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Alarm_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Alarm_02.wav'></audio></p>
+<p><small>5.65 秒（目标 6 秒）· 峰值 -23.588 dBFS · RMS -36.007 dBFS · 接缝跳变 6.1e-05</small></p>
+<p><small>未混音对白/背景中频余量 19.332 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 6 seconds. Restrained instrumental electronic ship alarm pattern, clear pauses between calls; no spoken warning. Three short clipped electronic beeps with a long recovery gap. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='alarm_03 cabin radio.authoredalarm' data-status='published_ready'>
+<h3>Alarm_03 <small>published_ready · cabin · Radio.AuthoredAlarm</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Alarm_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Alarm_03.wav'></audio></p>
+<p><small>5.65 秒（目标 6 秒）· 峰值 -18.261 dBFS · RMS -36.007 dBFS · 接缝跳变 0.000336</small></p>
+<p><small>未混音对白/背景中频余量 15.606 dB；达到 12 dB 文件级余量的示意压低量 0 dB。须在 Unity 中实测。</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 6 seconds. Restrained instrumental electronic ship alarm pattern, clear pauses between calls; no spoken warning. Alternating hollow mechanical tones with a soft relay click before each pair. Maintain a consistent sound bed from beginning to end with slow natural variation, no opening hit or final cadence; suitable for seamless crossfaded looping. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='connect_01 cabin radio.linkconnected' data-status='published_ready'>
+<h3>Connect_01 <small>published_ready · cabin · Radio.LinkConnected</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Connect_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Connect_01.wav'></audio></p>
+<p><small>0.4 秒（目标 0.4 秒）· 峰值 -17.83 dBFS · RMS -34.9 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.4 seconds. Very short radio link connection sound, isolated and dry. A soft relay click followed by a short rising electronic pair. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='connect_02 cabin radio.linkconnected' data-status='published_ready'>
+<h3>Connect_02 <small>published_ready · cabin · Radio.LinkConnected</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Connect_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Connect_02.wav'></audio></p>
+<p><small>0.4 秒（目标 0.4 秒）· 峰值 -12.001 dBFS · RMS -29.863 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.4 seconds. Very short radio link connection sound, isolated and dry. A compact digital handshake trill ending in a clean click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='connect_03 cabin radio.linkconnected' data-status='published_ready'>
+<h3>Connect_03 <small>published_ready · cabin · Radio.LinkConnected</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Connect_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Connect_03.wav'></audio></p>
+<p><small>0.4 秒（目标 0.4 秒）· 峰值 -12.001 dBFS · RMS -29.129 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.4 seconds. Very short radio link connection sound, isolated and dry. A tiny static flutter settling into one muted confirmation pip. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='disconnect_01 cabin radio.linkinterrupted' data-status='published_ready'>
+<h3>Disconnect_01 <small>published_ready · cabin · Radio.LinkInterrupted</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Disconnect_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Disconnect_01.wav'></audio></p>
+<p><small>0.3 秒（目标 0.3 秒）· 峰值 -12.001 dBFS · RMS -29.579 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.3 seconds. Very short radio link interruption ending abruptly in silence. A relay snap cutting a brief narrow-band hiss. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='disconnect_02 cabin radio.linkinterrupted' data-status='published_ready'>
+<h3>Disconnect_02 <small>published_ready · cabin · Radio.LinkInterrupted</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Disconnect_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Disconnect_02.wav'></audio></p>
+<p><small>0.3 秒（目标 0.3 秒）· 峰值 -12.001 dBFS · RMS -26.029 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.3 seconds. Very short radio link interruption ending abruptly in silence. A broken digital chirp followed by one dry click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='disconnect_03 cabin radio.linkinterrupted' data-status='published_ready'>
+<h3>Disconnect_03 <small>published_ready · cabin · Radio.LinkInterrupted</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Disconnect_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Disconnect_03.wav'></audio></p>
+<p><small>0.3 秒（目标 0.3 秒）· 峰值 -12.001 dBFS · RMS -26.852 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.3 seconds. Very short radio link interruption ending abruptly in silence. A small static crackle burst rapidly collapsing to silence. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='interference_01 cabin radio.authoredsignaldetail' data-status='published_ready'>
+<h3>Interference_01 <small>published_ready · cabin · Radio.AuthoredSignalDetail</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Interference_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Interference_01.wav'></audio></p>
+<p><small>0.68 秒（目标 0.7 秒）· 峰值 -12.001 dBFS · RMS -40.601 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.7 seconds. Brief isolated communications interference detail; no intelligible voices, music or speech. A dry burst of fine radio static with three tiny clicks. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='interference_02 cabin radio.authoredsignaldetail' data-status='published_ready'>
+<h3>Interference_02 <small>published_ready · cabin · Radio.AuthoredSignalDetail</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Interference_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Interference_02.wav'></audio></p>
+<p><small>0.68 秒（目标 0.7 秒）· 峰值 -12.001 dBFS · RMS -32.843 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.7 seconds. Brief isolated communications interference detail; no intelligible voices, music or speech. A broken digital packet stutter with small silent gaps. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='interference_03 cabin radio.authoredsignaldetail' data-status='published_ready'>
+<h3>Interference_03 <small>published_ready · cabin · Radio.AuthoredSignalDetail</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Interference_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Interference_03.wav'></audio></p>
+<p><small>0.68 秒（目标 0.7 秒）· 峰值 -12.001 dBFS · RMS -30.166 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.7 seconds. Brief isolated communications interference detail; no intelligible voices, music or speech. A narrow-band electrical crackle that briefly swells and vanishes. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='interference_04 cabin radio.authoredsignaldetail' data-status='published_ready'>
+<h3>Interference_04 <small>published_ready · cabin · Radio.AuthoredSignalDetail</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Interference_04/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Interference_04.wav'></audio></p>
+<p><small>0.68 秒（目标 0.7 秒）· 峰值 -12.001 dBFS · RMS -29.212 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.7 seconds. Brief isolated communications interference detail; no intelligible voices, music or speech. A low relay pop followed by a rough granular signal dropout. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='focus_01 ui ui.focuschanged' data-status='published_ready'>
+<h3>Focus_01 <small>published_ready · ui · UI.FocusChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Focus_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Focus_01.wav'></audio></p>
+<p><small>0.15 秒（目标 0.15 秒）· 峰值 -20.429 dBFS · RMS -37.096 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.15 seconds. Tiny restrained interface focus sound, precise attack and no ringing tail. One soft ceramic-like tick with a faint electronic glint. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='focus_02 ui ui.focuschanged' data-status='published_ready'>
+<h3>Focus_02 <small>published_ready · ui · UI.FocusChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Focus_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Focus_02.wav'></audio></p>
+<p><small>0.15 秒（目标 0.15 秒）· 峰值 -17.056 dBFS · RMS -33.846 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.15 seconds. Tiny restrained interface focus sound, precise attack and no ringing tail. One muted tactile switch tap with a very short glass accent. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='confirm_01 ui ui.confirmed' data-status='published_ready'>
+<h3>Confirm_01 <small>published_ready · ui · UI.Confirmed</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Confirm_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Confirm_01.wav'></audio></p>
+<p><small>0.25 秒（目标 0.25 秒）· 峰值 -10.234 dBFS · RMS -24.597 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short clear interface confirmation, soft and restrained. Two compact crystalline pips with the second slightly fuller. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='confirm_02 ui ui.confirmed' data-status='published_ready'>
+<h3>Confirm_02 <small>published_ready · ui · UI.Confirmed</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Confirm_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Confirm_02.wav'></audio></p>
+<p><small>0.25 秒（目标 0.25 秒）· 峰值 -10.001 dBFS · RMS -23.643 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short clear interface confirmation, soft and restrained. A tactile click followed by a brief resolved electronic chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='back_01 ui ui.returned' data-status='published_ready'>
+<h3>Back_01 <small>published_ready · ui · UI.Returned</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Back_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Back_01.wav'></audio></p>
+<p><small>0.25 秒（目标 0.25 秒）· 峰值 -13.02 dBFS · RMS -24.393 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short interface return cue, calm and understated. A soft reverse glass ripple ending in a dry tap. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='back_02 ui ui.returned' data-status='published_ready'>
+<h3>Back_02 <small>published_ready · ui · UI.Returned</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Back_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Back_02.wav'></audio></p>
+<p><small>0.225 秒（目标 0.25 秒）· 峰值 -10.001 dBFS · RMS -24.663 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Short interface return cue, calm and understated. Two brief descending electronic notes with no sustained tail. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='toggle_01 ui ui.togglechanged' data-status='published_ready'>
+<h3>Toggle_01 <small>published_ready · ui · UI.ToggleChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Toggle_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Toggle_01.wav'></audio></p>
+<p><small>0.2 秒（目标 0.2 秒）· 峰值 -10.001 dBFS · RMS -26.26 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.2 seconds. Tiny interface toggle acknowledgement with distinct switch action. A dry miniature relay click with a warm digital pip. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='toggle_02 ui ui.togglechanged' data-status='published_ready'>
+<h3>Toggle_02 <small>published_ready · ui · UI.ToggleChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Toggle_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Toggle_02.wav'></audio></p>
+<p><small>0.2 秒（目标 0.2 秒）· 峰值 -10.001 dBFS · RMS -34.455 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.2 seconds. Tiny interface toggle acknowledgement with distinct switch action. A soft snap switch followed by a delicate double electronic tick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='slider_01 ui ui.sliderstepchanged' data-status='published_ready'>
+<h3>Slider_01 <small>published_ready · ui · UI.SliderStepChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Slider_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Slider_01.wav'></audio></p>
+<p><small>0.12 秒（目标 0.12 秒）· 峰值 -10.001 dBFS · RMS -29.274 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.12 seconds. Extremely short quiet interface slider increment, safe for repeated interaction. A single soft granular digital tick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='slider_02 ui ui.sliderstepchanged' data-status='published_ready'>
+<h3>Slider_02 <small>published_ready · ui · UI.SliderStepChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Slider_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Slider_02.wav'></audio></p>
+<p><small>0.09 秒（目标 0.12 秒）· 峰值 -10.001 dBFS · RMS -28.927 dBFS · 接缝跳变 0.0</small></p>
+<ul><li class='warning'>Processed duration is more than 10% shorter than target</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.12 seconds. Extremely short quiet interface slider increment, safe for repeated interaction. A single muted ceramic contact with a tiny electrical glint. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='pause_01 ui mission.pausededge' data-status='published_ready'>
+<h3>Pause_01 <small>published_ready · ui · Mission.PausedEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Pause_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Pause_01.wav'></audio></p>
+<p><small>0.35 秒（目标 0.35 秒）· 峰值 -10.001 dBFS · RMS -26.574 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.35 seconds. Short pause interface cue, clean ending. A compact two-note electronic phrase gently closes into a muted click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='resume_01 ui mission.resumededge' data-status='published_ready'>
+<h3>Resume_01 <small>published_ready · ui · Mission.ResumedEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Resume_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Resume_01.wav'></audio></p>
+<p><small>0.33 秒（目标 0.35 秒）· 峰值 -10.001 dBFS · RMS -33.241 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.35 seconds. Short resume interface cue, clean ending. A light latch click opens into two soft ascending crystalline pips. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='skip_01 ui narrative.skipped' data-status='published_ready'>
+<h3>Skip_01 <small>published_ready · ui · Narrative.Skipped</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Skip_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Skip_01.wav'></audio></p>
+<p><small>0.5 秒（目标 0.5 秒）· 峰值 -10.001 dBFS · RMS -23.446 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Brief narrative-skip interface cue with a clean tail. A delicate forward energy swish ends with a single resolved electronic pip. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='restart_01 ui mission.restarted' data-status='published_ready'>
+<h3>Restart_01 <small>published_ready · ui · Mission.Restarted</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Restart_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Restart_01.wav'></audio></p>
+<p><small>0.6 秒（目标 0.6 秒）· 峰值 -10.001 dBFS · RMS -23.503 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.6 seconds. Brief restart interface cue, resetting and beginning anew. A small descending digital ripple followed by a clear low confirmation pulse. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='history_01 ui radio.historytoggled' data-status='published_ready'>
+<h3>History_01 <small>published_ready · ui · Radio.HistoryToggled</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/History_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/History_01.wav'></audio></p>
+<p><small>0.225 秒（目标 0.25 秒）· 峰值 -10.001 dBFS · RMS -24.668 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Quiet communications-history panel interface feedback. Opening: a soft paperless electronic flutter followed by one glass tick. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='history_02 ui radio.historytoggled' data-status='published_ready'>
+<h3>History_02 <small>published_ready · ui · Radio.HistoryToggled</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/History_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/History_02.wav'></audio></p>
+<p><small>0.25 秒（目标 0.25 秒）· 峰值 -10.001 dBFS · RMS -22.817 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.25 seconds. Quiet communications-history panel interface feedback. Closing: a brief muted digital fold ending with a tactile click. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boundary_01 mission mission.nearboundaryrisingedge' data-status='published_ready'>
+<h3>Boundary_01 <small>published_ready · mission · Mission.NearBoundaryRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Boundary_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Boundary_01.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -10.636 dBFS · RMS -31.301 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Clear restrained arena-boundary warning, instrumental only. Two spaced hollow electronic pulses with a short dry decay. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='boundary_02 mission mission.nearboundaryrisingedge' data-status='published_ready'>
+<h3>Boundary_02 <small>published_ready · mission · Mission.NearBoundaryRisingEdge</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Boundary_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Boundary_02.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -7.001 dBFS · RMS -24.889 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Clear restrained arena-boundary warning, instrumental only. A low warning pip followed by a small rough-edged digital knock. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='return_01 mission mission.recoverycountchanged' data-status='published_ready'>
+<h3>Return_01 <small>published_ready · mission · Mission.RecoveryCountChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Return_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Return_01.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -7.313 dBFS · RMS -23.203 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Safe-return feedback after arena recovery, reassuring but not celebratory. A smooth short magnetic sweep resolving into two soft electronic notes. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='return_02 mission mission.recoverycountchanged' data-status='published_ready'>
+<h3>Return_02 <small>published_ready · mission · Mission.RecoveryCountChanged</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Return_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Return_02.wav'></audio></p>
+<p><small>1.0 秒（目标 1 秒）· 峰值 -7.001 dBFS · RMS -23.433 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 1 seconds. Safe-return feedback after arena recovery, reassuring but not celebratory. A muted tactile impact followed by a small warm crystalline chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='timewarning_01 mission mission.remainingcrosses60or30' data-status='published_ready'>
+<h3>TimeWarning_01 <small>published_ready · mission · Mission.RemainingCrosses60Or30</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/TimeWarning_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/TimeWarning_01.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -7.001 dBFS · RMS -18.07 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Mission time-threshold cue, concise and attention-getting without panic. Sixty seconds: two measured low electronic chimes separated by a short pause. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='timewarning_02 mission mission.remainingcrosses60or30' data-status='published_ready'>
+<h3>TimeWarning_02 <small>published_ready · mission · Mission.RemainingCrosses60Or30</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/TimeWarning_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/TimeWarning_02.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -7.001 dBFS · RMS -21.878 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Mission time-threshold cue, concise and attention-getting without panic. Thirty seconds: three tighter digital pulses with a dry metallic accent. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='countdown_01 mission mission.last10seconds' data-status='published_ready'>
+<h3>Countdown_01 <small>published_ready · mission · Mission.Last10Seconds</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Countdown_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Countdown_01.wav'></audio></p>
+<p><small>0.2 秒（目标 0.2 秒）· 峰值 -7.001 dBFS · RMS -24.254 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.2 seconds. Very short final-countdown tick, clear rhythm when repeated once per second. A single dry rounded electronic tick with a faint low body. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='countdown_02 mission mission.last10seconds' data-status='published_ready'>
+<h3>Countdown_02 <small>published_ready · mission · Mission.Last10Seconds</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Countdown_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Countdown_02.wav'></audio></p>
+<p><small>0.2 秒（目标 0.2 秒）· 峰值 -7.001 dBFS · RMS -23.068 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.2 seconds. Very short final-countdown tick, clear rhythm when repeated once per second. A compact double-tap digital tick with immediate decay. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='combo_01 mission score.multiplierincreased' data-status='published_ready'>
+<h3>Combo_01 <small>published_ready · mission · Score.MultiplierIncreased</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Combo_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Combo_01.wav'></audio></p>
+<p><small>0.5 秒（目标 0.5 秒）· 峰值 -7.001 dBFS · RMS -28.468 dBFS · 接缝跳变 0.0</small></p>
+<ul><li class='warning'>Long leading silence remains after onset trim</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Short score-multiplier increase cue; distinct rhythmic pattern and clean tail. First tier: one crisp electronic pip followed by a soft metallic tap. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='combo_02 mission score.multiplierincreased' data-status='published_ready'>
+<h3>Combo_02 <small>published_ready · mission · Score.MultiplierIncreased</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Combo_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Combo_02.wav'></audio></p>
+<p><small>0.5 秒（目标 0.5 秒）· 峰值 -7.001 dBFS · RMS -20.889 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Short score-multiplier increase cue; distinct rhythmic pattern and clean tail. Second tier: a quick pair of crystalline notes over a tiny bass pulse. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='combo_03 mission score.multiplierincreased' data-status='published_ready'>
+<h3>Combo_03 <small>published_ready · mission · Score.MultiplierIncreased</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/Combo_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/Combo_03.wav'></audio></p>
+<p><small>0.5 秒（目标 0.5 秒）· 峰值 -7.001 dBFS · RMS -21.214 dBFS · 接缝跳变 0.0</small></p>
+<ul><li class='warning'>Long leading silence remains after onset trim</li></ul>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.5 seconds. Short score-multiplier increase cue; distinct rhythmic pattern and clean tail. Third tier: three tightly grouped plucked synth notes resolving together. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='combocap_01 mission score.multiplierreachedcap' data-status='published_ready'>
+<h3>ComboCap_01 <small>published_ready · mission · Score.MultiplierReachedCap</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/ComboCap_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/ComboCap_01.wav'></audio></p>
+<p><small>0.8 秒（目标 0.8 秒）· 峰值 -7.001 dBFS · RMS -20.772 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 0.8 seconds. Short maximum-multiplier feedback, controlled energy without a victory fanfare. A compact four-note crystalline flourish ending in one firm electronic chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='resultsting_01 mission mission.clearedescapedortimeout' data-status='published_ready'>
+<h3>ResultSting_01 <small>published_ready · mission · Mission.ClearedEscapedOrTimeout</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/ResultSting_01/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/ResultSting_01.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -7.001 dBFS · RMS -22.859 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental mission-result landing with a fully decaying tail. Cleared: restrained resolved brass-like synth chord and one deep dignified impact. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='resultsting_02 mission mission.clearedescapedortimeout' data-status='published_ready'>
+<h3>ResultSting_02 <small>published_ready · mission · Mission.ClearedEscapedOrTimeout</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/ResultSting_02/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/ResultSting_02.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -7.001 dBFS · RMS -25.865 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental mission-result landing with a fully decaying tail. Fleet escaped: incomplete descending glass phrase over a hollow low resonance. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<article data-search='resultsting_03 mission mission.clearedescapedortimeout' data-status='published_ready'>
+<h3>ResultSting_03 <small>published_ready · mission · Mission.ClearedEscapedOrTimeout</small></h3>
+<p><small>Seed 原始音频</small><audio controls preload='none' src='../raw-catalog/ResultSting_03/audio.wav'></audio></p>
+<p><small>发布成品</small><audio controls preload='none' src='../published/ResultSting_03.wav'></audio></p>
+<p><small>4.0 秒（目标 4 秒）· 峰值 -7.001 dBFS · RMS -29.777 dBFS · 接缝跳变 0.0</small></p>
+<details><summary>生成提示词</summary><p>Create original cold cinematic science-fiction game audio, approximately 4 seconds. Short instrumental mission-result landing with a fully decaying tail. Timeout: two muted clock-like metal contacts followed by an unresolved dark chord. One self-contained event or specified short sequence; clear attack, natural decay, quiet clean tail; no abrupt truncation or long dead air. No vocals, singing, humming, speech, narration, lyrics or spoken prompt. No clipping, harsh distortion or unrelated scene sounds. No music, melody or soundtrack.</p></details></article>
+<script>const q=document.querySelector('#search'),s=document.querySelector('#status');function filter(){for(const e of document.querySelectorAll('article[data-status]'))e.hidden=!e.dataset.search.includes(q.value.toLowerCase())||(s.value&&e.dataset.status!==s.value)}q.oninput=s.onchange=filter</script></html>

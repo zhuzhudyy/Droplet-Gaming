@@ -10,6 +10,8 @@ namespace DropletPrototype
         public DropletHitDetector hitDetector;
         public MissionController mission;
         public event System.Action Teleported;
+        public event System.Action<FlightPresentationSample> FlightStepCompleted;
+        long flightStepId;
         bool simulationEnabled = true;
         public bool SimulationEnabled
         {
@@ -62,6 +64,9 @@ namespace DropletPrototype
             }
             LastSimulationSeconds = dt;
             MeasuredSpeed = Vector3.Distance(previousPosition, transform.position) / dt;
+            FlightStepCompleted?.Invoke(new FlightPresentationSample(++flightStepId, Speed, CruiseSpeed,
+                Mathf.Max(0.01f, settings.maxCruiseSpeed * settings.boostMultiplier),
+                command.boost, command.brake, Mathf.Sqrt(dy * dy + dp * dp) / dt));
         }
         void BeforeSegment(Vector3 from, Vector3 to, float startFraction, float endFraction)
         { if (hitDetector != null) hitDetector.SweepSegment(from, to, Speed, startFraction, endFraction); }

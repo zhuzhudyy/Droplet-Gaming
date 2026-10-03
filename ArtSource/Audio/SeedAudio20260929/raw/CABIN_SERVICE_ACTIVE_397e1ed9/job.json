@@ -1,0 +1,29 @@
+{
+  "id": "CABIN_SERVICE_ACTIVE_397e1ed9",
+  "category": "CABIN",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "requestId": "397e1ed9-cc36-47c5-b6d1-7c311cc0b8a5",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "生成约20秒音频。空旷而安静的科幻舰桥内部环境。低电平通风与设备低鸣，远处偶尔轻微继电器咔嗒，近处微弱电子运转。稳定空间感与克制的金属短混响，首尾环境一致可循环。没有人物活动、脚步、警报或戏剧性事件。 直接输出所描述的声音。不要读出提示词，不要旁白、对白、说话、口技、呼吸或人群。不要音乐。",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 48000
+    }
+  },
+  "status": "complete",
+  "submittedAt": "2026-09-29T09:29:04.154299+00:00",
+  "credentialVariable": "VOLC_AUDIO_API_KEY",
+  "authMode": "X-Api-Key",
+  "authorization": "User authorized six representative Seed Audio categories; first laser succeeded, this is a distinct category request.",
+  "originalDurationSeconds": 20,
+  "sha256": "7fe568913de90abe68e76809006ab3756d77d531091ab46933358d533bfa07c4",
+  "audio": "C:\\学习\\玩\\Unity\\Trysolar Drip\\ArtSource\\Audio\\SeedAudio20260929\\raw\\CABIN_SERVICE_ACTIVE_397e1ed9\\audio.wav",
+  "actualSeconds": 20.0,
+  "channels": 2,
+  "clippedSamples": 0,
+  "rmsDbFS": -47.61156102682492,
+  "contentAccepted": false,
+  "subjectiveListening": "not_performed",
+  "completedAt": "2026-09-29T09:29:41.703371+00:00"
+}
